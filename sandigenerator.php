@@ -1,0 +1,24817 @@
+<?php print"\033[1m                                                                
+												                 \033[93m
+       +_________________________________________________________+\033[32m
+        ==================== WORDLIST GENERATOR =================\033[32m
+        ================== CODED BY Subhan Fadilah ==============\033[32m
+        =============== THANKS TO MR.TENWAP & MR.R4MZ ===========\e[38;2;255;0;0m
+           ____________________________
+          | Lakukan Social Engineering | 
+          |    Terhadap Target Anda    | 
+          |      Sebelum Memulai!      |
+          ||||||||||||||||||||||||||||||        
+       
+
+";
+
+function tambah_nomor($nomor){
+    return $nomor;
+}function nomor_karakter($nomor1){
+    return $nomor1;
+}function nomor_karakter1($nomor2){
+    return $nomor2;
+}function tambah_karakter($unix){
+    return $unix;
+}function fahmi($tai){
+    return ucfirst($tai);
+}function dongo($goblok){
+    return ucfirst($goblok);
+}function str($dd){
+    return str_replace("a", "@", $dd);
+}function ganti($dodo){
+    return str_replace("e", "3", $dodo);
+}function ganti1($dido){
+    return str_replace("a", "4", $dido);
+}function ganti2($dedo){
+    return str_replace("o", "0", $dedo);
+}function banyak1($ddo){
+$coba = array("a","e","o" );
+$ganti = array("@","3","0");
+    return str_replace($coba, $ganti, $ddo);
+}function banyak2($dtd){
+$coba1 = array("a","e","o" );
+$ganti1 = array("4","3","0");
+    return str_replace($coba1, $ganti1, $dtd);
+    
+}
+
+echo " \033[96mMasukan Data Target Anda!\033[93m___________\n";
+echo "     ________________________________|\n";
+echo "     |\n";
+echo "     |\e[38;2;255;0;0m-> \033[96mNama depan : ";
+$tangkap1 = trim(fgets(STDIN));
+if (!$tangkap1 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNama belakang : ";
+$tangkap2 = trim(fgets(STDIN));
+if (!$tangkap2 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNickname : ";
+$tangkap3 = trim(fgets(STDIN));
+if (!$tangkap3 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mKota lahir : ";
+$tangkap4 = trim(fgets(STDIN));
+if (!$tangkap4 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mTanggal lahir : ";
+$tangkap5 = trim(fgets(STDIN));
+if (!$tangkap5 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mBulan lahir(pakai nomor) : ";
+$tangkapx = trim(fgets(STDIN));
+if (!$tangkapx ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNama bulan lahir : ";
+$tangkapv = trim(fgets(STDIN));
+if (!$tangkapv ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mTahun lahir : ";
+$tangkap6 = trim(fgets(STDIN));
+if (!$tangkap6 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mAlamat singkat : ";
+$tangkap7  = trim(fgets(STDIN));
+if (!$tangkap7 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mKota : ";
+$tangkap8 = trim(fgets(STDIN));
+if (!$tangkap8 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNama sekolah/universitas : ";
+$tangkap9 = trim(fgets(STDIN));
+if (!$tangkap9 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNomor sekolah (\e[38;2;255;0;0menter \033[96mjika tidak ada) : ";
+$tangkap10 = trim(fgets(STDIN));
+if (!$tangkap10 ==  0) {
+	
+}else{
+	echo"     Oke jika tidak ada, lanjutkeun boss! \n";
+
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96m1 Nama teman dekat : ";
+$tangkap11 = trim(fgets(STDIN));
+if (!$tangkap11 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96m2 Nama teman dekat : ";
+$tangkap12 = trim(fgets(STDIN));
+if (!$tangkap12 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo " \033[32m \n Apakah target mempunyai pacar/istri? y/n : \033[96m";
+$tanya = trim(fgets(STDIN));
+if ($tanya == "y") {
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNama pacar/istri : ";
+$tangkap13 = trim(fgets(STDIN));
+if (!$tangkap13 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mTanggal jadian/nikah : ";
+$tangkap14 = trim(fgets(STDIN));
+if (!$tangkap14 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mTanggal lahir pacar/istri : ";
+$tangkap15 = trim(fgets(STDIN));
+if (!$tangkap15 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+
+
+
+
+echo " \033[32m\n Jika target sudah menikah, apakah sudah mempunyai anak? y/n : \033[96m";
+$tanya1 = trim(fgets(STDIN));
+if ($tanya1 == "y") {
+
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mNama anak (jika ada) : ";
+$tangkap16 = trim(fgets(STDIN));
+if (!$tangkap16 ==  0) {
+	
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+echo "     \033[93m|\e[38;2;255;0;0m-> \033[96mTanggal lahir anak : ";
+$tangkap17 = trim(fgets(STDIN));
+if (!$tangkap17 ==  0) {
+	 
+}else{
+	echo" Isi dulu boss baru enter!\n";
+	echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit();
+}
+
+
+
+
+$result1 =
+
+ $tangkap1."\n".
+ $tangkap2."\n".
+ $tangkap3."\n".
+ $tangkap4."\n".
+ $tangkap5."\n".
+ $tangkap6."\n".
+ $tangkapx."\n".
+ $tangkapv."\n".
+ $tangkap7."\n".
+ $tangkap8."\n".
+ $tangkap9."\n".
+ $tangkap10."\n".
+ $tangkap11."\n".
+ $tangkap12."\n".
+ $tangkap13."\n".
+ $tangkap14."\n".
+ $tangkap15."\n".
+ $tangkap16."\n".
+ $tangkap17."\n".
+ $tangkap1.$tangkap2."\n".
+ $tangkap1.$tangkap2.$tangkap3."\n".
+ $tangkap1.$tangkap4."\n".
+ $tangkap3.$tangkap4."\n".
+ $tangkap1.$tangkap5."\n".
+ $tangkap1.$tangkapx."\n".
+ $tangkap1.$tangkapv."\n".
+ $tangkap2.$tangkapx."\n".
+ $tangkap2.$tangkapv."\n".
+ $tangkap3.$tangkapx."\n".
+ $tangkap3.$tangkapv."\n".
+ $tangkap5.$tangkapx.$tangkapv."\n".
+ $tangkap5.$tangkapx.$tangkap6."\n".
+ $tangkap5.$tangkapv.$tangkap6."\n".
+ $tangkap3.$tangkap5."\n".
+ $tangkap4.$tangkap5."\n".
+ $tangkap1.$tangkap6."\n".
+ $tangkap3.$tangkap6."\n".
+ $tangkap1.$tangkap5.$tangkap6."\n".
+ $tangkap1.$tangkap7."\n".
+ $tangkap3.$tangkap7."\n".
+ $tangkap1.$tangkap8."\n".
+ $tangkap3.$tangkap8."\n".
+ $tangkap8.$tangkap5."\n".
+ $tangkap8.$tangkap6."\n".
+ $tangkap9.$tangkap5."\n".
+ $tangkap3.$tangkap9."\n".
+ $tangkap1.$tangkap9."\n".
+ $tangkap9.$tangkap10."\n".
+ $tangkap3.$tangkap9.$tangkap10."\n".
+ $tangkap11.$tangkap9."\n".
+ $tangkap11.$tangkap12."\n".
+ $tangkap9.$tangkap12."\n".
+ $tangkap9.$tangkap12."\n".
+ $tangkap9.$tangkap12."\n".
+ $tangkap1.$tangkap13."\n".
+ $tangkap3.$tangkap13."\n".
+ $tangkap13.$tangkap14."\n".
+ $tangkap1.$tangkap13.$tangkap14."\n".
+ $tangkap3.$tangkap13.$tangkap14."\n".
+ $tangkap13.$tangkap15."\n".
+ $tangkap1.$tangkap13.$tangkap15."\n".
+ $tangkap3.$tangkap13.$tangkap15."\n".
+ $tangkap1.$tangkap13.$tangkap16."\n".
+ $tangkap3.$tangkap13.$tangkap16."\n".
+ $tangkap16.$tangkap17."\n".
+ str($tangkap1)."\n".
+ str($tangkap2)."\n".
+ str($tangkap3)."\n".
+ str($tangkap8)."\n".
+ str($tangkap9)."\n".
+ str($tangkap13)."\n".
+ str($tangkap16)."\n".
+ str($tangkap1.$tangkap2)."\n".
+ str($tangkap1.$tangkap2.$tangkap3)."\n".
+ str($tangkap1.$tangkap13)."\n".
+ str($tangkap2.$tangkap13)."\n".
+ str($tangkap3.$tangkap13)."\n".
+ ganti($tangkap1)."\n".
+ ganti($tangkap2)."\n".
+ ganti($tangkap3)."\n".
+ ganti($tangkap8)."\n".
+ ganti($tangkap9)."\n".
+ ganti($tangkap13)."\n".
+ ganti($tangkap16)."\n".
+ ganti($tangkap1.$tangkap2)."\n".
+ ganti($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti($tangkap1.$tangkap13)."\n".
+ ganti($tangkap2.$tangkap13)."\n".
+ ganti($tangkap3.$tangkap13)."\n".
+ ganti1($tangkap1)."\n".
+ ganti1($tangkap2)."\n".
+ ganti1($tangkap3)."\n".
+ ganti1($tangkap8)."\n".
+ ganti1($tangkap9)."\n".
+ ganti1($tangkap13)."\n".
+ ganti1($tangkap16)."\n".
+ ganti1($tangkap1.$tangkap2)."\n".
+ ganti1($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti1($tangkap1.$tangkap13)."\n".
+ ganti1($tangkap2.$tangkap13)."\n".
+ ganti1($tangkap3.$tangkap13)."\n".
+ ganti2($tangkap1)."\n".
+ ganti2($tangkap2)."\n".
+ ganti2($tangkap3)."\n".
+ ganti2($tangkap8)."\n".
+ ganti2($tangkap9)."\n".
+ ganti2($tangkap13)."\n".
+ ganti2($tangkap16)."\n".
+ ganti2($tangkap1.$tangkap2)."\n".
+ ganti2($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti2($tangkap1.$tangkap13)."\n".
+ ganti2($tangkap2.$tangkap13)."\n".
+ ganti2($tangkap3.$tangkap13)."\n".
+ banyak1($tangkap1)."\n".
+ banyak1($tangkap2)."\n".
+ banyak1($tangkap3)."\n".
+ banyak1($tangkap8)."\n".
+ banyak1($tangkap9)."\n".
+ banyak1($tangkap13)."\n".
+ banyak1($tangkap16)."\n".
+ banyak1($tangkap1.$tangkap2)."\n".
+ banyak1($tangkap1.$tangkap2.$tangkap3)."\n".
+ banyak1($tangkap1.$tangkap13)."\n".
+ banyak1($tangkap2.$tangkap13)."\n".
+ banyak1($tangkap3.$tangkap13)."\n".
+ banyak2($tangkap1)."\n".
+ banyak2($tangkap2)."\n".
+ banyak2($tangkap3)."\n".
+ banyak2($tangkap8)."\n".
+ banyak2($tangkap9)."\n".
+ banyak2($tangkap13)."\n".
+ banyak2($tangkap16)."\n".
+ banyak2($tangkap1.$tangkap2)."\n".
+ banyak2($tangkap1.$tangkap2.$tangkap3)."\n".
+ banyak2($tangkap1.$tangkap13)."\n".
+ banyak2($tangkap2.$tangkap13)."\n".
+ banyak2($tangkap3.$tangkap13)."\n";
+$result11 =
+tambah_nomor($tangkap1)."1\n".
+tambah_nomor($tangkap1)."11\n".
+tambah_nomor($tangkap1)."111\n".
+tambah_nomor($tangkap1)."1111\n".
+tambah_nomor($tangkap1)."11111\n".
+tambah_nomor($tangkap1)."2\n".
+tambah_nomor($tangkap1)."22\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."2222\n".
+tambah_nomor($tangkap1)."22222\n".
+tambah_nomor($tangkap1)."21\n".
+tambah_nomor($tangkap1)."22\n".
+tambah_nomor($tangkap1)."23\n".
+tambah_nomor($tangkap1)."24\n".
+tambah_nomor($tangkap1)."25\n".
+tambah_nomor($tangkap1)."26\n".
+tambah_nomor($tangkap1)."27\n".
+tambah_nomor($tangkap1)."28\n".
+tambah_nomor($tangkap1)."29\n".
+tambah_nomor($tangkap1)."211\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."233\n".
+tambah_nomor($tangkap1)."244\n".
+tambah_nomor($tangkap1)."255\n".
+tambah_nomor($tangkap1)."212\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."232\n".
+tambah_nomor($tangkap1)."242\n".
+tambah_nomor($tangkap1)."252\n".
+tambah_nomor($tangkap1)."112\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."332\n".
+tambah_nomor($tangkap1)."442\n".
+tambah_nomor($tangkap1)."552\n".
+tambah_nomor($tangkap1)."221\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."223\n".
+tambah_nomor($tangkap1)."224\n".
+tambah_nomor($tangkap1)."225\n".
+tambah_nomor($tangkap1)."452\n".
+tambah_nomor($tangkap1)."12\n".
+tambah_nomor($tangkap1)."21\n".
+tambah_nomor($tangkap1)."3\n".
+tambah_nomor($tangkap1)."33\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."3333\n".
+tambah_nomor($tangkap1)."33333\n".
+tambah_nomor($tangkap1)."31\n".
+tambah_nomor($tangkap1)."32\n".
+tambah_nomor($tangkap1)."33\n".
+tambah_nomor($tangkap1)."34\n".
+tambah_nomor($tangkap1)."35\n".
+tambah_nomor($tangkap1)."311\n".
+tambah_nomor($tangkap1)."322\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."344\n".
+tambah_nomor($tangkap1)."355\n".
+tambah_nomor($tangkap1)."313\n".
+tambah_nomor($tangkap1)."323\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."343\n".
+tambah_nomor($tangkap1)."353\n".
+tambah_nomor($tangkap1)."113\n".
+tambah_nomor($tangkap1)."223\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."443\n".
+tambah_nomor($tangkap1)."553\n".
+tambah_nomor($tangkap1)."331\n".
+tambah_nomor($tangkap1)."332\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."334\n".
+tambah_nomor($tangkap1)."335\n".
+tambah_nomor($tangkap1)."453\n".
+tambah_nomor($tangkap1)."123\n".
+tambah_nomor($tangkap1)."321\n".
+tambah_nomor($tangkap1)."4\n".
+tambah_nomor($tangkap1)."44\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."4444\n".
+tambah_nomor($tangkap1)."44444\n".
+tambah_nomor($tangkap1)."41\n".
+tambah_nomor($tangkap1)."42\n".
+tambah_nomor($tangkap1)."43\n".
+tambah_nomor($tangkap1)."44\n".
+tambah_nomor($tangkap1)."45\n".
+tambah_nomor($tangkap1)."411\n".
+tambah_nomor($tangkap1)."422\n".
+tambah_nomor($tangkap1)."433\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."455\n".
+tambah_nomor($tangkap1)."414\n".
+tambah_nomor($tangkap1)."424\n".
+tambah_nomor($tangkap1)."434\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."454\n".
+tambah_nomor($tangkap1)."114\n".
+tambah_nomor($tangkap1)."224\n".
+tambah_nomor($tangkap1)."334\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."441\n".
+tambah_nomor($tangkap1)."442\n".
+tambah_nomor($tangkap1)."443\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."445\n".
+tambah_nomor($tangkap1)."554\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."1234\n".
+tambah_nomor($tangkap1)."4321\n".
+tambah_nomor($tangkap1)."5\n".
+tambah_nomor($tangkap1)."55\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."5555\n".
+tambah_nomor($tangkap1)."55555\n".
+tambah_nomor($tangkap1)."51\n".
+tambah_nomor($tangkap1)."52\n".
+tambah_nomor($tangkap1)."53\n".
+tambah_nomor($tangkap1)."54\n".
+tambah_nomor($tangkap1)."55\n".
+tambah_nomor($tangkap1)."511\n".
+tambah_nomor($tangkap1)."522\n".
+tambah_nomor($tangkap1)."533\n".
+tambah_nomor($tangkap1)."544\n".
+tambah_nomor($tangkap1)."655\n".
+tambah_nomor($tangkap1)."515\n".
+tambah_nomor($tangkap1)."525\n".
+tambah_nomor($tangkap1)."535\n".
+tambah_nomor($tangkap1)."545\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."115\n".
+tambah_nomor($tangkap1)."225\n".
+tambah_nomor($tangkap1)."335\n".
+tambah_nomor($tangkap1)."445\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."551\n".
+tambah_nomor($tangkap1)."552\n".
+tambah_nomor($tangkap1)."553\n".
+tambah_nomor($tangkap1)."554\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."345\n".
+tambah_nomor($tangkap1)."12345\n".
+tambah_nomor($tangkap1)."54321\n".
+tambah_nomor($tangkap1)."6\n".
+tambah_nomor($tangkap1)."66\n".
+tambah_nomor($tangkap1)."666\n".
+tambah_nomor($tangkap1)."6666\n".
+tambah_nomor($tangkap1)."66666\n".
+tambah_nomor($tangkap1)."61\n".
+tambah_nomor($tangkap1)."62\n".
+tambah_nomor($tangkap1)."63\n".
+tambah_nomor($tangkap1)."64\n".
+tambah_nomor($tangkap1)."65\n".
+tambah_nomor($tangkap1)."611\n".
+tambah_nomor($tangkap1)."622\n".
+tambah_nomor($tangkap1)."633\n".
+tambah_nomor($tangkap1)."644\n".
+tambah_nomor($tangkap1)."655\n".
+tambah_nomor($tangkap1)."616\n".
+tambah_nomor($tangkap1)."626\n".
+tambah_nomor($tangkap1)."636\n".
+tambah_nomor($tangkap1)."646\n".
+tambah_nomor($tangkap1)."656\n".
+tambah_nomor($tangkap1)."116\n".
+tambah_nomor($tangkap1)."226\n".
+tambah_nomor($tangkap1)."336\n".
+tambah_nomor($tangkap1)."446\n".
+tambah_nomor($tangkap1)."556\n".
+tambah_nomor($tangkap1)."661\n".
+tambah_nomor($tangkap1)."662\n".
+tambah_nomor($tangkap1)."663\n".
+tambah_nomor($tangkap1)."664\n".
+tambah_nomor($tangkap1)."665\n".
+tambah_nomor($tangkap1)."456\n".
+tambah_nomor($tangkap1)."123456\n".
+tambah_nomor($tangkap1)."654321\n".
+tambah_nomor($tangkap1)."7\n".
+tambah_nomor($tangkap1)."77\n".
+tambah_nomor($tangkap1)."777\n".
+tambah_nomor($tangkap1)."7777\n".
+tambah_nomor($tangkap1)."77777\n".
+tambah_nomor($tangkap1)."71\n".
+tambah_nomor($tangkap1)."72\n".
+tambah_nomor($tangkap1)."73\n".
+tambah_nomor($tangkap1)."74\n".
+tambah_nomor($tangkap1)."75\n".
+tambah_nomor($tangkap1)."711\n".
+tambah_nomor($tangkap1)."722\n".
+tambah_nomor($tangkap1)."733\n".
+tambah_nomor($tangkap1)."744\n".
+tambah_nomor($tangkap1)."755\n".
+tambah_nomor($tangkap1)."717\n".
+tambah_nomor($tangkap1)."727\n".
+tambah_nomor($tangkap1)."737\n".
+tambah_nomor($tangkap1)."747\n".
+tambah_nomor($tangkap1)."757\n".
+tambah_nomor($tangkap1)."117\n".
+tambah_nomor($tangkap1)."227\n".
+tambah_nomor($tangkap1)."337\n".
+tambah_nomor($tangkap1)."447\n".
+tambah_nomor($tangkap1)."557\n".
+tambah_nomor($tangkap1)."771\n".
+tambah_nomor($tangkap1)."772\n".
+tambah_nomor($tangkap1)."773\n".
+tambah_nomor($tangkap1)."774\n".
+tambah_nomor($tangkap1)."775\n".
+tambah_nomor($tangkap1)."457\n".
+tambah_nomor($tangkap1)."1234567\n".
+tambah_nomor($tangkap1)."7654321\n".
+tambah_nomor($tangkap1)."8\n".
+tambah_nomor($tangkap1)."88\n".
+tambah_nomor($tangkap1)."888\n".
+tambah_nomor($tangkap1)."8888\n".
+tambah_nomor($tangkap1)."88888\n".
+tambah_nomor($tangkap1)."81\n".
+tambah_nomor($tangkap1)."82\n".
+tambah_nomor($tangkap1)."83\n".
+tambah_nomor($tangkap1)."84\n".
+tambah_nomor($tangkap1)."85\n".
+tambah_nomor($tangkap1)."811\n".
+tambah_nomor($tangkap1)."822\n".
+tambah_nomor($tangkap1)."833\n".
+tambah_nomor($tangkap1)."844\n".
+tambah_nomor($tangkap1)."855\n".
+tambah_nomor($tangkap1)."818\n".
+tambah_nomor($tangkap1)."828\n".
+tambah_nomor($tangkap1)."838\n".
+tambah_nomor($tangkap1)."848\n".
+tambah_nomor($tangkap1)."858\n".
+tambah_nomor($tangkap1)."118\n".
+tambah_nomor($tangkap1)."228\n".
+tambah_nomor($tangkap1)."338\n".
+tambah_nomor($tangkap1)."448\n".
+tambah_nomor($tangkap1)."558\n".
+tambah_nomor($tangkap1)."881\n".
+tambah_nomor($tangkap1)."882\n".
+tambah_nomor($tangkap1)."883\n".
+tambah_nomor($tangkap1)."884\n".
+tambah_nomor($tangkap1)."885\n".
+tambah_nomor($tangkap1)."458\n".
+tambah_nomor($tangkap1)."12345678\n".
+tambah_nomor($tangkap1)."87654321\n".
+tambah_nomor($tangkap1)."9\n".
+tambah_nomor($tangkap1)."99\n".
+tambah_nomor($tangkap1)."999\n".
+tambah_nomor($tangkap1)."9999\n".
+tambah_nomor($tangkap1)."99999\n".
+tambah_nomor($tangkap1)."91\n".
+tambah_nomor($tangkap1)."92\n".
+tambah_nomor($tangkap1)."93\n".
+tambah_nomor($tangkap1)."94\n".
+tambah_nomor($tangkap1)."95\n".
+tambah_nomor($tangkap1)."911\n".
+tambah_nomor($tangkap1)."922\n".
+tambah_nomor($tangkap1)."933\n".
+tambah_nomor($tangkap1)."944\n".
+tambah_nomor($tangkap1)."955\n".
+tambah_nomor($tangkap1)."919\n".
+tambah_nomor($tangkap1)."929\n".
+tambah_nomor($tangkap1)."939\n".
+tambah_nomor($tangkap1)."949\n".
+tambah_nomor($tangkap1)."959\n".
+tambah_nomor($tangkap1)."119\n".
+tambah_nomor($tangkap1)."229\n".
+tambah_nomor($tangkap1)."339\n".
+tambah_nomor($tangkap1)."449\n".
+tambah_nomor($tangkap1)."559\n".
+tambah_nomor($tangkap1)."991\n".
+tambah_nomor($tangkap1)."992\n".
+tambah_nomor($tangkap1)."993\n".
+tambah_nomor($tangkap1)."994\n".
+tambah_nomor($tangkap1)."995\n".
+tambah_nomor($tangkap1)."459\n".
+tambah_nomor($tangkap1)."12345678\n".
+tambah_nomor($tangkap1)."987654321\n".
+tambah_nomor($tangkap1)."0\n".
+tambah_nomor($tangkap1)."00\n".
+tambah_nomor($tangkap1)."000\n".
+tambah_nomor($tangkap1)."0000\n".
+tambah_nomor($tangkap1)."00000\n".
+tambah_nomor($tangkap1)."01\n".
+tambah_nomor($tangkap1)."02\n".
+tambah_nomor($tangkap1)."03\n".
+tambah_nomor($tangkap1)."04\n".
+tambah_nomor($tangkap1)."05\n".
+tambah_nomor($tangkap1)."011\n".
+tambah_nomor($tangkap1)."022\n".
+tambah_nomor($tangkap1)."033\n".
+tambah_nomor($tangkap1)."044\n".
+tambah_nomor($tangkap1)."055\n".
+tambah_nomor($tangkap1)."010\n".
+tambah_nomor($tangkap1)."020\n".
+tambah_nomor($tangkap1)."030\n".
+tambah_nomor($tangkap1)."040\n".
+tambah_nomor($tangkap1)."050\n".
+tambah_nomor($tangkap1)."110\n".
+tambah_nomor($tangkap1)."220\n".
+tambah_nomor($tangkap1)."330\n".
+tambah_nomor($tangkap1)."440\n".
+tambah_nomor($tangkap1)."550\n".
+tambah_nomor($tangkap1)."001\n".
+tambah_nomor($tangkap1)."002\n".
+tambah_nomor($tangkap1)."003\n".
+tambah_nomor($tangkap1)."004\n".
+tambah_nomor($tangkap1)."005\n".
+tambah_nomor($tangkap1)."450\n".
+tambah_nomor($tangkap1)."1234567890\n".
+tambah_nomor($tangkap2)."1\n".
+tambah_nomor($tangkap2)."11\n".
+tambah_nomor($tangkap2)."111\n".
+tambah_nomor($tangkap2)."1111\n".
+tambah_nomor($tangkap2)."11111\n".
+tambah_nomor($tangkap2)."2\n".
+tambah_nomor($tangkap2)."22\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."2222\n".
+tambah_nomor($tangkap2)."22222\n".
+tambah_nomor($tangkap2)."21\n".
+tambah_nomor($tangkap2)."22\n".
+tambah_nomor($tangkap2)."23\n".
+tambah_nomor($tangkap2)."24\n".
+tambah_nomor($tangkap2)."25\n".
+tambah_nomor($tangkap2)."26\n".
+tambah_nomor($tangkap2)."27\n".
+tambah_nomor($tangkap2)."28\n".
+tambah_nomor($tangkap2)."29\n".
+tambah_nomor($tangkap2)."211\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."233\n".
+tambah_nomor($tangkap2)."244\n".
+tambah_nomor($tangkap2)."255\n".
+tambah_nomor($tangkap2)."212\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."232\n".
+tambah_nomor($tangkap2)."242\n".
+tambah_nomor($tangkap2)."252\n".
+tambah_nomor($tangkap2)."112\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."332\n".
+tambah_nomor($tangkap2)."442\n".
+tambah_nomor($tangkap2)."552\n".
+tambah_nomor($tangkap2)."221\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."223\n".
+tambah_nomor($tangkap2)."224\n".
+tambah_nomor($tangkap2)."225\n".
+tambah_nomor($tangkap2)."452\n".
+tambah_nomor($tangkap2)."12\n".
+tambah_nomor($tangkap2)."21\n".
+tambah_nomor($tangkap2)."3\n".
+tambah_nomor($tangkap2)."33\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."3333\n".
+tambah_nomor($tangkap2)."33333\n".
+tambah_nomor($tangkap2)."31\n".
+tambah_nomor($tangkap2)."32\n".
+tambah_nomor($tangkap2)."33\n".
+tambah_nomor($tangkap2)."34\n".
+tambah_nomor($tangkap2)."35\n".
+tambah_nomor($tangkap2)."311\n".
+tambah_nomor($tangkap2)."322\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."344\n".
+tambah_nomor($tangkap2)."355\n".
+tambah_nomor($tangkap2)."313\n".
+tambah_nomor($tangkap2)."323\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."343\n".
+tambah_nomor($tangkap2)."353\n".
+tambah_nomor($tangkap2)."113\n".
+tambah_nomor($tangkap2)."223\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."443\n".
+tambah_nomor($tangkap2)."553\n".
+tambah_nomor($tangkap2)."331\n".
+tambah_nomor($tangkap2)."332\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."334\n".
+tambah_nomor($tangkap2)."335\n".
+tambah_nomor($tangkap2)."453\n".
+tambah_nomor($tangkap2)."123\n".
+tambah_nomor($tangkap2)."321\n".
+tambah_nomor($tangkap2)."4\n".
+tambah_nomor($tangkap2)."44\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."4444\n".
+tambah_nomor($tangkap2)."44444\n".
+tambah_nomor($tangkap2)."41\n".
+tambah_nomor($tangkap2)."42\n".
+tambah_nomor($tangkap2)."43\n".
+tambah_nomor($tangkap2)."44\n".
+tambah_nomor($tangkap2)."45\n".
+tambah_nomor($tangkap2)."411\n".
+tambah_nomor($tangkap2)."422\n".
+tambah_nomor($tangkap2)."433\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."455\n".
+tambah_nomor($tangkap2)."414\n".
+tambah_nomor($tangkap2)."424\n".
+tambah_nomor($tangkap2)."434\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."454\n".
+tambah_nomor($tangkap2)."114\n".
+tambah_nomor($tangkap2)."224\n".
+tambah_nomor($tangkap2)."334\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."441\n".
+tambah_nomor($tangkap2)."442\n".
+tambah_nomor($tangkap2)."443\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."445\n".
+tambah_nomor($tangkap2)."554\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."1234\n".
+tambah_nomor($tangkap2)."4321\n".
+tambah_nomor($tangkap2)."5\n".
+tambah_nomor($tangkap2)."55\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."5555\n".
+tambah_nomor($tangkap2)."55555\n".
+tambah_nomor($tangkap2)."51\n".
+tambah_nomor($tangkap2)."52\n".
+tambah_nomor($tangkap2)."53\n".
+tambah_nomor($tangkap2)."54\n".
+tambah_nomor($tangkap2)."55\n".
+tambah_nomor($tangkap2)."511\n".
+tambah_nomor($tangkap2)."522\n".
+tambah_nomor($tangkap2)."533\n".
+tambah_nomor($tangkap2)."544\n".
+tambah_nomor($tangkap2)."655\n".
+tambah_nomor($tangkap2)."515\n".
+tambah_nomor($tangkap2)."525\n".
+tambah_nomor($tangkap2)."535\n".
+tambah_nomor($tangkap2)."545\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."115\n".
+tambah_nomor($tangkap2)."225\n".
+tambah_nomor($tangkap2)."335\n".
+tambah_nomor($tangkap2)."445\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."551\n".
+tambah_nomor($tangkap2)."552\n".
+tambah_nomor($tangkap2)."553\n".
+tambah_nomor($tangkap2)."554\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."345\n".
+tambah_nomor($tangkap2)."12345\n".
+tambah_nomor($tangkap2)."54321\n".
+tambah_nomor($tangkap2)."6\n".
+tambah_nomor($tangkap2)."66\n".
+tambah_nomor($tangkap2)."666\n".
+tambah_nomor($tangkap2)."6666\n".
+tambah_nomor($tangkap2)."66666\n".
+tambah_nomor($tangkap2)."61\n".
+tambah_nomor($tangkap2)."62\n".
+tambah_nomor($tangkap2)."63\n".
+tambah_nomor($tangkap2)."64\n".
+tambah_nomor($tangkap2)."65\n".
+tambah_nomor($tangkap2)."611\n".
+tambah_nomor($tangkap2)."622\n".
+tambah_nomor($tangkap2)."633\n".
+tambah_nomor($tangkap2)."644\n".
+tambah_nomor($tangkap2)."655\n".
+tambah_nomor($tangkap2)."616\n".
+tambah_nomor($tangkap2)."626\n".
+tambah_nomor($tangkap2)."636\n".
+tambah_nomor($tangkap2)."646\n".
+tambah_nomor($tangkap2)."656\n".
+tambah_nomor($tangkap2)."116\n".
+tambah_nomor($tangkap2)."226\n".
+tambah_nomor($tangkap2)."336\n".
+tambah_nomor($tangkap2)."446\n".
+tambah_nomor($tangkap2)."556\n".
+tambah_nomor($tangkap2)."661\n".
+tambah_nomor($tangkap2)."662\n".
+tambah_nomor($tangkap2)."663\n".
+tambah_nomor($tangkap2)."664\n".
+tambah_nomor($tangkap2)."665\n".
+tambah_nomor($tangkap2)."456\n".
+tambah_nomor($tangkap2)."123456\n".
+tambah_nomor($tangkap2)."654321\n".
+tambah_nomor($tangkap2)."7\n".
+tambah_nomor($tangkap2)."77\n".
+tambah_nomor($tangkap2)."777\n".
+tambah_nomor($tangkap2)."7777\n".
+tambah_nomor($tangkap2)."77777\n".
+tambah_nomor($tangkap2)."71\n".
+tambah_nomor($tangkap2)."72\n".
+tambah_nomor($tangkap2)."73\n".
+tambah_nomor($tangkap2)."74\n".
+tambah_nomor($tangkap2)."75\n".
+tambah_nomor($tangkap2)."711\n".
+tambah_nomor($tangkap2)."722\n".
+tambah_nomor($tangkap2)."733\n".
+tambah_nomor($tangkap2)."744\n".
+tambah_nomor($tangkap2)."755\n".
+tambah_nomor($tangkap2)."717\n".
+tambah_nomor($tangkap2)."727\n".
+tambah_nomor($tangkap2)."737\n".
+tambah_nomor($tangkap2)."747\n".
+tambah_nomor($tangkap2)."757\n".
+tambah_nomor($tangkap2)."117\n".
+tambah_nomor($tangkap2)."227\n".
+tambah_nomor($tangkap2)."337\n".
+tambah_nomor($tangkap2)."447\n".
+tambah_nomor($tangkap2)."557\n".
+tambah_nomor($tangkap2)."771\n".
+tambah_nomor($tangkap2)."772\n".
+tambah_nomor($tangkap2)."773\n".
+tambah_nomor($tangkap2)."774\n".
+tambah_nomor($tangkap2)."775\n".
+tambah_nomor($tangkap2)."457\n".
+tambah_nomor($tangkap2)."1234567\n".
+tambah_nomor($tangkap2)."7654321\n".
+tambah_nomor($tangkap2)."8\n".
+tambah_nomor($tangkap2)."88\n".
+tambah_nomor($tangkap2)."888\n".
+tambah_nomor($tangkap2)."8888\n".
+tambah_nomor($tangkap2)."88888\n".
+tambah_nomor($tangkap2)."81\n".
+tambah_nomor($tangkap2)."82\n".
+tambah_nomor($tangkap2)."83\n".
+tambah_nomor($tangkap2)."84\n".
+tambah_nomor($tangkap2)."85\n".
+tambah_nomor($tangkap2)."811\n".
+tambah_nomor($tangkap2)."822\n".
+tambah_nomor($tangkap2)."833\n".
+tambah_nomor($tangkap2)."844\n".
+tambah_nomor($tangkap2)."855\n".
+tambah_nomor($tangkap2)."818\n".
+tambah_nomor($tangkap2)."828\n".
+tambah_nomor($tangkap2)."838\n".
+tambah_nomor($tangkap2)."848\n".
+tambah_nomor($tangkap2)."858\n".
+tambah_nomor($tangkap2)."118\n".
+tambah_nomor($tangkap2)."228\n".
+tambah_nomor($tangkap2)."338\n".
+tambah_nomor($tangkap2)."448\n".
+tambah_nomor($tangkap2)."558\n".
+tambah_nomor($tangkap2)."881\n".
+tambah_nomor($tangkap2)."882\n".
+tambah_nomor($tangkap2)."883\n".
+tambah_nomor($tangkap2)."884\n".
+tambah_nomor($tangkap2)."885\n".
+tambah_nomor($tangkap2)."458\n".
+tambah_nomor($tangkap2)."12345678\n".
+tambah_nomor($tangkap2)."87654321\n".
+tambah_nomor($tangkap2)."9\n".
+tambah_nomor($tangkap2)."99\n".
+tambah_nomor($tangkap2)."999\n".
+tambah_nomor($tangkap2)."9999\n".
+tambah_nomor($tangkap2)."99999\n".
+tambah_nomor($tangkap2)."91\n".
+tambah_nomor($tangkap2)."92\n".
+tambah_nomor($tangkap2)."93\n".
+tambah_nomor($tangkap2)."94\n".
+tambah_nomor($tangkap2)."95\n".
+tambah_nomor($tangkap2)."911\n".
+tambah_nomor($tangkap2)."922\n".
+tambah_nomor($tangkap2)."933\n".
+tambah_nomor($tangkap2)."944\n".
+tambah_nomor($tangkap2)."955\n".
+tambah_nomor($tangkap2)."919\n".
+tambah_nomor($tangkap2)."929\n".
+tambah_nomor($tangkap2)."939\n".
+tambah_nomor($tangkap2)."949\n".
+tambah_nomor($tangkap2)."959\n".
+tambah_nomor($tangkap2)."119\n".
+tambah_nomor($tangkap2)."229\n".
+tambah_nomor($tangkap2)."339\n".
+tambah_nomor($tangkap2)."449\n".
+tambah_nomor($tangkap2)."559\n".
+tambah_nomor($tangkap2)."991\n".
+tambah_nomor($tangkap2)."992\n".
+tambah_nomor($tangkap2)."993\n".
+tambah_nomor($tangkap2)."994\n".
+tambah_nomor($tangkap2)."995\n".
+tambah_nomor($tangkap2)."459\n".
+tambah_nomor($tangkap2)."12345678\n".
+tambah_nomor($tangkap2)."987654321\n".
+tambah_nomor($tangkap2)."0\n".
+tambah_nomor($tangkap2)."00\n".
+tambah_nomor($tangkap2)."000\n".
+tambah_nomor($tangkap2)."0000\n".
+tambah_nomor($tangkap2)."00000\n".
+tambah_nomor($tangkap2)."01\n".
+tambah_nomor($tangkap2)."02\n".
+tambah_nomor($tangkap2)."03\n".
+tambah_nomor($tangkap2)."04\n".
+tambah_nomor($tangkap2)."05\n".
+tambah_nomor($tangkap2)."011\n".
+tambah_nomor($tangkap2)."022\n".
+tambah_nomor($tangkap2)."033\n".
+tambah_nomor($tangkap2)."044\n".
+tambah_nomor($tangkap2)."055\n".
+tambah_nomor($tangkap2)."010\n".
+tambah_nomor($tangkap2)."020\n".
+tambah_nomor($tangkap2)."030\n".
+tambah_nomor($tangkap2)."040\n".
+tambah_nomor($tangkap2)."050\n".
+tambah_nomor($tangkap2)."110\n".
+tambah_nomor($tangkap2)."220\n".
+tambah_nomor($tangkap2)."330\n".
+tambah_nomor($tangkap2)."440\n".
+tambah_nomor($tangkap2)."550\n".
+tambah_nomor($tangkap2)."001\n".
+tambah_nomor($tangkap2)."002\n".
+tambah_nomor($tangkap2)."003\n".
+tambah_nomor($tangkap2)."004\n".
+tambah_nomor($tangkap2)."005\n".
+tambah_nomor($tangkap2)."450\n".
+tambah_nomor($tangkap2)."1234567890\n".
+tambah_nomor($tangkap3)."1\n".
+tambah_nomor($tangkap3)."11\n".
+tambah_nomor($tangkap3)."111\n".
+tambah_nomor($tangkap3)."1111\n".
+tambah_nomor($tangkap3)."11111\n".
+tambah_nomor($tangkap3)."2\n".
+tambah_nomor($tangkap3)."22\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."2222\n".
+tambah_nomor($tangkap3)."22222\n".
+tambah_nomor($tangkap3)."21\n".
+tambah_nomor($tangkap3)."22\n".
+tambah_nomor($tangkap3)."23\n".
+tambah_nomor($tangkap3)."24\n".
+tambah_nomor($tangkap3)."25\n".
+tambah_nomor($tangkap3)."26\n".
+tambah_nomor($tangkap3)."27\n".
+tambah_nomor($tangkap3)."28\n".
+tambah_nomor($tangkap3)."29\n".
+tambah_nomor($tangkap3)."211\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."233\n".
+tambah_nomor($tangkap3)."244\n".
+tambah_nomor($tangkap3)."255\n".
+tambah_nomor($tangkap3)."212\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."232\n".
+tambah_nomor($tangkap3)."242\n".
+tambah_nomor($tangkap3)."252\n".
+tambah_nomor($tangkap3)."112\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."332\n".
+tambah_nomor($tangkap3)."442\n".
+tambah_nomor($tangkap3)."552\n".
+tambah_nomor($tangkap3)."221\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."223\n".
+tambah_nomor($tangkap3)."224\n".
+tambah_nomor($tangkap3)."225\n".
+tambah_nomor($tangkap3)."452\n".
+tambah_nomor($tangkap3)."12\n".
+tambah_nomor($tangkap3)."21\n".
+tambah_nomor($tangkap3)."3\n".
+tambah_nomor($tangkap3)."33\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."3333\n".
+tambah_nomor($tangkap3)."33333\n".
+tambah_nomor($tangkap3)."31\n".
+tambah_nomor($tangkap3)."32\n".
+tambah_nomor($tangkap3)."33\n".
+tambah_nomor($tangkap3)."34\n".
+tambah_nomor($tangkap3)."35\n".
+tambah_nomor($tangkap3)."311\n".
+tambah_nomor($tangkap3)."322\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."344\n".
+tambah_nomor($tangkap3)."355\n".
+tambah_nomor($tangkap3)."313\n".
+tambah_nomor($tangkap3)."323\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."343\n".
+tambah_nomor($tangkap3)."353\n".
+tambah_nomor($tangkap3)."113\n".
+tambah_nomor($tangkap3)."223\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."443\n".
+tambah_nomor($tangkap3)."553\n".
+tambah_nomor($tangkap3)."331\n".
+tambah_nomor($tangkap3)."332\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."334\n".
+tambah_nomor($tangkap3)."335\n".
+tambah_nomor($tangkap3)."453\n".
+tambah_nomor($tangkap3)."123\n".
+tambah_nomor($tangkap3)."321\n".
+tambah_nomor($tangkap3)."4\n".
+tambah_nomor($tangkap3)."44\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."4444\n".
+tambah_nomor($tangkap3)."44444\n".
+tambah_nomor($tangkap3)."41\n".
+tambah_nomor($tangkap3)."42\n".
+tambah_nomor($tangkap3)."43\n".
+tambah_nomor($tangkap3)."44\n".
+tambah_nomor($tangkap3)."45\n".
+tambah_nomor($tangkap3)."411\n".
+tambah_nomor($tangkap3)."422\n".
+tambah_nomor($tangkap3)."433\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."455\n".
+tambah_nomor($tangkap3)."414\n".
+tambah_nomor($tangkap3)."424\n".
+tambah_nomor($tangkap3)."434\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."454\n".
+tambah_nomor($tangkap3)."114\n".
+tambah_nomor($tangkap3)."224\n".
+tambah_nomor($tangkap3)."334\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."441\n".
+tambah_nomor($tangkap3)."442\n".
+tambah_nomor($tangkap3)."443\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."445\n".
+tambah_nomor($tangkap3)."554\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."1234\n".
+tambah_nomor($tangkap3)."4321\n".
+tambah_nomor($tangkap3)."5\n".
+tambah_nomor($tangkap3)."55\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."5555\n".
+tambah_nomor($tangkap3)."55555\n".
+tambah_nomor($tangkap3)."51\n".
+tambah_nomor($tangkap3)."52\n".
+tambah_nomor($tangkap3)."53\n".
+tambah_nomor($tangkap3)."54\n".
+tambah_nomor($tangkap3)."55\n".
+tambah_nomor($tangkap3)."511\n".
+tambah_nomor($tangkap3)."522\n".
+tambah_nomor($tangkap3)."533\n".
+tambah_nomor($tangkap3)."544\n".
+tambah_nomor($tangkap3)."655\n".
+tambah_nomor($tangkap3)."515\n".
+tambah_nomor($tangkap3)."525\n".
+tambah_nomor($tangkap3)."535\n".
+tambah_nomor($tangkap3)."545\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."115\n".
+tambah_nomor($tangkap3)."225\n".
+tambah_nomor($tangkap3)."335\n".
+tambah_nomor($tangkap3)."445\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."551\n".
+tambah_nomor($tangkap3)."552\n".
+tambah_nomor($tangkap3)."553\n".
+tambah_nomor($tangkap3)."554\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."345\n".
+tambah_nomor($tangkap3)."12345\n".
+tambah_nomor($tangkap3)."54321\n".
+tambah_nomor($tangkap3)."6\n".
+tambah_nomor($tangkap3)."66\n".
+tambah_nomor($tangkap3)."666\n".
+tambah_nomor($tangkap3)."6666\n".
+tambah_nomor($tangkap3)."66666\n".
+tambah_nomor($tangkap3)."61\n".
+tambah_nomor($tangkap3)."62\n".
+tambah_nomor($tangkap3)."63\n".
+tambah_nomor($tangkap3)."64\n".
+tambah_nomor($tangkap3)."65\n".
+tambah_nomor($tangkap3)."611\n".
+tambah_nomor($tangkap3)."622\n".
+tambah_nomor($tangkap3)."633\n".
+tambah_nomor($tangkap3)."644\n".
+tambah_nomor($tangkap3)."655\n".
+tambah_nomor($tangkap3)."616\n".
+tambah_nomor($tangkap3)."626\n".
+tambah_nomor($tangkap3)."636\n".
+tambah_nomor($tangkap3)."646\n".
+tambah_nomor($tangkap3)."656\n".
+tambah_nomor($tangkap3)."116\n".
+tambah_nomor($tangkap3)."226\n".
+tambah_nomor($tangkap3)."336\n".
+tambah_nomor($tangkap3)."446\n".
+tambah_nomor($tangkap3)."556\n".
+tambah_nomor($tangkap3)."661\n".
+tambah_nomor($tangkap3)."662\n".
+tambah_nomor($tangkap3)."663\n".
+tambah_nomor($tangkap3)."664\n".
+tambah_nomor($tangkap3)."665\n".
+tambah_nomor($tangkap3)."456\n".
+tambah_nomor($tangkap3)."123456\n".
+tambah_nomor($tangkap3)."654321\n".
+tambah_nomor($tangkap3)."7\n".
+tambah_nomor($tangkap3)."77\n".
+tambah_nomor($tangkap3)."777\n".
+tambah_nomor($tangkap3)."7777\n".
+tambah_nomor($tangkap3)."77777\n".
+tambah_nomor($tangkap3)."71\n".
+tambah_nomor($tangkap3)."72\n".
+tambah_nomor($tangkap3)."73\n".
+tambah_nomor($tangkap3)."74\n".
+tambah_nomor($tangkap3)."75\n".
+tambah_nomor($tangkap3)."711\n".
+tambah_nomor($tangkap3)."722\n".
+tambah_nomor($tangkap3)."733\n".
+tambah_nomor($tangkap3)."744\n".
+tambah_nomor($tangkap3)."755\n".
+tambah_nomor($tangkap3)."717\n".
+tambah_nomor($tangkap3)."727\n".
+tambah_nomor($tangkap3)."737\n".
+tambah_nomor($tangkap3)."747\n".
+tambah_nomor($tangkap3)."757\n".
+tambah_nomor($tangkap3)."117\n".
+tambah_nomor($tangkap3)."227\n".
+tambah_nomor($tangkap3)."337\n".
+tambah_nomor($tangkap3)."447\n".
+tambah_nomor($tangkap3)."557\n".
+tambah_nomor($tangkap3)."771\n".
+tambah_nomor($tangkap3)."772\n".
+tambah_nomor($tangkap3)."773\n".
+tambah_nomor($tangkap3)."774\n".
+tambah_nomor($tangkap3)."775\n".
+tambah_nomor($tangkap3)."457\n".
+tambah_nomor($tangkap3)."1234567\n".
+tambah_nomor($tangkap3)."7654321\n".
+tambah_nomor($tangkap3)."8\n".
+tambah_nomor($tangkap3)."88\n".
+tambah_nomor($tangkap3)."888\n".
+tambah_nomor($tangkap3)."8888\n".
+tambah_nomor($tangkap3)."88888\n".
+tambah_nomor($tangkap3)."81\n".
+tambah_nomor($tangkap3)."82\n".
+tambah_nomor($tangkap3)."83\n".
+tambah_nomor($tangkap3)."84\n".
+tambah_nomor($tangkap3)."85\n".
+tambah_nomor($tangkap3)."811\n".
+tambah_nomor($tangkap3)."822\n".
+tambah_nomor($tangkap3)."833\n".
+tambah_nomor($tangkap3)."844\n".
+tambah_nomor($tangkap3)."855\n".
+tambah_nomor($tangkap3)."818\n".
+tambah_nomor($tangkap3)."828\n".
+tambah_nomor($tangkap3)."838\n".
+tambah_nomor($tangkap3)."848\n".
+tambah_nomor($tangkap3)."858\n".
+tambah_nomor($tangkap3)."118\n".
+tambah_nomor($tangkap3)."228\n".
+tambah_nomor($tangkap3)."338\n".
+tambah_nomor($tangkap3)."448\n".
+tambah_nomor($tangkap3)."558\n".
+tambah_nomor($tangkap3)."881\n".
+tambah_nomor($tangkap3)."882\n".
+tambah_nomor($tangkap3)."883\n".
+tambah_nomor($tangkap3)."884\n".
+tambah_nomor($tangkap3)."885\n".
+tambah_nomor($tangkap3)."458\n".
+tambah_nomor($tangkap3)."12345678\n".
+tambah_nomor($tangkap3)."87654321\n".
+tambah_nomor($tangkap3)."9\n".
+tambah_nomor($tangkap3)."99\n".
+tambah_nomor($tangkap3)."999\n".
+tambah_nomor($tangkap3)."9999\n".
+tambah_nomor($tangkap3)."99999\n".
+tambah_nomor($tangkap3)."91\n".
+tambah_nomor($tangkap3)."92\n".
+tambah_nomor($tangkap3)."93\n".
+tambah_nomor($tangkap3)."94\n".
+tambah_nomor($tangkap3)."95\n".
+tambah_nomor($tangkap3)."911\n".
+tambah_nomor($tangkap3)."922\n".
+tambah_nomor($tangkap3)."933\n".
+tambah_nomor($tangkap3)."944\n".
+tambah_nomor($tangkap3)."955\n".
+tambah_nomor($tangkap3)."919\n".
+tambah_nomor($tangkap3)."929\n".
+tambah_nomor($tangkap3)."939\n".
+tambah_nomor($tangkap3)."949\n".
+tambah_nomor($tangkap3)."959\n".
+tambah_nomor($tangkap3)."119\n".
+tambah_nomor($tangkap3)."229\n".
+tambah_nomor($tangkap3)."339\n".
+tambah_nomor($tangkap3)."449\n".
+tambah_nomor($tangkap3)."559\n".
+tambah_nomor($tangkap3)."991\n".
+tambah_nomor($tangkap3)."992\n".
+tambah_nomor($tangkap3)."993\n".
+tambah_nomor($tangkap3)."994\n".
+tambah_nomor($tangkap3)."995\n".
+tambah_nomor($tangkap3)."459\n".
+tambah_nomor($tangkap3)."12345678\n".
+tambah_nomor($tangkap3)."987654321\n".
+tambah_nomor($tangkap3)."0\n".
+tambah_nomor($tangkap3)."00\n".
+tambah_nomor($tangkap3)."000\n".
+tambah_nomor($tangkap3)."0000\n".
+tambah_nomor($tangkap3)."00000\n".
+tambah_nomor($tangkap3)."01\n".
+tambah_nomor($tangkap3)."02\n".
+tambah_nomor($tangkap3)."03\n".
+tambah_nomor($tangkap3)."04\n".
+tambah_nomor($tangkap3)."05\n".
+tambah_nomor($tangkap3)."011\n".
+tambah_nomor($tangkap3)."022\n".
+tambah_nomor($tangkap3)."033\n".
+tambah_nomor($tangkap3)."044\n".
+tambah_nomor($tangkap3)."055\n".
+tambah_nomor($tangkap3)."010\n".
+tambah_nomor($tangkap3)."020\n".
+tambah_nomor($tangkap3)."030\n".
+tambah_nomor($tangkap3)."040\n".
+tambah_nomor($tangkap3)."050\n".
+tambah_nomor($tangkap3)."110\n".
+tambah_nomor($tangkap3)."220\n".
+tambah_nomor($tangkap3)."330\n".
+tambah_nomor($tangkap3)."440\n".
+tambah_nomor($tangkap3)."550\n".
+tambah_nomor($tangkap3)."001\n".
+tambah_nomor($tangkap3)."002\n".
+tambah_nomor($tangkap3)."003\n".
+tambah_nomor($tangkap3)."004\n".
+tambah_nomor($tangkap3)."005\n".
+tambah_nomor($tangkap3)."450\n".
+tambah_nomor($tangkap3)."1234567890\n".
+tambah_nomor($tangkap13)."1\n".
+tambah_nomor($tangkap13)."11\n".
+tambah_nomor($tangkap13)."111\n".
+tambah_nomor($tangkap13)."1111\n".
+tambah_nomor($tangkap13)."11111\n".
+tambah_nomor($tangkap13)."2\n".
+tambah_nomor($tangkap13)."22\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."2222\n".
+tambah_nomor($tangkap13)."22222\n".
+tambah_nomor($tangkap13)."21\n".
+tambah_nomor($tangkap13)."22\n".
+tambah_nomor($tangkap13)."23\n".
+tambah_nomor($tangkap13)."24\n".
+tambah_nomor($tangkap13)."25\n".
+tambah_nomor($tangkap13)."26\n".
+tambah_nomor($tangkap13)."27\n".
+tambah_nomor($tangkap13)."28\n".
+tambah_nomor($tangkap13)."29\n".
+tambah_nomor($tangkap13)."211\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."233\n".
+tambah_nomor($tangkap13)."244\n".
+tambah_nomor($tangkap13)."255\n".
+tambah_nomor($tangkap13)."212\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."232\n".
+tambah_nomor($tangkap13)."242\n".
+tambah_nomor($tangkap13)."252\n".
+tambah_nomor($tangkap13)."112\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."332\n".
+tambah_nomor($tangkap13)."442\n".
+tambah_nomor($tangkap13)."552\n".
+tambah_nomor($tangkap13)."221\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."223\n".
+tambah_nomor($tangkap13)."224\n".
+tambah_nomor($tangkap13)."225\n".
+tambah_nomor($tangkap13)."452\n".
+tambah_nomor($tangkap13)."12\n".
+tambah_nomor($tangkap13)."21\n".
+tambah_nomor($tangkap13)."3\n".
+tambah_nomor($tangkap13)."33\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."3333\n".
+tambah_nomor($tangkap13)."33333\n".
+tambah_nomor($tangkap13)."31\n".
+tambah_nomor($tangkap13)."32\n".
+tambah_nomor($tangkap13)."33\n".
+tambah_nomor($tangkap13)."34\n".
+tambah_nomor($tangkap13)."35\n".
+tambah_nomor($tangkap13)."311\n".
+tambah_nomor($tangkap13)."322\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."344\n".
+tambah_nomor($tangkap13)."355\n".
+tambah_nomor($tangkap13)."313\n".
+tambah_nomor($tangkap13)."323\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."343\n".
+tambah_nomor($tangkap13)."353\n".
+tambah_nomor($tangkap13)."113\n".
+tambah_nomor($tangkap13)."223\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."443\n".
+tambah_nomor($tangkap13)."553\n".
+tambah_nomor($tangkap13)."331\n".
+tambah_nomor($tangkap13)."332\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."334\n".
+tambah_nomor($tangkap13)."335\n".
+tambah_nomor($tangkap13)."453\n".
+tambah_nomor($tangkap13)."123\n".
+tambah_nomor($tangkap13)."321\n".
+tambah_nomor($tangkap13)."4\n".
+tambah_nomor($tangkap13)."44\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."4444\n".
+tambah_nomor($tangkap13)."44444\n".
+tambah_nomor($tangkap13)."41\n".
+tambah_nomor($tangkap13)."42\n".
+tambah_nomor($tangkap13)."43\n".
+tambah_nomor($tangkap13)."44\n".
+tambah_nomor($tangkap13)."45\n".
+tambah_nomor($tangkap13)."411\n".
+tambah_nomor($tangkap13)."422\n".
+tambah_nomor($tangkap13)."433\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."455\n".
+tambah_nomor($tangkap13)."414\n".
+tambah_nomor($tangkap13)."424\n".
+tambah_nomor($tangkap13)."434\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."454\n".
+tambah_nomor($tangkap13)."114\n".
+tambah_nomor($tangkap13)."224\n".
+tambah_nomor($tangkap13)."334\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."441\n".
+tambah_nomor($tangkap13)."442\n".
+tambah_nomor($tangkap13)."443\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."445\n".
+tambah_nomor($tangkap13)."554\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."1234\n".
+tambah_nomor($tangkap13)."4321\n".
+tambah_nomor($tangkap13)."5\n".
+tambah_nomor($tangkap13)."55\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."5555\n".
+tambah_nomor($tangkap13)."55555\n".
+tambah_nomor($tangkap13)."51\n".
+tambah_nomor($tangkap13)."52\n".
+tambah_nomor($tangkap13)."53\n".
+tambah_nomor($tangkap13)."54\n".
+tambah_nomor($tangkap13)."55\n".
+tambah_nomor($tangkap13)."511\n".
+tambah_nomor($tangkap13)."522\n".
+tambah_nomor($tangkap13)."533\n".
+tambah_nomor($tangkap13)."544\n".
+tambah_nomor($tangkap13)."655\n".
+tambah_nomor($tangkap13)."515\n".
+tambah_nomor($tangkap13)."525\n".
+tambah_nomor($tangkap13)."535\n".
+tambah_nomor($tangkap13)."545\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."115\n".
+tambah_nomor($tangkap13)."225\n".
+tambah_nomor($tangkap13)."335\n".
+tambah_nomor($tangkap13)."445\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."551\n".
+tambah_nomor($tangkap13)."552\n".
+tambah_nomor($tangkap13)."553\n".
+tambah_nomor($tangkap13)."554\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."345\n".
+tambah_nomor($tangkap13)."12345\n".
+tambah_nomor($tangkap13)."54321\n".
+tambah_nomor($tangkap13)."6\n".
+tambah_nomor($tangkap13)."66\n".
+tambah_nomor($tangkap13)."666\n".
+tambah_nomor($tangkap13)."6666\n".
+tambah_nomor($tangkap13)."66666\n".
+tambah_nomor($tangkap13)."61\n".
+tambah_nomor($tangkap13)."62\n".
+tambah_nomor($tangkap13)."63\n".
+tambah_nomor($tangkap13)."64\n".
+tambah_nomor($tangkap13)."65\n".
+tambah_nomor($tangkap13)."611\n".
+tambah_nomor($tangkap13)."622\n".
+tambah_nomor($tangkap13)."633\n".
+tambah_nomor($tangkap13)."644\n".
+tambah_nomor($tangkap13)."655\n".
+tambah_nomor($tangkap13)."616\n".
+tambah_nomor($tangkap13)."626\n".
+tambah_nomor($tangkap13)."636\n".
+tambah_nomor($tangkap13)."646\n".
+tambah_nomor($tangkap13)."656\n".
+tambah_nomor($tangkap13)."116\n".
+tambah_nomor($tangkap13)."226\n".
+tambah_nomor($tangkap13)."336\n".
+tambah_nomor($tangkap13)."446\n".
+tambah_nomor($tangkap13)."556\n".
+tambah_nomor($tangkap13)."661\n".
+tambah_nomor($tangkap13)."662\n".
+tambah_nomor($tangkap13)."663\n".
+tambah_nomor($tangkap13)."664\n".
+tambah_nomor($tangkap13)."665\n".
+tambah_nomor($tangkap13)."456\n".
+tambah_nomor($tangkap13)."123456\n".
+tambah_nomor($tangkap13)."654321\n".
+tambah_nomor($tangkap13)."7\n".
+tambah_nomor($tangkap13)."77\n".
+tambah_nomor($tangkap13)."777\n".
+tambah_nomor($tangkap13)."7777\n".
+tambah_nomor($tangkap13)."77777\n".
+tambah_nomor($tangkap13)."71\n".
+tambah_nomor($tangkap13)."72\n".
+tambah_nomor($tangkap13)."73\n".
+tambah_nomor($tangkap13)."74\n".
+tambah_nomor($tangkap13)."75\n".
+tambah_nomor($tangkap13)."711\n".
+tambah_nomor($tangkap13)."722\n".
+tambah_nomor($tangkap13)."733\n".
+tambah_nomor($tangkap13)."744\n".
+tambah_nomor($tangkap13)."755\n".
+tambah_nomor($tangkap13)."717\n".
+tambah_nomor($tangkap13)."727\n".
+tambah_nomor($tangkap13)."737\n".
+tambah_nomor($tangkap13)."747\n".
+tambah_nomor($tangkap13)."757\n".
+tambah_nomor($tangkap13)."117\n".
+tambah_nomor($tangkap13)."227\n".
+tambah_nomor($tangkap13)."337\n".
+tambah_nomor($tangkap13)."447\n".
+tambah_nomor($tangkap13)."557\n".
+tambah_nomor($tangkap13)."771\n".
+tambah_nomor($tangkap13)."772\n".
+tambah_nomor($tangkap13)."773\n".
+tambah_nomor($tangkap13)."774\n".
+tambah_nomor($tangkap13)."775\n".
+tambah_nomor($tangkap13)."457\n".
+tambah_nomor($tangkap13)."1234567\n".
+tambah_nomor($tangkap13)."7654321\n".
+tambah_nomor($tangkap13)."8\n".
+tambah_nomor($tangkap13)."88\n".
+tambah_nomor($tangkap13)."888\n".
+tambah_nomor($tangkap13)."8888\n".
+tambah_nomor($tangkap13)."88888\n".
+tambah_nomor($tangkap13)."81\n".
+tambah_nomor($tangkap13)."82\n".
+tambah_nomor($tangkap13)."83\n".
+tambah_nomor($tangkap13)."84\n".
+tambah_nomor($tangkap13)."85\n".
+tambah_nomor($tangkap13)."811\n".
+tambah_nomor($tangkap13)."822\n".
+tambah_nomor($tangkap13)."833\n".
+tambah_nomor($tangkap13)."844\n".
+tambah_nomor($tangkap13)."855\n".
+tambah_nomor($tangkap13)."818\n".
+tambah_nomor($tangkap13)."828\n".
+tambah_nomor($tangkap13)."838\n".
+tambah_nomor($tangkap13)."848\n".
+tambah_nomor($tangkap13)."858\n".
+tambah_nomor($tangkap13)."118\n".
+tambah_nomor($tangkap13)."228\n".
+tambah_nomor($tangkap13)."338\n".
+tambah_nomor($tangkap13)."448\n".
+tambah_nomor($tangkap13)."558\n".
+tambah_nomor($tangkap13)."881\n".
+tambah_nomor($tangkap13)."882\n".
+tambah_nomor($tangkap13)."883\n".
+tambah_nomor($tangkap13)."884\n".
+tambah_nomor($tangkap13)."885\n".
+tambah_nomor($tangkap13)."458\n".
+tambah_nomor($tangkap13)."12345678\n".
+tambah_nomor($tangkap13)."87654321\n".
+tambah_nomor($tangkap13)."9\n".
+tambah_nomor($tangkap13)."99\n".
+tambah_nomor($tangkap13)."999\n".
+tambah_nomor($tangkap13)."9999\n".
+tambah_nomor($tangkap13)."99999\n".
+tambah_nomor($tangkap13)."91\n".
+tambah_nomor($tangkap13)."92\n".
+tambah_nomor($tangkap13)."93\n".
+tambah_nomor($tangkap13)."94\n".
+tambah_nomor($tangkap13)."95\n".
+tambah_nomor($tangkap13)."911\n".
+tambah_nomor($tangkap13)."922\n".
+tambah_nomor($tangkap13)."933\n".
+tambah_nomor($tangkap13)."944\n".
+tambah_nomor($tangkap13)."955\n".
+tambah_nomor($tangkap13)."919\n".
+tambah_nomor($tangkap13)."929\n".
+tambah_nomor($tangkap13)."939\n".
+tambah_nomor($tangkap13)."949\n".
+tambah_nomor($tangkap13)."959\n".
+tambah_nomor($tangkap13)."119\n".
+tambah_nomor($tangkap13)."229\n".
+tambah_nomor($tangkap13)."339\n".
+tambah_nomor($tangkap13)."449\n".
+tambah_nomor($tangkap13)."559\n".
+tambah_nomor($tangkap13)."991\n".
+tambah_nomor($tangkap13)."992\n".
+tambah_nomor($tangkap13)."993\n".
+tambah_nomor($tangkap13)."994\n".
+tambah_nomor($tangkap13)."995\n".
+tambah_nomor($tangkap13)."459\n".
+tambah_nomor($tangkap13)."12345678\n".
+tambah_nomor($tangkap13)."987654321\n".
+tambah_nomor($tangkap13)."0\n".
+tambah_nomor($tangkap13)."00\n".
+tambah_nomor($tangkap13)."000\n".
+tambah_nomor($tangkap13)."0000\n".
+tambah_nomor($tangkap13)."00000\n".
+tambah_nomor($tangkap13)."01\n".
+tambah_nomor($tangkap13)."02\n".
+tambah_nomor($tangkap13)."03\n".
+tambah_nomor($tangkap13)."04\n".
+tambah_nomor($tangkap13)."05\n".
+tambah_nomor($tangkap13)."011\n".
+tambah_nomor($tangkap13)."022\n".
+tambah_nomor($tangkap13)."033\n".
+tambah_nomor($tangkap13)."044\n".
+tambah_nomor($tangkap13)."055\n".
+tambah_nomor($tangkap13)."010\n".
+tambah_nomor($tangkap13)."020\n".
+tambah_nomor($tangkap13)."030\n".
+tambah_nomor($tangkap13)."040\n".
+tambah_nomor($tangkap13)."050\n".
+tambah_nomor($tangkap13)."110\n".
+tambah_nomor($tangkap13)."220\n".
+tambah_nomor($tangkap13)."330\n".
+tambah_nomor($tangkap13)."440\n".
+tambah_nomor($tangkap13)."550\n".
+tambah_nomor($tangkap13)."001\n".
+tambah_nomor($tangkap13)."002\n".
+tambah_nomor($tangkap13)."003\n".
+tambah_nomor($tangkap13)."004\n".
+tambah_nomor($tangkap13)."005\n".
+tambah_nomor($tangkap13)."450\n".
+tambah_nomor($tangkap13)."1234567890\n".
+tambah_nomor($tangkap9)."1\n".
+tambah_nomor($tangkap9)."11\n".
+tambah_nomor($tangkap9)."111\n".
+tambah_nomor($tangkap9)."1111\n".
+tambah_nomor($tangkap9)."11111\n".
+tambah_nomor($tangkap9)."2\n".
+tambah_nomor($tangkap9)."22\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."2222\n".
+tambah_nomor($tangkap9)."22222\n".
+tambah_nomor($tangkap9)."21\n".
+tambah_nomor($tangkap9)."22\n".
+tambah_nomor($tangkap9)."23\n".
+tambah_nomor($tangkap9)."24\n".
+tambah_nomor($tangkap9)."25\n".
+tambah_nomor($tangkap9)."26\n".
+tambah_nomor($tangkap9)."27\n".
+tambah_nomor($tangkap9)."28\n".
+tambah_nomor($tangkap9)."29\n".
+tambah_nomor($tangkap9)."211\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."233\n".
+tambah_nomor($tangkap9)."244\n".
+tambah_nomor($tangkap9)."255\n".
+tambah_nomor($tangkap9)."212\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."232\n".
+tambah_nomor($tangkap9)."242\n".
+tambah_nomor($tangkap9)."252\n".
+tambah_nomor($tangkap9)."112\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."332\n".
+tambah_nomor($tangkap9)."442\n".
+tambah_nomor($tangkap9)."552\n".
+tambah_nomor($tangkap9)."221\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."223\n".
+tambah_nomor($tangkap9)."224\n".
+tambah_nomor($tangkap9)."225\n".
+tambah_nomor($tangkap9)."452\n".
+tambah_nomor($tangkap9)."12\n".
+tambah_nomor($tangkap9)."21\n".
+tambah_nomor($tangkap9)."3\n".
+tambah_nomor($tangkap9)."33\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."3333\n".
+tambah_nomor($tangkap9)."33333\n".
+tambah_nomor($tangkap9)."31\n".
+tambah_nomor($tangkap9)."32\n".
+tambah_nomor($tangkap9)."33\n".
+tambah_nomor($tangkap9)."34\n".
+tambah_nomor($tangkap9)."35\n".
+tambah_nomor($tangkap9)."311\n".
+tambah_nomor($tangkap9)."322\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."344\n".
+tambah_nomor($tangkap9)."355\n".
+tambah_nomor($tangkap9)."313\n".
+tambah_nomor($tangkap9)."323\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."343\n".
+tambah_nomor($tangkap9)."353\n".
+tambah_nomor($tangkap9)."113\n".
+tambah_nomor($tangkap9)."223\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."443\n".
+tambah_nomor($tangkap9)."553\n".
+tambah_nomor($tangkap9)."331\n".
+tambah_nomor($tangkap9)."332\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."334\n".
+tambah_nomor($tangkap9)."335\n".
+tambah_nomor($tangkap9)."453\n".
+tambah_nomor($tangkap9)."123\n".
+tambah_nomor($tangkap9)."321\n".
+tambah_nomor($tangkap9)."4\n".
+tambah_nomor($tangkap9)."44\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."4444\n".
+tambah_nomor($tangkap9)."44444\n".
+tambah_nomor($tangkap9)."41\n".
+tambah_nomor($tangkap9)."42\n".
+tambah_nomor($tangkap9)."43\n".
+tambah_nomor($tangkap9)."44\n".
+tambah_nomor($tangkap9)."45\n".
+tambah_nomor($tangkap9)."411\n".
+tambah_nomor($tangkap9)."422\n".
+tambah_nomor($tangkap9)."433\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."455\n".
+tambah_nomor($tangkap9)."414\n".
+tambah_nomor($tangkap9)."424\n".
+tambah_nomor($tangkap9)."434\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."454\n".
+tambah_nomor($tangkap9)."114\n".
+tambah_nomor($tangkap9)."224\n".
+tambah_nomor($tangkap9)."334\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."441\n".
+tambah_nomor($tangkap9)."442\n".
+tambah_nomor($tangkap9)."443\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."445\n".
+tambah_nomor($tangkap9)."554\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."1234\n".
+tambah_nomor($tangkap9)."4321\n".
+tambah_nomor($tangkap9)."5\n".
+tambah_nomor($tangkap9)."55\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."5555\n".
+tambah_nomor($tangkap9)."55555\n".
+tambah_nomor($tangkap9)."51\n".
+tambah_nomor($tangkap9)."52\n".
+tambah_nomor($tangkap9)."53\n".
+tambah_nomor($tangkap9)."54\n".
+tambah_nomor($tangkap9)."55\n".
+tambah_nomor($tangkap9)."511\n".
+tambah_nomor($tangkap9)."522\n".
+tambah_nomor($tangkap9)."533\n".
+tambah_nomor($tangkap9)."544\n".
+tambah_nomor($tangkap9)."655\n".
+tambah_nomor($tangkap9)."515\n".
+tambah_nomor($tangkap9)."525\n".
+tambah_nomor($tangkap9)."535\n".
+tambah_nomor($tangkap9)."545\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."115\n".
+tambah_nomor($tangkap9)."225\n".
+tambah_nomor($tangkap9)."335\n".
+tambah_nomor($tangkap9)."445\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."551\n".
+tambah_nomor($tangkap9)."552\n".
+tambah_nomor($tangkap9)."553\n".
+tambah_nomor($tangkap9)."554\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."345\n".
+tambah_nomor($tangkap9)."12345\n".
+tambah_nomor($tangkap9)."54321\n".
+tambah_nomor($tangkap9)."6\n".
+tambah_nomor($tangkap9)."66\n".
+tambah_nomor($tangkap9)."666\n".
+tambah_nomor($tangkap9)."6666\n".
+tambah_nomor($tangkap9)."66666\n".
+tambah_nomor($tangkap9)."61\n".
+tambah_nomor($tangkap9)."62\n".
+tambah_nomor($tangkap9)."63\n".
+tambah_nomor($tangkap9)."64\n".
+tambah_nomor($tangkap9)."65\n".
+tambah_nomor($tangkap9)."611\n".
+tambah_nomor($tangkap9)."622\n".
+tambah_nomor($tangkap9)."633\n".
+tambah_nomor($tangkap9)."644\n".
+tambah_nomor($tangkap9)."655\n".
+tambah_nomor($tangkap9)."616\n".
+tambah_nomor($tangkap9)."626\n".
+tambah_nomor($tangkap9)."636\n".
+tambah_nomor($tangkap9)."646\n".
+tambah_nomor($tangkap9)."656\n".
+tambah_nomor($tangkap9)."116\n".
+tambah_nomor($tangkap9)."226\n".
+tambah_nomor($tangkap9)."336\n".
+tambah_nomor($tangkap9)."446\n".
+tambah_nomor($tangkap9)."556\n".
+tambah_nomor($tangkap9)."661\n".
+tambah_nomor($tangkap9)."662\n".
+tambah_nomor($tangkap9)."663\n".
+tambah_nomor($tangkap9)."664\n".
+tambah_nomor($tangkap9)."665\n".
+tambah_nomor($tangkap9)."456\n".
+tambah_nomor($tangkap9)."123456\n".
+tambah_nomor($tangkap9)."654321\n".
+tambah_nomor($tangkap9)."7\n".
+tambah_nomor($tangkap9)."77\n".
+tambah_nomor($tangkap9)."777\n".
+tambah_nomor($tangkap9)."7777\n".
+tambah_nomor($tangkap9)."77777\n".
+tambah_nomor($tangkap9)."71\n".
+tambah_nomor($tangkap9)."72\n".
+tambah_nomor($tangkap9)."73\n".
+tambah_nomor($tangkap9)."74\n".
+tambah_nomor($tangkap9)."75\n".
+tambah_nomor($tangkap9)."711\n".
+tambah_nomor($tangkap9)."722\n".
+tambah_nomor($tangkap9)."733\n".
+tambah_nomor($tangkap9)."744\n".
+tambah_nomor($tangkap9)."755\n".
+tambah_nomor($tangkap9)."717\n".
+tambah_nomor($tangkap9)."727\n".
+tambah_nomor($tangkap9)."737\n".
+tambah_nomor($tangkap9)."747\n".
+tambah_nomor($tangkap9)."757\n".
+tambah_nomor($tangkap9)."117\n".
+tambah_nomor($tangkap9)."227\n".
+tambah_nomor($tangkap9)."337\n".
+tambah_nomor($tangkap9)."447\n".
+tambah_nomor($tangkap9)."557\n".
+tambah_nomor($tangkap9)."771\n".
+tambah_nomor($tangkap9)."772\n".
+tambah_nomor($tangkap9)."773\n".
+tambah_nomor($tangkap9)."774\n".
+tambah_nomor($tangkap9)."775\n".
+tambah_nomor($tangkap9)."457\n".
+tambah_nomor($tangkap9)."1234567\n".
+tambah_nomor($tangkap9)."7654321\n".
+tambah_nomor($tangkap9)."8\n".
+tambah_nomor($tangkap9)."88\n".
+tambah_nomor($tangkap9)."888\n".
+tambah_nomor($tangkap9)."8888\n".
+tambah_nomor($tangkap9)."88888\n".
+tambah_nomor($tangkap9)."81\n".
+tambah_nomor($tangkap9)."82\n".
+tambah_nomor($tangkap9)."83\n".
+tambah_nomor($tangkap9)."84\n".
+tambah_nomor($tangkap9)."85\n".
+tambah_nomor($tangkap9)."811\n".
+tambah_nomor($tangkap9)."822\n".
+tambah_nomor($tangkap9)."833\n".
+tambah_nomor($tangkap9)."844\n".
+tambah_nomor($tangkap9)."855\n".
+tambah_nomor($tangkap9)."818\n".
+tambah_nomor($tangkap9)."828\n".
+tambah_nomor($tangkap9)."838\n".
+tambah_nomor($tangkap9)."848\n".
+tambah_nomor($tangkap9)."858\n".
+tambah_nomor($tangkap9)."118\n".
+tambah_nomor($tangkap9)."228\n".
+tambah_nomor($tangkap9)."338\n".
+tambah_nomor($tangkap9)."448\n".
+tambah_nomor($tangkap9)."558\n".
+tambah_nomor($tangkap9)."881\n".
+tambah_nomor($tangkap9)."882\n".
+tambah_nomor($tangkap9)."883\n".
+tambah_nomor($tangkap9)."884\n".
+tambah_nomor($tangkap9)."885\n".
+tambah_nomor($tangkap9)."458\n".
+tambah_nomor($tangkap9)."12345678\n".
+tambah_nomor($tangkap9)."87654321\n".
+tambah_nomor($tangkap9)."9\n".
+tambah_nomor($tangkap9)."99\n".
+tambah_nomor($tangkap9)."999\n".
+tambah_nomor($tangkap9)."9999\n".
+tambah_nomor($tangkap9)."99999\n".
+tambah_nomor($tangkap9)."91\n".
+tambah_nomor($tangkap9)."92\n".
+tambah_nomor($tangkap9)."93\n".
+tambah_nomor($tangkap9)."94\n".
+tambah_nomor($tangkap9)."95\n".
+tambah_nomor($tangkap9)."911\n".
+tambah_nomor($tangkap9)."922\n".
+tambah_nomor($tangkap9)."933\n".
+tambah_nomor($tangkap9)."944\n".
+tambah_nomor($tangkap9)."955\n".
+tambah_nomor($tangkap9)."919\n".
+tambah_nomor($tangkap9)."929\n".
+tambah_nomor($tangkap9)."939\n".
+tambah_nomor($tangkap9)."949\n".
+tambah_nomor($tangkap9)."959\n".
+tambah_nomor($tangkap9)."119\n".
+tambah_nomor($tangkap9)."229\n".
+tambah_nomor($tangkap9)."339\n".
+tambah_nomor($tangkap9)."449\n".
+tambah_nomor($tangkap9)."559\n".
+tambah_nomor($tangkap9)."991\n".
+tambah_nomor($tangkap9)."992\n".
+tambah_nomor($tangkap9)."993\n".
+tambah_nomor($tangkap9)."994\n".
+tambah_nomor($tangkap9)."995\n".
+tambah_nomor($tangkap9)."459\n".
+tambah_nomor($tangkap9)."12345678\n".
+tambah_nomor($tangkap9)."987654321\n".
+tambah_nomor($tangkap9)."0\n".
+tambah_nomor($tangkap9)."00\n".
+tambah_nomor($tangkap9)."000\n".
+tambah_nomor($tangkap9)."0000\n".
+tambah_nomor($tangkap9)."00000\n".
+tambah_nomor($tangkap9)."01\n".
+tambah_nomor($tangkap9)."02\n".
+tambah_nomor($tangkap9)."03\n".
+tambah_nomor($tangkap9)."04\n".
+tambah_nomor($tangkap9)."05\n".
+tambah_nomor($tangkap9)."011\n".
+tambah_nomor($tangkap9)."022\n".
+tambah_nomor($tangkap9)."033\n".
+tambah_nomor($tangkap9)."044\n".
+tambah_nomor($tangkap9)."055\n".
+tambah_nomor($tangkap9)."010\n".
+tambah_nomor($tangkap9)."020\n".
+tambah_nomor($tangkap9)."030\n".
+tambah_nomor($tangkap9)."040\n".
+tambah_nomor($tangkap9)."050\n".
+tambah_nomor($tangkap9)."110\n".
+tambah_nomor($tangkap9)."220\n".
+tambah_nomor($tangkap9)."330\n".
+tambah_nomor($tangkap9)."440\n".
+tambah_nomor($tangkap9)."550\n".
+tambah_nomor($tangkap9)."001\n".
+tambah_nomor($tangkap9)."002\n".
+tambah_nomor($tangkap9)."003\n".
+tambah_nomor($tangkap9)."004\n".
+tambah_nomor($tangkap9)."005\n".
+tambah_nomor($tangkap9)."450\n".
+tambah_nomor($tangkap9)."1234567890\n".
+tambah_nomor($tangkap8)."1\n".
+tambah_nomor($tangkap8)."11\n".
+tambah_nomor($tangkap8)."111\n".
+tambah_nomor($tangkap8)."1111\n".
+tambah_nomor($tangkap8)."11111\n".
+tambah_nomor($tangkap8)."2\n".
+tambah_nomor($tangkap8)."22\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."2222\n".
+tambah_nomor($tangkap8)."22222\n".
+tambah_nomor($tangkap8)."21\n".
+tambah_nomor($tangkap8)."22\n".
+tambah_nomor($tangkap8)."23\n".
+tambah_nomor($tangkap8)."24\n".
+tambah_nomor($tangkap8)."25\n".
+tambah_nomor($tangkap8)."26\n".
+tambah_nomor($tangkap8)."27\n".
+tambah_nomor($tangkap8)."28\n".
+tambah_nomor($tangkap8)."29\n".
+tambah_nomor($tangkap8)."211\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."233\n".
+tambah_nomor($tangkap8)."244\n".
+tambah_nomor($tangkap8)."255\n".
+tambah_nomor($tangkap8)."212\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."232\n".
+tambah_nomor($tangkap8)."242\n".
+tambah_nomor($tangkap8)."252\n".
+tambah_nomor($tangkap8)."112\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."332\n".
+tambah_nomor($tangkap8)."442\n".
+tambah_nomor($tangkap8)."552\n".
+tambah_nomor($tangkap8)."221\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."223\n".
+tambah_nomor($tangkap8)."224\n".
+tambah_nomor($tangkap8)."225\n".
+tambah_nomor($tangkap8)."452\n".
+tambah_nomor($tangkap8)."12\n".
+tambah_nomor($tangkap8)."21\n".
+tambah_nomor($tangkap8)."3\n".
+tambah_nomor($tangkap8)."33\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."3333\n".
+tambah_nomor($tangkap8)."33333\n".
+tambah_nomor($tangkap8)."31\n".
+tambah_nomor($tangkap8)."32\n".
+tambah_nomor($tangkap8)."33\n".
+tambah_nomor($tangkap8)."34\n".
+tambah_nomor($tangkap8)."35\n".
+tambah_nomor($tangkap8)."311\n".
+tambah_nomor($tangkap8)."322\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."344\n".
+tambah_nomor($tangkap8)."355\n".
+tambah_nomor($tangkap8)."313\n".
+tambah_nomor($tangkap8)."323\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."343\n".
+tambah_nomor($tangkap8)."353\n".
+tambah_nomor($tangkap8)."113\n".
+tambah_nomor($tangkap8)."223\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."443\n".
+tambah_nomor($tangkap8)."553\n".
+tambah_nomor($tangkap8)."331\n".
+tambah_nomor($tangkap8)."332\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."334\n".
+tambah_nomor($tangkap8)."335\n".
+tambah_nomor($tangkap8)."453\n".
+tambah_nomor($tangkap8)."123\n".
+tambah_nomor($tangkap8)."321\n".
+tambah_nomor($tangkap8)."4\n".
+tambah_nomor($tangkap8)."44\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."4444\n".
+tambah_nomor($tangkap8)."44444\n".
+tambah_nomor($tangkap8)."41\n".
+tambah_nomor($tangkap8)."42\n".
+tambah_nomor($tangkap8)."43\n".
+tambah_nomor($tangkap8)."44\n".
+tambah_nomor($tangkap8)."45\n".
+tambah_nomor($tangkap8)."411\n".
+tambah_nomor($tangkap8)."422\n".
+tambah_nomor($tangkap8)."433\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."455\n".
+tambah_nomor($tangkap8)."414\n".
+tambah_nomor($tangkap8)."424\n".
+tambah_nomor($tangkap8)."434\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."454\n".
+tambah_nomor($tangkap8)."114\n".
+tambah_nomor($tangkap8)."224\n".
+tambah_nomor($tangkap8)."334\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."441\n".
+tambah_nomor($tangkap8)."442\n".
+tambah_nomor($tangkap8)."443\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."445\n".
+tambah_nomor($tangkap8)."554\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."1234\n".
+tambah_nomor($tangkap8)."4321\n".
+tambah_nomor($tangkap8)."5\n".
+tambah_nomor($tangkap8)."55\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."5555\n".
+tambah_nomor($tangkap8)."55555\n".
+tambah_nomor($tangkap8)."51\n".
+tambah_nomor($tangkap8)."52\n".
+tambah_nomor($tangkap8)."53\n".
+tambah_nomor($tangkap8)."54\n".
+tambah_nomor($tangkap8)."55\n".
+tambah_nomor($tangkap8)."511\n".
+tambah_nomor($tangkap8)."522\n".
+tambah_nomor($tangkap8)."533\n".
+tambah_nomor($tangkap8)."544\n".
+tambah_nomor($tangkap8)."655\n".
+tambah_nomor($tangkap8)."515\n".
+tambah_nomor($tangkap8)."525\n".
+tambah_nomor($tangkap8)."535\n".
+tambah_nomor($tangkap8)."545\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."115\n".
+tambah_nomor($tangkap8)."225\n".
+tambah_nomor($tangkap8)."335\n".
+tambah_nomor($tangkap8)."445\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."551\n".
+tambah_nomor($tangkap8)."552\n".
+tambah_nomor($tangkap8)."553\n".
+tambah_nomor($tangkap8)."554\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."345\n".
+tambah_nomor($tangkap8)."12345\n".
+tambah_nomor($tangkap8)."54321\n".
+tambah_nomor($tangkap8)."6\n".
+tambah_nomor($tangkap8)."66\n".
+tambah_nomor($tangkap8)."666\n".
+tambah_nomor($tangkap8)."6666\n".
+tambah_nomor($tangkap8)."66666\n".
+tambah_nomor($tangkap8)."61\n".
+tambah_nomor($tangkap8)."62\n".
+tambah_nomor($tangkap8)."63\n".
+tambah_nomor($tangkap8)."64\n".
+tambah_nomor($tangkap8)."65\n".
+tambah_nomor($tangkap8)."611\n".
+tambah_nomor($tangkap8)."622\n".
+tambah_nomor($tangkap8)."633\n".
+tambah_nomor($tangkap8)."644\n".
+tambah_nomor($tangkap8)."655\n".
+tambah_nomor($tangkap8)."616\n".
+tambah_nomor($tangkap8)."626\n".
+tambah_nomor($tangkap8)."636\n".
+tambah_nomor($tangkap8)."646\n".
+tambah_nomor($tangkap8)."656\n".
+tambah_nomor($tangkap8)."116\n".
+tambah_nomor($tangkap8)."226\n".
+tambah_nomor($tangkap8)."336\n".
+tambah_nomor($tangkap8)."446\n".
+tambah_nomor($tangkap8)."556\n".
+tambah_nomor($tangkap8)."661\n".
+tambah_nomor($tangkap8)."662\n".
+tambah_nomor($tangkap8)."663\n".
+tambah_nomor($tangkap8)."664\n".
+tambah_nomor($tangkap8)."665\n".
+tambah_nomor($tangkap8)."456\n".
+tambah_nomor($tangkap8)."123456\n".
+tambah_nomor($tangkap8)."654321\n".
+tambah_nomor($tangkap8)."7\n".
+tambah_nomor($tangkap8)."77\n".
+tambah_nomor($tangkap8)."777\n".
+tambah_nomor($tangkap8)."7777\n".
+tambah_nomor($tangkap8)."77777\n".
+tambah_nomor($tangkap8)."71\n".
+tambah_nomor($tangkap8)."72\n".
+tambah_nomor($tangkap8)."73\n".
+tambah_nomor($tangkap8)."74\n".
+tambah_nomor($tangkap8)."75\n".
+tambah_nomor($tangkap8)."711\n".
+tambah_nomor($tangkap8)."722\n".
+tambah_nomor($tangkap8)."733\n".
+tambah_nomor($tangkap8)."744\n".
+tambah_nomor($tangkap8)."755\n".
+tambah_nomor($tangkap8)."717\n".
+tambah_nomor($tangkap8)."727\n".
+tambah_nomor($tangkap8)."737\n".
+tambah_nomor($tangkap8)."747\n".
+tambah_nomor($tangkap8)."757\n".
+tambah_nomor($tangkap8)."117\n".
+tambah_nomor($tangkap8)."227\n".
+tambah_nomor($tangkap8)."337\n".
+tambah_nomor($tangkap8)."447\n".
+tambah_nomor($tangkap8)."557\n".
+tambah_nomor($tangkap8)."771\n".
+tambah_nomor($tangkap8)."772\n".
+tambah_nomor($tangkap8)."773\n".
+tambah_nomor($tangkap8)."774\n".
+tambah_nomor($tangkap8)."775\n".
+tambah_nomor($tangkap8)."457\n".
+tambah_nomor($tangkap8)."1234567\n".
+tambah_nomor($tangkap8)."7654321\n".
+tambah_nomor($tangkap8)."8\n".
+tambah_nomor($tangkap8)."88\n".
+tambah_nomor($tangkap8)."888\n".
+tambah_nomor($tangkap8)."8888\n".
+tambah_nomor($tangkap8)."88888\n".
+tambah_nomor($tangkap8)."81\n".
+tambah_nomor($tangkap8)."82\n".
+tambah_nomor($tangkap8)."83\n".
+tambah_nomor($tangkap8)."84\n".
+tambah_nomor($tangkap8)."85\n".
+tambah_nomor($tangkap8)."811\n".
+tambah_nomor($tangkap8)."822\n".
+tambah_nomor($tangkap8)."833\n".
+tambah_nomor($tangkap8)."844\n".
+tambah_nomor($tangkap8)."855\n".
+tambah_nomor($tangkap8)."818\n".
+tambah_nomor($tangkap8)."828\n".
+tambah_nomor($tangkap8)."838\n".
+tambah_nomor($tangkap8)."848\n".
+tambah_nomor($tangkap8)."858\n".
+tambah_nomor($tangkap8)."118\n".
+tambah_nomor($tangkap8)."228\n".
+tambah_nomor($tangkap8)."338\n".
+tambah_nomor($tangkap8)."448\n".
+tambah_nomor($tangkap8)."558\n".
+tambah_nomor($tangkap8)."881\n".
+tambah_nomor($tangkap8)."882\n".
+tambah_nomor($tangkap8)."883\n".
+tambah_nomor($tangkap8)."884\n".
+tambah_nomor($tangkap8)."885\n".
+tambah_nomor($tangkap8)."458\n".
+tambah_nomor($tangkap8)."12345678\n".
+tambah_nomor($tangkap8)."87654321\n".
+tambah_nomor($tangkap8)."9\n".
+tambah_nomor($tangkap8)."99\n".
+tambah_nomor($tangkap8)."999\n".
+tambah_nomor($tangkap8)."9999\n".
+tambah_nomor($tangkap8)."99999\n".
+tambah_nomor($tangkap8)."91\n".
+tambah_nomor($tangkap8)."92\n".
+tambah_nomor($tangkap8)."93\n".
+tambah_nomor($tangkap8)."94\n".
+tambah_nomor($tangkap8)."95\n".
+tambah_nomor($tangkap8)."911\n".
+tambah_nomor($tangkap8)."922\n".
+tambah_nomor($tangkap8)."933\n".
+tambah_nomor($tangkap8)."944\n".
+tambah_nomor($tangkap8)."955\n".
+tambah_nomor($tangkap8)."919\n".
+tambah_nomor($tangkap8)."929\n".
+tambah_nomor($tangkap8)."939\n".
+tambah_nomor($tangkap8)."949\n".
+tambah_nomor($tangkap8)."959\n".
+tambah_nomor($tangkap8)."119\n".
+tambah_nomor($tangkap8)."229\n".
+tambah_nomor($tangkap8)."339\n".
+tambah_nomor($tangkap8)."449\n".
+tambah_nomor($tangkap8)."559\n".
+tambah_nomor($tangkap8)."991\n".
+tambah_nomor($tangkap8)."992\n".
+tambah_nomor($tangkap8)."993\n".
+tambah_nomor($tangkap8)."994\n".
+tambah_nomor($tangkap8)."995\n".
+tambah_nomor($tangkap8)."459\n".
+tambah_nomor($tangkap8)."12345678\n".
+tambah_nomor($tangkap8)."987654321\n".
+tambah_nomor($tangkap8)."0\n".
+tambah_nomor($tangkap8)."00\n".
+tambah_nomor($tangkap8)."000\n".
+tambah_nomor($tangkap8)."0000\n".
+tambah_nomor($tangkap8)."00000\n".
+tambah_nomor($tangkap8)."01\n".
+tambah_nomor($tangkap8)."02\n".
+tambah_nomor($tangkap8)."03\n".
+tambah_nomor($tangkap8)."04\n".
+tambah_nomor($tangkap8)."05\n".
+tambah_nomor($tangkap8)."011\n".
+tambah_nomor($tangkap8)."022\n".
+tambah_nomor($tangkap8)."033\n".
+tambah_nomor($tangkap8)."044\n".
+tambah_nomor($tangkap8)."055\n".
+tambah_nomor($tangkap8)."010\n".
+tambah_nomor($tangkap8)."020\n".
+tambah_nomor($tangkap8)."030\n".
+tambah_nomor($tangkap8)."040\n".
+tambah_nomor($tangkap8)."050\n".
+tambah_nomor($tangkap8)."110\n".
+tambah_nomor($tangkap8)."220\n".
+tambah_nomor($tangkap8)."330\n".
+tambah_nomor($tangkap8)."440\n".
+tambah_nomor($tangkap8)."550\n".
+tambah_nomor($tangkap8)."001\n".
+tambah_nomor($tangkap8)."002\n".
+tambah_nomor($tangkap8)."003\n".
+tambah_nomor($tangkap8)."004\n".
+tambah_nomor($tangkap8)."005\n".
+tambah_nomor($tangkap8)."450\n".
+tambah_nomor($tangkap8)."1234567890\n".
+tambah_nomor($tangkap16)."1\n".
+tambah_nomor($tangkap16)."11\n".
+tambah_nomor($tangkap16)."111\n".
+tambah_nomor($tangkap16)."1111\n".
+tambah_nomor($tangkap16)."11111\n".
+tambah_nomor($tangkap16)."2\n".
+tambah_nomor($tangkap16)."22\n".
+tambah_nomor($tangkap16)."222\n".
+tambah_nomor($tangkap16)."2222\n".
+tambah_nomor($tangkap16)."22222\n".
+tambah_nomor($tangkap16)."21\n".
+tambah_nomor($tangkap16)."22\n".
+tambah_nomor($tangkap16)."23\n".
+tambah_nomor($tangkap16)."24\n".
+tambah_nomor($tangkap16)."25\n".
+tambah_nomor($tangkap16)."26\n".
+tambah_nomor($tangkap16)."27\n".
+tambah_nomor($tangkap16)."28\n".
+tambah_nomor($tangkap16)."29\n".
+tambah_nomor($tangkap16)."211\n".
+tambah_nomor($tangkap16)."222\n".
+tambah_nomor($tangkap16)."233\n".
+tambah_nomor($tangkap16)."244\n".
+tambah_nomor($tangkap16)."255\n".
+tambah_nomor($tangkap16)."212\n".
+tambah_nomor($tangkap16)."222\n".
+tambah_nomor($tangkap16)."232\n".
+tambah_nomor($tangkap16)."242\n".
+tambah_nomor($tangkap16)."252\n".
+tambah_nomor($tangkap16)."112\n".
+tambah_nomor($tangkap16)."222\n".
+tambah_nomor($tangkap16)."332\n".
+tambah_nomor($tangkap16)."442\n".
+tambah_nomor($tangkap16)."552\n".
+tambah_nomor($tangkap16)."221\n".
+tambah_nomor($tangkap16)."222\n".
+tambah_nomor($tangkap16)."223\n".
+tambah_nomor($tangkap16)."224\n".
+tambah_nomor($tangkap16)."225\n".
+tambah_nomor($tangkap16)."452\n".
+tambah_nomor($tangkap16)."12\n".
+tambah_nomor($tangkap16)."21\n".
+tambah_nomor($tangkap16)."3\n".
+tambah_nomor($tangkap16)."33\n".
+tambah_nomor($tangkap16)."333\n".
+tambah_nomor($tangkap16)."3333\n".
+tambah_nomor($tangkap16)."33333\n".
+tambah_nomor($tangkap16)."31\n".
+tambah_nomor($tangkap16)."32\n".
+tambah_nomor($tangkap16)."33\n".
+tambah_nomor($tangkap16)."34\n".
+tambah_nomor($tangkap16)."35\n".
+tambah_nomor($tangkap16)."311\n".
+tambah_nomor($tangkap16)."322\n".
+tambah_nomor($tangkap16)."333\n".
+tambah_nomor($tangkap16)."344\n".
+tambah_nomor($tangkap16)."355\n".
+tambah_nomor($tangkap16)."313\n".
+tambah_nomor($tangkap16)."323\n".
+tambah_nomor($tangkap16)."333\n".
+tambah_nomor($tangkap16)."343\n".
+tambah_nomor($tangkap16)."353\n".
+tambah_nomor($tangkap16)."113\n".
+tambah_nomor($tangkap16)."223\n".
+tambah_nomor($tangkap16)."333\n".
+tambah_nomor($tangkap16)."443\n".
+tambah_nomor($tangkap16)."553\n".
+tambah_nomor($tangkap16)."331\n".
+tambah_nomor($tangkap16)."332\n".
+tambah_nomor($tangkap16)."333\n".
+tambah_nomor($tangkap16)."334\n".
+tambah_nomor($tangkap16)."335\n".
+tambah_nomor($tangkap16)."453\n".
+tambah_nomor($tangkap16)."123\n".
+tambah_nomor($tangkap16)."321\n".
+tambah_nomor($tangkap16)."4\n".
+tambah_nomor($tangkap16)."44\n".
+tambah_nomor($tangkap16)."444\n".
+tambah_nomor($tangkap16)."4444\n".
+tambah_nomor($tangkap16)."44444\n".
+tambah_nomor($tangkap16)."41\n".
+tambah_nomor($tangkap16)."42\n".
+tambah_nomor($tangkap16)."43\n".
+tambah_nomor($tangkap16)."44\n".
+tambah_nomor($tangkap16)."45\n".
+tambah_nomor($tangkap16)."411\n".
+tambah_nomor($tangkap16)."422\n".
+tambah_nomor($tangkap16)."433\n".
+tambah_nomor($tangkap16)."444\n".
+tambah_nomor($tangkap16)."455\n".
+tambah_nomor($tangkap16)."414\n".
+tambah_nomor($tangkap16)."424\n".
+tambah_nomor($tangkap16)."434\n".
+tambah_nomor($tangkap16)."444\n".
+tambah_nomor($tangkap16)."454\n".
+tambah_nomor($tangkap16)."114\n".
+tambah_nomor($tangkap16)."224\n".
+tambah_nomor($tangkap16)."334\n".
+tambah_nomor($tangkap16)."444\n".
+tambah_nomor($tangkap16)."441\n".
+tambah_nomor($tangkap16)."442\n".
+tambah_nomor($tangkap16)."443\n".
+tambah_nomor($tangkap16)."444\n".
+tambah_nomor($tangkap16)."445\n".
+tambah_nomor($tangkap16)."554\n".
+tambah_nomor($tangkap16)."444\n".
+tambah_nomor($tangkap16)."1234\n".
+tambah_nomor($tangkap16)."4321\n".
+tambah_nomor($tangkap16)."5\n".
+tambah_nomor($tangkap16)."55\n".
+tambah_nomor($tangkap16)."555\n".
+tambah_nomor($tangkap16)."5555\n".
+tambah_nomor($tangkap16)."55555\n".
+tambah_nomor($tangkap16)."51\n".
+tambah_nomor($tangkap16)."52\n".
+tambah_nomor($tangkap16)."53\n".
+tambah_nomor($tangkap16)."54\n".
+tambah_nomor($tangkap16)."55\n".
+tambah_nomor($tangkap16)."511\n".
+tambah_nomor($tangkap16)."522\n".
+tambah_nomor($tangkap16)."533\n".
+tambah_nomor($tangkap16)."544\n".
+tambah_nomor($tangkap16)."655\n".
+tambah_nomor($tangkap16)."515\n".
+tambah_nomor($tangkap16)."525\n".
+tambah_nomor($tangkap16)."535\n".
+tambah_nomor($tangkap16)."545\n".
+tambah_nomor($tangkap16)."555\n".
+tambah_nomor($tangkap16)."115\n".
+tambah_nomor($tangkap16)."225\n".
+tambah_nomor($tangkap16)."335\n".
+tambah_nomor($tangkap16)."445\n".
+tambah_nomor($tangkap16)."555\n".
+tambah_nomor($tangkap16)."551\n".
+tambah_nomor($tangkap16)."552\n".
+tambah_nomor($tangkap16)."553\n".
+tambah_nomor($tangkap16)."554\n".
+tambah_nomor($tangkap16)."555\n".
+tambah_nomor($tangkap16)."345\n".
+tambah_nomor($tangkap16)."12345\n".
+tambah_nomor($tangkap16)."54321\n".
+tambah_nomor($tangkap16)."6\n".
+tambah_nomor($tangkap16)."66\n".
+tambah_nomor($tangkap16)."666\n".
+tambah_nomor($tangkap16)."6666\n".
+tambah_nomor($tangkap16)."66666\n".
+tambah_nomor($tangkap16)."61\n".
+tambah_nomor($tangkap16)."62\n".
+tambah_nomor($tangkap16)."63\n".
+tambah_nomor($tangkap16)."64\n".
+tambah_nomor($tangkap16)."65\n".
+tambah_nomor($tangkap16)."611\n".
+tambah_nomor($tangkap16)."622\n".
+tambah_nomor($tangkap16)."633\n".
+tambah_nomor($tangkap16)."644\n".
+tambah_nomor($tangkap16)."655\n".
+tambah_nomor($tangkap16)."616\n".
+tambah_nomor($tangkap16)."626\n".
+tambah_nomor($tangkap16)."636\n".
+tambah_nomor($tangkap16)."646\n".
+tambah_nomor($tangkap16)."656\n".
+tambah_nomor($tangkap16)."116\n".
+tambah_nomor($tangkap16)."226\n".
+tambah_nomor($tangkap16)."336\n".
+tambah_nomor($tangkap16)."446\n".
+tambah_nomor($tangkap16)."556\n".
+tambah_nomor($tangkap16)."661\n".
+tambah_nomor($tangkap16)."662\n".
+tambah_nomor($tangkap16)."663\n".
+tambah_nomor($tangkap16)."664\n".
+tambah_nomor($tangkap16)."665\n".
+tambah_nomor($tangkap16)."456\n".
+tambah_nomor($tangkap16)."123456\n".
+tambah_nomor($tangkap16)."654321\n".
+tambah_nomor($tangkap16)."7\n".
+tambah_nomor($tangkap16)."77\n".
+tambah_nomor($tangkap16)."777\n".
+tambah_nomor($tangkap16)."7777\n".
+tambah_nomor($tangkap16)."77777\n".
+tambah_nomor($tangkap16)."71\n".
+tambah_nomor($tangkap16)."72\n".
+tambah_nomor($tangkap16)."73\n".
+tambah_nomor($tangkap16)."74\n".
+tambah_nomor($tangkap16)."75\n".
+tambah_nomor($tangkap16)."711\n".
+tambah_nomor($tangkap16)."722\n".
+tambah_nomor($tangkap16)."733\n".
+tambah_nomor($tangkap16)."744\n".
+tambah_nomor($tangkap16)."755\n".
+tambah_nomor($tangkap16)."717\n".
+tambah_nomor($tangkap16)."727\n".
+tambah_nomor($tangkap16)."737\n".
+tambah_nomor($tangkap16)."747\n".
+tambah_nomor($tangkap16)."757\n".
+tambah_nomor($tangkap16)."117\n".
+tambah_nomor($tangkap16)."227\n".
+tambah_nomor($tangkap16)."337\n".
+tambah_nomor($tangkap16)."447\n".
+tambah_nomor($tangkap16)."557\n".
+tambah_nomor($tangkap16)."771\n".
+tambah_nomor($tangkap16)."772\n".
+tambah_nomor($tangkap16)."773\n".
+tambah_nomor($tangkap16)."774\n".
+tambah_nomor($tangkap16)."775\n".
+tambah_nomor($tangkap16)."457\n".
+tambah_nomor($tangkap16)."1234567\n".
+tambah_nomor($tangkap16)."7654321\n".
+tambah_nomor($tangkap16)."8\n".
+tambah_nomor($tangkap16)."88\n".
+tambah_nomor($tangkap16)."888\n".
+tambah_nomor($tangkap16)."8888\n".
+tambah_nomor($tangkap16)."88888\n".
+tambah_nomor($tangkap16)."81\n".
+tambah_nomor($tangkap16)."82\n".
+tambah_nomor($tangkap16)."83\n".
+tambah_nomor($tangkap16)."84\n".
+tambah_nomor($tangkap16)."85\n".
+tambah_nomor($tangkap16)."811\n".
+tambah_nomor($tangkap16)."822\n".
+tambah_nomor($tangkap16)."833\n".
+tambah_nomor($tangkap16)."844\n".
+tambah_nomor($tangkap16)."855\n".
+tambah_nomor($tangkap16)."818\n".
+tambah_nomor($tangkap16)."828\n".
+tambah_nomor($tangkap16)."838\n".
+tambah_nomor($tangkap16)."848\n".
+tambah_nomor($tangkap16)."858\n".
+tambah_nomor($tangkap16)."118\n".
+tambah_nomor($tangkap16)."228\n".
+tambah_nomor($tangkap16)."338\n".
+tambah_nomor($tangkap16)."448\n".
+tambah_nomor($tangkap16)."558\n".
+tambah_nomor($tangkap16)."881\n".
+tambah_nomor($tangkap16)."882\n".
+tambah_nomor($tangkap16)."883\n".
+tambah_nomor($tangkap16)."884\n".
+tambah_nomor($tangkap16)."885\n".
+tambah_nomor($tangkap16)."458\n".
+tambah_nomor($tangkap16)."12345678\n".
+tambah_nomor($tangkap16)."87654321\n".
+tambah_nomor($tangkap16)."9\n".
+tambah_nomor($tangkap16)."99\n".
+tambah_nomor($tangkap16)."999\n".
+tambah_nomor($tangkap16)."9999\n".
+tambah_nomor($tangkap16)."99999\n".
+tambah_nomor($tangkap16)."91\n".
+tambah_nomor($tangkap16)."92\n".
+tambah_nomor($tangkap16)."93\n".
+tambah_nomor($tangkap16)."94\n".
+tambah_nomor($tangkap16)."95\n".
+tambah_nomor($tangkap16)."911\n".
+tambah_nomor($tangkap16)."922\n".
+tambah_nomor($tangkap16)."933\n".
+tambah_nomor($tangkap16)."944\n".
+tambah_nomor($tangkap16)."955\n".
+tambah_nomor($tangkap16)."919\n".
+tambah_nomor($tangkap16)."929\n".
+tambah_nomor($tangkap16)."939\n".
+tambah_nomor($tangkap16)."949\n".
+tambah_nomor($tangkap16)."959\n".
+tambah_nomor($tangkap16)."119\n".
+tambah_nomor($tangkap16)."229\n".
+tambah_nomor($tangkap16)."339\n".
+tambah_nomor($tangkap16)."449\n".
+tambah_nomor($tangkap16)."559\n".
+tambah_nomor($tangkap16)."991\n".
+tambah_nomor($tangkap16)."992\n".
+tambah_nomor($tangkap16)."993\n".
+tambah_nomor($tangkap16)."994\n".
+tambah_nomor($tangkap16)."995\n".
+tambah_nomor($tangkap16)."459\n".
+tambah_nomor($tangkap16)."12345678\n".
+tambah_nomor($tangkap16)."987654321\n".
+tambah_nomor($tangkap16)."0\n".
+tambah_nomor($tangkap16)."00\n".
+tambah_nomor($tangkap16)."000\n".
+tambah_nomor($tangkap16)."0000\n".
+tambah_nomor($tangkap16)."00000\n".
+tambah_nomor($tangkap16)."01\n".
+tambah_nomor($tangkap16)."02\n".
+tambah_nomor($tangkap16)."03\n".
+tambah_nomor($tangkap16)."04\n".
+tambah_nomor($tangkap16)."05\n".
+tambah_nomor($tangkap16)."011\n".
+tambah_nomor($tangkap16)."022\n".
+tambah_nomor($tangkap16)."033\n".
+tambah_nomor($tangkap16)."044\n".
+tambah_nomor($tangkap16)."055\n".
+tambah_nomor($tangkap16)."010\n".
+tambah_nomor($tangkap16)."020\n".
+tambah_nomor($tangkap16)."030\n".
+tambah_nomor($tangkap16)."040\n".
+tambah_nomor($tangkap16)."050\n".
+tambah_nomor($tangkap16)."110\n".
+tambah_nomor($tangkap16)."220\n".
+tambah_nomor($tangkap16)."330\n".
+tambah_nomor($tangkap16)."440\n".
+tambah_nomor($tangkap16)."550\n".
+tambah_nomor($tangkap16)."001\n".
+tambah_nomor($tangkap16)."002\n".
+tambah_nomor($tangkap16)."003\n".
+tambah_nomor($tangkap16)."004\n".
+tambah_nomor($tangkap16)."005\n".
+tambah_nomor($tangkap16)."450\n".
+tambah_nomor($tangkap16)."1234567890\n".
+
+
+
+    tambah_karakter($tangkap1).". \n".
+    tambah_karakter($tangkap1).", \n".
+    tambah_karakter($tangkap1).": \n".
+    tambah_karakter($tangkap1)."; \n".
+    tambah_karakter($tangkap1)."' \n".
+    tambah_karakter($tangkap1)."- \n".
+    tambah_karakter($tangkap1)."_ \n".
+    tambah_karakter($tangkap1)."\ \n".
+    tambah_karakter($tangkap1)."+ \n".
+    tambah_karakter($tangkap1)."= \n".
+    tambah_karakter($tangkap1)."! \n".
+    tambah_karakter($tangkap1)."@ \n".
+    tambah_karakter($tangkap1)."# \n".
+    tambah_karakter($tangkap1)."$ \n".
+    tambah_karakter($tangkap1)."% \n".
+    tambah_karakter($tangkap1)."^ \n".
+    tambah_karakter($tangkap1)."& \n".
+    tambah_karakter($tangkap1)."* \n".
+    tambah_karakter($tangkap1)."(-_-) \n".
+    tambah_karakter($tangkap1)."(*_*) \n".
+    tambah_karakter($tangkap1)."(#-#) \n".
+    tambah_karakter($tangkap1)."(^_^) \n".
+    tambah_karakter($tangkap1)."(^-^) \n".
+    tambah_karakter($tangkap1)."1+1 \n".
+    tambah_karakter($tangkap1)."1+2 \n".
+    tambah_karakter($tangkap1)."1+3 \n".
+    tambah_karakter($tangkap1)."1+4 \n".
+    tambah_karakter($tangkap1)."1+5 \n".
+    tambah_karakter($tangkap1)."{-_-} \n".
+    tambah_karakter($tangkap1)."{*_*} \n".
+    tambah_karakter($tangkap1)."{#_#} \n".
+    tambah_karakter($tangkap1)."{^_^} \n".
+    tambah_karakter($tangkap1)."{+_+} \n".
+    tambah_karakter($tangkap1)."[-_-] \n".
+    tambah_karakter($tangkap1)."[*_*] \n".
+    tambah_karakter($tangkap1)."[+_+] \n".
+    tambah_karakter($tangkap1)."[#_#] \n".
+    tambah_karakter($tangkap1)."[^_^] \n".
+    tambah_karakter($tangkap1)."[?_?] \n".
+    tambah_karakter($tangkap1)."? \n".
+    tambah_karakter($tangkap1)."/ \n".
+    tambah_karakter($tangkap1)."<-_-> \n".
+    tambah_karakter($tangkap1)."| \n".
+    tambah_karakter($tangkap1)."!! \n".
+    tambah_karakter($tangkap1)."!?! \n".
+    tambah_karakter($tangkap1)."!@! \n".
+    tambah_karakter($tangkap1)."!#! \n".
+    tambah_karakter($tangkap1)."!$! \n".
+    tambah_karakter($tangkap1)."!%! \n".
+    tambah_karakter($tangkap1)."!!! \n".
+    tambah_karakter($tangkap1)."!^! \n".
+    tambah_karakter($tangkap1)."!&! \n".
+    tambah_karakter($tangkap1)."!*! \n".
+    tambah_karakter($tangkap1)."!(!) \n".
+    tambah_karakter($tangkap1)."!_!\n".
+    tambah_karakter($tangkap1)."!-! \n".
+    tambah_karakter($tangkap1)."!+! \n".
+    tambah_karakter($tangkap1)."@!! \n".
+    tambah_karakter($tangkap1)."@@ \n".
+    tambah_karakter($tangkap1)."@@@ \n".
+    tambah_karakter($tangkap1)."@#@ \n".
+    tambah_karakter($tangkap1)."@_@ \n".
+    tambah_karakter($tangkap1)."@-@ \n".
+    tambah_karakter($tangkap1)."@*@ \n".
+    tambah_karakter($tangkap1)."@$# \n".
+    tambah_karakter($tangkap1)."@&@ \n".
+    tambah_karakter($tangkap1)."/// \n".
+    tambah_karakter($tangkap1)."%&* \n".
+    tambah_karakter($tangkap1)."##@ \n".
+    tambah_karakter($tangkap1)."##$ \n".
+    tambah_karakter($tangkap1)."#$# \n".
+    tambah_karakter($tangkap1)."#@# \n".
+    tambah_karakter($tangkap1)."##& \n".
+    tambah_karakter($tangkap1)."##* \n".
+    tambah_karakter($tangkap1)."!?!? \n".
+    tambah_karakter($tangkap1)."!1!1 \n".
+    tambah_karakter($tangkap1)."., \n".
+    tambah_karakter($tangkap1).".,! \n".
+    tambah_karakter($tangkap1)."'.,?! \n".
+    tambah_karakter($tangkap1).":; \n".
+    tambah_karakter($tangkap1).",. \n".
+    tambah_karakter($tangkap1)."'-! \n".
+    tambah_karakter($tangkap1)."+--+ \n".
+    tambah_karakter($tangkap1)."--+- \n".
+    tambah_karakter($tangkap1)."$^^$ \n".
+    tambah_karakter($tangkap1)."*123# \n".
+    tambah_karakter($tangkap1)."#555# \n".
+    tambah_karakter($tangkap1)."#999# \n".
+
+    tambah_karakter($tangkap2).". \n".
+    tambah_karakter($tangkap2).", \n".
+    tambah_karakter($tangkap2).": \n".
+    tambah_karakter($tangkap2)."; \n".
+    tambah_karakter($tangkap2)."' \n".
+    tambah_karakter($tangkap2)."- \n".
+    tambah_karakter($tangkap2)."_ \n".
+    tambah_karakter($tangkap2)."\ \n".
+    tambah_karakter($tangkap2)."+ \n".
+    tambah_karakter($tangkap2)."= \n".
+    tambah_karakter($tangkap2)."! \n".
+    tambah_karakter($tangkap2)."@ \n".
+    tambah_karakter($tangkap2)."# \n".
+    tambah_karakter($tangkap2)."$ \n".
+    tambah_karakter($tangkap2)."% \n".
+    tambah_karakter($tangkap2)."^ \n".
+    tambah_karakter($tangkap2)."& \n".
+    tambah_karakter($tangkap2)."* \n".
+    tambah_karakter($tangkap2)."(-_-) \n".
+    tambah_karakter($tangkap2)."(*_*) \n".
+    tambah_karakter($tangkap2)."(#-#) \n".
+    tambah_karakter($tangkap2)."(^_^) \n".
+    tambah_karakter($tangkap2)."(^-^) \n".
+    tambah_karakter($tangkap2)."1+1 \n".
+    tambah_karakter($tangkap2)."1+2 \n".
+    tambah_karakter($tangkap2)."1+3 \n".
+    tambah_karakter($tangkap2)."1+4 \n".
+    tambah_karakter($tangkap2)."1+5 \n".
+    tambah_karakter($tangkap2)."{-_-} \n".
+    tambah_karakter($tangkap2)."{*_*} \n".
+    tambah_karakter($tangkap2)."{#_#} \n".
+    tambah_karakter($tangkap2)."{^_^} \n".
+    tambah_karakter($tangkap2)."{+_+} \n".
+    tambah_karakter($tangkap2)."[-_-] \n".
+    tambah_karakter($tangkap2)."[*_*] \n".
+    tambah_karakter($tangkap2)."[+_+] \n".
+    tambah_karakter($tangkap2)."[#_#] \n".
+    tambah_karakter($tangkap2)."[^_^] \n".
+    tambah_karakter($tangkap2)."[?_?] \n".
+    tambah_karakter($tangkap2)."? \n".
+    tambah_karakter($tangkap2)."/ \n".
+    tambah_karakter($tangkap2)."<-_-> \n".
+    tambah_karakter($tangkap2)."| \n".
+    tambah_karakter($tangkap2)."!! \n".
+    tambah_karakter($tangkap2)."!?! \n".
+    tambah_karakter($tangkap2)."!@! \n".
+    tambah_karakter($tangkap2)."!#! \n".
+    tambah_karakter($tangkap2)."!$! \n".
+    tambah_karakter($tangkap2)."!%! \n".
+    tambah_karakter($tangkap2)."!!! \n".
+    tambah_karakter($tangkap2)."!^! \n".
+    tambah_karakter($tangkap2)."!&! \n".
+    tambah_karakter($tangkap2)."!*! \n".
+    tambah_karakter($tangkap2)."!(!) \n".
+    tambah_karakter($tangkap2)."!_!\n".
+    tambah_karakter($tangkap2)."!-! \n".
+    tambah_karakter($tangkap2)."!+! \n".
+    tambah_karakter($tangkap2)."@!! \n".
+    tambah_karakter($tangkap2)."@@ \n".
+    tambah_karakter($tangkap2)."@@@ \n".
+    tambah_karakter($tangkap2)."@#@ \n".
+    tambah_karakter($tangkap2)."@_@ \n".
+    tambah_karakter($tangkap2)."@-@ \n".
+    tambah_karakter($tangkap2)."@*@ \n".
+    tambah_karakter($tangkap2)."@$# \n".
+    tambah_karakter($tangkap2)."@&@ \n".
+    tambah_karakter($tangkap2)."/// \n".
+    tambah_karakter($tangkap2)."%&* \n".
+    tambah_karakter($tangkap2)."##@ \n".
+    tambah_karakter($tangkap2)."##$ \n".
+    tambah_karakter($tangkap2)."#$# \n".
+    tambah_karakter($tangkap2)."#@# \n".
+    tambah_karakter($tangkap2)."##& \n".
+    tambah_karakter($tangkap2)."##* \n".
+    tambah_karakter($tangkap2)."!?!? \n".
+    tambah_karakter($tangkap2)."!1!1 \n".
+    tambah_karakter($tangkap2)."., \n".
+    tambah_karakter($tangkap2).".,! \n".
+    tambah_karakter($tangkap2)."'.,?! \n".
+    tambah_karakter($tangkap2).":; \n".
+    tambah_karakter($tangkap2).",. \n".
+    tambah_karakter($tangkap2)."'-! \n".
+    tambah_karakter($tangkap2)."+--+ \n".
+    tambah_karakter($tangkap2)."--+- \n".
+    tambah_karakter($tangkap2)."$^^$ \n".
+    tambah_karakter($tangkap2)."*123# \n".
+    tambah_karakter($tangkap2)."#555# \n".
+    tambah_karakter($tangkap2)."#999# \n".
+
+    tambah_karakter($tangkap3).". \n".
+    tambah_karakter($tangkap3).", \n".
+    tambah_karakter($tangkap3).": \n".
+    tambah_karakter($tangkap3)."; \n".
+    tambah_karakter($tangkap3)."' \n".
+    tambah_karakter($tangkap3)."- \n".
+    tambah_karakter($tangkap3)."_ \n".
+    tambah_karakter($tangkap3)."\ \n".
+    tambah_karakter($tangkap3)."+ \n".
+    tambah_karakter($tangkap3)."= \n".
+    tambah_karakter($tangkap3)."! \n".
+    tambah_karakter($tangkap3)."@ \n".
+    tambah_karakter($tangkap3)."# \n".
+    tambah_karakter($tangkap3)."$ \n".
+    tambah_karakter($tangkap3)."% \n".
+    tambah_karakter($tangkap3)."^ \n".
+    tambah_karakter($tangkap3)."& \n".
+    tambah_karakter($tangkap3)."* \n".
+    tambah_karakter($tangkap3)."(-_-) \n".
+    tambah_karakter($tangkap3)."(*_*) \n".
+    tambah_karakter($tangkap3)."(#-#) \n".
+    tambah_karakter($tangkap3)."(^_^) \n".
+    tambah_karakter($tangkap3)."(^-^) \n".
+    tambah_karakter($tangkap3)."1+1 \n".
+    tambah_karakter($tangkap3)."1+2 \n".
+    tambah_karakter($tangkap3)."1+3 \n".
+    tambah_karakter($tangkap3)."1+4 \n".
+    tambah_karakter($tangkap3)."1+5 \n".
+    tambah_karakter($tangkap3)."{-_-} \n".
+    tambah_karakter($tangkap3)."{*_*} \n".
+    tambah_karakter($tangkap3)."{#_#} \n".
+    tambah_karakter($tangkap3)."{^_^} \n".
+    tambah_karakter($tangkap3)."{+_+} \n".
+    tambah_karakter($tangkap3)."[-_-] \n".
+    tambah_karakter($tangkap3)."[*_*] \n".
+    tambah_karakter($tangkap3)."[+_+] \n".
+    tambah_karakter($tangkap3)."[#_#] \n".
+    tambah_karakter($tangkap3)."[^_^] \n".
+    tambah_karakter($tangkap3)."[?_?] \n".
+    tambah_karakter($tangkap3)."? \n".
+    tambah_karakter($tangkap3)."/ \n".
+    tambah_karakter($tangkap3)."<-_-> \n".
+    tambah_karakter($tangkap3)."| \n".
+    tambah_karakter($tangkap3)."!! \n".
+    tambah_karakter($tangkap3)."!?! \n".
+    tambah_karakter($tangkap3)."!@! \n".
+    tambah_karakter($tangkap3)."!#! \n".
+    tambah_karakter($tangkap3)."!$! \n".
+    tambah_karakter($tangkap3)."!%! \n".
+    tambah_karakter($tangkap3)."!!! \n".
+    tambah_karakter($tangkap3)."!^! \n".
+    tambah_karakter($tangkap3)."!&! \n".
+    tambah_karakter($tangkap3)."!*! \n".
+    tambah_karakter($tangkap3)."!(!) \n".
+    tambah_karakter($tangkap3)."!_!\n".
+    tambah_karakter($tangkap3)."!-! \n".
+    tambah_karakter($tangkap3)."!+! \n".
+    tambah_karakter($tangkap3)."@!! \n".
+    tambah_karakter($tangkap3)."@@ \n".
+    tambah_karakter($tangkap3)."@@@ \n".
+    tambah_karakter($tangkap3)."@#@ \n".
+    tambah_karakter($tangkap3)."@_@ \n".
+    tambah_karakter($tangkap3)."@-@ \n".
+    tambah_karakter($tangkap3)."@*@ \n".
+    tambah_karakter($tangkap3)."@$# \n".
+    tambah_karakter($tangkap3)."@&@ \n".
+    tambah_karakter($tangkap3)."/// \n".
+    tambah_karakter($tangkap3)."%&* \n".
+    tambah_karakter($tangkap3)."##@ \n".
+    tambah_karakter($tangkap3)."##$ \n".
+    tambah_karakter($tangkap3)."#$# \n".
+    tambah_karakter($tangkap3)."#@# \n".
+    tambah_karakter($tangkap3)."##& \n".
+    tambah_karakter($tangkap3)."##* \n".
+    tambah_karakter($tangkap3)."!?!? \n".
+    tambah_karakter($tangkap3)."!1!1 \n".
+    tambah_karakter($tangkap3)."., \n".
+    tambah_karakter($tangkap3).".,! \n".
+    tambah_karakter($tangkap3)."'.,?! \n".
+    tambah_karakter($tangkap3).":; \n".
+    tambah_karakter($tangkap3).",. \n".
+    tambah_karakter($tangkap3)."'-! \n".
+    tambah_karakter($tangkap3)."+--+ \n".
+    tambah_karakter($tangkap3)."--+- \n".
+    tambah_karakter($tangkap3)."$^^$ \n".
+    tambah_karakter($tangkap3)."*123# \n".
+    tambah_karakter($tangkap3)."#555# \n".
+    tambah_karakter($tangkap3)."#999# \n".
+
+    tambah_karakter($tangkap8).". \n".
+    tambah_karakter($tangkap8).", \n".
+    tambah_karakter($tangkap8).": \n".
+    tambah_karakter($tangkap8)."; \n".
+    tambah_karakter($tangkap8)."' \n".
+    tambah_karakter($tangkap8)."- \n".
+    tambah_karakter($tangkap8)."_ \n".
+    tambah_karakter($tangkap8)."\ \n".
+    tambah_karakter($tangkap8)."+ \n".
+    tambah_karakter($tangkap8)."= \n".
+    tambah_karakter($tangkap8)."! \n".
+    tambah_karakter($tangkap8)."@ \n".
+    tambah_karakter($tangkap8)."# \n".
+    tambah_karakter($tangkap8)."$ \n".
+    tambah_karakter($tangkap8)."% \n".
+    tambah_karakter($tangkap8)."^ \n".
+    tambah_karakter($tangkap8)."& \n".
+    tambah_karakter($tangkap8)."* \n".
+    tambah_karakter($tangkap8)."(-_-) \n".
+    tambah_karakter($tangkap8)."(*_*) \n".
+    tambah_karakter($tangkap8)."(#-#) \n".
+    tambah_karakter($tangkap8)."(^_^) \n".
+    tambah_karakter($tangkap8)."(^-^) \n".
+    tambah_karakter($tangkap8)."1+1 \n".
+    tambah_karakter($tangkap8)."1+2 \n".
+    tambah_karakter($tangkap8)."1+3 \n".
+    tambah_karakter($tangkap8)."1+4 \n".
+    tambah_karakter($tangkap8)."1+5 \n".
+    tambah_karakter($tangkap8)."{-_-} \n".
+    tambah_karakter($tangkap8)."{*_*} \n".
+    tambah_karakter($tangkap8)."{#_#} \n".
+    tambah_karakter($tangkap8)."{^_^} \n".
+    tambah_karakter($tangkap8)."{+_+} \n".
+    tambah_karakter($tangkap8)."[-_-] \n".
+    tambah_karakter($tangkap8)."[*_*] \n".
+    tambah_karakter($tangkap8)."[+_+] \n".
+    tambah_karakter($tangkap8)."[#_#] \n".
+    tambah_karakter($tangkap8)."[^_^] \n".
+    tambah_karakter($tangkap8)."[?_?] \n".
+    tambah_karakter($tangkap8)."? \n".
+    tambah_karakter($tangkap8)."/ \n".
+    tambah_karakter($tangkap8)."<-_-> \n".
+    tambah_karakter($tangkap8)."| \n".
+    tambah_karakter($tangkap8)."!! \n".
+    tambah_karakter($tangkap8)."!?! \n".
+    tambah_karakter($tangkap8)."!@! \n".
+    tambah_karakter($tangkap8)."!#! \n".
+    tambah_karakter($tangkap8)."!$! \n".
+    tambah_karakter($tangkap8)."!%! \n".
+    tambah_karakter($tangkap8)."!!! \n".
+    tambah_karakter($tangkap8)."!^! \n".
+    tambah_karakter($tangkap8)."!&! \n".
+    tambah_karakter($tangkap8)."!*! \n".
+    tambah_karakter($tangkap8)."!(!) \n".
+    tambah_karakter($tangkap8)."!_!\n".
+    tambah_karakter($tangkap8)."!-! \n".
+    tambah_karakter($tangkap8)."!+! \n".
+    tambah_karakter($tangkap8)."@!! \n".
+    tambah_karakter($tangkap8)."@@ \n".
+    tambah_karakter($tangkap8)."@@@ \n".
+    tambah_karakter($tangkap8)."@#@ \n".
+    tambah_karakter($tangkap8)."@_@ \n".
+    tambah_karakter($tangkap8)."@-@ \n".
+    tambah_karakter($tangkap8)."@*@ \n".
+    tambah_karakter($tangkap8)."@$# \n".
+    tambah_karakter($tangkap8)."@&@ \n".
+    tambah_karakter($tangkap8)."/// \n".
+    tambah_karakter($tangkap8)."%&* \n".
+    tambah_karakter($tangkap8)."##@ \n".
+    tambah_karakter($tangkap8)."##$ \n".
+    tambah_karakter($tangkap8)."#$# \n".
+    tambah_karakter($tangkap8)."#@# \n".
+    tambah_karakter($tangkap8)."##& \n".
+    tambah_karakter($tangkap8)."##* \n".
+    tambah_karakter($tangkap8)."!?!? \n".
+    tambah_karakter($tangkap8)."!1!1 \n".
+    tambah_karakter($tangkap8)."., \n".
+    tambah_karakter($tangkap8).".,! \n".
+    tambah_karakter($tangkap8)."'.,?! \n".
+    tambah_karakter($tangkap8).":; \n".
+    tambah_karakter($tangkap8).",. \n".
+    tambah_karakter($tangkap8)."'-! \n".
+    tambah_karakter($tangkap8)."+--+ \n".
+    tambah_karakter($tangkap8)."--+- \n".
+    tambah_karakter($tangkap8)."$^^$ \n".
+    tambah_karakter($tangkap8)."*123# \n".
+    tambah_karakter($tangkap8)."#555# \n".
+    tambah_karakter($tangkap8)."#999# \n".
+
+
+    tambah_karakter($tangkap9).". \n".
+    tambah_karakter($tangkap9).", \n".
+    tambah_karakter($tangkap9).": \n".
+    tambah_karakter($tangkap9)."; \n".
+    tambah_karakter($tangkap9)."' \n".
+    tambah_karakter($tangkap9)."- \n".
+    tambah_karakter($tangkap9)."_ \n".
+    tambah_karakter($tangkap9)."\ \n".
+    tambah_karakter($tangkap9)."+ \n".
+    tambah_karakter($tangkap9)."= \n".
+    tambah_karakter($tangkap9)."! \n".
+    tambah_karakter($tangkap9)."@ \n".
+    tambah_karakter($tangkap9)."# \n".
+    tambah_karakter($tangkap9)."$ \n".
+    tambah_karakter($tangkap9)."% \n".
+    tambah_karakter($tangkap9)."^ \n".
+    tambah_karakter($tangkap9)."& \n".
+    tambah_karakter($tangkap9)."* \n".
+    tambah_karakter($tangkap9)."(-_-) \n".
+    tambah_karakter($tangkap9)."(*_*) \n".
+    tambah_karakter($tangkap9)."(#-#) \n".
+    tambah_karakter($tangkap9)."(^_^) \n".
+    tambah_karakter($tangkap9)."(^-^) \n".
+    tambah_karakter($tangkap9)."1+1 \n".
+    tambah_karakter($tangkap9)."1+2 \n".
+    tambah_karakter($tangkap9)."1+3 \n".
+    tambah_karakter($tangkap9)."1+4 \n".
+    tambah_karakter($tangkap9)."1+5 \n".
+    tambah_karakter($tangkap9)."{-_-} \n".
+    tambah_karakter($tangkap9)."{*_*} \n".
+    tambah_karakter($tangkap9)."{#_#} \n".
+    tambah_karakter($tangkap9)."{^_^} \n".
+    tambah_karakter($tangkap9)."{+_+} \n".
+    tambah_karakter($tangkap9)."[-_-] \n".
+    tambah_karakter($tangkap9)."[*_*] \n".
+    tambah_karakter($tangkap9)."[+_+] \n".
+    tambah_karakter($tangkap9)."[#_#] \n".
+    tambah_karakter($tangkap9)."[^_^] \n".
+    tambah_karakter($tangkap9)."[?_?] \n".
+    tambah_karakter($tangkap9)."? \n".
+    tambah_karakter($tangkap9)."/ \n".
+    tambah_karakter($tangkap9)."<-_-> \n".
+    tambah_karakter($tangkap9)."| \n".
+    tambah_karakter($tangkap9)."!! \n".
+    tambah_karakter($tangkap9)."!?! \n".
+    tambah_karakter($tangkap9)."!@! \n".
+    tambah_karakter($tangkap9)."!#! \n".
+    tambah_karakter($tangkap9)."!$! \n".
+    tambah_karakter($tangkap9)."!%! \n".
+    tambah_karakter($tangkap9)."!!! \n".
+    tambah_karakter($tangkap9)."!^! \n".
+    tambah_karakter($tangkap9)."!&! \n".
+    tambah_karakter($tangkap9)."!*! \n".
+    tambah_karakter($tangkap9)."!(!) \n".
+    tambah_karakter($tangkap9)."!_!\n".
+    tambah_karakter($tangkap9)."!-! \n".
+    tambah_karakter($tangkap9)."!+! \n".
+    tambah_karakter($tangkap9)."@!! \n".
+    tambah_karakter($tangkap9)."@@ \n".
+    tambah_karakter($tangkap9)."@@@ \n".
+    tambah_karakter($tangkap9)."@#@ \n".
+    tambah_karakter($tangkap9)."@_@ \n".
+    tambah_karakter($tangkap9)."@-@ \n".
+    tambah_karakter($tangkap9)."@*@ \n".
+    tambah_karakter($tangkap9)."@$# \n".
+    tambah_karakter($tangkap9)."@&@ \n".
+    tambah_karakter($tangkap9)."/// \n".
+    tambah_karakter($tangkap9)."%&* \n".
+    tambah_karakter($tangkap9)."##@ \n".
+    tambah_karakter($tangkap9)."##$ \n".
+    tambah_karakter($tangkap9)."#$# \n".
+    tambah_karakter($tangkap9)."#@# \n".
+    tambah_karakter($tangkap9)."##& \n".
+    tambah_karakter($tangkap9)."##* \n".
+    tambah_karakter($tangkap9)."!?!? \n".
+    tambah_karakter($tangkap9)."!1!1 \n".
+    tambah_karakter($tangkap9)."., \n".
+    tambah_karakter($tangkap9).".,! \n".
+    tambah_karakter($tangkap9)."'.,?! \n".
+    tambah_karakter($tangkap9).":; \n".
+    tambah_karakter($tangkap9).",. \n".
+    tambah_karakter($tangkap9)."'-! \n".
+    tambah_karakter($tangkap9)."+--+ \n".
+    tambah_karakter($tangkap9)."--+- \n".
+    tambah_karakter($tangkap9)."$^^$ \n".
+    tambah_karakter($tangkap9)."*123# \n".
+    tambah_karakter($tangkap9)."#555# \n".
+    tambah_karakter($tangkap9)."#999# \n".
+
+
+    tambah_karakter($tangkap13).". \n".
+    tambah_karakter($tangkap13).", \n".
+    tambah_karakter($tangkap13).": \n".
+    tambah_karakter($tangkap13)."; \n".
+    tambah_karakter($tangkap13)."' \n".
+    tambah_karakter($tangkap13)."- \n".
+    tambah_karakter($tangkap13)."_ \n".
+    tambah_karakter($tangkap13)."\ \n".
+    tambah_karakter($tangkap13)."+ \n".
+    tambah_karakter($tangkap13)."= \n".
+    tambah_karakter($tangkap13)."! \n".
+    tambah_karakter($tangkap13)."@ \n".
+    tambah_karakter($tangkap13)."# \n".
+    tambah_karakter($tangkap13)."$ \n".
+    tambah_karakter($tangkap13)."% \n".
+    tambah_karakter($tangkap13)."^ \n".
+    tambah_karakter($tangkap13)."& \n".
+    tambah_karakter($tangkap13)."* \n".
+    tambah_karakter($tangkap13)."(-_-) \n".
+    tambah_karakter($tangkap13)."(*_*) \n".
+    tambah_karakter($tangkap13)."(#-#) \n".
+    tambah_karakter($tangkap13)."(^_^) \n".
+    tambah_karakter($tangkap13)."(^-^) \n".
+    tambah_karakter($tangkap13)."1+1 \n".
+    tambah_karakter($tangkap13)."1+2 \n".
+    tambah_karakter($tangkap13)."1+3 \n".
+    tambah_karakter($tangkap13)."1+4 \n".
+    tambah_karakter($tangkap13)."1+5 \n".
+    tambah_karakter($tangkap13)."{-_-} \n".
+    tambah_karakter($tangkap13)."{*_*} \n".
+    tambah_karakter($tangkap13)."{#_#} \n".
+    tambah_karakter($tangkap13)."{^_^} \n".
+    tambah_karakter($tangkap13)."{+_+} \n".
+    tambah_karakter($tangkap13)."[-_-] \n".
+    tambah_karakter($tangkap13)."[*_*] \n".
+    tambah_karakter($tangkap13)."[+_+] \n".
+    tambah_karakter($tangkap13)."[#_#] \n".
+    tambah_karakter($tangkap13)."[^_^] \n".
+    tambah_karakter($tangkap13)."[?_?] \n".
+    tambah_karakter($tangkap13)."? \n".
+    tambah_karakter($tangkap13)."/ \n".
+    tambah_karakter($tangkap13)."<-_-> \n".
+    tambah_karakter($tangkap13)."| \n".
+    tambah_karakter($tangkap13)."!! \n".
+    tambah_karakter($tangkap13)."!?! \n".
+    tambah_karakter($tangkap13)."!@! \n".
+    tambah_karakter($tangkap13)."!#! \n".
+    tambah_karakter($tangkap13)."!$! \n".
+    tambah_karakter($tangkap13)."!%! \n".
+    tambah_karakter($tangkap13)."!!! \n".
+    tambah_karakter($tangkap13)."!^! \n".
+    tambah_karakter($tangkap13)."!&! \n".
+    tambah_karakter($tangkap13)."!*! \n".
+    tambah_karakter($tangkap13)."!(!) \n".
+    tambah_karakter($tangkap13)."!_!\n".
+    tambah_karakter($tangkap13)."!-! \n".
+    tambah_karakter($tangkap13)."!+! \n".
+    tambah_karakter($tangkap13)."@!! \n".
+    tambah_karakter($tangkap13)."@@ \n".
+    tambah_karakter($tangkap13)."@@@ \n".
+    tambah_karakter($tangkap13)."@#@ \n".
+    tambah_karakter($tangkap13)."@_@ \n".
+    tambah_karakter($tangkap13)."@-@ \n".
+    tambah_karakter($tangkap13)."@*@ \n".
+    tambah_karakter($tangkap13)."@$# \n".
+    tambah_karakter($tangkap13)."@&@ \n".
+    tambah_karakter($tangkap13)."/// \n".
+    tambah_karakter($tangkap13)."%&* \n".
+    tambah_karakter($tangkap13)."##@ \n".
+    tambah_karakter($tangkap13)."##$ \n".
+    tambah_karakter($tangkap13)."#$# \n".
+    tambah_karakter($tangkap13)."#@# \n".
+    tambah_karakter($tangkap13)."##& \n".
+    tambah_karakter($tangkap13)."##* \n".
+    tambah_karakter($tangkap13)."!?!? \n".
+    tambah_karakter($tangkap13)."!1!1 \n".
+    tambah_karakter($tangkap13)."., \n".
+    tambah_karakter($tangkap13).".,! \n".
+    tambah_karakter($tangkap13)."'.,?! \n".
+    tambah_karakter($tangkap13).":; \n".
+    tambah_karakter($tangkap13).",. \n".
+    tambah_karakter($tangkap13)."'-! \n".
+    tambah_karakter($tangkap13)."+--+ \n".
+    tambah_karakter($tangkap13)."--+- \n".
+    tambah_karakter($tangkap13)."$^^$ \n".
+    tambah_karakter($tangkap13)."*123# \n".
+    tambah_karakter($tangkap13)."#555# \n".
+    tambah_karakter($tangkap13)."#999# \n".
+
+    tambah_karakter($tangkap16).". \n".
+    tambah_karakter($tangkap16).", \n".
+    tambah_karakter($tangkap16).": \n".
+    tambah_karakter($tangkap16)."; \n".
+    tambah_karakter($tangkap16)."' \n".
+    tambah_karakter($tangkap16)."- \n".
+    tambah_karakter($tangkap16)."_ \n".
+    tambah_karakter($tangkap16)."\ \n".
+    tambah_karakter($tangkap16)."+ \n".
+    tambah_karakter($tangkap16)."= \n".
+    tambah_karakter($tangkap16)."! \n".
+    tambah_karakter($tangkap16)."@ \n".
+    tambah_karakter($tangkap16)."# \n".
+    tambah_karakter($tangkap16)."$ \n".
+    tambah_karakter($tangkap16)."% \n".
+    tambah_karakter($tangkap16)."^ \n".
+    tambah_karakter($tangkap16)."& \n".
+    tambah_karakter($tangkap16)."* \n".
+    tambah_karakter($tangkap16)."(-_-) \n".
+    tambah_karakter($tangkap16)."(*_*) \n".
+    tambah_karakter($tangkap16)."(#-#) \n".
+    tambah_karakter($tangkap16)."(^_^) \n".
+    tambah_karakter($tangkap16)."(^-^) \n".
+    tambah_karakter($tangkap16)."1+1 \n".
+    tambah_karakter($tangkap16)."1+2 \n".
+    tambah_karakter($tangkap16)."1+3 \n".
+    tambah_karakter($tangkap16)."1+4 \n".
+    tambah_karakter($tangkap16)."1+5 \n".
+    tambah_karakter($tangkap16)."{-_-} \n".
+    tambah_karakter($tangkap16)."{*_*} \n".
+    tambah_karakter($tangkap16)."{#_#} \n".
+    tambah_karakter($tangkap16)."{^_^} \n".
+    tambah_karakter($tangkap16)."{+_+} \n".
+    tambah_karakter($tangkap16)."[-_-] \n".
+    tambah_karakter($tangkap16)."[*_*] \n".
+    tambah_karakter($tangkap16)."[+_+] \n".
+    tambah_karakter($tangkap16)."[#_#] \n".
+    tambah_karakter($tangkap16)."[^_^] \n".
+    tambah_karakter($tangkap16)."[?_?] \n".
+    tambah_karakter($tangkap16)."? \n".
+    tambah_karakter($tangkap16)."/ \n".
+    tambah_karakter($tangkap16)."<-_-> \n".
+    tambah_karakter($tangkap16)."| \n".
+    tambah_karakter($tangkap16)."!! \n".
+    tambah_karakter($tangkap16)."!?! \n".
+    tambah_karakter($tangkap16)."!@! \n".
+    tambah_karakter($tangkap16)."!#! \n".
+    tambah_karakter($tangkap16)."!$! \n".
+    tambah_karakter($tangkap16)."!%! \n".
+    tambah_karakter($tangkap16)."!!! \n".
+    tambah_karakter($tangkap16)."!^! \n".
+    tambah_karakter($tangkap16)."!&! \n".
+    tambah_karakter($tangkap16)."!*! \n".
+    tambah_karakter($tangkap16)."!(!) \n".
+    tambah_karakter($tangkap16)."!_!\n".
+    tambah_karakter($tangkap16)."!-! \n".
+    tambah_karakter($tangkap16)."!+! \n".
+    tambah_karakter($tangkap16)."@!! \n".
+    tambah_karakter($tangkap16)."@@ \n".
+    tambah_karakter($tangkap16)."@@@ \n".
+    tambah_karakter($tangkap16)."@#@ \n".
+    tambah_karakter($tangkap16)."@_@ \n".
+    tambah_karakter($tangkap16)."@-@ \n".
+    tambah_karakter($tangkap16)."@*@ \n".
+    tambah_karakter($tangkap16)."@$# \n".
+    tambah_karakter($tangkap16)."@&@ \n".
+    tambah_karakter($tangkap16)."/// \n".
+    tambah_karakter($tangkap16)."%&* \n".
+    tambah_karakter($tangkap16)."##@ \n".
+    tambah_karakter($tangkap16)."##$ \n".
+    tambah_karakter($tangkap16)."#$# \n".
+    tambah_karakter($tangkap16)."#@# \n".
+    tambah_karakter($tangkap16)."##& \n".
+    tambah_karakter($tangkap16)."##* \n".
+    tambah_karakter($tangkap16)."!?!? \n".
+    tambah_karakter($tangkap16)."!1!1 \n".
+    tambah_karakter($tangkap16)."., \n".
+    tambah_karakter($tangkap16).".,! \n".
+    tambah_karakter($tangkap16)."'.,?! \n".
+    tambah_karakter($tangkap16).":; \n".
+    tambah_karakter($tangkap16).",. \n".
+    tambah_karakter($tangkap16)."'-! \n".
+    tambah_karakter($tangkap16)."+--+ \n".
+    tambah_karakter($tangkap16)."--+- \n".
+    tambah_karakter($tangkap16)."$^^$ \n".
+    tambah_karakter($tangkap16)."*123# \n".
+    tambah_karakter($tangkap16)."#555# \n".
+    tambah_karakter($tangkap16)."#999# \n".
+
+    nomor_karakter($tangkap1)."1*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."111*\n".
+    nomor_karakter($tangkap1)."1111*\n".
+    nomor_karakter($tangkap1)."11111*\n".
+    nomor_karakter($tangkap1)."2*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."2222*\n".
+    nomor_karakter($tangkap1)."22222*\n".
+    nomor_karakter($tangkap1)."21*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."23*\n".
+    nomor_karakter($tangkap1)."24*\n".
+    nomor_karakter($tangkap1)."25*\n".
+    nomor_karakter($tangkap1)."26*\n".
+    nomor_karakter($tangkap1)."27*\n".
+    nomor_karakter($tangkap1)."28*\n".
+    nomor_karakter($tangkap1)."29*\n".
+    nomor_karakter($tangkap1)."211*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."233*\n".
+    nomor_karakter($tangkap1)."244*\n".
+    nomor_karakter($tangkap1)."255*\n".
+    nomor_karakter($tangkap1)."212*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."232*\n".
+    nomor_karakter($tangkap1)."242*\n".
+    nomor_karakter($tangkap1)."252*\n".
+    nomor_karakter($tangkap1)."112*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."332*\n".
+    nomor_karakter($tangkap1)."442*\n".
+    nomor_karakter($tangkap1)."552*\n".
+    nomor_karakter($tangkap1)."221*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."223*\n".
+    nomor_karakter($tangkap1)."224*\n".
+    nomor_karakter($tangkap1)."225*\n".
+    nomor_karakter($tangkap1)."452*\n".
+    nomor_karakter($tangkap1)."12*\n".
+    nomor_karakter($tangkap1)."21*\n".
+    nomor_karakter($tangkap1)."3*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."3333*\n".
+    nomor_karakter($tangkap1)."33333*\n".
+    nomor_karakter($tangkap1)."31*\n".
+    nomor_karakter($tangkap1)."32*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."34*\n".
+    nomor_karakter($tangkap1)."35*\n".
+    nomor_karakter($tangkap1)."311*\n".
+    nomor_karakter($tangkap1)."322*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."344*\n".
+    nomor_karakter($tangkap1)."355*\n".
+    nomor_karakter($tangkap1)."313*\n".
+    nomor_karakter($tangkap1)."323*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."343*\n".
+    nomor_karakter($tangkap1)."353*\n".
+    nomor_karakter($tangkap1)."113*\n".
+    nomor_karakter($tangkap1)."223*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."443*\n".
+    nomor_karakter($tangkap1)."553*\n".
+    nomor_karakter($tangkap1)."331*\n".
+    nomor_karakter($tangkap1)."332*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."334*\n".
+    nomor_karakter($tangkap1)."335*\n".
+    nomor_karakter($tangkap1)."453*\n".
+    nomor_karakter($tangkap1)."123*\n".
+    nomor_karakter($tangkap1)."321*\n".
+    nomor_karakter($tangkap1)."4*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."4444*\n".
+    nomor_karakter($tangkap1)."44444*\n".
+    nomor_karakter($tangkap1)."41*\n".
+    nomor_karakter($tangkap1)."42*\n".
+    nomor_karakter($tangkap1)."43*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."411*\n".
+    nomor_karakter($tangkap1)."422*\n".
+    nomor_karakter($tangkap1)."433*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."455*\n".
+    nomor_karakter($tangkap1)."414*\n".
+    nomor_karakter($tangkap1)."424*\n".
+    nomor_karakter($tangkap1)."434*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."454*\n".
+    nomor_karakter($tangkap1)."114*\n".
+    nomor_karakter($tangkap1)."224*\n".
+    nomor_karakter($tangkap1)."334*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."441*\n".
+    nomor_karakter($tangkap1)."442*\n".
+    nomor_karakter($tangkap1)."443*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."445*\n".
+    nomor_karakter($tangkap1)."554*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."12*\n".
+    nomor_karakter($tangkap1)."43*\n".
+    nomor_karakter($tangkap1)."5*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."555*\n".
+    nomor_karakter($tangkap1)."5555*\n".
+    nomor_karakter($tangkap1)."55555*\n".
+    nomor_karakter($tangkap1)."51*\n".
+    nomor_karakter($tangkap1)."52*\n".
+    nomor_karakter($tangkap1)."53*\n".
+    nomor_karakter($tangkap1)."54*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."511*\n".
+    nomor_karakter($tangkap1)."522*\n".
+    nomor_karakter($tangkap1)."533*\n".
+    nomor_karakter($tangkap1)."544*\n".
+    nomor_karakter($tangkap1)."655*\n".
+    nomor_karakter($tangkap1)."515*\n".
+    nomor_karakter($tangkap1)."525\n".
+    nomor_karakter($tangkap1)."535*\n".
+    nomor_karakter($tangkap1)."545*\n".
+    nomor_karakter($tangkap1)."555*\n".
+    nomor_karakter($tangkap1)."115*\n".
+    nomor_karakter($tangkap1)."225*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."34*\n".
+    nomor_karakter($tangkap1)."1234*\n".
+    nomor_karakter($tangkap1)."5432*\n".
+    nomor_karakter($tangkap1)."6*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."666*\n".
+    nomor_karakter($tangkap1)."6666*\n".
+    nomor_karakter($tangkap1)."66666*\n".
+    nomor_karakter($tangkap1)."61*\n".
+    nomor_karakter($tangkap1)."62*\n".
+    nomor_karakter($tangkap1)."63*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."611*\n".
+    nomor_karakter($tangkap1)."622*\n".
+    nomor_karakter($tangkap1)."633*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."61*\n".
+    nomor_karakter($tangkap1)."62*\n".
+    nomor_karakter($tangkap1)."63*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."12345*\n".
+    nomor_karakter($tangkap1)."65432*\n".
+    nomor_karakter($tangkap1)."7*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."777*\n".
+    nomor_karakter($tangkap1)."7777*\n".
+    nomor_karakter($tangkap1)."77777*\n".
+    nomor_karakter($tangkap1)."71*\n".
+    nomor_karakter($tangkap1)."72*\n".
+    nomor_karakter($tangkap1)."73*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."711*\n".
+    nomor_karakter($tangkap1)."722*\n".
+    nomor_karakter($tangkap1)."733*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."71*\n".
+    nomor_karakter($tangkap1)."72*\n".
+    nomor_karakter($tangkap1)."73*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."1234567*\n".
+    nomor_karakter($tangkap1)."8*\n".
+    nomor_karakter($tangkap1)."88*\n".
+    nomor_karakter($tangkap1)."888*\n".
+    nomor_karakter($tangkap1)."8888*\n".
+    nomor_karakter($tangkap1)."88888*\n".
+    nomor_karakter($tangkap1)."81*\n".
+    nomor_karakter($tangkap1)."82*\n".
+    nomor_karakter($tangkap1)."83*\n".
+    nomor_karakter($tangkap1)."84*\n".
+    nomor_karakter($tangkap1)."85*\n".
+    nomor_karakter($tangkap1)."811*\n".
+    nomor_karakter($tangkap1)."822*\n".
+    nomor_karakter($tangkap1)."833*\n".
+    nomor_karakter($tangkap1)."844*\n".
+    nomor_karakter($tangkap1)."855*\n".
+    nomor_karakter($tangkap1)."818*\n".
+    nomor_karakter($tangkap1)."828*\n".
+    nomor_karakter($tangkap1)."838*\n".
+    nomor_karakter($tangkap1)."848*\n".
+    nomor_karakter($tangkap1)."858*\n".
+    nomor_karakter($tangkap1)."118*\n".
+    nomor_karakter($tangkap1)."228*\n".
+    nomor_karakter($tangkap1)."338*\n".
+    nomor_karakter($tangkap1)."448*\n".
+    nomor_karakter($tangkap1)."558*\n".
+    nomor_karakter($tangkap1)."881*\n".
+    nomor_karakter($tangkap1)."882*\n".
+    nomor_karakter($tangkap1)."883*\n".
+    nomor_karakter($tangkap1)."884*\n".
+    nomor_karakter($tangkap1)."885*\n".
+    nomor_karakter($tangkap1)."458*\n".
+    nomor_karakter($tangkap1)."12345678*\n".
+    nomor_karakter($tangkap1)."87654321*\n".
+    nomor_karakter($tangkap1)."9*\n".
+    nomor_karakter($tangkap1)."99*\n".
+    nomor_karakter($tangkap1)."999*\n".
+    nomor_karakter($tangkap1)."9999*\n".
+    nomor_karakter($tangkap1)."99999*\n".
+    nomor_karakter($tangkap1)."91*\n".
+    nomor_karakter($tangkap1)."92*\n".
+    nomor_karakter($tangkap1)."93*\n".
+    nomor_karakter($tangkap1)."94*\n".
+    nomor_karakter($tangkap1)."95*\n".
+    nomor_karakter($tangkap1)."911*\n".
+    nomor_karakter($tangkap1)."922*\n".
+    nomor_karakter($tangkap1)."933*\n".
+    nomor_karakter($tangkap1)."944*\n".
+    nomor_karakter($tangkap1)."955*\n".
+    nomor_karakter($tangkap1)."919*\n".
+    nomor_karakter($tangkap1)."929*\n".
+    nomor_karakter($tangkap1)."939*\n".
+    nomor_karakter($tangkap1)."949*\n".
+    nomor_karakter($tangkap1)."959*\n".
+    nomor_karakter($tangkap1)."119*\n".
+    nomor_karakter($tangkap1)."229*\n".
+    nomor_karakter($tangkap1)."339*\n".
+    nomor_karakter($tangkap1)."449*\n".
+    nomor_karakter($tangkap1)."559*\n".
+    nomor_karakter($tangkap1)."991*\n".
+    nomor_karakter($tangkap1)."992*\n".
+    nomor_karakter($tangkap1)."993*\n".
+    nomor_karakter($tangkap1)."994*\n".
+    nomor_karakter($tangkap1)."995*\n".
+    nomor_karakter($tangkap1)."459*\n".
+    nomor_karakter($tangkap1)."12345678*\n".
+    nomor_karakter($tangkap1)."987654321*\n".
+    nomor_karakter($tangkap1)."0*\n".
+    nomor_karakter($tangkap1)."00*\n".
+    nomor_karakter($tangkap1)."000*\n".
+    nomor_karakter($tangkap1)."0000*\n".
+    nomor_karakter($tangkap1)."00000*\n".
+    nomor_karakter($tangkap1)."01*\n".
+    nomor_karakter($tangkap1)."02*\n".
+    nomor_karakter($tangkap1)."03*\n".
+    nomor_karakter($tangkap1)."04*\n".
+    nomor_karakter($tangkap1)."05*\n".
+    nomor_karakter($tangkap1)."011*\n".
+    nomor_karakter($tangkap1)."022*\n".
+    nomor_karakter($tangkap1)."033*\n".
+    nomor_karakter($tangkap1)."044*\n".
+    nomor_karakter($tangkap1)."055*\n".
+    nomor_karakter($tangkap1)."010*\n".
+    nomor_karakter($tangkap1)."020*\n".
+    nomor_karakter($tangkap1)."030*\n".
+    nomor_karakter($tangkap1)."040*\n".
+    nomor_karakter($tangkap1)."050*\n".
+    nomor_karakter($tangkap1)."110*\n".
+    nomor_karakter($tangkap1)."220*\n".
+    nomor_karakter($tangkap1)."330*\n".
+    nomor_karakter($tangkap1)."440*\n".
+    nomor_karakter($tangkap1)."550*\n".
+    nomor_karakter($tangkap1)."001*\n".
+    nomor_karakter($tangkap1)."002*\n".
+    nomor_karakter($tangkap1)."003*\n".
+    nomor_karakter($tangkap1)."004*\n".
+    nomor_karakter($tangkap1)."005*\n".
+    nomor_karakter($tangkap1)."450*\n".
+    nomor_karakter($tangkap1)."123456789*\n".
+    nomor_karakter($tangkap2)."1*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."111*\n".
+    nomor_karakter($tangkap2)."1111*\n".
+    nomor_karakter($tangkap2)."11111*\n".
+    nomor_karakter($tangkap2)."2*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."2222*\n".
+    nomor_karakter($tangkap2)."22222*\n".
+    nomor_karakter($tangkap2)."21*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."23*\n".
+    nomor_karakter($tangkap2)."24*\n".
+    nomor_karakter($tangkap2)."25*\n".
+    nomor_karakter($tangkap2)."26*\n".
+    nomor_karakter($tangkap2)."27*\n".
+    nomor_karakter($tangkap2)."28*\n".
+    nomor_karakter($tangkap2)."29*\n".
+    nomor_karakter($tangkap2)."211*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."233*\n".
+    nomor_karakter($tangkap2)."244*\n".
+    nomor_karakter($tangkap2)."255*\n".
+    nomor_karakter($tangkap2)."212*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."232*\n".
+    nomor_karakter($tangkap2)."242*\n".
+    nomor_karakter($tangkap2)."252*\n".
+    nomor_karakter($tangkap2)."112*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."332*\n".
+    nomor_karakter($tangkap2)."442*\n".
+    nomor_karakter($tangkap2)."552*\n".
+    nomor_karakter($tangkap2)."221*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."223*\n".
+    nomor_karakter($tangkap2)."224*\n".
+    nomor_karakter($tangkap2)."225*\n".
+    nomor_karakter($tangkap2)."452*\n".
+    nomor_karakter($tangkap2)."12*\n".
+    nomor_karakter($tangkap2)."21*\n".
+    nomor_karakter($tangkap2)."3*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."3333*\n".
+    nomor_karakter($tangkap2)."33333*\n".
+    nomor_karakter($tangkap2)."31*\n".
+    nomor_karakter($tangkap2)."32*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."34*\n".
+    nomor_karakter($tangkap2)."35*\n".
+    nomor_karakter($tangkap2)."311*\n".
+    nomor_karakter($tangkap2)."322*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."344*\n".
+    nomor_karakter($tangkap2)."355*\n".
+    nomor_karakter($tangkap2)."313*\n".
+    nomor_karakter($tangkap2)."323*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."343*\n".
+    nomor_karakter($tangkap2)."353*\n".
+    nomor_karakter($tangkap2)."113*\n".
+    nomor_karakter($tangkap2)."223*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."443*\n".
+    nomor_karakter($tangkap2)."553*\n".
+    nomor_karakter($tangkap2)."331*\n".
+    nomor_karakter($tangkap2)."332*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."334*\n".
+    nomor_karakter($tangkap2)."335*\n".
+    nomor_karakter($tangkap2)."453*\n".
+    nomor_karakter($tangkap2)."123*\n".
+    nomor_karakter($tangkap2)."321*\n".
+    nomor_karakter($tangkap2)."4*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."4444*\n".
+    nomor_karakter($tangkap2)."44444*\n".
+    nomor_karakter($tangkap2)."41*\n".
+    nomor_karakter($tangkap2)."42*\n".
+    nomor_karakter($tangkap2)."43*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."411*\n".
+    nomor_karakter($tangkap2)."422*\n".
+    nomor_karakter($tangkap2)."433*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."455*\n".
+    nomor_karakter($tangkap2)."414*\n".
+    nomor_karakter($tangkap2)."424*\n".
+    nomor_karakter($tangkap2)."434*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."454*\n".
+    nomor_karakter($tangkap2)."114*\n".
+    nomor_karakter($tangkap2)."224*\n".
+    nomor_karakter($tangkap2)."334*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."441*\n".
+    nomor_karakter($tangkap2)."442*\n".
+    nomor_karakter($tangkap2)."443*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."445*\n".
+    nomor_karakter($tangkap2)."554*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."12*\n".
+    nomor_karakter($tangkap2)."43*\n".
+    nomor_karakter($tangkap2)."5*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."555*\n".
+    nomor_karakter($tangkap2)."5555*\n".
+    nomor_karakter($tangkap2)."55555*\n".
+    nomor_karakter($tangkap2)."51*\n".
+    nomor_karakter($tangkap2)."52*\n".
+    nomor_karakter($tangkap2)."53*\n".
+    nomor_karakter($tangkap2)."54*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."511*\n".
+    nomor_karakter($tangkap2)."522*\n".
+    nomor_karakter($tangkap2)."533*\n".
+    nomor_karakter($tangkap2)."544*\n".
+    nomor_karakter($tangkap2)."655*\n".
+    nomor_karakter($tangkap2)."515*\n".
+    nomor_karakter($tangkap2)."525\n".
+    nomor_karakter($tangkap2)."535*\n".
+    nomor_karakter($tangkap2)."545*\n".
+    nomor_karakter($tangkap2)."555*\n".
+    nomor_karakter($tangkap2)."115*\n".
+    nomor_karakter($tangkap2)."225*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."34*\n".
+    nomor_karakter($tangkap2)."1234*\n".
+    nomor_karakter($tangkap2)."5432*\n".
+    nomor_karakter($tangkap2)."6*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."666*\n".
+    nomor_karakter($tangkap2)."6666*\n".
+    nomor_karakter($tangkap2)."66666*\n".
+    nomor_karakter($tangkap2)."61*\n".
+    nomor_karakter($tangkap2)."62*\n".
+    nomor_karakter($tangkap2)."63*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."611*\n".
+    nomor_karakter($tangkap2)."622*\n".
+    nomor_karakter($tangkap2)."633*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."61*\n".
+    nomor_karakter($tangkap2)."62*\n".
+    nomor_karakter($tangkap2)."63*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."12345*\n".
+    nomor_karakter($tangkap2)."65432*\n".
+    nomor_karakter($tangkap2)."7*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."777*\n".
+    nomor_karakter($tangkap2)."7777*\n".
+    nomor_karakter($tangkap2)."77777*\n".
+    nomor_karakter($tangkap2)."71*\n".
+    nomor_karakter($tangkap2)."72*\n".
+    nomor_karakter($tangkap2)."73*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."711*\n".
+    nomor_karakter($tangkap2)."722*\n".
+    nomor_karakter($tangkap2)."733*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."71*\n".
+    nomor_karakter($tangkap2)."72*\n".
+    nomor_karakter($tangkap2)."73*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."1234567*\n".
+    nomor_karakter($tangkap2)."8*\n".
+    nomor_karakter($tangkap2)."88*\n".
+    nomor_karakter($tangkap2)."888*\n".
+    nomor_karakter($tangkap2)."8888*\n".
+    nomor_karakter($tangkap2)."88888*\n".
+    nomor_karakter($tangkap2)."81*\n".
+    nomor_karakter($tangkap2)."82*\n".
+    nomor_karakter($tangkap2)."83*\n".
+    nomor_karakter($tangkap2)."84*\n".
+    nomor_karakter($tangkap2)."85*\n".
+    nomor_karakter($tangkap2)."811*\n".
+    nomor_karakter($tangkap2)."822*\n".
+    nomor_karakter($tangkap2)."833*\n".
+    nomor_karakter($tangkap2)."844*\n".
+    nomor_karakter($tangkap2)."855*\n".
+    nomor_karakter($tangkap2)."818*\n".
+    nomor_karakter($tangkap2)."828*\n".
+    nomor_karakter($tangkap2)."838*\n".
+    nomor_karakter($tangkap2)."848*\n".
+    nomor_karakter($tangkap2)."858*\n".
+    nomor_karakter($tangkap2)."118*\n".
+    nomor_karakter($tangkap2)."228*\n".
+    nomor_karakter($tangkap2)."338*\n".
+    nomor_karakter($tangkap2)."448*\n".
+    nomor_karakter($tangkap2)."558*\n".
+    nomor_karakter($tangkap2)."881*\n".
+    nomor_karakter($tangkap2)."882*\n".
+    nomor_karakter($tangkap2)."883*\n".
+    nomor_karakter($tangkap2)."884*\n".
+    nomor_karakter($tangkap2)."885*\n".
+    nomor_karakter($tangkap2)."458*\n".
+    nomor_karakter($tangkap2)."12345678*\n".
+    nomor_karakter($tangkap2)."87654321*\n".
+    nomor_karakter($tangkap2)."9*\n".
+    nomor_karakter($tangkap2)."99*\n".
+    nomor_karakter($tangkap2)."999*\n".
+    nomor_karakter($tangkap2)."9999*\n".
+    nomor_karakter($tangkap2)."99999*\n".
+    nomor_karakter($tangkap2)."91*\n".
+    nomor_karakter($tangkap2)."92*\n".
+    nomor_karakter($tangkap2)."93*\n".
+    nomor_karakter($tangkap2)."94*\n".
+    nomor_karakter($tangkap2)."95*\n".
+    nomor_karakter($tangkap2)."911*\n".
+    nomor_karakter($tangkap2)."922*\n".
+    nomor_karakter($tangkap2)."933*\n".
+    nomor_karakter($tangkap2)."944*\n".
+    nomor_karakter($tangkap2)."955*\n".
+    nomor_karakter($tangkap2)."919*\n".
+    nomor_karakter($tangkap2)."929*\n".
+    nomor_karakter($tangkap2)."939*\n".
+    nomor_karakter($tangkap2)."949*\n".
+    nomor_karakter($tangkap2)."959*\n".
+    nomor_karakter($tangkap2)."119*\n".
+    nomor_karakter($tangkap2)."229*\n".
+    nomor_karakter($tangkap2)."339*\n".
+    nomor_karakter($tangkap2)."449*\n".
+    nomor_karakter($tangkap2)."559*\n".
+    nomor_karakter($tangkap2)."991*\n".
+    nomor_karakter($tangkap2)."992*\n".
+    nomor_karakter($tangkap2)."993*\n".
+    nomor_karakter($tangkap2)."994*\n".
+    nomor_karakter($tangkap2)."995*\n".
+    nomor_karakter($tangkap2)."459*\n".
+    nomor_karakter($tangkap2)."12345678*\n".
+    nomor_karakter($tangkap2)."987654321*\n".
+    nomor_karakter($tangkap2)."0*\n".
+    nomor_karakter($tangkap2)."00*\n".
+    nomor_karakter($tangkap2)."000*\n".
+    nomor_karakter($tangkap2)."0000*\n".
+    nomor_karakter($tangkap2)."00000*\n".
+    nomor_karakter($tangkap2)."01*\n".
+    nomor_karakter($tangkap2)."02*\n".
+    nomor_karakter($tangkap2)."03*\n".
+    nomor_karakter($tangkap2)."04*\n".
+    nomor_karakter($tangkap2)."05*\n".
+    nomor_karakter($tangkap2)."011*\n".
+    nomor_karakter($tangkap2)."022*\n".
+    nomor_karakter($tangkap2)."033*\n".
+    nomor_karakter($tangkap2)."044*\n".
+    nomor_karakter($tangkap2)."055*\n".
+    nomor_karakter($tangkap2)."010*\n".
+    nomor_karakter($tangkap2)."020*\n".
+    nomor_karakter($tangkap2)."030*\n".
+    nomor_karakter($tangkap2)."040*\n".
+    nomor_karakter($tangkap2)."050*\n".
+    nomor_karakter($tangkap2)."110*\n".
+    nomor_karakter($tangkap2)."220*\n".
+    nomor_karakter($tangkap2)."330*\n".
+    nomor_karakter($tangkap2)."440*\n".
+    nomor_karakter($tangkap2)."550*\n".
+    nomor_karakter($tangkap2)."001*\n".
+    nomor_karakter($tangkap2)."002*\n".
+    nomor_karakter($tangkap2)."003*\n".
+    nomor_karakter($tangkap2)."004*\n".
+    nomor_karakter($tangkap2)."005*\n".
+    nomor_karakter($tangkap2)."450*\n".
+    nomor_karakter($tangkap2)."123456789*\n".
+
+    nomor_karakter($tangkap3)."1*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."111*\n".
+    nomor_karakter($tangkap3)."1111*\n".
+    nomor_karakter($tangkap3)."11111*\n".
+    nomor_karakter($tangkap3)."2*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."2222*\n".
+    nomor_karakter($tangkap3)."22222*\n".
+    nomor_karakter($tangkap3)."21*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."23*\n".
+    nomor_karakter($tangkap3)."24*\n".
+    nomor_karakter($tangkap3)."25*\n".
+    nomor_karakter($tangkap3)."26*\n".
+    nomor_karakter($tangkap3)."27*\n".
+    nomor_karakter($tangkap3)."28*\n".
+    nomor_karakter($tangkap3)."29*\n".
+    nomor_karakter($tangkap3)."211*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."233*\n".
+    nomor_karakter($tangkap3)."244*\n".
+    nomor_karakter($tangkap3)."255*\n".
+    nomor_karakter($tangkap3)."212*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."232*\n".
+    nomor_karakter($tangkap3)."242*\n".
+    nomor_karakter($tangkap3)."252*\n".
+    nomor_karakter($tangkap3)."112*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."332*\n".
+    nomor_karakter($tangkap3)."442*\n".
+    nomor_karakter($tangkap3)."552*\n".
+    nomor_karakter($tangkap3)."221*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."223*\n".
+    nomor_karakter($tangkap3)."224*\n".
+    nomor_karakter($tangkap3)."225*\n".
+    nomor_karakter($tangkap3)."452*\n".
+    nomor_karakter($tangkap3)."12*\n".
+    nomor_karakter($tangkap3)."21*\n".
+    nomor_karakter($tangkap3)."3*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."3333*\n".
+    nomor_karakter($tangkap3)."33333*\n".
+    nomor_karakter($tangkap3)."31*\n".
+    nomor_karakter($tangkap3)."32*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."34*\n".
+    nomor_karakter($tangkap3)."35*\n".
+    nomor_karakter($tangkap3)."311*\n".
+    nomor_karakter($tangkap3)."322*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."344*\n".
+    nomor_karakter($tangkap3)."355*\n".
+    nomor_karakter($tangkap3)."313*\n".
+    nomor_karakter($tangkap3)."323*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."343*\n".
+    nomor_karakter($tangkap3)."353*\n".
+    nomor_karakter($tangkap3)."113*\n".
+    nomor_karakter($tangkap3)."223*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."443*\n".
+    nomor_karakter($tangkap3)."553*\n".
+    nomor_karakter($tangkap3)."331*\n".
+    nomor_karakter($tangkap3)."332*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."334*\n".
+    nomor_karakter($tangkap3)."335*\n".
+    nomor_karakter($tangkap3)."453*\n".
+    nomor_karakter($tangkap3)."123*\n".
+    nomor_karakter($tangkap3)."321*\n".
+    nomor_karakter($tangkap3)."4*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."4444*\n".
+    nomor_karakter($tangkap3)."44444*\n".
+    nomor_karakter($tangkap3)."41*\n".
+    nomor_karakter($tangkap3)."42*\n".
+    nomor_karakter($tangkap3)."43*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."411*\n".
+    nomor_karakter($tangkap3)."422*\n".
+    nomor_karakter($tangkap3)."433*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."455*\n".
+    nomor_karakter($tangkap3)."414*\n".
+    nomor_karakter($tangkap3)."424*\n".
+    nomor_karakter($tangkap3)."434*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."454*\n".
+    nomor_karakter($tangkap3)."114*\n".
+    nomor_karakter($tangkap3)."224*\n".
+    nomor_karakter($tangkap3)."334*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."441*\n".
+    nomor_karakter($tangkap3)."442*\n".
+    nomor_karakter($tangkap3)."443*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."445*\n".
+    nomor_karakter($tangkap3)."554*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."12*\n".
+    nomor_karakter($tangkap3)."43*\n".
+    nomor_karakter($tangkap3)."5*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."555*\n".
+    nomor_karakter($tangkap3)."5555*\n".
+    nomor_karakter($tangkap3)."55555*\n".
+    nomor_karakter($tangkap3)."51*\n".
+    nomor_karakter($tangkap3)."52*\n".
+    nomor_karakter($tangkap3)."53*\n".
+    nomor_karakter($tangkap3)."54*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."511*\n".
+    nomor_karakter($tangkap3)."522*\n".
+    nomor_karakter($tangkap3)."533*\n".
+    nomor_karakter($tangkap3)."544*\n".
+    nomor_karakter($tangkap3)."655*\n".
+    nomor_karakter($tangkap3)."515*\n".
+    nomor_karakter($tangkap3)."525\n".
+    nomor_karakter($tangkap3)."535*\n".
+    nomor_karakter($tangkap3)."545*\n".
+    nomor_karakter($tangkap3)."555*\n".
+    nomor_karakter($tangkap3)."115*\n".
+    nomor_karakter($tangkap3)."225*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."34*\n".
+    nomor_karakter($tangkap3)."1234*\n".
+    nomor_karakter($tangkap3)."5432*\n".
+    nomor_karakter($tangkap3)."6*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."666*\n".
+    nomor_karakter($tangkap3)."6666*\n".
+    nomor_karakter($tangkap3)."66666*\n".
+    nomor_karakter($tangkap3)."61*\n".
+    nomor_karakter($tangkap3)."62*\n".
+    nomor_karakter($tangkap3)."63*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."611*\n".
+    nomor_karakter($tangkap3)."622*\n".
+    nomor_karakter($tangkap3)."633*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."61*\n".
+    nomor_karakter($tangkap3)."62*\n".
+    nomor_karakter($tangkap3)."63*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."12345*\n".
+    nomor_karakter($tangkap3)."65432*\n".
+    nomor_karakter($tangkap3)."7*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."777*\n".
+    nomor_karakter($tangkap3)."7777*\n".
+    nomor_karakter($tangkap3)."77777*\n".
+    nomor_karakter($tangkap3)."71*\n".
+    nomor_karakter($tangkap3)."72*\n".
+    nomor_karakter($tangkap3)."73*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."711*\n".
+    nomor_karakter($tangkap3)."722*\n".
+    nomor_karakter($tangkap3)."733*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."71*\n".
+    nomor_karakter($tangkap3)."72*\n".
+    nomor_karakter($tangkap3)."73*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."1234567*\n".
+    nomor_karakter($tangkap3)."8*\n".
+    nomor_karakter($tangkap3)."88*\n".
+    nomor_karakter($tangkap3)."888*\n".
+    nomor_karakter($tangkap3)."8888*\n".
+    nomor_karakter($tangkap3)."88888*\n".
+    nomor_karakter($tangkap3)."81*\n".
+    nomor_karakter($tangkap3)."82*\n".
+    nomor_karakter($tangkap3)."83*\n".
+    nomor_karakter($tangkap3)."84*\n".
+    nomor_karakter($tangkap3)."85*\n".
+    nomor_karakter($tangkap3)."811*\n".
+    nomor_karakter($tangkap3)."822*\n".
+    nomor_karakter($tangkap3)."833*\n".
+    nomor_karakter($tangkap3)."844*\n".
+    nomor_karakter($tangkap3)."855*\n".
+    nomor_karakter($tangkap3)."818*\n".
+    nomor_karakter($tangkap3)."828*\n".
+    nomor_karakter($tangkap3)."838*\n".
+    nomor_karakter($tangkap3)."848*\n".
+    nomor_karakter($tangkap3)."858*\n".
+    nomor_karakter($tangkap3)."118*\n".
+    nomor_karakter($tangkap3)."228*\n".
+    nomor_karakter($tangkap3)."338*\n".
+    nomor_karakter($tangkap3)."448*\n".
+    nomor_karakter($tangkap3)."558*\n".
+    nomor_karakter($tangkap3)."881*\n".
+    nomor_karakter($tangkap3)."882*\n".
+    nomor_karakter($tangkap3)."883*\n".
+    nomor_karakter($tangkap3)."884*\n".
+    nomor_karakter($tangkap3)."885*\n".
+    nomor_karakter($tangkap3)."458*\n".
+    nomor_karakter($tangkap3)."12345678*\n".
+    nomor_karakter($tangkap3)."87654321*\n".
+    nomor_karakter($tangkap3)."9*\n".
+    nomor_karakter($tangkap3)."99*\n".
+    nomor_karakter($tangkap3)."999*\n".
+    nomor_karakter($tangkap3)."9999*\n".
+    nomor_karakter($tangkap3)."99999*\n".
+    nomor_karakter($tangkap3)."91*\n".
+    nomor_karakter($tangkap3)."92*\n".
+    nomor_karakter($tangkap3)."93*\n".
+    nomor_karakter($tangkap3)."94*\n".
+    nomor_karakter($tangkap3)."95*\n".
+    nomor_karakter($tangkap3)."911*\n".
+    nomor_karakter($tangkap3)."922*\n".
+    nomor_karakter($tangkap3)."933*\n".
+    nomor_karakter($tangkap3)."944*\n".
+    nomor_karakter($tangkap3)."955*\n".
+    nomor_karakter($tangkap3)."919*\n".
+    nomor_karakter($tangkap3)."929*\n".
+    nomor_karakter($tangkap3)."939*\n".
+    nomor_karakter($tangkap3)."949*\n".
+    nomor_karakter($tangkap3)."959*\n".
+    nomor_karakter($tangkap3)."119*\n".
+    nomor_karakter($tangkap3)."229*\n".
+    nomor_karakter($tangkap3)."339*\n".
+    nomor_karakter($tangkap3)."449*\n".
+    nomor_karakter($tangkap3)."559*\n".
+    nomor_karakter($tangkap3)."991*\n".
+    nomor_karakter($tangkap3)."992*\n".
+    nomor_karakter($tangkap3)."993*\n".
+    nomor_karakter($tangkap3)."994*\n".
+    nomor_karakter($tangkap3)."995*\n".
+    nomor_karakter($tangkap3)."459*\n".
+    nomor_karakter($tangkap3)."12345678*\n".
+    nomor_karakter($tangkap3)."987654321*\n".
+    nomor_karakter($tangkap3)."0*\n".
+    nomor_karakter($tangkap3)."00*\n".
+    nomor_karakter($tangkap3)."000*\n".
+    nomor_karakter($tangkap3)."0000*\n".
+    nomor_karakter($tangkap3)."00000*\n".
+    nomor_karakter($tangkap3)."01*\n".
+    nomor_karakter($tangkap3)."02*\n".
+    nomor_karakter($tangkap3)."03*\n".
+    nomor_karakter($tangkap3)."04*\n".
+    nomor_karakter($tangkap3)."05*\n".
+    nomor_karakter($tangkap3)."011*\n".
+    nomor_karakter($tangkap3)."022*\n".
+    nomor_karakter($tangkap3)."033*\n".
+    nomor_karakter($tangkap3)."044*\n".
+    nomor_karakter($tangkap3)."055*\n".
+    nomor_karakter($tangkap3)."010*\n".
+    nomor_karakter($tangkap3)."020*\n".
+    nomor_karakter($tangkap3)."030*\n".
+    nomor_karakter($tangkap3)."040*\n".
+    nomor_karakter($tangkap3)."050*\n".
+    nomor_karakter($tangkap3)."110*\n".
+    nomor_karakter($tangkap3)."220*\n".
+    nomor_karakter($tangkap3)."330*\n".
+    nomor_karakter($tangkap3)."440*\n".
+    nomor_karakter($tangkap3)."550*\n".
+    nomor_karakter($tangkap3)."001*\n".
+    nomor_karakter($tangkap3)."002*\n".
+    nomor_karakter($tangkap3)."003*\n".
+    nomor_karakter($tangkap3)."004*\n".
+    nomor_karakter($tangkap3)."005*\n".
+    nomor_karakter($tangkap3)."450*\n".
+    nomor_karakter($tangkap3)."123456789*\n".
+
+    nomor_karakter($tangkap8)."1*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."111*\n".
+    nomor_karakter($tangkap8)."1111*\n".
+    nomor_karakter($tangkap8)."11111*\n".
+    nomor_karakter($tangkap8)."2*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."2222*\n".
+    nomor_karakter($tangkap8)."22222*\n".
+    nomor_karakter($tangkap8)."21*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."23*\n".
+    nomor_karakter($tangkap8)."24*\n".
+    nomor_karakter($tangkap8)."25*\n".
+    nomor_karakter($tangkap8)."26*\n".
+    nomor_karakter($tangkap8)."27*\n".
+    nomor_karakter($tangkap8)."28*\n".
+    nomor_karakter($tangkap8)."29*\n".
+    nomor_karakter($tangkap8)."211*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."233*\n".
+    nomor_karakter($tangkap8)."244*\n".
+    nomor_karakter($tangkap8)."255*\n".
+    nomor_karakter($tangkap8)."212*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."232*\n".
+    nomor_karakter($tangkap8)."242*\n".
+    nomor_karakter($tangkap8)."252*\n".
+    nomor_karakter($tangkap8)."112*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."332*\n".
+    nomor_karakter($tangkap8)."442*\n".
+    nomor_karakter($tangkap8)."552*\n".
+    nomor_karakter($tangkap8)."221*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."223*\n".
+    nomor_karakter($tangkap8)."224*\n".
+    nomor_karakter($tangkap8)."225*\n".
+    nomor_karakter($tangkap8)."452*\n".
+    nomor_karakter($tangkap8)."12*\n".
+    nomor_karakter($tangkap8)."21*\n".
+    nomor_karakter($tangkap8)."3*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."3333*\n".
+    nomor_karakter($tangkap8)."33333*\n".
+    nomor_karakter($tangkap8)."31*\n".
+    nomor_karakter($tangkap8)."32*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."34*\n".
+    nomor_karakter($tangkap8)."35*\n".
+    nomor_karakter($tangkap8)."311*\n".
+    nomor_karakter($tangkap8)."322*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."344*\n".
+    nomor_karakter($tangkap8)."355*\n".
+    nomor_karakter($tangkap8)."313*\n".
+    nomor_karakter($tangkap8)."323*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."343*\n".
+    nomor_karakter($tangkap8)."353*\n".
+    nomor_karakter($tangkap8)."113*\n".
+    nomor_karakter($tangkap8)."223*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."443*\n".
+    nomor_karakter($tangkap8)."553*\n".
+    nomor_karakter($tangkap8)."331*\n".
+    nomor_karakter($tangkap8)."332*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."334*\n".
+    nomor_karakter($tangkap8)."335*\n".
+    nomor_karakter($tangkap8)."453*\n".
+    nomor_karakter($tangkap8)."123*\n".
+    nomor_karakter($tangkap8)."321*\n".
+    nomor_karakter($tangkap8)."4*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."4444*\n".
+    nomor_karakter($tangkap8)."44444*\n".
+    nomor_karakter($tangkap8)."41*\n".
+    nomor_karakter($tangkap8)."42*\n".
+    nomor_karakter($tangkap8)."43*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."411*\n".
+    nomor_karakter($tangkap8)."422*\n".
+    nomor_karakter($tangkap8)."433*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."455*\n".
+    nomor_karakter($tangkap8)."414*\n".
+    nomor_karakter($tangkap8)."424*\n".
+    nomor_karakter($tangkap8)."434*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."454*\n".
+    nomor_karakter($tangkap8)."114*\n".
+    nomor_karakter($tangkap8)."224*\n".
+    nomor_karakter($tangkap8)."334*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."441*\n".
+    nomor_karakter($tangkap8)."442*\n".
+    nomor_karakter($tangkap8)."443*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."445*\n".
+    nomor_karakter($tangkap8)."554*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."12*\n".
+    nomor_karakter($tangkap8)."43*\n".
+    nomor_karakter($tangkap8)."5*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."555*\n".
+    nomor_karakter($tangkap8)."5555*\n".
+    nomor_karakter($tangkap8)."55555*\n".
+    nomor_karakter($tangkap8)."51*\n".
+    nomor_karakter($tangkap8)."52*\n".
+    nomor_karakter($tangkap8)."53*\n".
+    nomor_karakter($tangkap8)."54*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."511*\n".
+    nomor_karakter($tangkap8)."522*\n".
+    nomor_karakter($tangkap8)."533*\n".
+    nomor_karakter($tangkap8)."544*\n".
+    nomor_karakter($tangkap8)."655*\n".
+    nomor_karakter($tangkap8)."515*\n".
+    nomor_karakter($tangkap8)."525\n".
+    nomor_karakter($tangkap8)."535*\n".
+    nomor_karakter($tangkap8)."545*\n".
+    nomor_karakter($tangkap8)."555*\n".
+    nomor_karakter($tangkap8)."115*\n".
+    nomor_karakter($tangkap8)."225*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."34*\n".
+    nomor_karakter($tangkap8)."1234*\n".
+    nomor_karakter($tangkap8)."5432*\n".
+    nomor_karakter($tangkap8)."6*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."666*\n".
+    nomor_karakter($tangkap8)."6666*\n".
+    nomor_karakter($tangkap8)."66666*\n".
+    nomor_karakter($tangkap8)."61*\n".
+    nomor_karakter($tangkap8)."62*\n".
+    nomor_karakter($tangkap8)."63*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."611*\n".
+    nomor_karakter($tangkap8)."622*\n".
+    nomor_karakter($tangkap8)."633*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."61*\n".
+    nomor_karakter($tangkap8)."62*\n".
+    nomor_karakter($tangkap8)."63*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."12345*\n".
+    nomor_karakter($tangkap8)."65432*\n".
+    nomor_karakter($tangkap8)."7*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."777*\n".
+    nomor_karakter($tangkap8)."7777*\n".
+    nomor_karakter($tangkap8)."77777*\n".
+    nomor_karakter($tangkap8)."71*\n".
+    nomor_karakter($tangkap8)."72*\n".
+    nomor_karakter($tangkap8)."73*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."711*\n".
+    nomor_karakter($tangkap8)."722*\n".
+    nomor_karakter($tangkap8)."733*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."71*\n".
+    nomor_karakter($tangkap8)."72*\n".
+    nomor_karakter($tangkap8)."73*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."1234567*\n".
+    nomor_karakter($tangkap8)."8*\n".
+    nomor_karakter($tangkap8)."88*\n".
+    nomor_karakter($tangkap8)."888*\n".
+    nomor_karakter($tangkap8)."8888*\n".
+    nomor_karakter($tangkap8)."88888*\n".
+    nomor_karakter($tangkap8)."81*\n".
+    nomor_karakter($tangkap8)."82*\n".
+    nomor_karakter($tangkap8)."83*\n".
+    nomor_karakter($tangkap8)."84*\n".
+    nomor_karakter($tangkap8)."85*\n".
+    nomor_karakter($tangkap8)."811*\n".
+    nomor_karakter($tangkap8)."822*\n".
+    nomor_karakter($tangkap8)."833*\n".
+    nomor_karakter($tangkap8)."844*\n".
+    nomor_karakter($tangkap8)."855*\n".
+    nomor_karakter($tangkap8)."818*\n".
+    nomor_karakter($tangkap8)."828*\n".
+    nomor_karakter($tangkap8)."838*\n".
+    nomor_karakter($tangkap8)."848*\n".
+    nomor_karakter($tangkap8)."858*\n".
+    nomor_karakter($tangkap8)."118*\n".
+    nomor_karakter($tangkap8)."228*\n".
+    nomor_karakter($tangkap8)."338*\n".
+    nomor_karakter($tangkap8)."448*\n".
+    nomor_karakter($tangkap8)."558*\n".
+    nomor_karakter($tangkap8)."881*\n".
+    nomor_karakter($tangkap8)."882*\n".
+    nomor_karakter($tangkap8)."883*\n".
+    nomor_karakter($tangkap8)."884*\n".
+    nomor_karakter($tangkap8)."885*\n".
+    nomor_karakter($tangkap8)."458*\n".
+    nomor_karakter($tangkap8)."12345678*\n".
+    nomor_karakter($tangkap8)."87654321*\n".
+    nomor_karakter($tangkap8)."9*\n".
+    nomor_karakter($tangkap8)."99*\n".
+    nomor_karakter($tangkap8)."999*\n".
+    nomor_karakter($tangkap8)."9999*\n".
+    nomor_karakter($tangkap8)."99999*\n".
+    nomor_karakter($tangkap8)."91*\n".
+    nomor_karakter($tangkap8)."92*\n".
+    nomor_karakter($tangkap8)."93*\n".
+    nomor_karakter($tangkap8)."94*\n".
+    nomor_karakter($tangkap8)."95*\n".
+    nomor_karakter($tangkap8)."911*\n".
+    nomor_karakter($tangkap8)."922*\n".
+    nomor_karakter($tangkap8)."933*\n".
+    nomor_karakter($tangkap8)."944*\n".
+    nomor_karakter($tangkap8)."955*\n".
+    nomor_karakter($tangkap8)."919*\n".
+    nomor_karakter($tangkap8)."929*\n".
+    nomor_karakter($tangkap8)."939*\n".
+    nomor_karakter($tangkap8)."949*\n".
+    nomor_karakter($tangkap8)."959*\n".
+    nomor_karakter($tangkap8)."119*\n".
+    nomor_karakter($tangkap8)."229*\n".
+    nomor_karakter($tangkap8)."339*\n".
+    nomor_karakter($tangkap8)."449*\n".
+    nomor_karakter($tangkap8)."559*\n".
+    nomor_karakter($tangkap8)."991*\n".
+    nomor_karakter($tangkap8)."992*\n".
+    nomor_karakter($tangkap8)."993*\n".
+    nomor_karakter($tangkap8)."994*\n".
+    nomor_karakter($tangkap8)."995*\n".
+    nomor_karakter($tangkap8)."459*\n".
+    nomor_karakter($tangkap8)."12345678*\n".
+    nomor_karakter($tangkap8)."987654321*\n".
+    nomor_karakter($tangkap8)."0*\n".
+    nomor_karakter($tangkap8)."00*\n".
+    nomor_karakter($tangkap8)."000*\n".
+    nomor_karakter($tangkap8)."0000*\n".
+    nomor_karakter($tangkap8)."00000*\n".
+    nomor_karakter($tangkap8)."01*\n".
+    nomor_karakter($tangkap8)."02*\n".
+    nomor_karakter($tangkap8)."03*\n".
+    nomor_karakter($tangkap8)."04*\n".
+    nomor_karakter($tangkap8)."05*\n".
+    nomor_karakter($tangkap8)."011*\n".
+    nomor_karakter($tangkap8)."022*\n".
+    nomor_karakter($tangkap8)."033*\n".
+    nomor_karakter($tangkap8)."044*\n".
+    nomor_karakter($tangkap8)."055*\n".
+    nomor_karakter($tangkap8)."010*\n".
+    nomor_karakter($tangkap8)."020*\n".
+    nomor_karakter($tangkap8)."030*\n".
+    nomor_karakter($tangkap8)."040*\n".
+    nomor_karakter($tangkap8)."050*\n".
+    nomor_karakter($tangkap8)."110*\n".
+    nomor_karakter($tangkap8)."220*\n".
+    nomor_karakter($tangkap8)."330*\n".
+    nomor_karakter($tangkap8)."440*\n".
+    nomor_karakter($tangkap8)."550*\n".
+    nomor_karakter($tangkap8)."001*\n".
+    nomor_karakter($tangkap8)."002*\n".
+    nomor_karakter($tangkap8)."003*\n".
+    nomor_karakter($tangkap8)."004*\n".
+    nomor_karakter($tangkap8)."005*\n".
+    nomor_karakter($tangkap8)."450*\n".
+    nomor_karakter($tangkap8)."123456789*\n".
+
+    nomor_karakter($tangkap9)."1*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."111*\n".
+    nomor_karakter($tangkap9)."1111*\n".
+    nomor_karakter($tangkap9)."11111*\n".
+    nomor_karakter($tangkap9)."2*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."2222*\n".
+    nomor_karakter($tangkap9)."22222*\n".
+    nomor_karakter($tangkap9)."21*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."23*\n".
+    nomor_karakter($tangkap9)."24*\n".
+    nomor_karakter($tangkap9)."25*\n".
+    nomor_karakter($tangkap9)."26*\n".
+    nomor_karakter($tangkap9)."27*\n".
+    nomor_karakter($tangkap9)."28*\n".
+    nomor_karakter($tangkap9)."29*\n".
+    nomor_karakter($tangkap9)."211*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."233*\n".
+    nomor_karakter($tangkap9)."244*\n".
+    nomor_karakter($tangkap9)."255*\n".
+    nomor_karakter($tangkap9)."212*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."232*\n".
+    nomor_karakter($tangkap9)."242*\n".
+    nomor_karakter($tangkap9)."252*\n".
+    nomor_karakter($tangkap9)."112*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."332*\n".
+    nomor_karakter($tangkap9)."442*\n".
+    nomor_karakter($tangkap9)."552*\n".
+    nomor_karakter($tangkap9)."221*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."223*\n".
+    nomor_karakter($tangkap9)."224*\n".
+    nomor_karakter($tangkap9)."225*\n".
+    nomor_karakter($tangkap9)."452*\n".
+    nomor_karakter($tangkap9)."12*\n".
+    nomor_karakter($tangkap9)."21*\n".
+    nomor_karakter($tangkap9)."3*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."3333*\n".
+    nomor_karakter($tangkap9)."33333*\n".
+    nomor_karakter($tangkap9)."31*\n".
+    nomor_karakter($tangkap9)."32*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."34*\n".
+    nomor_karakter($tangkap9)."35*\n".
+    nomor_karakter($tangkap9)."311*\n".
+    nomor_karakter($tangkap9)."322*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."344*\n".
+    nomor_karakter($tangkap9)."355*\n".
+    nomor_karakter($tangkap9)."313*\n".
+    nomor_karakter($tangkap9)."323*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."343*\n".
+    nomor_karakter($tangkap9)."353*\n".
+    nomor_karakter($tangkap9)."113*\n".
+    nomor_karakter($tangkap9)."223*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."443*\n".
+    nomor_karakter($tangkap9)."553*\n".
+    nomor_karakter($tangkap9)."331*\n".
+    nomor_karakter($tangkap9)."332*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."334*\n".
+    nomor_karakter($tangkap9)."335*\n".
+    nomor_karakter($tangkap9)."453*\n".
+    nomor_karakter($tangkap9)."123*\n".
+    nomor_karakter($tangkap9)."321*\n".
+    nomor_karakter($tangkap9)."4*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."4444*\n".
+    nomor_karakter($tangkap9)."44444*\n".
+    nomor_karakter($tangkap9)."41*\n".
+    nomor_karakter($tangkap9)."42*\n".
+    nomor_karakter($tangkap9)."43*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."411*\n".
+    nomor_karakter($tangkap9)."422*\n".
+    nomor_karakter($tangkap9)."433*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."455*\n".
+    nomor_karakter($tangkap9)."414*\n".
+    nomor_karakter($tangkap9)."424*\n".
+    nomor_karakter($tangkap9)."434*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."454*\n".
+    nomor_karakter($tangkap9)."114*\n".
+    nomor_karakter($tangkap9)."224*\n".
+    nomor_karakter($tangkap9)."334*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."441*\n".
+    nomor_karakter($tangkap9)."442*\n".
+    nomor_karakter($tangkap9)."443*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."445*\n".
+    nomor_karakter($tangkap9)."554*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."12*\n".
+    nomor_karakter($tangkap9)."43*\n".
+    nomor_karakter($tangkap9)."5*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."555*\n".
+    nomor_karakter($tangkap9)."5555*\n".
+    nomor_karakter($tangkap9)."55555*\n".
+    nomor_karakter($tangkap9)."51*\n".
+    nomor_karakter($tangkap9)."52*\n".
+    nomor_karakter($tangkap9)."53*\n".
+    nomor_karakter($tangkap9)."54*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."511*\n".
+    nomor_karakter($tangkap9)."522*\n".
+    nomor_karakter($tangkap9)."533*\n".
+    nomor_karakter($tangkap9)."544*\n".
+    nomor_karakter($tangkap9)."655*\n".
+    nomor_karakter($tangkap9)."515*\n".
+    nomor_karakter($tangkap9)."525\n".
+    nomor_karakter($tangkap9)."535*\n".
+    nomor_karakter($tangkap9)."545*\n".
+    nomor_karakter($tangkap9)."555*\n".
+    nomor_karakter($tangkap9)."115*\n".
+    nomor_karakter($tangkap9)."225*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."34*\n".
+    nomor_karakter($tangkap9)."1234*\n".
+    nomor_karakter($tangkap9)."5432*\n".
+    nomor_karakter($tangkap9)."6*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."666*\n".
+    nomor_karakter($tangkap9)."6666*\n".
+    nomor_karakter($tangkap9)."66666*\n".
+    nomor_karakter($tangkap9)."61*\n".
+    nomor_karakter($tangkap9)."62*\n".
+    nomor_karakter($tangkap9)."63*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."611*\n".
+    nomor_karakter($tangkap9)."622*\n".
+    nomor_karakter($tangkap9)."633*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."61*\n".
+    nomor_karakter($tangkap9)."62*\n".
+    nomor_karakter($tangkap9)."63*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."12345*\n".
+    nomor_karakter($tangkap9)."65432*\n".
+    nomor_karakter($tangkap9)."7*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."777*\n".
+    nomor_karakter($tangkap9)."7777*\n".
+    nomor_karakter($tangkap9)."77777*\n".
+    nomor_karakter($tangkap9)."71*\n".
+    nomor_karakter($tangkap9)."72*\n".
+    nomor_karakter($tangkap9)."73*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."711*\n".
+    nomor_karakter($tangkap9)."722*\n".
+    nomor_karakter($tangkap9)."733*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."71*\n".
+    nomor_karakter($tangkap9)."72*\n".
+    nomor_karakter($tangkap9)."73*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."1234567*\n".
+    nomor_karakter($tangkap9)."8*\n".
+    nomor_karakter($tangkap9)."88*\n".
+    nomor_karakter($tangkap9)."888*\n".
+    nomor_karakter($tangkap9)."8888*\n".
+    nomor_karakter($tangkap9)."88888*\n".
+    nomor_karakter($tangkap9)."81*\n".
+    nomor_karakter($tangkap9)."82*\n".
+    nomor_karakter($tangkap9)."83*\n".
+    nomor_karakter($tangkap9)."84*\n".
+    nomor_karakter($tangkap9)."85*\n".
+    nomor_karakter($tangkap9)."811*\n".
+    nomor_karakter($tangkap9)."822*\n".
+    nomor_karakter($tangkap9)."833*\n".
+    nomor_karakter($tangkap9)."844*\n".
+    nomor_karakter($tangkap9)."855*\n".
+    nomor_karakter($tangkap9)."818*\n".
+    nomor_karakter($tangkap9)."828*\n".
+    nomor_karakter($tangkap9)."838*\n".
+    nomor_karakter($tangkap9)."848*\n".
+    nomor_karakter($tangkap9)."858*\n".
+    nomor_karakter($tangkap9)."118*\n".
+    nomor_karakter($tangkap9)."228*\n".
+    nomor_karakter($tangkap9)."338*\n".
+    nomor_karakter($tangkap9)."448*\n".
+    nomor_karakter($tangkap9)."558*\n".
+    nomor_karakter($tangkap9)."881*\n".
+    nomor_karakter($tangkap9)."882*\n".
+    nomor_karakter($tangkap9)."883*\n".
+    nomor_karakter($tangkap9)."884*\n".
+    nomor_karakter($tangkap9)."885*\n".
+    nomor_karakter($tangkap9)."458*\n".
+    nomor_karakter($tangkap9)."12345678*\n".
+    nomor_karakter($tangkap9)."87654321*\n".
+    nomor_karakter($tangkap9)."9*\n".
+    nomor_karakter($tangkap9)."99*\n".
+    nomor_karakter($tangkap9)."999*\n".
+    nomor_karakter($tangkap9)."9999*\n".
+    nomor_karakter($tangkap9)."99999*\n".
+    nomor_karakter($tangkap9)."91*\n".
+    nomor_karakter($tangkap9)."92*\n".
+    nomor_karakter($tangkap9)."93*\n".
+    nomor_karakter($tangkap9)."94*\n".
+    nomor_karakter($tangkap9)."95*\n".
+    nomor_karakter($tangkap9)."911*\n".
+    nomor_karakter($tangkap9)."922*\n".
+    nomor_karakter($tangkap9)."933*\n".
+    nomor_karakter($tangkap9)."944*\n".
+    nomor_karakter($tangkap9)."955*\n".
+    nomor_karakter($tangkap9)."919*\n".
+    nomor_karakter($tangkap9)."929*\n".
+    nomor_karakter($tangkap9)."939*\n".
+    nomor_karakter($tangkap9)."949*\n".
+    nomor_karakter($tangkap9)."959*\n".
+    nomor_karakter($tangkap9)."119*\n".
+    nomor_karakter($tangkap9)."229*\n".
+    nomor_karakter($tangkap9)."339*\n".
+    nomor_karakter($tangkap9)."449*\n".
+    nomor_karakter($tangkap9)."559*\n".
+    nomor_karakter($tangkap9)."991*\n".
+    nomor_karakter($tangkap9)."992*\n".
+    nomor_karakter($tangkap9)."993*\n".
+    nomor_karakter($tangkap9)."994*\n".
+    nomor_karakter($tangkap9)."995*\n".
+    nomor_karakter($tangkap9)."459*\n".
+    nomor_karakter($tangkap9)."12345678*\n".
+    nomor_karakter($tangkap9)."987654321*\n".
+    nomor_karakter($tangkap9)."0*\n".
+    nomor_karakter($tangkap9)."00*\n".
+    nomor_karakter($tangkap9)."000*\n".
+    nomor_karakter($tangkap9)."0000*\n".
+    nomor_karakter($tangkap9)."00000*\n".
+    nomor_karakter($tangkap9)."01*\n".
+    nomor_karakter($tangkap9)."02*\n".
+    nomor_karakter($tangkap9)."03*\n".
+    nomor_karakter($tangkap9)."04*\n".
+    nomor_karakter($tangkap9)."05*\n".
+    nomor_karakter($tangkap9)."011*\n".
+    nomor_karakter($tangkap9)."022*\n".
+    nomor_karakter($tangkap9)."033*\n".
+    nomor_karakter($tangkap9)."044*\n".
+    nomor_karakter($tangkap9)."055*\n".
+    nomor_karakter($tangkap9)."010*\n".
+    nomor_karakter($tangkap9)."020*\n".
+    nomor_karakter($tangkap9)."030*\n".
+    nomor_karakter($tangkap9)."040*\n".
+    nomor_karakter($tangkap9)."050*\n".
+    nomor_karakter($tangkap9)."110*\n".
+    nomor_karakter($tangkap9)."220*\n".
+    nomor_karakter($tangkap9)."330*\n".
+    nomor_karakter($tangkap9)."440*\n".
+    nomor_karakter($tangkap9)."550*\n".
+    nomor_karakter($tangkap9)."001*\n".
+    nomor_karakter($tangkap9)."002*\n".
+    nomor_karakter($tangkap9)."003*\n".
+    nomor_karakter($tangkap9)."004*\n".
+    nomor_karakter($tangkap9)."005*\n".
+    nomor_karakter($tangkap9)."450*\n".
+    nomor_karakter($tangkap9)."123456789*\n".
+
+    nomor_karakter($tangkap13)."1*\n".
+    nomor_karakter($tangkap13)."11*\n".
+    nomor_karakter($tangkap13)."111*\n".
+    nomor_karakter($tangkap13)."1111*\n".
+    nomor_karakter($tangkap13)."11111*\n".
+    nomor_karakter($tangkap13)."2*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."2222*\n".
+    nomor_karakter($tangkap13)."22222*\n".
+    nomor_karakter($tangkap13)."21*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."23*\n".
+    nomor_karakter($tangkap13)."24*\n".
+    nomor_karakter($tangkap13)."25*\n".
+    nomor_karakter($tangkap13)."26*\n".
+    nomor_karakter($tangkap13)."27*\n".
+    nomor_karakter($tangkap13)."28*\n".
+    nomor_karakter($tangkap13)."29*\n".
+    nomor_karakter($tangkap13)."211*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."233*\n".
+    nomor_karakter($tangkap13)."244*\n".
+    nomor_karakter($tangkap13)."255*\n".
+    nomor_karakter($tangkap13)."212*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."232*\n".
+    nomor_karakter($tangkap13)."242*\n".
+    nomor_karakter($tangkap13)."252*\n".
+    nomor_karakter($tangkap13)."112*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."332*\n".
+    nomor_karakter($tangkap13)."442*\n".
+    nomor_karakter($tangkap13)."552*\n".
+    nomor_karakter($tangkap13)."221*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."223*\n".
+    nomor_karakter($tangkap13)."224*\n".
+    nomor_karakter($tangkap13)."225*\n".
+    nomor_karakter($tangkap13)."452*\n".
+    nomor_karakter($tangkap13)."12*\n".
+    nomor_karakter($tangkap13)."21*\n".
+    nomor_karakter($tangkap13)."3*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."3333*\n".
+    nomor_karakter($tangkap13)."33333*\n".
+    nomor_karakter($tangkap13)."31*\n".
+    nomor_karakter($tangkap13)."32*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."34*\n".
+    nomor_karakter($tangkap13)."35*\n".
+    nomor_karakter($tangkap13)."311*\n".
+    nomor_karakter($tangkap13)."322*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."344*\n".
+    nomor_karakter($tangkap13)."355*\n".
+    nomor_karakter($tangkap13)."313*\n".
+    nomor_karakter($tangkap13)."323*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."343*\n".
+    nomor_karakter($tangkap13)."353*\n".
+    nomor_karakter($tangkap13)."113*\n".
+    nomor_karakter($tangkap13)."223*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."443*\n".
+    nomor_karakter($tangkap13)."553*\n".
+    nomor_karakter($tangkap13)."331*\n".
+    nomor_karakter($tangkap13)."332*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."334*\n".
+    nomor_karakter($tangkap13)."335*\n".
+    nomor_karakter($tangkap13)."453*\n".
+    nomor_karakter($tangkap13)."123*\n".
+    nomor_karakter($tangkap13)."321*\n".
+    nomor_karakter($tangkap13)."4*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."4444*\n".
+    nomor_karakter($tangkap13)."44444*\n".
+    nomor_karakter($tangkap13)."41*\n".
+    nomor_karakter($tangkap13)."42*\n".
+    nomor_karakter($tangkap13)."43*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."45*\n".
+    nomor_karakter($tangkap13)."411*\n".
+    nomor_karakter($tangkap13)."422*\n".
+    nomor_karakter($tangkap13)."433*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."455*\n".
+    nomor_karakter($tangkap13)."414*\n".
+    nomor_karakter($tangkap13)."424*\n".
+    nomor_karakter($tangkap13)."434*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."454*\n".
+    nomor_karakter($tangkap13)."114*\n".
+    nomor_karakter($tangkap13)."224*\n".
+    nomor_karakter($tangkap13)."334*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."441*\n".
+    nomor_karakter($tangkap13)."442*\n".
+    nomor_karakter($tangkap13)."443*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."445*\n".
+    nomor_karakter($tangkap13)."554*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."12*\n".
+    nomor_karakter($tangkap13)."43*\n".
+    nomor_karakter($tangkap13)."5*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."555*\n".
+    nomor_karakter($tangkap13)."5555*\n".
+    nomor_karakter($tangkap13)."55555*\n".
+    nomor_karakter($tangkap13)."51*\n".
+    nomor_karakter($tangkap13)."52*\n".
+    nomor_karakter($tangkap13)."53*\n".
+    nomor_karakter($tangkap13)."54*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."511*\n".
+    nomor_karakter($tangkap13)."522*\n".
+    nomor_karakter($tangkap13)."533*\n".
+    nomor_karakter($tangkap13)."544*\n".
+    nomor_karakter($tangkap13)."655*\n".
+    nomor_karakter($tangkap13)."515*\n".
+    nomor_karakter($tangkap13)."525\n".
+    nomor_karakter($tangkap13)."535*\n".
+    nomor_karakter($tangkap13)."545*\n".
+    nomor_karakter($tangkap13)."555*\n".
+    nomor_karakter($tangkap13)."115*\n".
+    nomor_karakter($tangkap13)."225*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."34*\n".
+    nomor_karakter($tangkap13)."1234*\n".
+    nomor_karakter($tangkap13)."5432*\n".
+    nomor_karakter($tangkap13)."6*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."666*\n".
+    nomor_karakter($tangkap13)."6666*\n".
+    nomor_karakter($tangkap13)."66666*\n".
+    nomor_karakter($tangkap13)."61*\n".
+    nomor_karakter($tangkap13)."62*\n".
+    nomor_karakter($tangkap13)."63*\n".
+    nomor_karakter($tangkap13)."64*\n".
+    nomor_karakter($tangkap13)."65*\n".
+    nomor_karakter($tangkap13)."611*\n".
+    nomor_karakter($tangkap13)."622*\n".
+    nomor_karakter($tangkap13)."633*\n".
+    nomor_karakter($tangkap13)."64*\n".
+    nomor_karakter($tangkap13)."65*\n".
+    nomor_karakter($tangkap13)."61*\n".
+    nomor_karakter($tangkap13)."62*\n".
+    nomor_karakter($tangkap13)."63*\n".
+    nomor_karakter($tangkap13)."64*\n".
+    nomor_karakter($tangkap13)."65*\n".
+    nomor_karakter($tangkap13)."11*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."45*\n".
+    nomor_karakter($tangkap13)."12345*\n".
+    nomor_karakter($tangkap13)."65432*\n".
+    nomor_karakter($tangkap13)."7*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."777*\n".
+    nomor_karakter($tangkap13)."7777*\n".
+    nomor_karakter($tangkap13)."77777*\n".
+    nomor_karakter($tangkap13)."71*\n".
+    nomor_karakter($tangkap13)."72*\n".
+    nomor_karakter($tangkap13)."73*\n".
+    nomor_karakter($tangkap13)."74*\n".
+    nomor_karakter($tangkap13)."75*\n".
+    nomor_karakter($tangkap13)."711*\n".
+    nomor_karakter($tangkap13)."722*\n".
+    nomor_karakter($tangkap13)."733*\n".
+    nomor_karakter($tangkap13)."74*\n".
+    nomor_karakter($tangkap13)."75*\n".
+    nomor_karakter($tangkap13)."71*\n".
+    nomor_karakter($tangkap13)."72*\n".
+    nomor_karakter($tangkap13)."73*\n".
+    nomor_karakter($tangkap13)."74*\n".
+    nomor_karakter($tangkap13)."75*\n".
+    nomor_karakter($tangkap13)."11*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."45*\n".
+    nomor_karakter($tangkap13)."1234567*\n".
+    nomor_karakter($tangkap13)."8*\n".
+    nomor_karakter($tangkap13)."88*\n".
+    nomor_karakter($tangkap13)."888*\n".
+    nomor_karakter($tangkap13)."8888*\n".
+    nomor_karakter($tangkap13)."88888*\n".
+    nomor_karakter($tangkap13)."81*\n".
+    nomor_karakter($tangkap13)."82*\n".
+    nomor_karakter($tangkap13)."83*\n".
+    nomor_karakter($tangkap13)."84*\n".
+    nomor_karakter($tangkap13)."85*\n".
+    nomor_karakter($tangkap13)."811*\n".
+    nomor_karakter($tangkap13)."822*\n".
+    nomor_karakter($tangkap13)."833*\n".
+    nomor_karakter($tangkap13)."844*\n".
+    nomor_karakter($tangkap13)."855*\n".
+    nomor_karakter($tangkap13)."818*\n".
+    nomor_karakter($tangkap13)."828*\n".
+    nomor_karakter($tangkap13)."838*\n".
+    nomor_karakter($tangkap13)."848*\n".
+    nomor_karakter($tangkap13)."858*\n".
+    nomor_karakter($tangkap13)."118*\n".
+    nomor_karakter($tangkap13)."228*\n".
+    nomor_karakter($tangkap13)."338*\n".
+    nomor_karakter($tangkap13)."448*\n".
+    nomor_karakter($tangkap13)."558*\n".
+    nomor_karakter($tangkap13)."881*\n".
+    nomor_karakter($tangkap13)."882*\n".
+    nomor_karakter($tangkap13)."883*\n".
+    nomor_karakter($tangkap13)."884*\n".
+    nomor_karakter($tangkap13)."885*\n".
+    nomor_karakter($tangkap13)."458*\n".
+    nomor_karakter($tangkap13)."12345678*\n".
+    nomor_karakter($tangkap13)."87654321*\n".
+    nomor_karakter($tangkap13)."9*\n".
+    nomor_karakter($tangkap13)."99*\n".
+    nomor_karakter($tangkap13)."999*\n".
+    nomor_karakter($tangkap13)."9999*\n".
+    nomor_karakter($tangkap13)."99999*\n".
+    nomor_karakter($tangkap13)."91*\n".
+    nomor_karakter($tangkap13)."92*\n".
+    nomor_karakter($tangkap13)."93*\n".
+    nomor_karakter($tangkap13)."94*\n".
+    nomor_karakter($tangkap13)."95*\n".
+    nomor_karakter($tangkap13)."911*\n".
+    nomor_karakter($tangkap13)."922*\n".
+    nomor_karakter($tangkap13)."933*\n".
+    nomor_karakter($tangkap13)."944*\n".
+    nomor_karakter($tangkap13)."955*\n".
+    nomor_karakter($tangkap13)."919*\n".
+    nomor_karakter($tangkap13)."929*\n".
+    nomor_karakter($tangkap13)."939*\n".
+    nomor_karakter($tangkap13)."949*\n".
+    nomor_karakter($tangkap13)."959*\n".
+    nomor_karakter($tangkap13)."119*\n".
+    nomor_karakter($tangkap13)."229*\n".
+    nomor_karakter($tangkap13)."339*\n".
+    nomor_karakter($tangkap13)."449*\n".
+    nomor_karakter($tangkap13)."559*\n".
+    nomor_karakter($tangkap13)."991*\n".
+    nomor_karakter($tangkap13)."992*\n".
+    nomor_karakter($tangkap13)."993*\n".
+    nomor_karakter($tangkap13)."994*\n".
+    nomor_karakter($tangkap13)."995*\n".
+    nomor_karakter($tangkap13)."459*\n".
+    nomor_karakter($tangkap13)."12345678*\n".
+    nomor_karakter($tangkap13)."987654321*\n".
+    nomor_karakter($tangkap13)."0*\n".
+    nomor_karakter($tangkap13)."00*\n".
+    nomor_karakter($tangkap13)."000*\n".
+    nomor_karakter($tangkap13)."0000*\n".
+    nomor_karakter($tangkap13)."00000*\n".
+    nomor_karakter($tangkap13)."01*\n".
+    nomor_karakter($tangkap13)."02*\n".
+    nomor_karakter($tangkap13)."03*\n".
+    nomor_karakter($tangkap13)."04*\n".
+    nomor_karakter($tangkap13)."05*\n".
+    nomor_karakter($tangkap13)."011*\n".
+    nomor_karakter($tangkap13)."022*\n".
+    nomor_karakter($tangkap13)."033*\n".
+    nomor_karakter($tangkap13)."044*\n".
+    nomor_karakter($tangkap13)."055*\n".
+    nomor_karakter($tangkap13)."010*\n".
+    nomor_karakter($tangkap13)."020*\n".
+    nomor_karakter($tangkap13)."030*\n".
+    nomor_karakter($tangkap13)."040*\n".
+    nomor_karakter($tangkap13)."050*\n".
+    nomor_karakter($tangkap13)."110*\n".
+    nomor_karakter($tangkap13)."220*\n".
+    nomor_karakter($tangkap13)."330*\n".
+    nomor_karakter($tangkap13)."440*\n".
+    nomor_karakter($tangkap13)."550*\n".
+    nomor_karakter($tangkap13)."001*\n".
+    nomor_karakter($tangkap13)."002*\n".
+    nomor_karakter($tangkap13)."003*\n".
+    nomor_karakter($tangkap13)."004*\n".
+    nomor_karakter($tangkap13)."005*\n".
+    nomor_karakter($tangkap13)."450*\n".
+    nomor_karakter($tangkap13)."123456789*\n".
+
+    nomor_karakter($tangkap16)."1*\n".
+    nomor_karakter($tangkap16)."11*\n".
+    nomor_karakter($tangkap16)."111*\n".
+    nomor_karakter($tangkap16)."1111*\n".
+    nomor_karakter($tangkap16)."11111*\n".
+    nomor_karakter($tangkap16)."2*\n".
+    nomor_karakter($tangkap16)."22*\n".
+    nomor_karakter($tangkap16)."222*\n".
+    nomor_karakter($tangkap16)."2222*\n".
+    nomor_karakter($tangkap16)."22222*\n".
+    nomor_karakter($tangkap16)."21*\n".
+    nomor_karakter($tangkap16)."22*\n".
+    nomor_karakter($tangkap16)."23*\n".
+    nomor_karakter($tangkap16)."24*\n".
+    nomor_karakter($tangkap16)."25*\n".
+    nomor_karakter($tangkap16)."26*\n".
+    nomor_karakter($tangkap16)."27*\n".
+    nomor_karakter($tangkap16)."28*\n".
+    nomor_karakter($tangkap16)."29*\n".
+    nomor_karakter($tangkap16)."211*\n".
+    nomor_karakter($tangkap16)."222*\n".
+    nomor_karakter($tangkap16)."233*\n".
+    nomor_karakter($tangkap16)."244*\n".
+    nomor_karakter($tangkap16)."255*\n".
+    nomor_karakter($tangkap16)."212*\n".
+    nomor_karakter($tangkap16)."222*\n".
+    nomor_karakter($tangkap16)."232*\n".
+    nomor_karakter($tangkap16)."242*\n".
+    nomor_karakter($tangkap16)."252*\n".
+    nomor_karakter($tangkap16)."112*\n".
+    nomor_karakter($tangkap16)."222*\n".
+    nomor_karakter($tangkap16)."332*\n".
+    nomor_karakter($tangkap16)."442*\n".
+    nomor_karakter($tangkap16)."552*\n".
+    nomor_karakter($tangkap16)."221*\n".
+    nomor_karakter($tangkap16)."222*\n".
+    nomor_karakter($tangkap16)."223*\n".
+    nomor_karakter($tangkap16)."224*\n".
+    nomor_karakter($tangkap16)."225*\n".
+    nomor_karakter($tangkap16)."452*\n".
+    nomor_karakter($tangkap16)."12*\n".
+    nomor_karakter($tangkap16)."21*\n".
+    nomor_karakter($tangkap16)."3*\n".
+    nomor_karakter($tangkap16)."33*\n".
+    nomor_karakter($tangkap16)."333*\n".
+    nomor_karakter($tangkap16)."3333*\n".
+    nomor_karakter($tangkap16)."33333*\n".
+    nomor_karakter($tangkap16)."31*\n".
+    nomor_karakter($tangkap16)."32*\n".
+    nomor_karakter($tangkap16)."33*\n".
+    nomor_karakter($tangkap16)."34*\n".
+    nomor_karakter($tangkap16)."35*\n".
+    nomor_karakter($tangkap16)."311*\n".
+    nomor_karakter($tangkap16)."322*\n".
+    nomor_karakter($tangkap16)."333*\n".
+    nomor_karakter($tangkap16)."344*\n".
+    nomor_karakter($tangkap16)."355*\n".
+    nomor_karakter($tangkap16)."313*\n".
+    nomor_karakter($tangkap16)."323*\n".
+    nomor_karakter($tangkap16)."333*\n".
+    nomor_karakter($tangkap16)."343*\n".
+    nomor_karakter($tangkap16)."353*\n".
+    nomor_karakter($tangkap16)."113*\n".
+    nomor_karakter($tangkap16)."223*\n".
+    nomor_karakter($tangkap16)."333*\n".
+    nomor_karakter($tangkap16)."443*\n".
+    nomor_karakter($tangkap16)."553*\n".
+    nomor_karakter($tangkap16)."331*\n".
+    nomor_karakter($tangkap16)."332*\n".
+    nomor_karakter($tangkap16)."333*\n".
+    nomor_karakter($tangkap16)."334*\n".
+    nomor_karakter($tangkap16)."335*\n".
+    nomor_karakter($tangkap16)."453*\n".
+    nomor_karakter($tangkap16)."123*\n".
+    nomor_karakter($tangkap16)."321*\n".
+    nomor_karakter($tangkap16)."4*\n".
+    nomor_karakter($tangkap16)."44*\n".
+    nomor_karakter($tangkap16)."444*\n".
+    nomor_karakter($tangkap16)."4444*\n".
+    nomor_karakter($tangkap16)."44444*\n".
+    nomor_karakter($tangkap16)."41*\n".
+    nomor_karakter($tangkap16)."42*\n".
+    nomor_karakter($tangkap16)."43*\n".
+    nomor_karakter($tangkap16)."44*\n".
+    nomor_karakter($tangkap16)."45*\n".
+    nomor_karakter($tangkap16)."411*\n".
+    nomor_karakter($tangkap16)."422*\n".
+    nomor_karakter($tangkap16)."433*\n".
+    nomor_karakter($tangkap16)."444*\n".
+    nomor_karakter($tangkap16)."455*\n".
+    nomor_karakter($tangkap16)."414*\n".
+    nomor_karakter($tangkap16)."424*\n".
+    nomor_karakter($tangkap16)."434*\n".
+    nomor_karakter($tangkap16)."444*\n".
+    nomor_karakter($tangkap16)."454*\n".
+    nomor_karakter($tangkap16)."114*\n".
+    nomor_karakter($tangkap16)."224*\n".
+    nomor_karakter($tangkap16)."334*\n".
+    nomor_karakter($tangkap16)."444*\n".
+    nomor_karakter($tangkap16)."441*\n".
+    nomor_karakter($tangkap16)."442*\n".
+    nomor_karakter($tangkap16)."443*\n".
+    nomor_karakter($tangkap16)."444*\n".
+    nomor_karakter($tangkap16)."445*\n".
+    nomor_karakter($tangkap16)."554*\n".
+    nomor_karakter($tangkap16)."444*\n".
+    nomor_karakter($tangkap16)."12*\n".
+    nomor_karakter($tangkap16)."43*\n".
+    nomor_karakter($tangkap16)."5*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."555*\n".
+    nomor_karakter($tangkap16)."5555*\n".
+    nomor_karakter($tangkap16)."55555*\n".
+    nomor_karakter($tangkap16)."51*\n".
+    nomor_karakter($tangkap16)."52*\n".
+    nomor_karakter($tangkap16)."53*\n".
+    nomor_karakter($tangkap16)."54*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."511*\n".
+    nomor_karakter($tangkap16)."522*\n".
+    nomor_karakter($tangkap16)."533*\n".
+    nomor_karakter($tangkap16)."544*\n".
+    nomor_karakter($tangkap16)."655*\n".
+    nomor_karakter($tangkap16)."515*\n".
+    nomor_karakter($tangkap16)."525\n".
+    nomor_karakter($tangkap16)."535*\n".
+    nomor_karakter($tangkap16)."545*\n".
+    nomor_karakter($tangkap16)."555*\n".
+    nomor_karakter($tangkap16)."115*\n".
+    nomor_karakter($tangkap16)."225*\n".
+    nomor_karakter($tangkap16)."33*\n".
+    nomor_karakter($tangkap16)."44*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."34*\n".
+    nomor_karakter($tangkap16)."1234*\n".
+    nomor_karakter($tangkap16)."5432*\n".
+    nomor_karakter($tangkap16)."6*\n".
+    nomor_karakter($tangkap16)."66*\n".
+    nomor_karakter($tangkap16)."666*\n".
+    nomor_karakter($tangkap16)."6666*\n".
+    nomor_karakter($tangkap16)."66666*\n".
+    nomor_karakter($tangkap16)."61*\n".
+    nomor_karakter($tangkap16)."62*\n".
+    nomor_karakter($tangkap16)."63*\n".
+    nomor_karakter($tangkap16)."64*\n".
+    nomor_karakter($tangkap16)."65*\n".
+    nomor_karakter($tangkap16)."611*\n".
+    nomor_karakter($tangkap16)."622*\n".
+    nomor_karakter($tangkap16)."633*\n".
+    nomor_karakter($tangkap16)."64*\n".
+    nomor_karakter($tangkap16)."65*\n".
+    nomor_karakter($tangkap16)."61*\n".
+    nomor_karakter($tangkap16)."62*\n".
+    nomor_karakter($tangkap16)."63*\n".
+    nomor_karakter($tangkap16)."64*\n".
+    nomor_karakter($tangkap16)."65*\n".
+    nomor_karakter($tangkap16)."11*\n".
+    nomor_karakter($tangkap16)."22*\n".
+    nomor_karakter($tangkap16)."33*\n".
+    nomor_karakter($tangkap16)."44*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."66*\n".
+    nomor_karakter($tangkap16)."66*\n".
+    nomor_karakter($tangkap16)."66*\n".
+    nomor_karakter($tangkap16)."66*\n".
+    nomor_karakter($tangkap16)."45*\n".
+    nomor_karakter($tangkap16)."12345*\n".
+    nomor_karakter($tangkap16)."65432*\n".
+    nomor_karakter($tangkap16)."7*\n".
+    nomor_karakter($tangkap16)."77*\n".
+    nomor_karakter($tangkap16)."777*\n".
+    nomor_karakter($tangkap16)."7777*\n".
+    nomor_karakter($tangkap16)."77777*\n".
+    nomor_karakter($tangkap16)."71*\n".
+    nomor_karakter($tangkap16)."72*\n".
+    nomor_karakter($tangkap16)."73*\n".
+    nomor_karakter($tangkap16)."74*\n".
+    nomor_karakter($tangkap16)."75*\n".
+    nomor_karakter($tangkap16)."711*\n".
+    nomor_karakter($tangkap16)."722*\n".
+    nomor_karakter($tangkap16)."733*\n".
+    nomor_karakter($tangkap16)."74*\n".
+    nomor_karakter($tangkap16)."75*\n".
+    nomor_karakter($tangkap16)."71*\n".
+    nomor_karakter($tangkap16)."72*\n".
+    nomor_karakter($tangkap16)."73*\n".
+    nomor_karakter($tangkap16)."74*\n".
+    nomor_karakter($tangkap16)."75*\n".
+    nomor_karakter($tangkap16)."11*\n".
+    nomor_karakter($tangkap16)."22*\n".
+    nomor_karakter($tangkap16)."33*\n".
+    nomor_karakter($tangkap16)."44*\n".
+    nomor_karakter($tangkap16)."55*\n".
+    nomor_karakter($tangkap16)."77*\n".
+    nomor_karakter($tangkap16)."77*\n".
+    nomor_karakter($tangkap16)."77*\n".
+    nomor_karakter($tangkap16)."77*\n".
+    nomor_karakter($tangkap16)."77*\n".
+    nomor_karakter($tangkap16)."45*\n".
+    nomor_karakter($tangkap16)."1234567*\n".
+    nomor_karakter($tangkap16)."8*\n".
+    nomor_karakter($tangkap16)."88*\n".
+    nomor_karakter($tangkap16)."888*\n".
+    nomor_karakter($tangkap16)."8888*\n".
+    nomor_karakter($tangkap16)."88888*\n".
+    nomor_karakter($tangkap16)."81*\n".
+    nomor_karakter($tangkap16)."82*\n".
+    nomor_karakter($tangkap16)."83*\n".
+    nomor_karakter($tangkap16)."84*\n".
+    nomor_karakter($tangkap16)."85*\n".
+    nomor_karakter($tangkap16)."811*\n".
+    nomor_karakter($tangkap16)."822*\n".
+    nomor_karakter($tangkap16)."833*\n".
+    nomor_karakter($tangkap16)."844*\n".
+    nomor_karakter($tangkap16)."855*\n".
+    nomor_karakter($tangkap16)."818*\n".
+    nomor_karakter($tangkap16)."828*\n".
+    nomor_karakter($tangkap16)."838*\n".
+    nomor_karakter($tangkap16)."848*\n".
+    nomor_karakter($tangkap16)."858*\n".
+    nomor_karakter($tangkap16)."118*\n".
+    nomor_karakter($tangkap16)."228*\n".
+    nomor_karakter($tangkap16)."338*\n".
+    nomor_karakter($tangkap16)."448*\n".
+    nomor_karakter($tangkap16)."558*\n".
+    nomor_karakter($tangkap16)."881*\n".
+    nomor_karakter($tangkap16)."882*\n".
+    nomor_karakter($tangkap16)."883*\n".
+    nomor_karakter($tangkap16)."884*\n".
+    nomor_karakter($tangkap16)."885*\n".
+    nomor_karakter($tangkap16)."458*\n".
+    nomor_karakter($tangkap16)."12345678*\n".
+    nomor_karakter($tangkap16)."87654321*\n".
+    nomor_karakter($tangkap16)."9*\n".
+    nomor_karakter($tangkap16)."99*\n".
+    nomor_karakter($tangkap16)."999*\n".
+    nomor_karakter($tangkap16)."9999*\n".
+    nomor_karakter($tangkap16)."99999*\n".
+    nomor_karakter($tangkap16)."91*\n".
+    nomor_karakter($tangkap16)."92*\n".
+    nomor_karakter($tangkap16)."93*\n".
+    nomor_karakter($tangkap16)."94*\n".
+    nomor_karakter($tangkap16)."95*\n".
+    nomor_karakter($tangkap16)."911*\n".
+    nomor_karakter($tangkap16)."922*\n".
+    nomor_karakter($tangkap16)."933*\n".
+    nomor_karakter($tangkap16)."944*\n".
+    nomor_karakter($tangkap16)."955*\n".
+    nomor_karakter($tangkap16)."919*\n".
+    nomor_karakter($tangkap16)."929*\n".
+    nomor_karakter($tangkap16)."939*\n".
+    nomor_karakter($tangkap16)."949*\n".
+    nomor_karakter($tangkap16)."959*\n".
+    nomor_karakter($tangkap16)."119*\n".
+    nomor_karakter($tangkap16)."229*\n".
+    nomor_karakter($tangkap16)."339*\n".
+    nomor_karakter($tangkap16)."449*\n".
+    nomor_karakter($tangkap16)."559*\n".
+    nomor_karakter($tangkap16)."991*\n".
+    nomor_karakter($tangkap16)."992*\n".
+    nomor_karakter($tangkap16)."993*\n".
+    nomor_karakter($tangkap16)."994*\n".
+    nomor_karakter($tangkap16)."995*\n".
+    nomor_karakter($tangkap16)."459*\n".
+    nomor_karakter($tangkap16)."12345678*\n".
+    nomor_karakter($tangkap16)."987654321*\n".
+    nomor_karakter($tangkap16)."0*\n".
+    nomor_karakter($tangkap16)."00*\n".
+    nomor_karakter($tangkap16)."000*\n".
+    nomor_karakter($tangkap16)."0000*\n".
+    nomor_karakter($tangkap16)."00000*\n".
+    nomor_karakter($tangkap16)."01*\n".
+    nomor_karakter($tangkap16)."02*\n".
+    nomor_karakter($tangkap16)."03*\n".
+    nomor_karakter($tangkap16)."04*\n".
+    nomor_karakter($tangkap16)."05*\n".
+    nomor_karakter($tangkap16)."011*\n".
+    nomor_karakter($tangkap16)."022*\n".
+    nomor_karakter($tangkap16)."033*\n".
+    nomor_karakter($tangkap16)."044*\n".
+    nomor_karakter($tangkap16)."055*\n".
+    nomor_karakter($tangkap16)."010*\n".
+    nomor_karakter($tangkap16)."020*\n".
+    nomor_karakter($tangkap16)."030*\n".
+    nomor_karakter($tangkap16)."040*\n".
+    nomor_karakter($tangkap16)."050*\n".
+    nomor_karakter($tangkap16)."110*\n".
+    nomor_karakter($tangkap16)."220*\n".
+    nomor_karakter($tangkap16)."330*\n".
+    nomor_karakter($tangkap16)."440*\n".
+    nomor_karakter($tangkap16)."550*\n".
+    nomor_karakter($tangkap16)."001*\n".
+    nomor_karakter($tangkap16)."002*\n".
+    nomor_karakter($tangkap16)."003*\n".
+    nomor_karakter($tangkap16)."004*\n".
+    nomor_karakter($tangkap16)."005*\n".
+    nomor_karakter($tangkap16)."450*\n".
+    nomor_karakter($tangkap16)."123456789*\n".
+
+
+fahmi($tangkap1.$tangkap2)."\n".
+fahmi($tangkap1.$tangkap3)."\n".
+fahmi($tangkap2.$tangkap3)."\n".
+fahmi($tangkap3.$tangkap13)."\n".
+fahmi($tangkap2.$tangkap13)."\n".
+fahmi($tangkap2.$tangkap9)."\n".
+fahmi($tangkap2.$tangkap8)."\n".
+fahmi($tangkap2.$tangkap13.$tangkap16)."\n".
+
+    nomor_karakter1($tangkap1)."1.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."111.,\n".
+    nomor_karakter1($tangkap1)."1111.,\n".
+    nomor_karakter1($tangkap1)."11111.,\n".
+    nomor_karakter1($tangkap1)."2.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."2222.,\n".
+    nomor_karakter1($tangkap1)."22222.,\n".
+    nomor_karakter1($tangkap1)."21.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."23.,\n".
+    nomor_karakter1($tangkap1)."24.,\n".
+    nomor_karakter1($tangkap1)."25.,\n".
+    nomor_karakter1($tangkap1)."26.,\n".
+    nomor_karakter1($tangkap1)."27.,\n".
+    nomor_karakter1($tangkap1)."28.,\n".
+    nomor_karakter1($tangkap1)."29.,\n".
+    nomor_karakter1($tangkap1)."211.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."233.,\n".
+    nomor_karakter1($tangkap1)."244.,\n".
+    nomor_karakter1($tangkap1)."255.,\n".
+    nomor_karakter1($tangkap1)."212.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."232.,\n".
+    nomor_karakter1($tangkap1)."242.,\n".
+    nomor_karakter1($tangkap1)."252.,\n".
+    nomor_karakter1($tangkap1)."112.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."332.,\n".
+    nomor_karakter1($tangkap1)."442.,\n".
+    nomor_karakter1($tangkap1)."552.,\n".
+    nomor_karakter1($tangkap1)."221.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."223.,\n".
+    nomor_karakter1($tangkap1)."224.,\n".
+    nomor_karakter1($tangkap1)."225.,\n".
+    nomor_karakter1($tangkap1)."452.,\n".
+    nomor_karakter1($tangkap1)."12.,\n".
+    nomor_karakter1($tangkap1)."21.,\n".
+    nomor_karakter1($tangkap1)."3.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."3333.,\n".
+    nomor_karakter1($tangkap1)."33333.,\n".
+    nomor_karakter1($tangkap1)."31.,\n".
+    nomor_karakter1($tangkap1)."32.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."34.,\n".
+    nomor_karakter1($tangkap1)."35.,\n".
+    nomor_karakter1($tangkap1)."311.,\n".
+    nomor_karakter1($tangkap1)."322.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."344.,\n".
+    nomor_karakter1($tangkap1)."355.,\n".
+    nomor_karakter1($tangkap1)."313.,\n".
+    nomor_karakter1($tangkap1)."323.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."343.,\n".
+    nomor_karakter1($tangkap1)."353.,\n".
+    nomor_karakter1($tangkap1)."113.,\n".
+    nomor_karakter1($tangkap1)."223.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."443.,\n".
+    nomor_karakter1($tangkap1)."553.,\n".
+    nomor_karakter1($tangkap1)."331.,\n".
+    nomor_karakter1($tangkap1)."332.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."334.,\n".
+    nomor_karakter1($tangkap1)."335.,\n".
+    nomor_karakter1($tangkap1)."453.,\n".
+    nomor_karakter1($tangkap1)."123.,\n".
+    nomor_karakter1($tangkap1)."321.,\n".
+    nomor_karakter1($tangkap1)."4.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."4444.,\n".
+    nomor_karakter1($tangkap1)."44444.,\n".
+    nomor_karakter1($tangkap1)."41.,\n".
+    nomor_karakter1($tangkap1)."42.,\n".
+    nomor_karakter1($tangkap1)."43.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."411.,\n".
+    nomor_karakter1($tangkap1)."422.,\n".
+    nomor_karakter1($tangkap1)."433.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."455.,\n".
+    nomor_karakter1($tangkap1)."414.,\n".
+    nomor_karakter1($tangkap1)."424.,\n".
+    nomor_karakter1($tangkap1)."434.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."454.,\n".
+    nomor_karakter1($tangkap1)."114.,\n".
+    nomor_karakter1($tangkap1)."224.,\n".
+    nomor_karakter1($tangkap1)."334.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."441.,\n".
+    nomor_karakter1($tangkap1)."442.,\n".
+    nomor_karakter1($tangkap1)."443.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."445.,\n".
+    nomor_karakter1($tangkap1)."554.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."12.,\n".
+    nomor_karakter1($tangkap1)."43.,\n".
+    nomor_karakter1($tangkap1)."5.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."555.,\n".
+    nomor_karakter1($tangkap1)."5555.,\n".
+    nomor_karakter1($tangkap1)."55555.,\n".
+    nomor_karakter1($tangkap1)."51.,\n".
+    nomor_karakter1($tangkap1)."52.,\n".
+    nomor_karakter1($tangkap1)."53.,\n".
+    nomor_karakter1($tangkap1)."54.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."511.,\n".
+    nomor_karakter1($tangkap1)."522.,\n".
+    nomor_karakter1($tangkap1)."533.,\n".
+    nomor_karakter1($tangkap1)."544.,\n".
+    nomor_karakter1($tangkap1)."655.,\n".
+    nomor_karakter1($tangkap1)."515.,\n".
+    nomor_karakter1($tangkap1)."52.,\n".
+    nomor_karakter1($tangkap1)."535.,\n".
+    nomor_karakter1($tangkap1)."545.,\n".
+    nomor_karakter1($tangkap1)."555.,\n".
+    nomor_karakter1($tangkap1)."115.,\n".
+    nomor_karakter1($tangkap1)."225.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."34.,\n".
+    nomor_karakter1($tangkap1)."1234.,\n".
+    nomor_karakter1($tangkap1)."5432.,\n".
+    nomor_karakter1($tangkap1)."6.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."666.,\n".
+    nomor_karakter1($tangkap1)."6666.,\n".
+    nomor_karakter1($tangkap1)."66666.,\n".
+    nomor_karakter1($tangkap1)."61.,\n".
+    nomor_karakter1($tangkap1)."62.,\n".
+    nomor_karakter1($tangkap1)."63.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."611.,\n".
+    nomor_karakter1($tangkap1)."622.,\n".
+    nomor_karakter1($tangkap1)."633.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."61.,\n".
+    nomor_karakter1($tangkap1)."62.,\n".
+    nomor_karakter1($tangkap1)."63.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."12345.,\n".
+    nomor_karakter1($tangkap1)."65432.,\n".
+    nomor_karakter1($tangkap1)."7.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."777.,\n".
+    nomor_karakter1($tangkap1)."7777.,\n".
+    nomor_karakter1($tangkap1)."77777.,\n".
+    nomor_karakter1($tangkap1)."71.,\n".
+    nomor_karakter1($tangkap1)."72.,\n".
+    nomor_karakter1($tangkap1)."73.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."711.,\n".
+    nomor_karakter1($tangkap1)."722.,\n".
+    nomor_karakter1($tangkap1)."733.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."71.,\n".
+    nomor_karakter1($tangkap1)."72.,\n".
+    nomor_karakter1($tangkap1)."73.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."1234567.,\n".
+    nomor_karakter1($tangkap1)."8.,\n".
+    nomor_karakter1($tangkap1)."88.,\n".
+    nomor_karakter1($tangkap1)."888.,\n".
+    nomor_karakter1($tangkap1)."8888.,\n".
+    nomor_karakter1($tangkap1)."88888.,\n".
+    nomor_karakter1($tangkap1)."81.,\n".
+    nomor_karakter1($tangkap1)."82.,\n".
+    nomor_karakter1($tangkap1)."83.,\n".
+    nomor_karakter1($tangkap1)."84.,\n".
+    nomor_karakter1($tangkap1)."85.,\n".
+    nomor_karakter1($tangkap1)."811.,\n".
+    nomor_karakter1($tangkap1)."822.,\n".
+    nomor_karakter1($tangkap1)."833.,\n".
+    nomor_karakter1($tangkap1)."844.,\n".
+    nomor_karakter1($tangkap1)."855.,\n".
+    nomor_karakter1($tangkap1)."818.,\n".
+    nomor_karakter1($tangkap1)."828.,\n".
+    nomor_karakter1($tangkap1)."838.,\n".
+    nomor_karakter1($tangkap1)."848.,\n".
+    nomor_karakter1($tangkap1)."858.,\n".
+    nomor_karakter1($tangkap1)."118.,\n".
+    nomor_karakter1($tangkap1)."228.,\n".
+    nomor_karakter1($tangkap1)."338.,\n".
+    nomor_karakter1($tangkap1)."448.,\n".
+    nomor_karakter1($tangkap1)."558.,\n".
+    nomor_karakter1($tangkap1)."881.,\n".
+    nomor_karakter1($tangkap1)."882.,\n".
+    nomor_karakter1($tangkap1)."883.,\n".
+    nomor_karakter1($tangkap1)."884.,\n".
+    nomor_karakter1($tangkap1)."885.,\n".
+    nomor_karakter1($tangkap1)."458.,\n".
+    nomor_karakter1($tangkap1)."12345678.,\n".
+    nomor_karakter1($tangkap1)."87654321.,\n".
+    nomor_karakter1($tangkap1)."9.,\n".
+    nomor_karakter1($tangkap1)."99.,\n".
+    nomor_karakter1($tangkap1)."999.,\n".
+    nomor_karakter1($tangkap1)."9999.,\n".
+    nomor_karakter1($tangkap1)."99999.,\n".
+    nomor_karakter1($tangkap1)."91*\n".
+    nomor_karakter1($tangkap1)."92.,\n".
+    nomor_karakter1($tangkap1)."93.,\n".
+    nomor_karakter1($tangkap1)."94.,\n".
+    nomor_karakter1($tangkap1)."95.,\n".
+    nomor_karakter1($tangkap1)."911.,\n".
+    nomor_karakter1($tangkap1)."922.,\n".
+    nomor_karakter1($tangkap1)."933.,\n".
+    nomor_karakter1($tangkap1)."944.,\n".
+    nomor_karakter1($tangkap1)."955.,\n".
+    nomor_karakter1($tangkap1)."919.,\n".
+    nomor_karakter1($tangkap1)."929.,\n".
+    nomor_karakter1($tangkap1)."939.,\n".
+    nomor_karakter1($tangkap1)."949.,\n".
+    nomor_karakter1($tangkap1)."959.,\n".
+    nomor_karakter1($tangkap1)."119.,\n".
+    nomor_karakter1($tangkap1)."229.,\n".
+    nomor_karakter1($tangkap1)."339.,\n".
+    nomor_karakter1($tangkap1)."449.,\n".
+    nomor_karakter1($tangkap1)."559.,\n".
+    nomor_karakter1($tangkap1)."991.,\n".
+    nomor_karakter1($tangkap1)."992.,\n".
+    nomor_karakter1($tangkap1)."993.,\n".
+    nomor_karakter1($tangkap1)."994.,\n".
+    nomor_karakter1($tangkap1)."995.,\n".
+    nomor_karakter1($tangkap1)."459.,\n".
+    nomor_karakter1($tangkap1)."12345678.,\n".
+    nomor_karakter1($tangkap1)."987654321.,\n".
+    nomor_karakter1($tangkap1)."0.,\n".
+    nomor_karakter1($tangkap1)."00.,\n".
+    nomor_karakter1($tangkap1)."000.,\n".
+    nomor_karakter1($tangkap1)."0000.,\n".
+    nomor_karakter1($tangkap1)."00000.,\n".
+    nomor_karakter1($tangkap1)."01.,\n".
+    nomor_karakter1($tangkap1)."02.,\n".
+    nomor_karakter1($tangkap1)."03.,\n".
+    nomor_karakter1($tangkap1)."04.,\n".
+    nomor_karakter1($tangkap1)."05.,\n".
+    nomor_karakter1($tangkap1)."011.,\n".
+    nomor_karakter1($tangkap1)."022.,\n".
+    nomor_karakter1($tangkap1)."033.,\n".
+    nomor_karakter1($tangkap1)."044.,\n".
+    nomor_karakter1($tangkap1)."055.,\n".
+    nomor_karakter1($tangkap1)."010.,\n".
+    nomor_karakter1($tangkap1)."020.,\n".
+    nomor_karakter1($tangkap1)."030.,\n".
+    nomor_karakter1($tangkap1)."040.,\n".
+    nomor_karakter1($tangkap1)."050.,\n".
+    nomor_karakter1($tangkap1)."110.,\n".
+    nomor_karakter1($tangkap1)."220.,\n".
+    nomor_karakter1($tangkap1)."330.,\n".
+    nomor_karakter1($tangkap1)."440.,\n".
+    nomor_karakter1($tangkap1)."550.,\n".
+    nomor_karakter1($tangkap1)."001.,\n".
+    nomor_karakter1($tangkap1)."002.,\n".
+    nomor_karakter1($tangkap1)."003.,\n".
+    nomor_karakter1($tangkap1)."004.,\n".
+    nomor_karakter1($tangkap1)."005.,\n".
+    nomor_karakter1($tangkap1)."450.,\n".
+    nomor_karakter1($tangkap1)."123456789.,\n".
+
+    nomor_karakter1($tangkap2)."1.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."111.,\n".
+    nomor_karakter1($tangkap2)."1111.,\n".
+    nomor_karakter1($tangkap2)."11111.,\n".
+    nomor_karakter1($tangkap2)."2.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."2222.,\n".
+    nomor_karakter1($tangkap2)."22222.,\n".
+    nomor_karakter1($tangkap2)."21.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."23.,\n".
+    nomor_karakter1($tangkap2)."24.,\n".
+    nomor_karakter1($tangkap2)."25.,\n".
+    nomor_karakter1($tangkap2)."26.,\n".
+    nomor_karakter1($tangkap2)."27.,\n".
+    nomor_karakter1($tangkap2)."28.,\n".
+    nomor_karakter1($tangkap2)."29.,\n".
+    nomor_karakter1($tangkap2)."211.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."233.,\n".
+    nomor_karakter1($tangkap2)."244.,\n".
+    nomor_karakter1($tangkap2)."255.,\n".
+    nomor_karakter1($tangkap2)."212.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."232.,\n".
+    nomor_karakter1($tangkap2)."242.,\n".
+    nomor_karakter1($tangkap2)."252.,\n".
+    nomor_karakter1($tangkap2)."112.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."332.,\n".
+    nomor_karakter1($tangkap2)."442.,\n".
+    nomor_karakter1($tangkap2)."552.,\n".
+    nomor_karakter1($tangkap2)."221.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."223.,\n".
+    nomor_karakter1($tangkap2)."224.,\n".
+    nomor_karakter1($tangkap2)."225.,\n".
+    nomor_karakter1($tangkap2)."452.,\n".
+    nomor_karakter1($tangkap2)."12.,\n".
+    nomor_karakter1($tangkap2)."21.,\n".
+    nomor_karakter1($tangkap2)."3.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."3333.,\n".
+    nomor_karakter1($tangkap2)."33333.,\n".
+    nomor_karakter1($tangkap2)."31.,\n".
+    nomor_karakter1($tangkap2)."32.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."34.,\n".
+    nomor_karakter1($tangkap2)."35.,\n".
+    nomor_karakter1($tangkap2)."311.,\n".
+    nomor_karakter1($tangkap2)."322.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."344.,\n".
+    nomor_karakter1($tangkap2)."355.,\n".
+    nomor_karakter1($tangkap2)."313.,\n".
+    nomor_karakter1($tangkap2)."323.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."343.,\n".
+    nomor_karakter1($tangkap2)."353.,\n".
+    nomor_karakter1($tangkap2)."113.,\n".
+    nomor_karakter1($tangkap2)."223.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."443.,\n".
+    nomor_karakter1($tangkap2)."553.,\n".
+    nomor_karakter1($tangkap2)."331.,\n".
+    nomor_karakter1($tangkap2)."332.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."334.,\n".
+    nomor_karakter1($tangkap2)."335.,\n".
+    nomor_karakter1($tangkap2)."453.,\n".
+    nomor_karakter1($tangkap2)."123.,\n".
+    nomor_karakter1($tangkap2)."321.,\n".
+    nomor_karakter1($tangkap2)."4.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."4444.,\n".
+    nomor_karakter1($tangkap2)."44444.,\n".
+    nomor_karakter1($tangkap2)."41.,\n".
+    nomor_karakter1($tangkap2)."42.,\n".
+    nomor_karakter1($tangkap2)."43.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."411.,\n".
+    nomor_karakter1($tangkap2)."422.,\n".
+    nomor_karakter1($tangkap2)."433.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."455.,\n".
+    nomor_karakter1($tangkap2)."414.,\n".
+    nomor_karakter1($tangkap2)."424.,\n".
+    nomor_karakter1($tangkap2)."434.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."454.,\n".
+    nomor_karakter1($tangkap2)."114.,\n".
+    nomor_karakter1($tangkap2)."224.,\n".
+    nomor_karakter1($tangkap2)."334.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."441.,\n".
+    nomor_karakter1($tangkap2)."442.,\n".
+    nomor_karakter1($tangkap2)."443.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."445.,\n".
+    nomor_karakter1($tangkap2)."554.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."12.,\n".
+    nomor_karakter1($tangkap2)."43.,\n".
+    nomor_karakter1($tangkap2)."5.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."555.,\n".
+    nomor_karakter1($tangkap2)."5555.,\n".
+    nomor_karakter1($tangkap2)."55555.,\n".
+    nomor_karakter1($tangkap2)."51.,\n".
+    nomor_karakter1($tangkap2)."52.,\n".
+    nomor_karakter1($tangkap2)."53.,\n".
+    nomor_karakter1($tangkap2)."54.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."511.,\n".
+    nomor_karakter1($tangkap2)."522.,\n".
+    nomor_karakter1($tangkap2)."533.,\n".
+    nomor_karakter1($tangkap2)."544.,\n".
+    nomor_karakter1($tangkap2)."655.,\n".
+    nomor_karakter1($tangkap2)."515.,\n".
+    nomor_karakter1($tangkap2)."52.,\n".
+    nomor_karakter1($tangkap2)."535.,\n".
+    nomor_karakter1($tangkap2)."545.,\n".
+    nomor_karakter1($tangkap2)."555.,\n".
+    nomor_karakter1($tangkap2)."115.,\n".
+    nomor_karakter1($tangkap2)."225.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."34.,\n".
+    nomor_karakter1($tangkap2)."1234.,\n".
+    nomor_karakter1($tangkap2)."5432.,\n".
+    nomor_karakter1($tangkap2)."6.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."666.,\n".
+    nomor_karakter1($tangkap2)."6666.,\n".
+    nomor_karakter1($tangkap2)."66666.,\n".
+    nomor_karakter1($tangkap2)."61.,\n".
+    nomor_karakter1($tangkap2)."62.,\n".
+    nomor_karakter1($tangkap2)."63.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."611.,\n".
+    nomor_karakter1($tangkap2)."622.,\n".
+    nomor_karakter1($tangkap2)."633.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."61.,\n".
+    nomor_karakter1($tangkap2)."62.,\n".
+    nomor_karakter1($tangkap2)."63.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."12345.,\n".
+    nomor_karakter1($tangkap2)."65432.,\n".
+    nomor_karakter1($tangkap2)."7.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."777.,\n".
+    nomor_karakter1($tangkap2)."7777.,\n".
+    nomor_karakter1($tangkap2)."77777.,\n".
+    nomor_karakter1($tangkap2)."71.,\n".
+    nomor_karakter1($tangkap2)."72.,\n".
+    nomor_karakter1($tangkap2)."73.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."711.,\n".
+    nomor_karakter1($tangkap2)."722.,\n".
+    nomor_karakter1($tangkap2)."733.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."71.,\n".
+    nomor_karakter1($tangkap2)."72.,\n".
+    nomor_karakter1($tangkap2)."73.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."1234567.,\n".
+    nomor_karakter1($tangkap2)."8.,\n".
+    nomor_karakter1($tangkap2)."88.,\n".
+    nomor_karakter1($tangkap2)."888.,\n".
+    nomor_karakter1($tangkap2)."8888.,\n".
+    nomor_karakter1($tangkap2)."88888.,\n".
+    nomor_karakter1($tangkap2)."81.,\n".
+    nomor_karakter1($tangkap2)."82.,\n".
+    nomor_karakter1($tangkap2)."83.,\n".
+    nomor_karakter1($tangkap2)."84.,\n".
+    nomor_karakter1($tangkap2)."85.,\n".
+    nomor_karakter1($tangkap2)."811.,\n".
+    nomor_karakter1($tangkap2)."822.,\n".
+    nomor_karakter1($tangkap2)."833.,\n".
+    nomor_karakter1($tangkap2)."844.,\n".
+    nomor_karakter1($tangkap2)."855.,\n".
+    nomor_karakter1($tangkap2)."818.,\n".
+    nomor_karakter1($tangkap2)."828.,\n".
+    nomor_karakter1($tangkap2)."838.,\n".
+    nomor_karakter1($tangkap2)."848.,\n".
+    nomor_karakter1($tangkap2)."858.,\n".
+    nomor_karakter1($tangkap2)."118.,\n".
+    nomor_karakter1($tangkap2)."228.,\n".
+    nomor_karakter1($tangkap2)."338.,\n".
+    nomor_karakter1($tangkap2)."448.,\n".
+    nomor_karakter1($tangkap2)."558.,\n".
+    nomor_karakter1($tangkap2)."881.,\n".
+    nomor_karakter1($tangkap2)."882.,\n".
+    nomor_karakter1($tangkap2)."883.,\n".
+    nomor_karakter1($tangkap2)."884.,\n".
+    nomor_karakter1($tangkap2)."885.,\n".
+    nomor_karakter1($tangkap2)."458.,\n".
+    nomor_karakter1($tangkap2)."12345678.,\n".
+    nomor_karakter1($tangkap2)."87654321.,\n".
+    nomor_karakter1($tangkap2)."9.,\n".
+    nomor_karakter1($tangkap2)."99.,\n".
+    nomor_karakter1($tangkap2)."999.,\n".
+    nomor_karakter1($tangkap2)."9999.,\n".
+    nomor_karakter1($tangkap2)."99999.,\n".
+    nomor_karakter1($tangkap2)."91*\n".
+    nomor_karakter1($tangkap2)."92.,\n".
+    nomor_karakter1($tangkap2)."93.,\n".
+    nomor_karakter1($tangkap2)."94.,\n".
+    nomor_karakter1($tangkap2)."95.,\n".
+    nomor_karakter1($tangkap2)."911.,\n".
+    nomor_karakter1($tangkap2)."922.,\n".
+    nomor_karakter1($tangkap2)."933.,\n".
+    nomor_karakter1($tangkap2)."944.,\n".
+    nomor_karakter1($tangkap2)."955.,\n".
+    nomor_karakter1($tangkap2)."919.,\n".
+    nomor_karakter1($tangkap2)."929.,\n".
+    nomor_karakter1($tangkap2)."939.,\n".
+    nomor_karakter1($tangkap2)."949.,\n".
+    nomor_karakter1($tangkap2)."959.,\n".
+    nomor_karakter1($tangkap2)."119.,\n".
+    nomor_karakter1($tangkap2)."229.,\n".
+    nomor_karakter1($tangkap2)."339.,\n".
+    nomor_karakter1($tangkap2)."449.,\n".
+    nomor_karakter1($tangkap2)."559.,\n".
+    nomor_karakter1($tangkap2)."991.,\n".
+    nomor_karakter1($tangkap2)."992.,\n".
+    nomor_karakter1($tangkap2)."993.,\n".
+    nomor_karakter1($tangkap2)."994.,\n".
+    nomor_karakter1($tangkap2)."995.,\n".
+    nomor_karakter1($tangkap2)."459.,\n".
+    nomor_karakter1($tangkap2)."12345678.,\n".
+    nomor_karakter1($tangkap2)."987654321.,\n".
+    nomor_karakter1($tangkap2)."0.,\n".
+    nomor_karakter1($tangkap2)."00.,\n".
+    nomor_karakter1($tangkap2)."000.,\n".
+    nomor_karakter1($tangkap2)."0000.,\n".
+    nomor_karakter1($tangkap2)."00000.,\n".
+    nomor_karakter1($tangkap2)."01.,\n".
+    nomor_karakter1($tangkap2)."02.,\n".
+    nomor_karakter1($tangkap2)."03.,\n".
+    nomor_karakter1($tangkap2)."04.,\n".
+    nomor_karakter1($tangkap2)."05.,\n".
+    nomor_karakter1($tangkap2)."011.,\n".
+    nomor_karakter1($tangkap2)."022.,\n".
+    nomor_karakter1($tangkap2)."033.,\n".
+    nomor_karakter1($tangkap2)."044.,\n".
+    nomor_karakter1($tangkap2)."055.,\n".
+    nomor_karakter1($tangkap2)."010.,\n".
+    nomor_karakter1($tangkap2)."020.,\n".
+    nomor_karakter1($tangkap2)."030.,\n".
+    nomor_karakter1($tangkap2)."040.,\n".
+    nomor_karakter1($tangkap2)."050.,\n".
+    nomor_karakter1($tangkap2)."110.,\n".
+    nomor_karakter1($tangkap2)."220.,\n".
+    nomor_karakter1($tangkap2)."330.,\n".
+    nomor_karakter1($tangkap2)."440.,\n".
+    nomor_karakter1($tangkap2)."550.,\n".
+    nomor_karakter1($tangkap2)."001.,\n".
+    nomor_karakter1($tangkap2)."002.,\n".
+    nomor_karakter1($tangkap2)."003.,\n".
+    nomor_karakter1($tangkap2)."004.,\n".
+    nomor_karakter1($tangkap2)."005.,\n".
+    nomor_karakter1($tangkap2)."450.,\n".
+    nomor_karakter1($tangkap2)."123456789.,\n".
+    nomor_karakter1($tangkap3)."1.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."111.,\n".
+    nomor_karakter1($tangkap3)."1111.,\n".
+    nomor_karakter1($tangkap3)."11111.,\n".
+    nomor_karakter1($tangkap3)."2.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."2222.,\n".
+    nomor_karakter1($tangkap3)."22222.,\n".
+    nomor_karakter1($tangkap3)."21.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."23.,\n".
+    nomor_karakter1($tangkap3)."24.,\n".
+    nomor_karakter1($tangkap3)."25.,\n".
+    nomor_karakter1($tangkap3)."26.,\n".
+    nomor_karakter1($tangkap3)."27.,\n".
+    nomor_karakter1($tangkap3)."28.,\n".
+    nomor_karakter1($tangkap3)."29.,\n".
+    nomor_karakter1($tangkap3)."211.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."233.,\n".
+    nomor_karakter1($tangkap3)."244.,\n".
+    nomor_karakter1($tangkap3)."255.,\n".
+    nomor_karakter1($tangkap3)."212.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."232.,\n".
+    nomor_karakter1($tangkap3)."242.,\n".
+    nomor_karakter1($tangkap3)."252.,\n".
+    nomor_karakter1($tangkap3)."112.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."332.,\n".
+    nomor_karakter1($tangkap3)."442.,\n".
+    nomor_karakter1($tangkap3)."552.,\n".
+    nomor_karakter1($tangkap3)."221.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."223.,\n".
+    nomor_karakter1($tangkap3)."224.,\n".
+    nomor_karakter1($tangkap3)."225.,\n".
+    nomor_karakter1($tangkap3)."452.,\n".
+    nomor_karakter1($tangkap3)."12.,\n".
+    nomor_karakter1($tangkap3)."21.,\n".
+    nomor_karakter1($tangkap3)."3.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."3333.,\n".
+    nomor_karakter1($tangkap3)."33333.,\n".
+    nomor_karakter1($tangkap3)."31.,\n".
+    nomor_karakter1($tangkap3)."32.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."34.,\n".
+    nomor_karakter1($tangkap3)."35.,\n".
+    nomor_karakter1($tangkap3)."311.,\n".
+    nomor_karakter1($tangkap3)."322.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."344.,\n".
+    nomor_karakter1($tangkap3)."355.,\n".
+    nomor_karakter1($tangkap3)."313.,\n".
+    nomor_karakter1($tangkap3)."323.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."343.,\n".
+    nomor_karakter1($tangkap3)."353.,\n".
+    nomor_karakter1($tangkap3)."113.,\n".
+    nomor_karakter1($tangkap3)."223.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."443.,\n".
+    nomor_karakter1($tangkap3)."553.,\n".
+    nomor_karakter1($tangkap3)."331.,\n".
+    nomor_karakter1($tangkap3)."332.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."334.,\n".
+    nomor_karakter1($tangkap3)."335.,\n".
+    nomor_karakter1($tangkap3)."453.,\n".
+    nomor_karakter1($tangkap3)."123.,\n".
+    nomor_karakter1($tangkap3)."321.,\n".
+    nomor_karakter1($tangkap3)."4.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."4444.,\n".
+    nomor_karakter1($tangkap3)."44444.,\n".
+    nomor_karakter1($tangkap3)."41.,\n".
+    nomor_karakter1($tangkap3)."42.,\n".
+    nomor_karakter1($tangkap3)."43.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."411.,\n".
+    nomor_karakter1($tangkap3)."422.,\n".
+    nomor_karakter1($tangkap3)."433.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."455.,\n".
+    nomor_karakter1($tangkap3)."414.,\n".
+    nomor_karakter1($tangkap3)."424.,\n".
+    nomor_karakter1($tangkap3)."434.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."454.,\n".
+    nomor_karakter1($tangkap3)."114.,\n".
+    nomor_karakter1($tangkap3)."224.,\n".
+    nomor_karakter1($tangkap3)."334.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."441.,\n".
+    nomor_karakter1($tangkap3)."442.,\n".
+    nomor_karakter1($tangkap3)."443.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."445.,\n".
+    nomor_karakter1($tangkap3)."554.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."12.,\n".
+    nomor_karakter1($tangkap3)."43.,\n".
+    nomor_karakter1($tangkap3)."5.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."555.,\n".
+    nomor_karakter1($tangkap3)."5555.,\n".
+    nomor_karakter1($tangkap3)."55555.,\n".
+    nomor_karakter1($tangkap3)."51.,\n".
+    nomor_karakter1($tangkap3)."52.,\n".
+    nomor_karakter1($tangkap3)."53.,\n".
+    nomor_karakter1($tangkap3)."54.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."511.,\n".
+    nomor_karakter1($tangkap3)."522.,\n".
+    nomor_karakter1($tangkap3)."533.,\n".
+    nomor_karakter1($tangkap3)."544.,\n".
+    nomor_karakter1($tangkap3)."655.,\n".
+    nomor_karakter1($tangkap3)."515.,\n".
+    nomor_karakter1($tangkap3)."52.,\n".
+    nomor_karakter1($tangkap3)."535.,\n".
+    nomor_karakter1($tangkap3)."545.,\n".
+    nomor_karakter1($tangkap3)."555.,\n".
+    nomor_karakter1($tangkap3)."115.,\n".
+    nomor_karakter1($tangkap3)."225.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."34.,\n".
+    nomor_karakter1($tangkap3)."1234.,\n".
+    nomor_karakter1($tangkap3)."5432.,\n".
+    nomor_karakter1($tangkap3)."6.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."666.,\n".
+    nomor_karakter1($tangkap3)."6666.,\n".
+    nomor_karakter1($tangkap3)."66666.,\n".
+    nomor_karakter1($tangkap3)."61.,\n".
+    nomor_karakter1($tangkap3)."62.,\n".
+    nomor_karakter1($tangkap3)."63.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."611.,\n".
+    nomor_karakter1($tangkap3)."622.,\n".
+    nomor_karakter1($tangkap3)."633.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."61.,\n".
+    nomor_karakter1($tangkap3)."62.,\n".
+    nomor_karakter1($tangkap3)."63.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."12345.,\n".
+    nomor_karakter1($tangkap3)."65432.,\n".
+    nomor_karakter1($tangkap3)."7.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."777.,\n".
+    nomor_karakter1($tangkap3)."7777.,\n".
+    nomor_karakter1($tangkap3)."77777.,\n".
+    nomor_karakter1($tangkap3)."71.,\n".
+    nomor_karakter1($tangkap3)."72.,\n".
+    nomor_karakter1($tangkap3)."73.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."711.,\n".
+    nomor_karakter1($tangkap3)."722.,\n".
+    nomor_karakter1($tangkap3)."733.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."71.,\n".
+    nomor_karakter1($tangkap3)."72.,\n".
+    nomor_karakter1($tangkap3)."73.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."1234567.,\n".
+    nomor_karakter1($tangkap3)."8.,\n".
+    nomor_karakter1($tangkap3)."88.,\n".
+    nomor_karakter1($tangkap3)."888.,\n".
+    nomor_karakter1($tangkap3)."8888.,\n".
+    nomor_karakter1($tangkap3)."88888.,\n".
+    nomor_karakter1($tangkap3)."81.,\n".
+    nomor_karakter1($tangkap3)."82.,\n".
+    nomor_karakter1($tangkap3)."83.,\n".
+    nomor_karakter1($tangkap3)."84.,\n".
+    nomor_karakter1($tangkap3)."85.,\n".
+    nomor_karakter1($tangkap3)."811.,\n".
+    nomor_karakter1($tangkap3)."822.,\n".
+    nomor_karakter1($tangkap3)."833.,\n".
+    nomor_karakter1($tangkap3)."844.,\n".
+    nomor_karakter1($tangkap3)."855.,\n".
+    nomor_karakter1($tangkap3)."818.,\n".
+    nomor_karakter1($tangkap3)."828.,\n".
+    nomor_karakter1($tangkap3)."838.,\n".
+    nomor_karakter1($tangkap3)."848.,\n".
+    nomor_karakter1($tangkap3)."858.,\n".
+    nomor_karakter1($tangkap3)."118.,\n".
+    nomor_karakter1($tangkap3)."228.,\n".
+    nomor_karakter1($tangkap3)."338.,\n".
+    nomor_karakter1($tangkap3)."448.,\n".
+    nomor_karakter1($tangkap3)."558.,\n".
+    nomor_karakter1($tangkap3)."881.,\n".
+    nomor_karakter1($tangkap3)."882.,\n".
+    nomor_karakter1($tangkap3)."883.,\n".
+    nomor_karakter1($tangkap3)."884.,\n".
+    nomor_karakter1($tangkap3)."885.,\n".
+    nomor_karakter1($tangkap3)."458.,\n".
+    nomor_karakter1($tangkap3)."12345678.,\n".
+    nomor_karakter1($tangkap3)."87654321.,\n".
+    nomor_karakter1($tangkap3)."9.,\n".
+    nomor_karakter1($tangkap3)."99.,\n".
+    nomor_karakter1($tangkap3)."999.,\n".
+    nomor_karakter1($tangkap3)."9999.,\n".
+    nomor_karakter1($tangkap3)."99999.,\n".
+    nomor_karakter1($tangkap3)."91*\n".
+    nomor_karakter1($tangkap3)."92.,\n".
+    nomor_karakter1($tangkap3)."93.,\n".
+    nomor_karakter1($tangkap3)."94.,\n".
+    nomor_karakter1($tangkap3)."95.,\n".
+    nomor_karakter1($tangkap3)."911.,\n".
+    nomor_karakter1($tangkap3)."922.,\n".
+    nomor_karakter1($tangkap3)."933.,\n".
+    nomor_karakter1($tangkap3)."944.,\n".
+    nomor_karakter1($tangkap3)."955.,\n".
+    nomor_karakter1($tangkap3)."919.,\n".
+    nomor_karakter1($tangkap3)."929.,\n".
+    nomor_karakter1($tangkap3)."939.,\n".
+    nomor_karakter1($tangkap3)."949.,\n".
+    nomor_karakter1($tangkap3)."959.,\n".
+    nomor_karakter1($tangkap3)."119.,\n".
+    nomor_karakter1($tangkap3)."229.,\n".
+    nomor_karakter1($tangkap3)."339.,\n".
+    nomor_karakter1($tangkap3)."449.,\n".
+    nomor_karakter1($tangkap3)."559.,\n".
+    nomor_karakter1($tangkap3)."991.,\n".
+    nomor_karakter1($tangkap3)."992.,\n".
+    nomor_karakter1($tangkap3)."993.,\n".
+    nomor_karakter1($tangkap3)."994.,\n".
+    nomor_karakter1($tangkap3)."995.,\n".
+    nomor_karakter1($tangkap3)."459.,\n".
+    nomor_karakter1($tangkap3)."12345678.,\n".
+    nomor_karakter1($tangkap3)."987654321.,\n".
+    nomor_karakter1($tangkap3)."0.,\n".
+    nomor_karakter1($tangkap3)."00.,\n".
+    nomor_karakter1($tangkap3)."000.,\n".
+    nomor_karakter1($tangkap3)."0000.,\n".
+    nomor_karakter1($tangkap3)."00000.,\n".
+    nomor_karakter1($tangkap3)."01.,\n".
+    nomor_karakter1($tangkap3)."02.,\n".
+    nomor_karakter1($tangkap3)."03.,\n".
+    nomor_karakter1($tangkap3)."04.,\n".
+    nomor_karakter1($tangkap3)."05.,\n".
+    nomor_karakter1($tangkap3)."011.,\n".
+    nomor_karakter1($tangkap3)."022.,\n".
+    nomor_karakter1($tangkap3)."033.,\n".
+    nomor_karakter1($tangkap3)."044.,\n".
+    nomor_karakter1($tangkap3)."055.,\n".
+    nomor_karakter1($tangkap3)."010.,\n".
+    nomor_karakter1($tangkap3)."020.,\n".
+    nomor_karakter1($tangkap3)."030.,\n".
+    nomor_karakter1($tangkap3)."040.,\n".
+    nomor_karakter1($tangkap3)."050.,\n".
+    nomor_karakter1($tangkap3)."110.,\n".
+    nomor_karakter1($tangkap3)."220.,\n".
+    nomor_karakter1($tangkap3)."330.,\n".
+    nomor_karakter1($tangkap3)."440.,\n".
+    nomor_karakter1($tangkap3)."550.,\n".
+    nomor_karakter1($tangkap3)."001.,\n".
+    nomor_karakter1($tangkap3)."002.,\n".
+    nomor_karakter1($tangkap3)."003.,\n".
+    nomor_karakter1($tangkap3)."004.,\n".
+    nomor_karakter1($tangkap3)."005.,\n".
+    nomor_karakter1($tangkap3)."450.,\n".
+    nomor_karakter1($tangkap3)."123456789.,\n".
+    nomor_karakter1($tangkap8)."1.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."111.,\n".
+    nomor_karakter1($tangkap8)."1111.,\n".
+    nomor_karakter1($tangkap8)."11111.,\n".
+    nomor_karakter1($tangkap8)."2.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."2222.,\n".
+    nomor_karakter1($tangkap8)."22222.,\n".
+    nomor_karakter1($tangkap8)."21.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."23.,\n".
+    nomor_karakter1($tangkap8)."24.,\n".
+    nomor_karakter1($tangkap8)."25.,\n".
+    nomor_karakter1($tangkap8)."26.,\n".
+    nomor_karakter1($tangkap8)."27.,\n".
+    nomor_karakter1($tangkap8)."28.,\n".
+    nomor_karakter1($tangkap8)."29.,\n".
+    nomor_karakter1($tangkap8)."211.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."233.,\n".
+    nomor_karakter1($tangkap8)."244.,\n".
+    nomor_karakter1($tangkap8)."255.,\n".
+    nomor_karakter1($tangkap8)."212.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."232.,\n".
+    nomor_karakter1($tangkap8)."242.,\n".
+    nomor_karakter1($tangkap8)."252.,\n".
+    nomor_karakter1($tangkap8)."112.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."332.,\n".
+    nomor_karakter1($tangkap8)."442.,\n".
+    nomor_karakter1($tangkap8)."552.,\n".
+    nomor_karakter1($tangkap8)."221.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."223.,\n".
+    nomor_karakter1($tangkap8)."224.,\n".
+    nomor_karakter1($tangkap8)."225.,\n".
+    nomor_karakter1($tangkap8)."452.,\n".
+    nomor_karakter1($tangkap8)."12.,\n".
+    nomor_karakter1($tangkap8)."21.,\n".
+    nomor_karakter1($tangkap8)."3.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."3333.,\n".
+    nomor_karakter1($tangkap8)."33333.,\n".
+    nomor_karakter1($tangkap8)."31.,\n".
+    nomor_karakter1($tangkap8)."32.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."34.,\n".
+    nomor_karakter1($tangkap8)."35.,\n".
+    nomor_karakter1($tangkap8)."311.,\n".
+    nomor_karakter1($tangkap8)."322.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."344.,\n".
+    nomor_karakter1($tangkap8)."355.,\n".
+    nomor_karakter1($tangkap8)."313.,\n".
+    nomor_karakter1($tangkap8)."323.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."343.,\n".
+    nomor_karakter1($tangkap8)."353.,\n".
+    nomor_karakter1($tangkap8)."113.,\n".
+    nomor_karakter1($tangkap8)."223.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."443.,\n".
+    nomor_karakter1($tangkap8)."553.,\n".
+    nomor_karakter1($tangkap8)."331.,\n".
+    nomor_karakter1($tangkap8)."332.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."334.,\n".
+    nomor_karakter1($tangkap8)."335.,\n".
+    nomor_karakter1($tangkap8)."453.,\n".
+    nomor_karakter1($tangkap8)."123.,\n".
+    nomor_karakter1($tangkap8)."321.,\n".
+    nomor_karakter1($tangkap8)."4.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."4444.,\n".
+    nomor_karakter1($tangkap8)."44444.,\n".
+    nomor_karakter1($tangkap8)."41.,\n".
+    nomor_karakter1($tangkap8)."42.,\n".
+    nomor_karakter1($tangkap8)."43.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."411.,\n".
+    nomor_karakter1($tangkap8)."422.,\n".
+    nomor_karakter1($tangkap8)."433.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."455.,\n".
+    nomor_karakter1($tangkap8)."414.,\n".
+    nomor_karakter1($tangkap8)."424.,\n".
+    nomor_karakter1($tangkap8)."434.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."454.,\n".
+    nomor_karakter1($tangkap8)."114.,\n".
+    nomor_karakter1($tangkap8)."224.,\n".
+    nomor_karakter1($tangkap8)."334.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."441.,\n".
+    nomor_karakter1($tangkap8)."442.,\n".
+    nomor_karakter1($tangkap8)."443.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."445.,\n".
+    nomor_karakter1($tangkap8)."554.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."12.,\n".
+    nomor_karakter1($tangkap8)."43.,\n".
+    nomor_karakter1($tangkap8)."5.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."555.,\n".
+    nomor_karakter1($tangkap8)."5555.,\n".
+    nomor_karakter1($tangkap8)."55555.,\n".
+    nomor_karakter1($tangkap8)."51.,\n".
+    nomor_karakter1($tangkap8)."52.,\n".
+    nomor_karakter1($tangkap8)."53.,\n".
+    nomor_karakter1($tangkap8)."54.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."511.,\n".
+    nomor_karakter1($tangkap8)."522.,\n".
+    nomor_karakter1($tangkap8)."533.,\n".
+    nomor_karakter1($tangkap8)."544.,\n".
+    nomor_karakter1($tangkap8)."655.,\n".
+    nomor_karakter1($tangkap8)."515.,\n".
+    nomor_karakter1($tangkap8)."52.,\n".
+    nomor_karakter1($tangkap8)."535.,\n".
+    nomor_karakter1($tangkap8)."545.,\n".
+    nomor_karakter1($tangkap8)."555.,\n".
+    nomor_karakter1($tangkap8)."115.,\n".
+    nomor_karakter1($tangkap8)."225.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."34.,\n".
+    nomor_karakter1($tangkap8)."1234.,\n".
+    nomor_karakter1($tangkap8)."5432.,\n".
+    nomor_karakter1($tangkap8)."6.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."666.,\n".
+    nomor_karakter1($tangkap8)."6666.,\n".
+    nomor_karakter1($tangkap8)."66666.,\n".
+    nomor_karakter1($tangkap8)."61.,\n".
+    nomor_karakter1($tangkap8)."62.,\n".
+    nomor_karakter1($tangkap8)."63.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."611.,\n".
+    nomor_karakter1($tangkap8)."622.,\n".
+    nomor_karakter1($tangkap8)."633.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."61.,\n".
+    nomor_karakter1($tangkap8)."62.,\n".
+    nomor_karakter1($tangkap8)."63.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."12345.,\n".
+    nomor_karakter1($tangkap8)."65432.,\n".
+    nomor_karakter1($tangkap8)."7.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."777.,\n".
+    nomor_karakter1($tangkap8)."7777.,\n".
+    nomor_karakter1($tangkap8)."77777.,\n".
+    nomor_karakter1($tangkap8)."71.,\n".
+    nomor_karakter1($tangkap8)."72.,\n".
+    nomor_karakter1($tangkap8)."73.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."711.,\n".
+    nomor_karakter1($tangkap8)."722.,\n".
+    nomor_karakter1($tangkap8)."733.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."71.,\n".
+    nomor_karakter1($tangkap8)."72.,\n".
+    nomor_karakter1($tangkap8)."73.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."1234567.,\n".
+    nomor_karakter1($tangkap8)."8.,\n".
+    nomor_karakter1($tangkap8)."88.,\n".
+    nomor_karakter1($tangkap8)."888.,\n".
+    nomor_karakter1($tangkap8)."8888.,\n".
+    nomor_karakter1($tangkap8)."88888.,\n".
+    nomor_karakter1($tangkap8)."81.,\n".
+    nomor_karakter1($tangkap8)."82.,\n".
+    nomor_karakter1($tangkap8)."83.,\n".
+    nomor_karakter1($tangkap8)."84.,\n".
+    nomor_karakter1($tangkap8)."85.,\n".
+    nomor_karakter1($tangkap8)."811.,\n".
+    nomor_karakter1($tangkap8)."822.,\n".
+    nomor_karakter1($tangkap8)."833.,\n".
+    nomor_karakter1($tangkap8)."844.,\n".
+    nomor_karakter1($tangkap8)."855.,\n".
+    nomor_karakter1($tangkap8)."818.,\n".
+    nomor_karakter1($tangkap8)."828.,\n".
+    nomor_karakter1($tangkap8)."838.,\n".
+    nomor_karakter1($tangkap8)."848.,\n".
+    nomor_karakter1($tangkap8)."858.,\n".
+    nomor_karakter1($tangkap8)."118.,\n".
+    nomor_karakter1($tangkap8)."228.,\n".
+    nomor_karakter1($tangkap8)."338.,\n".
+    nomor_karakter1($tangkap8)."448.,\n".
+    nomor_karakter1($tangkap8)."558.,\n".
+    nomor_karakter1($tangkap8)."881.,\n".
+    nomor_karakter1($tangkap8)."882.,\n".
+    nomor_karakter1($tangkap8)."883.,\n".
+    nomor_karakter1($tangkap8)."884.,\n".
+    nomor_karakter1($tangkap8)."885.,\n".
+    nomor_karakter1($tangkap8)."458.,\n".
+    nomor_karakter1($tangkap8)."12345678.,\n".
+    nomor_karakter1($tangkap8)."87654321.,\n".
+    nomor_karakter1($tangkap8)."9.,\n".
+    nomor_karakter1($tangkap8)."99.,\n".
+    nomor_karakter1($tangkap8)."999.,\n".
+    nomor_karakter1($tangkap8)."9999.,\n".
+    nomor_karakter1($tangkap8)."99999.,\n".
+    nomor_karakter1($tangkap8)."91*\n".
+    nomor_karakter1($tangkap8)."92.,\n".
+    nomor_karakter1($tangkap8)."93.,\n".
+    nomor_karakter1($tangkap8)."94.,\n".
+    nomor_karakter1($tangkap8)."95.,\n".
+    nomor_karakter1($tangkap8)."911.,\n".
+    nomor_karakter1($tangkap8)."922.,\n".
+    nomor_karakter1($tangkap8)."933.,\n".
+    nomor_karakter1($tangkap8)."944.,\n".
+    nomor_karakter1($tangkap8)."955.,\n".
+    nomor_karakter1($tangkap8)."919.,\n".
+    nomor_karakter1($tangkap8)."929.,\n".
+    nomor_karakter1($tangkap8)."939.,\n".
+    nomor_karakter1($tangkap8)."949.,\n".
+    nomor_karakter1($tangkap8)."959.,\n".
+    nomor_karakter1($tangkap8)."119.,\n".
+    nomor_karakter1($tangkap8)."229.,\n".
+    nomor_karakter1($tangkap8)."339.,\n".
+    nomor_karakter1($tangkap8)."449.,\n".
+    nomor_karakter1($tangkap8)."559.,\n".
+    nomor_karakter1($tangkap8)."991.,\n".
+    nomor_karakter1($tangkap8)."992.,\n".
+    nomor_karakter1($tangkap8)."993.,\n".
+    nomor_karakter1($tangkap8)."994.,\n".
+    nomor_karakter1($tangkap8)."995.,\n".
+    nomor_karakter1($tangkap8)."459.,\n".
+    nomor_karakter1($tangkap8)."12345678.,\n".
+    nomor_karakter1($tangkap8)."987654321.,\n".
+    nomor_karakter1($tangkap8)."0.,\n".
+    nomor_karakter1($tangkap8)."00.,\n".
+    nomor_karakter1($tangkap8)."000.,\n".
+    nomor_karakter1($tangkap8)."0000.,\n".
+    nomor_karakter1($tangkap8)."00000.,\n".
+    nomor_karakter1($tangkap8)."01.,\n".
+    nomor_karakter1($tangkap8)."02.,\n".
+    nomor_karakter1($tangkap8)."03.,\n".
+    nomor_karakter1($tangkap8)."04.,\n".
+    nomor_karakter1($tangkap8)."05.,\n".
+    nomor_karakter1($tangkap8)."011.,\n".
+    nomor_karakter1($tangkap8)."022.,\n".
+    nomor_karakter1($tangkap8)."033.,\n".
+    nomor_karakter1($tangkap8)."044.,\n".
+    nomor_karakter1($tangkap8)."055.,\n".
+    nomor_karakter1($tangkap8)."010.,\n".
+    nomor_karakter1($tangkap8)."020.,\n".
+    nomor_karakter1($tangkap8)."030.,\n".
+    nomor_karakter1($tangkap8)."040.,\n".
+    nomor_karakter1($tangkap8)."050.,\n".
+    nomor_karakter1($tangkap8)."110.,\n".
+    nomor_karakter1($tangkap8)."220.,\n".
+    nomor_karakter1($tangkap8)."330.,\n".
+    nomor_karakter1($tangkap8)."440.,\n".
+    nomor_karakter1($tangkap8)."550.,\n".
+    nomor_karakter1($tangkap8)."001.,\n".
+    nomor_karakter1($tangkap8)."002.,\n".
+    nomor_karakter1($tangkap8)."003.,\n".
+    nomor_karakter1($tangkap8)."004.,\n".
+    nomor_karakter1($tangkap8)."005.,\n".
+    nomor_karakter1($tangkap8)."450.,\n".
+    nomor_karakter1($tangkap8)."123456789.,\n".
+    nomor_karakter1($tangkap9)."1.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."111.,\n".
+    nomor_karakter1($tangkap9)."1111.,\n".
+    nomor_karakter1($tangkap9)."11111.,\n".
+    nomor_karakter1($tangkap9)."2.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."2222.,\n".
+    nomor_karakter1($tangkap9)."22222.,\n".
+    nomor_karakter1($tangkap9)."21.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."23.,\n".
+    nomor_karakter1($tangkap9)."24.,\n".
+    nomor_karakter1($tangkap9)."25.,\n".
+    nomor_karakter1($tangkap9)."26.,\n".
+    nomor_karakter1($tangkap9)."27.,\n".
+    nomor_karakter1($tangkap9)."28.,\n".
+    nomor_karakter1($tangkap9)."29.,\n".
+    nomor_karakter1($tangkap9)."211.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."233.,\n".
+    nomor_karakter1($tangkap9)."244.,\n".
+    nomor_karakter1($tangkap9)."255.,\n".
+    nomor_karakter1($tangkap9)."212.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."232.,\n".
+    nomor_karakter1($tangkap9)."242.,\n".
+    nomor_karakter1($tangkap9)."252.,\n".
+    nomor_karakter1($tangkap9)."112.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."332.,\n".
+    nomor_karakter1($tangkap9)."442.,\n".
+    nomor_karakter1($tangkap9)."552.,\n".
+    nomor_karakter1($tangkap9)."221.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."223.,\n".
+    nomor_karakter1($tangkap9)."224.,\n".
+    nomor_karakter1($tangkap9)."225.,\n".
+    nomor_karakter1($tangkap9)."452.,\n".
+    nomor_karakter1($tangkap9)."12.,\n".
+    nomor_karakter1($tangkap9)."21.,\n".
+    nomor_karakter1($tangkap9)."3.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."3333.,\n".
+    nomor_karakter1($tangkap9)."33333.,\n".
+    nomor_karakter1($tangkap9)."31.,\n".
+    nomor_karakter1($tangkap9)."32.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."34.,\n".
+    nomor_karakter1($tangkap9)."35.,\n".
+    nomor_karakter1($tangkap9)."311.,\n".
+    nomor_karakter1($tangkap9)."322.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."344.,\n".
+    nomor_karakter1($tangkap9)."355.,\n".
+    nomor_karakter1($tangkap9)."313.,\n".
+    nomor_karakter1($tangkap9)."323.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."343.,\n".
+    nomor_karakter1($tangkap9)."353.,\n".
+    nomor_karakter1($tangkap9)."113.,\n".
+    nomor_karakter1($tangkap9)."223.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."443.,\n".
+    nomor_karakter1($tangkap9)."553.,\n".
+    nomor_karakter1($tangkap9)."331.,\n".
+    nomor_karakter1($tangkap9)."332.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."334.,\n".
+    nomor_karakter1($tangkap9)."335.,\n".
+    nomor_karakter1($tangkap9)."453.,\n".
+    nomor_karakter1($tangkap9)."123.,\n".
+    nomor_karakter1($tangkap9)."321.,\n".
+    nomor_karakter1($tangkap9)."4.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."4444.,\n".
+    nomor_karakter1($tangkap9)."44444.,\n".
+    nomor_karakter1($tangkap9)."41.,\n".
+    nomor_karakter1($tangkap9)."42.,\n".
+    nomor_karakter1($tangkap9)."43.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."411.,\n".
+    nomor_karakter1($tangkap9)."422.,\n".
+    nomor_karakter1($tangkap9)."433.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."455.,\n".
+    nomor_karakter1($tangkap9)."414.,\n".
+    nomor_karakter1($tangkap9)."424.,\n".
+    nomor_karakter1($tangkap9)."434.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."454.,\n".
+    nomor_karakter1($tangkap9)."114.,\n".
+    nomor_karakter1($tangkap9)."224.,\n".
+    nomor_karakter1($tangkap9)."334.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."441.,\n".
+    nomor_karakter1($tangkap9)."442.,\n".
+    nomor_karakter1($tangkap9)."443.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."445.,\n".
+    nomor_karakter1($tangkap9)."554.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."12.,\n".
+    nomor_karakter1($tangkap9)."43.,\n".
+    nomor_karakter1($tangkap9)."5.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."555.,\n".
+    nomor_karakter1($tangkap9)."5555.,\n".
+    nomor_karakter1($tangkap9)."55555.,\n".
+    nomor_karakter1($tangkap9)."51.,\n".
+    nomor_karakter1($tangkap9)."52.,\n".
+    nomor_karakter1($tangkap9)."53.,\n".
+    nomor_karakter1($tangkap9)."54.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."511.,\n".
+    nomor_karakter1($tangkap9)."522.,\n".
+    nomor_karakter1($tangkap9)."533.,\n".
+    nomor_karakter1($tangkap9)."544.,\n".
+    nomor_karakter1($tangkap9)."655.,\n".
+    nomor_karakter1($tangkap9)."515.,\n".
+    nomor_karakter1($tangkap9)."52.,\n".
+    nomor_karakter1($tangkap9)."535.,\n".
+    nomor_karakter1($tangkap9)."545.,\n".
+    nomor_karakter1($tangkap9)."555.,\n".
+    nomor_karakter1($tangkap9)."115.,\n".
+    nomor_karakter1($tangkap9)."225.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."34.,\n".
+    nomor_karakter1($tangkap9)."1234.,\n".
+    nomor_karakter1($tangkap9)."5432.,\n".
+    nomor_karakter1($tangkap9)."6.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."666.,\n".
+    nomor_karakter1($tangkap9)."6666.,\n".
+    nomor_karakter1($tangkap9)."66666.,\n".
+    nomor_karakter1($tangkap9)."61.,\n".
+    nomor_karakter1($tangkap9)."62.,\n".
+    nomor_karakter1($tangkap9)."63.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."611.,\n".
+    nomor_karakter1($tangkap9)."622.,\n".
+    nomor_karakter1($tangkap9)."633.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."61.,\n".
+    nomor_karakter1($tangkap9)."62.,\n".
+    nomor_karakter1($tangkap9)."63.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."12345.,\n".
+    nomor_karakter1($tangkap9)."65432.,\n".
+    nomor_karakter1($tangkap9)."7.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."777.,\n".
+    nomor_karakter1($tangkap9)."7777.,\n".
+    nomor_karakter1($tangkap9)."77777.,\n".
+    nomor_karakter1($tangkap9)."71.,\n".
+    nomor_karakter1($tangkap9)."72.,\n".
+    nomor_karakter1($tangkap9)."73.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."711.,\n".
+    nomor_karakter1($tangkap9)."722.,\n".
+    nomor_karakter1($tangkap9)."733.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."71.,\n".
+    nomor_karakter1($tangkap9)."72.,\n".
+    nomor_karakter1($tangkap9)."73.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."1234567.,\n".
+    nomor_karakter1($tangkap9)."8.,\n".
+    nomor_karakter1($tangkap9)."88.,\n".
+    nomor_karakter1($tangkap9)."888.,\n".
+    nomor_karakter1($tangkap9)."8888.,\n".
+    nomor_karakter1($tangkap9)."88888.,\n".
+    nomor_karakter1($tangkap9)."81.,\n".
+    nomor_karakter1($tangkap9)."82.,\n".
+    nomor_karakter1($tangkap9)."83.,\n".
+    nomor_karakter1($tangkap9)."84.,\n".
+    nomor_karakter1($tangkap9)."85.,\n".
+    nomor_karakter1($tangkap9)."811.,\n".
+    nomor_karakter1($tangkap9)."822.,\n".
+    nomor_karakter1($tangkap9)."833.,\n".
+    nomor_karakter1($tangkap9)."844.,\n".
+    nomor_karakter1($tangkap9)."855.,\n".
+    nomor_karakter1($tangkap9)."818.,\n".
+    nomor_karakter1($tangkap9)."828.,\n".
+    nomor_karakter1($tangkap9)."838.,\n".
+    nomor_karakter1($tangkap9)."848.,\n".
+    nomor_karakter1($tangkap9)."858.,\n".
+    nomor_karakter1($tangkap9)."118.,\n".
+    nomor_karakter1($tangkap9)."228.,\n".
+    nomor_karakter1($tangkap9)."338.,\n".
+    nomor_karakter1($tangkap9)."448.,\n".
+    nomor_karakter1($tangkap9)."558.,\n".
+    nomor_karakter1($tangkap9)."881.,\n".
+    nomor_karakter1($tangkap9)."882.,\n".
+    nomor_karakter1($tangkap9)."883.,\n".
+    nomor_karakter1($tangkap9)."884.,\n".
+    nomor_karakter1($tangkap9)."885.,\n".
+    nomor_karakter1($tangkap9)."458.,\n".
+    nomor_karakter1($tangkap9)."12345678.,\n".
+    nomor_karakter1($tangkap9)."87654321.,\n".
+    nomor_karakter1($tangkap9)."9.,\n".
+    nomor_karakter1($tangkap9)."99.,\n".
+    nomor_karakter1($tangkap9)."999.,\n".
+    nomor_karakter1($tangkap9)."9999.,\n".
+    nomor_karakter1($tangkap9)."99999.,\n".
+    nomor_karakter1($tangkap9)."91*\n".
+    nomor_karakter1($tangkap9)."92.,\n".
+    nomor_karakter1($tangkap9)."93.,\n".
+    nomor_karakter1($tangkap9)."94.,\n".
+    nomor_karakter1($tangkap9)."95.,\n".
+    nomor_karakter1($tangkap9)."911.,\n".
+    nomor_karakter1($tangkap9)."922.,\n".
+    nomor_karakter1($tangkap9)."933.,\n".
+    nomor_karakter1($tangkap9)."944.,\n".
+    nomor_karakter1($tangkap9)."955.,\n".
+    nomor_karakter1($tangkap9)."919.,\n".
+    nomor_karakter1($tangkap9)."929.,\n".
+    nomor_karakter1($tangkap9)."939.,\n".
+    nomor_karakter1($tangkap9)."949.,\n".
+    nomor_karakter1($tangkap9)."959.,\n".
+    nomor_karakter1($tangkap9)."119.,\n".
+    nomor_karakter1($tangkap9)."229.,\n".
+    nomor_karakter1($tangkap9)."339.,\n".
+    nomor_karakter1($tangkap9)."449.,\n".
+    nomor_karakter1($tangkap9)."559.,\n".
+    nomor_karakter1($tangkap9)."991.,\n".
+    nomor_karakter1($tangkap9)."992.,\n".
+    nomor_karakter1($tangkap9)."993.,\n".
+    nomor_karakter1($tangkap9)."994.,\n".
+    nomor_karakter1($tangkap9)."995.,\n".
+    nomor_karakter1($tangkap9)."459.,\n".
+    nomor_karakter1($tangkap9)."12345678.,\n".
+    nomor_karakter1($tangkap9)."987654321.,\n".
+    nomor_karakter1($tangkap9)."0.,\n".
+    nomor_karakter1($tangkap9)."00.,\n".
+    nomor_karakter1($tangkap9)."000.,\n".
+    nomor_karakter1($tangkap9)."0000.,\n".
+    nomor_karakter1($tangkap9)."00000.,\n".
+    nomor_karakter1($tangkap9)."01.,\n".
+    nomor_karakter1($tangkap9)."02.,\n".
+    nomor_karakter1($tangkap9)."03.,\n".
+    nomor_karakter1($tangkap9)."04.,\n".
+    nomor_karakter1($tangkap9)."05.,\n".
+    nomor_karakter1($tangkap9)."011.,\n".
+    nomor_karakter1($tangkap9)."022.,\n".
+    nomor_karakter1($tangkap9)."033.,\n".
+    nomor_karakter1($tangkap9)."044.,\n".
+    nomor_karakter1($tangkap9)."055.,\n".
+    nomor_karakter1($tangkap9)."010.,\n".
+    nomor_karakter1($tangkap9)."020.,\n".
+    nomor_karakter1($tangkap9)."030.,\n".
+    nomor_karakter1($tangkap9)."040.,\n".
+    nomor_karakter1($tangkap9)."050.,\n".
+    nomor_karakter1($tangkap9)."110.,\n".
+    nomor_karakter1($tangkap9)."220.,\n".
+    nomor_karakter1($tangkap9)."330.,\n".
+    nomor_karakter1($tangkap9)."440.,\n".
+    nomor_karakter1($tangkap9)."550.,\n".
+    nomor_karakter1($tangkap9)."001.,\n".
+    nomor_karakter1($tangkap9)."002.,\n".
+    nomor_karakter1($tangkap9)."003.,\n".
+    nomor_karakter1($tangkap9)."004.,\n".
+    nomor_karakter1($tangkap9)."005.,\n".
+    nomor_karakter1($tangkap9)."450.,\n".
+    nomor_karakter1($tangkap9)."123456789.,\n".
+    nomor_karakter1($tangkap13)."1.,\n".
+    nomor_karakter1($tangkap13)."11.,\n".
+    nomor_karakter1($tangkap13)."111.,\n".
+    nomor_karakter1($tangkap13)."1111.,\n".
+    nomor_karakter1($tangkap13)."11111.,\n".
+    nomor_karakter1($tangkap13)."2.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."2222.,\n".
+    nomor_karakter1($tangkap13)."22222.,\n".
+    nomor_karakter1($tangkap13)."21.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."23.,\n".
+    nomor_karakter1($tangkap13)."24.,\n".
+    nomor_karakter1($tangkap13)."25.,\n".
+    nomor_karakter1($tangkap13)."26.,\n".
+    nomor_karakter1($tangkap13)."27.,\n".
+    nomor_karakter1($tangkap13)."28.,\n".
+    nomor_karakter1($tangkap13)."29.,\n".
+    nomor_karakter1($tangkap13)."211.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."233.,\n".
+    nomor_karakter1($tangkap13)."244.,\n".
+    nomor_karakter1($tangkap13)."255.,\n".
+    nomor_karakter1($tangkap13)."212.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."232.,\n".
+    nomor_karakter1($tangkap13)."242.,\n".
+    nomor_karakter1($tangkap13)."252.,\n".
+    nomor_karakter1($tangkap13)."112.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."332.,\n".
+    nomor_karakter1($tangkap13)."442.,\n".
+    nomor_karakter1($tangkap13)."552.,\n".
+    nomor_karakter1($tangkap13)."221.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."223.,\n".
+    nomor_karakter1($tangkap13)."224.,\n".
+    nomor_karakter1($tangkap13)."225.,\n".
+    nomor_karakter1($tangkap13)."452.,\n".
+    nomor_karakter1($tangkap13)."12.,\n".
+    nomor_karakter1($tangkap13)."21.,\n".
+    nomor_karakter1($tangkap13)."3.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."3333.,\n".
+    nomor_karakter1($tangkap13)."33333.,\n".
+    nomor_karakter1($tangkap13)."31.,\n".
+    nomor_karakter1($tangkap13)."32.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."34.,\n".
+    nomor_karakter1($tangkap13)."35.,\n".
+    nomor_karakter1($tangkap13)."311.,\n".
+    nomor_karakter1($tangkap13)."322.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."344.,\n".
+    nomor_karakter1($tangkap13)."355.,\n".
+    nomor_karakter1($tangkap13)."313.,\n".
+    nomor_karakter1($tangkap13)."323.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."343.,\n".
+    nomor_karakter1($tangkap13)."353.,\n".
+    nomor_karakter1($tangkap13)."113.,\n".
+    nomor_karakter1($tangkap13)."223.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."443.,\n".
+    nomor_karakter1($tangkap13)."553.,\n".
+    nomor_karakter1($tangkap13)."331.,\n".
+    nomor_karakter1($tangkap13)."332.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."334.,\n".
+    nomor_karakter1($tangkap13)."335.,\n".
+    nomor_karakter1($tangkap13)."453.,\n".
+    nomor_karakter1($tangkap13)."123.,\n".
+    nomor_karakter1($tangkap13)."321.,\n".
+    nomor_karakter1($tangkap13)."4.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."4444.,\n".
+    nomor_karakter1($tangkap13)."44444.,\n".
+    nomor_karakter1($tangkap13)."41.,\n".
+    nomor_karakter1($tangkap13)."42.,\n".
+    nomor_karakter1($tangkap13)."43.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."45.,\n".
+    nomor_karakter1($tangkap13)."411.,\n".
+    nomor_karakter1($tangkap13)."422.,\n".
+    nomor_karakter1($tangkap13)."433.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."455.,\n".
+    nomor_karakter1($tangkap13)."414.,\n".
+    nomor_karakter1($tangkap13)."424.,\n".
+    nomor_karakter1($tangkap13)."434.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."454.,\n".
+    nomor_karakter1($tangkap13)."114.,\n".
+    nomor_karakter1($tangkap13)."224.,\n".
+    nomor_karakter1($tangkap13)."334.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."441.,\n".
+    nomor_karakter1($tangkap13)."442.,\n".
+    nomor_karakter1($tangkap13)."443.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."445.,\n".
+    nomor_karakter1($tangkap13)."554.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."12.,\n".
+    nomor_karakter1($tangkap13)."43.,\n".
+    nomor_karakter1($tangkap13)."5.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."555.,\n".
+    nomor_karakter1($tangkap13)."5555.,\n".
+    nomor_karakter1($tangkap13)."55555.,\n".
+    nomor_karakter1($tangkap13)."51.,\n".
+    nomor_karakter1($tangkap13)."52.,\n".
+    nomor_karakter1($tangkap13)."53.,\n".
+    nomor_karakter1($tangkap13)."54.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."511.,\n".
+    nomor_karakter1($tangkap13)."522.,\n".
+    nomor_karakter1($tangkap13)."533.,\n".
+    nomor_karakter1($tangkap13)."544.,\n".
+    nomor_karakter1($tangkap13)."655.,\n".
+    nomor_karakter1($tangkap13)."515.,\n".
+    nomor_karakter1($tangkap13)."52.,\n".
+    nomor_karakter1($tangkap13)."535.,\n".
+    nomor_karakter1($tangkap13)."545.,\n".
+    nomor_karakter1($tangkap13)."555.,\n".
+    nomor_karakter1($tangkap13)."115.,\n".
+    nomor_karakter1($tangkap13)."225.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."34.,\n".
+    nomor_karakter1($tangkap13)."1234.,\n".
+    nomor_karakter1($tangkap13)."5432.,\n".
+    nomor_karakter1($tangkap13)."6.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."666.,\n".
+    nomor_karakter1($tangkap13)."6666.,\n".
+    nomor_karakter1($tangkap13)."66666.,\n".
+    nomor_karakter1($tangkap13)."61.,\n".
+    nomor_karakter1($tangkap13)."62.,\n".
+    nomor_karakter1($tangkap13)."63.,\n".
+    nomor_karakter1($tangkap13)."64.,\n".
+    nomor_karakter1($tangkap13)."65.,\n".
+    nomor_karakter1($tangkap13)."611.,\n".
+    nomor_karakter1($tangkap13)."622.,\n".
+    nomor_karakter1($tangkap13)."633.,\n".
+    nomor_karakter1($tangkap13)."64.,\n".
+    nomor_karakter1($tangkap13)."65.,\n".
+    nomor_karakter1($tangkap13)."61.,\n".
+    nomor_karakter1($tangkap13)."62.,\n".
+    nomor_karakter1($tangkap13)."63.,\n".
+    nomor_karakter1($tangkap13)."64.,\n".
+    nomor_karakter1($tangkap13)."65.,\n".
+    nomor_karakter1($tangkap13)."11.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."45.,\n".
+    nomor_karakter1($tangkap13)."12345.,\n".
+    nomor_karakter1($tangkap13)."65432.,\n".
+    nomor_karakter1($tangkap13)."7.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."777.,\n".
+    nomor_karakter1($tangkap13)."7777.,\n".
+    nomor_karakter1($tangkap13)."77777.,\n".
+    nomor_karakter1($tangkap13)."71.,\n".
+    nomor_karakter1($tangkap13)."72.,\n".
+    nomor_karakter1($tangkap13)."73.,\n".
+    nomor_karakter1($tangkap13)."74.,\n".
+    nomor_karakter1($tangkap13)."75.,\n".
+    nomor_karakter1($tangkap13)."711.,\n".
+    nomor_karakter1($tangkap13)."722.,\n".
+    nomor_karakter1($tangkap13)."733.,\n".
+    nomor_karakter1($tangkap13)."74.,\n".
+    nomor_karakter1($tangkap13)."75.,\n".
+    nomor_karakter1($tangkap13)."71.,\n".
+    nomor_karakter1($tangkap13)."72.,\n".
+    nomor_karakter1($tangkap13)."73.,\n".
+    nomor_karakter1($tangkap13)."74.,\n".
+    nomor_karakter1($tangkap13)."75.,\n".
+    nomor_karakter1($tangkap13)."11.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."45.,\n".
+    nomor_karakter1($tangkap13)."1234567.,\n".
+    nomor_karakter1($tangkap13)."8.,\n".
+    nomor_karakter1($tangkap13)."88.,\n".
+    nomor_karakter1($tangkap13)."888.,\n".
+    nomor_karakter1($tangkap13)."8888.,\n".
+    nomor_karakter1($tangkap13)."88888.,\n".
+    nomor_karakter1($tangkap13)."81.,\n".
+    nomor_karakter1($tangkap13)."82.,\n".
+    nomor_karakter1($tangkap13)."83.,\n".
+    nomor_karakter1($tangkap13)."84.,\n".
+    nomor_karakter1($tangkap13)."85.,\n".
+    nomor_karakter1($tangkap13)."811.,\n".
+    nomor_karakter1($tangkap13)."822.,\n".
+    nomor_karakter1($tangkap13)."833.,\n".
+    nomor_karakter1($tangkap13)."844.,\n".
+    nomor_karakter1($tangkap13)."855.,\n".
+    nomor_karakter1($tangkap13)."818.,\n".
+    nomor_karakter1($tangkap13)."828.,\n".
+    nomor_karakter1($tangkap13)."838.,\n".
+    nomor_karakter1($tangkap13)."848.,\n".
+    nomor_karakter1($tangkap13)."858.,\n".
+    nomor_karakter1($tangkap13)."118.,\n".
+    nomor_karakter1($tangkap13)."228.,\n".
+    nomor_karakter1($tangkap13)."338.,\n".
+    nomor_karakter1($tangkap13)."448.,\n".
+    nomor_karakter1($tangkap13)."558.,\n".
+    nomor_karakter1($tangkap13)."881.,\n".
+    nomor_karakter1($tangkap13)."882.,\n".
+    nomor_karakter1($tangkap13)."883.,\n".
+    nomor_karakter1($tangkap13)."884.,\n".
+    nomor_karakter1($tangkap13)."885.,\n".
+    nomor_karakter1($tangkap13)."458.,\n".
+    nomor_karakter1($tangkap13)."12345678.,\n".
+    nomor_karakter1($tangkap13)."87654321.,\n".
+    nomor_karakter1($tangkap13)."9.,\n".
+    nomor_karakter1($tangkap13)."99.,\n".
+    nomor_karakter1($tangkap13)."999.,\n".
+    nomor_karakter1($tangkap13)."9999.,\n".
+    nomor_karakter1($tangkap13)."99999.,\n".
+    nomor_karakter1($tangkap13)."91*\n".
+    nomor_karakter1($tangkap13)."92.,\n".
+    nomor_karakter1($tangkap13)."93.,\n".
+    nomor_karakter1($tangkap13)."94.,\n".
+    nomor_karakter1($tangkap13)."95.,\n".
+    nomor_karakter1($tangkap13)."911.,\n".
+    nomor_karakter1($tangkap13)."922.,\n".
+    nomor_karakter1($tangkap13)."933.,\n".
+    nomor_karakter1($tangkap13)."944.,\n".
+    nomor_karakter1($tangkap13)."955.,\n".
+    nomor_karakter1($tangkap13)."919.,\n".
+    nomor_karakter1($tangkap13)."929.,\n".
+    nomor_karakter1($tangkap13)."939.,\n".
+    nomor_karakter1($tangkap13)."949.,\n".
+    nomor_karakter1($tangkap13)."959.,\n".
+    nomor_karakter1($tangkap13)."119.,\n".
+    nomor_karakter1($tangkap13)."229.,\n".
+    nomor_karakter1($tangkap13)."339.,\n".
+    nomor_karakter1($tangkap13)."449.,\n".
+    nomor_karakter1($tangkap13)."559.,\n".
+    nomor_karakter1($tangkap13)."991.,\n".
+    nomor_karakter1($tangkap13)."992.,\n".
+    nomor_karakter1($tangkap13)."993.,\n".
+    nomor_karakter1($tangkap13)."994.,\n".
+    nomor_karakter1($tangkap13)."995.,\n".
+    nomor_karakter1($tangkap13)."459.,\n".
+    nomor_karakter1($tangkap13)."12345678.,\n".
+    nomor_karakter1($tangkap13)."987654321.,\n".
+    nomor_karakter1($tangkap13)."0.,\n".
+    nomor_karakter1($tangkap13)."00.,\n".
+    nomor_karakter1($tangkap13)."000.,\n".
+    nomor_karakter1($tangkap13)."0000.,\n".
+    nomor_karakter1($tangkap13)."00000.,\n".
+    nomor_karakter1($tangkap13)."01.,\n".
+    nomor_karakter1($tangkap13)."02.,\n".
+    nomor_karakter1($tangkap13)."03.,\n".
+    nomor_karakter1($tangkap13)."04.,\n".
+    nomor_karakter1($tangkap13)."05.,\n".
+    nomor_karakter1($tangkap13)."011.,\n".
+    nomor_karakter1($tangkap13)."022.,\n".
+    nomor_karakter1($tangkap13)."033.,\n".
+    nomor_karakter1($tangkap13)."044.,\n".
+    nomor_karakter1($tangkap13)."055.,\n".
+    nomor_karakter1($tangkap13)."010.,\n".
+    nomor_karakter1($tangkap13)."020.,\n".
+    nomor_karakter1($tangkap13)."030.,\n".
+    nomor_karakter1($tangkap13)."040.,\n".
+    nomor_karakter1($tangkap13)."050.,\n".
+    nomor_karakter1($tangkap13)."110.,\n".
+    nomor_karakter1($tangkap13)."220.,\n".
+    nomor_karakter1($tangkap13)."330.,\n".
+    nomor_karakter1($tangkap13)."440.,\n".
+    nomor_karakter1($tangkap13)."550.,\n".
+    nomor_karakter1($tangkap13)."001.,\n".
+    nomor_karakter1($tangkap13)."002.,\n".
+    nomor_karakter1($tangkap13)."003.,\n".
+    nomor_karakter1($tangkap13)."004.,\n".
+    nomor_karakter1($tangkap13)."005.,\n".
+    nomor_karakter1($tangkap13)."450.,\n".
+    nomor_karakter1($tangkap13)."123456789.,\n".
+    nomor_karakter1($tangkap16)."1.,\n".
+    nomor_karakter1($tangkap16)."11.,\n".
+    nomor_karakter1($tangkap16)."111.,\n".
+    nomor_karakter1($tangkap16)."1111.,\n".
+    nomor_karakter1($tangkap16)."11111.,\n".
+    nomor_karakter1($tangkap16)."2.,\n".
+    nomor_karakter1($tangkap16)."22.,\n".
+    nomor_karakter1($tangkap16)."222.,\n".
+    nomor_karakter1($tangkap16)."2222.,\n".
+    nomor_karakter1($tangkap16)."22222.,\n".
+    nomor_karakter1($tangkap16)."21.,\n".
+    nomor_karakter1($tangkap16)."22.,\n".
+    nomor_karakter1($tangkap16)."23.,\n".
+    nomor_karakter1($tangkap16)."24.,\n".
+    nomor_karakter1($tangkap16)."25.,\n".
+    nomor_karakter1($tangkap16)."26.,\n".
+    nomor_karakter1($tangkap16)."27.,\n".
+    nomor_karakter1($tangkap16)."28.,\n".
+    nomor_karakter1($tangkap16)."29.,\n".
+    nomor_karakter1($tangkap16)."211.,\n".
+    nomor_karakter1($tangkap16)."222.,\n".
+    nomor_karakter1($tangkap16)."233.,\n".
+    nomor_karakter1($tangkap16)."244.,\n".
+    nomor_karakter1($tangkap16)."255.,\n".
+    nomor_karakter1($tangkap16)."212.,\n".
+    nomor_karakter1($tangkap16)."222.,\n".
+    nomor_karakter1($tangkap16)."232.,\n".
+    nomor_karakter1($tangkap16)."242.,\n".
+    nomor_karakter1($tangkap16)."252.,\n".
+    nomor_karakter1($tangkap16)."112.,\n".
+    nomor_karakter1($tangkap16)."222.,\n".
+    nomor_karakter1($tangkap16)."332.,\n".
+    nomor_karakter1($tangkap16)."442.,\n".
+    nomor_karakter1($tangkap16)."552.,\n".
+    nomor_karakter1($tangkap16)."221.,\n".
+    nomor_karakter1($tangkap16)."222.,\n".
+    nomor_karakter1($tangkap16)."223.,\n".
+    nomor_karakter1($tangkap16)."224.,\n".
+    nomor_karakter1($tangkap16)."225.,\n".
+    nomor_karakter1($tangkap16)."452.,\n".
+    nomor_karakter1($tangkap16)."12.,\n".
+    nomor_karakter1($tangkap16)."21.,\n".
+    nomor_karakter1($tangkap16)."3.,\n".
+    nomor_karakter1($tangkap16)."33.,\n".
+    nomor_karakter1($tangkap16)."333.,\n".
+    nomor_karakter1($tangkap16)."3333.,\n".
+    nomor_karakter1($tangkap16)."33333.,\n".
+    nomor_karakter1($tangkap16)."31.,\n".
+    nomor_karakter1($tangkap16)."32.,\n".
+    nomor_karakter1($tangkap16)."33.,\n".
+    nomor_karakter1($tangkap16)."34.,\n".
+    nomor_karakter1($tangkap16)."35.,\n".
+    nomor_karakter1($tangkap16)."311.,\n".
+    nomor_karakter1($tangkap16)."322.,\n".
+    nomor_karakter1($tangkap16)."333.,\n".
+    nomor_karakter1($tangkap16)."344.,\n".
+    nomor_karakter1($tangkap16)."355.,\n".
+    nomor_karakter1($tangkap16)."313.,\n".
+    nomor_karakter1($tangkap16)."323.,\n".
+    nomor_karakter1($tangkap16)."333.,\n".
+    nomor_karakter1($tangkap16)."343.,\n".
+    nomor_karakter1($tangkap16)."353.,\n".
+    nomor_karakter1($tangkap16)."113.,\n".
+    nomor_karakter1($tangkap16)."223.,\n".
+    nomor_karakter1($tangkap16)."333.,\n".
+    nomor_karakter1($tangkap16)."443.,\n".
+    nomor_karakter1($tangkap16)."553.,\n".
+    nomor_karakter1($tangkap16)."331.,\n".
+    nomor_karakter1($tangkap16)."332.,\n".
+    nomor_karakter1($tangkap16)."333.,\n".
+    nomor_karakter1($tangkap16)."334.,\n".
+    nomor_karakter1($tangkap16)."335.,\n".
+    nomor_karakter1($tangkap16)."453.,\n".
+    nomor_karakter1($tangkap16)."123.,\n".
+    nomor_karakter1($tangkap16)."321.,\n".
+    nomor_karakter1($tangkap16)."4.,\n".
+    nomor_karakter1($tangkap16)."44.,\n".
+    nomor_karakter1($tangkap16)."444.,\n".
+    nomor_karakter1($tangkap16)."4444.,\n".
+    nomor_karakter1($tangkap16)."44444.,\n".
+    nomor_karakter1($tangkap16)."41.,\n".
+    nomor_karakter1($tangkap16)."42.,\n".
+    nomor_karakter1($tangkap16)."43.,\n".
+    nomor_karakter1($tangkap16)."44.,\n".
+    nomor_karakter1($tangkap16)."45.,\n".
+    nomor_karakter1($tangkap16)."411.,\n".
+    nomor_karakter1($tangkap16)."422.,\n".
+    nomor_karakter1($tangkap16)."433.,\n".
+    nomor_karakter1($tangkap16)."444.,\n".
+    nomor_karakter1($tangkap16)."455.,\n".
+    nomor_karakter1($tangkap16)."414.,\n".
+    nomor_karakter1($tangkap16)."424.,\n".
+    nomor_karakter1($tangkap16)."434.,\n".
+    nomor_karakter1($tangkap16)."444.,\n".
+    nomor_karakter1($tangkap16)."454.,\n".
+    nomor_karakter1($tangkap16)."114.,\n".
+    nomor_karakter1($tangkap16)."224.,\n".
+    nomor_karakter1($tangkap16)."334.,\n".
+    nomor_karakter1($tangkap16)."444.,\n".
+    nomor_karakter1($tangkap16)."441.,\n".
+    nomor_karakter1($tangkap16)."442.,\n".
+    nomor_karakter1($tangkap16)."443.,\n".
+    nomor_karakter1($tangkap16)."444.,\n".
+    nomor_karakter1($tangkap16)."445.,\n".
+    nomor_karakter1($tangkap16)."554.,\n".
+    nomor_karakter1($tangkap16)."444.,\n".
+    nomor_karakter1($tangkap16)."12.,\n".
+    nomor_karakter1($tangkap16)."43.,\n".
+    nomor_karakter1($tangkap16)."5.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."555.,\n".
+    nomor_karakter1($tangkap16)."5555.,\n".
+    nomor_karakter1($tangkap16)."55555.,\n".
+    nomor_karakter1($tangkap16)."51.,\n".
+    nomor_karakter1($tangkap16)."52.,\n".
+    nomor_karakter1($tangkap16)."53.,\n".
+    nomor_karakter1($tangkap16)."54.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."511.,\n".
+    nomor_karakter1($tangkap16)."522.,\n".
+    nomor_karakter1($tangkap16)."533.,\n".
+    nomor_karakter1($tangkap16)."544.,\n".
+    nomor_karakter1($tangkap16)."655.,\n".
+    nomor_karakter1($tangkap16)."515.,\n".
+    nomor_karakter1($tangkap16)."52.,\n".
+    nomor_karakter1($tangkap16)."535.,\n".
+    nomor_karakter1($tangkap16)."545.,\n".
+    nomor_karakter1($tangkap16)."555.,\n".
+    nomor_karakter1($tangkap16)."115.,\n".
+    nomor_karakter1($tangkap16)."225.,\n".
+    nomor_karakter1($tangkap16)."33.,\n".
+    nomor_karakter1($tangkap16)."44.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."34.,\n".
+    nomor_karakter1($tangkap16)."1234.,\n".
+    nomor_karakter1($tangkap16)."5432.,\n".
+    nomor_karakter1($tangkap16)."6.,\n".
+    nomor_karakter1($tangkap16)."66.,\n".
+    nomor_karakter1($tangkap16)."666.,\n".
+    nomor_karakter1($tangkap16)."6666.,\n".
+    nomor_karakter1($tangkap16)."66666.,\n".
+    nomor_karakter1($tangkap16)."61.,\n".
+    nomor_karakter1($tangkap16)."62.,\n".
+    nomor_karakter1($tangkap16)."63.,\n".
+    nomor_karakter1($tangkap16)."64.,\n".
+    nomor_karakter1($tangkap16)."65.,\n".
+    nomor_karakter1($tangkap16)."611.,\n".
+    nomor_karakter1($tangkap16)."622.,\n".
+    nomor_karakter1($tangkap16)."633.,\n".
+    nomor_karakter1($tangkap16)."64.,\n".
+    nomor_karakter1($tangkap16)."65.,\n".
+    nomor_karakter1($tangkap16)."61.,\n".
+    nomor_karakter1($tangkap16)."62.,\n".
+    nomor_karakter1($tangkap16)."63.,\n".
+    nomor_karakter1($tangkap16)."64.,\n".
+    nomor_karakter1($tangkap16)."65.,\n".
+    nomor_karakter1($tangkap16)."11.,\n".
+    nomor_karakter1($tangkap16)."22.,\n".
+    nomor_karakter1($tangkap16)."33.,\n".
+    nomor_karakter1($tangkap16)."44.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."66.,\n".
+    nomor_karakter1($tangkap16)."66.,\n".
+    nomor_karakter1($tangkap16)."66.,\n".
+    nomor_karakter1($tangkap16)."66.,\n".
+    nomor_karakter1($tangkap16)."45.,\n".
+    nomor_karakter1($tangkap16)."12345.,\n".
+    nomor_karakter1($tangkap16)."65432.,\n".
+    nomor_karakter1($tangkap16)."7.,\n".
+    nomor_karakter1($tangkap16)."77.,\n".
+    nomor_karakter1($tangkap16)."777.,\n".
+    nomor_karakter1($tangkap16)."7777.,\n".
+    nomor_karakter1($tangkap16)."77777.,\n".
+    nomor_karakter1($tangkap16)."71.,\n".
+    nomor_karakter1($tangkap16)."72.,\n".
+    nomor_karakter1($tangkap16)."73.,\n".
+    nomor_karakter1($tangkap16)."74.,\n".
+    nomor_karakter1($tangkap16)."75.,\n".
+    nomor_karakter1($tangkap16)."711.,\n".
+    nomor_karakter1($tangkap16)."722.,\n".
+    nomor_karakter1($tangkap16)."733.,\n".
+    nomor_karakter1($tangkap16)."74.,\n".
+    nomor_karakter1($tangkap16)."75.,\n".
+    nomor_karakter1($tangkap16)."71.,\n".
+    nomor_karakter1($tangkap16)."72.,\n".
+    nomor_karakter1($tangkap16)."73.,\n".
+    nomor_karakter1($tangkap16)."74.,\n".
+    nomor_karakter1($tangkap16)."75.,\n".
+    nomor_karakter1($tangkap16)."11.,\n".
+    nomor_karakter1($tangkap16)."22.,\n".
+    nomor_karakter1($tangkap16)."33.,\n".
+    nomor_karakter1($tangkap16)."44.,\n".
+    nomor_karakter1($tangkap16)."55.,\n".
+    nomor_karakter1($tangkap16)."77.,\n".
+    nomor_karakter1($tangkap16)."77.,\n".
+    nomor_karakter1($tangkap16)."77.,\n".
+    nomor_karakter1($tangkap16)."77.,\n".
+    nomor_karakter1($tangkap16)."77.,\n".
+    nomor_karakter1($tangkap16)."45.,\n".
+    nomor_karakter1($tangkap16)."1234567.,\n".
+    nomor_karakter1($tangkap16)."8.,\n".
+    nomor_karakter1($tangkap16)."88.,\n".
+    nomor_karakter1($tangkap16)."888.,\n".
+    nomor_karakter1($tangkap16)."8888.,\n".
+    nomor_karakter1($tangkap16)."88888.,\n".
+    nomor_karakter1($tangkap16)."81.,\n".
+    nomor_karakter1($tangkap16)."82.,\n".
+    nomor_karakter1($tangkap16)."83.,\n".
+    nomor_karakter1($tangkap16)."84.,\n".
+    nomor_karakter1($tangkap16)."85.,\n".
+    nomor_karakter1($tangkap16)."811.,\n".
+    nomor_karakter1($tangkap16)."822.,\n".
+    nomor_karakter1($tangkap16)."833.,\n".
+    nomor_karakter1($tangkap16)."844.,\n".
+    nomor_karakter1($tangkap16)."855.,\n".
+    nomor_karakter1($tangkap16)."818.,\n".
+    nomor_karakter1($tangkap16)."828.,\n".
+    nomor_karakter1($tangkap16)."838.,\n".
+    nomor_karakter1($tangkap16)."848.,\n".
+    nomor_karakter1($tangkap16)."858.,\n".
+    nomor_karakter1($tangkap16)."118.,\n".
+    nomor_karakter1($tangkap16)."228.,\n".
+    nomor_karakter1($tangkap16)."338.,\n".
+    nomor_karakter1($tangkap16)."448.,\n".
+    nomor_karakter1($tangkap16)."558.,\n".
+    nomor_karakter1($tangkap16)."881.,\n".
+    nomor_karakter1($tangkap16)."882.,\n".
+    nomor_karakter1($tangkap16)."883.,\n".
+    nomor_karakter1($tangkap16)."884.,\n".
+    nomor_karakter1($tangkap16)."885.,\n".
+    nomor_karakter1($tangkap16)."458.,\n".
+    nomor_karakter1($tangkap16)."12345678.,\n".
+    nomor_karakter1($tangkap16)."87654321.,\n".
+    nomor_karakter1($tangkap16)."9.,\n".
+    nomor_karakter1($tangkap16)."99.,\n".
+    nomor_karakter1($tangkap16)."999.,\n".
+    nomor_karakter1($tangkap16)."9999.,\n".
+    nomor_karakter1($tangkap16)."99999.,\n".
+    nomor_karakter1($tangkap16)."91*\n".
+    nomor_karakter1($tangkap16)."92.,\n".
+    nomor_karakter1($tangkap16)."93.,\n".
+    nomor_karakter1($tangkap16)."94.,\n".
+    nomor_karakter1($tangkap16)."95.,\n".
+    nomor_karakter1($tangkap16)."911.,\n".
+    nomor_karakter1($tangkap16)."922.,\n".
+    nomor_karakter1($tangkap16)."933.,\n".
+    nomor_karakter1($tangkap16)."944.,\n".
+    nomor_karakter1($tangkap16)."955.,\n".
+    nomor_karakter1($tangkap16)."919.,\n".
+    nomor_karakter1($tangkap16)."929.,\n".
+    nomor_karakter1($tangkap16)."939.,\n".
+    nomor_karakter1($tangkap16)."949.,\n".
+    nomor_karakter1($tangkap16)."959.,\n".
+    nomor_karakter1($tangkap16)."119.,\n".
+    nomor_karakter1($tangkap16)."229.,\n".
+    nomor_karakter1($tangkap16)."339.,\n".
+    nomor_karakter1($tangkap16)."449.,\n".
+    nomor_karakter1($tangkap16)."559.,\n".
+    nomor_karakter1($tangkap16)."991.,\n".
+    nomor_karakter1($tangkap16)."992.,\n".
+    nomor_karakter1($tangkap16)."993.,\n".
+    nomor_karakter1($tangkap16)."994.,\n".
+    nomor_karakter1($tangkap16)."995.,\n".
+    nomor_karakter1($tangkap16)."459.,\n".
+    nomor_karakter1($tangkap16)."12345678.,\n".
+    nomor_karakter1($tangkap16)."987654321.,\n".
+    nomor_karakter1($tangkap16)."0.,\n".
+    nomor_karakter1($tangkap16)."00.,\n".
+    nomor_karakter1($tangkap16)."000.,\n".
+    nomor_karakter1($tangkap16)."0000.,\n".
+    nomor_karakter1($tangkap16)."00000.,\n".
+    nomor_karakter1($tangkap16)."01.,\n".
+    nomor_karakter1($tangkap16)."02.,\n".
+    nomor_karakter1($tangkap16)."03.,\n".
+    nomor_karakter1($tangkap16)."04.,\n".
+    nomor_karakter1($tangkap16)."05.,\n".
+    nomor_karakter1($tangkap16)."011.,\n".
+    nomor_karakter1($tangkap16)."022.,\n".
+    nomor_karakter1($tangkap16)."033.,\n".
+    nomor_karakter1($tangkap16)."044.,\n".
+    nomor_karakter1($tangkap16)."055.,\n".
+    nomor_karakter1($tangkap16)."010.,\n".
+    nomor_karakter1($tangkap16)."020.,\n".
+    nomor_karakter1($tangkap16)."030.,\n".
+    nomor_karakter1($tangkap16)."040.,\n".
+    nomor_karakter1($tangkap16)."050.,\n".
+    nomor_karakter1($tangkap16)."110.,\n".
+    nomor_karakter1($tangkap16)."220.,\n".
+    nomor_karakter1($tangkap16)."330.,\n".
+    nomor_karakter1($tangkap16)."440.,\n".
+    nomor_karakter1($tangkap16)."550.,\n".
+    nomor_karakter1($tangkap16)."001.,\n".
+    nomor_karakter1($tangkap16)."002.,\n".
+    nomor_karakter1($tangkap16)."003.,\n".
+    nomor_karakter1($tangkap16)."004.,\n".
+    nomor_karakter1($tangkap16)."005.,\n".
+    nomor_karakter1($tangkap16)."450.,\n".
+    nomor_karakter1($tangkap16)."123456789.,\n".
+
+dongo($tangkap1)."1\n".
+dongo($tangkap1)."11\n".
+dongo($tangkap1)."111\n".
+dongo($tangkap1)."1111\n".
+dongo($tangkap1)."11111\n".
+dongo($tangkap1)."2\n".
+dongo($tangkap1)."22\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."2222\n".
+dongo($tangkap1)."22222\n".
+dongo($tangkap1)."21\n".
+dongo($tangkap1)."22\n".
+dongo($tangkap1)."23\n".
+dongo($tangkap1)."24\n".
+dongo($tangkap1)."25\n".
+dongo($tangkap1)."26\n".
+dongo($tangkap1)."27\n".
+dongo($tangkap1)."28\n".
+dongo($tangkap1)."29\n".
+dongo($tangkap1)."211\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."233\n".
+dongo($tangkap1)."244\n".
+dongo($tangkap1)."255\n".
+dongo($tangkap1)."212\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."232\n".
+dongo($tangkap1)."242\n".
+dongo($tangkap1)."252\n".
+dongo($tangkap1)."112\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."332\n".
+dongo($tangkap1)."442\n".
+dongo($tangkap1)."552\n".
+dongo($tangkap1)."221\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."223\n".
+dongo($tangkap1)."224\n".
+dongo($tangkap1)."225\n".
+dongo($tangkap1)."452\n".
+dongo($tangkap1)."12\n".
+dongo($tangkap1)."21\n".
+dongo($tangkap1)."3\n".
+dongo($tangkap1)."33\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."3333\n".
+dongo($tangkap1)."33333\n".
+dongo($tangkap1)."31\n".
+dongo($tangkap1)."32\n".
+dongo($tangkap1)."33\n".
+dongo($tangkap1)."34\n".
+dongo($tangkap1)."35\n".
+dongo($tangkap1)."311\n".
+dongo($tangkap1)."322\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."344\n".
+dongo($tangkap1)."355\n".
+dongo($tangkap1)."313\n".
+dongo($tangkap1)."323\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."343\n".
+dongo($tangkap1)."353\n".
+dongo($tangkap1)."113\n".
+dongo($tangkap1)."223\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."443\n".
+dongo($tangkap1)."553\n".
+dongo($tangkap1)."331\n".
+dongo($tangkap1)."332\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."334\n".
+dongo($tangkap1)."335\n".
+dongo($tangkap1)."453\n".
+dongo($tangkap1)."123\n".
+dongo($tangkap1)."321\n".
+dongo($tangkap1)."4\n".
+dongo($tangkap1)."44\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."4444\n".
+dongo($tangkap1)."44444\n".
+dongo($tangkap1)."41\n".
+dongo($tangkap1)."42\n".
+dongo($tangkap1)."43\n".
+dongo($tangkap1)."44\n".
+dongo($tangkap1)."45\n".
+dongo($tangkap1)."411\n".
+dongo($tangkap1)."422\n".
+dongo($tangkap1)."433\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."455\n".
+dongo($tangkap1)."414\n".
+dongo($tangkap1)."424\n".
+dongo($tangkap1)."434\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."454\n".
+dongo($tangkap1)."114\n".
+dongo($tangkap1)."224\n".
+dongo($tangkap1)."334\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."441\n".
+dongo($tangkap1)."442\n".
+dongo($tangkap1)."443\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."445\n".
+dongo($tangkap1)."554\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."1234\n".
+dongo($tangkap1)."4321\n".
+dongo($tangkap1)."5\n".
+dongo($tangkap1)."55\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."5555\n".
+dongo($tangkap1)."55555\n".
+dongo($tangkap1)."51\n".
+dongo($tangkap1)."52\n".
+dongo($tangkap1)."53\n".
+dongo($tangkap1)."54\n".
+dongo($tangkap1)."55\n".
+dongo($tangkap1)."511\n".
+dongo($tangkap1)."522\n".
+dongo($tangkap1)."533\n".
+dongo($tangkap1)."544\n".
+dongo($tangkap1)."655\n".
+dongo($tangkap1)."515\n".
+dongo($tangkap1)."525\n".
+dongo($tangkap1)."535\n".
+dongo($tangkap1)."545\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."115\n".
+dongo($tangkap1)."225\n".
+dongo($tangkap1)."335\n".
+dongo($tangkap1)."445\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."551\n".
+dongo($tangkap1)."552\n".
+dongo($tangkap1)."553\n".
+dongo($tangkap1)."554\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."345\n".
+dongo($tangkap1)."12345\n".
+dongo($tangkap1)."54321\n".
+dongo($tangkap1)."6\n".
+dongo($tangkap1)."66\n".
+dongo($tangkap1)."666\n".
+dongo($tangkap1)."6666\n".
+dongo($tangkap1)."66666\n".
+dongo($tangkap1)."61\n".
+dongo($tangkap1)."62\n".
+dongo($tangkap1)."63\n".
+dongo($tangkap1)."64\n".
+dongo($tangkap1)."65\n".
+dongo($tangkap1)."611\n".
+dongo($tangkap1)."622\n".
+dongo($tangkap1)."633\n".
+dongo($tangkap1)."644\n".
+dongo($tangkap1)."655\n".
+dongo($tangkap1)."616\n".
+dongo($tangkap1)."626\n".
+dongo($tangkap1)."636\n".
+dongo($tangkap1)."646\n".
+dongo($tangkap1)."656\n".
+dongo($tangkap1)."116\n".
+dongo($tangkap1)."226\n".
+dongo($tangkap1)."336\n".
+dongo($tangkap1)."446\n".
+dongo($tangkap1)."556\n".
+dongo($tangkap1)."661\n".
+dongo($tangkap1)."662\n".
+dongo($tangkap1)."663\n".
+dongo($tangkap1)."664\n".
+dongo($tangkap1)."665\n".
+dongo($tangkap1)."456\n".
+dongo($tangkap1)."123456\n".
+dongo($tangkap1)."654321\n".
+dongo($tangkap1)."7\n".
+dongo($tangkap1)."77\n".
+dongo($tangkap1)."777\n".
+dongo($tangkap1)."7777\n".
+dongo($tangkap1)."77777\n".
+dongo($tangkap1)."71\n".
+dongo($tangkap1)."72\n".
+dongo($tangkap1)."73\n".
+dongo($tangkap1)."74\n".
+dongo($tangkap1)."75\n".
+dongo($tangkap1)."711\n".
+dongo($tangkap1)."722\n".
+dongo($tangkap1)."733\n".
+dongo($tangkap1)."744\n".
+dongo($tangkap1)."755\n".
+dongo($tangkap1)."717\n".
+dongo($tangkap1)."727\n".
+dongo($tangkap1)."737\n".
+dongo($tangkap1)."747\n".
+dongo($tangkap1)."757\n".
+dongo($tangkap1)."117\n".
+dongo($tangkap1)."227\n".
+dongo($tangkap1)."337\n".
+dongo($tangkap1)."447\n".
+dongo($tangkap1)."557\n".
+dongo($tangkap1)."771\n".
+dongo($tangkap1)."772\n".
+dongo($tangkap1)."773\n".
+dongo($tangkap1)."774\n".
+dongo($tangkap1)."775\n".
+dongo($tangkap1)."457\n".
+dongo($tangkap1)."1234567\n".
+dongo($tangkap1)."7654321\n".
+dongo($tangkap1)."8\n".
+dongo($tangkap1)."88\n".
+dongo($tangkap1)."888\n".
+dongo($tangkap1)."8888\n".
+dongo($tangkap1)."88888\n".
+dongo($tangkap1)."81\n".
+dongo($tangkap1)."82\n".
+dongo($tangkap1)."83\n".
+dongo($tangkap1)."84\n".
+dongo($tangkap1)."85\n".
+dongo($tangkap1)."811\n".
+dongo($tangkap1)."822\n".
+dongo($tangkap1)."833\n".
+dongo($tangkap1)."844\n".
+dongo($tangkap1)."855\n".
+dongo($tangkap1)."818\n".
+dongo($tangkap1)."828\n".
+dongo($tangkap1)."838\n".
+dongo($tangkap1)."848\n".
+dongo($tangkap1)."858\n".
+dongo($tangkap1)."118\n".
+dongo($tangkap1)."228\n".
+dongo($tangkap1)."338\n".
+dongo($tangkap1)."448\n".
+dongo($tangkap1)."558\n".
+dongo($tangkap1)."881\n".
+dongo($tangkap1)."882\n".
+dongo($tangkap1)."883\n".
+dongo($tangkap1)."884\n".
+dongo($tangkap1)."885\n".
+dongo($tangkap1)."458\n".
+dongo($tangkap1)."12345678\n".
+dongo($tangkap1)."87654321\n".
+dongo($tangkap1)."9\n".
+dongo($tangkap1)."99\n".
+dongo($tangkap1)."999\n".
+dongo($tangkap1)."9999\n".
+dongo($tangkap1)."99999\n".
+dongo($tangkap1)."91\n".
+dongo($tangkap1)."92\n".
+dongo($tangkap1)."93\n".
+dongo($tangkap1)."94\n".
+dongo($tangkap1)."95\n".
+dongo($tangkap1)."911\n".
+dongo($tangkap1)."922\n".
+dongo($tangkap1)."933\n".
+dongo($tangkap1)."944\n".
+dongo($tangkap1)."955\n".
+dongo($tangkap1)."919\n".
+dongo($tangkap1)."929\n".
+dongo($tangkap1)."939\n".
+dongo($tangkap1)."949\n".
+dongo($tangkap1)."959\n".
+dongo($tangkap1)."119\n".
+dongo($tangkap1)."229\n".
+dongo($tangkap1)."339\n".
+dongo($tangkap1)."449\n".
+dongo($tangkap1)."559\n".
+dongo($tangkap1)."991\n".
+dongo($tangkap1)."992\n".
+dongo($tangkap1)."993\n".
+dongo($tangkap1)."994\n".
+dongo($tangkap1)."995\n".
+dongo($tangkap1)."459\n".
+dongo($tangkap1)."12345678\n".
+dongo($tangkap1)."987654321\n".
+dongo($tangkap1)."0\n".
+dongo($tangkap1)."00\n".
+dongo($tangkap1)."000\n".
+dongo($tangkap1)."0000\n".
+dongo($tangkap1)."00000\n".
+dongo($tangkap1)."01\n".
+dongo($tangkap1)."02\n".
+dongo($tangkap1)."03\n".
+dongo($tangkap1)."04\n".
+dongo($tangkap1)."05\n".
+dongo($tangkap1)."011\n".
+dongo($tangkap1)."022\n".
+dongo($tangkap1)."033\n".
+dongo($tangkap1)."044\n".
+dongo($tangkap1)."055\n".
+dongo($tangkap1)."010\n".
+dongo($tangkap1)."020\n".
+dongo($tangkap1)."030\n".
+dongo($tangkap1)."040\n".
+dongo($tangkap1)."050\n".
+dongo($tangkap1)."110\n".
+dongo($tangkap1)."220\n".
+dongo($tangkap1)."330\n".
+dongo($tangkap1)."440\n".
+dongo($tangkap1)."550\n".
+dongo($tangkap1)."001\n".
+dongo($tangkap1)."002\n".
+dongo($tangkap1)."003\n".
+dongo($tangkap1)."004\n".
+dongo($tangkap1)."005\n".
+dongo($tangkap1)."450\n".
+dongo($tangkap1)."1234567890\n".
+dongo($tangkap2)."1\n".
+dongo($tangkap2)."11\n".
+dongo($tangkap2)."111\n".
+dongo($tangkap2)."1111\n".
+dongo($tangkap2)."11111\n".
+dongo($tangkap2)."2\n".
+dongo($tangkap2)."22\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."2222\n".
+dongo($tangkap2)."22222\n".
+dongo($tangkap2)."21\n".
+dongo($tangkap2)."22\n".
+dongo($tangkap2)."23\n".
+dongo($tangkap2)."24\n".
+dongo($tangkap2)."25\n".
+dongo($tangkap2)."26\n".
+dongo($tangkap2)."27\n".
+dongo($tangkap2)."28\n".
+dongo($tangkap2)."29\n".
+dongo($tangkap2)."211\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."233\n".
+dongo($tangkap2)."244\n".
+dongo($tangkap2)."255\n".
+dongo($tangkap2)."212\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."232\n".
+dongo($tangkap2)."242\n".
+dongo($tangkap2)."252\n".
+dongo($tangkap2)."112\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."332\n".
+dongo($tangkap2)."442\n".
+dongo($tangkap2)."552\n".
+dongo($tangkap2)."221\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."223\n".
+dongo($tangkap2)."224\n".
+dongo($tangkap2)."225\n".
+dongo($tangkap2)."452\n".
+dongo($tangkap2)."12\n".
+dongo($tangkap2)."21\n".
+dongo($tangkap2)."3\n".
+dongo($tangkap2)."33\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."3333\n".
+dongo($tangkap2)."33333\n".
+dongo($tangkap2)."31\n".
+dongo($tangkap2)."32\n".
+dongo($tangkap2)."33\n".
+dongo($tangkap2)."34\n".
+dongo($tangkap2)."35\n".
+dongo($tangkap2)."311\n".
+dongo($tangkap2)."322\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."344\n".
+dongo($tangkap2)."355\n".
+dongo($tangkap2)."313\n".
+dongo($tangkap2)."323\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."343\n".
+dongo($tangkap2)."353\n".
+dongo($tangkap2)."113\n".
+dongo($tangkap2)."223\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."443\n".
+dongo($tangkap2)."553\n".
+dongo($tangkap2)."331\n".
+dongo($tangkap2)."332\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."334\n".
+dongo($tangkap2)."335\n".
+dongo($tangkap2)."453\n".
+dongo($tangkap2)."123\n".
+dongo($tangkap2)."321\n".
+dongo($tangkap2)."4\n".
+dongo($tangkap2)."44\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."4444\n".
+dongo($tangkap2)."44444\n".
+dongo($tangkap2)."41\n".
+dongo($tangkap2)."42\n".
+dongo($tangkap2)."43\n".
+dongo($tangkap2)."44\n".
+dongo($tangkap2)."45\n".
+dongo($tangkap2)."411\n".
+dongo($tangkap2)."422\n".
+dongo($tangkap2)."433\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."455\n".
+dongo($tangkap2)."414\n".
+dongo($tangkap2)."424\n".
+dongo($tangkap2)."434\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."454\n".
+dongo($tangkap2)."114\n".
+dongo($tangkap2)."224\n".
+dongo($tangkap2)."334\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."441\n".
+dongo($tangkap2)."442\n".
+dongo($tangkap2)."443\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."445\n".
+dongo($tangkap2)."554\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."1234\n".
+dongo($tangkap2)."4321\n".
+dongo($tangkap2)."5\n".
+dongo($tangkap2)."55\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."5555\n".
+dongo($tangkap2)."55555\n".
+dongo($tangkap2)."51\n".
+dongo($tangkap2)."52\n".
+dongo($tangkap2)."53\n".
+dongo($tangkap2)."54\n".
+dongo($tangkap2)."55\n".
+dongo($tangkap2)."511\n".
+dongo($tangkap2)."522\n".
+dongo($tangkap2)."533\n".
+dongo($tangkap2)."544\n".
+dongo($tangkap2)."655\n".
+dongo($tangkap2)."515\n".
+dongo($tangkap2)."525\n".
+dongo($tangkap2)."535\n".
+dongo($tangkap2)."545\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."115\n".
+dongo($tangkap2)."225\n".
+dongo($tangkap2)."335\n".
+dongo($tangkap2)."445\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."551\n".
+dongo($tangkap2)."552\n".
+dongo($tangkap2)."553\n".
+dongo($tangkap2)."554\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."345\n".
+dongo($tangkap2)."12345\n".
+dongo($tangkap2)."54321\n".
+dongo($tangkap2)."6\n".
+dongo($tangkap2)."66\n".
+dongo($tangkap2)."666\n".
+dongo($tangkap2)."6666\n".
+dongo($tangkap2)."66666\n".
+dongo($tangkap2)."61\n".
+dongo($tangkap2)."62\n".
+dongo($tangkap2)."63\n".
+dongo($tangkap2)."64\n".
+dongo($tangkap2)."65\n".
+dongo($tangkap2)."611\n".
+dongo($tangkap2)."622\n".
+dongo($tangkap2)."633\n".
+dongo($tangkap2)."644\n".
+dongo($tangkap2)."655\n".
+dongo($tangkap2)."616\n".
+dongo($tangkap2)."626\n".
+dongo($tangkap2)."636\n".
+dongo($tangkap2)."646\n".
+dongo($tangkap2)."656\n".
+dongo($tangkap2)."116\n".
+dongo($tangkap2)."226\n".
+dongo($tangkap2)."336\n".
+dongo($tangkap2)."446\n".
+dongo($tangkap2)."556\n".
+dongo($tangkap2)."661\n".
+dongo($tangkap2)."662\n".
+dongo($tangkap2)."663\n".
+dongo($tangkap2)."664\n".
+dongo($tangkap2)."665\n".
+dongo($tangkap2)."456\n".
+dongo($tangkap2)."123456\n".
+dongo($tangkap2)."654321\n".
+dongo($tangkap2)."7\n".
+dongo($tangkap2)."77\n".
+dongo($tangkap2)."777\n".
+dongo($tangkap2)."7777\n".
+dongo($tangkap2)."77777\n".
+dongo($tangkap2)."71\n".
+dongo($tangkap2)."72\n".
+dongo($tangkap2)."73\n".
+dongo($tangkap2)."74\n".
+dongo($tangkap2)."75\n".
+dongo($tangkap2)."711\n".
+dongo($tangkap2)."722\n".
+dongo($tangkap2)."733\n".
+dongo($tangkap2)."744\n".
+dongo($tangkap2)."755\n".
+dongo($tangkap2)."717\n".
+dongo($tangkap2)."727\n".
+dongo($tangkap2)."737\n".
+dongo($tangkap2)."747\n".
+dongo($tangkap2)."757\n".
+dongo($tangkap2)."117\n".
+dongo($tangkap2)."227\n".
+dongo($tangkap2)."337\n".
+dongo($tangkap2)."447\n".
+dongo($tangkap2)."557\n".
+dongo($tangkap2)."771\n".
+dongo($tangkap2)."772\n".
+dongo($tangkap2)."773\n".
+dongo($tangkap2)."774\n".
+dongo($tangkap2)."775\n".
+dongo($tangkap2)."457\n".
+dongo($tangkap2)."1234567\n".
+dongo($tangkap2)."7654321\n".
+dongo($tangkap2)."8\n".
+dongo($tangkap2)."88\n".
+dongo($tangkap2)."888\n".
+dongo($tangkap2)."8888\n".
+dongo($tangkap2)."88888\n".
+dongo($tangkap2)."81\n".
+dongo($tangkap2)."82\n".
+dongo($tangkap2)."83\n".
+dongo($tangkap2)."84\n".
+dongo($tangkap2)."85\n".
+dongo($tangkap2)."811\n".
+dongo($tangkap2)."822\n".
+dongo($tangkap2)."833\n".
+dongo($tangkap2)."844\n".
+dongo($tangkap2)."855\n".
+dongo($tangkap2)."818\n".
+dongo($tangkap2)."828\n".
+dongo($tangkap2)."838\n".
+dongo($tangkap2)."848\n".
+dongo($tangkap2)."858\n".
+dongo($tangkap2)."118\n".
+dongo($tangkap2)."228\n".
+dongo($tangkap2)."338\n".
+dongo($tangkap2)."448\n".
+dongo($tangkap2)."558\n".
+dongo($tangkap2)."881\n".
+dongo($tangkap2)."882\n".
+dongo($tangkap2)."883\n".
+dongo($tangkap2)."884\n".
+dongo($tangkap2)."885\n".
+dongo($tangkap2)."458\n".
+dongo($tangkap2)."12345678\n".
+dongo($tangkap2)."87654321\n".
+dongo($tangkap2)."9\n".
+dongo($tangkap2)."99\n".
+dongo($tangkap2)."999\n".
+dongo($tangkap2)."9999\n".
+dongo($tangkap2)."99999\n".
+dongo($tangkap2)."91\n".
+dongo($tangkap2)."92\n".
+dongo($tangkap2)."93\n".
+dongo($tangkap2)."94\n".
+dongo($tangkap2)."95\n".
+dongo($tangkap2)."911\n".
+dongo($tangkap2)."922\n".
+dongo($tangkap2)."933\n".
+dongo($tangkap2)."944\n".
+dongo($tangkap2)."955\n".
+dongo($tangkap2)."919\n".
+dongo($tangkap2)."929\n".
+dongo($tangkap2)."939\n".
+dongo($tangkap2)."949\n".
+dongo($tangkap2)."959\n".
+dongo($tangkap2)."119\n".
+dongo($tangkap2)."229\n".
+dongo($tangkap2)."339\n".
+dongo($tangkap2)."449\n".
+dongo($tangkap2)."559\n".
+dongo($tangkap2)."991\n".
+dongo($tangkap2)."992\n".
+dongo($tangkap2)."993\n".
+dongo($tangkap2)."994\n".
+dongo($tangkap2)."995\n".
+dongo($tangkap2)."459\n".
+dongo($tangkap2)."12345678\n".
+dongo($tangkap2)."987654321\n".
+dongo($tangkap2)."0\n".
+dongo($tangkap2)."00\n".
+dongo($tangkap2)."000\n".
+dongo($tangkap2)."0000\n".
+dongo($tangkap2)."00000\n".
+dongo($tangkap2)."01\n".
+dongo($tangkap2)."02\n".
+dongo($tangkap2)."03\n".
+dongo($tangkap2)."04\n".
+dongo($tangkap2)."05\n".
+dongo($tangkap2)."011\n".
+dongo($tangkap2)."022\n".
+dongo($tangkap2)."033\n".
+dongo($tangkap2)."044\n".
+dongo($tangkap2)."055\n".
+dongo($tangkap2)."010\n".
+dongo($tangkap2)."020\n".
+dongo($tangkap2)."030\n".
+dongo($tangkap2)."040\n".
+dongo($tangkap2)."050\n".
+dongo($tangkap2)."110\n".
+dongo($tangkap2)."220\n".
+dongo($tangkap2)."330\n".
+dongo($tangkap2)."440\n".
+dongo($tangkap2)."550\n".
+dongo($tangkap2)."001\n".
+dongo($tangkap2)."002\n".
+dongo($tangkap2)."003\n".
+dongo($tangkap2)."004\n".
+dongo($tangkap2)."005\n".
+dongo($tangkap2)."450\n".
+dongo($tangkap2)."12345678\n".
+dongo($tangkap3)."1\n".
+dongo($tangkap3)."11\n".
+dongo($tangkap3)."111\n".
+dongo($tangkap3)."1111\n".
+dongo($tangkap3)."11111\n".
+dongo($tangkap3)."2\n".
+dongo($tangkap3)."22\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."2222\n".
+dongo($tangkap3)."22222\n".
+dongo($tangkap3)."21\n".
+dongo($tangkap3)."22\n".
+dongo($tangkap3)."23\n".
+dongo($tangkap3)."24\n".
+dongo($tangkap3)."25\n".
+dongo($tangkap3)."26\n".
+dongo($tangkap3)."27\n".
+dongo($tangkap3)."28\n".
+dongo($tangkap3)."29\n".
+dongo($tangkap3)."211\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."233\n".
+dongo($tangkap3)."244\n".
+dongo($tangkap3)."255\n".
+dongo($tangkap3)."212\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."232\n".
+dongo($tangkap3)."242\n".
+dongo($tangkap3)."252\n".
+dongo($tangkap3)."112\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."332\n".
+dongo($tangkap3)."442\n".
+dongo($tangkap3)."552\n".
+dongo($tangkap3)."221\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."223\n".
+dongo($tangkap3)."224\n".
+dongo($tangkap3)."225\n".
+dongo($tangkap3)."452\n".
+dongo($tangkap3)."12\n".
+dongo($tangkap3)."21\n".
+dongo($tangkap3)."3\n".
+dongo($tangkap3)."33\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."3333\n".
+dongo($tangkap3)."33333\n".
+dongo($tangkap3)."31\n".
+dongo($tangkap3)."32\n".
+dongo($tangkap3)."33\n".
+dongo($tangkap3)."34\n".
+dongo($tangkap3)."35\n".
+dongo($tangkap3)."311\n".
+dongo($tangkap3)."322\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."344\n".
+dongo($tangkap3)."355\n".
+dongo($tangkap3)."313\n".
+dongo($tangkap3)."323\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."343\n".
+dongo($tangkap3)."353\n".
+dongo($tangkap3)."113\n".
+dongo($tangkap3)."223\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."443\n".
+dongo($tangkap3)."553\n".
+dongo($tangkap3)."331\n".
+dongo($tangkap3)."332\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."334\n".
+dongo($tangkap3)."335\n".
+dongo($tangkap3)."453\n".
+dongo($tangkap3)."123\n".
+dongo($tangkap3)."321\n".
+dongo($tangkap3)."4\n".
+dongo($tangkap3)."44\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."4444\n".
+dongo($tangkap3)."44444\n".
+dongo($tangkap3)."41\n".
+dongo($tangkap3)."42\n".
+dongo($tangkap3)."43\n".
+dongo($tangkap3)."44\n".
+dongo($tangkap3)."45\n".
+dongo($tangkap3)."411\n".
+dongo($tangkap3)."422\n".
+dongo($tangkap3)."433\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."455\n".
+dongo($tangkap3)."414\n".
+dongo($tangkap3)."424\n".
+dongo($tangkap3)."434\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."454\n".
+dongo($tangkap3)."114\n".
+dongo($tangkap3)."224\n".
+dongo($tangkap3)."334\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."441\n".
+dongo($tangkap3)."442\n".
+dongo($tangkap3)."443\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."445\n".
+dongo($tangkap3)."554\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."1234\n".
+dongo($tangkap3)."4321\n".
+dongo($tangkap3)."5\n".
+dongo($tangkap3)."55\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."5555\n".
+dongo($tangkap3)."55555\n".
+dongo($tangkap3)."51\n".
+dongo($tangkap3)."52\n".
+dongo($tangkap3)."53\n".
+dongo($tangkap3)."54\n".
+dongo($tangkap3)."55\n".
+dongo($tangkap3)."511\n".
+dongo($tangkap3)."522\n".
+dongo($tangkap3)."533\n".
+dongo($tangkap3)."544\n".
+dongo($tangkap3)."655\n".
+dongo($tangkap3)."515\n".
+dongo($tangkap3)."525\n".
+dongo($tangkap3)."535\n".
+dongo($tangkap3)."545\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."115\n".
+dongo($tangkap3)."225\n".
+dongo($tangkap3)."335\n".
+dongo($tangkap3)."445\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."551\n".
+dongo($tangkap3)."552\n".
+dongo($tangkap3)."553\n".
+dongo($tangkap3)."554\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."345\n".
+dongo($tangkap3)."12345\n".
+dongo($tangkap3)."54321\n".
+dongo($tangkap3)."6\n".
+dongo($tangkap3)."66\n".
+dongo($tangkap3)."666\n".
+dongo($tangkap3)."6666\n".
+dongo($tangkap3)."66666\n".
+dongo($tangkap3)."61\n".
+dongo($tangkap3)."62\n".
+dongo($tangkap3)."63\n".
+dongo($tangkap3)."64\n".
+dongo($tangkap3)."65\n".
+dongo($tangkap3)."611\n".
+dongo($tangkap3)."622\n".
+dongo($tangkap3)."633\n".
+dongo($tangkap3)."644\n".
+dongo($tangkap3)."655\n".
+dongo($tangkap3)."616\n".
+dongo($tangkap3)."626\n".
+dongo($tangkap3)."636\n".
+dongo($tangkap3)."646\n".
+dongo($tangkap3)."656\n".
+dongo($tangkap3)."116\n".
+dongo($tangkap3)."226\n".
+dongo($tangkap3)."336\n".
+dongo($tangkap3)."446\n".
+dongo($tangkap3)."556\n".
+dongo($tangkap3)."661\n".
+dongo($tangkap3)."662\n".
+dongo($tangkap3)."663\n".
+dongo($tangkap3)."664\n".
+dongo($tangkap3)."665\n".
+dongo($tangkap3)."456\n".
+dongo($tangkap3)."123456\n".
+dongo($tangkap3)."654321\n".
+dongo($tangkap3)."7\n".
+dongo($tangkap3)."77\n".
+dongo($tangkap3)."777\n".
+dongo($tangkap3)."7777\n".
+dongo($tangkap3)."77777\n".
+dongo($tangkap3)."71\n".
+dongo($tangkap3)."72\n".
+dongo($tangkap3)."73\n".
+dongo($tangkap3)."74\n".
+dongo($tangkap3)."75\n".
+dongo($tangkap3)."711\n".
+dongo($tangkap3)."722\n".
+dongo($tangkap3)."733\n".
+dongo($tangkap3)."744\n".
+dongo($tangkap3)."755\n".
+dongo($tangkap3)."717\n".
+dongo($tangkap3)."727\n".
+dongo($tangkap3)."737\n".
+dongo($tangkap3)."747\n".
+dongo($tangkap3)."757\n".
+dongo($tangkap3)."117\n".
+dongo($tangkap3)."227\n".
+dongo($tangkap3)."337\n".
+dongo($tangkap3)."447\n".
+dongo($tangkap3)."557\n".
+dongo($tangkap3)."771\n".
+dongo($tangkap3)."772\n".
+dongo($tangkap3)."773\n".
+dongo($tangkap3)."774\n".
+dongo($tangkap3)."775\n".
+dongo($tangkap3)."457\n".
+dongo($tangkap3)."1234567\n".
+dongo($tangkap3)."7654321\n".
+dongo($tangkap3)."8\n".
+dongo($tangkap3)."88\n".
+dongo($tangkap3)."888\n".
+dongo($tangkap3)."8888\n".
+dongo($tangkap3)."88888\n".
+dongo($tangkap3)."81\n".
+dongo($tangkap3)."82\n".
+dongo($tangkap3)."83\n".
+dongo($tangkap3)."84\n".
+dongo($tangkap3)."85\n".
+dongo($tangkap3)."811\n".
+dongo($tangkap3)."822\n".
+dongo($tangkap3)."833\n".
+dongo($tangkap3)."844\n".
+dongo($tangkap3)."855\n".
+dongo($tangkap3)."818\n".
+dongo($tangkap3)."828\n".
+dongo($tangkap3)."838\n".
+dongo($tangkap3)."848\n".
+dongo($tangkap3)."858\n".
+dongo($tangkap3)."118\n".
+dongo($tangkap3)."228\n".
+dongo($tangkap3)."338\n".
+dongo($tangkap3)."448\n".
+dongo($tangkap3)."558\n".
+dongo($tangkap3)."881\n".
+dongo($tangkap3)."882\n".
+dongo($tangkap3)."883\n".
+dongo($tangkap3)."884\n".
+dongo($tangkap3)."885\n".
+dongo($tangkap3)."458\n".
+dongo($tangkap3)."12345678\n".
+dongo($tangkap3)."87654321\n".
+dongo($tangkap3)."9\n".
+dongo($tangkap3)."99\n".
+dongo($tangkap3)."999\n".
+dongo($tangkap3)."9999\n".
+dongo($tangkap3)."99999\n".
+dongo($tangkap3)."91\n".
+dongo($tangkap3)."92\n".
+dongo($tangkap3)."93\n".
+dongo($tangkap3)."94\n".
+dongo($tangkap3)."95\n".
+dongo($tangkap3)."911\n".
+dongo($tangkap3)."922\n".
+dongo($tangkap3)."933\n".
+dongo($tangkap3)."944\n".
+dongo($tangkap3)."955\n".
+dongo($tangkap3)."919\n".
+dongo($tangkap3)."929\n".
+dongo($tangkap3)."939\n".
+dongo($tangkap3)."949\n".
+dongo($tangkap3)."959\n".
+dongo($tangkap3)."119\n".
+dongo($tangkap3)."229\n".
+dongo($tangkap3)."339\n".
+dongo($tangkap3)."449\n".
+dongo($tangkap3)."559\n".
+dongo($tangkap3)."991\n".
+dongo($tangkap3)."992\n".
+dongo($tangkap3)."993\n".
+dongo($tangkap3)."994\n".
+dongo($tangkap3)."995\n".
+dongo($tangkap3)."459\n".
+dongo($tangkap3)."12345678\n".
+dongo($tangkap3)."987654321\n".
+dongo($tangkap3)."0\n".
+dongo($tangkap3)."00\n".
+dongo($tangkap3)."000\n".
+dongo($tangkap3)."0000\n".
+dongo($tangkap3)."00000\n".
+dongo($tangkap3)."01\n".
+dongo($tangkap3)."02\n".
+dongo($tangkap3)."03\n".
+dongo($tangkap3)."04\n".
+dongo($tangkap3)."05\n".
+dongo($tangkap3)."011\n".
+dongo($tangkap3)."022\n".
+dongo($tangkap3)."033\n".
+dongo($tangkap3)."044\n".
+dongo($tangkap3)."055\n".
+dongo($tangkap3)."010\n".
+dongo($tangkap3)."020\n".
+dongo($tangkap3)."030\n".
+dongo($tangkap3)."040\n".
+dongo($tangkap3)."050\n".
+dongo($tangkap3)."110\n".
+dongo($tangkap3)."220\n".
+dongo($tangkap3)."330\n".
+dongo($tangkap3)."440\n".
+dongo($tangkap3)."550\n".
+dongo($tangkap3)."001\n".
+dongo($tangkap3)."002\n".
+dongo($tangkap3)."003\n".
+dongo($tangkap3)."004\n".
+dongo($tangkap3)."005\n".
+dongo($tangkap3)."450\n".
+dongo($tangkap3)."1234567890\n".
+dongo($tangkap13)."1\n".
+dongo($tangkap13)."11\n".
+dongo($tangkap13)."111\n".
+dongo($tangkap13)."1111\n".
+dongo($tangkap13)."11111\n".
+dongo($tangkap13)."2\n".
+dongo($tangkap13)."22\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."2222\n".
+dongo($tangkap13)."22222\n".
+dongo($tangkap13)."21\n".
+dongo($tangkap13)."22\n".
+dongo($tangkap13)."23\n".
+dongo($tangkap13)."24\n".
+dongo($tangkap13)."25\n".
+dongo($tangkap13)."26\n".
+dongo($tangkap13)."27\n".
+dongo($tangkap13)."28\n".
+dongo($tangkap13)."29\n".
+dongo($tangkap13)."211\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."233\n".
+dongo($tangkap13)."244\n".
+dongo($tangkap13)."255\n".
+dongo($tangkap13)."212\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."232\n".
+dongo($tangkap13)."242\n".
+dongo($tangkap13)."252\n".
+dongo($tangkap13)."112\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."332\n".
+dongo($tangkap13)."442\n".
+dongo($tangkap13)."552\n".
+dongo($tangkap13)."221\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."223\n".
+dongo($tangkap13)."224\n".
+dongo($tangkap13)."225\n".
+dongo($tangkap13)."452\n".
+dongo($tangkap13)."12\n".
+dongo($tangkap13)."21\n".
+dongo($tangkap13)."3\n".
+dongo($tangkap13)."33\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."3333\n".
+dongo($tangkap13)."33333\n".
+dongo($tangkap13)."31\n".
+dongo($tangkap13)."32\n".
+dongo($tangkap13)."33\n".
+dongo($tangkap13)."34\n".
+dongo($tangkap13)."35\n".
+dongo($tangkap13)."311\n".
+dongo($tangkap13)."322\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."344\n".
+dongo($tangkap13)."355\n".
+dongo($tangkap13)."313\n".
+dongo($tangkap13)."323\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."343\n".
+dongo($tangkap13)."353\n".
+dongo($tangkap13)."113\n".
+dongo($tangkap13)."223\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."443\n".
+dongo($tangkap13)."553\n".
+dongo($tangkap13)."331\n".
+dongo($tangkap13)."332\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."334\n".
+dongo($tangkap13)."335\n".
+dongo($tangkap13)."453\n".
+dongo($tangkap13)."123\n".
+dongo($tangkap13)."321\n".
+dongo($tangkap13)."4\n".
+dongo($tangkap13)."44\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."4444\n".
+dongo($tangkap13)."44444\n".
+dongo($tangkap13)."41\n".
+dongo($tangkap13)."42\n".
+dongo($tangkap13)."43\n".
+dongo($tangkap13)."44\n".
+dongo($tangkap13)."45\n".
+dongo($tangkap13)."411\n".
+dongo($tangkap13)."422\n".
+dongo($tangkap13)."433\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."455\n".
+dongo($tangkap13)."414\n".
+dongo($tangkap13)."424\n".
+dongo($tangkap13)."434\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."454\n".
+dongo($tangkap13)."114\n".
+dongo($tangkap13)."224\n".
+dongo($tangkap13)."334\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."441\n".
+dongo($tangkap13)."442\n".
+dongo($tangkap13)."443\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."445\n".
+dongo($tangkap13)."554\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."1234\n".
+dongo($tangkap13)."4321\n".
+dongo($tangkap13)."5\n".
+dongo($tangkap13)."55\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."5555\n".
+dongo($tangkap13)."55555\n".
+dongo($tangkap13)."51\n".
+dongo($tangkap13)."52\n".
+dongo($tangkap13)."53\n".
+dongo($tangkap13)."54\n".
+dongo($tangkap13)."55\n".
+dongo($tangkap13)."511\n".
+dongo($tangkap13)."522\n".
+dongo($tangkap13)."533\n".
+dongo($tangkap13)."544\n".
+dongo($tangkap13)."655\n".
+dongo($tangkap13)."515\n".
+dongo($tangkap13)."525\n".
+dongo($tangkap13)."535\n".
+dongo($tangkap13)."545\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."115\n".
+dongo($tangkap13)."225\n".
+dongo($tangkap13)."335\n".
+dongo($tangkap13)."445\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."551\n".
+dongo($tangkap13)."552\n".
+dongo($tangkap13)."553\n".
+dongo($tangkap13)."554\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."345\n".
+dongo($tangkap13)."12345\n".
+dongo($tangkap13)."54321\n".
+dongo($tangkap13)."6\n".
+dongo($tangkap13)."66\n".
+dongo($tangkap13)."666\n".
+dongo($tangkap13)."6666\n".
+dongo($tangkap13)."66666\n".
+dongo($tangkap13)."61\n".
+dongo($tangkap13)."62\n".
+dongo($tangkap13)."63\n".
+dongo($tangkap13)."64\n".
+dongo($tangkap13)."65\n".
+dongo($tangkap13)."611\n".
+dongo($tangkap13)."622\n".
+dongo($tangkap13)."633\n".
+dongo($tangkap13)."644\n".
+dongo($tangkap13)."655\n".
+dongo($tangkap13)."616\n".
+dongo($tangkap13)."626\n".
+dongo($tangkap13)."636\n".
+dongo($tangkap13)."646\n".
+dongo($tangkap13)."656\n".
+dongo($tangkap13)."116\n".
+dongo($tangkap13)."226\n".
+dongo($tangkap13)."336\n".
+dongo($tangkap13)."446\n".
+dongo($tangkap13)."556\n".
+dongo($tangkap13)."661\n".
+dongo($tangkap13)."662\n".
+dongo($tangkap13)."663\n".
+dongo($tangkap13)."664\n".
+dongo($tangkap13)."665\n".
+dongo($tangkap13)."456\n".
+dongo($tangkap13)."123456\n".
+dongo($tangkap13)."654321\n".
+dongo($tangkap13)."7\n".
+dongo($tangkap13)."77\n".
+dongo($tangkap13)."777\n".
+dongo($tangkap13)."7777\n".
+dongo($tangkap13)."77777\n".
+dongo($tangkap13)."71\n".
+dongo($tangkap13)."72\n".
+dongo($tangkap13)."73\n".
+dongo($tangkap13)."74\n".
+dongo($tangkap13)."75\n".
+dongo($tangkap13)."711\n".
+dongo($tangkap13)."722\n".
+dongo($tangkap13)."733\n".
+dongo($tangkap13)."744\n".
+dongo($tangkap13)."755\n".
+dongo($tangkap13)."717\n".
+dongo($tangkap13)."727\n".
+dongo($tangkap13)."737\n".
+dongo($tangkap13)."747\n".
+dongo($tangkap13)."757\n".
+dongo($tangkap13)."117\n".
+dongo($tangkap13)."227\n".
+dongo($tangkap13)."337\n".
+dongo($tangkap13)."447\n".
+dongo($tangkap13)."557\n".
+dongo($tangkap13)."771\n".
+dongo($tangkap13)."772\n".
+dongo($tangkap13)."773\n".
+dongo($tangkap13)."774\n".
+dongo($tangkap13)."775\n".
+dongo($tangkap13)."457\n".
+dongo($tangkap13)."1234567\n".
+dongo($tangkap13)."7654321\n".
+dongo($tangkap13)."8\n".
+dongo($tangkap13)."88\n".
+dongo($tangkap13)."888\n".
+dongo($tangkap13)."8888\n".
+dongo($tangkap13)."88888\n".
+dongo($tangkap13)."81\n".
+dongo($tangkap13)."82\n".
+dongo($tangkap13)."83\n".
+dongo($tangkap13)."84\n".
+dongo($tangkap13)."85\n".
+dongo($tangkap13)."811\n".
+dongo($tangkap13)."822\n".
+dongo($tangkap13)."833\n".
+dongo($tangkap13)."844\n".
+dongo($tangkap13)."855\n".
+dongo($tangkap13)."818\n".
+dongo($tangkap13)."828\n".
+dongo($tangkap13)."838\n".
+dongo($tangkap13)."848\n".
+dongo($tangkap13)."858\n".
+dongo($tangkap13)."118\n".
+dongo($tangkap13)."228\n".
+dongo($tangkap13)."338\n".
+dongo($tangkap13)."448\n".
+dongo($tangkap13)."558\n".
+dongo($tangkap13)."881\n".
+dongo($tangkap13)."882\n".
+dongo($tangkap13)."883\n".
+dongo($tangkap13)."884\n".
+dongo($tangkap13)."885\n".
+dongo($tangkap13)."458\n".
+dongo($tangkap13)."12345678\n".
+dongo($tangkap13)."87654321\n".
+dongo($tangkap13)."9\n".
+dongo($tangkap13)."99\n".
+dongo($tangkap13)."999\n".
+dongo($tangkap13)."9999\n".
+dongo($tangkap13)."99999\n".
+dongo($tangkap13)."91\n".
+dongo($tangkap13)."92\n".
+dongo($tangkap13)."93\n".
+dongo($tangkap13)."94\n".
+dongo($tangkap13)."95\n".
+dongo($tangkap13)."911\n".
+dongo($tangkap13)."922\n".
+dongo($tangkap13)."933\n".
+dongo($tangkap13)."944\n".
+dongo($tangkap13)."955\n".
+dongo($tangkap13)."919\n".
+dongo($tangkap13)."929\n".
+dongo($tangkap13)."939\n".
+dongo($tangkap13)."949\n".
+dongo($tangkap13)."959\n".
+dongo($tangkap13)."119\n".
+dongo($tangkap13)."229\n".
+dongo($tangkap13)."339\n".
+dongo($tangkap13)."449\n".
+dongo($tangkap13)."559\n".
+dongo($tangkap13)."991\n".
+dongo($tangkap13)."992\n".
+dongo($tangkap13)."993\n".
+dongo($tangkap13)."994\n".
+dongo($tangkap13)."995\n".
+dongo($tangkap13)."459\n".
+dongo($tangkap13)."12345678\n".
+dongo($tangkap13)."987654321\n".
+dongo($tangkap13)."0\n".
+dongo($tangkap13)."00\n".
+dongo($tangkap13)."000\n".
+dongo($tangkap13)."0000\n".
+dongo($tangkap13)."00000\n".
+dongo($tangkap13)."01\n".
+dongo($tangkap13)."02\n".
+dongo($tangkap13)."03\n".
+dongo($tangkap13)."04\n".
+dongo($tangkap13)."05\n".
+dongo($tangkap13)."011\n".
+dongo($tangkap13)."022\n".
+dongo($tangkap13)."033\n".
+dongo($tangkap13)."044\n".
+dongo($tangkap13)."055\n".
+dongo($tangkap13)."010\n".
+dongo($tangkap13)."020\n".
+dongo($tangkap13)."030\n".
+dongo($tangkap13)."040\n".
+dongo($tangkap13)."050\n".
+dongo($tangkap13)."110\n".
+dongo($tangkap13)."220\n".
+dongo($tangkap13)."330\n".
+dongo($tangkap13)."440\n".
+dongo($tangkap13)."550\n".
+dongo($tangkap13)."001\n".
+dongo($tangkap13)."002\n".
+dongo($tangkap13)."003\n".
+dongo($tangkap13)."004\n".
+dongo($tangkap13)."005\n".
+dongo($tangkap13)."450\n".
+dongo($tangkap13)."1234567890\n".
+dongo($tangkap9)."1\n".
+dongo($tangkap9)."11\n".
+dongo($tangkap9)."111\n".
+dongo($tangkap9)."1111\n".
+dongo($tangkap9)."11111\n".
+dongo($tangkap9)."2\n".
+dongo($tangkap9)."22\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."2222\n".
+dongo($tangkap9)."22222\n".
+dongo($tangkap9)."21\n".
+dongo($tangkap9)."22\n".
+dongo($tangkap9)."23\n".
+dongo($tangkap9)."24\n".
+dongo($tangkap9)."25\n".
+dongo($tangkap9)."26\n".
+dongo($tangkap9)."27\n".
+dongo($tangkap9)."28\n".
+dongo($tangkap9)."29\n".
+dongo($tangkap9)."211\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."233\n".
+dongo($tangkap9)."244\n".
+dongo($tangkap9)."255\n".
+dongo($tangkap9)."212\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."232\n".
+dongo($tangkap9)."242\n".
+dongo($tangkap9)."252\n".
+dongo($tangkap9)."112\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."332\n".
+dongo($tangkap9)."442\n".
+dongo($tangkap9)."552\n".
+dongo($tangkap9)."221\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."223\n".
+dongo($tangkap9)."224\n".
+dongo($tangkap9)."225\n".
+dongo($tangkap9)."452\n".
+dongo($tangkap9)."12\n".
+dongo($tangkap9)."21\n".
+dongo($tangkap9)."3\n".
+dongo($tangkap9)."33\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."3333\n".
+dongo($tangkap9)."33333\n".
+dongo($tangkap9)."31\n".
+dongo($tangkap9)."32\n".
+dongo($tangkap9)."33\n".
+dongo($tangkap9)."34\n".
+dongo($tangkap9)."35\n".
+dongo($tangkap9)."311\n".
+dongo($tangkap9)."322\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."344\n".
+dongo($tangkap9)."355\n".
+dongo($tangkap9)."313\n".
+dongo($tangkap9)."323\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."343\n".
+dongo($tangkap9)."353\n".
+dongo($tangkap9)."113\n".
+dongo($tangkap9)."223\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."443\n".
+dongo($tangkap9)."553\n".
+dongo($tangkap9)."331\n".
+dongo($tangkap9)."332\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."334\n".
+dongo($tangkap9)."335\n".
+dongo($tangkap9)."453\n".
+dongo($tangkap9)."123\n".
+dongo($tangkap9)."321\n".
+dongo($tangkap9)."4\n".
+dongo($tangkap9)."44\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."4444\n".
+dongo($tangkap9)."44444\n".
+dongo($tangkap9)."41\n".
+dongo($tangkap9)."42\n".
+dongo($tangkap9)."43\n".
+dongo($tangkap9)."44\n".
+dongo($tangkap9)."45\n".
+dongo($tangkap9)."411\n".
+dongo($tangkap9)."422\n".
+dongo($tangkap9)."433\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."455\n".
+dongo($tangkap9)."414\n".
+dongo($tangkap9)."424\n".
+dongo($tangkap9)."434\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."454\n".
+dongo($tangkap9)."114\n".
+dongo($tangkap9)."224\n".
+dongo($tangkap9)."334\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."441\n".
+dongo($tangkap9)."442\n".
+dongo($tangkap9)."443\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."445\n".
+dongo($tangkap9)."554\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."1234\n".
+dongo($tangkap9)."4321\n".
+dongo($tangkap9)."5\n".
+dongo($tangkap9)."55\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."5555\n".
+dongo($tangkap9)."55555\n".
+dongo($tangkap9)."51\n".
+dongo($tangkap9)."52\n".
+dongo($tangkap9)."53\n".
+dongo($tangkap9)."54\n".
+dongo($tangkap9)."55\n".
+dongo($tangkap9)."511\n".
+dongo($tangkap9)."522\n".
+dongo($tangkap9)."533\n".
+dongo($tangkap9)."544\n".
+dongo($tangkap9)."655\n".
+dongo($tangkap9)."515\n".
+dongo($tangkap9)."525\n".
+dongo($tangkap9)."535\n".
+dongo($tangkap9)."545\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."115\n".
+dongo($tangkap9)."225\n".
+dongo($tangkap9)."335\n".
+dongo($tangkap9)."445\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."551\n".
+dongo($tangkap9)."552\n".
+dongo($tangkap9)."553\n".
+dongo($tangkap9)."554\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."345\n".
+dongo($tangkap9)."12345\n".
+dongo($tangkap9)."54321\n".
+dongo($tangkap9)."6\n".
+dongo($tangkap9)."66\n".
+dongo($tangkap9)."666\n".
+dongo($tangkap9)."6666\n".
+dongo($tangkap9)."66666\n".
+dongo($tangkap9)."61\n".
+dongo($tangkap9)."62\n".
+dongo($tangkap9)."63\n".
+dongo($tangkap9)."64\n".
+dongo($tangkap9)."65\n".
+dongo($tangkap9)."611\n".
+dongo($tangkap9)."622\n".
+dongo($tangkap9)."633\n".
+dongo($tangkap9)."644\n".
+dongo($tangkap9)."655\n".
+dongo($tangkap9)."616\n".
+dongo($tangkap9)."626\n".
+dongo($tangkap9)."636\n".
+dongo($tangkap9)."646\n".
+dongo($tangkap9)."656\n".
+dongo($tangkap9)."116\n".
+dongo($tangkap9)."226\n".
+dongo($tangkap9)."336\n".
+dongo($tangkap9)."446\n".
+dongo($tangkap9)."556\n".
+dongo($tangkap9)."661\n".
+dongo($tangkap9)."662\n".
+dongo($tangkap9)."663\n".
+dongo($tangkap9)."664\n".
+dongo($tangkap9)."665\n".
+dongo($tangkap9)."456\n".
+dongo($tangkap9)."123456\n".
+dongo($tangkap9)."654321\n".
+dongo($tangkap9)."7\n".
+dongo($tangkap9)."77\n".
+dongo($tangkap9)."777\n".
+dongo($tangkap9)."7777\n".
+dongo($tangkap9)."77777\n".
+dongo($tangkap9)."71\n".
+dongo($tangkap9)."72\n".
+dongo($tangkap9)."73\n".
+dongo($tangkap9)."74\n".
+dongo($tangkap9)."75\n".
+dongo($tangkap9)."711\n".
+dongo($tangkap9)."722\n".
+dongo($tangkap9)."733\n".
+dongo($tangkap9)."744\n".
+dongo($tangkap9)."755\n".
+dongo($tangkap9)."717\n".
+dongo($tangkap9)."727\n".
+dongo($tangkap9)."737\n".
+dongo($tangkap9)."747\n".
+dongo($tangkap9)."757\n".
+dongo($tangkap9)."117\n".
+dongo($tangkap9)."227\n".
+dongo($tangkap9)."337\n".
+dongo($tangkap9)."447\n".
+dongo($tangkap9)."557\n".
+dongo($tangkap9)."771\n".
+dongo($tangkap9)."772\n".
+dongo($tangkap9)."773\n".
+dongo($tangkap9)."774\n".
+dongo($tangkap9)."775\n".
+dongo($tangkap9)."457\n".
+dongo($tangkap9)."1234567\n".
+dongo($tangkap9)."7654321\n".
+dongo($tangkap9)."8\n".
+dongo($tangkap9)."88\n".
+dongo($tangkap9)."888\n".
+dongo($tangkap9)."8888\n".
+dongo($tangkap9)."88888\n".
+dongo($tangkap9)."81\n".
+dongo($tangkap9)."82\n".
+dongo($tangkap9)."83\n".
+dongo($tangkap9)."84\n".
+dongo($tangkap9)."85\n".
+dongo($tangkap9)."811\n".
+dongo($tangkap9)."822\n".
+dongo($tangkap9)."833\n".
+dongo($tangkap9)."844\n".
+dongo($tangkap9)."855\n".
+dongo($tangkap9)."818\n".
+dongo($tangkap9)."828\n".
+dongo($tangkap9)."838\n".
+dongo($tangkap9)."848\n".
+dongo($tangkap9)."858\n".
+dongo($tangkap9)."118\n".
+dongo($tangkap9)."228\n".
+dongo($tangkap9)."338\n".
+dongo($tangkap9)."448\n".
+dongo($tangkap9)."558\n".
+dongo($tangkap9)."881\n".
+dongo($tangkap9)."882\n".
+dongo($tangkap9)."883\n".
+dongo($tangkap9)."884\n".
+dongo($tangkap9)."885\n".
+dongo($tangkap9)."458\n".
+dongo($tangkap9)."12345678\n".
+dongo($tangkap9)."87654321\n".
+dongo($tangkap9)."9\n".
+dongo($tangkap9)."99\n".
+dongo($tangkap9)."999\n".
+dongo($tangkap9)."9999\n".
+dongo($tangkap9)."99999\n".
+dongo($tangkap9)."91\n".
+dongo($tangkap9)."92\n".
+dongo($tangkap9)."93\n".
+dongo($tangkap9)."94\n".
+dongo($tangkap9)."95\n".
+dongo($tangkap9)."911\n".
+dongo($tangkap9)."922\n".
+dongo($tangkap9)."933\n".
+dongo($tangkap9)."944\n".
+dongo($tangkap9)."955\n".
+dongo($tangkap9)."919\n".
+dongo($tangkap9)."929\n".
+dongo($tangkap9)."939\n".
+dongo($tangkap9)."949\n".
+dongo($tangkap9)."959\n".
+dongo($tangkap9)."119\n".
+dongo($tangkap9)."229\n".
+dongo($tangkap9)."339\n".
+dongo($tangkap9)."449\n".
+dongo($tangkap9)."559\n".
+dongo($tangkap9)."991\n".
+dongo($tangkap9)."992\n".
+dongo($tangkap9)."993\n".
+dongo($tangkap9)."994\n".
+dongo($tangkap9)."995\n".
+dongo($tangkap9)."459\n".
+dongo($tangkap9)."12345678\n".
+dongo($tangkap9)."987654321\n".
+dongo($tangkap9)."0\n".
+dongo($tangkap9)."00\n".
+dongo($tangkap9)."000\n".
+dongo($tangkap9)."0000\n".
+dongo($tangkap9)."00000\n".
+dongo($tangkap9)."01\n".
+dongo($tangkap9)."02\n".
+dongo($tangkap9)."03\n".
+dongo($tangkap9)."04\n".
+dongo($tangkap9)."05\n".
+dongo($tangkap9)."011\n".
+dongo($tangkap9)."022\n".
+dongo($tangkap9)."033\n".
+dongo($tangkap9)."044\n".
+dongo($tangkap9)."055\n".
+dongo($tangkap9)."010\n".
+dongo($tangkap9)."020\n".
+dongo($tangkap9)."030\n".
+dongo($tangkap9)."040\n".
+dongo($tangkap9)."050\n".
+dongo($tangkap9)."110\n".
+dongo($tangkap9)."220\n".
+dongo($tangkap9)."330\n".
+dongo($tangkap9)."440\n".
+dongo($tangkap9)."550\n".
+dongo($tangkap9)."001\n".
+dongo($tangkap9)."002\n".
+dongo($tangkap9)."003\n".
+dongo($tangkap9)."004\n".
+dongo($tangkap9)."005\n".
+dongo($tangkap9)."450\n".
+dongo($tangkap9)."1234567890\n".
+dongo($tangkap8)."1\n".
+dongo($tangkap8)."11\n".
+dongo($tangkap8)."111\n".
+dongo($tangkap8)."1111\n".
+dongo($tangkap8)."11111\n".
+dongo($tangkap8)."2\n".
+dongo($tangkap8)."22\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."2222\n".
+dongo($tangkap8)."22222\n".
+dongo($tangkap8)."21\n".
+dongo($tangkap8)."22\n".
+dongo($tangkap8)."23\n".
+dongo($tangkap8)."24\n".
+dongo($tangkap8)."25\n".
+dongo($tangkap8)."26\n".
+dongo($tangkap8)."27\n".
+dongo($tangkap8)."28\n".
+dongo($tangkap8)."29\n".
+dongo($tangkap8)."211\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."233\n".
+dongo($tangkap8)."244\n".
+dongo($tangkap8)."255\n".
+dongo($tangkap8)."212\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."232\n".
+dongo($tangkap8)."242\n".
+dongo($tangkap8)."252\n".
+dongo($tangkap8)."112\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."332\n".
+dongo($tangkap8)."442\n".
+dongo($tangkap8)."552\n".
+dongo($tangkap8)."221\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."223\n".
+dongo($tangkap8)."224\n".
+dongo($tangkap8)."225\n".
+dongo($tangkap8)."452\n".
+dongo($tangkap8)."12\n".
+dongo($tangkap8)."21\n".
+dongo($tangkap8)."3\n".
+dongo($tangkap8)."33\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."3333\n".
+dongo($tangkap8)."33333\n".
+dongo($tangkap8)."31\n".
+dongo($tangkap8)."32\n".
+dongo($tangkap8)."33\n".
+dongo($tangkap8)."34\n".
+dongo($tangkap8)."35\n".
+dongo($tangkap8)."311\n".
+dongo($tangkap8)."322\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."344\n".
+dongo($tangkap8)."355\n".
+dongo($tangkap8)."313\n".
+dongo($tangkap8)."323\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."343\n".
+dongo($tangkap8)."353\n".
+dongo($tangkap8)."113\n".
+dongo($tangkap8)."223\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."443\n".
+dongo($tangkap8)."553\n".
+dongo($tangkap8)."331\n".
+dongo($tangkap8)."332\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."334\n".
+dongo($tangkap8)."335\n".
+dongo($tangkap8)."453\n".
+dongo($tangkap8)."123\n".
+dongo($tangkap8)."321\n".
+dongo($tangkap8)."4\n".
+dongo($tangkap8)."44\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."4444\n".
+dongo($tangkap8)."44444\n".
+dongo($tangkap8)."41\n".
+dongo($tangkap8)."42\n".
+dongo($tangkap8)."43\n".
+dongo($tangkap8)."44\n".
+dongo($tangkap8)."45\n".
+dongo($tangkap8)."411\n".
+dongo($tangkap8)."422\n".
+dongo($tangkap8)."433\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."455\n".
+dongo($tangkap8)."414\n".
+dongo($tangkap8)."424\n".
+dongo($tangkap8)."434\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."454\n".
+dongo($tangkap8)."114\n".
+dongo($tangkap8)."224\n".
+dongo($tangkap8)."334\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."441\n".
+dongo($tangkap8)."442\n".
+dongo($tangkap8)."443\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."445\n".
+dongo($tangkap8)."554\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."1234\n".
+dongo($tangkap8)."4321\n".
+dongo($tangkap8)."5\n".
+dongo($tangkap8)."55\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."5555\n".
+dongo($tangkap8)."55555\n".
+dongo($tangkap8)."51\n".
+dongo($tangkap8)."52\n".
+dongo($tangkap8)."53\n".
+dongo($tangkap8)."54\n".
+dongo($tangkap8)."55\n".
+dongo($tangkap8)."511\n".
+dongo($tangkap8)."522\n".
+dongo($tangkap8)."533\n".
+dongo($tangkap8)."544\n".
+dongo($tangkap8)."655\n".
+dongo($tangkap8)."515\n".
+dongo($tangkap8)."525\n".
+dongo($tangkap8)."535\n".
+dongo($tangkap8)."545\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."115\n".
+dongo($tangkap8)."225\n".
+dongo($tangkap8)."335\n".
+dongo($tangkap8)."445\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."551\n".
+dongo($tangkap8)."552\n".
+dongo($tangkap8)."553\n".
+dongo($tangkap8)."554\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."345\n".
+dongo($tangkap8)."12345\n".
+dongo($tangkap8)."54321\n".
+dongo($tangkap8)."6\n".
+dongo($tangkap8)."66\n".
+dongo($tangkap8)."666\n".
+dongo($tangkap8)."6666\n".
+dongo($tangkap8)."66666\n".
+dongo($tangkap8)."61\n".
+dongo($tangkap8)."62\n".
+dongo($tangkap8)."63\n".
+dongo($tangkap8)."64\n".
+dongo($tangkap8)."65\n".
+dongo($tangkap8)."611\n".
+dongo($tangkap8)."622\n".
+dongo($tangkap8)."633\n".
+dongo($tangkap8)."644\n".
+dongo($tangkap8)."655\n".
+dongo($tangkap8)."616\n".
+dongo($tangkap8)."626\n".
+dongo($tangkap8)."636\n".
+dongo($tangkap8)."646\n".
+dongo($tangkap8)."656\n".
+dongo($tangkap8)."116\n".
+dongo($tangkap8)."226\n".
+dongo($tangkap8)."336\n".
+dongo($tangkap8)."446\n".
+dongo($tangkap8)."556\n".
+dongo($tangkap8)."661\n".
+dongo($tangkap8)."662\n".
+dongo($tangkap8)."663\n".
+dongo($tangkap8)."664\n".
+dongo($tangkap8)."665\n".
+dongo($tangkap8)."456\n".
+dongo($tangkap8)."123456\n".
+dongo($tangkap8)."654321\n".
+dongo($tangkap8)."7\n".
+dongo($tangkap8)."77\n".
+dongo($tangkap8)."777\n".
+dongo($tangkap8)."7777\n".
+dongo($tangkap8)."77777\n".
+dongo($tangkap8)."71\n".
+dongo($tangkap8)."72\n".
+dongo($tangkap8)."73\n".
+dongo($tangkap8)."74\n".
+dongo($tangkap8)."75\n".
+dongo($tangkap8)."711\n".
+dongo($tangkap8)."722\n".
+dongo($tangkap8)."733\n".
+dongo($tangkap8)."744\n".
+dongo($tangkap8)."755\n".
+dongo($tangkap8)."717\n".
+dongo($tangkap8)."727\n".
+dongo($tangkap8)."737\n".
+dongo($tangkap8)."747\n".
+dongo($tangkap8)."757\n".
+dongo($tangkap8)."117\n".
+dongo($tangkap8)."227\n".
+dongo($tangkap8)."337\n".
+dongo($tangkap8)."447\n".
+dongo($tangkap8)."557\n".
+dongo($tangkap8)."771\n".
+dongo($tangkap8)."772\n".
+dongo($tangkap8)."773\n".
+dongo($tangkap8)."774\n".
+dongo($tangkap8)."775\n".
+dongo($tangkap8)."457\n".
+dongo($tangkap8)."1234567\n".
+dongo($tangkap8)."7654321\n".
+dongo($tangkap8)."8\n".
+dongo($tangkap8)."88\n".
+dongo($tangkap8)."888\n".
+dongo($tangkap8)."8888\n".
+dongo($tangkap8)."88888\n".
+dongo($tangkap8)."81\n".
+dongo($tangkap8)."82\n".
+dongo($tangkap8)."83\n".
+dongo($tangkap8)."84\n".
+dongo($tangkap8)."85\n".
+dongo($tangkap8)."811\n".
+dongo($tangkap8)."822\n".
+dongo($tangkap8)."833\n".
+dongo($tangkap8)."844\n".
+dongo($tangkap8)."855\n".
+dongo($tangkap8)."818\n".
+dongo($tangkap8)."828\n".
+dongo($tangkap8)."838\n".
+dongo($tangkap8)."848\n".
+dongo($tangkap8)."858\n".
+dongo($tangkap8)."118\n".
+dongo($tangkap8)."228\n".
+dongo($tangkap8)."338\n".
+dongo($tangkap8)."448\n".
+dongo($tangkap8)."558\n".
+dongo($tangkap8)."881\n".
+dongo($tangkap8)."882\n".
+dongo($tangkap8)."883\n".
+dongo($tangkap8)."884\n".
+dongo($tangkap8)."885\n".
+dongo($tangkap8)."458\n".
+dongo($tangkap8)."12345678\n".
+dongo($tangkap8)."87654321\n".
+dongo($tangkap8)."9\n".
+dongo($tangkap8)."99\n".
+dongo($tangkap8)."999\n".
+dongo($tangkap8)."9999\n".
+dongo($tangkap8)."99999\n".
+dongo($tangkap8)."91\n".
+dongo($tangkap8)."92\n".
+dongo($tangkap8)."93\n".
+dongo($tangkap8)."94\n".
+dongo($tangkap8)."95\n".
+dongo($tangkap8)."911\n".
+dongo($tangkap8)."922\n".
+dongo($tangkap8)."933\n".
+dongo($tangkap8)."944\n".
+dongo($tangkap8)."955\n".
+dongo($tangkap8)."919\n".
+dongo($tangkap8)."929\n".
+dongo($tangkap8)."939\n".
+dongo($tangkap8)."949\n".
+dongo($tangkap8)."959\n".
+dongo($tangkap8)."119\n".
+dongo($tangkap8)."229\n".
+dongo($tangkap8)."339\n".
+dongo($tangkap8)."449\n".
+dongo($tangkap8)."559\n".
+dongo($tangkap8)."991\n".
+dongo($tangkap8)."992\n".
+dongo($tangkap8)."993\n".
+dongo($tangkap8)."994\n".
+dongo($tangkap8)."995\n".
+dongo($tangkap8)."459\n".
+dongo($tangkap8)."12345678\n".
+dongo($tangkap8)."987654321\n".
+dongo($tangkap8)."0\n".
+dongo($tangkap8)."00\n".
+dongo($tangkap8)."000\n".
+dongo($tangkap8)."0000\n".
+dongo($tangkap8)."00000\n".
+dongo($tangkap8)."01\n".
+dongo($tangkap8)."02\n".
+dongo($tangkap8)."03\n".
+dongo($tangkap8)."04\n".
+dongo($tangkap8)."05\n".
+dongo($tangkap8)."011\n".
+dongo($tangkap8)."022\n".
+dongo($tangkap8)."033\n".
+dongo($tangkap8)."044\n".
+dongo($tangkap8)."055\n".
+dongo($tangkap8)."010\n".
+dongo($tangkap8)."020\n".
+dongo($tangkap8)."030\n".
+dongo($tangkap8)."040\n".
+dongo($tangkap8)."050\n".
+dongo($tangkap8)."110\n".
+dongo($tangkap8)."220\n".
+dongo($tangkap8)."330\n".
+dongo($tangkap8)."440\n".
+dongo($tangkap8)."550\n".
+dongo($tangkap8)."001\n".
+dongo($tangkap8)."002\n".
+dongo($tangkap8)."003\n".
+dongo($tangkap8)."004\n".
+dongo($tangkap8)."005\n".
+dongo($tangkap8)."450\n".
+dongo($tangkap8)."1234567890\n".
+
+dongo($tangkap16)."1\n".
+dongo($tangkap16)."11\n".
+dongo($tangkap16)."111\n".
+dongo($tangkap16)."1111\n".
+dongo($tangkap16)."11111\n".
+dongo($tangkap16)."2\n".
+dongo($tangkap16)."22\n".
+dongo($tangkap16)."222\n".
+dongo($tangkap16)."2222\n".
+dongo($tangkap16)."22222\n".
+dongo($tangkap16)."21\n".
+dongo($tangkap16)."22\n".
+dongo($tangkap16)."23\n".
+dongo($tangkap16)."24\n".
+dongo($tangkap16)."25\n".
+dongo($tangkap16)."26\n".
+dongo($tangkap16)."27\n".
+dongo($tangkap16)."28\n".
+dongo($tangkap16)."29\n".
+dongo($tangkap16)."211\n".
+dongo($tangkap16)."222\n".
+dongo($tangkap16)."233\n".
+dongo($tangkap16)."244\n".
+dongo($tangkap16)."255\n".
+dongo($tangkap16)."212\n".
+dongo($tangkap16)."222\n".
+dongo($tangkap16)."232\n".
+dongo($tangkap16)."242\n".
+dongo($tangkap16)."252\n".
+dongo($tangkap16)."112\n".
+dongo($tangkap16)."222\n".
+dongo($tangkap16)."332\n".
+dongo($tangkap16)."442\n".
+dongo($tangkap16)."552\n".
+dongo($tangkap16)."221\n".
+dongo($tangkap16)."222\n".
+dongo($tangkap16)."223\n".
+dongo($tangkap16)."224\n".
+dongo($tangkap16)."225\n".
+dongo($tangkap16)."452\n".
+dongo($tangkap16)."12\n".
+dongo($tangkap16)."21\n".
+dongo($tangkap16)."3\n".
+dongo($tangkap16)."33\n".
+dongo($tangkap16)."333\n".
+dongo($tangkap16)."3333\n".
+dongo($tangkap16)."33333\n".
+dongo($tangkap16)."31\n".
+dongo($tangkap16)."32\n".
+dongo($tangkap16)."33\n".
+dongo($tangkap16)."34\n".
+dongo($tangkap16)."35\n".
+dongo($tangkap16)."311\n".
+dongo($tangkap16)."322\n".
+dongo($tangkap16)."333\n".
+dongo($tangkap16)."344\n".
+dongo($tangkap16)."355\n".
+dongo($tangkap16)."313\n".
+dongo($tangkap16)."323\n".
+dongo($tangkap16)."333\n".
+dongo($tangkap16)."343\n".
+dongo($tangkap16)."353\n".
+dongo($tangkap16)."113\n".
+dongo($tangkap16)."223\n".
+dongo($tangkap16)."333\n".
+dongo($tangkap16)."443\n".
+dongo($tangkap16)."553\n".
+dongo($tangkap16)."331\n".
+dongo($tangkap16)."332\n".
+dongo($tangkap16)."333\n".
+dongo($tangkap16)."334\n".
+dongo($tangkap16)."335\n".
+dongo($tangkap16)."453\n".
+dongo($tangkap16)."123\n".
+dongo($tangkap16)."321\n".
+dongo($tangkap16)."4\n".
+dongo($tangkap16)."44\n".
+dongo($tangkap16)."444\n".
+dongo($tangkap16)."4444\n".
+dongo($tangkap16)."44444\n".
+dongo($tangkap16)."41\n".
+dongo($tangkap16)."42\n".
+dongo($tangkap16)."43\n".
+dongo($tangkap16)."44\n".
+dongo($tangkap16)."45\n".
+dongo($tangkap16)."411\n".
+dongo($tangkap16)."422\n".
+dongo($tangkap16)."433\n".
+dongo($tangkap16)."444\n".
+dongo($tangkap16)."455\n".
+dongo($tangkap16)."414\n".
+dongo($tangkap16)."424\n".
+dongo($tangkap16)."434\n".
+dongo($tangkap16)."444\n".
+dongo($tangkap16)."454\n".
+dongo($tangkap16)."114\n".
+dongo($tangkap16)."224\n".
+dongo($tangkap16)."334\n".
+dongo($tangkap16)."444\n".
+dongo($tangkap16)."441\n".
+dongo($tangkap16)."442\n".
+dongo($tangkap16)."443\n".
+dongo($tangkap16)."444\n".
+dongo($tangkap16)."445\n".
+dongo($tangkap16)."554\n".
+dongo($tangkap16)."444\n".
+dongo($tangkap16)."1234\n".
+dongo($tangkap16)."4321\n".
+dongo($tangkap16)."5\n".
+dongo($tangkap16)."55\n".
+dongo($tangkap16)."555\n".
+dongo($tangkap16)."5555\n".
+dongo($tangkap16)."55555\n".
+dongo($tangkap16)."51\n".
+dongo($tangkap16)."52\n".
+dongo($tangkap16)."53\n".
+dongo($tangkap16)."54\n".
+dongo($tangkap16)."55\n".
+dongo($tangkap16)."511\n".
+dongo($tangkap16)."522\n".
+dongo($tangkap16)."533\n".
+dongo($tangkap16)."544\n".
+dongo($tangkap16)."655\n".
+dongo($tangkap16)."515\n".
+dongo($tangkap16)."525\n".
+dongo($tangkap16)."535\n".
+dongo($tangkap16)."545\n".
+dongo($tangkap16)."555\n".
+dongo($tangkap16)."115\n".
+dongo($tangkap16)."225\n".
+dongo($tangkap16)."335\n".
+dongo($tangkap16)."445\n".
+dongo($tangkap16)."555\n".
+dongo($tangkap16)."551\n".
+dongo($tangkap16)."552\n".
+dongo($tangkap16)."553\n".
+dongo($tangkap16)."554\n".
+dongo($tangkap16)."555\n".
+dongo($tangkap16)."345\n".
+dongo($tangkap16)."12345\n".
+dongo($tangkap16)."54321\n".
+dongo($tangkap16)."6\n".
+dongo($tangkap16)."66\n".
+dongo($tangkap16)."666\n".
+dongo($tangkap16)."6666\n".
+dongo($tangkap16)."66666\n".
+dongo($tangkap16)."61\n".
+dongo($tangkap16)."62\n".
+dongo($tangkap16)."63\n".
+dongo($tangkap16)."64\n".
+dongo($tangkap16)."65\n".
+dongo($tangkap16)."611\n".
+dongo($tangkap16)."622\n".
+dongo($tangkap16)."633\n".
+dongo($tangkap16)."644\n".
+dongo($tangkap16)."655\n".
+dongo($tangkap16)."616\n".
+dongo($tangkap16)."626\n".
+dongo($tangkap16)."636\n".
+dongo($tangkap16)."646\n".
+dongo($tangkap16)."656\n".
+dongo($tangkap16)."116\n".
+dongo($tangkap16)."226\n".
+dongo($tangkap16)."336\n".
+dongo($tangkap16)."446\n".
+dongo($tangkap16)."556\n".
+dongo($tangkap16)."661\n".
+dongo($tangkap16)."662\n".
+dongo($tangkap16)."663\n".
+dongo($tangkap16)."664\n".
+dongo($tangkap16)."665\n".
+dongo($tangkap16)."456\n".
+dongo($tangkap16)."123456\n".
+dongo($tangkap16)."654321\n".
+dongo($tangkap16)."7\n".
+dongo($tangkap16)."77\n".
+dongo($tangkap16)."777\n".
+dongo($tangkap16)."7777\n".
+dongo($tangkap16)."77777\n".
+dongo($tangkap16)."71\n".
+dongo($tangkap16)."72\n".
+dongo($tangkap16)."73\n".
+dongo($tangkap16)."74\n".
+dongo($tangkap16)."75\n".
+dongo($tangkap16)."711\n".
+dongo($tangkap16)."722\n".
+dongo($tangkap16)."733\n".
+dongo($tangkap16)."744\n".
+dongo($tangkap16)."755\n".
+dongo($tangkap16)."717\n".
+dongo($tangkap16)."727\n".
+dongo($tangkap16)."737\n".
+dongo($tangkap16)."747\n".
+dongo($tangkap16)."757\n".
+dongo($tangkap16)."117\n".
+dongo($tangkap16)."227\n".
+dongo($tangkap16)."337\n".
+dongo($tangkap16)."447\n".
+dongo($tangkap16)."557\n".
+dongo($tangkap16)."771\n".
+dongo($tangkap16)."772\n".
+dongo($tangkap16)."773\n".
+dongo($tangkap16)."774\n".
+dongo($tangkap16)."775\n".
+dongo($tangkap16)."457\n".
+dongo($tangkap16)."1234567\n".
+dongo($tangkap16)."7654321\n".
+dongo($tangkap16)."8\n".
+dongo($tangkap16)."88\n".
+dongo($tangkap16)."888\n".
+dongo($tangkap16)."8888\n".
+dongo($tangkap16)."88888\n".
+dongo($tangkap16)."81\n".
+dongo($tangkap16)."82\n".
+dongo($tangkap16)."83\n".
+dongo($tangkap16)."84\n".
+dongo($tangkap16)."85\n".
+dongo($tangkap16)."811\n".
+dongo($tangkap16)."822\n".
+dongo($tangkap16)."833\n".
+dongo($tangkap16)."844\n".
+dongo($tangkap16)."855\n".
+dongo($tangkap16)."818\n".
+dongo($tangkap16)."828\n".
+dongo($tangkap16)."838\n".
+dongo($tangkap16)."848\n".
+dongo($tangkap16)."858\n".
+dongo($tangkap16)."118\n".
+dongo($tangkap16)."228\n".
+dongo($tangkap16)."338\n".
+dongo($tangkap16)."448\n".
+dongo($tangkap16)."558\n".
+dongo($tangkap16)."881\n".
+dongo($tangkap16)."882\n".
+dongo($tangkap16)."883\n".
+dongo($tangkap16)."884\n".
+dongo($tangkap16)."885\n".
+dongo($tangkap16)."458\n".
+dongo($tangkap16)."12345678\n".
+dongo($tangkap16)."87654321\n".
+dongo($tangkap16)."9\n".
+dongo($tangkap16)."99\n".
+dongo($tangkap16)."999\n".
+dongo($tangkap16)."9999\n".
+dongo($tangkap16)."99999\n".
+dongo($tangkap16)."91\n".
+dongo($tangkap16)."92\n".
+dongo($tangkap16)."93\n".
+dongo($tangkap16)."94\n".
+dongo($tangkap16)."95\n".
+dongo($tangkap16)."911\n".
+dongo($tangkap16)."922\n".
+dongo($tangkap16)."933\n".
+dongo($tangkap16)."944\n".
+dongo($tangkap16)."955\n".
+dongo($tangkap16)."919\n".
+dongo($tangkap16)."929\n".
+dongo($tangkap16)."939\n".
+dongo($tangkap16)."949\n".
+dongo($tangkap16)."959\n".
+dongo($tangkap16)."119\n".
+dongo($tangkap16)."229\n".
+dongo($tangkap16)."339\n".
+dongo($tangkap16)."449\n".
+dongo($tangkap16)."559\n".
+dongo($tangkap16)."991\n".
+dongo($tangkap16)."992\n".
+dongo($tangkap16)."993\n".
+dongo($tangkap16)."994\n".
+dongo($tangkap16)."995\n".
+dongo($tangkap16)."459\n".
+dongo($tangkap16)."12345678\n".
+dongo($tangkap16)."987654321\n".
+dongo($tangkap16)."0\n".
+dongo($tangkap16)."00\n".
+dongo($tangkap16)."000\n".
+dongo($tangkap16)."0000\n".
+dongo($tangkap16)."00000\n".
+dongo($tangkap16)."01\n".
+dongo($tangkap16)."02\n".
+dongo($tangkap16)."03\n".
+dongo($tangkap16)."04\n".
+dongo($tangkap16)."05\n".
+dongo($tangkap16)."011\n".
+dongo($tangkap16)."022\n".
+dongo($tangkap16)."033\n".
+dongo($tangkap16)."044\n".
+dongo($tangkap16)."055\n".
+dongo($tangkap16)."010\n".
+dongo($tangkap16)."020\n".
+dongo($tangkap16)."030\n".
+dongo($tangkap16)."040\n".
+dongo($tangkap16)."050\n".
+dongo($tangkap16)."110\n".
+dongo($tangkap16)."220\n".
+dongo($tangkap16)."330\n".
+dongo($tangkap16)."440\n".
+dongo($tangkap16)."550\n".
+dongo($tangkap16)."001\n".
+dongo($tangkap16)."002\n".
+dongo($tangkap16)."003\n".
+dongo($tangkap16)."004\n".
+dongo($tangkap16)."005\n".
+dongo($tangkap16)."450\n".
+dongo($tangkap16)."123456789\n";
+
+echo " \033[32m\n Apakah anda ingin memasukan kata tambahan ke dalam wordlist? y/n : \033[96m";
+$tanya2 = trim(fgets(STDIN));
+if ($tanya2 == "y") {
+  echo " \033[32mBerapa kata yang ingin anda masukan ? \e[38;2;255;0;0m[MAX 10] : \033[96m";
+  $tanya3 = trim(fgets(STDIN));
+if ($tanya3 == "1") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      $main =  $masuk1."\n";
+}elseif ($tanya3 == "2") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      $main =  $masuk1."\n".
+               $masuk2."\n";
+}elseif ($tanya3 == "3") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+
+      $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n";
+}elseif ($tanya3 == "4") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n";
+}elseif ($tanya3 == "5") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n";
+}elseif ($tanya3 == "6") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n";
+}elseif ($tanya3 == "7") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n";
+}elseif ($tanya3 == "8") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93mMasukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n";
+}elseif ($tanya3 == "9") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [9]\033[93m Masukan kata : ";
+      $masuk9 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n".
+              $masuk9."\n";
+}elseif ($tanya3 == "10") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [9]\033[93m Masukan kata : ";
+      $masuk9 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [10]\033[93m Masukan kata : ";
+      $masuk10 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n".
+              $masuk9."\n".
+              $masuk10."\n";
+}else{
+    	echo " Gak jelas tod pilihannya ! \n\n";
+    	exit;
+    }
+
+
+
+
+
+
+
+
+    }elseif ($tanya2 =="n") {
+    
+
+      
+    }else{
+    	echo " Gak jelas tod pilihannya ! \n\n";
+    	exit;
+    }
+
+
+echo "\n\n Masukan nama file : ";
+$hasil1 = trim(fgets(STDIN));
+
+$buat_hasil1 = fopen("$hasil1.txt", "a+");
+    fwrite($buat_hasil1, "$result1$result11$main","1000000");
+fclose($buat_hasil1);
+echo "\n\033[93m  ++++++++++++++++++++++++++++++++++\n";
+echo "  Selamat ...                        \n";
+echo "  File $hasil1.txt telah tersimpan   \n";
+echo "  di dalam folder wordlistgenerator  \n";
+echo "  ++++++++++++++++++++++++++++++++++\n\033[0m\n\n";
+}elseif($tanya1 == "n"){
+
+	$result2=
+ $tangkap1."\n".
+ $tangkap2."\n".
+ $tangkap3."\n".
+ $tangkap4."\n".
+ $tangkap5."\n".
+ $tangkap6."\n".
+ $tangkapx."\n".
+ $tangkapv."\n".
+ $tangkap7."\n".
+ $tangkap8."\n".
+ $tangkap9."\n".
+ $tangkap10."\n".
+ $tangkap11."\n".
+ $tangkap12."\n".
+ $tangkap13."\n".
+ $tangkap14."\n".
+ $tangkap15."\n".
+ $tangkap1.$tangkap2."\n".
+ $tangkap1.$tangkap2.$tangkap3."\n".
+ $tangkap1.$tangkap4."\n".
+ $tangkap3.$tangkap4."\n".
+ $tangkap1.$tangkap5."\n".
+ $tangkap1.$tangkapx."\n".
+ $tangkap1.$tangkapv."\n".
+ $tangkap2.$tangkapx."\n".
+ $tangkap2.$tangkapv."\n".
+ $tangkap3.$tangkapx."\n".
+ $tangkap3.$tangkapv."\n".
+ $tangkap5.$tangkapx.$tangkapv."\n".
+ $tangkap5.$tangkapx.$tangkap6."\n".
+ $tangkap5.$tangkapv.$tangkap6."\n".
+ $tangkap3.$tangkap5."\n".
+ $tangkap4.$tangkap5."\n".
+ $tangkap1.$tangkap6."\n".
+ $tangkap3.$tangkap6."\n".
+ $tangkap1.$tangkap5.$tangkap6."\n".
+ $tangkap1.$tangkap7."\n".
+ $tangkap3.$tangkap7."\n".
+ $tangkap1.$tangkap8."\n".
+ $tangkap3.$tangkap8."\n".
+ $tangkap8.$tangkap5."\n".
+ $tangkap8.$tangkap6."\n".
+ $tangkap9.$tangkap5."\n".
+ $tangkap3.$tangkap9."\n".
+ $tangkap1.$tangkap9."\n".
+ $tangkap9.$tangkap10."\n".
+ $tangkap3.$tangkap9.$tangkap10."\n".
+ $tangkap11.$tangkap9."\n".
+ $tangkap11.$tangkap12."\n".
+ $tangkap9.$tangkap12."\n".
+ $tangkap9.$tangkap12."\n".
+ $tangkap9.$tangkap12."\n".
+ $tangkap1.$tangkap13."\n".
+ $tangkap3.$tangkap13."\n".
+ $tangkap13.$tangkap14."\n".
+ $tangkap1.$tangkap13.$tangkap14."\n".
+ $tangkap3.$tangkap13.$tangkap14."\n".
+  str($tangkap1)."\n".
+ str($tangkap2)."\n".
+ str($tangkap3)."\n".
+ str($tangkap8)."\n".
+ str($tangkap9)."\n".
+ str($tangkap13)."\n".
+ str($tangkap1.$tangkap2)."\n".
+ str($tangkap1.$tangkap2.$tangkap3)."\n".
+ str($tangkap1.$tangkap13)."\n".
+ str($tangkap2.$tangkap13)."\n".
+ str($tangkap3.$tangkap13)."\n".
+ ganti($tangkap1)."\n".
+ ganti($tangkap2)."\n".
+ ganti($tangkap3)."\n".
+ ganti($tangkap8)."\n".
+ ganti($tangkap9)."\n".
+ ganti($tangkap13)."\n".
+ ganti($tangkap1.$tangkap2)."\n".
+ ganti($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti($tangkap1.$tangkap13)."\n".
+ ganti($tangkap2.$tangkap13)."\n".
+ ganti($tangkap3.$tangkap13)."\n".
+ ganti1($tangkap1)."\n".
+ ganti1($tangkap2)."\n".
+ ganti1($tangkap3)."\n".
+ ganti1($tangkap8)."\n".
+ ganti1($tangkap9)."\n".
+ ganti1($tangkap13)."\n".
+ ganti1($tangkap1.$tangkap2)."\n".
+ ganti1($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti1($tangkap1.$tangkap13)."\n".
+ ganti1($tangkap2.$tangkap13)."\n".
+ ganti1($tangkap3.$tangkap13)."\n".
+ ganti2($tangkap1)."\n".
+ ganti2($tangkap2)."\n".
+ ganti2($tangkap3)."\n".
+ ganti2($tangkap8)."\n".
+ ganti2($tangkap9)."\n".
+ ganti2($tangkap13)."\n".
+ ganti2($tangkap1.$tangkap2)."\n".
+ ganti2($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti2($tangkap1.$tangkap13)."\n".
+ ganti2($tangkap2.$tangkap13)."\n".
+ ganti2($tangkap3.$tangkap13)."\n".
+ banyak1($tangkap1)."\n".
+ banyak1($tangkap2)."\n".
+ banyak1($tangkap3)."\n".
+ banyak1($tangkap8)."\n".
+ banyak1($tangkap9)."\n".
+ banyak1($tangkap13)."\n".
+ banyak1($tangkap1.$tangkap2)."\n".
+ banyak1($tangkap1.$tangkap2.$tangkap3)."\n".
+ banyak1($tangkap1.$tangkap13)."\n".
+ banyak1($tangkap2.$tangkap13)."\n".
+ banyak1($tangkap3.$tangkap13)."\n".
+ banyak2($tangkap1)."\n".
+ banyak2($tangkap2)."\n".
+ banyak2($tangkap3)."\n".
+ banyak2($tangkap8)."\n".
+ banyak2($tangkap9)."\n".
+ banyak2($tangkap13)."\n".
+ banyak2($tangkap1.$tangkap2)."\n".
+ banyak2($tangkap1.$tangkap2.$tangkap3)."\n".
+ banyak2($tangkap1.$tangkap13)."\n".
+ banyak2($tangkap2.$tangkap13)."\n".
+ banyak2($tangkap3.$tangkap13)."\n";
+$result22 =
+tambah_nomor($tangkap1)."1\n".
+tambah_nomor($tangkap1)."11\n".
+tambah_nomor($tangkap1)."111\n".
+tambah_nomor($tangkap1)."1111\n".
+tambah_nomor($tangkap1)."11111\n".
+tambah_nomor($tangkap1)."2\n".
+tambah_nomor($tangkap1)."22\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."2222\n".
+tambah_nomor($tangkap1)."22222\n".
+tambah_nomor($tangkap1)."21\n".
+tambah_nomor($tangkap1)."22\n".
+tambah_nomor($tangkap1)."23\n".
+tambah_nomor($tangkap1)."24\n".
+tambah_nomor($tangkap1)."25\n".
+tambah_nomor($tangkap1)."26\n".
+tambah_nomor($tangkap1)."27\n".
+tambah_nomor($tangkap1)."28\n".
+tambah_nomor($tangkap1)."29\n".
+tambah_nomor($tangkap1)."211\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."233\n".
+tambah_nomor($tangkap1)."244\n".
+tambah_nomor($tangkap1)."255\n".
+tambah_nomor($tangkap1)."212\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."232\n".
+tambah_nomor($tangkap1)."242\n".
+tambah_nomor($tangkap1)."252\n".
+tambah_nomor($tangkap1)."112\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."332\n".
+tambah_nomor($tangkap1)."442\n".
+tambah_nomor($tangkap1)."552\n".
+tambah_nomor($tangkap1)."221\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."223\n".
+tambah_nomor($tangkap1)."224\n".
+tambah_nomor($tangkap1)."225\n".
+tambah_nomor($tangkap1)."452\n".
+tambah_nomor($tangkap1)."12\n".
+tambah_nomor($tangkap1)."21\n".
+tambah_nomor($tangkap1)."3\n".
+tambah_nomor($tangkap1)."33\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."3333\n".
+tambah_nomor($tangkap1)."33333\n".
+tambah_nomor($tangkap1)."31\n".
+tambah_nomor($tangkap1)."32\n".
+tambah_nomor($tangkap1)."33\n".
+tambah_nomor($tangkap1)."34\n".
+tambah_nomor($tangkap1)."35\n".
+tambah_nomor($tangkap1)."311\n".
+tambah_nomor($tangkap1)."322\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."344\n".
+tambah_nomor($tangkap1)."355\n".
+tambah_nomor($tangkap1)."313\n".
+tambah_nomor($tangkap1)."323\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."343\n".
+tambah_nomor($tangkap1)."353\n".
+tambah_nomor($tangkap1)."113\n".
+tambah_nomor($tangkap1)."223\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."443\n".
+tambah_nomor($tangkap1)."553\n".
+tambah_nomor($tangkap1)."331\n".
+tambah_nomor($tangkap1)."332\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."334\n".
+tambah_nomor($tangkap1)."335\n".
+tambah_nomor($tangkap1)."453\n".
+tambah_nomor($tangkap1)."123\n".
+tambah_nomor($tangkap1)."321\n".
+tambah_nomor($tangkap1)."4\n".
+tambah_nomor($tangkap1)."44\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."4444\n".
+tambah_nomor($tangkap1)."44444\n".
+tambah_nomor($tangkap1)."41\n".
+tambah_nomor($tangkap1)."42\n".
+tambah_nomor($tangkap1)."43\n".
+tambah_nomor($tangkap1)."44\n".
+tambah_nomor($tangkap1)."45\n".
+tambah_nomor($tangkap1)."411\n".
+tambah_nomor($tangkap1)."422\n".
+tambah_nomor($tangkap1)."433\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."455\n".
+tambah_nomor($tangkap1)."414\n".
+tambah_nomor($tangkap1)."424\n".
+tambah_nomor($tangkap1)."434\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."454\n".
+tambah_nomor($tangkap1)."114\n".
+tambah_nomor($tangkap1)."224\n".
+tambah_nomor($tangkap1)."334\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."441\n".
+tambah_nomor($tangkap1)."442\n".
+tambah_nomor($tangkap1)."443\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."445\n".
+tambah_nomor($tangkap1)."554\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."1234\n".
+tambah_nomor($tangkap1)."4321\n".
+tambah_nomor($tangkap1)."5\n".
+tambah_nomor($tangkap1)."55\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."5555\n".
+tambah_nomor($tangkap1)."55555\n".
+tambah_nomor($tangkap1)."51\n".
+tambah_nomor($tangkap1)."52\n".
+tambah_nomor($tangkap1)."53\n".
+tambah_nomor($tangkap1)."54\n".
+tambah_nomor($tangkap1)."55\n".
+tambah_nomor($tangkap1)."511\n".
+tambah_nomor($tangkap1)."522\n".
+tambah_nomor($tangkap1)."533\n".
+tambah_nomor($tangkap1)."544\n".
+tambah_nomor($tangkap1)."655\n".
+tambah_nomor($tangkap1)."515\n".
+tambah_nomor($tangkap1)."525\n".
+tambah_nomor($tangkap1)."535\n".
+tambah_nomor($tangkap1)."545\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."115\n".
+tambah_nomor($tangkap1)."225\n".
+tambah_nomor($tangkap1)."335\n".
+tambah_nomor($tangkap1)."445\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."551\n".
+tambah_nomor($tangkap1)."552\n".
+tambah_nomor($tangkap1)."553\n".
+tambah_nomor($tangkap1)."554\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."345\n".
+tambah_nomor($tangkap1)."12345\n".
+tambah_nomor($tangkap1)."54321\n".
+tambah_nomor($tangkap1)."6\n".
+tambah_nomor($tangkap1)."66\n".
+tambah_nomor($tangkap1)."666\n".
+tambah_nomor($tangkap1)."6666\n".
+tambah_nomor($tangkap1)."66666\n".
+tambah_nomor($tangkap1)."61\n".
+tambah_nomor($tangkap1)."62\n".
+tambah_nomor($tangkap1)."63\n".
+tambah_nomor($tangkap1)."64\n".
+tambah_nomor($tangkap1)."65\n".
+tambah_nomor($tangkap1)."611\n".
+tambah_nomor($tangkap1)."622\n".
+tambah_nomor($tangkap1)."633\n".
+tambah_nomor($tangkap1)."644\n".
+tambah_nomor($tangkap1)."655\n".
+tambah_nomor($tangkap1)."616\n".
+tambah_nomor($tangkap1)."626\n".
+tambah_nomor($tangkap1)."636\n".
+tambah_nomor($tangkap1)."646\n".
+tambah_nomor($tangkap1)."656\n".
+tambah_nomor($tangkap1)."116\n".
+tambah_nomor($tangkap1)."226\n".
+tambah_nomor($tangkap1)."336\n".
+tambah_nomor($tangkap1)."446\n".
+tambah_nomor($tangkap1)."556\n".
+tambah_nomor($tangkap1)."661\n".
+tambah_nomor($tangkap1)."662\n".
+tambah_nomor($tangkap1)."663\n".
+tambah_nomor($tangkap1)."664\n".
+tambah_nomor($tangkap1)."665\n".
+tambah_nomor($tangkap1)."456\n".
+tambah_nomor($tangkap1)."123456\n".
+tambah_nomor($tangkap1)."654321\n".
+tambah_nomor($tangkap1)."7\n".
+tambah_nomor($tangkap1)."77\n".
+tambah_nomor($tangkap1)."777\n".
+tambah_nomor($tangkap1)."7777\n".
+tambah_nomor($tangkap1)."77777\n".
+tambah_nomor($tangkap1)."71\n".
+tambah_nomor($tangkap1)."72\n".
+tambah_nomor($tangkap1)."73\n".
+tambah_nomor($tangkap1)."74\n".
+tambah_nomor($tangkap1)."75\n".
+tambah_nomor($tangkap1)."711\n".
+tambah_nomor($tangkap1)."722\n".
+tambah_nomor($tangkap1)."733\n".
+tambah_nomor($tangkap1)."744\n".
+tambah_nomor($tangkap1)."755\n".
+tambah_nomor($tangkap1)."717\n".
+tambah_nomor($tangkap1)."727\n".
+tambah_nomor($tangkap1)."737\n".
+tambah_nomor($tangkap1)."747\n".
+tambah_nomor($tangkap1)."757\n".
+tambah_nomor($tangkap1)."117\n".
+tambah_nomor($tangkap1)."227\n".
+tambah_nomor($tangkap1)."337\n".
+tambah_nomor($tangkap1)."447\n".
+tambah_nomor($tangkap1)."557\n".
+tambah_nomor($tangkap1)."771\n".
+tambah_nomor($tangkap1)."772\n".
+tambah_nomor($tangkap1)."773\n".
+tambah_nomor($tangkap1)."774\n".
+tambah_nomor($tangkap1)."775\n".
+tambah_nomor($tangkap1)."457\n".
+tambah_nomor($tangkap1)."1234567\n".
+tambah_nomor($tangkap1)."7654321\n".
+tambah_nomor($tangkap1)."8\n".
+tambah_nomor($tangkap1)."88\n".
+tambah_nomor($tangkap1)."888\n".
+tambah_nomor($tangkap1)."8888\n".
+tambah_nomor($tangkap1)."88888\n".
+tambah_nomor($tangkap1)."81\n".
+tambah_nomor($tangkap1)."82\n".
+tambah_nomor($tangkap1)."83\n".
+tambah_nomor($tangkap1)."84\n".
+tambah_nomor($tangkap1)."85\n".
+tambah_nomor($tangkap1)."811\n".
+tambah_nomor($tangkap1)."822\n".
+tambah_nomor($tangkap1)."833\n".
+tambah_nomor($tangkap1)."844\n".
+tambah_nomor($tangkap1)."855\n".
+tambah_nomor($tangkap1)."818\n".
+tambah_nomor($tangkap1)."828\n".
+tambah_nomor($tangkap1)."838\n".
+tambah_nomor($tangkap1)."848\n".
+tambah_nomor($tangkap1)."858\n".
+tambah_nomor($tangkap1)."118\n".
+tambah_nomor($tangkap1)."228\n".
+tambah_nomor($tangkap1)."338\n".
+tambah_nomor($tangkap1)."448\n".
+tambah_nomor($tangkap1)."558\n".
+tambah_nomor($tangkap1)."881\n".
+tambah_nomor($tangkap1)."882\n".
+tambah_nomor($tangkap1)."883\n".
+tambah_nomor($tangkap1)."884\n".
+tambah_nomor($tangkap1)."885\n".
+tambah_nomor($tangkap1)."458\n".
+tambah_nomor($tangkap1)."12345678\n".
+tambah_nomor($tangkap1)."87654321\n".
+tambah_nomor($tangkap1)."9\n".
+tambah_nomor($tangkap1)."99\n".
+tambah_nomor($tangkap1)."999\n".
+tambah_nomor($tangkap1)."9999\n".
+tambah_nomor($tangkap1)."99999\n".
+tambah_nomor($tangkap1)."91\n".
+tambah_nomor($tangkap1)."92\n".
+tambah_nomor($tangkap1)."93\n".
+tambah_nomor($tangkap1)."94\n".
+tambah_nomor($tangkap1)."95\n".
+tambah_nomor($tangkap1)."911\n".
+tambah_nomor($tangkap1)."922\n".
+tambah_nomor($tangkap1)."933\n".
+tambah_nomor($tangkap1)."944\n".
+tambah_nomor($tangkap1)."955\n".
+tambah_nomor($tangkap1)."919\n".
+tambah_nomor($tangkap1)."929\n".
+tambah_nomor($tangkap1)."939\n".
+tambah_nomor($tangkap1)."949\n".
+tambah_nomor($tangkap1)."959\n".
+tambah_nomor($tangkap1)."119\n".
+tambah_nomor($tangkap1)."229\n".
+tambah_nomor($tangkap1)."339\n".
+tambah_nomor($tangkap1)."449\n".
+tambah_nomor($tangkap1)."559\n".
+tambah_nomor($tangkap1)."991\n".
+tambah_nomor($tangkap1)."992\n".
+tambah_nomor($tangkap1)."993\n".
+tambah_nomor($tangkap1)."994\n".
+tambah_nomor($tangkap1)."995\n".
+tambah_nomor($tangkap1)."459\n".
+tambah_nomor($tangkap1)."12345678\n".
+tambah_nomor($tangkap1)."987654321\n".
+tambah_nomor($tangkap1)."0\n".
+tambah_nomor($tangkap1)."00\n".
+tambah_nomor($tangkap1)."000\n".
+tambah_nomor($tangkap1)."0000\n".
+tambah_nomor($tangkap1)."00000\n".
+tambah_nomor($tangkap1)."01\n".
+tambah_nomor($tangkap1)."02\n".
+tambah_nomor($tangkap1)."03\n".
+tambah_nomor($tangkap1)."04\n".
+tambah_nomor($tangkap1)."05\n".
+tambah_nomor($tangkap1)."011\n".
+tambah_nomor($tangkap1)."022\n".
+tambah_nomor($tangkap1)."033\n".
+tambah_nomor($tangkap1)."044\n".
+tambah_nomor($tangkap1)."055\n".
+tambah_nomor($tangkap1)."010\n".
+tambah_nomor($tangkap1)."020\n".
+tambah_nomor($tangkap1)."030\n".
+tambah_nomor($tangkap1)."040\n".
+tambah_nomor($tangkap1)."050\n".
+tambah_nomor($tangkap1)."110\n".
+tambah_nomor($tangkap1)."220\n".
+tambah_nomor($tangkap1)."330\n".
+tambah_nomor($tangkap1)."440\n".
+tambah_nomor($tangkap1)."550\n".
+tambah_nomor($tangkap1)."001\n".
+tambah_nomor($tangkap1)."002\n".
+tambah_nomor($tangkap1)."003\n".
+tambah_nomor($tangkap1)."004\n".
+tambah_nomor($tangkap1)."005\n".
+tambah_nomor($tangkap1)."450\n".
+tambah_nomor($tangkap1)."1234567890\n".
+tambah_nomor($tangkap2)."1\n".
+tambah_nomor($tangkap2)."11\n".
+tambah_nomor($tangkap2)."111\n".
+tambah_nomor($tangkap2)."1111\n".
+tambah_nomor($tangkap2)."11111\n".
+tambah_nomor($tangkap2)."2\n".
+tambah_nomor($tangkap2)."22\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."2222\n".
+tambah_nomor($tangkap2)."22222\n".
+tambah_nomor($tangkap2)."21\n".
+tambah_nomor($tangkap2)."22\n".
+tambah_nomor($tangkap2)."23\n".
+tambah_nomor($tangkap2)."24\n".
+tambah_nomor($tangkap2)."25\n".
+tambah_nomor($tangkap2)."26\n".
+tambah_nomor($tangkap2)."27\n".
+tambah_nomor($tangkap2)."28\n".
+tambah_nomor($tangkap2)."29\n".
+tambah_nomor($tangkap2)."211\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."233\n".
+tambah_nomor($tangkap2)."244\n".
+tambah_nomor($tangkap2)."255\n".
+tambah_nomor($tangkap2)."212\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."232\n".
+tambah_nomor($tangkap2)."242\n".
+tambah_nomor($tangkap2)."252\n".
+tambah_nomor($tangkap2)."112\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."332\n".
+tambah_nomor($tangkap2)."442\n".
+tambah_nomor($tangkap2)."552\n".
+tambah_nomor($tangkap2)."221\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."223\n".
+tambah_nomor($tangkap2)."224\n".
+tambah_nomor($tangkap2)."225\n".
+tambah_nomor($tangkap2)."452\n".
+tambah_nomor($tangkap2)."12\n".
+tambah_nomor($tangkap2)."21\n".
+tambah_nomor($tangkap2)."3\n".
+tambah_nomor($tangkap2)."33\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."3333\n".
+tambah_nomor($tangkap2)."33333\n".
+tambah_nomor($tangkap2)."31\n".
+tambah_nomor($tangkap2)."32\n".
+tambah_nomor($tangkap2)."33\n".
+tambah_nomor($tangkap2)."34\n".
+tambah_nomor($tangkap2)."35\n".
+tambah_nomor($tangkap2)."311\n".
+tambah_nomor($tangkap2)."322\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."344\n".
+tambah_nomor($tangkap2)."355\n".
+tambah_nomor($tangkap2)."313\n".
+tambah_nomor($tangkap2)."323\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."343\n".
+tambah_nomor($tangkap2)."353\n".
+tambah_nomor($tangkap2)."113\n".
+tambah_nomor($tangkap2)."223\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."443\n".
+tambah_nomor($tangkap2)."553\n".
+tambah_nomor($tangkap2)."331\n".
+tambah_nomor($tangkap2)."332\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."334\n".
+tambah_nomor($tangkap2)."335\n".
+tambah_nomor($tangkap2)."453\n".
+tambah_nomor($tangkap2)."123\n".
+tambah_nomor($tangkap2)."321\n".
+tambah_nomor($tangkap2)."4\n".
+tambah_nomor($tangkap2)."44\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."4444\n".
+tambah_nomor($tangkap2)."44444\n".
+tambah_nomor($tangkap2)."41\n".
+tambah_nomor($tangkap2)."42\n".
+tambah_nomor($tangkap2)."43\n".
+tambah_nomor($tangkap2)."44\n".
+tambah_nomor($tangkap2)."45\n".
+tambah_nomor($tangkap2)."411\n".
+tambah_nomor($tangkap2)."422\n".
+tambah_nomor($tangkap2)."433\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."455\n".
+tambah_nomor($tangkap2)."414\n".
+tambah_nomor($tangkap2)."424\n".
+tambah_nomor($tangkap2)."434\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."454\n".
+tambah_nomor($tangkap2)."114\n".
+tambah_nomor($tangkap2)."224\n".
+tambah_nomor($tangkap2)."334\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."441\n".
+tambah_nomor($tangkap2)."442\n".
+tambah_nomor($tangkap2)."443\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."445\n".
+tambah_nomor($tangkap2)."554\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."1234\n".
+tambah_nomor($tangkap2)."4321\n".
+tambah_nomor($tangkap2)."5\n".
+tambah_nomor($tangkap2)."55\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."5555\n".
+tambah_nomor($tangkap2)."55555\n".
+tambah_nomor($tangkap2)."51\n".
+tambah_nomor($tangkap2)."52\n".
+tambah_nomor($tangkap2)."53\n".
+tambah_nomor($tangkap2)."54\n".
+tambah_nomor($tangkap2)."55\n".
+tambah_nomor($tangkap2)."511\n".
+tambah_nomor($tangkap2)."522\n".
+tambah_nomor($tangkap2)."533\n".
+tambah_nomor($tangkap2)."544\n".
+tambah_nomor($tangkap2)."655\n".
+tambah_nomor($tangkap2)."515\n".
+tambah_nomor($tangkap2)."525\n".
+tambah_nomor($tangkap2)."535\n".
+tambah_nomor($tangkap2)."545\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."115\n".
+tambah_nomor($tangkap2)."225\n".
+tambah_nomor($tangkap2)."335\n".
+tambah_nomor($tangkap2)."445\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."551\n".
+tambah_nomor($tangkap2)."552\n".
+tambah_nomor($tangkap2)."553\n".
+tambah_nomor($tangkap2)."554\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."345\n".
+tambah_nomor($tangkap2)."12345\n".
+tambah_nomor($tangkap2)."54321\n".
+tambah_nomor($tangkap2)."6\n".
+tambah_nomor($tangkap2)."66\n".
+tambah_nomor($tangkap2)."666\n".
+tambah_nomor($tangkap2)."6666\n".
+tambah_nomor($tangkap2)."66666\n".
+tambah_nomor($tangkap2)."61\n".
+tambah_nomor($tangkap2)."62\n".
+tambah_nomor($tangkap2)."63\n".
+tambah_nomor($tangkap2)."64\n".
+tambah_nomor($tangkap2)."65\n".
+tambah_nomor($tangkap2)."611\n".
+tambah_nomor($tangkap2)."622\n".
+tambah_nomor($tangkap2)."633\n".
+tambah_nomor($tangkap2)."644\n".
+tambah_nomor($tangkap2)."655\n".
+tambah_nomor($tangkap2)."616\n".
+tambah_nomor($tangkap2)."626\n".
+tambah_nomor($tangkap2)."636\n".
+tambah_nomor($tangkap2)."646\n".
+tambah_nomor($tangkap2)."656\n".
+tambah_nomor($tangkap2)."116\n".
+tambah_nomor($tangkap2)."226\n".
+tambah_nomor($tangkap2)."336\n".
+tambah_nomor($tangkap2)."446\n".
+tambah_nomor($tangkap2)."556\n".
+tambah_nomor($tangkap2)."661\n".
+tambah_nomor($tangkap2)."662\n".
+tambah_nomor($tangkap2)."663\n".
+tambah_nomor($tangkap2)."664\n".
+tambah_nomor($tangkap2)."665\n".
+tambah_nomor($tangkap2)."456\n".
+tambah_nomor($tangkap2)."123456\n".
+tambah_nomor($tangkap2)."654321\n".
+tambah_nomor($tangkap2)."7\n".
+tambah_nomor($tangkap2)."77\n".
+tambah_nomor($tangkap2)."777\n".
+tambah_nomor($tangkap2)."7777\n".
+tambah_nomor($tangkap2)."77777\n".
+tambah_nomor($tangkap2)."71\n".
+tambah_nomor($tangkap2)."72\n".
+tambah_nomor($tangkap2)."73\n".
+tambah_nomor($tangkap2)."74\n".
+tambah_nomor($tangkap2)."75\n".
+tambah_nomor($tangkap2)."711\n".
+tambah_nomor($tangkap2)."722\n".
+tambah_nomor($tangkap2)."733\n".
+tambah_nomor($tangkap2)."744\n".
+tambah_nomor($tangkap2)."755\n".
+tambah_nomor($tangkap2)."717\n".
+tambah_nomor($tangkap2)."727\n".
+tambah_nomor($tangkap2)."737\n".
+tambah_nomor($tangkap2)."747\n".
+tambah_nomor($tangkap2)."757\n".
+tambah_nomor($tangkap2)."117\n".
+tambah_nomor($tangkap2)."227\n".
+tambah_nomor($tangkap2)."337\n".
+tambah_nomor($tangkap2)."447\n".
+tambah_nomor($tangkap2)."557\n".
+tambah_nomor($tangkap2)."771\n".
+tambah_nomor($tangkap2)."772\n".
+tambah_nomor($tangkap2)."773\n".
+tambah_nomor($tangkap2)."774\n".
+tambah_nomor($tangkap2)."775\n".
+tambah_nomor($tangkap2)."457\n".
+tambah_nomor($tangkap2)."1234567\n".
+tambah_nomor($tangkap2)."7654321\n".
+tambah_nomor($tangkap2)."8\n".
+tambah_nomor($tangkap2)."88\n".
+tambah_nomor($tangkap2)."888\n".
+tambah_nomor($tangkap2)."8888\n".
+tambah_nomor($tangkap2)."88888\n".
+tambah_nomor($tangkap2)."81\n".
+tambah_nomor($tangkap2)."82\n".
+tambah_nomor($tangkap2)."83\n".
+tambah_nomor($tangkap2)."84\n".
+tambah_nomor($tangkap2)."85\n".
+tambah_nomor($tangkap2)."811\n".
+tambah_nomor($tangkap2)."822\n".
+tambah_nomor($tangkap2)."833\n".
+tambah_nomor($tangkap2)."844\n".
+tambah_nomor($tangkap2)."855\n".
+tambah_nomor($tangkap2)."818\n".
+tambah_nomor($tangkap2)."828\n".
+tambah_nomor($tangkap2)."838\n".
+tambah_nomor($tangkap2)."848\n".
+tambah_nomor($tangkap2)."858\n".
+tambah_nomor($tangkap2)."118\n".
+tambah_nomor($tangkap2)."228\n".
+tambah_nomor($tangkap2)."338\n".
+tambah_nomor($tangkap2)."448\n".
+tambah_nomor($tangkap2)."558\n".
+tambah_nomor($tangkap2)."881\n".
+tambah_nomor($tangkap2)."882\n".
+tambah_nomor($tangkap2)."883\n".
+tambah_nomor($tangkap2)."884\n".
+tambah_nomor($tangkap2)."885\n".
+tambah_nomor($tangkap2)."458\n".
+tambah_nomor($tangkap2)."12345678\n".
+tambah_nomor($tangkap2)."87654321\n".
+tambah_nomor($tangkap2)."9\n".
+tambah_nomor($tangkap2)."99\n".
+tambah_nomor($tangkap2)."999\n".
+tambah_nomor($tangkap2)."9999\n".
+tambah_nomor($tangkap2)."99999\n".
+tambah_nomor($tangkap2)."91\n".
+tambah_nomor($tangkap2)."92\n".
+tambah_nomor($tangkap2)."93\n".
+tambah_nomor($tangkap2)."94\n".
+tambah_nomor($tangkap2)."95\n".
+tambah_nomor($tangkap2)."911\n".
+tambah_nomor($tangkap2)."922\n".
+tambah_nomor($tangkap2)."933\n".
+tambah_nomor($tangkap2)."944\n".
+tambah_nomor($tangkap2)."955\n".
+tambah_nomor($tangkap2)."919\n".
+tambah_nomor($tangkap2)."929\n".
+tambah_nomor($tangkap2)."939\n".
+tambah_nomor($tangkap2)."949\n".
+tambah_nomor($tangkap2)."959\n".
+tambah_nomor($tangkap2)."119\n".
+tambah_nomor($tangkap2)."229\n".
+tambah_nomor($tangkap2)."339\n".
+tambah_nomor($tangkap2)."449\n".
+tambah_nomor($tangkap2)."559\n".
+tambah_nomor($tangkap2)."991\n".
+tambah_nomor($tangkap2)."992\n".
+tambah_nomor($tangkap2)."993\n".
+tambah_nomor($tangkap2)."994\n".
+tambah_nomor($tangkap2)."995\n".
+tambah_nomor($tangkap2)."459\n".
+tambah_nomor($tangkap2)."12345678\n".
+tambah_nomor($tangkap2)."987654321\n".
+tambah_nomor($tangkap2)."0\n".
+tambah_nomor($tangkap2)."00\n".
+tambah_nomor($tangkap2)."000\n".
+tambah_nomor($tangkap2)."0000\n".
+tambah_nomor($tangkap2)."00000\n".
+tambah_nomor($tangkap2)."01\n".
+tambah_nomor($tangkap2)."02\n".
+tambah_nomor($tangkap2)."03\n".
+tambah_nomor($tangkap2)."04\n".
+tambah_nomor($tangkap2)."05\n".
+tambah_nomor($tangkap2)."011\n".
+tambah_nomor($tangkap2)."022\n".
+tambah_nomor($tangkap2)."033\n".
+tambah_nomor($tangkap2)."044\n".
+tambah_nomor($tangkap2)."055\n".
+tambah_nomor($tangkap2)."010\n".
+tambah_nomor($tangkap2)."020\n".
+tambah_nomor($tangkap2)."030\n".
+tambah_nomor($tangkap2)."040\n".
+tambah_nomor($tangkap2)."050\n".
+tambah_nomor($tangkap2)."110\n".
+tambah_nomor($tangkap2)."220\n".
+tambah_nomor($tangkap2)."330\n".
+tambah_nomor($tangkap2)."440\n".
+tambah_nomor($tangkap2)."550\n".
+tambah_nomor($tangkap2)."001\n".
+tambah_nomor($tangkap2)."002\n".
+tambah_nomor($tangkap2)."003\n".
+tambah_nomor($tangkap2)."004\n".
+tambah_nomor($tangkap2)."005\n".
+tambah_nomor($tangkap2)."450\n".
+tambah_nomor($tangkap2)."1234567890\n".
+
+tambah_nomor($tangkap3)."1\n".
+tambah_nomor($tangkap3)."11\n".
+tambah_nomor($tangkap3)."111\n".
+tambah_nomor($tangkap3)."1111\n".
+tambah_nomor($tangkap3)."11111\n".
+tambah_nomor($tangkap3)."2\n".
+tambah_nomor($tangkap3)."22\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."2222\n".
+tambah_nomor($tangkap3)."22222\n".
+tambah_nomor($tangkap3)."21\n".
+tambah_nomor($tangkap3)."22\n".
+tambah_nomor($tangkap3)."23\n".
+tambah_nomor($tangkap3)."24\n".
+tambah_nomor($tangkap3)."25\n".
+tambah_nomor($tangkap3)."26\n".
+tambah_nomor($tangkap3)."27\n".
+tambah_nomor($tangkap3)."28\n".
+tambah_nomor($tangkap3)."29\n".
+tambah_nomor($tangkap3)."211\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."233\n".
+tambah_nomor($tangkap3)."244\n".
+tambah_nomor($tangkap3)."255\n".
+tambah_nomor($tangkap3)."212\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."232\n".
+tambah_nomor($tangkap3)."242\n".
+tambah_nomor($tangkap3)."252\n".
+tambah_nomor($tangkap3)."112\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."332\n".
+tambah_nomor($tangkap3)."442\n".
+tambah_nomor($tangkap3)."552\n".
+tambah_nomor($tangkap3)."221\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."223\n".
+tambah_nomor($tangkap3)."224\n".
+tambah_nomor($tangkap3)."225\n".
+tambah_nomor($tangkap3)."452\n".
+tambah_nomor($tangkap3)."12\n".
+tambah_nomor($tangkap3)."21\n".
+tambah_nomor($tangkap3)."3\n".
+tambah_nomor($tangkap3)."33\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."3333\n".
+tambah_nomor($tangkap3)."33333\n".
+tambah_nomor($tangkap3)."31\n".
+tambah_nomor($tangkap3)."32\n".
+tambah_nomor($tangkap3)."33\n".
+tambah_nomor($tangkap3)."34\n".
+tambah_nomor($tangkap3)."35\n".
+tambah_nomor($tangkap3)."311\n".
+tambah_nomor($tangkap3)."322\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."344\n".
+tambah_nomor($tangkap3)."355\n".
+tambah_nomor($tangkap3)."313\n".
+tambah_nomor($tangkap3)."323\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."343\n".
+tambah_nomor($tangkap3)."353\n".
+tambah_nomor($tangkap3)."113\n".
+tambah_nomor($tangkap3)."223\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."443\n".
+tambah_nomor($tangkap3)."553\n".
+tambah_nomor($tangkap3)."331\n".
+tambah_nomor($tangkap3)."332\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."334\n".
+tambah_nomor($tangkap3)."335\n".
+tambah_nomor($tangkap3)."453\n".
+tambah_nomor($tangkap3)."123\n".
+tambah_nomor($tangkap3)."321\n".
+tambah_nomor($tangkap3)."4\n".
+tambah_nomor($tangkap3)."44\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."4444\n".
+tambah_nomor($tangkap3)."44444\n".
+tambah_nomor($tangkap3)."41\n".
+tambah_nomor($tangkap3)."42\n".
+tambah_nomor($tangkap3)."43\n".
+tambah_nomor($tangkap3)."44\n".
+tambah_nomor($tangkap3)."45\n".
+tambah_nomor($tangkap3)."411\n".
+tambah_nomor($tangkap3)."422\n".
+tambah_nomor($tangkap3)."433\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."455\n".
+tambah_nomor($tangkap3)."414\n".
+tambah_nomor($tangkap3)."424\n".
+tambah_nomor($tangkap3)."434\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."454\n".
+tambah_nomor($tangkap3)."114\n".
+tambah_nomor($tangkap3)."224\n".
+tambah_nomor($tangkap3)."334\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."441\n".
+tambah_nomor($tangkap3)."442\n".
+tambah_nomor($tangkap3)."443\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."445\n".
+tambah_nomor($tangkap3)."554\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."1234\n".
+tambah_nomor($tangkap3)."4321\n".
+tambah_nomor($tangkap3)."5\n".
+tambah_nomor($tangkap3)."55\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."5555\n".
+tambah_nomor($tangkap3)."55555\n".
+tambah_nomor($tangkap3)."51\n".
+tambah_nomor($tangkap3)."52\n".
+tambah_nomor($tangkap3)."53\n".
+tambah_nomor($tangkap3)."54\n".
+tambah_nomor($tangkap3)."55\n".
+tambah_nomor($tangkap3)."511\n".
+tambah_nomor($tangkap3)."522\n".
+tambah_nomor($tangkap3)."533\n".
+tambah_nomor($tangkap3)."544\n".
+tambah_nomor($tangkap3)."655\n".
+tambah_nomor($tangkap3)."515\n".
+tambah_nomor($tangkap3)."525\n".
+tambah_nomor($tangkap3)."535\n".
+tambah_nomor($tangkap3)."545\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."115\n".
+tambah_nomor($tangkap3)."225\n".
+tambah_nomor($tangkap3)."335\n".
+tambah_nomor($tangkap3)."445\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."551\n".
+tambah_nomor($tangkap3)."552\n".
+tambah_nomor($tangkap3)."553\n".
+tambah_nomor($tangkap3)."554\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."345\n".
+tambah_nomor($tangkap3)."12345\n".
+tambah_nomor($tangkap3)."54321\n".
+tambah_nomor($tangkap3)."6\n".
+tambah_nomor($tangkap3)."66\n".
+tambah_nomor($tangkap3)."666\n".
+tambah_nomor($tangkap3)."6666\n".
+tambah_nomor($tangkap3)."66666\n".
+tambah_nomor($tangkap3)."61\n".
+tambah_nomor($tangkap3)."62\n".
+tambah_nomor($tangkap3)."63\n".
+tambah_nomor($tangkap3)."64\n".
+tambah_nomor($tangkap3)."65\n".
+tambah_nomor($tangkap3)."611\n".
+tambah_nomor($tangkap3)."622\n".
+tambah_nomor($tangkap3)."633\n".
+tambah_nomor($tangkap3)."644\n".
+tambah_nomor($tangkap3)."655\n".
+tambah_nomor($tangkap3)."616\n".
+tambah_nomor($tangkap3)."626\n".
+tambah_nomor($tangkap3)."636\n".
+tambah_nomor($tangkap3)."646\n".
+tambah_nomor($tangkap3)."656\n".
+tambah_nomor($tangkap3)."116\n".
+tambah_nomor($tangkap3)."226\n".
+tambah_nomor($tangkap3)."336\n".
+tambah_nomor($tangkap3)."446\n".
+tambah_nomor($tangkap3)."556\n".
+tambah_nomor($tangkap3)."661\n".
+tambah_nomor($tangkap3)."662\n".
+tambah_nomor($tangkap3)."663\n".
+tambah_nomor($tangkap3)."664\n".
+tambah_nomor($tangkap3)."665\n".
+tambah_nomor($tangkap3)."456\n".
+tambah_nomor($tangkap3)."123456\n".
+tambah_nomor($tangkap3)."654321\n".
+tambah_nomor($tangkap3)."7\n".
+tambah_nomor($tangkap3)."77\n".
+tambah_nomor($tangkap3)."777\n".
+tambah_nomor($tangkap3)."7777\n".
+tambah_nomor($tangkap3)."77777\n".
+tambah_nomor($tangkap3)."71\n".
+tambah_nomor($tangkap3)."72\n".
+tambah_nomor($tangkap3)."73\n".
+tambah_nomor($tangkap3)."74\n".
+tambah_nomor($tangkap3)."75\n".
+tambah_nomor($tangkap3)."711\n".
+tambah_nomor($tangkap3)."722\n".
+tambah_nomor($tangkap3)."733\n".
+tambah_nomor($tangkap3)."744\n".
+tambah_nomor($tangkap3)."755\n".
+tambah_nomor($tangkap3)."717\n".
+tambah_nomor($tangkap3)."727\n".
+tambah_nomor($tangkap3)."737\n".
+tambah_nomor($tangkap3)."747\n".
+tambah_nomor($tangkap3)."757\n".
+tambah_nomor($tangkap3)."117\n".
+tambah_nomor($tangkap3)."227\n".
+tambah_nomor($tangkap3)."337\n".
+tambah_nomor($tangkap3)."447\n".
+tambah_nomor($tangkap3)."557\n".
+tambah_nomor($tangkap3)."771\n".
+tambah_nomor($tangkap3)."772\n".
+tambah_nomor($tangkap3)."773\n".
+tambah_nomor($tangkap3)."774\n".
+tambah_nomor($tangkap3)."775\n".
+tambah_nomor($tangkap3)."457\n".
+tambah_nomor($tangkap3)."1234567\n".
+tambah_nomor($tangkap3)."7654321\n".
+tambah_nomor($tangkap3)."8\n".
+tambah_nomor($tangkap3)."88\n".
+tambah_nomor($tangkap3)."888\n".
+tambah_nomor($tangkap3)."8888\n".
+tambah_nomor($tangkap3)."88888\n".
+tambah_nomor($tangkap3)."81\n".
+tambah_nomor($tangkap3)."82\n".
+tambah_nomor($tangkap3)."83\n".
+tambah_nomor($tangkap3)."84\n".
+tambah_nomor($tangkap3)."85\n".
+tambah_nomor($tangkap3)."811\n".
+tambah_nomor($tangkap3)."822\n".
+tambah_nomor($tangkap3)."833\n".
+tambah_nomor($tangkap3)."844\n".
+tambah_nomor($tangkap3)."855\n".
+tambah_nomor($tangkap3)."818\n".
+tambah_nomor($tangkap3)."828\n".
+tambah_nomor($tangkap3)."838\n".
+tambah_nomor($tangkap3)."848\n".
+tambah_nomor($tangkap3)."858\n".
+tambah_nomor($tangkap3)."118\n".
+tambah_nomor($tangkap3)."228\n".
+tambah_nomor($tangkap3)."338\n".
+tambah_nomor($tangkap3)."448\n".
+tambah_nomor($tangkap3)."558\n".
+tambah_nomor($tangkap3)."881\n".
+tambah_nomor($tangkap3)."882\n".
+tambah_nomor($tangkap3)."883\n".
+tambah_nomor($tangkap3)."884\n".
+tambah_nomor($tangkap3)."885\n".
+tambah_nomor($tangkap3)."458\n".
+tambah_nomor($tangkap3)."12345678\n".
+tambah_nomor($tangkap3)."87654321\n".
+tambah_nomor($tangkap3)."9\n".
+tambah_nomor($tangkap3)."99\n".
+tambah_nomor($tangkap3)."999\n".
+tambah_nomor($tangkap3)."9999\n".
+tambah_nomor($tangkap3)."99999\n".
+tambah_nomor($tangkap3)."91\n".
+tambah_nomor($tangkap3)."92\n".
+tambah_nomor($tangkap3)."93\n".
+tambah_nomor($tangkap3)."94\n".
+tambah_nomor($tangkap3)."95\n".
+tambah_nomor($tangkap3)."911\n".
+tambah_nomor($tangkap3)."922\n".
+tambah_nomor($tangkap3)."933\n".
+tambah_nomor($tangkap3)."944\n".
+tambah_nomor($tangkap3)."955\n".
+tambah_nomor($tangkap3)."919\n".
+tambah_nomor($tangkap3)."929\n".
+tambah_nomor($tangkap3)."939\n".
+tambah_nomor($tangkap3)."949\n".
+tambah_nomor($tangkap3)."959\n".
+tambah_nomor($tangkap3)."119\n".
+tambah_nomor($tangkap3)."229\n".
+tambah_nomor($tangkap3)."339\n".
+tambah_nomor($tangkap3)."449\n".
+tambah_nomor($tangkap3)."559\n".
+tambah_nomor($tangkap3)."991\n".
+tambah_nomor($tangkap3)."992\n".
+tambah_nomor($tangkap3)."993\n".
+tambah_nomor($tangkap3)."994\n".
+tambah_nomor($tangkap3)."995\n".
+tambah_nomor($tangkap3)."459\n".
+tambah_nomor($tangkap3)."12345678\n".
+tambah_nomor($tangkap3)."987654321\n".
+tambah_nomor($tangkap3)."0\n".
+tambah_nomor($tangkap3)."00\n".
+tambah_nomor($tangkap3)."000\n".
+tambah_nomor($tangkap3)."0000\n".
+tambah_nomor($tangkap3)."00000\n".
+tambah_nomor($tangkap3)."01\n".
+tambah_nomor($tangkap3)."02\n".
+tambah_nomor($tangkap3)."03\n".
+tambah_nomor($tangkap3)."04\n".
+tambah_nomor($tangkap3)."05\n".
+tambah_nomor($tangkap3)."011\n".
+tambah_nomor($tangkap3)."022\n".
+tambah_nomor($tangkap3)."033\n".
+tambah_nomor($tangkap3)."044\n".
+tambah_nomor($tangkap3)."055\n".
+tambah_nomor($tangkap3)."010\n".
+tambah_nomor($tangkap3)."020\n".
+tambah_nomor($tangkap3)."030\n".
+tambah_nomor($tangkap3)."040\n".
+tambah_nomor($tangkap3)."050\n".
+tambah_nomor($tangkap3)."110\n".
+tambah_nomor($tangkap3)."220\n".
+tambah_nomor($tangkap3)."330\n".
+tambah_nomor($tangkap3)."440\n".
+tambah_nomor($tangkap3)."550\n".
+tambah_nomor($tangkap3)."001\n".
+tambah_nomor($tangkap3)."002\n".
+tambah_nomor($tangkap3)."003\n".
+tambah_nomor($tangkap3)."004\n".
+tambah_nomor($tangkap3)."005\n".
+tambah_nomor($tangkap3)."450\n".
+tambah_nomor($tangkap3)."1234567890\n".
+
+tambah_nomor($tangkap13)."1\n".
+tambah_nomor($tangkap13)."11\n".
+tambah_nomor($tangkap13)."111\n".
+tambah_nomor($tangkap13)."1111\n".
+tambah_nomor($tangkap13)."11111\n".
+tambah_nomor($tangkap13)."2\n".
+tambah_nomor($tangkap13)."22\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."2222\n".
+tambah_nomor($tangkap13)."22222\n".
+tambah_nomor($tangkap13)."21\n".
+tambah_nomor($tangkap13)."22\n".
+tambah_nomor($tangkap13)."23\n".
+tambah_nomor($tangkap13)."24\n".
+tambah_nomor($tangkap13)."25\n".
+tambah_nomor($tangkap13)."26\n".
+tambah_nomor($tangkap13)."27\n".
+tambah_nomor($tangkap13)."28\n".
+tambah_nomor($tangkap13)."29\n".
+tambah_nomor($tangkap13)."211\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."233\n".
+tambah_nomor($tangkap13)."244\n".
+tambah_nomor($tangkap13)."255\n".
+tambah_nomor($tangkap13)."212\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."232\n".
+tambah_nomor($tangkap13)."242\n".
+tambah_nomor($tangkap13)."252\n".
+tambah_nomor($tangkap13)."112\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."332\n".
+tambah_nomor($tangkap13)."442\n".
+tambah_nomor($tangkap13)."552\n".
+tambah_nomor($tangkap13)."221\n".
+tambah_nomor($tangkap13)."222\n".
+tambah_nomor($tangkap13)."223\n".
+tambah_nomor($tangkap13)."224\n".
+tambah_nomor($tangkap13)."225\n".
+tambah_nomor($tangkap13)."452\n".
+tambah_nomor($tangkap13)."12\n".
+tambah_nomor($tangkap13)."21\n".
+tambah_nomor($tangkap13)."3\n".
+tambah_nomor($tangkap13)."33\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."3333\n".
+tambah_nomor($tangkap13)."33333\n".
+tambah_nomor($tangkap13)."31\n".
+tambah_nomor($tangkap13)."32\n".
+tambah_nomor($tangkap13)."33\n".
+tambah_nomor($tangkap13)."34\n".
+tambah_nomor($tangkap13)."35\n".
+tambah_nomor($tangkap13)."311\n".
+tambah_nomor($tangkap13)."322\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."344\n".
+tambah_nomor($tangkap13)."355\n".
+tambah_nomor($tangkap13)."313\n".
+tambah_nomor($tangkap13)."323\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."343\n".
+tambah_nomor($tangkap13)."353\n".
+tambah_nomor($tangkap13)."113\n".
+tambah_nomor($tangkap13)."223\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."443\n".
+tambah_nomor($tangkap13)."553\n".
+tambah_nomor($tangkap13)."331\n".
+tambah_nomor($tangkap13)."332\n".
+tambah_nomor($tangkap13)."333\n".
+tambah_nomor($tangkap13)."334\n".
+tambah_nomor($tangkap13)."335\n".
+tambah_nomor($tangkap13)."453\n".
+tambah_nomor($tangkap13)."123\n".
+tambah_nomor($tangkap13)."321\n".
+tambah_nomor($tangkap13)."4\n".
+tambah_nomor($tangkap13)."44\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."4444\n".
+tambah_nomor($tangkap13)."44444\n".
+tambah_nomor($tangkap13)."41\n".
+tambah_nomor($tangkap13)."42\n".
+tambah_nomor($tangkap13)."43\n".
+tambah_nomor($tangkap13)."44\n".
+tambah_nomor($tangkap13)."45\n".
+tambah_nomor($tangkap13)."411\n".
+tambah_nomor($tangkap13)."422\n".
+tambah_nomor($tangkap13)."433\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."455\n".
+tambah_nomor($tangkap13)."414\n".
+tambah_nomor($tangkap13)."424\n".
+tambah_nomor($tangkap13)."434\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."454\n".
+tambah_nomor($tangkap13)."114\n".
+tambah_nomor($tangkap13)."224\n".
+tambah_nomor($tangkap13)."334\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."441\n".
+tambah_nomor($tangkap13)."442\n".
+tambah_nomor($tangkap13)."443\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."445\n".
+tambah_nomor($tangkap13)."554\n".
+tambah_nomor($tangkap13)."444\n".
+tambah_nomor($tangkap13)."1234\n".
+tambah_nomor($tangkap13)."4321\n".
+tambah_nomor($tangkap13)."5\n".
+tambah_nomor($tangkap13)."55\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."5555\n".
+tambah_nomor($tangkap13)."55555\n".
+tambah_nomor($tangkap13)."51\n".
+tambah_nomor($tangkap13)."52\n".
+tambah_nomor($tangkap13)."53\n".
+tambah_nomor($tangkap13)."54\n".
+tambah_nomor($tangkap13)."55\n".
+tambah_nomor($tangkap13)."511\n".
+tambah_nomor($tangkap13)."522\n".
+tambah_nomor($tangkap13)."533\n".
+tambah_nomor($tangkap13)."544\n".
+tambah_nomor($tangkap13)."655\n".
+tambah_nomor($tangkap13)."515\n".
+tambah_nomor($tangkap13)."525\n".
+tambah_nomor($tangkap13)."535\n".
+tambah_nomor($tangkap13)."545\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."115\n".
+tambah_nomor($tangkap13)."225\n".
+tambah_nomor($tangkap13)."335\n".
+tambah_nomor($tangkap13)."445\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."551\n".
+tambah_nomor($tangkap13)."552\n".
+tambah_nomor($tangkap13)."553\n".
+tambah_nomor($tangkap13)."554\n".
+tambah_nomor($tangkap13)."555\n".
+tambah_nomor($tangkap13)."345\n".
+tambah_nomor($tangkap13)."12345\n".
+tambah_nomor($tangkap13)."54321\n".
+tambah_nomor($tangkap13)."6\n".
+tambah_nomor($tangkap13)."66\n".
+tambah_nomor($tangkap13)."666\n".
+tambah_nomor($tangkap13)."6666\n".
+tambah_nomor($tangkap13)."66666\n".
+tambah_nomor($tangkap13)."61\n".
+tambah_nomor($tangkap13)."62\n".
+tambah_nomor($tangkap13)."63\n".
+tambah_nomor($tangkap13)."64\n".
+tambah_nomor($tangkap13)."65\n".
+tambah_nomor($tangkap13)."611\n".
+tambah_nomor($tangkap13)."622\n".
+tambah_nomor($tangkap13)."633\n".
+tambah_nomor($tangkap13)."644\n".
+tambah_nomor($tangkap13)."655\n".
+tambah_nomor($tangkap13)."616\n".
+tambah_nomor($tangkap13)."626\n".
+tambah_nomor($tangkap13)."636\n".
+tambah_nomor($tangkap13)."646\n".
+tambah_nomor($tangkap13)."656\n".
+tambah_nomor($tangkap13)."116\n".
+tambah_nomor($tangkap13)."226\n".
+tambah_nomor($tangkap13)."336\n".
+tambah_nomor($tangkap13)."446\n".
+tambah_nomor($tangkap13)."556\n".
+tambah_nomor($tangkap13)."661\n".
+tambah_nomor($tangkap13)."662\n".
+tambah_nomor($tangkap13)."663\n".
+tambah_nomor($tangkap13)."664\n".
+tambah_nomor($tangkap13)."665\n".
+tambah_nomor($tangkap13)."456\n".
+tambah_nomor($tangkap13)."123456\n".
+tambah_nomor($tangkap13)."654321\n".
+tambah_nomor($tangkap13)."7\n".
+tambah_nomor($tangkap13)."77\n".
+tambah_nomor($tangkap13)."777\n".
+tambah_nomor($tangkap13)."7777\n".
+tambah_nomor($tangkap13)."77777\n".
+tambah_nomor($tangkap13)."71\n".
+tambah_nomor($tangkap13)."72\n".
+tambah_nomor($tangkap13)."73\n".
+tambah_nomor($tangkap13)."74\n".
+tambah_nomor($tangkap13)."75\n".
+tambah_nomor($tangkap13)."711\n".
+tambah_nomor($tangkap13)."722\n".
+tambah_nomor($tangkap13)."733\n".
+tambah_nomor($tangkap13)."744\n".
+tambah_nomor($tangkap13)."755\n".
+tambah_nomor($tangkap13)."717\n".
+tambah_nomor($tangkap13)."727\n".
+tambah_nomor($tangkap13)."737\n".
+tambah_nomor($tangkap13)."747\n".
+tambah_nomor($tangkap13)."757\n".
+tambah_nomor($tangkap13)."117\n".
+tambah_nomor($tangkap13)."227\n".
+tambah_nomor($tangkap13)."337\n".
+tambah_nomor($tangkap13)."447\n".
+tambah_nomor($tangkap13)."557\n".
+tambah_nomor($tangkap13)."771\n".
+tambah_nomor($tangkap13)."772\n".
+tambah_nomor($tangkap13)."773\n".
+tambah_nomor($tangkap13)."774\n".
+tambah_nomor($tangkap13)."775\n".
+tambah_nomor($tangkap13)."457\n".
+tambah_nomor($tangkap13)."1234567\n".
+tambah_nomor($tangkap13)."7654321\n".
+tambah_nomor($tangkap13)."8\n".
+tambah_nomor($tangkap13)."88\n".
+tambah_nomor($tangkap13)."888\n".
+tambah_nomor($tangkap13)."8888\n".
+tambah_nomor($tangkap13)."88888\n".
+tambah_nomor($tangkap13)."81\n".
+tambah_nomor($tangkap13)."82\n".
+tambah_nomor($tangkap13)."83\n".
+tambah_nomor($tangkap13)."84\n".
+tambah_nomor($tangkap13)."85\n".
+tambah_nomor($tangkap13)."811\n".
+tambah_nomor($tangkap13)."822\n".
+tambah_nomor($tangkap13)."833\n".
+tambah_nomor($tangkap13)."844\n".
+tambah_nomor($tangkap13)."855\n".
+tambah_nomor($tangkap13)."818\n".
+tambah_nomor($tangkap13)."828\n".
+tambah_nomor($tangkap13)."838\n".
+tambah_nomor($tangkap13)."848\n".
+tambah_nomor($tangkap13)."858\n".
+tambah_nomor($tangkap13)."118\n".
+tambah_nomor($tangkap13)."228\n".
+tambah_nomor($tangkap13)."338\n".
+tambah_nomor($tangkap13)."448\n".
+tambah_nomor($tangkap13)."558\n".
+tambah_nomor($tangkap13)."881\n".
+tambah_nomor($tangkap13)."882\n".
+tambah_nomor($tangkap13)."883\n".
+tambah_nomor($tangkap13)."884\n".
+tambah_nomor($tangkap13)."885\n".
+tambah_nomor($tangkap13)."458\n".
+tambah_nomor($tangkap13)."12345678\n".
+tambah_nomor($tangkap13)."87654321\n".
+tambah_nomor($tangkap13)."9\n".
+tambah_nomor($tangkap13)."99\n".
+tambah_nomor($tangkap13)."999\n".
+tambah_nomor($tangkap13)."9999\n".
+tambah_nomor($tangkap13)."99999\n".
+tambah_nomor($tangkap13)."91\n".
+tambah_nomor($tangkap13)."92\n".
+tambah_nomor($tangkap13)."93\n".
+tambah_nomor($tangkap13)."94\n".
+tambah_nomor($tangkap13)."95\n".
+tambah_nomor($tangkap13)."911\n".
+tambah_nomor($tangkap13)."922\n".
+tambah_nomor($tangkap13)."933\n".
+tambah_nomor($tangkap13)."944\n".
+tambah_nomor($tangkap13)."955\n".
+tambah_nomor($tangkap13)."919\n".
+tambah_nomor($tangkap13)."929\n".
+tambah_nomor($tangkap13)."939\n".
+tambah_nomor($tangkap13)."949\n".
+tambah_nomor($tangkap13)."959\n".
+tambah_nomor($tangkap13)."119\n".
+tambah_nomor($tangkap13)."229\n".
+tambah_nomor($tangkap13)."339\n".
+tambah_nomor($tangkap13)."449\n".
+tambah_nomor($tangkap13)."559\n".
+tambah_nomor($tangkap13)."991\n".
+tambah_nomor($tangkap13)."992\n".
+tambah_nomor($tangkap13)."993\n".
+tambah_nomor($tangkap13)."994\n".
+tambah_nomor($tangkap13)."995\n".
+tambah_nomor($tangkap13)."459\n".
+tambah_nomor($tangkap13)."12345678\n".
+tambah_nomor($tangkap13)."987654321\n".
+tambah_nomor($tangkap13)."0\n".
+tambah_nomor($tangkap13)."00\n".
+tambah_nomor($tangkap13)."000\n".
+tambah_nomor($tangkap13)."0000\n".
+tambah_nomor($tangkap13)."00000\n".
+tambah_nomor($tangkap13)."01\n".
+tambah_nomor($tangkap13)."02\n".
+tambah_nomor($tangkap13)."03\n".
+tambah_nomor($tangkap13)."04\n".
+tambah_nomor($tangkap13)."05\n".
+tambah_nomor($tangkap13)."011\n".
+tambah_nomor($tangkap13)."022\n".
+tambah_nomor($tangkap13)."033\n".
+tambah_nomor($tangkap13)."044\n".
+tambah_nomor($tangkap13)."055\n".
+tambah_nomor($tangkap13)."010\n".
+tambah_nomor($tangkap13)."020\n".
+tambah_nomor($tangkap13)."030\n".
+tambah_nomor($tangkap13)."040\n".
+tambah_nomor($tangkap13)."050\n".
+tambah_nomor($tangkap13)."110\n".
+tambah_nomor($tangkap13)."220\n".
+tambah_nomor($tangkap13)."330\n".
+tambah_nomor($tangkap13)."440\n".
+tambah_nomor($tangkap13)."550\n".
+tambah_nomor($tangkap13)."001\n".
+tambah_nomor($tangkap13)."002\n".
+tambah_nomor($tangkap13)."003\n".
+tambah_nomor($tangkap13)."004\n".
+tambah_nomor($tangkap13)."005\n".
+tambah_nomor($tangkap13)."450\n".
+tambah_nomor($tangkap13)."1234567890\n".
+
+
+tambah_nomor($tangkap9)."1\n".
+tambah_nomor($tangkap9)."11\n".
+tambah_nomor($tangkap9)."111\n".
+tambah_nomor($tangkap9)."1111\n".
+tambah_nomor($tangkap9)."11111\n".
+tambah_nomor($tangkap9)."2\n".
+tambah_nomor($tangkap9)."22\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."2222\n".
+tambah_nomor($tangkap9)."22222\n".
+tambah_nomor($tangkap9)."21\n".
+tambah_nomor($tangkap9)."22\n".
+tambah_nomor($tangkap9)."23\n".
+tambah_nomor($tangkap9)."24\n".
+tambah_nomor($tangkap9)."25\n".
+tambah_nomor($tangkap9)."26\n".
+tambah_nomor($tangkap9)."27\n".
+tambah_nomor($tangkap9)."28\n".
+tambah_nomor($tangkap9)."29\n".
+tambah_nomor($tangkap9)."211\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."233\n".
+tambah_nomor($tangkap9)."244\n".
+tambah_nomor($tangkap9)."255\n".
+tambah_nomor($tangkap9)."212\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."232\n".
+tambah_nomor($tangkap9)."242\n".
+tambah_nomor($tangkap9)."252\n".
+tambah_nomor($tangkap9)."112\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."332\n".
+tambah_nomor($tangkap9)."442\n".
+tambah_nomor($tangkap9)."552\n".
+tambah_nomor($tangkap9)."221\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."223\n".
+tambah_nomor($tangkap9)."224\n".
+tambah_nomor($tangkap9)."225\n".
+tambah_nomor($tangkap9)."452\n".
+tambah_nomor($tangkap9)."12\n".
+tambah_nomor($tangkap9)."21\n".
+tambah_nomor($tangkap9)."3\n".
+tambah_nomor($tangkap9)."33\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."3333\n".
+tambah_nomor($tangkap9)."33333\n".
+tambah_nomor($tangkap9)."31\n".
+tambah_nomor($tangkap9)."32\n".
+tambah_nomor($tangkap9)."33\n".
+tambah_nomor($tangkap9)."34\n".
+tambah_nomor($tangkap9)."35\n".
+tambah_nomor($tangkap9)."311\n".
+tambah_nomor($tangkap9)."322\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."344\n".
+tambah_nomor($tangkap9)."355\n".
+tambah_nomor($tangkap9)."313\n".
+tambah_nomor($tangkap9)."323\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."343\n".
+tambah_nomor($tangkap9)."353\n".
+tambah_nomor($tangkap9)."113\n".
+tambah_nomor($tangkap9)."223\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."443\n".
+tambah_nomor($tangkap9)."553\n".
+tambah_nomor($tangkap9)."331\n".
+tambah_nomor($tangkap9)."332\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."334\n".
+tambah_nomor($tangkap9)."335\n".
+tambah_nomor($tangkap9)."453\n".
+tambah_nomor($tangkap9)."123\n".
+tambah_nomor($tangkap9)."321\n".
+tambah_nomor($tangkap9)."4\n".
+tambah_nomor($tangkap9)."44\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."4444\n".
+tambah_nomor($tangkap9)."44444\n".
+tambah_nomor($tangkap9)."41\n".
+tambah_nomor($tangkap9)."42\n".
+tambah_nomor($tangkap9)."43\n".
+tambah_nomor($tangkap9)."44\n".
+tambah_nomor($tangkap9)."45\n".
+tambah_nomor($tangkap9)."411\n".
+tambah_nomor($tangkap9)."422\n".
+tambah_nomor($tangkap9)."433\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."455\n".
+tambah_nomor($tangkap9)."414\n".
+tambah_nomor($tangkap9)."424\n".
+tambah_nomor($tangkap9)."434\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."454\n".
+tambah_nomor($tangkap9)."114\n".
+tambah_nomor($tangkap9)."224\n".
+tambah_nomor($tangkap9)."334\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."441\n".
+tambah_nomor($tangkap9)."442\n".
+tambah_nomor($tangkap9)."443\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."445\n".
+tambah_nomor($tangkap9)."554\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."1234\n".
+tambah_nomor($tangkap9)."4321\n".
+tambah_nomor($tangkap9)."5\n".
+tambah_nomor($tangkap9)."55\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."5555\n".
+tambah_nomor($tangkap9)."55555\n".
+tambah_nomor($tangkap9)."51\n".
+tambah_nomor($tangkap9)."52\n".
+tambah_nomor($tangkap9)."53\n".
+tambah_nomor($tangkap9)."54\n".
+tambah_nomor($tangkap9)."55\n".
+tambah_nomor($tangkap9)."511\n".
+tambah_nomor($tangkap9)."522\n".
+tambah_nomor($tangkap9)."533\n".
+tambah_nomor($tangkap9)."544\n".
+tambah_nomor($tangkap9)."655\n".
+tambah_nomor($tangkap9)."515\n".
+tambah_nomor($tangkap9)."525\n".
+tambah_nomor($tangkap9)."535\n".
+tambah_nomor($tangkap9)."545\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."115\n".
+tambah_nomor($tangkap9)."225\n".
+tambah_nomor($tangkap9)."335\n".
+tambah_nomor($tangkap9)."445\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."551\n".
+tambah_nomor($tangkap9)."552\n".
+tambah_nomor($tangkap9)."553\n".
+tambah_nomor($tangkap9)."554\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."345\n".
+tambah_nomor($tangkap9)."12345\n".
+tambah_nomor($tangkap9)."54321\n".
+tambah_nomor($tangkap9)."6\n".
+tambah_nomor($tangkap9)."66\n".
+tambah_nomor($tangkap9)."666\n".
+tambah_nomor($tangkap9)."6666\n".
+tambah_nomor($tangkap9)."66666\n".
+tambah_nomor($tangkap9)."61\n".
+tambah_nomor($tangkap9)."62\n".
+tambah_nomor($tangkap9)."63\n".
+tambah_nomor($tangkap9)."64\n".
+tambah_nomor($tangkap9)."65\n".
+tambah_nomor($tangkap9)."611\n".
+tambah_nomor($tangkap9)."622\n".
+tambah_nomor($tangkap9)."633\n".
+tambah_nomor($tangkap9)."644\n".
+tambah_nomor($tangkap9)."655\n".
+tambah_nomor($tangkap9)."616\n".
+tambah_nomor($tangkap9)."626\n".
+tambah_nomor($tangkap9)."636\n".
+tambah_nomor($tangkap9)."646\n".
+tambah_nomor($tangkap9)."656\n".
+tambah_nomor($tangkap9)."116\n".
+tambah_nomor($tangkap9)."226\n".
+tambah_nomor($tangkap9)."336\n".
+tambah_nomor($tangkap9)."446\n".
+tambah_nomor($tangkap9)."556\n".
+tambah_nomor($tangkap9)."661\n".
+tambah_nomor($tangkap9)."662\n".
+tambah_nomor($tangkap9)."663\n".
+tambah_nomor($tangkap9)."664\n".
+tambah_nomor($tangkap9)."665\n".
+tambah_nomor($tangkap9)."456\n".
+tambah_nomor($tangkap9)."123456\n".
+tambah_nomor($tangkap9)."654321\n".
+tambah_nomor($tangkap9)."7\n".
+tambah_nomor($tangkap9)."77\n".
+tambah_nomor($tangkap9)."777\n".
+tambah_nomor($tangkap9)."7777\n".
+tambah_nomor($tangkap9)."77777\n".
+tambah_nomor($tangkap9)."71\n".
+tambah_nomor($tangkap9)."72\n".
+tambah_nomor($tangkap9)."73\n".
+tambah_nomor($tangkap9)."74\n".
+tambah_nomor($tangkap9)."75\n".
+tambah_nomor($tangkap9)."711\n".
+tambah_nomor($tangkap9)."722\n".
+tambah_nomor($tangkap9)."733\n".
+tambah_nomor($tangkap9)."744\n".
+tambah_nomor($tangkap9)."755\n".
+tambah_nomor($tangkap9)."717\n".
+tambah_nomor($tangkap9)."727\n".
+tambah_nomor($tangkap9)."737\n".
+tambah_nomor($tangkap9)."747\n".
+tambah_nomor($tangkap9)."757\n".
+tambah_nomor($tangkap9)."117\n".
+tambah_nomor($tangkap9)."227\n".
+tambah_nomor($tangkap9)."337\n".
+tambah_nomor($tangkap9)."447\n".
+tambah_nomor($tangkap9)."557\n".
+tambah_nomor($tangkap9)."771\n".
+tambah_nomor($tangkap9)."772\n".
+tambah_nomor($tangkap9)."773\n".
+tambah_nomor($tangkap9)."774\n".
+tambah_nomor($tangkap9)."775\n".
+tambah_nomor($tangkap9)."457\n".
+tambah_nomor($tangkap9)."1234567\n".
+tambah_nomor($tangkap9)."7654321\n".
+tambah_nomor($tangkap9)."8\n".
+tambah_nomor($tangkap9)."88\n".
+tambah_nomor($tangkap9)."888\n".
+tambah_nomor($tangkap9)."8888\n".
+tambah_nomor($tangkap9)."88888\n".
+tambah_nomor($tangkap9)."81\n".
+tambah_nomor($tangkap9)."82\n".
+tambah_nomor($tangkap9)."83\n".
+tambah_nomor($tangkap9)."84\n".
+tambah_nomor($tangkap9)."85\n".
+tambah_nomor($tangkap9)."811\n".
+tambah_nomor($tangkap9)."822\n".
+tambah_nomor($tangkap9)."833\n".
+tambah_nomor($tangkap9)."844\n".
+tambah_nomor($tangkap9)."855\n".
+tambah_nomor($tangkap9)."818\n".
+tambah_nomor($tangkap9)."828\n".
+tambah_nomor($tangkap9)."838\n".
+tambah_nomor($tangkap9)."848\n".
+tambah_nomor($tangkap9)."858\n".
+tambah_nomor($tangkap9)."118\n".
+tambah_nomor($tangkap9)."228\n".
+tambah_nomor($tangkap9)."338\n".
+tambah_nomor($tangkap9)."448\n".
+tambah_nomor($tangkap9)."558\n".
+tambah_nomor($tangkap9)."881\n".
+tambah_nomor($tangkap9)."882\n".
+tambah_nomor($tangkap9)."883\n".
+tambah_nomor($tangkap9)."884\n".
+tambah_nomor($tangkap9)."885\n".
+tambah_nomor($tangkap9)."458\n".
+tambah_nomor($tangkap9)."12345678\n".
+tambah_nomor($tangkap9)."87654321\n".
+tambah_nomor($tangkap9)."9\n".
+tambah_nomor($tangkap9)."99\n".
+tambah_nomor($tangkap9)."999\n".
+tambah_nomor($tangkap9)."9999\n".
+tambah_nomor($tangkap9)."99999\n".
+tambah_nomor($tangkap9)."91\n".
+tambah_nomor($tangkap9)."92\n".
+tambah_nomor($tangkap9)."93\n".
+tambah_nomor($tangkap9)."94\n".
+tambah_nomor($tangkap9)."95\n".
+tambah_nomor($tangkap9)."911\n".
+tambah_nomor($tangkap9)."922\n".
+tambah_nomor($tangkap9)."933\n".
+tambah_nomor($tangkap9)."944\n".
+tambah_nomor($tangkap9)."955\n".
+tambah_nomor($tangkap9)."919\n".
+tambah_nomor($tangkap9)."929\n".
+tambah_nomor($tangkap9)."939\n".
+tambah_nomor($tangkap9)."949\n".
+tambah_nomor($tangkap9)."959\n".
+tambah_nomor($tangkap9)."119\n".
+tambah_nomor($tangkap9)."229\n".
+tambah_nomor($tangkap9)."339\n".
+tambah_nomor($tangkap9)."449\n".
+tambah_nomor($tangkap9)."559\n".
+tambah_nomor($tangkap9)."991\n".
+tambah_nomor($tangkap9)."992\n".
+tambah_nomor($tangkap9)."993\n".
+tambah_nomor($tangkap9)."994\n".
+tambah_nomor($tangkap9)."995\n".
+tambah_nomor($tangkap9)."459\n".
+tambah_nomor($tangkap9)."12345678\n".
+tambah_nomor($tangkap9)."987654321\n".
+tambah_nomor($tangkap9)."0\n".
+tambah_nomor($tangkap9)."00\n".
+tambah_nomor($tangkap9)."000\n".
+tambah_nomor($tangkap9)."0000\n".
+tambah_nomor($tangkap9)."00000\n".
+tambah_nomor($tangkap9)."01\n".
+tambah_nomor($tangkap9)."02\n".
+tambah_nomor($tangkap9)."03\n".
+tambah_nomor($tangkap9)."04\n".
+tambah_nomor($tangkap9)."05\n".
+tambah_nomor($tangkap9)."011\n".
+tambah_nomor($tangkap9)."022\n".
+tambah_nomor($tangkap9)."033\n".
+tambah_nomor($tangkap9)."044\n".
+tambah_nomor($tangkap9)."055\n".
+tambah_nomor($tangkap9)."010\n".
+tambah_nomor($tangkap9)."020\n".
+tambah_nomor($tangkap9)."030\n".
+tambah_nomor($tangkap9)."040\n".
+tambah_nomor($tangkap9)."050\n".
+tambah_nomor($tangkap9)."110\n".
+tambah_nomor($tangkap9)."220\n".
+tambah_nomor($tangkap9)."330\n".
+tambah_nomor($tangkap9)."440\n".
+tambah_nomor($tangkap9)."550\n".
+tambah_nomor($tangkap9)."001\n".
+tambah_nomor($tangkap9)."002\n".
+tambah_nomor($tangkap9)."003\n".
+tambah_nomor($tangkap9)."004\n".
+tambah_nomor($tangkap9)."005\n".
+tambah_nomor($tangkap9)."450\n".
+tambah_nomor($tangkap9)."1234567890\n".
+
+tambah_nomor($tangkap8)."1\n".
+tambah_nomor($tangkap8)."11\n".
+tambah_nomor($tangkap8)."111\n".
+tambah_nomor($tangkap8)."1111\n".
+tambah_nomor($tangkap8)."11111\n".
+tambah_nomor($tangkap8)."2\n".
+tambah_nomor($tangkap8)."22\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."2222\n".
+tambah_nomor($tangkap8)."22222\n".
+tambah_nomor($tangkap8)."21\n".
+tambah_nomor($tangkap8)."22\n".
+tambah_nomor($tangkap8)."23\n".
+tambah_nomor($tangkap8)."24\n".
+tambah_nomor($tangkap8)."25\n".
+tambah_nomor($tangkap8)."26\n".
+tambah_nomor($tangkap8)."27\n".
+tambah_nomor($tangkap8)."28\n".
+tambah_nomor($tangkap8)."29\n".
+tambah_nomor($tangkap8)."211\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."233\n".
+tambah_nomor($tangkap8)."244\n".
+tambah_nomor($tangkap8)."255\n".
+tambah_nomor($tangkap8)."212\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."232\n".
+tambah_nomor($tangkap8)."242\n".
+tambah_nomor($tangkap8)."252\n".
+tambah_nomor($tangkap8)."112\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."332\n".
+tambah_nomor($tangkap8)."442\n".
+tambah_nomor($tangkap8)."552\n".
+tambah_nomor($tangkap8)."221\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."223\n".
+tambah_nomor($tangkap8)."224\n".
+tambah_nomor($tangkap8)."225\n".
+tambah_nomor($tangkap8)."452\n".
+tambah_nomor($tangkap8)."12\n".
+tambah_nomor($tangkap8)."21\n".
+tambah_nomor($tangkap8)."3\n".
+tambah_nomor($tangkap8)."33\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."3333\n".
+tambah_nomor($tangkap8)."33333\n".
+tambah_nomor($tangkap8)."31\n".
+tambah_nomor($tangkap8)."32\n".
+tambah_nomor($tangkap8)."33\n".
+tambah_nomor($tangkap8)."34\n".
+tambah_nomor($tangkap8)."35\n".
+tambah_nomor($tangkap8)."311\n".
+tambah_nomor($tangkap8)."322\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."344\n".
+tambah_nomor($tangkap8)."355\n".
+tambah_nomor($tangkap8)."313\n".
+tambah_nomor($tangkap8)."323\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."343\n".
+tambah_nomor($tangkap8)."353\n".
+tambah_nomor($tangkap8)."113\n".
+tambah_nomor($tangkap8)."223\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."443\n".
+tambah_nomor($tangkap8)."553\n".
+tambah_nomor($tangkap8)."331\n".
+tambah_nomor($tangkap8)."332\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."334\n".
+tambah_nomor($tangkap8)."335\n".
+tambah_nomor($tangkap8)."453\n".
+tambah_nomor($tangkap8)."123\n".
+tambah_nomor($tangkap8)."321\n".
+tambah_nomor($tangkap8)."4\n".
+tambah_nomor($tangkap8)."44\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."4444\n".
+tambah_nomor($tangkap8)."44444\n".
+tambah_nomor($tangkap8)."41\n".
+tambah_nomor($tangkap8)."42\n".
+tambah_nomor($tangkap8)."43\n".
+tambah_nomor($tangkap8)."44\n".
+tambah_nomor($tangkap8)."45\n".
+tambah_nomor($tangkap8)."411\n".
+tambah_nomor($tangkap8)."422\n".
+tambah_nomor($tangkap8)."433\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."455\n".
+tambah_nomor($tangkap8)."414\n".
+tambah_nomor($tangkap8)."424\n".
+tambah_nomor($tangkap8)."434\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."454\n".
+tambah_nomor($tangkap8)."114\n".
+tambah_nomor($tangkap8)."224\n".
+tambah_nomor($tangkap8)."334\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."441\n".
+tambah_nomor($tangkap8)."442\n".
+tambah_nomor($tangkap8)."443\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."445\n".
+tambah_nomor($tangkap8)."554\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."1234\n".
+tambah_nomor($tangkap8)."4321\n".
+tambah_nomor($tangkap8)."5\n".
+tambah_nomor($tangkap8)."55\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."5555\n".
+tambah_nomor($tangkap8)."55555\n".
+tambah_nomor($tangkap8)."51\n".
+tambah_nomor($tangkap8)."52\n".
+tambah_nomor($tangkap8)."53\n".
+tambah_nomor($tangkap8)."54\n".
+tambah_nomor($tangkap8)."55\n".
+tambah_nomor($tangkap8)."511\n".
+tambah_nomor($tangkap8)."522\n".
+tambah_nomor($tangkap8)."533\n".
+tambah_nomor($tangkap8)."544\n".
+tambah_nomor($tangkap8)."655\n".
+tambah_nomor($tangkap8)."515\n".
+tambah_nomor($tangkap8)."525\n".
+tambah_nomor($tangkap8)."535\n".
+tambah_nomor($tangkap8)."545\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."115\n".
+tambah_nomor($tangkap8)."225\n".
+tambah_nomor($tangkap8)."335\n".
+tambah_nomor($tangkap8)."445\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."551\n".
+tambah_nomor($tangkap8)."552\n".
+tambah_nomor($tangkap8)."553\n".
+tambah_nomor($tangkap8)."554\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."345\n".
+tambah_nomor($tangkap8)."12345\n".
+tambah_nomor($tangkap8)."54321\n".
+tambah_nomor($tangkap8)."6\n".
+tambah_nomor($tangkap8)."66\n".
+tambah_nomor($tangkap8)."666\n".
+tambah_nomor($tangkap8)."6666\n".
+tambah_nomor($tangkap8)."66666\n".
+tambah_nomor($tangkap8)."61\n".
+tambah_nomor($tangkap8)."62\n".
+tambah_nomor($tangkap8)."63\n".
+tambah_nomor($tangkap8)."64\n".
+tambah_nomor($tangkap8)."65\n".
+tambah_nomor($tangkap8)."611\n".
+tambah_nomor($tangkap8)."622\n".
+tambah_nomor($tangkap8)."633\n".
+tambah_nomor($tangkap8)."644\n".
+tambah_nomor($tangkap8)."655\n".
+tambah_nomor($tangkap8)."616\n".
+tambah_nomor($tangkap8)."626\n".
+tambah_nomor($tangkap8)."636\n".
+tambah_nomor($tangkap8)."646\n".
+tambah_nomor($tangkap8)."656\n".
+tambah_nomor($tangkap8)."116\n".
+tambah_nomor($tangkap8)."226\n".
+tambah_nomor($tangkap8)."336\n".
+tambah_nomor($tangkap8)."446\n".
+tambah_nomor($tangkap8)."556\n".
+tambah_nomor($tangkap8)."661\n".
+tambah_nomor($tangkap8)."662\n".
+tambah_nomor($tangkap8)."663\n".
+tambah_nomor($tangkap8)."664\n".
+tambah_nomor($tangkap8)."665\n".
+tambah_nomor($tangkap8)."456\n".
+tambah_nomor($tangkap8)."123456\n".
+tambah_nomor($tangkap8)."654321\n".
+tambah_nomor($tangkap8)."7\n".
+tambah_nomor($tangkap8)."77\n".
+tambah_nomor($tangkap8)."777\n".
+tambah_nomor($tangkap8)."7777\n".
+tambah_nomor($tangkap8)."77777\n".
+tambah_nomor($tangkap8)."71\n".
+tambah_nomor($tangkap8)."72\n".
+tambah_nomor($tangkap8)."73\n".
+tambah_nomor($tangkap8)."74\n".
+tambah_nomor($tangkap8)."75\n".
+tambah_nomor($tangkap8)."711\n".
+tambah_nomor($tangkap8)."722\n".
+tambah_nomor($tangkap8)."733\n".
+tambah_nomor($tangkap8)."744\n".
+tambah_nomor($tangkap8)."755\n".
+tambah_nomor($tangkap8)."717\n".
+tambah_nomor($tangkap8)."727\n".
+tambah_nomor($tangkap8)."737\n".
+tambah_nomor($tangkap8)."747\n".
+tambah_nomor($tangkap8)."757\n".
+tambah_nomor($tangkap8)."117\n".
+tambah_nomor($tangkap8)."227\n".
+tambah_nomor($tangkap8)."337\n".
+tambah_nomor($tangkap8)."447\n".
+tambah_nomor($tangkap8)."557\n".
+tambah_nomor($tangkap8)."771\n".
+tambah_nomor($tangkap8)."772\n".
+tambah_nomor($tangkap8)."773\n".
+tambah_nomor($tangkap8)."774\n".
+tambah_nomor($tangkap8)."775\n".
+tambah_nomor($tangkap8)."457\n".
+tambah_nomor($tangkap8)."1234567\n".
+tambah_nomor($tangkap8)."7654321\n".
+tambah_nomor($tangkap8)."8\n".
+tambah_nomor($tangkap8)."88\n".
+tambah_nomor($tangkap8)."888\n".
+tambah_nomor($tangkap8)."8888\n".
+tambah_nomor($tangkap8)."88888\n".
+tambah_nomor($tangkap8)."81\n".
+tambah_nomor($tangkap8)."82\n".
+tambah_nomor($tangkap8)."83\n".
+tambah_nomor($tangkap8)."84\n".
+tambah_nomor($tangkap8)."85\n".
+tambah_nomor($tangkap8)."811\n".
+tambah_nomor($tangkap8)."822\n".
+tambah_nomor($tangkap8)."833\n".
+tambah_nomor($tangkap8)."844\n".
+tambah_nomor($tangkap8)."855\n".
+tambah_nomor($tangkap8)."818\n".
+tambah_nomor($tangkap8)."828\n".
+tambah_nomor($tangkap8)."838\n".
+tambah_nomor($tangkap8)."848\n".
+tambah_nomor($tangkap8)."858\n".
+tambah_nomor($tangkap8)."118\n".
+tambah_nomor($tangkap8)."228\n".
+tambah_nomor($tangkap8)."338\n".
+tambah_nomor($tangkap8)."448\n".
+tambah_nomor($tangkap8)."558\n".
+tambah_nomor($tangkap8)."881\n".
+tambah_nomor($tangkap8)."882\n".
+tambah_nomor($tangkap8)."883\n".
+tambah_nomor($tangkap8)."884\n".
+tambah_nomor($tangkap8)."885\n".
+tambah_nomor($tangkap8)."458\n".
+tambah_nomor($tangkap8)."12345678\n".
+tambah_nomor($tangkap8)."87654321\n".
+tambah_nomor($tangkap8)."9\n".
+tambah_nomor($tangkap8)."99\n".
+tambah_nomor($tangkap8)."999\n".
+tambah_nomor($tangkap8)."9999\n".
+tambah_nomor($tangkap8)."99999\n".
+tambah_nomor($tangkap8)."91\n".
+tambah_nomor($tangkap8)."92\n".
+tambah_nomor($tangkap8)."93\n".
+tambah_nomor($tangkap8)."94\n".
+tambah_nomor($tangkap8)."95\n".
+tambah_nomor($tangkap8)."911\n".
+tambah_nomor($tangkap8)."922\n".
+tambah_nomor($tangkap8)."933\n".
+tambah_nomor($tangkap8)."944\n".
+tambah_nomor($tangkap8)."955\n".
+tambah_nomor($tangkap8)."919\n".
+tambah_nomor($tangkap8)."929\n".
+tambah_nomor($tangkap8)."939\n".
+tambah_nomor($tangkap8)."949\n".
+tambah_nomor($tangkap8)."959\n".
+tambah_nomor($tangkap8)."119\n".
+tambah_nomor($tangkap8)."229\n".
+tambah_nomor($tangkap8)."339\n".
+tambah_nomor($tangkap8)."449\n".
+tambah_nomor($tangkap8)."559\n".
+tambah_nomor($tangkap8)."991\n".
+tambah_nomor($tangkap8)."992\n".
+tambah_nomor($tangkap8)."993\n".
+tambah_nomor($tangkap8)."994\n".
+tambah_nomor($tangkap8)."995\n".
+tambah_nomor($tangkap8)."459\n".
+tambah_nomor($tangkap8)."12345678\n".
+tambah_nomor($tangkap8)."987654321\n".
+tambah_nomor($tangkap8)."0\n".
+tambah_nomor($tangkap8)."00\n".
+tambah_nomor($tangkap8)."000\n".
+tambah_nomor($tangkap8)."0000\n".
+tambah_nomor($tangkap8)."00000\n".
+tambah_nomor($tangkap8)."01\n".
+tambah_nomor($tangkap8)."02\n".
+tambah_nomor($tangkap8)."03\n".
+tambah_nomor($tangkap8)."04\n".
+tambah_nomor($tangkap8)."05\n".
+tambah_nomor($tangkap8)."011\n".
+tambah_nomor($tangkap8)."022\n".
+tambah_nomor($tangkap8)."033\n".
+tambah_nomor($tangkap8)."044\n".
+tambah_nomor($tangkap8)."055\n".
+tambah_nomor($tangkap8)."010\n".
+tambah_nomor($tangkap8)."020\n".
+tambah_nomor($tangkap8)."030\n".
+tambah_nomor($tangkap8)."040\n".
+tambah_nomor($tangkap8)."050\n".
+tambah_nomor($tangkap8)."110\n".
+tambah_nomor($tangkap8)."220\n".
+tambah_nomor($tangkap8)."330\n".
+tambah_nomor($tangkap8)."440\n".
+tambah_nomor($tangkap8)."550\n".
+tambah_nomor($tangkap8)."001\n".
+tambah_nomor($tangkap8)."002\n".
+tambah_nomor($tangkap8)."003\n".
+tambah_nomor($tangkap8)."004\n".
+tambah_nomor($tangkap8)."005\n".
+tambah_nomor($tangkap8)."450\n".
+tambah_nomor($tangkap8)."1234567890\n".
+
+   nomor_karakter($tangkap1)."1*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."111*\n".
+    nomor_karakter($tangkap1)."1111*\n".
+    nomor_karakter($tangkap1)."11111*\n".
+    nomor_karakter($tangkap1)."2*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."2222*\n".
+    nomor_karakter($tangkap1)."22222*\n".
+    nomor_karakter($tangkap1)."21*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."23*\n".
+    nomor_karakter($tangkap1)."24*\n".
+    nomor_karakter($tangkap1)."25*\n".
+    nomor_karakter($tangkap1)."26*\n".
+    nomor_karakter($tangkap1)."27*\n".
+    nomor_karakter($tangkap1)."28*\n".
+    nomor_karakter($tangkap1)."29*\n".
+    nomor_karakter($tangkap1)."211*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."233*\n".
+    nomor_karakter($tangkap1)."244*\n".
+    nomor_karakter($tangkap1)."255*\n".
+    nomor_karakter($tangkap1)."212*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."232*\n".
+    nomor_karakter($tangkap1)."242*\n".
+    nomor_karakter($tangkap1)."252*\n".
+    nomor_karakter($tangkap1)."112*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."332*\n".
+    nomor_karakter($tangkap1)."442*\n".
+    nomor_karakter($tangkap1)."552*\n".
+    nomor_karakter($tangkap1)."221*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."223*\n".
+    nomor_karakter($tangkap1)."224*\n".
+    nomor_karakter($tangkap1)."225*\n".
+    nomor_karakter($tangkap1)."452*\n".
+    nomor_karakter($tangkap1)."12*\n".
+    nomor_karakter($tangkap1)."21*\n".
+    nomor_karakter($tangkap1)."3*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."3333*\n".
+    nomor_karakter($tangkap1)."33333*\n".
+    nomor_karakter($tangkap1)."31*\n".
+    nomor_karakter($tangkap1)."32*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."34*\n".
+    nomor_karakter($tangkap1)."35*\n".
+    nomor_karakter($tangkap1)."311*\n".
+    nomor_karakter($tangkap1)."322*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."344*\n".
+    nomor_karakter($tangkap1)."355*\n".
+    nomor_karakter($tangkap1)."313*\n".
+    nomor_karakter($tangkap1)."323*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."343*\n".
+    nomor_karakter($tangkap1)."353*\n".
+    nomor_karakter($tangkap1)."113*\n".
+    nomor_karakter($tangkap1)."223*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."443*\n".
+    nomor_karakter($tangkap1)."553*\n".
+    nomor_karakter($tangkap1)."331*\n".
+    nomor_karakter($tangkap1)."332*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."334*\n".
+    nomor_karakter($tangkap1)."335*\n".
+    nomor_karakter($tangkap1)."453*\n".
+    nomor_karakter($tangkap1)."123*\n".
+    nomor_karakter($tangkap1)."321*\n".
+    nomor_karakter($tangkap1)."4*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."4444*\n".
+    nomor_karakter($tangkap1)."44444*\n".
+    nomor_karakter($tangkap1)."41*\n".
+    nomor_karakter($tangkap1)."42*\n".
+    nomor_karakter($tangkap1)."43*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."411*\n".
+    nomor_karakter($tangkap1)."422*\n".
+    nomor_karakter($tangkap1)."433*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."455*\n".
+    nomor_karakter($tangkap1)."414*\n".
+    nomor_karakter($tangkap1)."424*\n".
+    nomor_karakter($tangkap1)."434*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."454*\n".
+    nomor_karakter($tangkap1)."114*\n".
+    nomor_karakter($tangkap1)."224*\n".
+    nomor_karakter($tangkap1)."334*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."441*\n".
+    nomor_karakter($tangkap1)."442*\n".
+    nomor_karakter($tangkap1)."443*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."445*\n".
+    nomor_karakter($tangkap1)."554*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."12*\n".
+    nomor_karakter($tangkap1)."43*\n".
+    nomor_karakter($tangkap1)."5*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."555*\n".
+    nomor_karakter($tangkap1)."5555*\n".
+    nomor_karakter($tangkap1)."55555*\n".
+    nomor_karakter($tangkap1)."51*\n".
+    nomor_karakter($tangkap1)."52*\n".
+    nomor_karakter($tangkap1)."53*\n".
+    nomor_karakter($tangkap1)."54*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."511*\n".
+    nomor_karakter($tangkap1)."522*\n".
+    nomor_karakter($tangkap1)."533*\n".
+    nomor_karakter($tangkap1)."544*\n".
+    nomor_karakter($tangkap1)."655*\n".
+    nomor_karakter($tangkap1)."515*\n".
+    nomor_karakter($tangkap1)."525\n".
+    nomor_karakter($tangkap1)."535*\n".
+    nomor_karakter($tangkap1)."545*\n".
+    nomor_karakter($tangkap1)."555*\n".
+    nomor_karakter($tangkap1)."115*\n".
+    nomor_karakter($tangkap1)."225*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."34*\n".
+    nomor_karakter($tangkap1)."1234*\n".
+    nomor_karakter($tangkap1)."5432*\n".
+    nomor_karakter($tangkap1)."6*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."666*\n".
+    nomor_karakter($tangkap1)."6666*\n".
+    nomor_karakter($tangkap1)."66666*\n".
+    nomor_karakter($tangkap1)."61*\n".
+    nomor_karakter($tangkap1)."62*\n".
+    nomor_karakter($tangkap1)."63*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."611*\n".
+    nomor_karakter($tangkap1)."622*\n".
+    nomor_karakter($tangkap1)."633*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."61*\n".
+    nomor_karakter($tangkap1)."62*\n".
+    nomor_karakter($tangkap1)."63*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."12345*\n".
+    nomor_karakter($tangkap1)."65432*\n".
+    nomor_karakter($tangkap1)."7*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."777*\n".
+    nomor_karakter($tangkap1)."7777*\n".
+    nomor_karakter($tangkap1)."77777*\n".
+    nomor_karakter($tangkap1)."71*\n".
+    nomor_karakter($tangkap1)."72*\n".
+    nomor_karakter($tangkap1)."73*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."711*\n".
+    nomor_karakter($tangkap1)."722*\n".
+    nomor_karakter($tangkap1)."733*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."71*\n".
+    nomor_karakter($tangkap1)."72*\n".
+    nomor_karakter($tangkap1)."73*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."1234567*\n".
+    nomor_karakter($tangkap1)."8*\n".
+    nomor_karakter($tangkap1)."88*\n".
+    nomor_karakter($tangkap1)."888*\n".
+    nomor_karakter($tangkap1)."8888*\n".
+    nomor_karakter($tangkap1)."88888*\n".
+    nomor_karakter($tangkap1)."81*\n".
+    nomor_karakter($tangkap1)."82*\n".
+    nomor_karakter($tangkap1)."83*\n".
+    nomor_karakter($tangkap1)."84*\n".
+    nomor_karakter($tangkap1)."85*\n".
+    nomor_karakter($tangkap1)."811*\n".
+    nomor_karakter($tangkap1)."822*\n".
+    nomor_karakter($tangkap1)."833*\n".
+    nomor_karakter($tangkap1)."844*\n".
+    nomor_karakter($tangkap1)."855*\n".
+    nomor_karakter($tangkap1)."818*\n".
+    nomor_karakter($tangkap1)."828*\n".
+    nomor_karakter($tangkap1)."838*\n".
+    nomor_karakter($tangkap1)."848*\n".
+    nomor_karakter($tangkap1)."858*\n".
+    nomor_karakter($tangkap1)."118*\n".
+    nomor_karakter($tangkap1)."228*\n".
+    nomor_karakter($tangkap1)."338*\n".
+    nomor_karakter($tangkap1)."448*\n".
+    nomor_karakter($tangkap1)."558*\n".
+    nomor_karakter($tangkap1)."881*\n".
+    nomor_karakter($tangkap1)."882*\n".
+    nomor_karakter($tangkap1)."883*\n".
+    nomor_karakter($tangkap1)."884*\n".
+    nomor_karakter($tangkap1)."885*\n".
+    nomor_karakter($tangkap1)."458*\n".
+    nomor_karakter($tangkap1)."12345678*\n".
+    nomor_karakter($tangkap1)."87654321*\n".
+    nomor_karakter($tangkap1)."9*\n".
+    nomor_karakter($tangkap1)."99*\n".
+    nomor_karakter($tangkap1)."999*\n".
+    nomor_karakter($tangkap1)."9999*\n".
+    nomor_karakter($tangkap1)."99999*\n".
+    nomor_karakter($tangkap1)."91*\n".
+    nomor_karakter($tangkap1)."92*\n".
+    nomor_karakter($tangkap1)."93*\n".
+    nomor_karakter($tangkap1)."94*\n".
+    nomor_karakter($tangkap1)."95*\n".
+    nomor_karakter($tangkap1)."911*\n".
+    nomor_karakter($tangkap1)."922*\n".
+    nomor_karakter($tangkap1)."933*\n".
+    nomor_karakter($tangkap1)."944*\n".
+    nomor_karakter($tangkap1)."955*\n".
+    nomor_karakter($tangkap1)."919*\n".
+    nomor_karakter($tangkap1)."929*\n".
+    nomor_karakter($tangkap1)."939*\n".
+    nomor_karakter($tangkap1)."949*\n".
+    nomor_karakter($tangkap1)."959*\n".
+    nomor_karakter($tangkap1)."119*\n".
+    nomor_karakter($tangkap1)."229*\n".
+    nomor_karakter($tangkap1)."339*\n".
+    nomor_karakter($tangkap1)."449*\n".
+    nomor_karakter($tangkap1)."559*\n".
+    nomor_karakter($tangkap1)."991*\n".
+    nomor_karakter($tangkap1)."992*\n".
+    nomor_karakter($tangkap1)."993*\n".
+    nomor_karakter($tangkap1)."994*\n".
+    nomor_karakter($tangkap1)."995*\n".
+    nomor_karakter($tangkap1)."459*\n".
+    nomor_karakter($tangkap1)."12345678*\n".
+    nomor_karakter($tangkap1)."987654321*\n".
+    nomor_karakter($tangkap1)."0*\n".
+    nomor_karakter($tangkap1)."00*\n".
+    nomor_karakter($tangkap1)."000*\n".
+    nomor_karakter($tangkap1)."0000*\n".
+    nomor_karakter($tangkap1)."00000*\n".
+    nomor_karakter($tangkap1)."01*\n".
+    nomor_karakter($tangkap1)."02*\n".
+    nomor_karakter($tangkap1)."03*\n".
+    nomor_karakter($tangkap1)."04*\n".
+    nomor_karakter($tangkap1)."05*\n".
+    nomor_karakter($tangkap1)."011*\n".
+    nomor_karakter($tangkap1)."022*\n".
+    nomor_karakter($tangkap1)."033*\n".
+    nomor_karakter($tangkap1)."044*\n".
+    nomor_karakter($tangkap1)."055*\n".
+    nomor_karakter($tangkap1)."010*\n".
+    nomor_karakter($tangkap1)."020*\n".
+    nomor_karakter($tangkap1)."030*\n".
+    nomor_karakter($tangkap1)."040*\n".
+    nomor_karakter($tangkap1)."050*\n".
+    nomor_karakter($tangkap1)."110*\n".
+    nomor_karakter($tangkap1)."220*\n".
+    nomor_karakter($tangkap1)."330*\n".
+    nomor_karakter($tangkap1)."440*\n".
+    nomor_karakter($tangkap1)."550*\n".
+    nomor_karakter($tangkap1)."001*\n".
+    nomor_karakter($tangkap1)."002*\n".
+    nomor_karakter($tangkap1)."003*\n".
+    nomor_karakter($tangkap1)."004*\n".
+    nomor_karakter($tangkap1)."005*\n".
+    nomor_karakter($tangkap1)."450*\n".
+    nomor_karakter($tangkap1)."123456789*\n".
+
+    nomor_karakter($tangkap2)."1*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."111*\n".
+    nomor_karakter($tangkap2)."1111*\n".
+    nomor_karakter($tangkap2)."11111*\n".
+    nomor_karakter($tangkap2)."2*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."2222*\n".
+    nomor_karakter($tangkap2)."22222*\n".
+    nomor_karakter($tangkap2)."21*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."23*\n".
+    nomor_karakter($tangkap2)."24*\n".
+    nomor_karakter($tangkap2)."25*\n".
+    nomor_karakter($tangkap2)."26*\n".
+    nomor_karakter($tangkap2)."27*\n".
+    nomor_karakter($tangkap2)."28*\n".
+    nomor_karakter($tangkap2)."29*\n".
+    nomor_karakter($tangkap2)."211*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."233*\n".
+    nomor_karakter($tangkap2)."244*\n".
+    nomor_karakter($tangkap2)."255*\n".
+    nomor_karakter($tangkap2)."212*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."232*\n".
+    nomor_karakter($tangkap2)."242*\n".
+    nomor_karakter($tangkap2)."252*\n".
+    nomor_karakter($tangkap2)."112*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."332*\n".
+    nomor_karakter($tangkap2)."442*\n".
+    nomor_karakter($tangkap2)."552*\n".
+    nomor_karakter($tangkap2)."221*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."223*\n".
+    nomor_karakter($tangkap2)."224*\n".
+    nomor_karakter($tangkap2)."225*\n".
+    nomor_karakter($tangkap2)."452*\n".
+    nomor_karakter($tangkap2)."12*\n".
+    nomor_karakter($tangkap2)."21*\n".
+    nomor_karakter($tangkap2)."3*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."3333*\n".
+    nomor_karakter($tangkap2)."33333*\n".
+    nomor_karakter($tangkap2)."31*\n".
+    nomor_karakter($tangkap2)."32*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."34*\n".
+    nomor_karakter($tangkap2)."35*\n".
+    nomor_karakter($tangkap2)."311*\n".
+    nomor_karakter($tangkap2)."322*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."344*\n".
+    nomor_karakter($tangkap2)."355*\n".
+    nomor_karakter($tangkap2)."313*\n".
+    nomor_karakter($tangkap2)."323*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."343*\n".
+    nomor_karakter($tangkap2)."353*\n".
+    nomor_karakter($tangkap2)."113*\n".
+    nomor_karakter($tangkap2)."223*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."443*\n".
+    nomor_karakter($tangkap2)."553*\n".
+    nomor_karakter($tangkap2)."331*\n".
+    nomor_karakter($tangkap2)."332*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."334*\n".
+    nomor_karakter($tangkap2)."335*\n".
+    nomor_karakter($tangkap2)."453*\n".
+    nomor_karakter($tangkap2)."123*\n".
+    nomor_karakter($tangkap2)."321*\n".
+    nomor_karakter($tangkap2)."4*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."4444*\n".
+    nomor_karakter($tangkap2)."44444*\n".
+    nomor_karakter($tangkap2)."41*\n".
+    nomor_karakter($tangkap2)."42*\n".
+    nomor_karakter($tangkap2)."43*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."411*\n".
+    nomor_karakter($tangkap2)."422*\n".
+    nomor_karakter($tangkap2)."433*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."455*\n".
+    nomor_karakter($tangkap2)."414*\n".
+    nomor_karakter($tangkap2)."424*\n".
+    nomor_karakter($tangkap2)."434*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."454*\n".
+    nomor_karakter($tangkap2)."114*\n".
+    nomor_karakter($tangkap2)."224*\n".
+    nomor_karakter($tangkap2)."334*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."441*\n".
+    nomor_karakter($tangkap2)."442*\n".
+    nomor_karakter($tangkap2)."443*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."445*\n".
+    nomor_karakter($tangkap2)."554*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."12*\n".
+    nomor_karakter($tangkap2)."43*\n".
+    nomor_karakter($tangkap2)."5*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."555*\n".
+    nomor_karakter($tangkap2)."5555*\n".
+    nomor_karakter($tangkap2)."55555*\n".
+    nomor_karakter($tangkap2)."51*\n".
+    nomor_karakter($tangkap2)."52*\n".
+    nomor_karakter($tangkap2)."53*\n".
+    nomor_karakter($tangkap2)."54*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."511*\n".
+    nomor_karakter($tangkap2)."522*\n".
+    nomor_karakter($tangkap2)."533*\n".
+    nomor_karakter($tangkap2)."544*\n".
+    nomor_karakter($tangkap2)."655*\n".
+    nomor_karakter($tangkap2)."515*\n".
+    nomor_karakter($tangkap2)."525\n".
+    nomor_karakter($tangkap2)."535*\n".
+    nomor_karakter($tangkap2)."545*\n".
+    nomor_karakter($tangkap2)."555*\n".
+    nomor_karakter($tangkap2)."115*\n".
+    nomor_karakter($tangkap2)."225*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."34*\n".
+    nomor_karakter($tangkap2)."1234*\n".
+    nomor_karakter($tangkap2)."5432*\n".
+    nomor_karakter($tangkap2)."6*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."666*\n".
+    nomor_karakter($tangkap2)."6666*\n".
+    nomor_karakter($tangkap2)."66666*\n".
+    nomor_karakter($tangkap2)."61*\n".
+    nomor_karakter($tangkap2)."62*\n".
+    nomor_karakter($tangkap2)."63*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."611*\n".
+    nomor_karakter($tangkap2)."622*\n".
+    nomor_karakter($tangkap2)."633*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."61*\n".
+    nomor_karakter($tangkap2)."62*\n".
+    nomor_karakter($tangkap2)."63*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."12345*\n".
+    nomor_karakter($tangkap2)."65432*\n".
+    nomor_karakter($tangkap2)."7*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."777*\n".
+    nomor_karakter($tangkap2)."7777*\n".
+    nomor_karakter($tangkap2)."77777*\n".
+    nomor_karakter($tangkap2)."71*\n".
+    nomor_karakter($tangkap2)."72*\n".
+    nomor_karakter($tangkap2)."73*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."711*\n".
+    nomor_karakter($tangkap2)."722*\n".
+    nomor_karakter($tangkap2)."733*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."71*\n".
+    nomor_karakter($tangkap2)."72*\n".
+    nomor_karakter($tangkap2)."73*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."1234567*\n".
+    nomor_karakter($tangkap2)."8*\n".
+    nomor_karakter($tangkap2)."88*\n".
+    nomor_karakter($tangkap2)."888*\n".
+    nomor_karakter($tangkap2)."8888*\n".
+    nomor_karakter($tangkap2)."88888*\n".
+    nomor_karakter($tangkap2)."81*\n".
+    nomor_karakter($tangkap2)."82*\n".
+    nomor_karakter($tangkap2)."83*\n".
+    nomor_karakter($tangkap2)."84*\n".
+    nomor_karakter($tangkap2)."85*\n".
+    nomor_karakter($tangkap2)."811*\n".
+    nomor_karakter($tangkap2)."822*\n".
+    nomor_karakter($tangkap2)."833*\n".
+    nomor_karakter($tangkap2)."844*\n".
+    nomor_karakter($tangkap2)."855*\n".
+    nomor_karakter($tangkap2)."818*\n".
+    nomor_karakter($tangkap2)."828*\n".
+    nomor_karakter($tangkap2)."838*\n".
+    nomor_karakter($tangkap2)."848*\n".
+    nomor_karakter($tangkap2)."858*\n".
+    nomor_karakter($tangkap2)."118*\n".
+    nomor_karakter($tangkap2)."228*\n".
+    nomor_karakter($tangkap2)."338*\n".
+    nomor_karakter($tangkap2)."448*\n".
+    nomor_karakter($tangkap2)."558*\n".
+    nomor_karakter($tangkap2)."881*\n".
+    nomor_karakter($tangkap2)."882*\n".
+    nomor_karakter($tangkap2)."883*\n".
+    nomor_karakter($tangkap2)."884*\n".
+    nomor_karakter($tangkap2)."885*\n".
+    nomor_karakter($tangkap2)."458*\n".
+    nomor_karakter($tangkap2)."12345678*\n".
+    nomor_karakter($tangkap2)."87654321*\n".
+    nomor_karakter($tangkap2)."9*\n".
+    nomor_karakter($tangkap2)."99*\n".
+    nomor_karakter($tangkap2)."999*\n".
+    nomor_karakter($tangkap2)."9999*\n".
+    nomor_karakter($tangkap2)."99999*\n".
+    nomor_karakter($tangkap2)."91*\n".
+    nomor_karakter($tangkap2)."92*\n".
+    nomor_karakter($tangkap2)."93*\n".
+    nomor_karakter($tangkap2)."94*\n".
+    nomor_karakter($tangkap2)."95*\n".
+    nomor_karakter($tangkap2)."911*\n".
+    nomor_karakter($tangkap2)."922*\n".
+    nomor_karakter($tangkap2)."933*\n".
+    nomor_karakter($tangkap2)."944*\n".
+    nomor_karakter($tangkap2)."955*\n".
+    nomor_karakter($tangkap2)."919*\n".
+    nomor_karakter($tangkap2)."929*\n".
+    nomor_karakter($tangkap2)."939*\n".
+    nomor_karakter($tangkap2)."949*\n".
+    nomor_karakter($tangkap2)."959*\n".
+    nomor_karakter($tangkap2)."119*\n".
+    nomor_karakter($tangkap2)."229*\n".
+    nomor_karakter($tangkap2)."339*\n".
+    nomor_karakter($tangkap2)."449*\n".
+    nomor_karakter($tangkap2)."559*\n".
+    nomor_karakter($tangkap2)."991*\n".
+    nomor_karakter($tangkap2)."992*\n".
+    nomor_karakter($tangkap2)."993*\n".
+    nomor_karakter($tangkap2)."994*\n".
+    nomor_karakter($tangkap2)."995*\n".
+    nomor_karakter($tangkap2)."459*\n".
+    nomor_karakter($tangkap2)."12345678*\n".
+    nomor_karakter($tangkap2)."987654321*\n".
+    nomor_karakter($tangkap2)."0*\n".
+    nomor_karakter($tangkap2)."00*\n".
+    nomor_karakter($tangkap2)."000*\n".
+    nomor_karakter($tangkap2)."0000*\n".
+    nomor_karakter($tangkap2)."00000*\n".
+    nomor_karakter($tangkap2)."01*\n".
+    nomor_karakter($tangkap2)."02*\n".
+    nomor_karakter($tangkap2)."03*\n".
+    nomor_karakter($tangkap2)."04*\n".
+    nomor_karakter($tangkap2)."05*\n".
+    nomor_karakter($tangkap2)."011*\n".
+    nomor_karakter($tangkap2)."022*\n".
+    nomor_karakter($tangkap2)."033*\n".
+    nomor_karakter($tangkap2)."044*\n".
+    nomor_karakter($tangkap2)."055*\n".
+    nomor_karakter($tangkap2)."010*\n".
+    nomor_karakter($tangkap2)."020*\n".
+    nomor_karakter($tangkap2)."030*\n".
+    nomor_karakter($tangkap2)."040*\n".
+    nomor_karakter($tangkap2)."050*\n".
+    nomor_karakter($tangkap2)."110*\n".
+    nomor_karakter($tangkap2)."220*\n".
+    nomor_karakter($tangkap2)."330*\n".
+    nomor_karakter($tangkap2)."440*\n".
+    nomor_karakter($tangkap2)."550*\n".
+    nomor_karakter($tangkap2)."001*\n".
+    nomor_karakter($tangkap2)."002*\n".
+    nomor_karakter($tangkap2)."003*\n".
+    nomor_karakter($tangkap2)."004*\n".
+    nomor_karakter($tangkap2)."005*\n".
+    nomor_karakter($tangkap2)."450*\n".
+    nomor_karakter($tangkap2)."123456789*\n".
+
+    nomor_karakter($tangkap3)."1*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."111*\n".
+    nomor_karakter($tangkap3)."1111*\n".
+    nomor_karakter($tangkap3)."11111*\n".
+    nomor_karakter($tangkap3)."2*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."2222*\n".
+    nomor_karakter($tangkap3)."22222*\n".
+    nomor_karakter($tangkap3)."21*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."23*\n".
+    nomor_karakter($tangkap3)."24*\n".
+    nomor_karakter($tangkap3)."25*\n".
+    nomor_karakter($tangkap3)."26*\n".
+    nomor_karakter($tangkap3)."27*\n".
+    nomor_karakter($tangkap3)."28*\n".
+    nomor_karakter($tangkap3)."29*\n".
+    nomor_karakter($tangkap3)."211*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."233*\n".
+    nomor_karakter($tangkap3)."244*\n".
+    nomor_karakter($tangkap3)."255*\n".
+    nomor_karakter($tangkap3)."212*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."232*\n".
+    nomor_karakter($tangkap3)."242*\n".
+    nomor_karakter($tangkap3)."252*\n".
+    nomor_karakter($tangkap3)."112*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."332*\n".
+    nomor_karakter($tangkap3)."442*\n".
+    nomor_karakter($tangkap3)."552*\n".
+    nomor_karakter($tangkap3)."221*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."223*\n".
+    nomor_karakter($tangkap3)."224*\n".
+    nomor_karakter($tangkap3)."225*\n".
+    nomor_karakter($tangkap3)."452*\n".
+    nomor_karakter($tangkap3)."12*\n".
+    nomor_karakter($tangkap3)."21*\n".
+    nomor_karakter($tangkap3)."3*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."3333*\n".
+    nomor_karakter($tangkap3)."33333*\n".
+    nomor_karakter($tangkap3)."31*\n".
+    nomor_karakter($tangkap3)."32*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."34*\n".
+    nomor_karakter($tangkap3)."35*\n".
+    nomor_karakter($tangkap3)."311*\n".
+    nomor_karakter($tangkap3)."322*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."344*\n".
+    nomor_karakter($tangkap3)."355*\n".
+    nomor_karakter($tangkap3)."313*\n".
+    nomor_karakter($tangkap3)."323*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."343*\n".
+    nomor_karakter($tangkap3)."353*\n".
+    nomor_karakter($tangkap3)."113*\n".
+    nomor_karakter($tangkap3)."223*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."443*\n".
+    nomor_karakter($tangkap3)."553*\n".
+    nomor_karakter($tangkap3)."331*\n".
+    nomor_karakter($tangkap3)."332*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."334*\n".
+    nomor_karakter($tangkap3)."335*\n".
+    nomor_karakter($tangkap3)."453*\n".
+    nomor_karakter($tangkap3)."123*\n".
+    nomor_karakter($tangkap3)."321*\n".
+    nomor_karakter($tangkap3)."4*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."4444*\n".
+    nomor_karakter($tangkap3)."44444*\n".
+    nomor_karakter($tangkap3)."41*\n".
+    nomor_karakter($tangkap3)."42*\n".
+    nomor_karakter($tangkap3)."43*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."411*\n".
+    nomor_karakter($tangkap3)."422*\n".
+    nomor_karakter($tangkap3)."433*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."455*\n".
+    nomor_karakter($tangkap3)."414*\n".
+    nomor_karakter($tangkap3)."424*\n".
+    nomor_karakter($tangkap3)."434*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."454*\n".
+    nomor_karakter($tangkap3)."114*\n".
+    nomor_karakter($tangkap3)."224*\n".
+    nomor_karakter($tangkap3)."334*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."441*\n".
+    nomor_karakter($tangkap3)."442*\n".
+    nomor_karakter($tangkap3)."443*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."445*\n".
+    nomor_karakter($tangkap3)."554*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."12*\n".
+    nomor_karakter($tangkap3)."43*\n".
+    nomor_karakter($tangkap3)."5*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."555*\n".
+    nomor_karakter($tangkap3)."5555*\n".
+    nomor_karakter($tangkap3)."55555*\n".
+    nomor_karakter($tangkap3)."51*\n".
+    nomor_karakter($tangkap3)."52*\n".
+    nomor_karakter($tangkap3)."53*\n".
+    nomor_karakter($tangkap3)."54*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."511*\n".
+    nomor_karakter($tangkap3)."522*\n".
+    nomor_karakter($tangkap3)."533*\n".
+    nomor_karakter($tangkap3)."544*\n".
+    nomor_karakter($tangkap3)."655*\n".
+    nomor_karakter($tangkap3)."515*\n".
+    nomor_karakter($tangkap3)."525\n".
+    nomor_karakter($tangkap3)."535*\n".
+    nomor_karakter($tangkap3)."545*\n".
+    nomor_karakter($tangkap3)."555*\n".
+    nomor_karakter($tangkap3)."115*\n".
+    nomor_karakter($tangkap3)."225*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."34*\n".
+    nomor_karakter($tangkap3)."1234*\n".
+    nomor_karakter($tangkap3)."5432*\n".
+    nomor_karakter($tangkap3)."6*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."666*\n".
+    nomor_karakter($tangkap3)."6666*\n".
+    nomor_karakter($tangkap3)."66666*\n".
+    nomor_karakter($tangkap3)."61*\n".
+    nomor_karakter($tangkap3)."62*\n".
+    nomor_karakter($tangkap3)."63*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."611*\n".
+    nomor_karakter($tangkap3)."622*\n".
+    nomor_karakter($tangkap3)."633*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."61*\n".
+    nomor_karakter($tangkap3)."62*\n".
+    nomor_karakter($tangkap3)."63*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."12345*\n".
+    nomor_karakter($tangkap3)."65432*\n".
+    nomor_karakter($tangkap3)."7*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."777*\n".
+    nomor_karakter($tangkap3)."7777*\n".
+    nomor_karakter($tangkap3)."77777*\n".
+    nomor_karakter($tangkap3)."71*\n".
+    nomor_karakter($tangkap3)."72*\n".
+    nomor_karakter($tangkap3)."73*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."711*\n".
+    nomor_karakter($tangkap3)."722*\n".
+    nomor_karakter($tangkap3)."733*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."71*\n".
+    nomor_karakter($tangkap3)."72*\n".
+    nomor_karakter($tangkap3)."73*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."1234567*\n".
+    nomor_karakter($tangkap3)."8*\n".
+    nomor_karakter($tangkap3)."88*\n".
+    nomor_karakter($tangkap3)."888*\n".
+    nomor_karakter($tangkap3)."8888*\n".
+    nomor_karakter($tangkap3)."88888*\n".
+    nomor_karakter($tangkap3)."81*\n".
+    nomor_karakter($tangkap3)."82*\n".
+    nomor_karakter($tangkap3)."83*\n".
+    nomor_karakter($tangkap3)."84*\n".
+    nomor_karakter($tangkap3)."85*\n".
+    nomor_karakter($tangkap3)."811*\n".
+    nomor_karakter($tangkap3)."822*\n".
+    nomor_karakter($tangkap3)."833*\n".
+    nomor_karakter($tangkap3)."844*\n".
+    nomor_karakter($tangkap3)."855*\n".
+    nomor_karakter($tangkap3)."818*\n".
+    nomor_karakter($tangkap3)."828*\n".
+    nomor_karakter($tangkap3)."838*\n".
+    nomor_karakter($tangkap3)."848*\n".
+    nomor_karakter($tangkap3)."858*\n".
+    nomor_karakter($tangkap3)."118*\n".
+    nomor_karakter($tangkap3)."228*\n".
+    nomor_karakter($tangkap3)."338*\n".
+    nomor_karakter($tangkap3)."448*\n".
+    nomor_karakter($tangkap3)."558*\n".
+    nomor_karakter($tangkap3)."881*\n".
+    nomor_karakter($tangkap3)."882*\n".
+    nomor_karakter($tangkap3)."883*\n".
+    nomor_karakter($tangkap3)."884*\n".
+    nomor_karakter($tangkap3)."885*\n".
+    nomor_karakter($tangkap3)."458*\n".
+    nomor_karakter($tangkap3)."12345678*\n".
+    nomor_karakter($tangkap3)."87654321*\n".
+    nomor_karakter($tangkap3)."9*\n".
+    nomor_karakter($tangkap3)."99*\n".
+    nomor_karakter($tangkap3)."999*\n".
+    nomor_karakter($tangkap3)."9999*\n".
+    nomor_karakter($tangkap3)."99999*\n".
+    nomor_karakter($tangkap3)."91*\n".
+    nomor_karakter($tangkap3)."92*\n".
+    nomor_karakter($tangkap3)."93*\n".
+    nomor_karakter($tangkap3)."94*\n".
+    nomor_karakter($tangkap3)."95*\n".
+    nomor_karakter($tangkap3)."911*\n".
+    nomor_karakter($tangkap3)."922*\n".
+    nomor_karakter($tangkap3)."933*\n".
+    nomor_karakter($tangkap3)."944*\n".
+    nomor_karakter($tangkap3)."955*\n".
+    nomor_karakter($tangkap3)."919*\n".
+    nomor_karakter($tangkap3)."929*\n".
+    nomor_karakter($tangkap3)."939*\n".
+    nomor_karakter($tangkap3)."949*\n".
+    nomor_karakter($tangkap3)."959*\n".
+    nomor_karakter($tangkap3)."119*\n".
+    nomor_karakter($tangkap3)."229*\n".
+    nomor_karakter($tangkap3)."339*\n".
+    nomor_karakter($tangkap3)."449*\n".
+    nomor_karakter($tangkap3)."559*\n".
+    nomor_karakter($tangkap3)."991*\n".
+    nomor_karakter($tangkap3)."992*\n".
+    nomor_karakter($tangkap3)."993*\n".
+    nomor_karakter($tangkap3)."994*\n".
+    nomor_karakter($tangkap3)."995*\n".
+    nomor_karakter($tangkap3)."459*\n".
+    nomor_karakter($tangkap3)."12345678*\n".
+    nomor_karakter($tangkap3)."987654321*\n".
+    nomor_karakter($tangkap3)."0*\n".
+    nomor_karakter($tangkap3)."00*\n".
+    nomor_karakter($tangkap3)."000*\n".
+    nomor_karakter($tangkap3)."0000*\n".
+    nomor_karakter($tangkap3)."00000*\n".
+    nomor_karakter($tangkap3)."01*\n".
+    nomor_karakter($tangkap3)."02*\n".
+    nomor_karakter($tangkap3)."03*\n".
+    nomor_karakter($tangkap3)."04*\n".
+    nomor_karakter($tangkap3)."05*\n".
+    nomor_karakter($tangkap3)."011*\n".
+    nomor_karakter($tangkap3)."022*\n".
+    nomor_karakter($tangkap3)."033*\n".
+    nomor_karakter($tangkap3)."044*\n".
+    nomor_karakter($tangkap3)."055*\n".
+    nomor_karakter($tangkap3)."010*\n".
+    nomor_karakter($tangkap3)."020*\n".
+    nomor_karakter($tangkap3)."030*\n".
+    nomor_karakter($tangkap3)."040*\n".
+    nomor_karakter($tangkap3)."050*\n".
+    nomor_karakter($tangkap3)."110*\n".
+    nomor_karakter($tangkap3)."220*\n".
+    nomor_karakter($tangkap3)."330*\n".
+    nomor_karakter($tangkap3)."440*\n".
+    nomor_karakter($tangkap3)."550*\n".
+    nomor_karakter($tangkap3)."001*\n".
+    nomor_karakter($tangkap3)."002*\n".
+    nomor_karakter($tangkap3)."003*\n".
+    nomor_karakter($tangkap3)."004*\n".
+    nomor_karakter($tangkap3)."005*\n".
+    nomor_karakter($tangkap3)."450*\n".
+    nomor_karakter($tangkap3)."123456789*\n".
+
+    nomor_karakter($tangkap8)."1*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."111*\n".
+    nomor_karakter($tangkap8)."1111*\n".
+    nomor_karakter($tangkap8)."11111*\n".
+    nomor_karakter($tangkap8)."2*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."2222*\n".
+    nomor_karakter($tangkap8)."22222*\n".
+    nomor_karakter($tangkap8)."21*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."23*\n".
+    nomor_karakter($tangkap8)."24*\n".
+    nomor_karakter($tangkap8)."25*\n".
+    nomor_karakter($tangkap8)."26*\n".
+    nomor_karakter($tangkap8)."27*\n".
+    nomor_karakter($tangkap8)."28*\n".
+    nomor_karakter($tangkap8)."29*\n".
+    nomor_karakter($tangkap8)."211*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."233*\n".
+    nomor_karakter($tangkap8)."244*\n".
+    nomor_karakter($tangkap8)."255*\n".
+    nomor_karakter($tangkap8)."212*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."232*\n".
+    nomor_karakter($tangkap8)."242*\n".
+    nomor_karakter($tangkap8)."252*\n".
+    nomor_karakter($tangkap8)."112*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."332*\n".
+    nomor_karakter($tangkap8)."442*\n".
+    nomor_karakter($tangkap8)."552*\n".
+    nomor_karakter($tangkap8)."221*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."223*\n".
+    nomor_karakter($tangkap8)."224*\n".
+    nomor_karakter($tangkap8)."225*\n".
+    nomor_karakter($tangkap8)."452*\n".
+    nomor_karakter($tangkap8)."12*\n".
+    nomor_karakter($tangkap8)."21*\n".
+    nomor_karakter($tangkap8)."3*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."3333*\n".
+    nomor_karakter($tangkap8)."33333*\n".
+    nomor_karakter($tangkap8)."31*\n".
+    nomor_karakter($tangkap8)."32*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."34*\n".
+    nomor_karakter($tangkap8)."35*\n".
+    nomor_karakter($tangkap8)."311*\n".
+    nomor_karakter($tangkap8)."322*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."344*\n".
+    nomor_karakter($tangkap8)."355*\n".
+    nomor_karakter($tangkap8)."313*\n".
+    nomor_karakter($tangkap8)."323*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."343*\n".
+    nomor_karakter($tangkap8)."353*\n".
+    nomor_karakter($tangkap8)."113*\n".
+    nomor_karakter($tangkap8)."223*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."443*\n".
+    nomor_karakter($tangkap8)."553*\n".
+    nomor_karakter($tangkap8)."331*\n".
+    nomor_karakter($tangkap8)."332*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."334*\n".
+    nomor_karakter($tangkap8)."335*\n".
+    nomor_karakter($tangkap8)."453*\n".
+    nomor_karakter($tangkap8)."123*\n".
+    nomor_karakter($tangkap8)."321*\n".
+    nomor_karakter($tangkap8)."4*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."4444*\n".
+    nomor_karakter($tangkap8)."44444*\n".
+    nomor_karakter($tangkap8)."41*\n".
+    nomor_karakter($tangkap8)."42*\n".
+    nomor_karakter($tangkap8)."43*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."411*\n".
+    nomor_karakter($tangkap8)."422*\n".
+    nomor_karakter($tangkap8)."433*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."455*\n".
+    nomor_karakter($tangkap8)."414*\n".
+    nomor_karakter($tangkap8)."424*\n".
+    nomor_karakter($tangkap8)."434*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."454*\n".
+    nomor_karakter($tangkap8)."114*\n".
+    nomor_karakter($tangkap8)."224*\n".
+    nomor_karakter($tangkap8)."334*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."441*\n".
+    nomor_karakter($tangkap8)."442*\n".
+    nomor_karakter($tangkap8)."443*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."445*\n".
+    nomor_karakter($tangkap8)."554*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."12*\n".
+    nomor_karakter($tangkap8)."43*\n".
+    nomor_karakter($tangkap8)."5*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."555*\n".
+    nomor_karakter($tangkap8)."5555*\n".
+    nomor_karakter($tangkap8)."55555*\n".
+    nomor_karakter($tangkap8)."51*\n".
+    nomor_karakter($tangkap8)."52*\n".
+    nomor_karakter($tangkap8)."53*\n".
+    nomor_karakter($tangkap8)."54*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."511*\n".
+    nomor_karakter($tangkap8)."522*\n".
+    nomor_karakter($tangkap8)."533*\n".
+    nomor_karakter($tangkap8)."544*\n".
+    nomor_karakter($tangkap8)."655*\n".
+    nomor_karakter($tangkap8)."515*\n".
+    nomor_karakter($tangkap8)."525\n".
+    nomor_karakter($tangkap8)."535*\n".
+    nomor_karakter($tangkap8)."545*\n".
+    nomor_karakter($tangkap8)."555*\n".
+    nomor_karakter($tangkap8)."115*\n".
+    nomor_karakter($tangkap8)."225*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."34*\n".
+    nomor_karakter($tangkap8)."1234*\n".
+    nomor_karakter($tangkap8)."5432*\n".
+    nomor_karakter($tangkap8)."6*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."666*\n".
+    nomor_karakter($tangkap8)."6666*\n".
+    nomor_karakter($tangkap8)."66666*\n".
+    nomor_karakter($tangkap8)."61*\n".
+    nomor_karakter($tangkap8)."62*\n".
+    nomor_karakter($tangkap8)."63*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."611*\n".
+    nomor_karakter($tangkap8)."622*\n".
+    nomor_karakter($tangkap8)."633*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."61*\n".
+    nomor_karakter($tangkap8)."62*\n".
+    nomor_karakter($tangkap8)."63*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."12345*\n".
+    nomor_karakter($tangkap8)."65432*\n".
+    nomor_karakter($tangkap8)."7*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."777*\n".
+    nomor_karakter($tangkap8)."7777*\n".
+    nomor_karakter($tangkap8)."77777*\n".
+    nomor_karakter($tangkap8)."71*\n".
+    nomor_karakter($tangkap8)."72*\n".
+    nomor_karakter($tangkap8)."73*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."711*\n".
+    nomor_karakter($tangkap8)."722*\n".
+    nomor_karakter($tangkap8)."733*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."71*\n".
+    nomor_karakter($tangkap8)."72*\n".
+    nomor_karakter($tangkap8)."73*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."1234567*\n".
+    nomor_karakter($tangkap8)."8*\n".
+    nomor_karakter($tangkap8)."88*\n".
+    nomor_karakter($tangkap8)."888*\n".
+    nomor_karakter($tangkap8)."8888*\n".
+    nomor_karakter($tangkap8)."88888*\n".
+    nomor_karakter($tangkap8)."81*\n".
+    nomor_karakter($tangkap8)."82*\n".
+    nomor_karakter($tangkap8)."83*\n".
+    nomor_karakter($tangkap8)."84*\n".
+    nomor_karakter($tangkap8)."85*\n".
+    nomor_karakter($tangkap8)."811*\n".
+    nomor_karakter($tangkap8)."822*\n".
+    nomor_karakter($tangkap8)."833*\n".
+    nomor_karakter($tangkap8)."844*\n".
+    nomor_karakter($tangkap8)."855*\n".
+    nomor_karakter($tangkap8)."818*\n".
+    nomor_karakter($tangkap8)."828*\n".
+    nomor_karakter($tangkap8)."838*\n".
+    nomor_karakter($tangkap8)."848*\n".
+    nomor_karakter($tangkap8)."858*\n".
+    nomor_karakter($tangkap8)."118*\n".
+    nomor_karakter($tangkap8)."228*\n".
+    nomor_karakter($tangkap8)."338*\n".
+    nomor_karakter($tangkap8)."448*\n".
+    nomor_karakter($tangkap8)."558*\n".
+    nomor_karakter($tangkap8)."881*\n".
+    nomor_karakter($tangkap8)."882*\n".
+    nomor_karakter($tangkap8)."883*\n".
+    nomor_karakter($tangkap8)."884*\n".
+    nomor_karakter($tangkap8)."885*\n".
+    nomor_karakter($tangkap8)."458*\n".
+    nomor_karakter($tangkap8)."12345678*\n".
+    nomor_karakter($tangkap8)."87654321*\n".
+    nomor_karakter($tangkap8)."9*\n".
+    nomor_karakter($tangkap8)."99*\n".
+    nomor_karakter($tangkap8)."999*\n".
+    nomor_karakter($tangkap8)."9999*\n".
+    nomor_karakter($tangkap8)."99999*\n".
+    nomor_karakter($tangkap8)."91*\n".
+    nomor_karakter($tangkap8)."92*\n".
+    nomor_karakter($tangkap8)."93*\n".
+    nomor_karakter($tangkap8)."94*\n".
+    nomor_karakter($tangkap8)."95*\n".
+    nomor_karakter($tangkap8)."911*\n".
+    nomor_karakter($tangkap8)."922*\n".
+    nomor_karakter($tangkap8)."933*\n".
+    nomor_karakter($tangkap8)."944*\n".
+    nomor_karakter($tangkap8)."955*\n".
+    nomor_karakter($tangkap8)."919*\n".
+    nomor_karakter($tangkap8)."929*\n".
+    nomor_karakter($tangkap8)."939*\n".
+    nomor_karakter($tangkap8)."949*\n".
+    nomor_karakter($tangkap8)."959*\n".
+    nomor_karakter($tangkap8)."119*\n".
+    nomor_karakter($tangkap8)."229*\n".
+    nomor_karakter($tangkap8)."339*\n".
+    nomor_karakter($tangkap8)."449*\n".
+    nomor_karakter($tangkap8)."559*\n".
+    nomor_karakter($tangkap8)."991*\n".
+    nomor_karakter($tangkap8)."992*\n".
+    nomor_karakter($tangkap8)."993*\n".
+    nomor_karakter($tangkap8)."994*\n".
+    nomor_karakter($tangkap8)."995*\n".
+    nomor_karakter($tangkap8)."459*\n".
+    nomor_karakter($tangkap8)."12345678*\n".
+    nomor_karakter($tangkap8)."987654321*\n".
+    nomor_karakter($tangkap8)."0*\n".
+    nomor_karakter($tangkap8)."00*\n".
+    nomor_karakter($tangkap8)."000*\n".
+    nomor_karakter($tangkap8)."0000*\n".
+    nomor_karakter($tangkap8)."00000*\n".
+    nomor_karakter($tangkap8)."01*\n".
+    nomor_karakter($tangkap8)."02*\n".
+    nomor_karakter($tangkap8)."03*\n".
+    nomor_karakter($tangkap8)."04*\n".
+    nomor_karakter($tangkap8)."05*\n".
+    nomor_karakter($tangkap8)."011*\n".
+    nomor_karakter($tangkap8)."022*\n".
+    nomor_karakter($tangkap8)."033*\n".
+    nomor_karakter($tangkap8)."044*\n".
+    nomor_karakter($tangkap8)."055*\n".
+    nomor_karakter($tangkap8)."010*\n".
+    nomor_karakter($tangkap8)."020*\n".
+    nomor_karakter($tangkap8)."030*\n".
+    nomor_karakter($tangkap8)."040*\n".
+    nomor_karakter($tangkap8)."050*\n".
+    nomor_karakter($tangkap8)."110*\n".
+    nomor_karakter($tangkap8)."220*\n".
+    nomor_karakter($tangkap8)."330*\n".
+    nomor_karakter($tangkap8)."440*\n".
+    nomor_karakter($tangkap8)."550*\n".
+    nomor_karakter($tangkap8)."001*\n".
+    nomor_karakter($tangkap8)."002*\n".
+    nomor_karakter($tangkap8)."003*\n".
+    nomor_karakter($tangkap8)."004*\n".
+    nomor_karakter($tangkap8)."005*\n".
+    nomor_karakter($tangkap8)."450*\n".
+    nomor_karakter($tangkap8)."123456789*\n".
+
+    nomor_karakter($tangkap9)."1*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."111*\n".
+    nomor_karakter($tangkap9)."1111*\n".
+    nomor_karakter($tangkap9)."11111*\n".
+    nomor_karakter($tangkap9)."2*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."2222*\n".
+    nomor_karakter($tangkap9)."22222*\n".
+    nomor_karakter($tangkap9)."21*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."23*\n".
+    nomor_karakter($tangkap9)."24*\n".
+    nomor_karakter($tangkap9)."25*\n".
+    nomor_karakter($tangkap9)."26*\n".
+    nomor_karakter($tangkap9)."27*\n".
+    nomor_karakter($tangkap9)."28*\n".
+    nomor_karakter($tangkap9)."29*\n".
+    nomor_karakter($tangkap9)."211*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."233*\n".
+    nomor_karakter($tangkap9)."244*\n".
+    nomor_karakter($tangkap9)."255*\n".
+    nomor_karakter($tangkap9)."212*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."232*\n".
+    nomor_karakter($tangkap9)."242*\n".
+    nomor_karakter($tangkap9)."252*\n".
+    nomor_karakter($tangkap9)."112*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."332*\n".
+    nomor_karakter($tangkap9)."442*\n".
+    nomor_karakter($tangkap9)."552*\n".
+    nomor_karakter($tangkap9)."221*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."223*\n".
+    nomor_karakter($tangkap9)."224*\n".
+    nomor_karakter($tangkap9)."225*\n".
+    nomor_karakter($tangkap9)."452*\n".
+    nomor_karakter($tangkap9)."12*\n".
+    nomor_karakter($tangkap9)."21*\n".
+    nomor_karakter($tangkap9)."3*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."3333*\n".
+    nomor_karakter($tangkap9)."33333*\n".
+    nomor_karakter($tangkap9)."31*\n".
+    nomor_karakter($tangkap9)."32*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."34*\n".
+    nomor_karakter($tangkap9)."35*\n".
+    nomor_karakter($tangkap9)."311*\n".
+    nomor_karakter($tangkap9)."322*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."344*\n".
+    nomor_karakter($tangkap9)."355*\n".
+    nomor_karakter($tangkap9)."313*\n".
+    nomor_karakter($tangkap9)."323*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."343*\n".
+    nomor_karakter($tangkap9)."353*\n".
+    nomor_karakter($tangkap9)."113*\n".
+    nomor_karakter($tangkap9)."223*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."443*\n".
+    nomor_karakter($tangkap9)."553*\n".
+    nomor_karakter($tangkap9)."331*\n".
+    nomor_karakter($tangkap9)."332*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."334*\n".
+    nomor_karakter($tangkap9)."335*\n".
+    nomor_karakter($tangkap9)."453*\n".
+    nomor_karakter($tangkap9)."123*\n".
+    nomor_karakter($tangkap9)."321*\n".
+    nomor_karakter($tangkap9)."4*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."4444*\n".
+    nomor_karakter($tangkap9)."44444*\n".
+    nomor_karakter($tangkap9)."41*\n".
+    nomor_karakter($tangkap9)."42*\n".
+    nomor_karakter($tangkap9)."43*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."411*\n".
+    nomor_karakter($tangkap9)."422*\n".
+    nomor_karakter($tangkap9)."433*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."455*\n".
+    nomor_karakter($tangkap9)."414*\n".
+    nomor_karakter($tangkap9)."424*\n".
+    nomor_karakter($tangkap9)."434*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."454*\n".
+    nomor_karakter($tangkap9)."114*\n".
+    nomor_karakter($tangkap9)."224*\n".
+    nomor_karakter($tangkap9)."334*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."441*\n".
+    nomor_karakter($tangkap9)."442*\n".
+    nomor_karakter($tangkap9)."443*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."445*\n".
+    nomor_karakter($tangkap9)."554*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."12*\n".
+    nomor_karakter($tangkap9)."43*\n".
+    nomor_karakter($tangkap9)."5*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."555*\n".
+    nomor_karakter($tangkap9)."5555*\n".
+    nomor_karakter($tangkap9)."55555*\n".
+    nomor_karakter($tangkap9)."51*\n".
+    nomor_karakter($tangkap9)."52*\n".
+    nomor_karakter($tangkap9)."53*\n".
+    nomor_karakter($tangkap9)."54*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."511*\n".
+    nomor_karakter($tangkap9)."522*\n".
+    nomor_karakter($tangkap9)."533*\n".
+    nomor_karakter($tangkap9)."544*\n".
+    nomor_karakter($tangkap9)."655*\n".
+    nomor_karakter($tangkap9)."515*\n".
+    nomor_karakter($tangkap9)."525\n".
+    nomor_karakter($tangkap9)."535*\n".
+    nomor_karakter($tangkap9)."545*\n".
+    nomor_karakter($tangkap9)."555*\n".
+    nomor_karakter($tangkap9)."115*\n".
+    nomor_karakter($tangkap9)."225*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."34*\n".
+    nomor_karakter($tangkap9)."1234*\n".
+    nomor_karakter($tangkap9)."5432*\n".
+    nomor_karakter($tangkap9)."6*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."666*\n".
+    nomor_karakter($tangkap9)."6666*\n".
+    nomor_karakter($tangkap9)."66666*\n".
+    nomor_karakter($tangkap9)."61*\n".
+    nomor_karakter($tangkap9)."62*\n".
+    nomor_karakter($tangkap9)."63*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."611*\n".
+    nomor_karakter($tangkap9)."622*\n".
+    nomor_karakter($tangkap9)."633*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."61*\n".
+    nomor_karakter($tangkap9)."62*\n".
+    nomor_karakter($tangkap9)."63*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."12345*\n".
+    nomor_karakter($tangkap9)."65432*\n".
+    nomor_karakter($tangkap9)."7*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."777*\n".
+    nomor_karakter($tangkap9)."7777*\n".
+    nomor_karakter($tangkap9)."77777*\n".
+    nomor_karakter($tangkap9)."71*\n".
+    nomor_karakter($tangkap9)."72*\n".
+    nomor_karakter($tangkap9)."73*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."711*\n".
+    nomor_karakter($tangkap9)."722*\n".
+    nomor_karakter($tangkap9)."733*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."71*\n".
+    nomor_karakter($tangkap9)."72*\n".
+    nomor_karakter($tangkap9)."73*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."1234567*\n".
+    nomor_karakter($tangkap9)."8*\n".
+    nomor_karakter($tangkap9)."88*\n".
+    nomor_karakter($tangkap9)."888*\n".
+    nomor_karakter($tangkap9)."8888*\n".
+    nomor_karakter($tangkap9)."88888*\n".
+    nomor_karakter($tangkap9)."81*\n".
+    nomor_karakter($tangkap9)."82*\n".
+    nomor_karakter($tangkap9)."83*\n".
+    nomor_karakter($tangkap9)."84*\n".
+    nomor_karakter($tangkap9)."85*\n".
+    nomor_karakter($tangkap9)."811*\n".
+    nomor_karakter($tangkap9)."822*\n".
+    nomor_karakter($tangkap9)."833*\n".
+    nomor_karakter($tangkap9)."844*\n".
+    nomor_karakter($tangkap9)."855*\n".
+    nomor_karakter($tangkap9)."818*\n".
+    nomor_karakter($tangkap9)."828*\n".
+    nomor_karakter($tangkap9)."838*\n".
+    nomor_karakter($tangkap9)."848*\n".
+    nomor_karakter($tangkap9)."858*\n".
+    nomor_karakter($tangkap9)."118*\n".
+    nomor_karakter($tangkap9)."228*\n".
+    nomor_karakter($tangkap9)."338*\n".
+    nomor_karakter($tangkap9)."448*\n".
+    nomor_karakter($tangkap9)."558*\n".
+    nomor_karakter($tangkap9)."881*\n".
+    nomor_karakter($tangkap9)."882*\n".
+    nomor_karakter($tangkap9)."883*\n".
+    nomor_karakter($tangkap9)."884*\n".
+    nomor_karakter($tangkap9)."885*\n".
+    nomor_karakter($tangkap9)."458*\n".
+    nomor_karakter($tangkap9)."12345678*\n".
+    nomor_karakter($tangkap9)."87654321*\n".
+    nomor_karakter($tangkap9)."9*\n".
+    nomor_karakter($tangkap9)."99*\n".
+    nomor_karakter($tangkap9)."999*\n".
+    nomor_karakter($tangkap9)."9999*\n".
+    nomor_karakter($tangkap9)."99999*\n".
+    nomor_karakter($tangkap9)."91*\n".
+    nomor_karakter($tangkap9)."92*\n".
+    nomor_karakter($tangkap9)."93*\n".
+    nomor_karakter($tangkap9)."94*\n".
+    nomor_karakter($tangkap9)."95*\n".
+    nomor_karakter($tangkap9)."911*\n".
+    nomor_karakter($tangkap9)."922*\n".
+    nomor_karakter($tangkap9)."933*\n".
+    nomor_karakter($tangkap9)."944*\n".
+    nomor_karakter($tangkap9)."955*\n".
+    nomor_karakter($tangkap9)."919*\n".
+    nomor_karakter($tangkap9)."929*\n".
+    nomor_karakter($tangkap9)."939*\n".
+    nomor_karakter($tangkap9)."949*\n".
+    nomor_karakter($tangkap9)."959*\n".
+    nomor_karakter($tangkap9)."119*\n".
+    nomor_karakter($tangkap9)."229*\n".
+    nomor_karakter($tangkap9)."339*\n".
+    nomor_karakter($tangkap9)."449*\n".
+    nomor_karakter($tangkap9)."559*\n".
+    nomor_karakter($tangkap9)."991*\n".
+    nomor_karakter($tangkap9)."992*\n".
+    nomor_karakter($tangkap9)."993*\n".
+    nomor_karakter($tangkap9)."994*\n".
+    nomor_karakter($tangkap9)."995*\n".
+    nomor_karakter($tangkap9)."459*\n".
+    nomor_karakter($tangkap9)."12345678*\n".
+    nomor_karakter($tangkap9)."987654321*\n".
+    nomor_karakter($tangkap9)."0*\n".
+    nomor_karakter($tangkap9)."00*\n".
+    nomor_karakter($tangkap9)."000*\n".
+    nomor_karakter($tangkap9)."0000*\n".
+    nomor_karakter($tangkap9)."00000*\n".
+    nomor_karakter($tangkap9)."01*\n".
+    nomor_karakter($tangkap9)."02*\n".
+    nomor_karakter($tangkap9)."03*\n".
+    nomor_karakter($tangkap9)."04*\n".
+    nomor_karakter($tangkap9)."05*\n".
+    nomor_karakter($tangkap9)."011*\n".
+    nomor_karakter($tangkap9)."022*\n".
+    nomor_karakter($tangkap9)."033*\n".
+    nomor_karakter($tangkap9)."044*\n".
+    nomor_karakter($tangkap9)."055*\n".
+    nomor_karakter($tangkap9)."010*\n".
+    nomor_karakter($tangkap9)."020*\n".
+    nomor_karakter($tangkap9)."030*\n".
+    nomor_karakter($tangkap9)."040*\n".
+    nomor_karakter($tangkap9)."050*\n".
+    nomor_karakter($tangkap9)."110*\n".
+    nomor_karakter($tangkap9)."220*\n".
+    nomor_karakter($tangkap9)."330*\n".
+    nomor_karakter($tangkap9)."440*\n".
+    nomor_karakter($tangkap9)."550*\n".
+    nomor_karakter($tangkap9)."001*\n".
+    nomor_karakter($tangkap9)."002*\n".
+    nomor_karakter($tangkap9)."003*\n".
+    nomor_karakter($tangkap9)."004*\n".
+    nomor_karakter($tangkap9)."005*\n".
+    nomor_karakter($tangkap9)."450*\n".
+    nomor_karakter($tangkap9)."123456789*\n".
+
+    nomor_karakter($tangkap13)."1*\n".
+    nomor_karakter($tangkap13)."11*\n".
+    nomor_karakter($tangkap13)."111*\n".
+    nomor_karakter($tangkap13)."1111*\n".
+    nomor_karakter($tangkap13)."11111*\n".
+    nomor_karakter($tangkap13)."2*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."2222*\n".
+    nomor_karakter($tangkap13)."22222*\n".
+    nomor_karakter($tangkap13)."21*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."23*\n".
+    nomor_karakter($tangkap13)."24*\n".
+    nomor_karakter($tangkap13)."25*\n".
+    nomor_karakter($tangkap13)."26*\n".
+    nomor_karakter($tangkap13)."27*\n".
+    nomor_karakter($tangkap13)."28*\n".
+    nomor_karakter($tangkap13)."29*\n".
+    nomor_karakter($tangkap13)."211*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."233*\n".
+    nomor_karakter($tangkap13)."244*\n".
+    nomor_karakter($tangkap13)."255*\n".
+    nomor_karakter($tangkap13)."212*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."232*\n".
+    nomor_karakter($tangkap13)."242*\n".
+    nomor_karakter($tangkap13)."252*\n".
+    nomor_karakter($tangkap13)."112*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."332*\n".
+    nomor_karakter($tangkap13)."442*\n".
+    nomor_karakter($tangkap13)."552*\n".
+    nomor_karakter($tangkap13)."221*\n".
+    nomor_karakter($tangkap13)."222*\n".
+    nomor_karakter($tangkap13)."223*\n".
+    nomor_karakter($tangkap13)."224*\n".
+    nomor_karakter($tangkap13)."225*\n".
+    nomor_karakter($tangkap13)."452*\n".
+    nomor_karakter($tangkap13)."12*\n".
+    nomor_karakter($tangkap13)."21*\n".
+    nomor_karakter($tangkap13)."3*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."3333*\n".
+    nomor_karakter($tangkap13)."33333*\n".
+    nomor_karakter($tangkap13)."31*\n".
+    nomor_karakter($tangkap13)."32*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."34*\n".
+    nomor_karakter($tangkap13)."35*\n".
+    nomor_karakter($tangkap13)."311*\n".
+    nomor_karakter($tangkap13)."322*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."344*\n".
+    nomor_karakter($tangkap13)."355*\n".
+    nomor_karakter($tangkap13)."313*\n".
+    nomor_karakter($tangkap13)."323*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."343*\n".
+    nomor_karakter($tangkap13)."353*\n".
+    nomor_karakter($tangkap13)."113*\n".
+    nomor_karakter($tangkap13)."223*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."443*\n".
+    nomor_karakter($tangkap13)."553*\n".
+    nomor_karakter($tangkap13)."331*\n".
+    nomor_karakter($tangkap13)."332*\n".
+    nomor_karakter($tangkap13)."333*\n".
+    nomor_karakter($tangkap13)."334*\n".
+    nomor_karakter($tangkap13)."335*\n".
+    nomor_karakter($tangkap13)."453*\n".
+    nomor_karakter($tangkap13)."123*\n".
+    nomor_karakter($tangkap13)."321*\n".
+    nomor_karakter($tangkap13)."4*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."4444*\n".
+    nomor_karakter($tangkap13)."44444*\n".
+    nomor_karakter($tangkap13)."41*\n".
+    nomor_karakter($tangkap13)."42*\n".
+    nomor_karakter($tangkap13)."43*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."45*\n".
+    nomor_karakter($tangkap13)."411*\n".
+    nomor_karakter($tangkap13)."422*\n".
+    nomor_karakter($tangkap13)."433*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."455*\n".
+    nomor_karakter($tangkap13)."414*\n".
+    nomor_karakter($tangkap13)."424*\n".
+    nomor_karakter($tangkap13)."434*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."454*\n".
+    nomor_karakter($tangkap13)."114*\n".
+    nomor_karakter($tangkap13)."224*\n".
+    nomor_karakter($tangkap13)."334*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."441*\n".
+    nomor_karakter($tangkap13)."442*\n".
+    nomor_karakter($tangkap13)."443*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."445*\n".
+    nomor_karakter($tangkap13)."554*\n".
+    nomor_karakter($tangkap13)."444*\n".
+    nomor_karakter($tangkap13)."12*\n".
+    nomor_karakter($tangkap13)."43*\n".
+    nomor_karakter($tangkap13)."5*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."555*\n".
+    nomor_karakter($tangkap13)."5555*\n".
+    nomor_karakter($tangkap13)."55555*\n".
+    nomor_karakter($tangkap13)."51*\n".
+    nomor_karakter($tangkap13)."52*\n".
+    nomor_karakter($tangkap13)."53*\n".
+    nomor_karakter($tangkap13)."54*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."511*\n".
+    nomor_karakter($tangkap13)."522*\n".
+    nomor_karakter($tangkap13)."533*\n".
+    nomor_karakter($tangkap13)."544*\n".
+    nomor_karakter($tangkap13)."655*\n".
+    nomor_karakter($tangkap13)."515*\n".
+    nomor_karakter($tangkap13)."525\n".
+    nomor_karakter($tangkap13)."535*\n".
+    nomor_karakter($tangkap13)."545*\n".
+    nomor_karakter($tangkap13)."555*\n".
+    nomor_karakter($tangkap13)."115*\n".
+    nomor_karakter($tangkap13)."225*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."34*\n".
+    nomor_karakter($tangkap13)."1234*\n".
+    nomor_karakter($tangkap13)."5432*\n".
+    nomor_karakter($tangkap13)."6*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."666*\n".
+    nomor_karakter($tangkap13)."6666*\n".
+    nomor_karakter($tangkap13)."66666*\n".
+    nomor_karakter($tangkap13)."61*\n".
+    nomor_karakter($tangkap13)."62*\n".
+    nomor_karakter($tangkap13)."63*\n".
+    nomor_karakter($tangkap13)."64*\n".
+    nomor_karakter($tangkap13)."65*\n".
+    nomor_karakter($tangkap13)."611*\n".
+    nomor_karakter($tangkap13)."622*\n".
+    nomor_karakter($tangkap13)."633*\n".
+    nomor_karakter($tangkap13)."64*\n".
+    nomor_karakter($tangkap13)."65*\n".
+    nomor_karakter($tangkap13)."61*\n".
+    nomor_karakter($tangkap13)."62*\n".
+    nomor_karakter($tangkap13)."63*\n".
+    nomor_karakter($tangkap13)."64*\n".
+    nomor_karakter($tangkap13)."65*\n".
+    nomor_karakter($tangkap13)."11*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."66*\n".
+    nomor_karakter($tangkap13)."45*\n".
+    nomor_karakter($tangkap13)."12345*\n".
+    nomor_karakter($tangkap13)."65432*\n".
+    nomor_karakter($tangkap13)."7*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."777*\n".
+    nomor_karakter($tangkap13)."7777*\n".
+    nomor_karakter($tangkap13)."77777*\n".
+    nomor_karakter($tangkap13)."71*\n".
+    nomor_karakter($tangkap13)."72*\n".
+    nomor_karakter($tangkap13)."73*\n".
+    nomor_karakter($tangkap13)."74*\n".
+    nomor_karakter($tangkap13)."75*\n".
+    nomor_karakter($tangkap13)."711*\n".
+    nomor_karakter($tangkap13)."722*\n".
+    nomor_karakter($tangkap13)."733*\n".
+    nomor_karakter($tangkap13)."74*\n".
+    nomor_karakter($tangkap13)."75*\n".
+    nomor_karakter($tangkap13)."71*\n".
+    nomor_karakter($tangkap13)."72*\n".
+    nomor_karakter($tangkap13)."73*\n".
+    nomor_karakter($tangkap13)."74*\n".
+    nomor_karakter($tangkap13)."75*\n".
+    nomor_karakter($tangkap13)."11*\n".
+    nomor_karakter($tangkap13)."22*\n".
+    nomor_karakter($tangkap13)."33*\n".
+    nomor_karakter($tangkap13)."44*\n".
+    nomor_karakter($tangkap13)."55*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."77*\n".
+    nomor_karakter($tangkap13)."45*\n".
+    nomor_karakter($tangkap13)."1234567*\n".
+    nomor_karakter($tangkap13)."8*\n".
+    nomor_karakter($tangkap13)."88*\n".
+    nomor_karakter($tangkap13)."888*\n".
+    nomor_karakter($tangkap13)."8888*\n".
+    nomor_karakter($tangkap13)."88888*\n".
+    nomor_karakter($tangkap13)."81*\n".
+    nomor_karakter($tangkap13)."82*\n".
+    nomor_karakter($tangkap13)."83*\n".
+    nomor_karakter($tangkap13)."84*\n".
+    nomor_karakter($tangkap13)."85*\n".
+    nomor_karakter($tangkap13)."811*\n".
+    nomor_karakter($tangkap13)."822*\n".
+    nomor_karakter($tangkap13)."833*\n".
+    nomor_karakter($tangkap13)."844*\n".
+    nomor_karakter($tangkap13)."855*\n".
+    nomor_karakter($tangkap13)."818*\n".
+    nomor_karakter($tangkap13)."828*\n".
+    nomor_karakter($tangkap13)."838*\n".
+    nomor_karakter($tangkap13)."848*\n".
+    nomor_karakter($tangkap13)."858*\n".
+    nomor_karakter($tangkap13)."118*\n".
+    nomor_karakter($tangkap13)."228*\n".
+    nomor_karakter($tangkap13)."338*\n".
+    nomor_karakter($tangkap13)."448*\n".
+    nomor_karakter($tangkap13)."558*\n".
+    nomor_karakter($tangkap13)."881*\n".
+    nomor_karakter($tangkap13)."882*\n".
+    nomor_karakter($tangkap13)."883*\n".
+    nomor_karakter($tangkap13)."884*\n".
+    nomor_karakter($tangkap13)."885*\n".
+    nomor_karakter($tangkap13)."458*\n".
+    nomor_karakter($tangkap13)."12345678*\n".
+    nomor_karakter($tangkap13)."87654321*\n".
+    nomor_karakter($tangkap13)."9*\n".
+    nomor_karakter($tangkap13)."99*\n".
+    nomor_karakter($tangkap13)."999*\n".
+    nomor_karakter($tangkap13)."9999*\n".
+    nomor_karakter($tangkap13)."99999*\n".
+    nomor_karakter($tangkap13)."91*\n".
+    nomor_karakter($tangkap13)."92*\n".
+    nomor_karakter($tangkap13)."93*\n".
+    nomor_karakter($tangkap13)."94*\n".
+    nomor_karakter($tangkap13)."95*\n".
+    nomor_karakter($tangkap13)."911*\n".
+    nomor_karakter($tangkap13)."922*\n".
+    nomor_karakter($tangkap13)."933*\n".
+    nomor_karakter($tangkap13)."944*\n".
+    nomor_karakter($tangkap13)."955*\n".
+    nomor_karakter($tangkap13)."919*\n".
+    nomor_karakter($tangkap13)."929*\n".
+    nomor_karakter($tangkap13)."939*\n".
+    nomor_karakter($tangkap13)."949*\n".
+    nomor_karakter($tangkap13)."959*\n".
+    nomor_karakter($tangkap13)."119*\n".
+    nomor_karakter($tangkap13)."229*\n".
+    nomor_karakter($tangkap13)."339*\n".
+    nomor_karakter($tangkap13)."449*\n".
+    nomor_karakter($tangkap13)."559*\n".
+    nomor_karakter($tangkap13)."991*\n".
+    nomor_karakter($tangkap13)."992*\n".
+    nomor_karakter($tangkap13)."993*\n".
+    nomor_karakter($tangkap13)."994*\n".
+    nomor_karakter($tangkap13)."995*\n".
+    nomor_karakter($tangkap13)."459*\n".
+    nomor_karakter($tangkap13)."12345678*\n".
+    nomor_karakter($tangkap13)."987654321*\n".
+    nomor_karakter($tangkap13)."0*\n".
+    nomor_karakter($tangkap13)."00*\n".
+    nomor_karakter($tangkap13)."000*\n".
+    nomor_karakter($tangkap13)."0000*\n".
+    nomor_karakter($tangkap13)."00000*\n".
+    nomor_karakter($tangkap13)."01*\n".
+    nomor_karakter($tangkap13)."02*\n".
+    nomor_karakter($tangkap13)."03*\n".
+    nomor_karakter($tangkap13)."04*\n".
+    nomor_karakter($tangkap13)."05*\n".
+    nomor_karakter($tangkap13)."011*\n".
+    nomor_karakter($tangkap13)."022*\n".
+    nomor_karakter($tangkap13)."033*\n".
+    nomor_karakter($tangkap13)."044*\n".
+    nomor_karakter($tangkap13)."055*\n".
+    nomor_karakter($tangkap13)."010*\n".
+    nomor_karakter($tangkap13)."020*\n".
+    nomor_karakter($tangkap13)."030*\n".
+    nomor_karakter($tangkap13)."040*\n".
+    nomor_karakter($tangkap13)."050*\n".
+    nomor_karakter($tangkap13)."110*\n".
+    nomor_karakter($tangkap13)."220*\n".
+    nomor_karakter($tangkap13)."330*\n".
+    nomor_karakter($tangkap13)."440*\n".
+    nomor_karakter($tangkap13)."550*\n".
+    nomor_karakter($tangkap13)."001*\n".
+    nomor_karakter($tangkap13)."002*\n".
+    nomor_karakter($tangkap13)."003*\n".
+    nomor_karakter($tangkap13)."004*\n".
+    nomor_karakter($tangkap13)."005*\n".
+    nomor_karakter($tangkap13)."450*\n".
+    nomor_karakter($tangkap13)."123456789*\n".
+
+
+    tambah_karakter($tangkap1).". \n".
+    tambah_karakter($tangkap1).", \n".
+    tambah_karakter($tangkap1).": \n".
+    tambah_karakter($tangkap1)."; \n".
+    tambah_karakter($tangkap1)."' \n".
+    tambah_karakter($tangkap1)."- \n".
+    tambah_karakter($tangkap1)."_ \n".
+    tambah_karakter($tangkap1)."\ \n".
+    tambah_karakter($tangkap1)."+ \n".
+    tambah_karakter($tangkap1)."= \n".
+    tambah_karakter($tangkap1)."! \n".
+    tambah_karakter($tangkap1)."@ \n".
+    tambah_karakter($tangkap1)."# \n".
+    tambah_karakter($tangkap1)."$ \n".
+    tambah_karakter($tangkap1)."% \n".
+    tambah_karakter($tangkap1)."^ \n".
+    tambah_karakter($tangkap1)."& \n".
+    tambah_karakter($tangkap1)."* \n".
+    tambah_karakter($tangkap1)."(-_-) \n".
+    tambah_karakter($tangkap1)."(*_*) \n".
+    tambah_karakter($tangkap1)."(#-#) \n".
+    tambah_karakter($tangkap1)."(^_^) \n".
+    tambah_karakter($tangkap1)."(^-^) \n".
+    tambah_karakter($tangkap1)."1+1 \n".
+    tambah_karakter($tangkap1)."1+2 \n".
+    tambah_karakter($tangkap1)."1+3 \n".
+    tambah_karakter($tangkap1)."1+4 \n".
+    tambah_karakter($tangkap1)."1+5 \n".
+    tambah_karakter($tangkap1)."{-_-} \n".
+    tambah_karakter($tangkap1)."{*_*} \n".
+    tambah_karakter($tangkap1)."{#_#} \n".
+    tambah_karakter($tangkap1)."{^_^} \n".
+    tambah_karakter($tangkap1)."{+_+} \n".
+    tambah_karakter($tangkap1)."[-_-] \n".
+    tambah_karakter($tangkap1)."[*_*] \n".
+    tambah_karakter($tangkap1)."[+_+] \n".
+    tambah_karakter($tangkap1)."[#_#] \n".
+    tambah_karakter($tangkap1)."[^_^] \n".
+    tambah_karakter($tangkap1)."[?_?] \n".
+    tambah_karakter($tangkap1)."? \n".
+    tambah_karakter($tangkap1)."/ \n".
+    tambah_karakter($tangkap1)."<-_-> \n".
+    tambah_karakter($tangkap1)."| \n".
+    tambah_karakter($tangkap1)."!! \n".
+    tambah_karakter($tangkap1)."!?! \n".
+    tambah_karakter($tangkap1)."!@! \n".
+    tambah_karakter($tangkap1)."!#! \n".
+    tambah_karakter($tangkap1)."!$! \n".
+    tambah_karakter($tangkap1)."!%! \n".
+    tambah_karakter($tangkap1)."!!! \n".
+    tambah_karakter($tangkap1)."!^! \n".
+    tambah_karakter($tangkap1)."!&! \n".
+    tambah_karakter($tangkap1)."!*! \n".
+    tambah_karakter($tangkap1)."!(!) \n".
+    tambah_karakter($tangkap1)."!_!\n".
+    tambah_karakter($tangkap1)."!-! \n".
+    tambah_karakter($tangkap1)."!+! \n".
+    tambah_karakter($tangkap1)."@!! \n".
+    tambah_karakter($tangkap1)."@@ \n".
+    tambah_karakter($tangkap1)."@@@ \n".
+    tambah_karakter($tangkap1)."@#@ \n".
+    tambah_karakter($tangkap1)."@_@ \n".
+    tambah_karakter($tangkap1)."@-@ \n".
+    tambah_karakter($tangkap1)."@*@ \n".
+    tambah_karakter($tangkap1)."@$# \n".
+    tambah_karakter($tangkap1)."@&@ \n".
+    tambah_karakter($tangkap1)."/// \n".
+    tambah_karakter($tangkap1)."%&* \n".
+    tambah_karakter($tangkap1)."##@ \n".
+    tambah_karakter($tangkap1)."##$ \n".
+    tambah_karakter($tangkap1)."#$# \n".
+    tambah_karakter($tangkap1)."#@# \n".
+    tambah_karakter($tangkap1)."##& \n".
+    tambah_karakter($tangkap1)."##* \n".
+    tambah_karakter($tangkap1)."!?!? \n".
+    tambah_karakter($tangkap1)."!1!1 \n".
+    tambah_karakter($tangkap1)."., \n".
+    tambah_karakter($tangkap1).".,! \n".
+    tambah_karakter($tangkap1)."'.,?! \n".
+    tambah_karakter($tangkap1).":; \n".
+    tambah_karakter($tangkap1).",. \n".
+    tambah_karakter($tangkap1)."'-! \n".
+    tambah_karakter($tangkap1)."+--+ \n".
+    tambah_karakter($tangkap1)."--+- \n".
+    tambah_karakter($tangkap1)."$^^$ \n".
+    tambah_karakter($tangkap1)."*123# \n".
+    tambah_karakter($tangkap1)."#555# \n".
+    tambah_karakter($tangkap1)."#999# \n".
+
+    tambah_karakter($tangkap2).". \n".
+    tambah_karakter($tangkap2).", \n".
+    tambah_karakter($tangkap2).": \n".
+    tambah_karakter($tangkap2)."; \n".
+    tambah_karakter($tangkap2)."' \n".
+    tambah_karakter($tangkap2)."- \n".
+    tambah_karakter($tangkap2)."_ \n".
+    tambah_karakter($tangkap2)."\ \n".
+    tambah_karakter($tangkap2)."+ \n".
+    tambah_karakter($tangkap2)."= \n".
+    tambah_karakter($tangkap2)."! \n".
+    tambah_karakter($tangkap2)."@ \n".
+    tambah_karakter($tangkap2)."# \n".
+    tambah_karakter($tangkap2)."$ \n".
+    tambah_karakter($tangkap2)."% \n".
+    tambah_karakter($tangkap2)."^ \n".
+    tambah_karakter($tangkap2)."& \n".
+    tambah_karakter($tangkap2)."* \n".
+    tambah_karakter($tangkap2)."(-_-) \n".
+    tambah_karakter($tangkap2)."(*_*) \n".
+    tambah_karakter($tangkap2)."(#-#) \n".
+    tambah_karakter($tangkap2)."(^_^) \n".
+    tambah_karakter($tangkap2)."(^-^) \n".
+    tambah_karakter($tangkap2)."1+1 \n".
+    tambah_karakter($tangkap2)."1+2 \n".
+    tambah_karakter($tangkap2)."1+3 \n".
+    tambah_karakter($tangkap2)."1+4 \n".
+    tambah_karakter($tangkap2)."1+5 \n".
+    tambah_karakter($tangkap2)."{-_-} \n".
+    tambah_karakter($tangkap2)."{*_*} \n".
+    tambah_karakter($tangkap2)."{#_#} \n".
+    tambah_karakter($tangkap2)."{^_^} \n".
+    tambah_karakter($tangkap2)."{+_+} \n".
+    tambah_karakter($tangkap2)."[-_-] \n".
+    tambah_karakter($tangkap2)."[*_*] \n".
+    tambah_karakter($tangkap2)."[+_+] \n".
+    tambah_karakter($tangkap2)."[#_#] \n".
+    tambah_karakter($tangkap2)."[^_^] \n".
+    tambah_karakter($tangkap2)."[?_?] \n".
+    tambah_karakter($tangkap2)."? \n".
+    tambah_karakter($tangkap2)."/ \n".
+    tambah_karakter($tangkap2)."<-_-> \n".
+    tambah_karakter($tangkap2)."| \n".
+    tambah_karakter($tangkap2)."!! \n".
+    tambah_karakter($tangkap2)."!?! \n".
+    tambah_karakter($tangkap2)."!@! \n".
+    tambah_karakter($tangkap2)."!#! \n".
+    tambah_karakter($tangkap2)."!$! \n".
+    tambah_karakter($tangkap2)."!%! \n".
+    tambah_karakter($tangkap2)."!!! \n".
+    tambah_karakter($tangkap2)."!^! \n".
+    tambah_karakter($tangkap2)."!&! \n".
+    tambah_karakter($tangkap2)."!*! \n".
+    tambah_karakter($tangkap2)."!(!) \n".
+    tambah_karakter($tangkap2)."!_!\n".
+    tambah_karakter($tangkap2)."!-! \n".
+    tambah_karakter($tangkap2)."!+! \n".
+    tambah_karakter($tangkap2)."@!! \n".
+    tambah_karakter($tangkap2)."@@ \n".
+    tambah_karakter($tangkap2)."@@@ \n".
+    tambah_karakter($tangkap2)."@#@ \n".
+    tambah_karakter($tangkap2)."@_@ \n".
+    tambah_karakter($tangkap2)."@-@ \n".
+    tambah_karakter($tangkap2)."@*@ \n".
+    tambah_karakter($tangkap2)."@$# \n".
+    tambah_karakter($tangkap2)."@&@ \n".
+    tambah_karakter($tangkap2)."/// \n".
+    tambah_karakter($tangkap2)."%&* \n".
+    tambah_karakter($tangkap2)."##@ \n".
+    tambah_karakter($tangkap2)."##$ \n".
+    tambah_karakter($tangkap2)."#$# \n".
+    tambah_karakter($tangkap2)."#@# \n".
+    tambah_karakter($tangkap2)."##& \n".
+    tambah_karakter($tangkap2)."##* \n".
+    tambah_karakter($tangkap2)."!?!? \n".
+    tambah_karakter($tangkap2)."!1!1 \n".
+    tambah_karakter($tangkap2)."., \n".
+    tambah_karakter($tangkap2).".,! \n".
+    tambah_karakter($tangkap2)."'.,?! \n".
+    tambah_karakter($tangkap2).":; \n".
+    tambah_karakter($tangkap2).",. \n".
+    tambah_karakter($tangkap2)."'-! \n".
+    tambah_karakter($tangkap2)."+--+ \n".
+    tambah_karakter($tangkap2)."--+- \n".
+    tambah_karakter($tangkap2)."$^^$ \n".
+    tambah_karakter($tangkap2)."*123# \n".
+    tambah_karakter($tangkap2)."#555# \n".
+    tambah_karakter($tangkap2)."#999# \n".
+
+    tambah_karakter($tangkap3).". \n".
+    tambah_karakter($tangkap3).", \n".
+    tambah_karakter($tangkap3).": \n".
+    tambah_karakter($tangkap3)."; \n".
+    tambah_karakter($tangkap3)."' \n".
+    tambah_karakter($tangkap3)."- \n".
+    tambah_karakter($tangkap3)."_ \n".
+    tambah_karakter($tangkap3)."\ \n".
+    tambah_karakter($tangkap3)."+ \n".
+    tambah_karakter($tangkap3)."= \n".
+    tambah_karakter($tangkap3)."! \n".
+    tambah_karakter($tangkap3)."@ \n".
+    tambah_karakter($tangkap3)."# \n".
+    tambah_karakter($tangkap3)."$ \n".
+    tambah_karakter($tangkap3)."% \n".
+    tambah_karakter($tangkap3)."^ \n".
+    tambah_karakter($tangkap3)."& \n".
+    tambah_karakter($tangkap3)."* \n".
+    tambah_karakter($tangkap3)."(-_-) \n".
+    tambah_karakter($tangkap3)."(*_*) \n".
+    tambah_karakter($tangkap3)."(#-#) \n".
+    tambah_karakter($tangkap3)."(^_^) \n".
+    tambah_karakter($tangkap3)."(^-^) \n".
+    tambah_karakter($tangkap3)."1+1 \n".
+    tambah_karakter($tangkap3)."1+2 \n".
+    tambah_karakter($tangkap3)."1+3 \n".
+    tambah_karakter($tangkap3)."1+4 \n".
+    tambah_karakter($tangkap3)."1+5 \n".
+    tambah_karakter($tangkap3)."{-_-} \n".
+    tambah_karakter($tangkap3)."{*_*} \n".
+    tambah_karakter($tangkap3)."{#_#} \n".
+    tambah_karakter($tangkap3)."{^_^} \n".
+    tambah_karakter($tangkap3)."{+_+} \n".
+    tambah_karakter($tangkap3)."[-_-] \n".
+    tambah_karakter($tangkap3)."[*_*] \n".
+    tambah_karakter($tangkap3)."[+_+] \n".
+    tambah_karakter($tangkap3)."[#_#] \n".
+    tambah_karakter($tangkap3)."[^_^] \n".
+    tambah_karakter($tangkap3)."[?_?] \n".
+    tambah_karakter($tangkap3)."? \n".
+    tambah_karakter($tangkap3)."/ \n".
+    tambah_karakter($tangkap3)."<-_-> \n".
+    tambah_karakter($tangkap3)."| \n".
+    tambah_karakter($tangkap3)."!! \n".
+    tambah_karakter($tangkap3)."!?! \n".
+    tambah_karakter($tangkap3)."!@! \n".
+    tambah_karakter($tangkap3)."!#! \n".
+    tambah_karakter($tangkap3)."!$! \n".
+    tambah_karakter($tangkap3)."!%! \n".
+    tambah_karakter($tangkap3)."!!! \n".
+    tambah_karakter($tangkap3)."!^! \n".
+    tambah_karakter($tangkap3)."!&! \n".
+    tambah_karakter($tangkap3)."!*! \n".
+    tambah_karakter($tangkap3)."!(!) \n".
+    tambah_karakter($tangkap3)."!_!\n".
+    tambah_karakter($tangkap3)."!-! \n".
+    tambah_karakter($tangkap3)."!+! \n".
+    tambah_karakter($tangkap3)."@!! \n".
+    tambah_karakter($tangkap3)."@@ \n".
+    tambah_karakter($tangkap3)."@@@ \n".
+    tambah_karakter($tangkap3)."@#@ \n".
+    tambah_karakter($tangkap3)."@_@ \n".
+    tambah_karakter($tangkap3)."@-@ \n".
+    tambah_karakter($tangkap3)."@*@ \n".
+    tambah_karakter($tangkap3)."@$# \n".
+    tambah_karakter($tangkap3)."@&@ \n".
+    tambah_karakter($tangkap3)."/// \n".
+    tambah_karakter($tangkap3)."%&* \n".
+    tambah_karakter($tangkap3)."##@ \n".
+    tambah_karakter($tangkap3)."##$ \n".
+    tambah_karakter($tangkap3)."#$# \n".
+    tambah_karakter($tangkap3)."#@# \n".
+    tambah_karakter($tangkap3)."##& \n".
+    tambah_karakter($tangkap3)."##* \n".
+    tambah_karakter($tangkap3)."!?!? \n".
+    tambah_karakter($tangkap3)."!1!1 \n".
+    tambah_karakter($tangkap3)."., \n".
+    tambah_karakter($tangkap3).".,! \n".
+    tambah_karakter($tangkap3)."'.,?! \n".
+    tambah_karakter($tangkap3).":; \n".
+    tambah_karakter($tangkap3).",. \n".
+    tambah_karakter($tangkap3)."'-! \n".
+    tambah_karakter($tangkap3)."+--+ \n".
+    tambah_karakter($tangkap3)."--+- \n".
+    tambah_karakter($tangkap3)."$^^$ \n".
+    tambah_karakter($tangkap3)."*123# \n".
+    tambah_karakter($tangkap3)."#555# \n".
+    tambah_karakter($tangkap3)."#999# \n".
+
+    tambah_karakter($tangkap8).". \n".
+    tambah_karakter($tangkap8).", \n".
+    tambah_karakter($tangkap8).": \n".
+    tambah_karakter($tangkap8)."; \n".
+    tambah_karakter($tangkap8)."' \n".
+    tambah_karakter($tangkap8)."- \n".
+    tambah_karakter($tangkap8)."_ \n".
+    tambah_karakter($tangkap8)."\ \n".
+    tambah_karakter($tangkap8)."+ \n".
+    tambah_karakter($tangkap8)."= \n".
+    tambah_karakter($tangkap8)."! \n".
+    tambah_karakter($tangkap8)."@ \n".
+    tambah_karakter($tangkap8)."# \n".
+    tambah_karakter($tangkap8)."$ \n".
+    tambah_karakter($tangkap8)."% \n".
+    tambah_karakter($tangkap8)."^ \n".
+    tambah_karakter($tangkap8)."& \n".
+    tambah_karakter($tangkap8)."* \n".
+    tambah_karakter($tangkap8)."(-_-) \n".
+    tambah_karakter($tangkap8)."(*_*) \n".
+    tambah_karakter($tangkap8)."(#-#) \n".
+    tambah_karakter($tangkap8)."(^_^) \n".
+    tambah_karakter($tangkap8)."(^-^) \n".
+    tambah_karakter($tangkap8)."1+1 \n".
+    tambah_karakter($tangkap8)."1+2 \n".
+    tambah_karakter($tangkap8)."1+3 \n".
+    tambah_karakter($tangkap8)."1+4 \n".
+    tambah_karakter($tangkap8)."1+5 \n".
+    tambah_karakter($tangkap8)."{-_-} \n".
+    tambah_karakter($tangkap8)."{*_*} \n".
+    tambah_karakter($tangkap8)."{#_#} \n".
+    tambah_karakter($tangkap8)."{^_^} \n".
+    tambah_karakter($tangkap8)."{+_+} \n".
+    tambah_karakter($tangkap8)."[-_-] \n".
+    tambah_karakter($tangkap8)."[*_*] \n".
+    tambah_karakter($tangkap8)."[+_+] \n".
+    tambah_karakter($tangkap8)."[#_#] \n".
+    tambah_karakter($tangkap8)."[^_^] \n".
+    tambah_karakter($tangkap8)."[?_?] \n".
+    tambah_karakter($tangkap8)."? \n".
+    tambah_karakter($tangkap8)."/ \n".
+    tambah_karakter($tangkap8)."<-_-> \n".
+    tambah_karakter($tangkap8)."| \n".
+    tambah_karakter($tangkap8)."!! \n".
+    tambah_karakter($tangkap8)."!?! \n".
+    tambah_karakter($tangkap8)."!@! \n".
+    tambah_karakter($tangkap8)."!#! \n".
+    tambah_karakter($tangkap8)."!$! \n".
+    tambah_karakter($tangkap8)."!%! \n".
+    tambah_karakter($tangkap8)."!!! \n".
+    tambah_karakter($tangkap8)."!^! \n".
+    tambah_karakter($tangkap8)."!&! \n".
+    tambah_karakter($tangkap8)."!*! \n".
+    tambah_karakter($tangkap8)."!(!) \n".
+    tambah_karakter($tangkap8)."!_!\n".
+    tambah_karakter($tangkap8)."!-! \n".
+    tambah_karakter($tangkap8)."!+! \n".
+    tambah_karakter($tangkap8)."@!! \n".
+    tambah_karakter($tangkap8)."@@ \n".
+    tambah_karakter($tangkap8)."@@@ \n".
+    tambah_karakter($tangkap8)."@#@ \n".
+    tambah_karakter($tangkap8)."@_@ \n".
+    tambah_karakter($tangkap8)."@-@ \n".
+    tambah_karakter($tangkap8)."@*@ \n".
+    tambah_karakter($tangkap8)."@$# \n".
+    tambah_karakter($tangkap8)."@&@ \n".
+    tambah_karakter($tangkap8)."/// \n".
+    tambah_karakter($tangkap8)."%&* \n".
+    tambah_karakter($tangkap8)."##@ \n".
+    tambah_karakter($tangkap8)."##$ \n".
+    tambah_karakter($tangkap8)."#$# \n".
+    tambah_karakter($tangkap8)."#@# \n".
+    tambah_karakter($tangkap8)."##& \n".
+    tambah_karakter($tangkap8)."##* \n".
+    tambah_karakter($tangkap8)."!?!? \n".
+    tambah_karakter($tangkap8)."!1!1 \n".
+    tambah_karakter($tangkap8)."., \n".
+    tambah_karakter($tangkap8).".,! \n".
+    tambah_karakter($tangkap8)."'.,?! \n".
+    tambah_karakter($tangkap8).":; \n".
+    tambah_karakter($tangkap8).",. \n".
+    tambah_karakter($tangkap8)."'-! \n".
+    tambah_karakter($tangkap8)."+--+ \n".
+    tambah_karakter($tangkap8)."--+- \n".
+    tambah_karakter($tangkap8)."$^^$ \n".
+    tambah_karakter($tangkap8)."*123# \n".
+    tambah_karakter($tangkap8)."#555# \n".
+    tambah_karakter($tangkap8)."#999# \n".
+
+
+    tambah_karakter($tangkap9).". \n".
+    tambah_karakter($tangkap9).", \n".
+    tambah_karakter($tangkap9).": \n".
+    tambah_karakter($tangkap9)."; \n".
+    tambah_karakter($tangkap9)."' \n".
+    tambah_karakter($tangkap9)."- \n".
+    tambah_karakter($tangkap9)."_ \n".
+    tambah_karakter($tangkap9)."\ \n".
+    tambah_karakter($tangkap9)."+ \n".
+    tambah_karakter($tangkap9)."= \n".
+    tambah_karakter($tangkap9)."! \n".
+    tambah_karakter($tangkap9)."@ \n".
+    tambah_karakter($tangkap9)."# \n".
+    tambah_karakter($tangkap9)."$ \n".
+    tambah_karakter($tangkap9)."% \n".
+    tambah_karakter($tangkap9)."^ \n".
+    tambah_karakter($tangkap9)."& \n".
+    tambah_karakter($tangkap9)."* \n".
+    tambah_karakter($tangkap9)."(-_-) \n".
+    tambah_karakter($tangkap9)."(*_*) \n".
+    tambah_karakter($tangkap9)."(#-#) \n".
+    tambah_karakter($tangkap9)."(^_^) \n".
+    tambah_karakter($tangkap9)."(^-^) \n".
+    tambah_karakter($tangkap9)."1+1 \n".
+    tambah_karakter($tangkap9)."1+2 \n".
+    tambah_karakter($tangkap9)."1+3 \n".
+    tambah_karakter($tangkap9)."1+4 \n".
+    tambah_karakter($tangkap9)."1+5 \n".
+    tambah_karakter($tangkap9)."{-_-} \n".
+    tambah_karakter($tangkap9)."{*_*} \n".
+    tambah_karakter($tangkap9)."{#_#} \n".
+    tambah_karakter($tangkap9)."{^_^} \n".
+    tambah_karakter($tangkap9)."{+_+} \n".
+    tambah_karakter($tangkap9)."[-_-] \n".
+    tambah_karakter($tangkap9)."[*_*] \n".
+    tambah_karakter($tangkap9)."[+_+] \n".
+    tambah_karakter($tangkap9)."[#_#] \n".
+    tambah_karakter($tangkap9)."[^_^] \n".
+    tambah_karakter($tangkap9)."[?_?] \n".
+    tambah_karakter($tangkap9)."? \n".
+    tambah_karakter($tangkap9)."/ \n".
+    tambah_karakter($tangkap9)."<-_-> \n".
+    tambah_karakter($tangkap9)."| \n".
+    tambah_karakter($tangkap9)."!! \n".
+    tambah_karakter($tangkap9)."!?! \n".
+    tambah_karakter($tangkap9)."!@! \n".
+    tambah_karakter($tangkap9)."!#! \n".
+    tambah_karakter($tangkap9)."!$! \n".
+    tambah_karakter($tangkap9)."!%! \n".
+    tambah_karakter($tangkap9)."!!! \n".
+    tambah_karakter($tangkap9)."!^! \n".
+    tambah_karakter($tangkap9)."!&! \n".
+    tambah_karakter($tangkap9)."!*! \n".
+    tambah_karakter($tangkap9)."!(!) \n".
+    tambah_karakter($tangkap9)."!_!\n".
+    tambah_karakter($tangkap9)."!-! \n".
+    tambah_karakter($tangkap9)."!+! \n".
+    tambah_karakter($tangkap9)."@!! \n".
+    tambah_karakter($tangkap9)."@@ \n".
+    tambah_karakter($tangkap9)."@@@ \n".
+    tambah_karakter($tangkap9)."@#@ \n".
+    tambah_karakter($tangkap9)."@_@ \n".
+    tambah_karakter($tangkap9)."@-@ \n".
+    tambah_karakter($tangkap9)."@*@ \n".
+    tambah_karakter($tangkap9)."@$# \n".
+    tambah_karakter($tangkap9)."@&@ \n".
+    tambah_karakter($tangkap9)."/// \n".
+    tambah_karakter($tangkap9)."%&* \n".
+    tambah_karakter($tangkap9)."##@ \n".
+    tambah_karakter($tangkap9)."##$ \n".
+    tambah_karakter($tangkap9)."#$# \n".
+    tambah_karakter($tangkap9)."#@# \n".
+    tambah_karakter($tangkap9)."##& \n".
+    tambah_karakter($tangkap9)."##* \n".
+    tambah_karakter($tangkap9)."!?!? \n".
+    tambah_karakter($tangkap9)."!1!1 \n".
+    tambah_karakter($tangkap9)."., \n".
+    tambah_karakter($tangkap9).".,! \n".
+    tambah_karakter($tangkap9)."'.,?! \n".
+    tambah_karakter($tangkap9).":; \n".
+    tambah_karakter($tangkap9).",. \n".
+    tambah_karakter($tangkap9)."'-! \n".
+    tambah_karakter($tangkap9)."+--+ \n".
+    tambah_karakter($tangkap9)."--+- \n".
+    tambah_karakter($tangkap9)."$^^$ \n".
+    tambah_karakter($tangkap9)."*123# \n".
+    tambah_karakter($tangkap9)."#555# \n".
+    tambah_karakter($tangkap9)."#999# \n".
+
+
+    tambah_karakter($tangkap13).". \n".
+    tambah_karakter($tangkap13).", \n".
+    tambah_karakter($tangkap13).": \n".
+    tambah_karakter($tangkap13)."; \n".
+    tambah_karakter($tangkap13)."' \n".
+    tambah_karakter($tangkap13)."- \n".
+    tambah_karakter($tangkap13)."_ \n".
+    tambah_karakter($tangkap13)."\ \n".
+    tambah_karakter($tangkap13)."+ \n".
+    tambah_karakter($tangkap13)."= \n".
+    tambah_karakter($tangkap13)."! \n".
+    tambah_karakter($tangkap13)."@ \n".
+    tambah_karakter($tangkap13)."# \n".
+    tambah_karakter($tangkap13)."$ \n".
+    tambah_karakter($tangkap13)."% \n".
+    tambah_karakter($tangkap13)."^ \n".
+    tambah_karakter($tangkap13)."& \n".
+    tambah_karakter($tangkap13)."* \n".
+    tambah_karakter($tangkap13)."(-_-) \n".
+    tambah_karakter($tangkap13)."(*_*) \n".
+    tambah_karakter($tangkap13)."(#-#) \n".
+    tambah_karakter($tangkap13)."(^_^) \n".
+    tambah_karakter($tangkap13)."(^-^) \n".
+    tambah_karakter($tangkap13)."1+1 \n".
+    tambah_karakter($tangkap13)."1+2 \n".
+    tambah_karakter($tangkap13)."1+3 \n".
+    tambah_karakter($tangkap13)."1+4 \n".
+    tambah_karakter($tangkap13)."1+5 \n".
+    tambah_karakter($tangkap13)."{-_-} \n".
+    tambah_karakter($tangkap13)."{*_*} \n".
+    tambah_karakter($tangkap13)."{#_#} \n".
+    tambah_karakter($tangkap13)."{^_^} \n".
+    tambah_karakter($tangkap13)."{+_+} \n".
+    tambah_karakter($tangkap13)."[-_-] \n".
+    tambah_karakter($tangkap13)."[*_*] \n".
+    tambah_karakter($tangkap13)."[+_+] \n".
+    tambah_karakter($tangkap13)."[#_#] \n".
+    tambah_karakter($tangkap13)."[^_^] \n".
+    tambah_karakter($tangkap13)."[?_?] \n".
+    tambah_karakter($tangkap13)."? \n".
+    tambah_karakter($tangkap13)."/ \n".
+    tambah_karakter($tangkap13)."<-_-> \n".
+    tambah_karakter($tangkap13)."| \n".
+    tambah_karakter($tangkap13)."!! \n".
+    tambah_karakter($tangkap13)."!?! \n".
+    tambah_karakter($tangkap13)."!@! \n".
+    tambah_karakter($tangkap13)."!#! \n".
+    tambah_karakter($tangkap13)."!$! \n".
+    tambah_karakter($tangkap13)."!%! \n".
+    tambah_karakter($tangkap13)."!!! \n".
+    tambah_karakter($tangkap13)."!^! \n".
+    tambah_karakter($tangkap13)."!&! \n".
+    tambah_karakter($tangkap13)."!*! \n".
+    tambah_karakter($tangkap13)."!(!) \n".
+    tambah_karakter($tangkap13)."!_!\n".
+    tambah_karakter($tangkap13)."!-! \n".
+    tambah_karakter($tangkap13)."!+! \n".
+    tambah_karakter($tangkap13)."@!! \n".
+    tambah_karakter($tangkap13)."@@ \n".
+    tambah_karakter($tangkap13)."@@@ \n".
+    tambah_karakter($tangkap13)."@#@ \n".
+    tambah_karakter($tangkap13)."@_@ \n".
+    tambah_karakter($tangkap13)."@-@ \n".
+    tambah_karakter($tangkap13)."@*@ \n".
+    tambah_karakter($tangkap13)."@$# \n".
+    tambah_karakter($tangkap13)."@&@ \n".
+    tambah_karakter($tangkap13)."/// \n".
+    tambah_karakter($tangkap13)."%&* \n".
+    tambah_karakter($tangkap13)."##@ \n".
+    tambah_karakter($tangkap13)."##$ \n".
+    tambah_karakter($tangkap13)."#$# \n".
+    tambah_karakter($tangkap13)."#@# \n".
+    tambah_karakter($tangkap13)."##& \n".
+    tambah_karakter($tangkap13)."##* \n".
+    tambah_karakter($tangkap13)."!?!? \n".
+    tambah_karakter($tangkap13)."!1!1 \n".
+    tambah_karakter($tangkap13)."., \n".
+    tambah_karakter($tangkap13).".,! \n".
+    tambah_karakter($tangkap13)."'.,?! \n".
+    tambah_karakter($tangkap13).":; \n".
+    tambah_karakter($tangkap13).",. \n".
+    tambah_karakter($tangkap13)."'-! \n".
+    tambah_karakter($tangkap13)."+--+ \n".
+    tambah_karakter($tangkap13)."--+- \n".
+    tambah_karakter($tangkap13)."$^^$ \n".
+    tambah_karakter($tangkap13)."*123# \n".
+    tambah_karakter($tangkap13)."#555# \n".
+    tambah_karakter($tangkap13)."#999# \n".
+
+        nomor_karakter1($tangkap1)."1.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."111.,\n".
+    nomor_karakter1($tangkap1)."1111.,\n".
+    nomor_karakter1($tangkap1)."11111.,\n".
+    nomor_karakter1($tangkap1)."2.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."2222.,\n".
+    nomor_karakter1($tangkap1)."22222.,\n".
+    nomor_karakter1($tangkap1)."21.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."23.,\n".
+    nomor_karakter1($tangkap1)."24.,\n".
+    nomor_karakter1($tangkap1)."25.,\n".
+    nomor_karakter1($tangkap1)."26.,\n".
+    nomor_karakter1($tangkap1)."27.,\n".
+    nomor_karakter1($tangkap1)."28.,\n".
+    nomor_karakter1($tangkap1)."29.,\n".
+    nomor_karakter1($tangkap1)."211.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."233.,\n".
+    nomor_karakter1($tangkap1)."244.,\n".
+    nomor_karakter1($tangkap1)."255.,\n".
+    nomor_karakter1($tangkap1)."212.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."232.,\n".
+    nomor_karakter1($tangkap1)."242.,\n".
+    nomor_karakter1($tangkap1)."252.,\n".
+    nomor_karakter1($tangkap1)."112.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."332.,\n".
+    nomor_karakter1($tangkap1)."442.,\n".
+    nomor_karakter1($tangkap1)."552.,\n".
+    nomor_karakter1($tangkap1)."221.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."223.,\n".
+    nomor_karakter1($tangkap1)."224.,\n".
+    nomor_karakter1($tangkap1)."225.,\n".
+    nomor_karakter1($tangkap1)."452.,\n".
+    nomor_karakter1($tangkap1)."12.,\n".
+    nomor_karakter1($tangkap1)."21.,\n".
+    nomor_karakter1($tangkap1)."3.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."3333.,\n".
+    nomor_karakter1($tangkap1)."33333.,\n".
+    nomor_karakter1($tangkap1)."31.,\n".
+    nomor_karakter1($tangkap1)."32.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."34.,\n".
+    nomor_karakter1($tangkap1)."35.,\n".
+    nomor_karakter1($tangkap1)."311.,\n".
+    nomor_karakter1($tangkap1)."322.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."344.,\n".
+    nomor_karakter1($tangkap1)."355.,\n".
+    nomor_karakter1($tangkap1)."313.,\n".
+    nomor_karakter1($tangkap1)."323.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."343.,\n".
+    nomor_karakter1($tangkap1)."353.,\n".
+    nomor_karakter1($tangkap1)."113.,\n".
+    nomor_karakter1($tangkap1)."223.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."443.,\n".
+    nomor_karakter1($tangkap1)."553.,\n".
+    nomor_karakter1($tangkap1)."331.,\n".
+    nomor_karakter1($tangkap1)."332.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."334.,\n".
+    nomor_karakter1($tangkap1)."335.,\n".
+    nomor_karakter1($tangkap1)."453.,\n".
+    nomor_karakter1($tangkap1)."123.,\n".
+    nomor_karakter1($tangkap1)."321.,\n".
+    nomor_karakter1($tangkap1)."4.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."4444.,\n".
+    nomor_karakter1($tangkap1)."44444.,\n".
+    nomor_karakter1($tangkap1)."41.,\n".
+    nomor_karakter1($tangkap1)."42.,\n".
+    nomor_karakter1($tangkap1)."43.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."411.,\n".
+    nomor_karakter1($tangkap1)."422.,\n".
+    nomor_karakter1($tangkap1)."433.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."455.,\n".
+    nomor_karakter1($tangkap1)."414.,\n".
+    nomor_karakter1($tangkap1)."424.,\n".
+    nomor_karakter1($tangkap1)."434.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."454.,\n".
+    nomor_karakter1($tangkap1)."114.,\n".
+    nomor_karakter1($tangkap1)."224.,\n".
+    nomor_karakter1($tangkap1)."334.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."441.,\n".
+    nomor_karakter1($tangkap1)."442.,\n".
+    nomor_karakter1($tangkap1)."443.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."445.,\n".
+    nomor_karakter1($tangkap1)."554.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."12.,\n".
+    nomor_karakter1($tangkap1)."43.,\n".
+    nomor_karakter1($tangkap1)."5.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."555.,\n".
+    nomor_karakter1($tangkap1)."5555.,\n".
+    nomor_karakter1($tangkap1)."55555.,\n".
+    nomor_karakter1($tangkap1)."51.,\n".
+    nomor_karakter1($tangkap1)."52.,\n".
+    nomor_karakter1($tangkap1)."53.,\n".
+    nomor_karakter1($tangkap1)."54.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."511.,\n".
+    nomor_karakter1($tangkap1)."522.,\n".
+    nomor_karakter1($tangkap1)."533.,\n".
+    nomor_karakter1($tangkap1)."544.,\n".
+    nomor_karakter1($tangkap1)."655.,\n".
+    nomor_karakter1($tangkap1)."515.,\n".
+    nomor_karakter1($tangkap1)."52.,\n".
+    nomor_karakter1($tangkap1)."535.,\n".
+    nomor_karakter1($tangkap1)."545.,\n".
+    nomor_karakter1($tangkap1)."555.,\n".
+    nomor_karakter1($tangkap1)."115.,\n".
+    nomor_karakter1($tangkap1)."225.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."34.,\n".
+    nomor_karakter1($tangkap1)."1234.,\n".
+    nomor_karakter1($tangkap1)."5432.,\n".
+    nomor_karakter1($tangkap1)."6.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."666.,\n".
+    nomor_karakter1($tangkap1)."6666.,\n".
+    nomor_karakter1($tangkap1)."66666.,\n".
+    nomor_karakter1($tangkap1)."61.,\n".
+    nomor_karakter1($tangkap1)."62.,\n".
+    nomor_karakter1($tangkap1)."63.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."611.,\n".
+    nomor_karakter1($tangkap1)."622.,\n".
+    nomor_karakter1($tangkap1)."633.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."61.,\n".
+    nomor_karakter1($tangkap1)."62.,\n".
+    nomor_karakter1($tangkap1)."63.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."12345.,\n".
+    nomor_karakter1($tangkap1)."65432.,\n".
+    nomor_karakter1($tangkap1)."7.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."777.,\n".
+    nomor_karakter1($tangkap1)."7777.,\n".
+    nomor_karakter1($tangkap1)."77777.,\n".
+    nomor_karakter1($tangkap1)."71.,\n".
+    nomor_karakter1($tangkap1)."72.,\n".
+    nomor_karakter1($tangkap1)."73.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."711.,\n".
+    nomor_karakter1($tangkap1)."722.,\n".
+    nomor_karakter1($tangkap1)."733.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."71.,\n".
+    nomor_karakter1($tangkap1)."72.,\n".
+    nomor_karakter1($tangkap1)."73.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."1234567.,\n".
+    nomor_karakter1($tangkap1)."8.,\n".
+    nomor_karakter1($tangkap1)."88.,\n".
+    nomor_karakter1($tangkap1)."888.,\n".
+    nomor_karakter1($tangkap1)."8888.,\n".
+    nomor_karakter1($tangkap1)."88888.,\n".
+    nomor_karakter1($tangkap1)."81.,\n".
+    nomor_karakter1($tangkap1)."82.,\n".
+    nomor_karakter1($tangkap1)."83.,\n".
+    nomor_karakter1($tangkap1)."84.,\n".
+    nomor_karakter1($tangkap1)."85.,\n".
+    nomor_karakter1($tangkap1)."811.,\n".
+    nomor_karakter1($tangkap1)."822.,\n".
+    nomor_karakter1($tangkap1)."833.,\n".
+    nomor_karakter1($tangkap1)."844.,\n".
+    nomor_karakter1($tangkap1)."855.,\n".
+    nomor_karakter1($tangkap1)."818.,\n".
+    nomor_karakter1($tangkap1)."828.,\n".
+    nomor_karakter1($tangkap1)."838.,\n".
+    nomor_karakter1($tangkap1)."848.,\n".
+    nomor_karakter1($tangkap1)."858.,\n".
+    nomor_karakter1($tangkap1)."118.,\n".
+    nomor_karakter1($tangkap1)."228.,\n".
+    nomor_karakter1($tangkap1)."338.,\n".
+    nomor_karakter1($tangkap1)."448.,\n".
+    nomor_karakter1($tangkap1)."558.,\n".
+    nomor_karakter1($tangkap1)."881.,\n".
+    nomor_karakter1($tangkap1)."882.,\n".
+    nomor_karakter1($tangkap1)."883.,\n".
+    nomor_karakter1($tangkap1)."884.,\n".
+    nomor_karakter1($tangkap1)."885.,\n".
+    nomor_karakter1($tangkap1)."458.,\n".
+    nomor_karakter1($tangkap1)."12345678.,\n".
+    nomor_karakter1($tangkap1)."87654321.,\n".
+    nomor_karakter1($tangkap1)."9.,\n".
+    nomor_karakter1($tangkap1)."99.,\n".
+    nomor_karakter1($tangkap1)."999.,\n".
+    nomor_karakter1($tangkap1)."9999.,\n".
+    nomor_karakter1($tangkap1)."99999.,\n".
+    nomor_karakter1($tangkap1)."91*\n".
+    nomor_karakter1($tangkap1)."92.,\n".
+    nomor_karakter1($tangkap1)."93.,\n".
+    nomor_karakter1($tangkap1)."94.,\n".
+    nomor_karakter1($tangkap1)."95.,\n".
+    nomor_karakter1($tangkap1)."911.,\n".
+    nomor_karakter1($tangkap1)."922.,\n".
+    nomor_karakter1($tangkap1)."933.,\n".
+    nomor_karakter1($tangkap1)."944.,\n".
+    nomor_karakter1($tangkap1)."955.,\n".
+    nomor_karakter1($tangkap1)."919.,\n".
+    nomor_karakter1($tangkap1)."929.,\n".
+    nomor_karakter1($tangkap1)."939.,\n".
+    nomor_karakter1($tangkap1)."949.,\n".
+    nomor_karakter1($tangkap1)."959.,\n".
+    nomor_karakter1($tangkap1)."119.,\n".
+    nomor_karakter1($tangkap1)."229.,\n".
+    nomor_karakter1($tangkap1)."339.,\n".
+    nomor_karakter1($tangkap1)."449.,\n".
+    nomor_karakter1($tangkap1)."559.,\n".
+    nomor_karakter1($tangkap1)."991.,\n".
+    nomor_karakter1($tangkap1)."992.,\n".
+    nomor_karakter1($tangkap1)."993.,\n".
+    nomor_karakter1($tangkap1)."994.,\n".
+    nomor_karakter1($tangkap1)."995.,\n".
+    nomor_karakter1($tangkap1)."459.,\n".
+    nomor_karakter1($tangkap1)."12345678.,\n".
+    nomor_karakter1($tangkap1)."987654321.,\n".
+    nomor_karakter1($tangkap1)."0.,\n".
+    nomor_karakter1($tangkap1)."00.,\n".
+    nomor_karakter1($tangkap1)."000.,\n".
+    nomor_karakter1($tangkap1)."0000.,\n".
+    nomor_karakter1($tangkap1)."00000.,\n".
+    nomor_karakter1($tangkap1)."01.,\n".
+    nomor_karakter1($tangkap1)."02.,\n".
+    nomor_karakter1($tangkap1)."03.,\n".
+    nomor_karakter1($tangkap1)."04.,\n".
+    nomor_karakter1($tangkap1)."05.,\n".
+    nomor_karakter1($tangkap1)."011.,\n".
+    nomor_karakter1($tangkap1)."022.,\n".
+    nomor_karakter1($tangkap1)."033.,\n".
+    nomor_karakter1($tangkap1)."044.,\n".
+    nomor_karakter1($tangkap1)."055.,\n".
+    nomor_karakter1($tangkap1)."010.,\n".
+    nomor_karakter1($tangkap1)."020.,\n".
+    nomor_karakter1($tangkap1)."030.,\n".
+    nomor_karakter1($tangkap1)."040.,\n".
+    nomor_karakter1($tangkap1)."050.,\n".
+    nomor_karakter1($tangkap1)."110.,\n".
+    nomor_karakter1($tangkap1)."220.,\n".
+    nomor_karakter1($tangkap1)."330.,\n".
+    nomor_karakter1($tangkap1)."440.,\n".
+    nomor_karakter1($tangkap1)."550.,\n".
+    nomor_karakter1($tangkap1)."001.,\n".
+    nomor_karakter1($tangkap1)."002.,\n".
+    nomor_karakter1($tangkap1)."003.,\n".
+    nomor_karakter1($tangkap1)."004.,\n".
+    nomor_karakter1($tangkap1)."005.,\n".
+    nomor_karakter1($tangkap1)."450.,\n".
+    nomor_karakter1($tangkap1)."123456789.,\n".
+
+    nomor_karakter1($tangkap2)."1.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."111.,\n".
+    nomor_karakter1($tangkap2)."1111.,\n".
+    nomor_karakter1($tangkap2)."11111.,\n".
+    nomor_karakter1($tangkap2)."2.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."2222.,\n".
+    nomor_karakter1($tangkap2)."22222.,\n".
+    nomor_karakter1($tangkap2)."21.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."23.,\n".
+    nomor_karakter1($tangkap2)."24.,\n".
+    nomor_karakter1($tangkap2)."25.,\n".
+    nomor_karakter1($tangkap2)."26.,\n".
+    nomor_karakter1($tangkap2)."27.,\n".
+    nomor_karakter1($tangkap2)."28.,\n".
+    nomor_karakter1($tangkap2)."29.,\n".
+    nomor_karakter1($tangkap2)."211.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."233.,\n".
+    nomor_karakter1($tangkap2)."244.,\n".
+    nomor_karakter1($tangkap2)."255.,\n".
+    nomor_karakter1($tangkap2)."212.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."232.,\n".
+    nomor_karakter1($tangkap2)."242.,\n".
+    nomor_karakter1($tangkap2)."252.,\n".
+    nomor_karakter1($tangkap2)."112.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."332.,\n".
+    nomor_karakter1($tangkap2)."442.,\n".
+    nomor_karakter1($tangkap2)."552.,\n".
+    nomor_karakter1($tangkap2)."221.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."223.,\n".
+    nomor_karakter1($tangkap2)."224.,\n".
+    nomor_karakter1($tangkap2)."225.,\n".
+    nomor_karakter1($tangkap2)."452.,\n".
+    nomor_karakter1($tangkap2)."12.,\n".
+    nomor_karakter1($tangkap2)."21.,\n".
+    nomor_karakter1($tangkap2)."3.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."3333.,\n".
+    nomor_karakter1($tangkap2)."33333.,\n".
+    nomor_karakter1($tangkap2)."31.,\n".
+    nomor_karakter1($tangkap2)."32.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."34.,\n".
+    nomor_karakter1($tangkap2)."35.,\n".
+    nomor_karakter1($tangkap2)."311.,\n".
+    nomor_karakter1($tangkap2)."322.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."344.,\n".
+    nomor_karakter1($tangkap2)."355.,\n".
+    nomor_karakter1($tangkap2)."313.,\n".
+    nomor_karakter1($tangkap2)."323.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."343.,\n".
+    nomor_karakter1($tangkap2)."353.,\n".
+    nomor_karakter1($tangkap2)."113.,\n".
+    nomor_karakter1($tangkap2)."223.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."443.,\n".
+    nomor_karakter1($tangkap2)."553.,\n".
+    nomor_karakter1($tangkap2)."331.,\n".
+    nomor_karakter1($tangkap2)."332.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."334.,\n".
+    nomor_karakter1($tangkap2)."335.,\n".
+    nomor_karakter1($tangkap2)."453.,\n".
+    nomor_karakter1($tangkap2)."123.,\n".
+    nomor_karakter1($tangkap2)."321.,\n".
+    nomor_karakter1($tangkap2)."4.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."4444.,\n".
+    nomor_karakter1($tangkap2)."44444.,\n".
+    nomor_karakter1($tangkap2)."41.,\n".
+    nomor_karakter1($tangkap2)."42.,\n".
+    nomor_karakter1($tangkap2)."43.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."411.,\n".
+    nomor_karakter1($tangkap2)."422.,\n".
+    nomor_karakter1($tangkap2)."433.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."455.,\n".
+    nomor_karakter1($tangkap2)."414.,\n".
+    nomor_karakter1($tangkap2)."424.,\n".
+    nomor_karakter1($tangkap2)."434.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."454.,\n".
+    nomor_karakter1($tangkap2)."114.,\n".
+    nomor_karakter1($tangkap2)."224.,\n".
+    nomor_karakter1($tangkap2)."334.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."441.,\n".
+    nomor_karakter1($tangkap2)."442.,\n".
+    nomor_karakter1($tangkap2)."443.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."445.,\n".
+    nomor_karakter1($tangkap2)."554.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."12.,\n".
+    nomor_karakter1($tangkap2)."43.,\n".
+    nomor_karakter1($tangkap2)."5.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."555.,\n".
+    nomor_karakter1($tangkap2)."5555.,\n".
+    nomor_karakter1($tangkap2)."55555.,\n".
+    nomor_karakter1($tangkap2)."51.,\n".
+    nomor_karakter1($tangkap2)."52.,\n".
+    nomor_karakter1($tangkap2)."53.,\n".
+    nomor_karakter1($tangkap2)."54.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."511.,\n".
+    nomor_karakter1($tangkap2)."522.,\n".
+    nomor_karakter1($tangkap2)."533.,\n".
+    nomor_karakter1($tangkap2)."544.,\n".
+    nomor_karakter1($tangkap2)."655.,\n".
+    nomor_karakter1($tangkap2)."515.,\n".
+    nomor_karakter1($tangkap2)."52.,\n".
+    nomor_karakter1($tangkap2)."535.,\n".
+    nomor_karakter1($tangkap2)."545.,\n".
+    nomor_karakter1($tangkap2)."555.,\n".
+    nomor_karakter1($tangkap2)."115.,\n".
+    nomor_karakter1($tangkap2)."225.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."34.,\n".
+    nomor_karakter1($tangkap2)."1234.,\n".
+    nomor_karakter1($tangkap2)."5432.,\n".
+    nomor_karakter1($tangkap2)."6.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."666.,\n".
+    nomor_karakter1($tangkap2)."6666.,\n".
+    nomor_karakter1($tangkap2)."66666.,\n".
+    nomor_karakter1($tangkap2)."61.,\n".
+    nomor_karakter1($tangkap2)."62.,\n".
+    nomor_karakter1($tangkap2)."63.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."611.,\n".
+    nomor_karakter1($tangkap2)."622.,\n".
+    nomor_karakter1($tangkap2)."633.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."61.,\n".
+    nomor_karakter1($tangkap2)."62.,\n".
+    nomor_karakter1($tangkap2)."63.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."12345.,\n".
+    nomor_karakter1($tangkap2)."65432.,\n".
+    nomor_karakter1($tangkap2)."7.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."777.,\n".
+    nomor_karakter1($tangkap2)."7777.,\n".
+    nomor_karakter1($tangkap2)."77777.,\n".
+    nomor_karakter1($tangkap2)."71.,\n".
+    nomor_karakter1($tangkap2)."72.,\n".
+    nomor_karakter1($tangkap2)."73.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."711.,\n".
+    nomor_karakter1($tangkap2)."722.,\n".
+    nomor_karakter1($tangkap2)."733.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."71.,\n".
+    nomor_karakter1($tangkap2)."72.,\n".
+    nomor_karakter1($tangkap2)."73.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."1234567.,\n".
+    nomor_karakter1($tangkap2)."8.,\n".
+    nomor_karakter1($tangkap2)."88.,\n".
+    nomor_karakter1($tangkap2)."888.,\n".
+    nomor_karakter1($tangkap2)."8888.,\n".
+    nomor_karakter1($tangkap2)."88888.,\n".
+    nomor_karakter1($tangkap2)."81.,\n".
+    nomor_karakter1($tangkap2)."82.,\n".
+    nomor_karakter1($tangkap2)."83.,\n".
+    nomor_karakter1($tangkap2)."84.,\n".
+    nomor_karakter1($tangkap2)."85.,\n".
+    nomor_karakter1($tangkap2)."811.,\n".
+    nomor_karakter1($tangkap2)."822.,\n".
+    nomor_karakter1($tangkap2)."833.,\n".
+    nomor_karakter1($tangkap2)."844.,\n".
+    nomor_karakter1($tangkap2)."855.,\n".
+    nomor_karakter1($tangkap2)."818.,\n".
+    nomor_karakter1($tangkap2)."828.,\n".
+    nomor_karakter1($tangkap2)."838.,\n".
+    nomor_karakter1($tangkap2)."848.,\n".
+    nomor_karakter1($tangkap2)."858.,\n".
+    nomor_karakter1($tangkap2)."118.,\n".
+    nomor_karakter1($tangkap2)."228.,\n".
+    nomor_karakter1($tangkap2)."338.,\n".
+    nomor_karakter1($tangkap2)."448.,\n".
+    nomor_karakter1($tangkap2)."558.,\n".
+    nomor_karakter1($tangkap2)."881.,\n".
+    nomor_karakter1($tangkap2)."882.,\n".
+    nomor_karakter1($tangkap2)."883.,\n".
+    nomor_karakter1($tangkap2)."884.,\n".
+    nomor_karakter1($tangkap2)."885.,\n".
+    nomor_karakter1($tangkap2)."458.,\n".
+    nomor_karakter1($tangkap2)."12345678.,\n".
+    nomor_karakter1($tangkap2)."87654321.,\n".
+    nomor_karakter1($tangkap2)."9.,\n".
+    nomor_karakter1($tangkap2)."99.,\n".
+    nomor_karakter1($tangkap2)."999.,\n".
+    nomor_karakter1($tangkap2)."9999.,\n".
+    nomor_karakter1($tangkap2)."99999.,\n".
+    nomor_karakter1($tangkap2)."91*\n".
+    nomor_karakter1($tangkap2)."92.,\n".
+    nomor_karakter1($tangkap2)."93.,\n".
+    nomor_karakter1($tangkap2)."94.,\n".
+    nomor_karakter1($tangkap2)."95.,\n".
+    nomor_karakter1($tangkap2)."911.,\n".
+    nomor_karakter1($tangkap2)."922.,\n".
+    nomor_karakter1($tangkap2)."933.,\n".
+    nomor_karakter1($tangkap2)."944.,\n".
+    nomor_karakter1($tangkap2)."955.,\n".
+    nomor_karakter1($tangkap2)."919.,\n".
+    nomor_karakter1($tangkap2)."929.,\n".
+    nomor_karakter1($tangkap2)."939.,\n".
+    nomor_karakter1($tangkap2)."949.,\n".
+    nomor_karakter1($tangkap2)."959.,\n".
+    nomor_karakter1($tangkap2)."119.,\n".
+    nomor_karakter1($tangkap2)."229.,\n".
+    nomor_karakter1($tangkap2)."339.,\n".
+    nomor_karakter1($tangkap2)."449.,\n".
+    nomor_karakter1($tangkap2)."559.,\n".
+    nomor_karakter1($tangkap2)."991.,\n".
+    nomor_karakter1($tangkap2)."992.,\n".
+    nomor_karakter1($tangkap2)."993.,\n".
+    nomor_karakter1($tangkap2)."994.,\n".
+    nomor_karakter1($tangkap2)."995.,\n".
+    nomor_karakter1($tangkap2)."459.,\n".
+    nomor_karakter1($tangkap2)."12345678.,\n".
+    nomor_karakter1($tangkap2)."987654321.,\n".
+    nomor_karakter1($tangkap2)."0.,\n".
+    nomor_karakter1($tangkap2)."00.,\n".
+    nomor_karakter1($tangkap2)."000.,\n".
+    nomor_karakter1($tangkap2)."0000.,\n".
+    nomor_karakter1($tangkap2)."00000.,\n".
+    nomor_karakter1($tangkap2)."01.,\n".
+    nomor_karakter1($tangkap2)."02.,\n".
+    nomor_karakter1($tangkap2)."03.,\n".
+    nomor_karakter1($tangkap2)."04.,\n".
+    nomor_karakter1($tangkap2)."05.,\n".
+    nomor_karakter1($tangkap2)."011.,\n".
+    nomor_karakter1($tangkap2)."022.,\n".
+    nomor_karakter1($tangkap2)."033.,\n".
+    nomor_karakter1($tangkap2)."044.,\n".
+    nomor_karakter1($tangkap2)."055.,\n".
+    nomor_karakter1($tangkap2)."010.,\n".
+    nomor_karakter1($tangkap2)."020.,\n".
+    nomor_karakter1($tangkap2)."030.,\n".
+    nomor_karakter1($tangkap2)."040.,\n".
+    nomor_karakter1($tangkap2)."050.,\n".
+    nomor_karakter1($tangkap2)."110.,\n".
+    nomor_karakter1($tangkap2)."220.,\n".
+    nomor_karakter1($tangkap2)."330.,\n".
+    nomor_karakter1($tangkap2)."440.,\n".
+    nomor_karakter1($tangkap2)."550.,\n".
+    nomor_karakter1($tangkap2)."001.,\n".
+    nomor_karakter1($tangkap2)."002.,\n".
+    nomor_karakter1($tangkap2)."003.,\n".
+    nomor_karakter1($tangkap2)."004.,\n".
+    nomor_karakter1($tangkap2)."005.,\n".
+    nomor_karakter1($tangkap2)."450.,\n".
+    nomor_karakter1($tangkap2)."123456789.,\n".
+    nomor_karakter1($tangkap3)."1.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."111.,\n".
+    nomor_karakter1($tangkap3)."1111.,\n".
+    nomor_karakter1($tangkap3)."11111.,\n".
+    nomor_karakter1($tangkap3)."2.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."2222.,\n".
+    nomor_karakter1($tangkap3)."22222.,\n".
+    nomor_karakter1($tangkap3)."21.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."23.,\n".
+    nomor_karakter1($tangkap3)."24.,\n".
+    nomor_karakter1($tangkap3)."25.,\n".
+    nomor_karakter1($tangkap3)."26.,\n".
+    nomor_karakter1($tangkap3)."27.,\n".
+    nomor_karakter1($tangkap3)."28.,\n".
+    nomor_karakter1($tangkap3)."29.,\n".
+    nomor_karakter1($tangkap3)."211.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."233.,\n".
+    nomor_karakter1($tangkap3)."244.,\n".
+    nomor_karakter1($tangkap3)."255.,\n".
+    nomor_karakter1($tangkap3)."212.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."232.,\n".
+    nomor_karakter1($tangkap3)."242.,\n".
+    nomor_karakter1($tangkap3)."252.,\n".
+    nomor_karakter1($tangkap3)."112.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."332.,\n".
+    nomor_karakter1($tangkap3)."442.,\n".
+    nomor_karakter1($tangkap3)."552.,\n".
+    nomor_karakter1($tangkap3)."221.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."223.,\n".
+    nomor_karakter1($tangkap3)."224.,\n".
+    nomor_karakter1($tangkap3)."225.,\n".
+    nomor_karakter1($tangkap3)."452.,\n".
+    nomor_karakter1($tangkap3)."12.,\n".
+    nomor_karakter1($tangkap3)."21.,\n".
+    nomor_karakter1($tangkap3)."3.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."3333.,\n".
+    nomor_karakter1($tangkap3)."33333.,\n".
+    nomor_karakter1($tangkap3)."31.,\n".
+    nomor_karakter1($tangkap3)."32.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."34.,\n".
+    nomor_karakter1($tangkap3)."35.,\n".
+    nomor_karakter1($tangkap3)."311.,\n".
+    nomor_karakter1($tangkap3)."322.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."344.,\n".
+    nomor_karakter1($tangkap3)."355.,\n".
+    nomor_karakter1($tangkap3)."313.,\n".
+    nomor_karakter1($tangkap3)."323.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."343.,\n".
+    nomor_karakter1($tangkap3)."353.,\n".
+    nomor_karakter1($tangkap3)."113.,\n".
+    nomor_karakter1($tangkap3)."223.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."443.,\n".
+    nomor_karakter1($tangkap3)."553.,\n".
+    nomor_karakter1($tangkap3)."331.,\n".
+    nomor_karakter1($tangkap3)."332.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."334.,\n".
+    nomor_karakter1($tangkap3)."335.,\n".
+    nomor_karakter1($tangkap3)."453.,\n".
+    nomor_karakter1($tangkap3)."123.,\n".
+    nomor_karakter1($tangkap3)."321.,\n".
+    nomor_karakter1($tangkap3)."4.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."4444.,\n".
+    nomor_karakter1($tangkap3)."44444.,\n".
+    nomor_karakter1($tangkap3)."41.,\n".
+    nomor_karakter1($tangkap3)."42.,\n".
+    nomor_karakter1($tangkap3)."43.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."411.,\n".
+    nomor_karakter1($tangkap3)."422.,\n".
+    nomor_karakter1($tangkap3)."433.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."455.,\n".
+    nomor_karakter1($tangkap3)."414.,\n".
+    nomor_karakter1($tangkap3)."424.,\n".
+    nomor_karakter1($tangkap3)."434.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."454.,\n".
+    nomor_karakter1($tangkap3)."114.,\n".
+    nomor_karakter1($tangkap3)."224.,\n".
+    nomor_karakter1($tangkap3)."334.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."441.,\n".
+    nomor_karakter1($tangkap3)."442.,\n".
+    nomor_karakter1($tangkap3)."443.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."445.,\n".
+    nomor_karakter1($tangkap3)."554.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."12.,\n".
+    nomor_karakter1($tangkap3)."43.,\n".
+    nomor_karakter1($tangkap3)."5.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."555.,\n".
+    nomor_karakter1($tangkap3)."5555.,\n".
+    nomor_karakter1($tangkap3)."55555.,\n".
+    nomor_karakter1($tangkap3)."51.,\n".
+    nomor_karakter1($tangkap3)."52.,\n".
+    nomor_karakter1($tangkap3)."53.,\n".
+    nomor_karakter1($tangkap3)."54.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."511.,\n".
+    nomor_karakter1($tangkap3)."522.,\n".
+    nomor_karakter1($tangkap3)."533.,\n".
+    nomor_karakter1($tangkap3)."544.,\n".
+    nomor_karakter1($tangkap3)."655.,\n".
+    nomor_karakter1($tangkap3)."515.,\n".
+    nomor_karakter1($tangkap3)."52.,\n".
+    nomor_karakter1($tangkap3)."535.,\n".
+    nomor_karakter1($tangkap3)."545.,\n".
+    nomor_karakter1($tangkap3)."555.,\n".
+    nomor_karakter1($tangkap3)."115.,\n".
+    nomor_karakter1($tangkap3)."225.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."34.,\n".
+    nomor_karakter1($tangkap3)."1234.,\n".
+    nomor_karakter1($tangkap3)."5432.,\n".
+    nomor_karakter1($tangkap3)."6.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."666.,\n".
+    nomor_karakter1($tangkap3)."6666.,\n".
+    nomor_karakter1($tangkap3)."66666.,\n".
+    nomor_karakter1($tangkap3)."61.,\n".
+    nomor_karakter1($tangkap3)."62.,\n".
+    nomor_karakter1($tangkap3)."63.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."611.,\n".
+    nomor_karakter1($tangkap3)."622.,\n".
+    nomor_karakter1($tangkap3)."633.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."61.,\n".
+    nomor_karakter1($tangkap3)."62.,\n".
+    nomor_karakter1($tangkap3)."63.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."12345.,\n".
+    nomor_karakter1($tangkap3)."65432.,\n".
+    nomor_karakter1($tangkap3)."7.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."777.,\n".
+    nomor_karakter1($tangkap3)."7777.,\n".
+    nomor_karakter1($tangkap3)."77777.,\n".
+    nomor_karakter1($tangkap3)."71.,\n".
+    nomor_karakter1($tangkap3)."72.,\n".
+    nomor_karakter1($tangkap3)."73.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."711.,\n".
+    nomor_karakter1($tangkap3)."722.,\n".
+    nomor_karakter1($tangkap3)."733.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."71.,\n".
+    nomor_karakter1($tangkap3)."72.,\n".
+    nomor_karakter1($tangkap3)."73.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."1234567.,\n".
+    nomor_karakter1($tangkap3)."8.,\n".
+    nomor_karakter1($tangkap3)."88.,\n".
+    nomor_karakter1($tangkap3)."888.,\n".
+    nomor_karakter1($tangkap3)."8888.,\n".
+    nomor_karakter1($tangkap3)."88888.,\n".
+    nomor_karakter1($tangkap3)."81.,\n".
+    nomor_karakter1($tangkap3)."82.,\n".
+    nomor_karakter1($tangkap3)."83.,\n".
+    nomor_karakter1($tangkap3)."84.,\n".
+    nomor_karakter1($tangkap3)."85.,\n".
+    nomor_karakter1($tangkap3)."811.,\n".
+    nomor_karakter1($tangkap3)."822.,\n".
+    nomor_karakter1($tangkap3)."833.,\n".
+    nomor_karakter1($tangkap3)."844.,\n".
+    nomor_karakter1($tangkap3)."855.,\n".
+    nomor_karakter1($tangkap3)."818.,\n".
+    nomor_karakter1($tangkap3)."828.,\n".
+    nomor_karakter1($tangkap3)."838.,\n".
+    nomor_karakter1($tangkap3)."848.,\n".
+    nomor_karakter1($tangkap3)."858.,\n".
+    nomor_karakter1($tangkap3)."118.,\n".
+    nomor_karakter1($tangkap3)."228.,\n".
+    nomor_karakter1($tangkap3)."338.,\n".
+    nomor_karakter1($tangkap3)."448.,\n".
+    nomor_karakter1($tangkap3)."558.,\n".
+    nomor_karakter1($tangkap3)."881.,\n".
+    nomor_karakter1($tangkap3)."882.,\n".
+    nomor_karakter1($tangkap3)."883.,\n".
+    nomor_karakter1($tangkap3)."884.,\n".
+    nomor_karakter1($tangkap3)."885.,\n".
+    nomor_karakter1($tangkap3)."458.,\n".
+    nomor_karakter1($tangkap3)."12345678.,\n".
+    nomor_karakter1($tangkap3)."87654321.,\n".
+    nomor_karakter1($tangkap3)."9.,\n".
+    nomor_karakter1($tangkap3)."99.,\n".
+    nomor_karakter1($tangkap3)."999.,\n".
+    nomor_karakter1($tangkap3)."9999.,\n".
+    nomor_karakter1($tangkap3)."99999.,\n".
+    nomor_karakter1($tangkap3)."91*\n".
+    nomor_karakter1($tangkap3)."92.,\n".
+    nomor_karakter1($tangkap3)."93.,\n".
+    nomor_karakter1($tangkap3)."94.,\n".
+    nomor_karakter1($tangkap3)."95.,\n".
+    nomor_karakter1($tangkap3)."911.,\n".
+    nomor_karakter1($tangkap3)."922.,\n".
+    nomor_karakter1($tangkap3)."933.,\n".
+    nomor_karakter1($tangkap3)."944.,\n".
+    nomor_karakter1($tangkap3)."955.,\n".
+    nomor_karakter1($tangkap3)."919.,\n".
+    nomor_karakter1($tangkap3)."929.,\n".
+    nomor_karakter1($tangkap3)."939.,\n".
+    nomor_karakter1($tangkap3)."949.,\n".
+    nomor_karakter1($tangkap3)."959.,\n".
+    nomor_karakter1($tangkap3)."119.,\n".
+    nomor_karakter1($tangkap3)."229.,\n".
+    nomor_karakter1($tangkap3)."339.,\n".
+    nomor_karakter1($tangkap3)."449.,\n".
+    nomor_karakter1($tangkap3)."559.,\n".
+    nomor_karakter1($tangkap3)."991.,\n".
+    nomor_karakter1($tangkap3)."992.,\n".
+    nomor_karakter1($tangkap3)."993.,\n".
+    nomor_karakter1($tangkap3)."994.,\n".
+    nomor_karakter1($tangkap3)."995.,\n".
+    nomor_karakter1($tangkap3)."459.,\n".
+    nomor_karakter1($tangkap3)."12345678.,\n".
+    nomor_karakter1($tangkap3)."987654321.,\n".
+    nomor_karakter1($tangkap3)."0.,\n".
+    nomor_karakter1($tangkap3)."00.,\n".
+    nomor_karakter1($tangkap3)."000.,\n".
+    nomor_karakter1($tangkap3)."0000.,\n".
+    nomor_karakter1($tangkap3)."00000.,\n".
+    nomor_karakter1($tangkap3)."01.,\n".
+    nomor_karakter1($tangkap3)."02.,\n".
+    nomor_karakter1($tangkap3)."03.,\n".
+    nomor_karakter1($tangkap3)."04.,\n".
+    nomor_karakter1($tangkap3)."05.,\n".
+    nomor_karakter1($tangkap3)."011.,\n".
+    nomor_karakter1($tangkap3)."022.,\n".
+    nomor_karakter1($tangkap3)."033.,\n".
+    nomor_karakter1($tangkap3)."044.,\n".
+    nomor_karakter1($tangkap3)."055.,\n".
+    nomor_karakter1($tangkap3)."010.,\n".
+    nomor_karakter1($tangkap3)."020.,\n".
+    nomor_karakter1($tangkap3)."030.,\n".
+    nomor_karakter1($tangkap3)."040.,\n".
+    nomor_karakter1($tangkap3)."050.,\n".
+    nomor_karakter1($tangkap3)."110.,\n".
+    nomor_karakter1($tangkap3)."220.,\n".
+    nomor_karakter1($tangkap3)."330.,\n".
+    nomor_karakter1($tangkap3)."440.,\n".
+    nomor_karakter1($tangkap3)."550.,\n".
+    nomor_karakter1($tangkap3)."001.,\n".
+    nomor_karakter1($tangkap3)."002.,\n".
+    nomor_karakter1($tangkap3)."003.,\n".
+    nomor_karakter1($tangkap3)."004.,\n".
+    nomor_karakter1($tangkap3)."005.,\n".
+    nomor_karakter1($tangkap3)."450.,\n".
+    nomor_karakter1($tangkap3)."123456789.,\n".
+    nomor_karakter1($tangkap8)."1.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."111.,\n".
+    nomor_karakter1($tangkap8)."1111.,\n".
+    nomor_karakter1($tangkap8)."11111.,\n".
+    nomor_karakter1($tangkap8)."2.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."2222.,\n".
+    nomor_karakter1($tangkap8)."22222.,\n".
+    nomor_karakter1($tangkap8)."21.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."23.,\n".
+    nomor_karakter1($tangkap8)."24.,\n".
+    nomor_karakter1($tangkap8)."25.,\n".
+    nomor_karakter1($tangkap8)."26.,\n".
+    nomor_karakter1($tangkap8)."27.,\n".
+    nomor_karakter1($tangkap8)."28.,\n".
+    nomor_karakter1($tangkap8)."29.,\n".
+    nomor_karakter1($tangkap8)."211.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."233.,\n".
+    nomor_karakter1($tangkap8)."244.,\n".
+    nomor_karakter1($tangkap8)."255.,\n".
+    nomor_karakter1($tangkap8)."212.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."232.,\n".
+    nomor_karakter1($tangkap8)."242.,\n".
+    nomor_karakter1($tangkap8)."252.,\n".
+    nomor_karakter1($tangkap8)."112.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."332.,\n".
+    nomor_karakter1($tangkap8)."442.,\n".
+    nomor_karakter1($tangkap8)."552.,\n".
+    nomor_karakter1($tangkap8)."221.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."223.,\n".
+    nomor_karakter1($tangkap8)."224.,\n".
+    nomor_karakter1($tangkap8)."225.,\n".
+    nomor_karakter1($tangkap8)."452.,\n".
+    nomor_karakter1($tangkap8)."12.,\n".
+    nomor_karakter1($tangkap8)."21.,\n".
+    nomor_karakter1($tangkap8)."3.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."3333.,\n".
+    nomor_karakter1($tangkap8)."33333.,\n".
+    nomor_karakter1($tangkap8)."31.,\n".
+    nomor_karakter1($tangkap8)."32.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."34.,\n".
+    nomor_karakter1($tangkap8)."35.,\n".
+    nomor_karakter1($tangkap8)."311.,\n".
+    nomor_karakter1($tangkap8)."322.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."344.,\n".
+    nomor_karakter1($tangkap8)."355.,\n".
+    nomor_karakter1($tangkap8)."313.,\n".
+    nomor_karakter1($tangkap8)."323.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."343.,\n".
+    nomor_karakter1($tangkap8)."353.,\n".
+    nomor_karakter1($tangkap8)."113.,\n".
+    nomor_karakter1($tangkap8)."223.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."443.,\n".
+    nomor_karakter1($tangkap8)."553.,\n".
+    nomor_karakter1($tangkap8)."331.,\n".
+    nomor_karakter1($tangkap8)."332.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."334.,\n".
+    nomor_karakter1($tangkap8)."335.,\n".
+    nomor_karakter1($tangkap8)."453.,\n".
+    nomor_karakter1($tangkap8)."123.,\n".
+    nomor_karakter1($tangkap8)."321.,\n".
+    nomor_karakter1($tangkap8)."4.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."4444.,\n".
+    nomor_karakter1($tangkap8)."44444.,\n".
+    nomor_karakter1($tangkap8)."41.,\n".
+    nomor_karakter1($tangkap8)."42.,\n".
+    nomor_karakter1($tangkap8)."43.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."411.,\n".
+    nomor_karakter1($tangkap8)."422.,\n".
+    nomor_karakter1($tangkap8)."433.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."455.,\n".
+    nomor_karakter1($tangkap8)."414.,\n".
+    nomor_karakter1($tangkap8)."424.,\n".
+    nomor_karakter1($tangkap8)."434.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."454.,\n".
+    nomor_karakter1($tangkap8)."114.,\n".
+    nomor_karakter1($tangkap8)."224.,\n".
+    nomor_karakter1($tangkap8)."334.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."441.,\n".
+    nomor_karakter1($tangkap8)."442.,\n".
+    nomor_karakter1($tangkap8)."443.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."445.,\n".
+    nomor_karakter1($tangkap8)."554.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."12.,\n".
+    nomor_karakter1($tangkap8)."43.,\n".
+    nomor_karakter1($tangkap8)."5.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."555.,\n".
+    nomor_karakter1($tangkap8)."5555.,\n".
+    nomor_karakter1($tangkap8)."55555.,\n".
+    nomor_karakter1($tangkap8)."51.,\n".
+    nomor_karakter1($tangkap8)."52.,\n".
+    nomor_karakter1($tangkap8)."53.,\n".
+    nomor_karakter1($tangkap8)."54.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."511.,\n".
+    nomor_karakter1($tangkap8)."522.,\n".
+    nomor_karakter1($tangkap8)."533.,\n".
+    nomor_karakter1($tangkap8)."544.,\n".
+    nomor_karakter1($tangkap8)."655.,\n".
+    nomor_karakter1($tangkap8)."515.,\n".
+    nomor_karakter1($tangkap8)."52.,\n".
+    nomor_karakter1($tangkap8)."535.,\n".
+    nomor_karakter1($tangkap8)."545.,\n".
+    nomor_karakter1($tangkap8)."555.,\n".
+    nomor_karakter1($tangkap8)."115.,\n".
+    nomor_karakter1($tangkap8)."225.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."34.,\n".
+    nomor_karakter1($tangkap8)."1234.,\n".
+    nomor_karakter1($tangkap8)."5432.,\n".
+    nomor_karakter1($tangkap8)."6.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."666.,\n".
+    nomor_karakter1($tangkap8)."6666.,\n".
+    nomor_karakter1($tangkap8)."66666.,\n".
+    nomor_karakter1($tangkap8)."61.,\n".
+    nomor_karakter1($tangkap8)."62.,\n".
+    nomor_karakter1($tangkap8)."63.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."611.,\n".
+    nomor_karakter1($tangkap8)."622.,\n".
+    nomor_karakter1($tangkap8)."633.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."61.,\n".
+    nomor_karakter1($tangkap8)."62.,\n".
+    nomor_karakter1($tangkap8)."63.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."12345.,\n".
+    nomor_karakter1($tangkap8)."65432.,\n".
+    nomor_karakter1($tangkap8)."7.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."777.,\n".
+    nomor_karakter1($tangkap8)."7777.,\n".
+    nomor_karakter1($tangkap8)."77777.,\n".
+    nomor_karakter1($tangkap8)."71.,\n".
+    nomor_karakter1($tangkap8)."72.,\n".
+    nomor_karakter1($tangkap8)."73.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."711.,\n".
+    nomor_karakter1($tangkap8)."722.,\n".
+    nomor_karakter1($tangkap8)."733.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."71.,\n".
+    nomor_karakter1($tangkap8)."72.,\n".
+    nomor_karakter1($tangkap8)."73.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."1234567.,\n".
+    nomor_karakter1($tangkap8)."8.,\n".
+    nomor_karakter1($tangkap8)."88.,\n".
+    nomor_karakter1($tangkap8)."888.,\n".
+    nomor_karakter1($tangkap8)."8888.,\n".
+    nomor_karakter1($tangkap8)."88888.,\n".
+    nomor_karakter1($tangkap8)."81.,\n".
+    nomor_karakter1($tangkap8)."82.,\n".
+    nomor_karakter1($tangkap8)."83.,\n".
+    nomor_karakter1($tangkap8)."84.,\n".
+    nomor_karakter1($tangkap8)."85.,\n".
+    nomor_karakter1($tangkap8)."811.,\n".
+    nomor_karakter1($tangkap8)."822.,\n".
+    nomor_karakter1($tangkap8)."833.,\n".
+    nomor_karakter1($tangkap8)."844.,\n".
+    nomor_karakter1($tangkap8)."855.,\n".
+    nomor_karakter1($tangkap8)."818.,\n".
+    nomor_karakter1($tangkap8)."828.,\n".
+    nomor_karakter1($tangkap8)."838.,\n".
+    nomor_karakter1($tangkap8)."848.,\n".
+    nomor_karakter1($tangkap8)."858.,\n".
+    nomor_karakter1($tangkap8)."118.,\n".
+    nomor_karakter1($tangkap8)."228.,\n".
+    nomor_karakter1($tangkap8)."338.,\n".
+    nomor_karakter1($tangkap8)."448.,\n".
+    nomor_karakter1($tangkap8)."558.,\n".
+    nomor_karakter1($tangkap8)."881.,\n".
+    nomor_karakter1($tangkap8)."882.,\n".
+    nomor_karakter1($tangkap8)."883.,\n".
+    nomor_karakter1($tangkap8)."884.,\n".
+    nomor_karakter1($tangkap8)."885.,\n".
+    nomor_karakter1($tangkap8)."458.,\n".
+    nomor_karakter1($tangkap8)."12345678.,\n".
+    nomor_karakter1($tangkap8)."87654321.,\n".
+    nomor_karakter1($tangkap8)."9.,\n".
+    nomor_karakter1($tangkap8)."99.,\n".
+    nomor_karakter1($tangkap8)."999.,\n".
+    nomor_karakter1($tangkap8)."9999.,\n".
+    nomor_karakter1($tangkap8)."99999.,\n".
+    nomor_karakter1($tangkap8)."91*\n".
+    nomor_karakter1($tangkap8)."92.,\n".
+    nomor_karakter1($tangkap8)."93.,\n".
+    nomor_karakter1($tangkap8)."94.,\n".
+    nomor_karakter1($tangkap8)."95.,\n".
+    nomor_karakter1($tangkap8)."911.,\n".
+    nomor_karakter1($tangkap8)."922.,\n".
+    nomor_karakter1($tangkap8)."933.,\n".
+    nomor_karakter1($tangkap8)."944.,\n".
+    nomor_karakter1($tangkap8)."955.,\n".
+    nomor_karakter1($tangkap8)."919.,\n".
+    nomor_karakter1($tangkap8)."929.,\n".
+    nomor_karakter1($tangkap8)."939.,\n".
+    nomor_karakter1($tangkap8)."949.,\n".
+    nomor_karakter1($tangkap8)."959.,\n".
+    nomor_karakter1($tangkap8)."119.,\n".
+    nomor_karakter1($tangkap8)."229.,\n".
+    nomor_karakter1($tangkap8)."339.,\n".
+    nomor_karakter1($tangkap8)."449.,\n".
+    nomor_karakter1($tangkap8)."559.,\n".
+    nomor_karakter1($tangkap8)."991.,\n".
+    nomor_karakter1($tangkap8)."992.,\n".
+    nomor_karakter1($tangkap8)."993.,\n".
+    nomor_karakter1($tangkap8)."994.,\n".
+    nomor_karakter1($tangkap8)."995.,\n".
+    nomor_karakter1($tangkap8)."459.,\n".
+    nomor_karakter1($tangkap8)."12345678.,\n".
+    nomor_karakter1($tangkap8)."987654321.,\n".
+    nomor_karakter1($tangkap8)."0.,\n".
+    nomor_karakter1($tangkap8)."00.,\n".
+    nomor_karakter1($tangkap8)."000.,\n".
+    nomor_karakter1($tangkap8)."0000.,\n".
+    nomor_karakter1($tangkap8)."00000.,\n".
+    nomor_karakter1($tangkap8)."01.,\n".
+    nomor_karakter1($tangkap8)."02.,\n".
+    nomor_karakter1($tangkap8)."03.,\n".
+    nomor_karakter1($tangkap8)."04.,\n".
+    nomor_karakter1($tangkap8)."05.,\n".
+    nomor_karakter1($tangkap8)."011.,\n".
+    nomor_karakter1($tangkap8)."022.,\n".
+    nomor_karakter1($tangkap8)."033.,\n".
+    nomor_karakter1($tangkap8)."044.,\n".
+    nomor_karakter1($tangkap8)."055.,\n".
+    nomor_karakter1($tangkap8)."010.,\n".
+    nomor_karakter1($tangkap8)."020.,\n".
+    nomor_karakter1($tangkap8)."030.,\n".
+    nomor_karakter1($tangkap8)."040.,\n".
+    nomor_karakter1($tangkap8)."050.,\n".
+    nomor_karakter1($tangkap8)."110.,\n".
+    nomor_karakter1($tangkap8)."220.,\n".
+    nomor_karakter1($tangkap8)."330.,\n".
+    nomor_karakter1($tangkap8)."440.,\n".
+    nomor_karakter1($tangkap8)."550.,\n".
+    nomor_karakter1($tangkap8)."001.,\n".
+    nomor_karakter1($tangkap8)."002.,\n".
+    nomor_karakter1($tangkap8)."003.,\n".
+    nomor_karakter1($tangkap8)."004.,\n".
+    nomor_karakter1($tangkap8)."005.,\n".
+    nomor_karakter1($tangkap8)."450.,\n".
+    nomor_karakter1($tangkap8)."123456789.,\n".
+    nomor_karakter1($tangkap9)."1.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."111.,\n".
+    nomor_karakter1($tangkap9)."1111.,\n".
+    nomor_karakter1($tangkap9)."11111.,\n".
+    nomor_karakter1($tangkap9)."2.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."2222.,\n".
+    nomor_karakter1($tangkap9)."22222.,\n".
+    nomor_karakter1($tangkap9)."21.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."23.,\n".
+    nomor_karakter1($tangkap9)."24.,\n".
+    nomor_karakter1($tangkap9)."25.,\n".
+    nomor_karakter1($tangkap9)."26.,\n".
+    nomor_karakter1($tangkap9)."27.,\n".
+    nomor_karakter1($tangkap9)."28.,\n".
+    nomor_karakter1($tangkap9)."29.,\n".
+    nomor_karakter1($tangkap9)."211.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."233.,\n".
+    nomor_karakter1($tangkap9)."244.,\n".
+    nomor_karakter1($tangkap9)."255.,\n".
+    nomor_karakter1($tangkap9)."212.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."232.,\n".
+    nomor_karakter1($tangkap9)."242.,\n".
+    nomor_karakter1($tangkap9)."252.,\n".
+    nomor_karakter1($tangkap9)."112.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."332.,\n".
+    nomor_karakter1($tangkap9)."442.,\n".
+    nomor_karakter1($tangkap9)."552.,\n".
+    nomor_karakter1($tangkap9)."221.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."223.,\n".
+    nomor_karakter1($tangkap9)."224.,\n".
+    nomor_karakter1($tangkap9)."225.,\n".
+    nomor_karakter1($tangkap9)."452.,\n".
+    nomor_karakter1($tangkap9)."12.,\n".
+    nomor_karakter1($tangkap9)."21.,\n".
+    nomor_karakter1($tangkap9)."3.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."3333.,\n".
+    nomor_karakter1($tangkap9)."33333.,\n".
+    nomor_karakter1($tangkap9)."31.,\n".
+    nomor_karakter1($tangkap9)."32.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."34.,\n".
+    nomor_karakter1($tangkap9)."35.,\n".
+    nomor_karakter1($tangkap9)."311.,\n".
+    nomor_karakter1($tangkap9)."322.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."344.,\n".
+    nomor_karakter1($tangkap9)."355.,\n".
+    nomor_karakter1($tangkap9)."313.,\n".
+    nomor_karakter1($tangkap9)."323.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."343.,\n".
+    nomor_karakter1($tangkap9)."353.,\n".
+    nomor_karakter1($tangkap9)."113.,\n".
+    nomor_karakter1($tangkap9)."223.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."443.,\n".
+    nomor_karakter1($tangkap9)."553.,\n".
+    nomor_karakter1($tangkap9)."331.,\n".
+    nomor_karakter1($tangkap9)."332.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."334.,\n".
+    nomor_karakter1($tangkap9)."335.,\n".
+    nomor_karakter1($tangkap9)."453.,\n".
+    nomor_karakter1($tangkap9)."123.,\n".
+    nomor_karakter1($tangkap9)."321.,\n".
+    nomor_karakter1($tangkap9)."4.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."4444.,\n".
+    nomor_karakter1($tangkap9)."44444.,\n".
+    nomor_karakter1($tangkap9)."41.,\n".
+    nomor_karakter1($tangkap9)."42.,\n".
+    nomor_karakter1($tangkap9)."43.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."411.,\n".
+    nomor_karakter1($tangkap9)."422.,\n".
+    nomor_karakter1($tangkap9)."433.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."455.,\n".
+    nomor_karakter1($tangkap9)."414.,\n".
+    nomor_karakter1($tangkap9)."424.,\n".
+    nomor_karakter1($tangkap9)."434.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."454.,\n".
+    nomor_karakter1($tangkap9)."114.,\n".
+    nomor_karakter1($tangkap9)."224.,\n".
+    nomor_karakter1($tangkap9)."334.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."441.,\n".
+    nomor_karakter1($tangkap9)."442.,\n".
+    nomor_karakter1($tangkap9)."443.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."445.,\n".
+    nomor_karakter1($tangkap9)."554.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."12.,\n".
+    nomor_karakter1($tangkap9)."43.,\n".
+    nomor_karakter1($tangkap9)."5.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."555.,\n".
+    nomor_karakter1($tangkap9)."5555.,\n".
+    nomor_karakter1($tangkap9)."55555.,\n".
+    nomor_karakter1($tangkap9)."51.,\n".
+    nomor_karakter1($tangkap9)."52.,\n".
+    nomor_karakter1($tangkap9)."53.,\n".
+    nomor_karakter1($tangkap9)."54.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."511.,\n".
+    nomor_karakter1($tangkap9)."522.,\n".
+    nomor_karakter1($tangkap9)."533.,\n".
+    nomor_karakter1($tangkap9)."544.,\n".
+    nomor_karakter1($tangkap9)."655.,\n".
+    nomor_karakter1($tangkap9)."515.,\n".
+    nomor_karakter1($tangkap9)."52.,\n".
+    nomor_karakter1($tangkap9)."535.,\n".
+    nomor_karakter1($tangkap9)."545.,\n".
+    nomor_karakter1($tangkap9)."555.,\n".
+    nomor_karakter1($tangkap9)."115.,\n".
+    nomor_karakter1($tangkap9)."225.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."34.,\n".
+    nomor_karakter1($tangkap9)."1234.,\n".
+    nomor_karakter1($tangkap9)."5432.,\n".
+    nomor_karakter1($tangkap9)."6.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."666.,\n".
+    nomor_karakter1($tangkap9)."6666.,\n".
+    nomor_karakter1($tangkap9)."66666.,\n".
+    nomor_karakter1($tangkap9)."61.,\n".
+    nomor_karakter1($tangkap9)."62.,\n".
+    nomor_karakter1($tangkap9)."63.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."611.,\n".
+    nomor_karakter1($tangkap9)."622.,\n".
+    nomor_karakter1($tangkap9)."633.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."61.,\n".
+    nomor_karakter1($tangkap9)."62.,\n".
+    nomor_karakter1($tangkap9)."63.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."12345.,\n".
+    nomor_karakter1($tangkap9)."65432.,\n".
+    nomor_karakter1($tangkap9)."7.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."777.,\n".
+    nomor_karakter1($tangkap9)."7777.,\n".
+    nomor_karakter1($tangkap9)."77777.,\n".
+    nomor_karakter1($tangkap9)."71.,\n".
+    nomor_karakter1($tangkap9)."72.,\n".
+    nomor_karakter1($tangkap9)."73.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."711.,\n".
+    nomor_karakter1($tangkap9)."722.,\n".
+    nomor_karakter1($tangkap9)."733.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."71.,\n".
+    nomor_karakter1($tangkap9)."72.,\n".
+    nomor_karakter1($tangkap9)."73.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."1234567.,\n".
+    nomor_karakter1($tangkap9)."8.,\n".
+    nomor_karakter1($tangkap9)."88.,\n".
+    nomor_karakter1($tangkap9)."888.,\n".
+    nomor_karakter1($tangkap9)."8888.,\n".
+    nomor_karakter1($tangkap9)."88888.,\n".
+    nomor_karakter1($tangkap9)."81.,\n".
+    nomor_karakter1($tangkap9)."82.,\n".
+    nomor_karakter1($tangkap9)."83.,\n".
+    nomor_karakter1($tangkap9)."84.,\n".
+    nomor_karakter1($tangkap9)."85.,\n".
+    nomor_karakter1($tangkap9)."811.,\n".
+    nomor_karakter1($tangkap9)."822.,\n".
+    nomor_karakter1($tangkap9)."833.,\n".
+    nomor_karakter1($tangkap9)."844.,\n".
+    nomor_karakter1($tangkap9)."855.,\n".
+    nomor_karakter1($tangkap9)."818.,\n".
+    nomor_karakter1($tangkap9)."828.,\n".
+    nomor_karakter1($tangkap9)."838.,\n".
+    nomor_karakter1($tangkap9)."848.,\n".
+    nomor_karakter1($tangkap9)."858.,\n".
+    nomor_karakter1($tangkap9)."118.,\n".
+    nomor_karakter1($tangkap9)."228.,\n".
+    nomor_karakter1($tangkap9)."338.,\n".
+    nomor_karakter1($tangkap9)."448.,\n".
+    nomor_karakter1($tangkap9)."558.,\n".
+    nomor_karakter1($tangkap9)."881.,\n".
+    nomor_karakter1($tangkap9)."882.,\n".
+    nomor_karakter1($tangkap9)."883.,\n".
+    nomor_karakter1($tangkap9)."884.,\n".
+    nomor_karakter1($tangkap9)."885.,\n".
+    nomor_karakter1($tangkap9)."458.,\n".
+    nomor_karakter1($tangkap9)."12345678.,\n".
+    nomor_karakter1($tangkap9)."87654321.,\n".
+    nomor_karakter1($tangkap9)."9.,\n".
+    nomor_karakter1($tangkap9)."99.,\n".
+    nomor_karakter1($tangkap9)."999.,\n".
+    nomor_karakter1($tangkap9)."9999.,\n".
+    nomor_karakter1($tangkap9)."99999.,\n".
+    nomor_karakter1($tangkap9)."91*\n".
+    nomor_karakter1($tangkap9)."92.,\n".
+    nomor_karakter1($tangkap9)."93.,\n".
+    nomor_karakter1($tangkap9)."94.,\n".
+    nomor_karakter1($tangkap9)."95.,\n".
+    nomor_karakter1($tangkap9)."911.,\n".
+    nomor_karakter1($tangkap9)."922.,\n".
+    nomor_karakter1($tangkap9)."933.,\n".
+    nomor_karakter1($tangkap9)."944.,\n".
+    nomor_karakter1($tangkap9)."955.,\n".
+    nomor_karakter1($tangkap9)."919.,\n".
+    nomor_karakter1($tangkap9)."929.,\n".
+    nomor_karakter1($tangkap9)."939.,\n".
+    nomor_karakter1($tangkap9)."949.,\n".
+    nomor_karakter1($tangkap9)."959.,\n".
+    nomor_karakter1($tangkap9)."119.,\n".
+    nomor_karakter1($tangkap9)."229.,\n".
+    nomor_karakter1($tangkap9)."339.,\n".
+    nomor_karakter1($tangkap9)."449.,\n".
+    nomor_karakter1($tangkap9)."559.,\n".
+    nomor_karakter1($tangkap9)."991.,\n".
+    nomor_karakter1($tangkap9)."992.,\n".
+    nomor_karakter1($tangkap9)."993.,\n".
+    nomor_karakter1($tangkap9)."994.,\n".
+    nomor_karakter1($tangkap9)."995.,\n".
+    nomor_karakter1($tangkap9)."459.,\n".
+    nomor_karakter1($tangkap9)."12345678.,\n".
+    nomor_karakter1($tangkap9)."987654321.,\n".
+    nomor_karakter1($tangkap9)."0.,\n".
+    nomor_karakter1($tangkap9)."00.,\n".
+    nomor_karakter1($tangkap9)."000.,\n".
+    nomor_karakter1($tangkap9)."0000.,\n".
+    nomor_karakter1($tangkap9)."00000.,\n".
+    nomor_karakter1($tangkap9)."01.,\n".
+    nomor_karakter1($tangkap9)."02.,\n".
+    nomor_karakter1($tangkap9)."03.,\n".
+    nomor_karakter1($tangkap9)."04.,\n".
+    nomor_karakter1($tangkap9)."05.,\n".
+    nomor_karakter1($tangkap9)."011.,\n".
+    nomor_karakter1($tangkap9)."022.,\n".
+    nomor_karakter1($tangkap9)."033.,\n".
+    nomor_karakter1($tangkap9)."044.,\n".
+    nomor_karakter1($tangkap9)."055.,\n".
+    nomor_karakter1($tangkap9)."010.,\n".
+    nomor_karakter1($tangkap9)."020.,\n".
+    nomor_karakter1($tangkap9)."030.,\n".
+    nomor_karakter1($tangkap9)."040.,\n".
+    nomor_karakter1($tangkap9)."050.,\n".
+    nomor_karakter1($tangkap9)."110.,\n".
+    nomor_karakter1($tangkap9)."220.,\n".
+    nomor_karakter1($tangkap9)."330.,\n".
+    nomor_karakter1($tangkap9)."440.,\n".
+    nomor_karakter1($tangkap9)."550.,\n".
+    nomor_karakter1($tangkap9)."001.,\n".
+    nomor_karakter1($tangkap9)."002.,\n".
+    nomor_karakter1($tangkap9)."003.,\n".
+    nomor_karakter1($tangkap9)."004.,\n".
+    nomor_karakter1($tangkap9)."005.,\n".
+    nomor_karakter1($tangkap9)."450.,\n".
+    nomor_karakter1($tangkap9)."123456789.,\n".
+    nomor_karakter1($tangkap13)."1.,\n".
+    nomor_karakter1($tangkap13)."11.,\n".
+    nomor_karakter1($tangkap13)."111.,\n".
+    nomor_karakter1($tangkap13)."1111.,\n".
+    nomor_karakter1($tangkap13)."11111.,\n".
+    nomor_karakter1($tangkap13)."2.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."2222.,\n".
+    nomor_karakter1($tangkap13)."22222.,\n".
+    nomor_karakter1($tangkap13)."21.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."23.,\n".
+    nomor_karakter1($tangkap13)."24.,\n".
+    nomor_karakter1($tangkap13)."25.,\n".
+    nomor_karakter1($tangkap13)."26.,\n".
+    nomor_karakter1($tangkap13)."27.,\n".
+    nomor_karakter1($tangkap13)."28.,\n".
+    nomor_karakter1($tangkap13)."29.,\n".
+    nomor_karakter1($tangkap13)."211.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."233.,\n".
+    nomor_karakter1($tangkap13)."244.,\n".
+    nomor_karakter1($tangkap13)."255.,\n".
+    nomor_karakter1($tangkap13)."212.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."232.,\n".
+    nomor_karakter1($tangkap13)."242.,\n".
+    nomor_karakter1($tangkap13)."252.,\n".
+    nomor_karakter1($tangkap13)."112.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."332.,\n".
+    nomor_karakter1($tangkap13)."442.,\n".
+    nomor_karakter1($tangkap13)."552.,\n".
+    nomor_karakter1($tangkap13)."221.,\n".
+    nomor_karakter1($tangkap13)."222.,\n".
+    nomor_karakter1($tangkap13)."223.,\n".
+    nomor_karakter1($tangkap13)."224.,\n".
+    nomor_karakter1($tangkap13)."225.,\n".
+    nomor_karakter1($tangkap13)."452.,\n".
+    nomor_karakter1($tangkap13)."12.,\n".
+    nomor_karakter1($tangkap13)."21.,\n".
+    nomor_karakter1($tangkap13)."3.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."3333.,\n".
+    nomor_karakter1($tangkap13)."33333.,\n".
+    nomor_karakter1($tangkap13)."31.,\n".
+    nomor_karakter1($tangkap13)."32.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."34.,\n".
+    nomor_karakter1($tangkap13)."35.,\n".
+    nomor_karakter1($tangkap13)."311.,\n".
+    nomor_karakter1($tangkap13)."322.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."344.,\n".
+    nomor_karakter1($tangkap13)."355.,\n".
+    nomor_karakter1($tangkap13)."313.,\n".
+    nomor_karakter1($tangkap13)."323.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."343.,\n".
+    nomor_karakter1($tangkap13)."353.,\n".
+    nomor_karakter1($tangkap13)."113.,\n".
+    nomor_karakter1($tangkap13)."223.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."443.,\n".
+    nomor_karakter1($tangkap13)."553.,\n".
+    nomor_karakter1($tangkap13)."331.,\n".
+    nomor_karakter1($tangkap13)."332.,\n".
+    nomor_karakter1($tangkap13)."333.,\n".
+    nomor_karakter1($tangkap13)."334.,\n".
+    nomor_karakter1($tangkap13)."335.,\n".
+    nomor_karakter1($tangkap13)."453.,\n".
+    nomor_karakter1($tangkap13)."123.,\n".
+    nomor_karakter1($tangkap13)."321.,\n".
+    nomor_karakter1($tangkap13)."4.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."4444.,\n".
+    nomor_karakter1($tangkap13)."44444.,\n".
+    nomor_karakter1($tangkap13)."41.,\n".
+    nomor_karakter1($tangkap13)."42.,\n".
+    nomor_karakter1($tangkap13)."43.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."45.,\n".
+    nomor_karakter1($tangkap13)."411.,\n".
+    nomor_karakter1($tangkap13)."422.,\n".
+    nomor_karakter1($tangkap13)."433.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."455.,\n".
+    nomor_karakter1($tangkap13)."414.,\n".
+    nomor_karakter1($tangkap13)."424.,\n".
+    nomor_karakter1($tangkap13)."434.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."454.,\n".
+    nomor_karakter1($tangkap13)."114.,\n".
+    nomor_karakter1($tangkap13)."224.,\n".
+    nomor_karakter1($tangkap13)."334.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."441.,\n".
+    nomor_karakter1($tangkap13)."442.,\n".
+    nomor_karakter1($tangkap13)."443.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."445.,\n".
+    nomor_karakter1($tangkap13)."554.,\n".
+    nomor_karakter1($tangkap13)."444.,\n".
+    nomor_karakter1($tangkap13)."12.,\n".
+    nomor_karakter1($tangkap13)."43.,\n".
+    nomor_karakter1($tangkap13)."5.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."555.,\n".
+    nomor_karakter1($tangkap13)."5555.,\n".
+    nomor_karakter1($tangkap13)."55555.,\n".
+    nomor_karakter1($tangkap13)."51.,\n".
+    nomor_karakter1($tangkap13)."52.,\n".
+    nomor_karakter1($tangkap13)."53.,\n".
+    nomor_karakter1($tangkap13)."54.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."511.,\n".
+    nomor_karakter1($tangkap13)."522.,\n".
+    nomor_karakter1($tangkap13)."533.,\n".
+    nomor_karakter1($tangkap13)."544.,\n".
+    nomor_karakter1($tangkap13)."655.,\n".
+    nomor_karakter1($tangkap13)."515.,\n".
+    nomor_karakter1($tangkap13)."52.,\n".
+    nomor_karakter1($tangkap13)."535.,\n".
+    nomor_karakter1($tangkap13)."545.,\n".
+    nomor_karakter1($tangkap13)."555.,\n".
+    nomor_karakter1($tangkap13)."115.,\n".
+    nomor_karakter1($tangkap13)."225.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."34.,\n".
+    nomor_karakter1($tangkap13)."1234.,\n".
+    nomor_karakter1($tangkap13)."5432.,\n".
+    nomor_karakter1($tangkap13)."6.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."666.,\n".
+    nomor_karakter1($tangkap13)."6666.,\n".
+    nomor_karakter1($tangkap13)."66666.,\n".
+    nomor_karakter1($tangkap13)."61.,\n".
+    nomor_karakter1($tangkap13)."62.,\n".
+    nomor_karakter1($tangkap13)."63.,\n".
+    nomor_karakter1($tangkap13)."64.,\n".
+    nomor_karakter1($tangkap13)."65.,\n".
+    nomor_karakter1($tangkap13)."611.,\n".
+    nomor_karakter1($tangkap13)."622.,\n".
+    nomor_karakter1($tangkap13)."633.,\n".
+    nomor_karakter1($tangkap13)."64.,\n".
+    nomor_karakter1($tangkap13)."65.,\n".
+    nomor_karakter1($tangkap13)."61.,\n".
+    nomor_karakter1($tangkap13)."62.,\n".
+    nomor_karakter1($tangkap13)."63.,\n".
+    nomor_karakter1($tangkap13)."64.,\n".
+    nomor_karakter1($tangkap13)."65.,\n".
+    nomor_karakter1($tangkap13)."11.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."66.,\n".
+    nomor_karakter1($tangkap13)."45.,\n".
+    nomor_karakter1($tangkap13)."12345.,\n".
+    nomor_karakter1($tangkap13)."65432.,\n".
+    nomor_karakter1($tangkap13)."7.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."777.,\n".
+    nomor_karakter1($tangkap13)."7777.,\n".
+    nomor_karakter1($tangkap13)."77777.,\n".
+    nomor_karakter1($tangkap13)."71.,\n".
+    nomor_karakter1($tangkap13)."72.,\n".
+    nomor_karakter1($tangkap13)."73.,\n".
+    nomor_karakter1($tangkap13)."74.,\n".
+    nomor_karakter1($tangkap13)."75.,\n".
+    nomor_karakter1($tangkap13)."711.,\n".
+    nomor_karakter1($tangkap13)."722.,\n".
+    nomor_karakter1($tangkap13)."733.,\n".
+    nomor_karakter1($tangkap13)."74.,\n".
+    nomor_karakter1($tangkap13)."75.,\n".
+    nomor_karakter1($tangkap13)."71.,\n".
+    nomor_karakter1($tangkap13)."72.,\n".
+    nomor_karakter1($tangkap13)."73.,\n".
+    nomor_karakter1($tangkap13)."74.,\n".
+    nomor_karakter1($tangkap13)."75.,\n".
+    nomor_karakter1($tangkap13)."11.,\n".
+    nomor_karakter1($tangkap13)."22.,\n".
+    nomor_karakter1($tangkap13)."33.,\n".
+    nomor_karakter1($tangkap13)."44.,\n".
+    nomor_karakter1($tangkap13)."55.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."77.,\n".
+    nomor_karakter1($tangkap13)."45.,\n".
+    nomor_karakter1($tangkap13)."1234567.,\n".
+    nomor_karakter1($tangkap13)."8.,\n".
+    nomor_karakter1($tangkap13)."88.,\n".
+    nomor_karakter1($tangkap13)."888.,\n".
+    nomor_karakter1($tangkap13)."8888.,\n".
+    nomor_karakter1($tangkap13)."88888.,\n".
+    nomor_karakter1($tangkap13)."81.,\n".
+    nomor_karakter1($tangkap13)."82.,\n".
+    nomor_karakter1($tangkap13)."83.,\n".
+    nomor_karakter1($tangkap13)."84.,\n".
+    nomor_karakter1($tangkap13)."85.,\n".
+    nomor_karakter1($tangkap13)."811.,\n".
+    nomor_karakter1($tangkap13)."822.,\n".
+    nomor_karakter1($tangkap13)."833.,\n".
+    nomor_karakter1($tangkap13)."844.,\n".
+    nomor_karakter1($tangkap13)."855.,\n".
+    nomor_karakter1($tangkap13)."818.,\n".
+    nomor_karakter1($tangkap13)."828.,\n".
+    nomor_karakter1($tangkap13)."838.,\n".
+    nomor_karakter1($tangkap13)."848.,\n".
+    nomor_karakter1($tangkap13)."858.,\n".
+    nomor_karakter1($tangkap13)."118.,\n".
+    nomor_karakter1($tangkap13)."228.,\n".
+    nomor_karakter1($tangkap13)."338.,\n".
+    nomor_karakter1($tangkap13)."448.,\n".
+    nomor_karakter1($tangkap13)."558.,\n".
+    nomor_karakter1($tangkap13)."881.,\n".
+    nomor_karakter1($tangkap13)."882.,\n".
+    nomor_karakter1($tangkap13)."883.,\n".
+    nomor_karakter1($tangkap13)."884.,\n".
+    nomor_karakter1($tangkap13)."885.,\n".
+    nomor_karakter1($tangkap13)."458.,\n".
+    nomor_karakter1($tangkap13)."12345678.,\n".
+    nomor_karakter1($tangkap13)."87654321.,\n".
+    nomor_karakter1($tangkap13)."9.,\n".
+    nomor_karakter1($tangkap13)."99.,\n".
+    nomor_karakter1($tangkap13)."999.,\n".
+    nomor_karakter1($tangkap13)."9999.,\n".
+    nomor_karakter1($tangkap13)."99999.,\n".
+    nomor_karakter1($tangkap13)."91*\n".
+    nomor_karakter1($tangkap13)."92.,\n".
+    nomor_karakter1($tangkap13)."93.,\n".
+    nomor_karakter1($tangkap13)."94.,\n".
+    nomor_karakter1($tangkap13)."95.,\n".
+    nomor_karakter1($tangkap13)."911.,\n".
+    nomor_karakter1($tangkap13)."922.,\n".
+    nomor_karakter1($tangkap13)."933.,\n".
+    nomor_karakter1($tangkap13)."944.,\n".
+    nomor_karakter1($tangkap13)."955.,\n".
+    nomor_karakter1($tangkap13)."919.,\n".
+    nomor_karakter1($tangkap13)."929.,\n".
+    nomor_karakter1($tangkap13)."939.,\n".
+    nomor_karakter1($tangkap13)."949.,\n".
+    nomor_karakter1($tangkap13)."959.,\n".
+    nomor_karakter1($tangkap13)."119.,\n".
+    nomor_karakter1($tangkap13)."229.,\n".
+    nomor_karakter1($tangkap13)."339.,\n".
+    nomor_karakter1($tangkap13)."449.,\n".
+    nomor_karakter1($tangkap13)."559.,\n".
+    nomor_karakter1($tangkap13)."991.,\n".
+    nomor_karakter1($tangkap13)."992.,\n".
+    nomor_karakter1($tangkap13)."993.,\n".
+    nomor_karakter1($tangkap13)."994.,\n".
+    nomor_karakter1($tangkap13)."995.,\n".
+    nomor_karakter1($tangkap13)."459.,\n".
+    nomor_karakter1($tangkap13)."12345678.,\n".
+    nomor_karakter1($tangkap13)."987654321.,\n".
+    nomor_karakter1($tangkap13)."0.,\n".
+    nomor_karakter1($tangkap13)."00.,\n".
+    nomor_karakter1($tangkap13)."000.,\n".
+    nomor_karakter1($tangkap13)."0000.,\n".
+    nomor_karakter1($tangkap13)."00000.,\n".
+    nomor_karakter1($tangkap13)."01.,\n".
+    nomor_karakter1($tangkap13)."02.,\n".
+    nomor_karakter1($tangkap13)."03.,\n".
+    nomor_karakter1($tangkap13)."04.,\n".
+    nomor_karakter1($tangkap13)."05.,\n".
+    nomor_karakter1($tangkap13)."011.,\n".
+    nomor_karakter1($tangkap13)."022.,\n".
+    nomor_karakter1($tangkap13)."033.,\n".
+    nomor_karakter1($tangkap13)."044.,\n".
+    nomor_karakter1($tangkap13)."055.,\n".
+    nomor_karakter1($tangkap13)."010.,\n".
+    nomor_karakter1($tangkap13)."020.,\n".
+    nomor_karakter1($tangkap13)."030.,\n".
+    nomor_karakter1($tangkap13)."040.,\n".
+    nomor_karakter1($tangkap13)."050.,\n".
+    nomor_karakter1($tangkap13)."110.,\n".
+    nomor_karakter1($tangkap13)."220.,\n".
+    nomor_karakter1($tangkap13)."330.,\n".
+    nomor_karakter1($tangkap13)."440.,\n".
+    nomor_karakter1($tangkap13)."550.,\n".
+    nomor_karakter1($tangkap13)."001.,\n".
+    nomor_karakter1($tangkap13)."002.,\n".
+    nomor_karakter1($tangkap13)."003.,\n".
+    nomor_karakter1($tangkap13)."004.,\n".
+    nomor_karakter1($tangkap13)."005.,\n".
+    nomor_karakter1($tangkap13)."450.,\n".
+    nomor_karakter1($tangkap13)."123456789.,\n".
+
+fahmi($tangkap1.$tangkap2)."\n".
+fahmi($tangkap1.$tangkap3)."\n".
+fahmi($tangkap2.$tangkap3)."\n".
+fahmi($tangkap3.$tangkap13)."\n".
+fahmi($tangkap2.$tangkap13)."\n".
+fahmi($tangkap2.$tangkap9)."\n".
+fahmi($tangkap2.$tangkap8)."\n".
+
+dongo($tangkap1)."1\n".
+dongo($tangkap1)."11\n".
+dongo($tangkap1)."111\n".
+dongo($tangkap1)."1111\n".
+dongo($tangkap1)."11111\n".
+dongo($tangkap1)."2\n".
+dongo($tangkap1)."22\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."2222\n".
+dongo($tangkap1)."22222\n".
+dongo($tangkap1)."21\n".
+dongo($tangkap1)."22\n".
+dongo($tangkap1)."23\n".
+dongo($tangkap1)."24\n".
+dongo($tangkap1)."25\n".
+dongo($tangkap1)."26\n".
+dongo($tangkap1)."27\n".
+dongo($tangkap1)."28\n".
+dongo($tangkap1)."29\n".
+dongo($tangkap1)."211\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."233\n".
+dongo($tangkap1)."244\n".
+dongo($tangkap1)."255\n".
+dongo($tangkap1)."212\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."232\n".
+dongo($tangkap1)."242\n".
+dongo($tangkap1)."252\n".
+dongo($tangkap1)."112\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."332\n".
+dongo($tangkap1)."442\n".
+dongo($tangkap1)."552\n".
+dongo($tangkap1)."221\n".
+dongo($tangkap1)."222\n".
+dongo($tangkap1)."223\n".
+dongo($tangkap1)."224\n".
+dongo($tangkap1)."225\n".
+dongo($tangkap1)."452\n".
+dongo($tangkap1)."12\n".
+dongo($tangkap1)."21\n".
+dongo($tangkap1)."3\n".
+dongo($tangkap1)."33\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."3333\n".
+dongo($tangkap1)."33333\n".
+dongo($tangkap1)."31\n".
+dongo($tangkap1)."32\n".
+dongo($tangkap1)."33\n".
+dongo($tangkap1)."34\n".
+dongo($tangkap1)."35\n".
+dongo($tangkap1)."311\n".
+dongo($tangkap1)."322\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."344\n".
+dongo($tangkap1)."355\n".
+dongo($tangkap1)."313\n".
+dongo($tangkap1)."323\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."343\n".
+dongo($tangkap1)."353\n".
+dongo($tangkap1)."113\n".
+dongo($tangkap1)."223\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."443\n".
+dongo($tangkap1)."553\n".
+dongo($tangkap1)."331\n".
+dongo($tangkap1)."332\n".
+dongo($tangkap1)."333\n".
+dongo($tangkap1)."334\n".
+dongo($tangkap1)."335\n".
+dongo($tangkap1)."453\n".
+dongo($tangkap1)."123\n".
+dongo($tangkap1)."321\n".
+dongo($tangkap1)."4\n".
+dongo($tangkap1)."44\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."4444\n".
+dongo($tangkap1)."44444\n".
+dongo($tangkap1)."41\n".
+dongo($tangkap1)."42\n".
+dongo($tangkap1)."43\n".
+dongo($tangkap1)."44\n".
+dongo($tangkap1)."45\n".
+dongo($tangkap1)."411\n".
+dongo($tangkap1)."422\n".
+dongo($tangkap1)."433\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."455\n".
+dongo($tangkap1)."414\n".
+dongo($tangkap1)."424\n".
+dongo($tangkap1)."434\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."454\n".
+dongo($tangkap1)."114\n".
+dongo($tangkap1)."224\n".
+dongo($tangkap1)."334\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."441\n".
+dongo($tangkap1)."442\n".
+dongo($tangkap1)."443\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."445\n".
+dongo($tangkap1)."554\n".
+dongo($tangkap1)."444\n".
+dongo($tangkap1)."1234\n".
+dongo($tangkap1)."4321\n".
+dongo($tangkap1)."5\n".
+dongo($tangkap1)."55\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."5555\n".
+dongo($tangkap1)."55555\n".
+dongo($tangkap1)."51\n".
+dongo($tangkap1)."52\n".
+dongo($tangkap1)."53\n".
+dongo($tangkap1)."54\n".
+dongo($tangkap1)."55\n".
+dongo($tangkap1)."511\n".
+dongo($tangkap1)."522\n".
+dongo($tangkap1)."533\n".
+dongo($tangkap1)."544\n".
+dongo($tangkap1)."655\n".
+dongo($tangkap1)."515\n".
+dongo($tangkap1)."525\n".
+dongo($tangkap1)."535\n".
+dongo($tangkap1)."545\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."115\n".
+dongo($tangkap1)."225\n".
+dongo($tangkap1)."335\n".
+dongo($tangkap1)."445\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."551\n".
+dongo($tangkap1)."552\n".
+dongo($tangkap1)."553\n".
+dongo($tangkap1)."554\n".
+dongo($tangkap1)."555\n".
+dongo($tangkap1)."345\n".
+dongo($tangkap1)."12345\n".
+dongo($tangkap1)."54321\n".
+dongo($tangkap1)."6\n".
+dongo($tangkap1)."66\n".
+dongo($tangkap1)."666\n".
+dongo($tangkap1)."6666\n".
+dongo($tangkap1)."66666\n".
+dongo($tangkap1)."61\n".
+dongo($tangkap1)."62\n".
+dongo($tangkap1)."63\n".
+dongo($tangkap1)."64\n".
+dongo($tangkap1)."65\n".
+dongo($tangkap1)."611\n".
+dongo($tangkap1)."622\n".
+dongo($tangkap1)."633\n".
+dongo($tangkap1)."644\n".
+dongo($tangkap1)."655\n".
+dongo($tangkap1)."616\n".
+dongo($tangkap1)."626\n".
+dongo($tangkap1)."636\n".
+dongo($tangkap1)."646\n".
+dongo($tangkap1)."656\n".
+dongo($tangkap1)."116\n".
+dongo($tangkap1)."226\n".
+dongo($tangkap1)."336\n".
+dongo($tangkap1)."446\n".
+dongo($tangkap1)."556\n".
+dongo($tangkap1)."661\n".
+dongo($tangkap1)."662\n".
+dongo($tangkap1)."663\n".
+dongo($tangkap1)."664\n".
+dongo($tangkap1)."665\n".
+dongo($tangkap1)."456\n".
+dongo($tangkap1)."123456\n".
+dongo($tangkap1)."654321\n".
+dongo($tangkap1)."7\n".
+dongo($tangkap1)."77\n".
+dongo($tangkap1)."777\n".
+dongo($tangkap1)."7777\n".
+dongo($tangkap1)."77777\n".
+dongo($tangkap1)."71\n".
+dongo($tangkap1)."72\n".
+dongo($tangkap1)."73\n".
+dongo($tangkap1)."74\n".
+dongo($tangkap1)."75\n".
+dongo($tangkap1)."711\n".
+dongo($tangkap1)."722\n".
+dongo($tangkap1)."733\n".
+dongo($tangkap1)."744\n".
+dongo($tangkap1)."755\n".
+dongo($tangkap1)."717\n".
+dongo($tangkap1)."727\n".
+dongo($tangkap1)."737\n".
+dongo($tangkap1)."747\n".
+dongo($tangkap1)."757\n".
+dongo($tangkap1)."117\n".
+dongo($tangkap1)."227\n".
+dongo($tangkap1)."337\n".
+dongo($tangkap1)."447\n".
+dongo($tangkap1)."557\n".
+dongo($tangkap1)."771\n".
+dongo($tangkap1)."772\n".
+dongo($tangkap1)."773\n".
+dongo($tangkap1)."774\n".
+dongo($tangkap1)."775\n".
+dongo($tangkap1)."457\n".
+dongo($tangkap1)."1234567\n".
+dongo($tangkap1)."7654321\n".
+dongo($tangkap1)."8\n".
+dongo($tangkap1)."88\n".
+dongo($tangkap1)."888\n".
+dongo($tangkap1)."8888\n".
+dongo($tangkap1)."88888\n".
+dongo($tangkap1)."81\n".
+dongo($tangkap1)."82\n".
+dongo($tangkap1)."83\n".
+dongo($tangkap1)."84\n".
+dongo($tangkap1)."85\n".
+dongo($tangkap1)."811\n".
+dongo($tangkap1)."822\n".
+dongo($tangkap1)."833\n".
+dongo($tangkap1)."844\n".
+dongo($tangkap1)."855\n".
+dongo($tangkap1)."818\n".
+dongo($tangkap1)."828\n".
+dongo($tangkap1)."838\n".
+dongo($tangkap1)."848\n".
+dongo($tangkap1)."858\n".
+dongo($tangkap1)."118\n".
+dongo($tangkap1)."228\n".
+dongo($tangkap1)."338\n".
+dongo($tangkap1)."448\n".
+dongo($tangkap1)."558\n".
+dongo($tangkap1)."881\n".
+dongo($tangkap1)."882\n".
+dongo($tangkap1)."883\n".
+dongo($tangkap1)."884\n".
+dongo($tangkap1)."885\n".
+dongo($tangkap1)."458\n".
+dongo($tangkap1)."12345678\n".
+dongo($tangkap1)."87654321\n".
+dongo($tangkap1)."9\n".
+dongo($tangkap1)."99\n".
+dongo($tangkap1)."999\n".
+dongo($tangkap1)."9999\n".
+dongo($tangkap1)."99999\n".
+dongo($tangkap1)."91\n".
+dongo($tangkap1)."92\n".
+dongo($tangkap1)."93\n".
+dongo($tangkap1)."94\n".
+dongo($tangkap1)."95\n".
+dongo($tangkap1)."911\n".
+dongo($tangkap1)."922\n".
+dongo($tangkap1)."933\n".
+dongo($tangkap1)."944\n".
+dongo($tangkap1)."955\n".
+dongo($tangkap1)."919\n".
+dongo($tangkap1)."929\n".
+dongo($tangkap1)."939\n".
+dongo($tangkap1)."949\n".
+dongo($tangkap1)."959\n".
+dongo($tangkap1)."119\n".
+dongo($tangkap1)."229\n".
+dongo($tangkap1)."339\n".
+dongo($tangkap1)."449\n".
+dongo($tangkap1)."559\n".
+dongo($tangkap1)."991\n".
+dongo($tangkap1)."992\n".
+dongo($tangkap1)."993\n".
+dongo($tangkap1)."994\n".
+dongo($tangkap1)."995\n".
+dongo($tangkap1)."459\n".
+dongo($tangkap1)."12345678\n".
+dongo($tangkap1)."987654321\n".
+dongo($tangkap1)."0\n".
+dongo($tangkap1)."00\n".
+dongo($tangkap1)."000\n".
+dongo($tangkap1)."0000\n".
+dongo($tangkap1)."00000\n".
+dongo($tangkap1)."01\n".
+dongo($tangkap1)."02\n".
+dongo($tangkap1)."03\n".
+dongo($tangkap1)."04\n".
+dongo($tangkap1)."05\n".
+dongo($tangkap1)."011\n".
+dongo($tangkap1)."022\n".
+dongo($tangkap1)."033\n".
+dongo($tangkap1)."044\n".
+dongo($tangkap1)."055\n".
+dongo($tangkap1)."010\n".
+dongo($tangkap1)."020\n".
+dongo($tangkap1)."030\n".
+dongo($tangkap1)."040\n".
+dongo($tangkap1)."050\n".
+dongo($tangkap1)."110\n".
+dongo($tangkap1)."220\n".
+dongo($tangkap1)."330\n".
+dongo($tangkap1)."440\n".
+dongo($tangkap1)."550\n".
+dongo($tangkap1)."001\n".
+dongo($tangkap1)."002\n".
+dongo($tangkap1)."003\n".
+dongo($tangkap1)."004\n".
+dongo($tangkap1)."005\n".
+dongo($tangkap1)."450\n".
+dongo($tangkap1)."1234567890\n".
+dongo($tangkap2)."1\n".
+dongo($tangkap2)."11\n".
+dongo($tangkap2)."111\n".
+dongo($tangkap2)."1111\n".
+dongo($tangkap2)."11111\n".
+dongo($tangkap2)."2\n".
+dongo($tangkap2)."22\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."2222\n".
+dongo($tangkap2)."22222\n".
+dongo($tangkap2)."21\n".
+dongo($tangkap2)."22\n".
+dongo($tangkap2)."23\n".
+dongo($tangkap2)."24\n".
+dongo($tangkap2)."25\n".
+dongo($tangkap2)."26\n".
+dongo($tangkap2)."27\n".
+dongo($tangkap2)."28\n".
+dongo($tangkap2)."29\n".
+dongo($tangkap2)."211\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."233\n".
+dongo($tangkap2)."244\n".
+dongo($tangkap2)."255\n".
+dongo($tangkap2)."212\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."232\n".
+dongo($tangkap2)."242\n".
+dongo($tangkap2)."252\n".
+dongo($tangkap2)."112\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."332\n".
+dongo($tangkap2)."442\n".
+dongo($tangkap2)."552\n".
+dongo($tangkap2)."221\n".
+dongo($tangkap2)."222\n".
+dongo($tangkap2)."223\n".
+dongo($tangkap2)."224\n".
+dongo($tangkap2)."225\n".
+dongo($tangkap2)."452\n".
+dongo($tangkap2)."12\n".
+dongo($tangkap2)."21\n".
+dongo($tangkap2)."3\n".
+dongo($tangkap2)."33\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."3333\n".
+dongo($tangkap2)."33333\n".
+dongo($tangkap2)."31\n".
+dongo($tangkap2)."32\n".
+dongo($tangkap2)."33\n".
+dongo($tangkap2)."34\n".
+dongo($tangkap2)."35\n".
+dongo($tangkap2)."311\n".
+dongo($tangkap2)."322\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."344\n".
+dongo($tangkap2)."355\n".
+dongo($tangkap2)."313\n".
+dongo($tangkap2)."323\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."343\n".
+dongo($tangkap2)."353\n".
+dongo($tangkap2)."113\n".
+dongo($tangkap2)."223\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."443\n".
+dongo($tangkap2)."553\n".
+dongo($tangkap2)."331\n".
+dongo($tangkap2)."332\n".
+dongo($tangkap2)."333\n".
+dongo($tangkap2)."334\n".
+dongo($tangkap2)."335\n".
+dongo($tangkap2)."453\n".
+dongo($tangkap2)."123\n".
+dongo($tangkap2)."321\n".
+dongo($tangkap2)."4\n".
+dongo($tangkap2)."44\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."4444\n".
+dongo($tangkap2)."44444\n".
+dongo($tangkap2)."41\n".
+dongo($tangkap2)."42\n".
+dongo($tangkap2)."43\n".
+dongo($tangkap2)."44\n".
+dongo($tangkap2)."45\n".
+dongo($tangkap2)."411\n".
+dongo($tangkap2)."422\n".
+dongo($tangkap2)."433\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."455\n".
+dongo($tangkap2)."414\n".
+dongo($tangkap2)."424\n".
+dongo($tangkap2)."434\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."454\n".
+dongo($tangkap2)."114\n".
+dongo($tangkap2)."224\n".
+dongo($tangkap2)."334\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."441\n".
+dongo($tangkap2)."442\n".
+dongo($tangkap2)."443\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."445\n".
+dongo($tangkap2)."554\n".
+dongo($tangkap2)."444\n".
+dongo($tangkap2)."1234\n".
+dongo($tangkap2)."4321\n".
+dongo($tangkap2)."5\n".
+dongo($tangkap2)."55\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."5555\n".
+dongo($tangkap2)."55555\n".
+dongo($tangkap2)."51\n".
+dongo($tangkap2)."52\n".
+dongo($tangkap2)."53\n".
+dongo($tangkap2)."54\n".
+dongo($tangkap2)."55\n".
+dongo($tangkap2)."511\n".
+dongo($tangkap2)."522\n".
+dongo($tangkap2)."533\n".
+dongo($tangkap2)."544\n".
+dongo($tangkap2)."655\n".
+dongo($tangkap2)."515\n".
+dongo($tangkap2)."525\n".
+dongo($tangkap2)."535\n".
+dongo($tangkap2)."545\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."115\n".
+dongo($tangkap2)."225\n".
+dongo($tangkap2)."335\n".
+dongo($tangkap2)."445\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."551\n".
+dongo($tangkap2)."552\n".
+dongo($tangkap2)."553\n".
+dongo($tangkap2)."554\n".
+dongo($tangkap2)."555\n".
+dongo($tangkap2)."345\n".
+dongo($tangkap2)."12345\n".
+dongo($tangkap2)."54321\n".
+dongo($tangkap2)."6\n".
+dongo($tangkap2)."66\n".
+dongo($tangkap2)."666\n".
+dongo($tangkap2)."6666\n".
+dongo($tangkap2)."66666\n".
+dongo($tangkap2)."61\n".
+dongo($tangkap2)."62\n".
+dongo($tangkap2)."63\n".
+dongo($tangkap2)."64\n".
+dongo($tangkap2)."65\n".
+dongo($tangkap2)."611\n".
+dongo($tangkap2)."622\n".
+dongo($tangkap2)."633\n".
+dongo($tangkap2)."644\n".
+dongo($tangkap2)."655\n".
+dongo($tangkap2)."616\n".
+dongo($tangkap2)."626\n".
+dongo($tangkap2)."636\n".
+dongo($tangkap2)."646\n".
+dongo($tangkap2)."656\n".
+dongo($tangkap2)."116\n".
+dongo($tangkap2)."226\n".
+dongo($tangkap2)."336\n".
+dongo($tangkap2)."446\n".
+dongo($tangkap2)."556\n".
+dongo($tangkap2)."661\n".
+dongo($tangkap2)."662\n".
+dongo($tangkap2)."663\n".
+dongo($tangkap2)."664\n".
+dongo($tangkap2)."665\n".
+dongo($tangkap2)."456\n".
+dongo($tangkap2)."123456\n".
+dongo($tangkap2)."654321\n".
+dongo($tangkap2)."7\n".
+dongo($tangkap2)."77\n".
+dongo($tangkap2)."777\n".
+dongo($tangkap2)."7777\n".
+dongo($tangkap2)."77777\n".
+dongo($tangkap2)."71\n".
+dongo($tangkap2)."72\n".
+dongo($tangkap2)."73\n".
+dongo($tangkap2)."74\n".
+dongo($tangkap2)."75\n".
+dongo($tangkap2)."711\n".
+dongo($tangkap2)."722\n".
+dongo($tangkap2)."733\n".
+dongo($tangkap2)."744\n".
+dongo($tangkap2)."755\n".
+dongo($tangkap2)."717\n".
+dongo($tangkap2)."727\n".
+dongo($tangkap2)."737\n".
+dongo($tangkap2)."747\n".
+dongo($tangkap2)."757\n".
+dongo($tangkap2)."117\n".
+dongo($tangkap2)."227\n".
+dongo($tangkap2)."337\n".
+dongo($tangkap2)."447\n".
+dongo($tangkap2)."557\n".
+dongo($tangkap2)."771\n".
+dongo($tangkap2)."772\n".
+dongo($tangkap2)."773\n".
+dongo($tangkap2)."774\n".
+dongo($tangkap2)."775\n".
+dongo($tangkap2)."457\n".
+dongo($tangkap2)."1234567\n".
+dongo($tangkap2)."7654321\n".
+dongo($tangkap2)."8\n".
+dongo($tangkap2)."88\n".
+dongo($tangkap2)."888\n".
+dongo($tangkap2)."8888\n".
+dongo($tangkap2)."88888\n".
+dongo($tangkap2)."81\n".
+dongo($tangkap2)."82\n".
+dongo($tangkap2)."83\n".
+dongo($tangkap2)."84\n".
+dongo($tangkap2)."85\n".
+dongo($tangkap2)."811\n".
+dongo($tangkap2)."822\n".
+dongo($tangkap2)."833\n".
+dongo($tangkap2)."844\n".
+dongo($tangkap2)."855\n".
+dongo($tangkap2)."818\n".
+dongo($tangkap2)."828\n".
+dongo($tangkap2)."838\n".
+dongo($tangkap2)."848\n".
+dongo($tangkap2)."858\n".
+dongo($tangkap2)."118\n".
+dongo($tangkap2)."228\n".
+dongo($tangkap2)."338\n".
+dongo($tangkap2)."448\n".
+dongo($tangkap2)."558\n".
+dongo($tangkap2)."881\n".
+dongo($tangkap2)."882\n".
+dongo($tangkap2)."883\n".
+dongo($tangkap2)."884\n".
+dongo($tangkap2)."885\n".
+dongo($tangkap2)."458\n".
+dongo($tangkap2)."12345678\n".
+dongo($tangkap2)."87654321\n".
+dongo($tangkap2)."9\n".
+dongo($tangkap2)."99\n".
+dongo($tangkap2)."999\n".
+dongo($tangkap2)."9999\n".
+dongo($tangkap2)."99999\n".
+dongo($tangkap2)."91\n".
+dongo($tangkap2)."92\n".
+dongo($tangkap2)."93\n".
+dongo($tangkap2)."94\n".
+dongo($tangkap2)."95\n".
+dongo($tangkap2)."911\n".
+dongo($tangkap2)."922\n".
+dongo($tangkap2)."933\n".
+dongo($tangkap2)."944\n".
+dongo($tangkap2)."955\n".
+dongo($tangkap2)."919\n".
+dongo($tangkap2)."929\n".
+dongo($tangkap2)."939\n".
+dongo($tangkap2)."949\n".
+dongo($tangkap2)."959\n".
+dongo($tangkap2)."119\n".
+dongo($tangkap2)."229\n".
+dongo($tangkap2)."339\n".
+dongo($tangkap2)."449\n".
+dongo($tangkap2)."559\n".
+dongo($tangkap2)."991\n".
+dongo($tangkap2)."992\n".
+dongo($tangkap2)."993\n".
+dongo($tangkap2)."994\n".
+dongo($tangkap2)."995\n".
+dongo($tangkap2)."459\n".
+dongo($tangkap2)."12345678\n".
+dongo($tangkap2)."987654321\n".
+dongo($tangkap2)."0\n".
+dongo($tangkap2)."00\n".
+dongo($tangkap2)."000\n".
+dongo($tangkap2)."0000\n".
+dongo($tangkap2)."00000\n".
+dongo($tangkap2)."01\n".
+dongo($tangkap2)."02\n".
+dongo($tangkap2)."03\n".
+dongo($tangkap2)."04\n".
+dongo($tangkap2)."05\n".
+dongo($tangkap2)."011\n".
+dongo($tangkap2)."022\n".
+dongo($tangkap2)."033\n".
+dongo($tangkap2)."044\n".
+dongo($tangkap2)."055\n".
+dongo($tangkap2)."010\n".
+dongo($tangkap2)."020\n".
+dongo($tangkap2)."030\n".
+dongo($tangkap2)."040\n".
+dongo($tangkap2)."050\n".
+dongo($tangkap2)."110\n".
+dongo($tangkap2)."220\n".
+dongo($tangkap2)."330\n".
+dongo($tangkap2)."440\n".
+dongo($tangkap2)."550\n".
+dongo($tangkap2)."001\n".
+dongo($tangkap2)."002\n".
+dongo($tangkap2)."003\n".
+dongo($tangkap2)."004\n".
+dongo($tangkap2)."005\n".
+dongo($tangkap2)."450\n".
+dongo($tangkap2)."12345678\n".
+dongo($tangkap3)."1\n".
+dongo($tangkap3)."11\n".
+dongo($tangkap3)."111\n".
+dongo($tangkap3)."1111\n".
+dongo($tangkap3)."11111\n".
+dongo($tangkap3)."2\n".
+dongo($tangkap3)."22\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."2222\n".
+dongo($tangkap3)."22222\n".
+dongo($tangkap3)."21\n".
+dongo($tangkap3)."22\n".
+dongo($tangkap3)."23\n".
+dongo($tangkap3)."24\n".
+dongo($tangkap3)."25\n".
+dongo($tangkap3)."26\n".
+dongo($tangkap3)."27\n".
+dongo($tangkap3)."28\n".
+dongo($tangkap3)."29\n".
+dongo($tangkap3)."211\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."233\n".
+dongo($tangkap3)."244\n".
+dongo($tangkap3)."255\n".
+dongo($tangkap3)."212\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."232\n".
+dongo($tangkap3)."242\n".
+dongo($tangkap3)."252\n".
+dongo($tangkap3)."112\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."332\n".
+dongo($tangkap3)."442\n".
+dongo($tangkap3)."552\n".
+dongo($tangkap3)."221\n".
+dongo($tangkap3)."222\n".
+dongo($tangkap3)."223\n".
+dongo($tangkap3)."224\n".
+dongo($tangkap3)."225\n".
+dongo($tangkap3)."452\n".
+dongo($tangkap3)."12\n".
+dongo($tangkap3)."21\n".
+dongo($tangkap3)."3\n".
+dongo($tangkap3)."33\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."3333\n".
+dongo($tangkap3)."33333\n".
+dongo($tangkap3)."31\n".
+dongo($tangkap3)."32\n".
+dongo($tangkap3)."33\n".
+dongo($tangkap3)."34\n".
+dongo($tangkap3)."35\n".
+dongo($tangkap3)."311\n".
+dongo($tangkap3)."322\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."344\n".
+dongo($tangkap3)."355\n".
+dongo($tangkap3)."313\n".
+dongo($tangkap3)."323\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."343\n".
+dongo($tangkap3)."353\n".
+dongo($tangkap3)."113\n".
+dongo($tangkap3)."223\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."443\n".
+dongo($tangkap3)."553\n".
+dongo($tangkap3)."331\n".
+dongo($tangkap3)."332\n".
+dongo($tangkap3)."333\n".
+dongo($tangkap3)."334\n".
+dongo($tangkap3)."335\n".
+dongo($tangkap3)."453\n".
+dongo($tangkap3)."123\n".
+dongo($tangkap3)."321\n".
+dongo($tangkap3)."4\n".
+dongo($tangkap3)."44\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."4444\n".
+dongo($tangkap3)."44444\n".
+dongo($tangkap3)."41\n".
+dongo($tangkap3)."42\n".
+dongo($tangkap3)."43\n".
+dongo($tangkap3)."44\n".
+dongo($tangkap3)."45\n".
+dongo($tangkap3)."411\n".
+dongo($tangkap3)."422\n".
+dongo($tangkap3)."433\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."455\n".
+dongo($tangkap3)."414\n".
+dongo($tangkap3)."424\n".
+dongo($tangkap3)."434\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."454\n".
+dongo($tangkap3)."114\n".
+dongo($tangkap3)."224\n".
+dongo($tangkap3)."334\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."441\n".
+dongo($tangkap3)."442\n".
+dongo($tangkap3)."443\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."445\n".
+dongo($tangkap3)."554\n".
+dongo($tangkap3)."444\n".
+dongo($tangkap3)."1234\n".
+dongo($tangkap3)."4321\n".
+dongo($tangkap3)."5\n".
+dongo($tangkap3)."55\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."5555\n".
+dongo($tangkap3)."55555\n".
+dongo($tangkap3)."51\n".
+dongo($tangkap3)."52\n".
+dongo($tangkap3)."53\n".
+dongo($tangkap3)."54\n".
+dongo($tangkap3)."55\n".
+dongo($tangkap3)."511\n".
+dongo($tangkap3)."522\n".
+dongo($tangkap3)."533\n".
+dongo($tangkap3)."544\n".
+dongo($tangkap3)."655\n".
+dongo($tangkap3)."515\n".
+dongo($tangkap3)."525\n".
+dongo($tangkap3)."535\n".
+dongo($tangkap3)."545\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."115\n".
+dongo($tangkap3)."225\n".
+dongo($tangkap3)."335\n".
+dongo($tangkap3)."445\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."551\n".
+dongo($tangkap3)."552\n".
+dongo($tangkap3)."553\n".
+dongo($tangkap3)."554\n".
+dongo($tangkap3)."555\n".
+dongo($tangkap3)."345\n".
+dongo($tangkap3)."12345\n".
+dongo($tangkap3)."54321\n".
+dongo($tangkap3)."6\n".
+dongo($tangkap3)."66\n".
+dongo($tangkap3)."666\n".
+dongo($tangkap3)."6666\n".
+dongo($tangkap3)."66666\n".
+dongo($tangkap3)."61\n".
+dongo($tangkap3)."62\n".
+dongo($tangkap3)."63\n".
+dongo($tangkap3)."64\n".
+dongo($tangkap3)."65\n".
+dongo($tangkap3)."611\n".
+dongo($tangkap3)."622\n".
+dongo($tangkap3)."633\n".
+dongo($tangkap3)."644\n".
+dongo($tangkap3)."655\n".
+dongo($tangkap3)."616\n".
+dongo($tangkap3)."626\n".
+dongo($tangkap3)."636\n".
+dongo($tangkap3)."646\n".
+dongo($tangkap3)."656\n".
+dongo($tangkap3)."116\n".
+dongo($tangkap3)."226\n".
+dongo($tangkap3)."336\n".
+dongo($tangkap3)."446\n".
+dongo($tangkap3)."556\n".
+dongo($tangkap3)."661\n".
+dongo($tangkap3)."662\n".
+dongo($tangkap3)."663\n".
+dongo($tangkap3)."664\n".
+dongo($tangkap3)."665\n".
+dongo($tangkap3)."456\n".
+dongo($tangkap3)."123456\n".
+dongo($tangkap3)."654321\n".
+dongo($tangkap3)."7\n".
+dongo($tangkap3)."77\n".
+dongo($tangkap3)."777\n".
+dongo($tangkap3)."7777\n".
+dongo($tangkap3)."77777\n".
+dongo($tangkap3)."71\n".
+dongo($tangkap3)."72\n".
+dongo($tangkap3)."73\n".
+dongo($tangkap3)."74\n".
+dongo($tangkap3)."75\n".
+dongo($tangkap3)."711\n".
+dongo($tangkap3)."722\n".
+dongo($tangkap3)."733\n".
+dongo($tangkap3)."744\n".
+dongo($tangkap3)."755\n".
+dongo($tangkap3)."717\n".
+dongo($tangkap3)."727\n".
+dongo($tangkap3)."737\n".
+dongo($tangkap3)."747\n".
+dongo($tangkap3)."757\n".
+dongo($tangkap3)."117\n".
+dongo($tangkap3)."227\n".
+dongo($tangkap3)."337\n".
+dongo($tangkap3)."447\n".
+dongo($tangkap3)."557\n".
+dongo($tangkap3)."771\n".
+dongo($tangkap3)."772\n".
+dongo($tangkap3)."773\n".
+dongo($tangkap3)."774\n".
+dongo($tangkap3)."775\n".
+dongo($tangkap3)."457\n".
+dongo($tangkap3)."1234567\n".
+dongo($tangkap3)."7654321\n".
+dongo($tangkap3)."8\n".
+dongo($tangkap3)."88\n".
+dongo($tangkap3)."888\n".
+dongo($tangkap3)."8888\n".
+dongo($tangkap3)."88888\n".
+dongo($tangkap3)."81\n".
+dongo($tangkap3)."82\n".
+dongo($tangkap3)."83\n".
+dongo($tangkap3)."84\n".
+dongo($tangkap3)."85\n".
+dongo($tangkap3)."811\n".
+dongo($tangkap3)."822\n".
+dongo($tangkap3)."833\n".
+dongo($tangkap3)."844\n".
+dongo($tangkap3)."855\n".
+dongo($tangkap3)."818\n".
+dongo($tangkap3)."828\n".
+dongo($tangkap3)."838\n".
+dongo($tangkap3)."848\n".
+dongo($tangkap3)."858\n".
+dongo($tangkap3)."118\n".
+dongo($tangkap3)."228\n".
+dongo($tangkap3)."338\n".
+dongo($tangkap3)."448\n".
+dongo($tangkap3)."558\n".
+dongo($tangkap3)."881\n".
+dongo($tangkap3)."882\n".
+dongo($tangkap3)."883\n".
+dongo($tangkap3)."884\n".
+dongo($tangkap3)."885\n".
+dongo($tangkap3)."458\n".
+dongo($tangkap3)."12345678\n".
+dongo($tangkap3)."87654321\n".
+dongo($tangkap3)."9\n".
+dongo($tangkap3)."99\n".
+dongo($tangkap3)."999\n".
+dongo($tangkap3)."9999\n".
+dongo($tangkap3)."99999\n".
+dongo($tangkap3)."91\n".
+dongo($tangkap3)."92\n".
+dongo($tangkap3)."93\n".
+dongo($tangkap3)."94\n".
+dongo($tangkap3)."95\n".
+dongo($tangkap3)."911\n".
+dongo($tangkap3)."922\n".
+dongo($tangkap3)."933\n".
+dongo($tangkap3)."944\n".
+dongo($tangkap3)."955\n".
+dongo($tangkap3)."919\n".
+dongo($tangkap3)."929\n".
+dongo($tangkap3)."939\n".
+dongo($tangkap3)."949\n".
+dongo($tangkap3)."959\n".
+dongo($tangkap3)."119\n".
+dongo($tangkap3)."229\n".
+dongo($tangkap3)."339\n".
+dongo($tangkap3)."449\n".
+dongo($tangkap3)."559\n".
+dongo($tangkap3)."991\n".
+dongo($tangkap3)."992\n".
+dongo($tangkap3)."993\n".
+dongo($tangkap3)."994\n".
+dongo($tangkap3)."995\n".
+dongo($tangkap3)."459\n".
+dongo($tangkap3)."12345678\n".
+dongo($tangkap3)."987654321\n".
+dongo($tangkap3)."0\n".
+dongo($tangkap3)."00\n".
+dongo($tangkap3)."000\n".
+dongo($tangkap3)."0000\n".
+dongo($tangkap3)."00000\n".
+dongo($tangkap3)."01\n".
+dongo($tangkap3)."02\n".
+dongo($tangkap3)."03\n".
+dongo($tangkap3)."04\n".
+dongo($tangkap3)."05\n".
+dongo($tangkap3)."011\n".
+dongo($tangkap3)."022\n".
+dongo($tangkap3)."033\n".
+dongo($tangkap3)."044\n".
+dongo($tangkap3)."055\n".
+dongo($tangkap3)."010\n".
+dongo($tangkap3)."020\n".
+dongo($tangkap3)."030\n".
+dongo($tangkap3)."040\n".
+dongo($tangkap3)."050\n".
+dongo($tangkap3)."110\n".
+dongo($tangkap3)."220\n".
+dongo($tangkap3)."330\n".
+dongo($tangkap3)."440\n".
+dongo($tangkap3)."550\n".
+dongo($tangkap3)."001\n".
+dongo($tangkap3)."002\n".
+dongo($tangkap3)."003\n".
+dongo($tangkap3)."004\n".
+dongo($tangkap3)."005\n".
+dongo($tangkap3)."450\n".
+dongo($tangkap3)."1234567890\n".
+dongo($tangkap13)."1\n".
+dongo($tangkap13)."11\n".
+dongo($tangkap13)."111\n".
+dongo($tangkap13)."1111\n".
+dongo($tangkap13)."11111\n".
+dongo($tangkap13)."2\n".
+dongo($tangkap13)."22\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."2222\n".
+dongo($tangkap13)."22222\n".
+dongo($tangkap13)."21\n".
+dongo($tangkap13)."22\n".
+dongo($tangkap13)."23\n".
+dongo($tangkap13)."24\n".
+dongo($tangkap13)."25\n".
+dongo($tangkap13)."26\n".
+dongo($tangkap13)."27\n".
+dongo($tangkap13)."28\n".
+dongo($tangkap13)."29\n".
+dongo($tangkap13)."211\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."233\n".
+dongo($tangkap13)."244\n".
+dongo($tangkap13)."255\n".
+dongo($tangkap13)."212\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."232\n".
+dongo($tangkap13)."242\n".
+dongo($tangkap13)."252\n".
+dongo($tangkap13)."112\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."332\n".
+dongo($tangkap13)."442\n".
+dongo($tangkap13)."552\n".
+dongo($tangkap13)."221\n".
+dongo($tangkap13)."222\n".
+dongo($tangkap13)."223\n".
+dongo($tangkap13)."224\n".
+dongo($tangkap13)."225\n".
+dongo($tangkap13)."452\n".
+dongo($tangkap13)."12\n".
+dongo($tangkap13)."21\n".
+dongo($tangkap13)."3\n".
+dongo($tangkap13)."33\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."3333\n".
+dongo($tangkap13)."33333\n".
+dongo($tangkap13)."31\n".
+dongo($tangkap13)."32\n".
+dongo($tangkap13)."33\n".
+dongo($tangkap13)."34\n".
+dongo($tangkap13)."35\n".
+dongo($tangkap13)."311\n".
+dongo($tangkap13)."322\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."344\n".
+dongo($tangkap13)."355\n".
+dongo($tangkap13)."313\n".
+dongo($tangkap13)."323\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."343\n".
+dongo($tangkap13)."353\n".
+dongo($tangkap13)."113\n".
+dongo($tangkap13)."223\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."443\n".
+dongo($tangkap13)."553\n".
+dongo($tangkap13)."331\n".
+dongo($tangkap13)."332\n".
+dongo($tangkap13)."333\n".
+dongo($tangkap13)."334\n".
+dongo($tangkap13)."335\n".
+dongo($tangkap13)."453\n".
+dongo($tangkap13)."123\n".
+dongo($tangkap13)."321\n".
+dongo($tangkap13)."4\n".
+dongo($tangkap13)."44\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."4444\n".
+dongo($tangkap13)."44444\n".
+dongo($tangkap13)."41\n".
+dongo($tangkap13)."42\n".
+dongo($tangkap13)."43\n".
+dongo($tangkap13)."44\n".
+dongo($tangkap13)."45\n".
+dongo($tangkap13)."411\n".
+dongo($tangkap13)."422\n".
+dongo($tangkap13)."433\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."455\n".
+dongo($tangkap13)."414\n".
+dongo($tangkap13)."424\n".
+dongo($tangkap13)."434\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."454\n".
+dongo($tangkap13)."114\n".
+dongo($tangkap13)."224\n".
+dongo($tangkap13)."334\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."441\n".
+dongo($tangkap13)."442\n".
+dongo($tangkap13)."443\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."445\n".
+dongo($tangkap13)."554\n".
+dongo($tangkap13)."444\n".
+dongo($tangkap13)."1234\n".
+dongo($tangkap13)."4321\n".
+dongo($tangkap13)."5\n".
+dongo($tangkap13)."55\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."5555\n".
+dongo($tangkap13)."55555\n".
+dongo($tangkap13)."51\n".
+dongo($tangkap13)."52\n".
+dongo($tangkap13)."53\n".
+dongo($tangkap13)."54\n".
+dongo($tangkap13)."55\n".
+dongo($tangkap13)."511\n".
+dongo($tangkap13)."522\n".
+dongo($tangkap13)."533\n".
+dongo($tangkap13)."544\n".
+dongo($tangkap13)."655\n".
+dongo($tangkap13)."515\n".
+dongo($tangkap13)."525\n".
+dongo($tangkap13)."535\n".
+dongo($tangkap13)."545\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."115\n".
+dongo($tangkap13)."225\n".
+dongo($tangkap13)."335\n".
+dongo($tangkap13)."445\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."551\n".
+dongo($tangkap13)."552\n".
+dongo($tangkap13)."553\n".
+dongo($tangkap13)."554\n".
+dongo($tangkap13)."555\n".
+dongo($tangkap13)."345\n".
+dongo($tangkap13)."12345\n".
+dongo($tangkap13)."54321\n".
+dongo($tangkap13)."6\n".
+dongo($tangkap13)."66\n".
+dongo($tangkap13)."666\n".
+dongo($tangkap13)."6666\n".
+dongo($tangkap13)."66666\n".
+dongo($tangkap13)."61\n".
+dongo($tangkap13)."62\n".
+dongo($tangkap13)."63\n".
+dongo($tangkap13)."64\n".
+dongo($tangkap13)."65\n".
+dongo($tangkap13)."611\n".
+dongo($tangkap13)."622\n".
+dongo($tangkap13)."633\n".
+dongo($tangkap13)."644\n".
+dongo($tangkap13)."655\n".
+dongo($tangkap13)."616\n".
+dongo($tangkap13)."626\n".
+dongo($tangkap13)."636\n".
+dongo($tangkap13)."646\n".
+dongo($tangkap13)."656\n".
+dongo($tangkap13)."116\n".
+dongo($tangkap13)."226\n".
+dongo($tangkap13)."336\n".
+dongo($tangkap13)."446\n".
+dongo($tangkap13)."556\n".
+dongo($tangkap13)."661\n".
+dongo($tangkap13)."662\n".
+dongo($tangkap13)."663\n".
+dongo($tangkap13)."664\n".
+dongo($tangkap13)."665\n".
+dongo($tangkap13)."456\n".
+dongo($tangkap13)."123456\n".
+dongo($tangkap13)."654321\n".
+dongo($tangkap13)."7\n".
+dongo($tangkap13)."77\n".
+dongo($tangkap13)."777\n".
+dongo($tangkap13)."7777\n".
+dongo($tangkap13)."77777\n".
+dongo($tangkap13)."71\n".
+dongo($tangkap13)."72\n".
+dongo($tangkap13)."73\n".
+dongo($tangkap13)."74\n".
+dongo($tangkap13)."75\n".
+dongo($tangkap13)."711\n".
+dongo($tangkap13)."722\n".
+dongo($tangkap13)."733\n".
+dongo($tangkap13)."744\n".
+dongo($tangkap13)."755\n".
+dongo($tangkap13)."717\n".
+dongo($tangkap13)."727\n".
+dongo($tangkap13)."737\n".
+dongo($tangkap13)."747\n".
+dongo($tangkap13)."757\n".
+dongo($tangkap13)."117\n".
+dongo($tangkap13)."227\n".
+dongo($tangkap13)."337\n".
+dongo($tangkap13)."447\n".
+dongo($tangkap13)."557\n".
+dongo($tangkap13)."771\n".
+dongo($tangkap13)."772\n".
+dongo($tangkap13)."773\n".
+dongo($tangkap13)."774\n".
+dongo($tangkap13)."775\n".
+dongo($tangkap13)."457\n".
+dongo($tangkap13)."1234567\n".
+dongo($tangkap13)."7654321\n".
+dongo($tangkap13)."8\n".
+dongo($tangkap13)."88\n".
+dongo($tangkap13)."888\n".
+dongo($tangkap13)."8888\n".
+dongo($tangkap13)."88888\n".
+dongo($tangkap13)."81\n".
+dongo($tangkap13)."82\n".
+dongo($tangkap13)."83\n".
+dongo($tangkap13)."84\n".
+dongo($tangkap13)."85\n".
+dongo($tangkap13)."811\n".
+dongo($tangkap13)."822\n".
+dongo($tangkap13)."833\n".
+dongo($tangkap13)."844\n".
+dongo($tangkap13)."855\n".
+dongo($tangkap13)."818\n".
+dongo($tangkap13)."828\n".
+dongo($tangkap13)."838\n".
+dongo($tangkap13)."848\n".
+dongo($tangkap13)."858\n".
+dongo($tangkap13)."118\n".
+dongo($tangkap13)."228\n".
+dongo($tangkap13)."338\n".
+dongo($tangkap13)."448\n".
+dongo($tangkap13)."558\n".
+dongo($tangkap13)."881\n".
+dongo($tangkap13)."882\n".
+dongo($tangkap13)."883\n".
+dongo($tangkap13)."884\n".
+dongo($tangkap13)."885\n".
+dongo($tangkap13)."458\n".
+dongo($tangkap13)."12345678\n".
+dongo($tangkap13)."87654321\n".
+dongo($tangkap13)."9\n".
+dongo($tangkap13)."99\n".
+dongo($tangkap13)."999\n".
+dongo($tangkap13)."9999\n".
+dongo($tangkap13)."99999\n".
+dongo($tangkap13)."91\n".
+dongo($tangkap13)."92\n".
+dongo($tangkap13)."93\n".
+dongo($tangkap13)."94\n".
+dongo($tangkap13)."95\n".
+dongo($tangkap13)."911\n".
+dongo($tangkap13)."922\n".
+dongo($tangkap13)."933\n".
+dongo($tangkap13)."944\n".
+dongo($tangkap13)."955\n".
+dongo($tangkap13)."919\n".
+dongo($tangkap13)."929\n".
+dongo($tangkap13)."939\n".
+dongo($tangkap13)."949\n".
+dongo($tangkap13)."959\n".
+dongo($tangkap13)."119\n".
+dongo($tangkap13)."229\n".
+dongo($tangkap13)."339\n".
+dongo($tangkap13)."449\n".
+dongo($tangkap13)."559\n".
+dongo($tangkap13)."991\n".
+dongo($tangkap13)."992\n".
+dongo($tangkap13)."993\n".
+dongo($tangkap13)."994\n".
+dongo($tangkap13)."995\n".
+dongo($tangkap13)."459\n".
+dongo($tangkap13)."12345678\n".
+dongo($tangkap13)."987654321\n".
+dongo($tangkap13)."0\n".
+dongo($tangkap13)."00\n".
+dongo($tangkap13)."000\n".
+dongo($tangkap13)."0000\n".
+dongo($tangkap13)."00000\n".
+dongo($tangkap13)."01\n".
+dongo($tangkap13)."02\n".
+dongo($tangkap13)."03\n".
+dongo($tangkap13)."04\n".
+dongo($tangkap13)."05\n".
+dongo($tangkap13)."011\n".
+dongo($tangkap13)."022\n".
+dongo($tangkap13)."033\n".
+dongo($tangkap13)."044\n".
+dongo($tangkap13)."055\n".
+dongo($tangkap13)."010\n".
+dongo($tangkap13)."020\n".
+dongo($tangkap13)."030\n".
+dongo($tangkap13)."040\n".
+dongo($tangkap13)."050\n".
+dongo($tangkap13)."110\n".
+dongo($tangkap13)."220\n".
+dongo($tangkap13)."330\n".
+dongo($tangkap13)."440\n".
+dongo($tangkap13)."550\n".
+dongo($tangkap13)."001\n".
+dongo($tangkap13)."002\n".
+dongo($tangkap13)."003\n".
+dongo($tangkap13)."004\n".
+dongo($tangkap13)."005\n".
+dongo($tangkap13)."450\n".
+dongo($tangkap13)."123456789\n".
+dongo($tangkap9)."1\n".
+dongo($tangkap9)."11\n".
+dongo($tangkap9)."111\n".
+dongo($tangkap9)."1111\n".
+dongo($tangkap9)."11111\n".
+dongo($tangkap9)."2\n".
+dongo($tangkap9)."22\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."2222\n".
+dongo($tangkap9)."22222\n".
+dongo($tangkap9)."21\n".
+dongo($tangkap9)."22\n".
+dongo($tangkap9)."23\n".
+dongo($tangkap9)."24\n".
+dongo($tangkap9)."25\n".
+dongo($tangkap9)."26\n".
+dongo($tangkap9)."27\n".
+dongo($tangkap9)."28\n".
+dongo($tangkap9)."29\n".
+dongo($tangkap9)."211\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."233\n".
+dongo($tangkap9)."244\n".
+dongo($tangkap9)."255\n".
+dongo($tangkap9)."212\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."232\n".
+dongo($tangkap9)."242\n".
+dongo($tangkap9)."252\n".
+dongo($tangkap9)."112\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."332\n".
+dongo($tangkap9)."442\n".
+dongo($tangkap9)."552\n".
+dongo($tangkap9)."221\n".
+dongo($tangkap9)."222\n".
+dongo($tangkap9)."223\n".
+dongo($tangkap9)."224\n".
+dongo($tangkap9)."225\n".
+dongo($tangkap9)."452\n".
+dongo($tangkap9)."12\n".
+dongo($tangkap9)."21\n".
+dongo($tangkap9)."3\n".
+dongo($tangkap9)."33\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."3333\n".
+dongo($tangkap9)."33333\n".
+dongo($tangkap9)."31\n".
+dongo($tangkap9)."32\n".
+dongo($tangkap9)."33\n".
+dongo($tangkap9)."34\n".
+dongo($tangkap9)."35\n".
+dongo($tangkap9)."311\n".
+dongo($tangkap9)."322\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."344\n".
+dongo($tangkap9)."355\n".
+dongo($tangkap9)."313\n".
+dongo($tangkap9)."323\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."343\n".
+dongo($tangkap9)."353\n".
+dongo($tangkap9)."113\n".
+dongo($tangkap9)."223\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."443\n".
+dongo($tangkap9)."553\n".
+dongo($tangkap9)."331\n".
+dongo($tangkap9)."332\n".
+dongo($tangkap9)."333\n".
+dongo($tangkap9)."334\n".
+dongo($tangkap9)."335\n".
+dongo($tangkap9)."453\n".
+dongo($tangkap9)."123\n".
+dongo($tangkap9)."321\n".
+dongo($tangkap9)."4\n".
+dongo($tangkap9)."44\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."4444\n".
+dongo($tangkap9)."44444\n".
+dongo($tangkap9)."41\n".
+dongo($tangkap9)."42\n".
+dongo($tangkap9)."43\n".
+dongo($tangkap9)."44\n".
+dongo($tangkap9)."45\n".
+dongo($tangkap9)."411\n".
+dongo($tangkap9)."422\n".
+dongo($tangkap9)."433\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."455\n".
+dongo($tangkap9)."414\n".
+dongo($tangkap9)."424\n".
+dongo($tangkap9)."434\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."454\n".
+dongo($tangkap9)."114\n".
+dongo($tangkap9)."224\n".
+dongo($tangkap9)."334\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."441\n".
+dongo($tangkap9)."442\n".
+dongo($tangkap9)."443\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."445\n".
+dongo($tangkap9)."554\n".
+dongo($tangkap9)."444\n".
+dongo($tangkap9)."1234\n".
+dongo($tangkap9)."4321\n".
+dongo($tangkap9)."5\n".
+dongo($tangkap9)."55\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."5555\n".
+dongo($tangkap9)."55555\n".
+dongo($tangkap9)."51\n".
+dongo($tangkap9)."52\n".
+dongo($tangkap9)."53\n".
+dongo($tangkap9)."54\n".
+dongo($tangkap9)."55\n".
+dongo($tangkap9)."511\n".
+dongo($tangkap9)."522\n".
+dongo($tangkap9)."533\n".
+dongo($tangkap9)."544\n".
+dongo($tangkap9)."655\n".
+dongo($tangkap9)."515\n".
+dongo($tangkap9)."525\n".
+dongo($tangkap9)."535\n".
+dongo($tangkap9)."545\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."115\n".
+dongo($tangkap9)."225\n".
+dongo($tangkap9)."335\n".
+dongo($tangkap9)."445\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."551\n".
+dongo($tangkap9)."552\n".
+dongo($tangkap9)."553\n".
+dongo($tangkap9)."554\n".
+dongo($tangkap9)."555\n".
+dongo($tangkap9)."345\n".
+dongo($tangkap9)."12345\n".
+dongo($tangkap9)."54321\n".
+dongo($tangkap9)."6\n".
+dongo($tangkap9)."66\n".
+dongo($tangkap9)."666\n".
+dongo($tangkap9)."6666\n".
+dongo($tangkap9)."66666\n".
+dongo($tangkap9)."61\n".
+dongo($tangkap9)."62\n".
+dongo($tangkap9)."63\n".
+dongo($tangkap9)."64\n".
+dongo($tangkap9)."65\n".
+dongo($tangkap9)."611\n".
+dongo($tangkap9)."622\n".
+dongo($tangkap9)."633\n".
+dongo($tangkap9)."644\n".
+dongo($tangkap9)."655\n".
+dongo($tangkap9)."616\n".
+dongo($tangkap9)."626\n".
+dongo($tangkap9)."636\n".
+dongo($tangkap9)."646\n".
+dongo($tangkap9)."656\n".
+dongo($tangkap9)."116\n".
+dongo($tangkap9)."226\n".
+dongo($tangkap9)."336\n".
+dongo($tangkap9)."446\n".
+dongo($tangkap9)."556\n".
+dongo($tangkap9)."661\n".
+dongo($tangkap9)."662\n".
+dongo($tangkap9)."663\n".
+dongo($tangkap9)."664\n".
+dongo($tangkap9)."665\n".
+dongo($tangkap9)."456\n".
+dongo($tangkap9)."123456\n".
+dongo($tangkap9)."654321\n".
+dongo($tangkap9)."7\n".
+dongo($tangkap9)."77\n".
+dongo($tangkap9)."777\n".
+dongo($tangkap9)."7777\n".
+dongo($tangkap9)."77777\n".
+dongo($tangkap9)."71\n".
+dongo($tangkap9)."72\n".
+dongo($tangkap9)."73\n".
+dongo($tangkap9)."74\n".
+dongo($tangkap9)."75\n".
+dongo($tangkap9)."711\n".
+dongo($tangkap9)."722\n".
+dongo($tangkap9)."733\n".
+dongo($tangkap9)."744\n".
+dongo($tangkap9)."755\n".
+dongo($tangkap9)."717\n".
+dongo($tangkap9)."727\n".
+dongo($tangkap9)."737\n".
+dongo($tangkap9)."747\n".
+dongo($tangkap9)."757\n".
+dongo($tangkap9)."117\n".
+dongo($tangkap9)."227\n".
+dongo($tangkap9)."337\n".
+dongo($tangkap9)."447\n".
+dongo($tangkap9)."557\n".
+dongo($tangkap9)."771\n".
+dongo($tangkap9)."772\n".
+dongo($tangkap9)."773\n".
+dongo($tangkap9)."774\n".
+dongo($tangkap9)."775\n".
+dongo($tangkap9)."457\n".
+dongo($tangkap9)."1234567\n".
+dongo($tangkap9)."7654321\n".
+dongo($tangkap9)."8\n".
+dongo($tangkap9)."88\n".
+dongo($tangkap9)."888\n".
+dongo($tangkap9)."8888\n".
+dongo($tangkap9)."88888\n".
+dongo($tangkap9)."81\n".
+dongo($tangkap9)."82\n".
+dongo($tangkap9)."83\n".
+dongo($tangkap9)."84\n".
+dongo($tangkap9)."85\n".
+dongo($tangkap9)."811\n".
+dongo($tangkap9)."822\n".
+dongo($tangkap9)."833\n".
+dongo($tangkap9)."844\n".
+dongo($tangkap9)."855\n".
+dongo($tangkap9)."818\n".
+dongo($tangkap9)."828\n".
+dongo($tangkap9)."838\n".
+dongo($tangkap9)."848\n".
+dongo($tangkap9)."858\n".
+dongo($tangkap9)."118\n".
+dongo($tangkap9)."228\n".
+dongo($tangkap9)."338\n".
+dongo($tangkap9)."448\n".
+dongo($tangkap9)."558\n".
+dongo($tangkap9)."881\n".
+dongo($tangkap9)."882\n".
+dongo($tangkap9)."883\n".
+dongo($tangkap9)."884\n".
+dongo($tangkap9)."885\n".
+dongo($tangkap9)."458\n".
+dongo($tangkap9)."12345678\n".
+dongo($tangkap9)."87654321\n".
+dongo($tangkap9)."9\n".
+dongo($tangkap9)."99\n".
+dongo($tangkap9)."999\n".
+dongo($tangkap9)."9999\n".
+dongo($tangkap9)."99999\n".
+dongo($tangkap9)."91\n".
+dongo($tangkap9)."92\n".
+dongo($tangkap9)."93\n".
+dongo($tangkap9)."94\n".
+dongo($tangkap9)."95\n".
+dongo($tangkap9)."911\n".
+dongo($tangkap9)."922\n".
+dongo($tangkap9)."933\n".
+dongo($tangkap9)."944\n".
+dongo($tangkap9)."955\n".
+dongo($tangkap9)."919\n".
+dongo($tangkap9)."929\n".
+dongo($tangkap9)."939\n".
+dongo($tangkap9)."949\n".
+dongo($tangkap9)."959\n".
+dongo($tangkap9)."119\n".
+dongo($tangkap9)."229\n".
+dongo($tangkap9)."339\n".
+dongo($tangkap9)."449\n".
+dongo($tangkap9)."559\n".
+dongo($tangkap9)."991\n".
+dongo($tangkap9)."992\n".
+dongo($tangkap9)."993\n".
+dongo($tangkap9)."994\n".
+dongo($tangkap9)."995\n".
+dongo($tangkap9)."459\n".
+dongo($tangkap9)."12345678\n".
+dongo($tangkap9)."987654321\n".
+dongo($tangkap9)."0\n".
+dongo($tangkap9)."00\n".
+dongo($tangkap9)."000\n".
+dongo($tangkap9)."0000\n".
+dongo($tangkap9)."00000\n".
+dongo($tangkap9)."01\n".
+dongo($tangkap9)."02\n".
+dongo($tangkap9)."03\n".
+dongo($tangkap9)."04\n".
+dongo($tangkap9)."05\n".
+dongo($tangkap9)."011\n".
+dongo($tangkap9)."022\n".
+dongo($tangkap9)."033\n".
+dongo($tangkap9)."044\n".
+dongo($tangkap9)."055\n".
+dongo($tangkap9)."010\n".
+dongo($tangkap9)."020\n".
+dongo($tangkap9)."030\n".
+dongo($tangkap9)."040\n".
+dongo($tangkap9)."050\n".
+dongo($tangkap9)."110\n".
+dongo($tangkap9)."220\n".
+dongo($tangkap9)."330\n".
+dongo($tangkap9)."440\n".
+dongo($tangkap9)."550\n".
+dongo($tangkap9)."001\n".
+dongo($tangkap9)."002\n".
+dongo($tangkap9)."003\n".
+dongo($tangkap9)."004\n".
+dongo($tangkap9)."005\n".
+dongo($tangkap9)."450\n".
+dongo($tangkap9)."1234567890\n".
+dongo($tangkap8)."1\n".
+dongo($tangkap8)."11\n".
+dongo($tangkap8)."111\n".
+dongo($tangkap8)."1111\n".
+dongo($tangkap8)."11111\n".
+dongo($tangkap8)."2\n".
+dongo($tangkap8)."22\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."2222\n".
+dongo($tangkap8)."22222\n".
+dongo($tangkap8)."21\n".
+dongo($tangkap8)."22\n".
+dongo($tangkap8)."23\n".
+dongo($tangkap8)."24\n".
+dongo($tangkap8)."25\n".
+dongo($tangkap8)."26\n".
+dongo($tangkap8)."27\n".
+dongo($tangkap8)."28\n".
+dongo($tangkap8)."29\n".
+dongo($tangkap8)."211\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."233\n".
+dongo($tangkap8)."244\n".
+dongo($tangkap8)."255\n".
+dongo($tangkap8)."212\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."232\n".
+dongo($tangkap8)."242\n".
+dongo($tangkap8)."252\n".
+dongo($tangkap8)."112\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."332\n".
+dongo($tangkap8)."442\n".
+dongo($tangkap8)."552\n".
+dongo($tangkap8)."221\n".
+dongo($tangkap8)."222\n".
+dongo($tangkap8)."223\n".
+dongo($tangkap8)."224\n".
+dongo($tangkap8)."225\n".
+dongo($tangkap8)."452\n".
+dongo($tangkap8)."12\n".
+dongo($tangkap8)."21\n".
+dongo($tangkap8)."3\n".
+dongo($tangkap8)."33\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."3333\n".
+dongo($tangkap8)."33333\n".
+dongo($tangkap8)."31\n".
+dongo($tangkap8)."32\n".
+dongo($tangkap8)."33\n".
+dongo($tangkap8)."34\n".
+dongo($tangkap8)."35\n".
+dongo($tangkap8)."311\n".
+dongo($tangkap8)."322\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."344\n".
+dongo($tangkap8)."355\n".
+dongo($tangkap8)."313\n".
+dongo($tangkap8)."323\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."343\n".
+dongo($tangkap8)."353\n".
+dongo($tangkap8)."113\n".
+dongo($tangkap8)."223\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."443\n".
+dongo($tangkap8)."553\n".
+dongo($tangkap8)."331\n".
+dongo($tangkap8)."332\n".
+dongo($tangkap8)."333\n".
+dongo($tangkap8)."334\n".
+dongo($tangkap8)."335\n".
+dongo($tangkap8)."453\n".
+dongo($tangkap8)."123\n".
+dongo($tangkap8)."321\n".
+dongo($tangkap8)."4\n".
+dongo($tangkap8)."44\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."4444\n".
+dongo($tangkap8)."44444\n".
+dongo($tangkap8)."41\n".
+dongo($tangkap8)."42\n".
+dongo($tangkap8)."43\n".
+dongo($tangkap8)."44\n".
+dongo($tangkap8)."45\n".
+dongo($tangkap8)."411\n".
+dongo($tangkap8)."422\n".
+dongo($tangkap8)."433\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."455\n".
+dongo($tangkap8)."414\n".
+dongo($tangkap8)."424\n".
+dongo($tangkap8)."434\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."454\n".
+dongo($tangkap8)."114\n".
+dongo($tangkap8)."224\n".
+dongo($tangkap8)."334\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."441\n".
+dongo($tangkap8)."442\n".
+dongo($tangkap8)."443\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."445\n".
+dongo($tangkap8)."554\n".
+dongo($tangkap8)."444\n".
+dongo($tangkap8)."1234\n".
+dongo($tangkap8)."4321\n".
+dongo($tangkap8)."5\n".
+dongo($tangkap8)."55\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."5555\n".
+dongo($tangkap8)."55555\n".
+dongo($tangkap8)."51\n".
+dongo($tangkap8)."52\n".
+dongo($tangkap8)."53\n".
+dongo($tangkap8)."54\n".
+dongo($tangkap8)."55\n".
+dongo($tangkap8)."511\n".
+dongo($tangkap8)."522\n".
+dongo($tangkap8)."533\n".
+dongo($tangkap8)."544\n".
+dongo($tangkap8)."655\n".
+dongo($tangkap8)."515\n".
+dongo($tangkap8)."525\n".
+dongo($tangkap8)."535\n".
+dongo($tangkap8)."545\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."115\n".
+dongo($tangkap8)."225\n".
+dongo($tangkap8)."335\n".
+dongo($tangkap8)."445\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."551\n".
+dongo($tangkap8)."552\n".
+dongo($tangkap8)."553\n".
+dongo($tangkap8)."554\n".
+dongo($tangkap8)."555\n".
+dongo($tangkap8)."345\n".
+dongo($tangkap8)."12345\n".
+dongo($tangkap8)."54321\n".
+dongo($tangkap8)."6\n".
+dongo($tangkap8)."66\n".
+dongo($tangkap8)."666\n".
+dongo($tangkap8)."6666\n".
+dongo($tangkap8)."66666\n".
+dongo($tangkap8)."61\n".
+dongo($tangkap8)."62\n".
+dongo($tangkap8)."63\n".
+dongo($tangkap8)."64\n".
+dongo($tangkap8)."65\n".
+dongo($tangkap8)."611\n".
+dongo($tangkap8)."622\n".
+dongo($tangkap8)."633\n".
+dongo($tangkap8)."644\n".
+dongo($tangkap8)."655\n".
+dongo($tangkap8)."616\n".
+dongo($tangkap8)."626\n".
+dongo($tangkap8)."636\n".
+dongo($tangkap8)."646\n".
+dongo($tangkap8)."656\n".
+dongo($tangkap8)."116\n".
+dongo($tangkap8)."226\n".
+dongo($tangkap8)."336\n".
+dongo($tangkap8)."446\n".
+dongo($tangkap8)."556\n".
+dongo($tangkap8)."661\n".
+dongo($tangkap8)."662\n".
+dongo($tangkap8)."663\n".
+dongo($tangkap8)."664\n".
+dongo($tangkap8)."665\n".
+dongo($tangkap8)."456\n".
+dongo($tangkap8)."123456\n".
+dongo($tangkap8)."654321\n".
+dongo($tangkap8)."7\n".
+dongo($tangkap8)."77\n".
+dongo($tangkap8)."777\n".
+dongo($tangkap8)."7777\n".
+dongo($tangkap8)."77777\n".
+dongo($tangkap8)."71\n".
+dongo($tangkap8)."72\n".
+dongo($tangkap8)."73\n".
+dongo($tangkap8)."74\n".
+dongo($tangkap8)."75\n".
+dongo($tangkap8)."711\n".
+dongo($tangkap8)."722\n".
+dongo($tangkap8)."733\n".
+dongo($tangkap8)."744\n".
+dongo($tangkap8)."755\n".
+dongo($tangkap8)."717\n".
+dongo($tangkap8)."727\n".
+dongo($tangkap8)."737\n".
+dongo($tangkap8)."747\n".
+dongo($tangkap8)."757\n".
+dongo($tangkap8)."117\n".
+dongo($tangkap8)."227\n".
+dongo($tangkap8)."337\n".
+dongo($tangkap8)."447\n".
+dongo($tangkap8)."557\n".
+dongo($tangkap8)."771\n".
+dongo($tangkap8)."772\n".
+dongo($tangkap8)."773\n".
+dongo($tangkap8)."774\n".
+dongo($tangkap8)."775\n".
+dongo($tangkap8)."457\n".
+dongo($tangkap8)."1234567\n".
+dongo($tangkap8)."7654321\n".
+dongo($tangkap8)."8\n".
+dongo($tangkap8)."88\n".
+dongo($tangkap8)."888\n".
+dongo($tangkap8)."8888\n".
+dongo($tangkap8)."88888\n".
+dongo($tangkap8)."81\n".
+dongo($tangkap8)."82\n".
+dongo($tangkap8)."83\n".
+dongo($tangkap8)."84\n".
+dongo($tangkap8)."85\n".
+dongo($tangkap8)."811\n".
+dongo($tangkap8)."822\n".
+dongo($tangkap8)."833\n".
+dongo($tangkap8)."844\n".
+dongo($tangkap8)."855\n".
+dongo($tangkap8)."818\n".
+dongo($tangkap8)."828\n".
+dongo($tangkap8)."838\n".
+dongo($tangkap8)."848\n".
+dongo($tangkap8)."858\n".
+dongo($tangkap8)."118\n".
+dongo($tangkap8)."228\n".
+dongo($tangkap8)."338\n".
+dongo($tangkap8)."448\n".
+dongo($tangkap8)."558\n".
+dongo($tangkap8)."881\n".
+dongo($tangkap8)."882\n".
+dongo($tangkap8)."883\n".
+dongo($tangkap8)."884\n".
+dongo($tangkap8)."885\n".
+dongo($tangkap8)."458\n".
+dongo($tangkap8)."12345678\n".
+dongo($tangkap8)."87654321\n".
+dongo($tangkap8)."9\n".
+dongo($tangkap8)."99\n".
+dongo($tangkap8)."999\n".
+dongo($tangkap8)."9999\n".
+dongo($tangkap8)."99999\n".
+dongo($tangkap8)."91\n".
+dongo($tangkap8)."92\n".
+dongo($tangkap8)."93\n".
+dongo($tangkap8)."94\n".
+dongo($tangkap8)."95\n".
+dongo($tangkap8)."911\n".
+dongo($tangkap8)."922\n".
+dongo($tangkap8)."933\n".
+dongo($tangkap8)."944\n".
+dongo($tangkap8)."955\n".
+dongo($tangkap8)."919\n".
+dongo($tangkap8)."929\n".
+dongo($tangkap8)."939\n".
+dongo($tangkap8)."949\n".
+dongo($tangkap8)."959\n".
+dongo($tangkap8)."119\n".
+dongo($tangkap8)."229\n".
+dongo($tangkap8)."339\n".
+dongo($tangkap8)."449\n".
+dongo($tangkap8)."559\n".
+dongo($tangkap8)."991\n".
+dongo($tangkap8)."992\n".
+dongo($tangkap8)."993\n".
+dongo($tangkap8)."994\n".
+dongo($tangkap8)."995\n".
+dongo($tangkap8)."459\n".
+dongo($tangkap8)."123456789\n".
+dongo($tangkap8)."987654321\n".
+dongo($tangkap8)."0\n".
+dongo($tangkap8)."00\n".
+dongo($tangkap8)."000\n".
+dongo($tangkap8)."0000\n".
+dongo($tangkap8)."00000\n".
+dongo($tangkap8)."01\n".
+dongo($tangkap8)."02\n".
+dongo($tangkap8)."03\n".
+dongo($tangkap8)."04\n".
+dongo($tangkap8)."05\n".
+dongo($tangkap8)."011\n".
+dongo($tangkap8)."022\n".
+dongo($tangkap8)."033\n".
+dongo($tangkap8)."044\n".
+dongo($tangkap8)."055\n".
+dongo($tangkap8)."010\n".
+dongo($tangkap8)."020\n".
+dongo($tangkap8)."030\n".
+dongo($tangkap8)."040\n".
+dongo($tangkap8)."050\n".
+dongo($tangkap8)."110\n".
+dongo($tangkap8)."220\n".
+dongo($tangkap8)."330\n".
+dongo($tangkap8)."440\n".
+dongo($tangkap8)."550\n".
+dongo($tangkap8)."001\n".
+dongo($tangkap8)."002\n".
+dongo($tangkap8)."003\n".
+dongo($tangkap8)."004\n".
+dongo($tangkap8)."005\n".
+dongo($tangkap8)."450\n";
+
+echo " \033[32m\n Apakah anda ingin memasukan kata tambahan ke dalam wordlist? y/n : \033[96m";
+$tanya2 = trim(fgets(STDIN));
+if ($tanya2 == "y") {
+  echo " \033[32mBerapa kata yang ingin anda masukan ? \e[38;2;255;0;0m[MAX 10] : \033[96m";
+  $tanya3 = trim(fgets(STDIN));
+if ($tanya3 == "1") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      $main =  $masuk1."\n";
+}elseif ($tanya3 == "2") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      $main =  $masuk1."\n".
+               $masuk2."\n";
+}elseif ($tanya3 == "3") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+
+      $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n";
+}elseif ($tanya3 == "4") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n";
+}elseif ($tanya3 == "5") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n";
+}elseif ($tanya3 == "6") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n";
+}elseif ($tanya3 == "7") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n";
+}elseif ($tanya3 == "8") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93mMasukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n";
+}elseif ($tanya3 == "9") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [9]\033[93m Masukan kata : ";
+      $masuk9 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n".
+              $masuk9."\n";
+}elseif ($tanya3 == "10") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [9]\033[93m Masukan kata : ";
+      $masuk9 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [10]\033[93m Masukan kata : ";
+      $masuk10 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n".
+              $masuk9."\n".
+              $masuk10."\n";
+}else{
+    	echo " Gak jelas tod pilihannya ! \n";
+    	exit;
+    }
+
+
+
+
+
+
+
+
+    }elseif ($tanya2 =="n") {
+    
+
+      
+    }else{
+    	echo " Gak jelas tod pilihannya ! \n";
+    	exit;
+    }
+
+echo "\n\n Masukan nama file : ";
+$hasil2 = trim(fgets(STDIN));
+
+$buat_hasil2 = fopen("$hasil2.txt", "a+");
+    fwrite($buat_hasil2, "$result2$result22$main");
+    fclose($buat_hasil2);
+echo "\n\033[93m  ++++++++++++++++++++++++++++++++++\n";
+echo "  Selamat ...                        \n";
+echo "  File $hasil2.txt telah tersimpan   \n";
+echo "  di dalam folder wordlistgenerator  \n";
+echo "  ++++++++++++++++++++++++++++++++++\n\033[0m\n\n";
+
+}else{
+	echo " Pilihan anda sungguh tidak jelas! \n"; 
+    echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit;
+}
+}elseif($tanya == "n"){
+
+
+$result3 =
+$tangkap1."\n".
+$tangkap2."\n".
+$tangkap3."\n".
+$tangkap4."\n".
+$tangkap5."\n".
+$tangkap6."\n".
+$tangkapx."\n".
+$tangkapv."\n".
+$tangkap7."\n".
+$tangkap8."\n".
+$tangkap9."\n".
+$tangkap10."\n".
+$tangkap11."\n".
+$tangkap12."\n".
+$tangkap1.$tangkap2."\n".
+$tangkap1.$tangkap2.$tangkap3."\n".
+$tangkap1.$tangkap4."\n".
+$tangkap3.$tangkap4."\n".
+$tangkap1.$tangkap5."\n".
+$tangkap1.$tangkapx."\n".
+$tangkap1.$tangkapv."\n".
+$tangkap2.$tangkapx."\n".
+$tangkap2.$tangkapv."\n".
+$tangkap3.$tangkapx."\n".
+$tangkap3.$tangkapv."\n".
+$tangkap5.$tangkapx.$tangkapv."\n".
+$tangkap5.$tangkapx.$tangkap6."\n".
+$tangkap5.$tangkapv.$tangkap6."\n".
+$tangkap3.$tangkap5."\n".
+$tangkap4.$tangkap5."\n".
+$tangkap1.$tangkap6."\n".
+$tangkap3.$tangkap6."\n".
+$tangkap1.$tangkap5.$tangkap6."\n".
+$tangkap1.$tangkap7."\n".
+$tangkap3.$tangkap7."\n".
+$tangkap1.$tangkap8."\n".
+$tangkap3.$tangkap8."\n".
+$tangkap8.$tangkap5."\n".
+$tangkap8.$tangkap6."\n".
+$tangkap9.$tangkap5."\n".
+$tangkap3.$tangkap9."\n".
+$tangkap1.$tangkap9."\n".
+$tangkap9.$tangkap10."\n".
+$tangkap3.$tangkap9.$tangkap10."\n".
+$tangkap11.$tangkap9."\n".
+$tangkap11.$tangkap12."\n".
+$tangkap9.$tangkap12."\n".
+$tangkap9.$tangkap12."\n".
+$tangkap9.$tangkap12."\n".
+ str($tangkap1)."\n".
+ str($tangkap2)."\n".
+ str($tangkap3)."\n".
+ str($tangkap8)."\n".
+ str($tangkap9)."\n".
+ str($tangkap1.$tangkap2)."\n".
+ str($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti($tangkap1)."\n".
+ ganti($tangkap2)."\n".
+ ganti($tangkap3)."\n".
+ ganti($tangkap8)."\n".
+ ganti($tangkap9)."\n".
+ ganti($tangkap1.$tangkap2)."\n".
+ ganti($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti1($tangkap1)."\n".
+ ganti1($tangkap2)."\n".
+ ganti1($tangkap3)."\n".
+ ganti1($tangkap8)."\n".
+ ganti1($tangkap9)."\n".
+ ganti1($tangkap1.$tangkap2)."\n".
+ ganti1($tangkap1.$tangkap2.$tangkap3)."\n".
+ ganti2($tangkap1)."\n".
+ ganti2($tangkap2)."\n".
+ ganti2($tangkap3)."\n".
+ ganti2($tangkap8)."\n".
+ ganti2($tangkap9)."\n".
+ ganti2($tangkap1.$tangkap2)."\n".
+ ganti2($tangkap1.$tangkap2.$tangkap3)."\n".
+ banyak1($tangkap1)."\n".
+ banyak1($tangkap2)."\n".
+ banyak1($tangkap3)."\n".
+ banyak1($tangkap8)."\n".
+ banyak1($tangkap9)."\n".
+ banyak1($tangkap1.$tangkap2)."\n".
+ banyak1($tangkap1.$tangkap2.$tangkap3)."\n".
+ banyak2($tangkap1)."\n".
+ banyak2($tangkap2)."\n".
+ banyak2($tangkap3)."\n".
+ banyak2($tangkap8)."\n".
+ banyak2($tangkap9)."\n".
+ banyak2($tangkap1.$tangkap2)."\n".
+ banyak2($tangkap1.$tangkap2.$tangkap3)."\n";
+$result33 =
+tambah_nomor($tangkap1)."1\n".
+tambah_nomor($tangkap1)."11\n".
+tambah_nomor($tangkap1)."111\n".
+tambah_nomor($tangkap1)."1111\n".
+tambah_nomor($tangkap1)."11111\n".
+tambah_nomor($tangkap1)."2\n".
+tambah_nomor($tangkap1)."22\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."2222\n".
+tambah_nomor($tangkap1)."22222\n".
+tambah_nomor($tangkap1)."21\n".
+tambah_nomor($tangkap1)."22\n".
+tambah_nomor($tangkap1)."23\n".
+tambah_nomor($tangkap1)."24\n".
+tambah_nomor($tangkap1)."25\n".
+tambah_nomor($tangkap1)."26\n".
+tambah_nomor($tangkap1)."27\n".
+tambah_nomor($tangkap1)."28\n".
+tambah_nomor($tangkap1)."29\n".
+tambah_nomor($tangkap1)."211\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."233\n".
+tambah_nomor($tangkap1)."244\n".
+tambah_nomor($tangkap1)."255\n".
+tambah_nomor($tangkap1)."212\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."232\n".
+tambah_nomor($tangkap1)."242\n".
+tambah_nomor($tangkap1)."252\n".
+tambah_nomor($tangkap1)."112\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."332\n".
+tambah_nomor($tangkap1)."442\n".
+tambah_nomor($tangkap1)."552\n".
+tambah_nomor($tangkap1)."221\n".
+tambah_nomor($tangkap1)."222\n".
+tambah_nomor($tangkap1)."223\n".
+tambah_nomor($tangkap1)."224\n".
+tambah_nomor($tangkap1)."225\n".
+tambah_nomor($tangkap1)."452\n".
+tambah_nomor($tangkap1)."12\n".
+tambah_nomor($tangkap1)."21\n".
+tambah_nomor($tangkap1)."3\n".
+tambah_nomor($tangkap1)."33\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."3333\n".
+tambah_nomor($tangkap1)."33333\n".
+tambah_nomor($tangkap1)."31\n".
+tambah_nomor($tangkap1)."32\n".
+tambah_nomor($tangkap1)."33\n".
+tambah_nomor($tangkap1)."34\n".
+tambah_nomor($tangkap1)."35\n".
+tambah_nomor($tangkap1)."311\n".
+tambah_nomor($tangkap1)."322\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."344\n".
+tambah_nomor($tangkap1)."355\n".
+tambah_nomor($tangkap1)."313\n".
+tambah_nomor($tangkap1)."323\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."343\n".
+tambah_nomor($tangkap1)."353\n".
+tambah_nomor($tangkap1)."113\n".
+tambah_nomor($tangkap1)."223\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."443\n".
+tambah_nomor($tangkap1)."553\n".
+tambah_nomor($tangkap1)."331\n".
+tambah_nomor($tangkap1)."332\n".
+tambah_nomor($tangkap1)."333\n".
+tambah_nomor($tangkap1)."334\n".
+tambah_nomor($tangkap1)."335\n".
+tambah_nomor($tangkap1)."453\n".
+tambah_nomor($tangkap1)."123\n".
+tambah_nomor($tangkap1)."321\n".
+tambah_nomor($tangkap1)."4\n".
+tambah_nomor($tangkap1)."44\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."4444\n".
+tambah_nomor($tangkap1)."44444\n".
+tambah_nomor($tangkap1)."41\n".
+tambah_nomor($tangkap1)."42\n".
+tambah_nomor($tangkap1)."43\n".
+tambah_nomor($tangkap1)."44\n".
+tambah_nomor($tangkap1)."45\n".
+tambah_nomor($tangkap1)."411\n".
+tambah_nomor($tangkap1)."422\n".
+tambah_nomor($tangkap1)."433\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."455\n".
+tambah_nomor($tangkap1)."414\n".
+tambah_nomor($tangkap1)."424\n".
+tambah_nomor($tangkap1)."434\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."454\n".
+tambah_nomor($tangkap1)."114\n".
+tambah_nomor($tangkap1)."224\n".
+tambah_nomor($tangkap1)."334\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."441\n".
+tambah_nomor($tangkap1)."442\n".
+tambah_nomor($tangkap1)."443\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."445\n".
+tambah_nomor($tangkap1)."554\n".
+tambah_nomor($tangkap1)."444\n".
+tambah_nomor($tangkap1)."1234\n".
+tambah_nomor($tangkap1)."4321\n".
+tambah_nomor($tangkap1)."5\n".
+tambah_nomor($tangkap1)."55\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."5555\n".
+tambah_nomor($tangkap1)."55555\n".
+tambah_nomor($tangkap1)."51\n".
+tambah_nomor($tangkap1)."52\n".
+tambah_nomor($tangkap1)."53\n".
+tambah_nomor($tangkap1)."54\n".
+tambah_nomor($tangkap1)."55\n".
+tambah_nomor($tangkap1)."511\n".
+tambah_nomor($tangkap1)."522\n".
+tambah_nomor($tangkap1)."533\n".
+tambah_nomor($tangkap1)."544\n".
+tambah_nomor($tangkap1)."655\n".
+tambah_nomor($tangkap1)."515\n".
+tambah_nomor($tangkap1)."525\n".
+tambah_nomor($tangkap1)."535\n".
+tambah_nomor($tangkap1)."545\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."115\n".
+tambah_nomor($tangkap1)."225\n".
+tambah_nomor($tangkap1)."335\n".
+tambah_nomor($tangkap1)."445\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."551\n".
+tambah_nomor($tangkap1)."552\n".
+tambah_nomor($tangkap1)."553\n".
+tambah_nomor($tangkap1)."554\n".
+tambah_nomor($tangkap1)."555\n".
+tambah_nomor($tangkap1)."345\n".
+tambah_nomor($tangkap1)."12345\n".
+tambah_nomor($tangkap1)."54321\n".
+tambah_nomor($tangkap1)."6\n".
+tambah_nomor($tangkap1)."66\n".
+tambah_nomor($tangkap1)."666\n".
+tambah_nomor($tangkap1)."6666\n".
+tambah_nomor($tangkap1)."66666\n".
+tambah_nomor($tangkap1)."61\n".
+tambah_nomor($tangkap1)."62\n".
+tambah_nomor($tangkap1)."63\n".
+tambah_nomor($tangkap1)."64\n".
+tambah_nomor($tangkap1)."65\n".
+tambah_nomor($tangkap1)."611\n".
+tambah_nomor($tangkap1)."622\n".
+tambah_nomor($tangkap1)."633\n".
+tambah_nomor($tangkap1)."644\n".
+tambah_nomor($tangkap1)."655\n".
+tambah_nomor($tangkap1)."616\n".
+tambah_nomor($tangkap1)."626\n".
+tambah_nomor($tangkap1)."636\n".
+tambah_nomor($tangkap1)."646\n".
+tambah_nomor($tangkap1)."656\n".
+tambah_nomor($tangkap1)."116\n".
+tambah_nomor($tangkap1)."226\n".
+tambah_nomor($tangkap1)."336\n".
+tambah_nomor($tangkap1)."446\n".
+tambah_nomor($tangkap1)."556\n".
+tambah_nomor($tangkap1)."661\n".
+tambah_nomor($tangkap1)."662\n".
+tambah_nomor($tangkap1)."663\n".
+tambah_nomor($tangkap1)."664\n".
+tambah_nomor($tangkap1)."665\n".
+tambah_nomor($tangkap1)."456\n".
+tambah_nomor($tangkap1)."123456\n".
+tambah_nomor($tangkap1)."654321\n".
+tambah_nomor($tangkap1)."7\n".
+tambah_nomor($tangkap1)."77\n".
+tambah_nomor($tangkap1)."777\n".
+tambah_nomor($tangkap1)."7777\n".
+tambah_nomor($tangkap1)."77777\n".
+tambah_nomor($tangkap1)."71\n".
+tambah_nomor($tangkap1)."72\n".
+tambah_nomor($tangkap1)."73\n".
+tambah_nomor($tangkap1)."74\n".
+tambah_nomor($tangkap1)."75\n".
+tambah_nomor($tangkap1)."711\n".
+tambah_nomor($tangkap1)."722\n".
+tambah_nomor($tangkap1)."733\n".
+tambah_nomor($tangkap1)."744\n".
+tambah_nomor($tangkap1)."755\n".
+tambah_nomor($tangkap1)."717\n".
+tambah_nomor($tangkap1)."727\n".
+tambah_nomor($tangkap1)."737\n".
+tambah_nomor($tangkap1)."747\n".
+tambah_nomor($tangkap1)."757\n".
+tambah_nomor($tangkap1)."117\n".
+tambah_nomor($tangkap1)."227\n".
+tambah_nomor($tangkap1)."337\n".
+tambah_nomor($tangkap1)."447\n".
+tambah_nomor($tangkap1)."557\n".
+tambah_nomor($tangkap1)."771\n".
+tambah_nomor($tangkap1)."772\n".
+tambah_nomor($tangkap1)."773\n".
+tambah_nomor($tangkap1)."774\n".
+tambah_nomor($tangkap1)."775\n".
+tambah_nomor($tangkap1)."457\n".
+tambah_nomor($tangkap1)."1234567\n".
+tambah_nomor($tangkap1)."7654321\n".
+tambah_nomor($tangkap1)."8\n".
+tambah_nomor($tangkap1)."88\n".
+tambah_nomor($tangkap1)."888\n".
+tambah_nomor($tangkap1)."8888\n".
+tambah_nomor($tangkap1)."88888\n".
+tambah_nomor($tangkap1)."81\n".
+tambah_nomor($tangkap1)."82\n".
+tambah_nomor($tangkap1)."83\n".
+tambah_nomor($tangkap1)."84\n".
+tambah_nomor($tangkap1)."85\n".
+tambah_nomor($tangkap1)."811\n".
+tambah_nomor($tangkap1)."822\n".
+tambah_nomor($tangkap1)."833\n".
+tambah_nomor($tangkap1)."844\n".
+tambah_nomor($tangkap1)."855\n".
+tambah_nomor($tangkap1)."818\n".
+tambah_nomor($tangkap1)."828\n".
+tambah_nomor($tangkap1)."838\n".
+tambah_nomor($tangkap1)."848\n".
+tambah_nomor($tangkap1)."858\n".
+tambah_nomor($tangkap1)."118\n".
+tambah_nomor($tangkap1)."228\n".
+tambah_nomor($tangkap1)."338\n".
+tambah_nomor($tangkap1)."448\n".
+tambah_nomor($tangkap1)."558\n".
+tambah_nomor($tangkap1)."881\n".
+tambah_nomor($tangkap1)."882\n".
+tambah_nomor($tangkap1)."883\n".
+tambah_nomor($tangkap1)."884\n".
+tambah_nomor($tangkap1)."885\n".
+tambah_nomor($tangkap1)."458\n".
+tambah_nomor($tangkap1)."12345678\n".
+tambah_nomor($tangkap1)."87654321\n".
+tambah_nomor($tangkap1)."9\n".
+tambah_nomor($tangkap1)."99\n".
+tambah_nomor($tangkap1)."999\n".
+tambah_nomor($tangkap1)."9999\n".
+tambah_nomor($tangkap1)."99999\n".
+tambah_nomor($tangkap1)."91\n".
+tambah_nomor($tangkap1)."92\n".
+tambah_nomor($tangkap1)."93\n".
+tambah_nomor($tangkap1)."94\n".
+tambah_nomor($tangkap1)."95\n".
+tambah_nomor($tangkap1)."911\n".
+tambah_nomor($tangkap1)."922\n".
+tambah_nomor($tangkap1)."933\n".
+tambah_nomor($tangkap1)."944\n".
+tambah_nomor($tangkap1)."955\n".
+tambah_nomor($tangkap1)."919\n".
+tambah_nomor($tangkap1)."929\n".
+tambah_nomor($tangkap1)."939\n".
+tambah_nomor($tangkap1)."949\n".
+tambah_nomor($tangkap1)."959\n".
+tambah_nomor($tangkap1)."119\n".
+tambah_nomor($tangkap1)."229\n".
+tambah_nomor($tangkap1)."339\n".
+tambah_nomor($tangkap1)."449\n".
+tambah_nomor($tangkap1)."559\n".
+tambah_nomor($tangkap1)."991\n".
+tambah_nomor($tangkap1)."992\n".
+tambah_nomor($tangkap1)."993\n".
+tambah_nomor($tangkap1)."994\n".
+tambah_nomor($tangkap1)."995\n".
+tambah_nomor($tangkap1)."459\n".
+tambah_nomor($tangkap1)."12345678\n".
+tambah_nomor($tangkap1)."987654321\n".
+tambah_nomor($tangkap1)."0\n".
+tambah_nomor($tangkap1)."00\n".
+tambah_nomor($tangkap1)."000\n".
+tambah_nomor($tangkap1)."0000\n".
+tambah_nomor($tangkap1)."00000\n".
+tambah_nomor($tangkap1)."01\n".
+tambah_nomor($tangkap1)."02\n".
+tambah_nomor($tangkap1)."03\n".
+tambah_nomor($tangkap1)."04\n".
+tambah_nomor($tangkap1)."05\n".
+tambah_nomor($tangkap1)."011\n".
+tambah_nomor($tangkap1)."022\n".
+tambah_nomor($tangkap1)."033\n".
+tambah_nomor($tangkap1)."044\n".
+tambah_nomor($tangkap1)."055\n".
+tambah_nomor($tangkap1)."010\n".
+tambah_nomor($tangkap1)."020\n".
+tambah_nomor($tangkap1)."030\n".
+tambah_nomor($tangkap1)."040\n".
+tambah_nomor($tangkap1)."050\n".
+tambah_nomor($tangkap1)."110\n".
+tambah_nomor($tangkap1)."220\n".
+tambah_nomor($tangkap1)."330\n".
+tambah_nomor($tangkap1)."440\n".
+tambah_nomor($tangkap1)."550\n".
+tambah_nomor($tangkap1)."001\n".
+tambah_nomor($tangkap1)."002\n".
+tambah_nomor($tangkap1)."003\n".
+tambah_nomor($tangkap1)."004\n".
+tambah_nomor($tangkap1)."005\n".
+tambah_nomor($tangkap1)."450\n".
+tambah_nomor($tangkap1)."1234567890\n".
+tambah_nomor($tangkap2)."1\n".
+tambah_nomor($tangkap2)."11\n".
+tambah_nomor($tangkap2)."111\n".
+tambah_nomor($tangkap2)."1111\n".
+tambah_nomor($tangkap2)."11111\n".
+tambah_nomor($tangkap2)."2\n".
+tambah_nomor($tangkap2)."22\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."2222\n".
+tambah_nomor($tangkap2)."22222\n".
+tambah_nomor($tangkap2)."21\n".
+tambah_nomor($tangkap2)."22\n".
+tambah_nomor($tangkap2)."23\n".
+tambah_nomor($tangkap2)."24\n".
+tambah_nomor($tangkap2)."25\n".
+tambah_nomor($tangkap2)."26\n".
+tambah_nomor($tangkap2)."27\n".
+tambah_nomor($tangkap2)."28\n".
+tambah_nomor($tangkap2)."29\n".
+tambah_nomor($tangkap2)."211\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."233\n".
+tambah_nomor($tangkap2)."244\n".
+tambah_nomor($tangkap2)."255\n".
+tambah_nomor($tangkap2)."212\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."232\n".
+tambah_nomor($tangkap2)."242\n".
+tambah_nomor($tangkap2)."252\n".
+tambah_nomor($tangkap2)."112\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."332\n".
+tambah_nomor($tangkap2)."442\n".
+tambah_nomor($tangkap2)."552\n".
+tambah_nomor($tangkap2)."221\n".
+tambah_nomor($tangkap2)."222\n".
+tambah_nomor($tangkap2)."223\n".
+tambah_nomor($tangkap2)."224\n".
+tambah_nomor($tangkap2)."225\n".
+tambah_nomor($tangkap2)."452\n".
+tambah_nomor($tangkap2)."12\n".
+tambah_nomor($tangkap2)."21\n".
+tambah_nomor($tangkap2)."3\n".
+tambah_nomor($tangkap2)."33\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."3333\n".
+tambah_nomor($tangkap2)."33333\n".
+tambah_nomor($tangkap2)."31\n".
+tambah_nomor($tangkap2)."32\n".
+tambah_nomor($tangkap2)."33\n".
+tambah_nomor($tangkap2)."34\n".
+tambah_nomor($tangkap2)."35\n".
+tambah_nomor($tangkap2)."311\n".
+tambah_nomor($tangkap2)."322\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."344\n".
+tambah_nomor($tangkap2)."355\n".
+tambah_nomor($tangkap2)."313\n".
+tambah_nomor($tangkap2)."323\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."343\n".
+tambah_nomor($tangkap2)."353\n".
+tambah_nomor($tangkap2)."113\n".
+tambah_nomor($tangkap2)."223\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."443\n".
+tambah_nomor($tangkap2)."553\n".
+tambah_nomor($tangkap2)."331\n".
+tambah_nomor($tangkap2)."332\n".
+tambah_nomor($tangkap2)."333\n".
+tambah_nomor($tangkap2)."334\n".
+tambah_nomor($tangkap2)."335\n".
+tambah_nomor($tangkap2)."453\n".
+tambah_nomor($tangkap2)."123\n".
+tambah_nomor($tangkap2)."321\n".
+tambah_nomor($tangkap2)."4\n".
+tambah_nomor($tangkap2)."44\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."4444\n".
+tambah_nomor($tangkap2)."44444\n".
+tambah_nomor($tangkap2)."41\n".
+tambah_nomor($tangkap2)."42\n".
+tambah_nomor($tangkap2)."43\n".
+tambah_nomor($tangkap2)."44\n".
+tambah_nomor($tangkap2)."45\n".
+tambah_nomor($tangkap2)."411\n".
+tambah_nomor($tangkap2)."422\n".
+tambah_nomor($tangkap2)."433\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."455\n".
+tambah_nomor($tangkap2)."414\n".
+tambah_nomor($tangkap2)."424\n".
+tambah_nomor($tangkap2)."434\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."454\n".
+tambah_nomor($tangkap2)."114\n".
+tambah_nomor($tangkap2)."224\n".
+tambah_nomor($tangkap2)."334\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."441\n".
+tambah_nomor($tangkap2)."442\n".
+tambah_nomor($tangkap2)."443\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."445\n".
+tambah_nomor($tangkap2)."554\n".
+tambah_nomor($tangkap2)."444\n".
+tambah_nomor($tangkap2)."1234\n".
+tambah_nomor($tangkap2)."4321\n".
+tambah_nomor($tangkap2)."5\n".
+tambah_nomor($tangkap2)."55\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."5555\n".
+tambah_nomor($tangkap2)."55555\n".
+tambah_nomor($tangkap2)."51\n".
+tambah_nomor($tangkap2)."52\n".
+tambah_nomor($tangkap2)."53\n".
+tambah_nomor($tangkap2)."54\n".
+tambah_nomor($tangkap2)."55\n".
+tambah_nomor($tangkap2)."511\n".
+tambah_nomor($tangkap2)."522\n".
+tambah_nomor($tangkap2)."533\n".
+tambah_nomor($tangkap2)."544\n".
+tambah_nomor($tangkap2)."655\n".
+tambah_nomor($tangkap2)."515\n".
+tambah_nomor($tangkap2)."525\n".
+tambah_nomor($tangkap2)."535\n".
+tambah_nomor($tangkap2)."545\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."115\n".
+tambah_nomor($tangkap2)."225\n".
+tambah_nomor($tangkap2)."335\n".
+tambah_nomor($tangkap2)."445\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."551\n".
+tambah_nomor($tangkap2)."552\n".
+tambah_nomor($tangkap2)."553\n".
+tambah_nomor($tangkap2)."554\n".
+tambah_nomor($tangkap2)."555\n".
+tambah_nomor($tangkap2)."345\n".
+tambah_nomor($tangkap2)."12345\n".
+tambah_nomor($tangkap2)."54321\n".
+tambah_nomor($tangkap2)."6\n".
+tambah_nomor($tangkap2)."66\n".
+tambah_nomor($tangkap2)."666\n".
+tambah_nomor($tangkap2)."6666\n".
+tambah_nomor($tangkap2)."66666\n".
+tambah_nomor($tangkap2)."61\n".
+tambah_nomor($tangkap2)."62\n".
+tambah_nomor($tangkap2)."63\n".
+tambah_nomor($tangkap2)."64\n".
+tambah_nomor($tangkap2)."65\n".
+tambah_nomor($tangkap2)."611\n".
+tambah_nomor($tangkap2)."622\n".
+tambah_nomor($tangkap2)."633\n".
+tambah_nomor($tangkap2)."644\n".
+tambah_nomor($tangkap2)."655\n".
+tambah_nomor($tangkap2)."616\n".
+tambah_nomor($tangkap2)."626\n".
+tambah_nomor($tangkap2)."636\n".
+tambah_nomor($tangkap2)."646\n".
+tambah_nomor($tangkap2)."656\n".
+tambah_nomor($tangkap2)."116\n".
+tambah_nomor($tangkap2)."226\n".
+tambah_nomor($tangkap2)."336\n".
+tambah_nomor($tangkap2)."446\n".
+tambah_nomor($tangkap2)."556\n".
+tambah_nomor($tangkap2)."661\n".
+tambah_nomor($tangkap2)."662\n".
+tambah_nomor($tangkap2)."663\n".
+tambah_nomor($tangkap2)."664\n".
+tambah_nomor($tangkap2)."665\n".
+tambah_nomor($tangkap2)."456\n".
+tambah_nomor($tangkap2)."123456\n".
+tambah_nomor($tangkap2)."654321\n".
+tambah_nomor($tangkap2)."7\n".
+tambah_nomor($tangkap2)."77\n".
+tambah_nomor($tangkap2)."777\n".
+tambah_nomor($tangkap2)."7777\n".
+tambah_nomor($tangkap2)."77777\n".
+tambah_nomor($tangkap2)."71\n".
+tambah_nomor($tangkap2)."72\n".
+tambah_nomor($tangkap2)."73\n".
+tambah_nomor($tangkap2)."74\n".
+tambah_nomor($tangkap2)."75\n".
+tambah_nomor($tangkap2)."711\n".
+tambah_nomor($tangkap2)."722\n".
+tambah_nomor($tangkap2)."733\n".
+tambah_nomor($tangkap2)."744\n".
+tambah_nomor($tangkap2)."755\n".
+tambah_nomor($tangkap2)."717\n".
+tambah_nomor($tangkap2)."727\n".
+tambah_nomor($tangkap2)."737\n".
+tambah_nomor($tangkap2)."747\n".
+tambah_nomor($tangkap2)."757\n".
+tambah_nomor($tangkap2)."117\n".
+tambah_nomor($tangkap2)."227\n".
+tambah_nomor($tangkap2)."337\n".
+tambah_nomor($tangkap2)."447\n".
+tambah_nomor($tangkap2)."557\n".
+tambah_nomor($tangkap2)."771\n".
+tambah_nomor($tangkap2)."772\n".
+tambah_nomor($tangkap2)."773\n".
+tambah_nomor($tangkap2)."774\n".
+tambah_nomor($tangkap2)."775\n".
+tambah_nomor($tangkap2)."457\n".
+tambah_nomor($tangkap2)."1234567\n".
+tambah_nomor($tangkap2)."7654321\n".
+tambah_nomor($tangkap2)."8\n".
+tambah_nomor($tangkap2)."88\n".
+tambah_nomor($tangkap2)."888\n".
+tambah_nomor($tangkap2)."8888\n".
+tambah_nomor($tangkap2)."88888\n".
+tambah_nomor($tangkap2)."81\n".
+tambah_nomor($tangkap2)."82\n".
+tambah_nomor($tangkap2)."83\n".
+tambah_nomor($tangkap2)."84\n".
+tambah_nomor($tangkap2)."85\n".
+tambah_nomor($tangkap2)."811\n".
+tambah_nomor($tangkap2)."822\n".
+tambah_nomor($tangkap2)."833\n".
+tambah_nomor($tangkap2)."844\n".
+tambah_nomor($tangkap2)."855\n".
+tambah_nomor($tangkap2)."818\n".
+tambah_nomor($tangkap2)."828\n".
+tambah_nomor($tangkap2)."838\n".
+tambah_nomor($tangkap2)."848\n".
+tambah_nomor($tangkap2)."858\n".
+tambah_nomor($tangkap2)."118\n".
+tambah_nomor($tangkap2)."228\n".
+tambah_nomor($tangkap2)."338\n".
+tambah_nomor($tangkap2)."448\n".
+tambah_nomor($tangkap2)."558\n".
+tambah_nomor($tangkap2)."881\n".
+tambah_nomor($tangkap2)."882\n".
+tambah_nomor($tangkap2)."883\n".
+tambah_nomor($tangkap2)."884\n".
+tambah_nomor($tangkap2)."885\n".
+tambah_nomor($tangkap2)."458\n".
+tambah_nomor($tangkap2)."12345678\n".
+tambah_nomor($tangkap2)."87654321\n".
+tambah_nomor($tangkap2)."9\n".
+tambah_nomor($tangkap2)."99\n".
+tambah_nomor($tangkap2)."999\n".
+tambah_nomor($tangkap2)."9999\n".
+tambah_nomor($tangkap2)."99999\n".
+tambah_nomor($tangkap2)."91\n".
+tambah_nomor($tangkap2)."92\n".
+tambah_nomor($tangkap2)."93\n".
+tambah_nomor($tangkap2)."94\n".
+tambah_nomor($tangkap2)."95\n".
+tambah_nomor($tangkap2)."911\n".
+tambah_nomor($tangkap2)."922\n".
+tambah_nomor($tangkap2)."933\n".
+tambah_nomor($tangkap2)."944\n".
+tambah_nomor($tangkap2)."955\n".
+tambah_nomor($tangkap2)."919\n".
+tambah_nomor($tangkap2)."929\n".
+tambah_nomor($tangkap2)."939\n".
+tambah_nomor($tangkap2)."949\n".
+tambah_nomor($tangkap2)."959\n".
+tambah_nomor($tangkap2)."119\n".
+tambah_nomor($tangkap2)."229\n".
+tambah_nomor($tangkap2)."339\n".
+tambah_nomor($tangkap2)."449\n".
+tambah_nomor($tangkap2)."559\n".
+tambah_nomor($tangkap2)."991\n".
+tambah_nomor($tangkap2)."992\n".
+tambah_nomor($tangkap2)."993\n".
+tambah_nomor($tangkap2)."994\n".
+tambah_nomor($tangkap2)."995\n".
+tambah_nomor($tangkap2)."459\n".
+tambah_nomor($tangkap2)."12345678\n".
+tambah_nomor($tangkap2)."987654321\n".
+tambah_nomor($tangkap2)."0\n".
+tambah_nomor($tangkap2)."00\n".
+tambah_nomor($tangkap2)."000\n".
+tambah_nomor($tangkap2)."0000\n".
+tambah_nomor($tangkap2)."00000\n".
+tambah_nomor($tangkap2)."01\n".
+tambah_nomor($tangkap2)."02\n".
+tambah_nomor($tangkap2)."03\n".
+tambah_nomor($tangkap2)."04\n".
+tambah_nomor($tangkap2)."05\n".
+tambah_nomor($tangkap2)."011\n".
+tambah_nomor($tangkap2)."022\n".
+tambah_nomor($tangkap2)."033\n".
+tambah_nomor($tangkap2)."044\n".
+tambah_nomor($tangkap2)."055\n".
+tambah_nomor($tangkap2)."010\n".
+tambah_nomor($tangkap2)."020\n".
+tambah_nomor($tangkap2)."030\n".
+tambah_nomor($tangkap2)."040\n".
+tambah_nomor($tangkap2)."050\n".
+tambah_nomor($tangkap2)."110\n".
+tambah_nomor($tangkap2)."220\n".
+tambah_nomor($tangkap2)."330\n".
+tambah_nomor($tangkap2)."440\n".
+tambah_nomor($tangkap2)."550\n".
+tambah_nomor($tangkap2)."001\n".
+tambah_nomor($tangkap2)."002\n".
+tambah_nomor($tangkap2)."003\n".
+tambah_nomor($tangkap2)."004\n".
+tambah_nomor($tangkap2)."005\n".
+tambah_nomor($tangkap2)."450\n".
+tambah_nomor($tangkap2)."1234567890\n".
+
+tambah_nomor($tangkap3)."1\n".
+tambah_nomor($tangkap3)."11\n".
+tambah_nomor($tangkap3)."111\n".
+tambah_nomor($tangkap3)."1111\n".
+tambah_nomor($tangkap3)."11111\n".
+tambah_nomor($tangkap3)."2\n".
+tambah_nomor($tangkap3)."22\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."2222\n".
+tambah_nomor($tangkap3)."22222\n".
+tambah_nomor($tangkap3)."21\n".
+tambah_nomor($tangkap3)."22\n".
+tambah_nomor($tangkap3)."23\n".
+tambah_nomor($tangkap3)."24\n".
+tambah_nomor($tangkap3)."25\n".
+tambah_nomor($tangkap3)."26\n".
+tambah_nomor($tangkap3)."27\n".
+tambah_nomor($tangkap3)."28\n".
+tambah_nomor($tangkap3)."29\n".
+tambah_nomor($tangkap3)."211\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."233\n".
+tambah_nomor($tangkap3)."244\n".
+tambah_nomor($tangkap3)."255\n".
+tambah_nomor($tangkap3)."212\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."232\n".
+tambah_nomor($tangkap3)."242\n".
+tambah_nomor($tangkap3)."252\n".
+tambah_nomor($tangkap3)."112\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."332\n".
+tambah_nomor($tangkap3)."442\n".
+tambah_nomor($tangkap3)."552\n".
+tambah_nomor($tangkap3)."221\n".
+tambah_nomor($tangkap3)."222\n".
+tambah_nomor($tangkap3)."223\n".
+tambah_nomor($tangkap3)."224\n".
+tambah_nomor($tangkap3)."225\n".
+tambah_nomor($tangkap3)."452\n".
+tambah_nomor($tangkap3)."12\n".
+tambah_nomor($tangkap3)."21\n".
+tambah_nomor($tangkap3)."3\n".
+tambah_nomor($tangkap3)."33\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."3333\n".
+tambah_nomor($tangkap3)."33333\n".
+tambah_nomor($tangkap3)."31\n".
+tambah_nomor($tangkap3)."32\n".
+tambah_nomor($tangkap3)."33\n".
+tambah_nomor($tangkap3)."34\n".
+tambah_nomor($tangkap3)."35\n".
+tambah_nomor($tangkap3)."311\n".
+tambah_nomor($tangkap3)."322\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."344\n".
+tambah_nomor($tangkap3)."355\n".
+tambah_nomor($tangkap3)."313\n".
+tambah_nomor($tangkap3)."323\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."343\n".
+tambah_nomor($tangkap3)."353\n".
+tambah_nomor($tangkap3)."113\n".
+tambah_nomor($tangkap3)."223\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."443\n".
+tambah_nomor($tangkap3)."553\n".
+tambah_nomor($tangkap3)."331\n".
+tambah_nomor($tangkap3)."332\n".
+tambah_nomor($tangkap3)."333\n".
+tambah_nomor($tangkap3)."334\n".
+tambah_nomor($tangkap3)."335\n".
+tambah_nomor($tangkap3)."453\n".
+tambah_nomor($tangkap3)."123\n".
+tambah_nomor($tangkap3)."321\n".
+tambah_nomor($tangkap3)."4\n".
+tambah_nomor($tangkap3)."44\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."4444\n".
+tambah_nomor($tangkap3)."44444\n".
+tambah_nomor($tangkap3)."41\n".
+tambah_nomor($tangkap3)."42\n".
+tambah_nomor($tangkap3)."43\n".
+tambah_nomor($tangkap3)."44\n".
+tambah_nomor($tangkap3)."45\n".
+tambah_nomor($tangkap3)."411\n".
+tambah_nomor($tangkap3)."422\n".
+tambah_nomor($tangkap3)."433\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."455\n".
+tambah_nomor($tangkap3)."414\n".
+tambah_nomor($tangkap3)."424\n".
+tambah_nomor($tangkap3)."434\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."454\n".
+tambah_nomor($tangkap3)."114\n".
+tambah_nomor($tangkap3)."224\n".
+tambah_nomor($tangkap3)."334\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."441\n".
+tambah_nomor($tangkap3)."442\n".
+tambah_nomor($tangkap3)."443\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."445\n".
+tambah_nomor($tangkap3)."554\n".
+tambah_nomor($tangkap3)."444\n".
+tambah_nomor($tangkap3)."1234\n".
+tambah_nomor($tangkap3)."4321\n".
+tambah_nomor($tangkap3)."5\n".
+tambah_nomor($tangkap3)."55\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."5555\n".
+tambah_nomor($tangkap3)."55555\n".
+tambah_nomor($tangkap3)."51\n".
+tambah_nomor($tangkap3)."52\n".
+tambah_nomor($tangkap3)."53\n".
+tambah_nomor($tangkap3)."54\n".
+tambah_nomor($tangkap3)."55\n".
+tambah_nomor($tangkap3)."511\n".
+tambah_nomor($tangkap3)."522\n".
+tambah_nomor($tangkap3)."533\n".
+tambah_nomor($tangkap3)."544\n".
+tambah_nomor($tangkap3)."655\n".
+tambah_nomor($tangkap3)."515\n".
+tambah_nomor($tangkap3)."525\n".
+tambah_nomor($tangkap3)."535\n".
+tambah_nomor($tangkap3)."545\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."115\n".
+tambah_nomor($tangkap3)."225\n".
+tambah_nomor($tangkap3)."335\n".
+tambah_nomor($tangkap3)."445\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."551\n".
+tambah_nomor($tangkap3)."552\n".
+tambah_nomor($tangkap3)."553\n".
+tambah_nomor($tangkap3)."554\n".
+tambah_nomor($tangkap3)."555\n".
+tambah_nomor($tangkap3)."345\n".
+tambah_nomor($tangkap3)."12345\n".
+tambah_nomor($tangkap3)."54321\n".
+tambah_nomor($tangkap3)."6\n".
+tambah_nomor($tangkap3)."66\n".
+tambah_nomor($tangkap3)."666\n".
+tambah_nomor($tangkap3)."6666\n".
+tambah_nomor($tangkap3)."66666\n".
+tambah_nomor($tangkap3)."61\n".
+tambah_nomor($tangkap3)."62\n".
+tambah_nomor($tangkap3)."63\n".
+tambah_nomor($tangkap3)."64\n".
+tambah_nomor($tangkap3)."65\n".
+tambah_nomor($tangkap3)."611\n".
+tambah_nomor($tangkap3)."622\n".
+tambah_nomor($tangkap3)."633\n".
+tambah_nomor($tangkap3)."644\n".
+tambah_nomor($tangkap3)."655\n".
+tambah_nomor($tangkap3)."616\n".
+tambah_nomor($tangkap3)."626\n".
+tambah_nomor($tangkap3)."636\n".
+tambah_nomor($tangkap3)."646\n".
+tambah_nomor($tangkap3)."656\n".
+tambah_nomor($tangkap3)."116\n".
+tambah_nomor($tangkap3)."226\n".
+tambah_nomor($tangkap3)."336\n".
+tambah_nomor($tangkap3)."446\n".
+tambah_nomor($tangkap3)."556\n".
+tambah_nomor($tangkap3)."661\n".
+tambah_nomor($tangkap3)."662\n".
+tambah_nomor($tangkap3)."663\n".
+tambah_nomor($tangkap3)."664\n".
+tambah_nomor($tangkap3)."665\n".
+tambah_nomor($tangkap3)."456\n".
+tambah_nomor($tangkap3)."123456\n".
+tambah_nomor($tangkap3)."654321\n".
+tambah_nomor($tangkap3)."7\n".
+tambah_nomor($tangkap3)."77\n".
+tambah_nomor($tangkap3)."777\n".
+tambah_nomor($tangkap3)."7777\n".
+tambah_nomor($tangkap3)."77777\n".
+tambah_nomor($tangkap3)."71\n".
+tambah_nomor($tangkap3)."72\n".
+tambah_nomor($tangkap3)."73\n".
+tambah_nomor($tangkap3)."74\n".
+tambah_nomor($tangkap3)."75\n".
+tambah_nomor($tangkap3)."711\n".
+tambah_nomor($tangkap3)."722\n".
+tambah_nomor($tangkap3)."733\n".
+tambah_nomor($tangkap3)."744\n".
+tambah_nomor($tangkap3)."755\n".
+tambah_nomor($tangkap3)."717\n".
+tambah_nomor($tangkap3)."727\n".
+tambah_nomor($tangkap3)."737\n".
+tambah_nomor($tangkap3)."747\n".
+tambah_nomor($tangkap3)."757\n".
+tambah_nomor($tangkap3)."117\n".
+tambah_nomor($tangkap3)."227\n".
+tambah_nomor($tangkap3)."337\n".
+tambah_nomor($tangkap3)."447\n".
+tambah_nomor($tangkap3)."557\n".
+tambah_nomor($tangkap3)."771\n".
+tambah_nomor($tangkap3)."772\n".
+tambah_nomor($tangkap3)."773\n".
+tambah_nomor($tangkap3)."774\n".
+tambah_nomor($tangkap3)."775\n".
+tambah_nomor($tangkap3)."457\n".
+tambah_nomor($tangkap3)."1234567\n".
+tambah_nomor($tangkap3)."7654321\n".
+tambah_nomor($tangkap3)."8\n".
+tambah_nomor($tangkap3)."88\n".
+tambah_nomor($tangkap3)."888\n".
+tambah_nomor($tangkap3)."8888\n".
+tambah_nomor($tangkap3)."88888\n".
+tambah_nomor($tangkap3)."81\n".
+tambah_nomor($tangkap3)."82\n".
+tambah_nomor($tangkap3)."83\n".
+tambah_nomor($tangkap3)."84\n".
+tambah_nomor($tangkap3)."85\n".
+tambah_nomor($tangkap3)."811\n".
+tambah_nomor($tangkap3)."822\n".
+tambah_nomor($tangkap3)."833\n".
+tambah_nomor($tangkap3)."844\n".
+tambah_nomor($tangkap3)."855\n".
+tambah_nomor($tangkap3)."818\n".
+tambah_nomor($tangkap3)."828\n".
+tambah_nomor($tangkap3)."838\n".
+tambah_nomor($tangkap3)."848\n".
+tambah_nomor($tangkap3)."858\n".
+tambah_nomor($tangkap3)."118\n".
+tambah_nomor($tangkap3)."228\n".
+tambah_nomor($tangkap3)."338\n".
+tambah_nomor($tangkap3)."448\n".
+tambah_nomor($tangkap3)."558\n".
+tambah_nomor($tangkap3)."881\n".
+tambah_nomor($tangkap3)."882\n".
+tambah_nomor($tangkap3)."883\n".
+tambah_nomor($tangkap3)."884\n".
+tambah_nomor($tangkap3)."885\n".
+tambah_nomor($tangkap3)."458\n".
+tambah_nomor($tangkap3)."12345678\n".
+tambah_nomor($tangkap3)."87654321\n".
+tambah_nomor($tangkap3)."9\n".
+tambah_nomor($tangkap3)."99\n".
+tambah_nomor($tangkap3)."999\n".
+tambah_nomor($tangkap3)."9999\n".
+tambah_nomor($tangkap3)."99999\n".
+tambah_nomor($tangkap3)."91\n".
+tambah_nomor($tangkap3)."92\n".
+tambah_nomor($tangkap3)."93\n".
+tambah_nomor($tangkap3)."94\n".
+tambah_nomor($tangkap3)."95\n".
+tambah_nomor($tangkap3)."911\n".
+tambah_nomor($tangkap3)."922\n".
+tambah_nomor($tangkap3)."933\n".
+tambah_nomor($tangkap3)."944\n".
+tambah_nomor($tangkap3)."955\n".
+tambah_nomor($tangkap3)."919\n".
+tambah_nomor($tangkap3)."929\n".
+tambah_nomor($tangkap3)."939\n".
+tambah_nomor($tangkap3)."949\n".
+tambah_nomor($tangkap3)."959\n".
+tambah_nomor($tangkap3)."119\n".
+tambah_nomor($tangkap3)."229\n".
+tambah_nomor($tangkap3)."339\n".
+tambah_nomor($tangkap3)."449\n".
+tambah_nomor($tangkap3)."559\n".
+tambah_nomor($tangkap3)."991\n".
+tambah_nomor($tangkap3)."992\n".
+tambah_nomor($tangkap3)."993\n".
+tambah_nomor($tangkap3)."994\n".
+tambah_nomor($tangkap3)."995\n".
+tambah_nomor($tangkap3)."459\n".
+tambah_nomor($tangkap3)."12345678\n".
+tambah_nomor($tangkap3)."987654321\n".
+tambah_nomor($tangkap3)."0\n".
+tambah_nomor($tangkap3)."00\n".
+tambah_nomor($tangkap3)."000\n".
+tambah_nomor($tangkap3)."0000\n".
+tambah_nomor($tangkap3)."00000\n".
+tambah_nomor($tangkap3)."01\n".
+tambah_nomor($tangkap3)."02\n".
+tambah_nomor($tangkap3)."03\n".
+tambah_nomor($tangkap3)."04\n".
+tambah_nomor($tangkap3)."05\n".
+tambah_nomor($tangkap3)."011\n".
+tambah_nomor($tangkap3)."022\n".
+tambah_nomor($tangkap3)."033\n".
+tambah_nomor($tangkap3)."044\n".
+tambah_nomor($tangkap3)."055\n".
+tambah_nomor($tangkap3)."010\n".
+tambah_nomor($tangkap3)."020\n".
+tambah_nomor($tangkap3)."030\n".
+tambah_nomor($tangkap3)."040\n".
+tambah_nomor($tangkap3)."050\n".
+tambah_nomor($tangkap3)."110\n".
+tambah_nomor($tangkap3)."220\n".
+tambah_nomor($tangkap3)."330\n".
+tambah_nomor($tangkap3)."440\n".
+tambah_nomor($tangkap3)."550\n".
+tambah_nomor($tangkap3)."001\n".
+tambah_nomor($tangkap3)."002\n".
+tambah_nomor($tangkap3)."003\n".
+tambah_nomor($tangkap3)."004\n".
+tambah_nomor($tangkap3)."005\n".
+tambah_nomor($tangkap3)."450\n".
+tambah_nomor($tangkap3)."1234567890\n".
+
+tambah_nomor($tangkap9)."1\n".
+tambah_nomor($tangkap9)."11\n".
+tambah_nomor($tangkap9)."111\n".
+tambah_nomor($tangkap9)."1111\n".
+tambah_nomor($tangkap9)."11111\n".
+tambah_nomor($tangkap9)."2\n".
+tambah_nomor($tangkap9)."22\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."2222\n".
+tambah_nomor($tangkap9)."22222\n".
+tambah_nomor($tangkap9)."21\n".
+tambah_nomor($tangkap9)."22\n".
+tambah_nomor($tangkap9)."23\n".
+tambah_nomor($tangkap9)."24\n".
+tambah_nomor($tangkap9)."25\n".
+tambah_nomor($tangkap9)."26\n".
+tambah_nomor($tangkap9)."27\n".
+tambah_nomor($tangkap9)."28\n".
+tambah_nomor($tangkap9)."29\n".
+tambah_nomor($tangkap9)."211\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."233\n".
+tambah_nomor($tangkap9)."244\n".
+tambah_nomor($tangkap9)."255\n".
+tambah_nomor($tangkap9)."212\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."232\n".
+tambah_nomor($tangkap9)."242\n".
+tambah_nomor($tangkap9)."252\n".
+tambah_nomor($tangkap9)."112\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."332\n".
+tambah_nomor($tangkap9)."442\n".
+tambah_nomor($tangkap9)."552\n".
+tambah_nomor($tangkap9)."221\n".
+tambah_nomor($tangkap9)."222\n".
+tambah_nomor($tangkap9)."223\n".
+tambah_nomor($tangkap9)."224\n".
+tambah_nomor($tangkap9)."225\n".
+tambah_nomor($tangkap9)."452\n".
+tambah_nomor($tangkap9)."12\n".
+tambah_nomor($tangkap9)."21\n".
+tambah_nomor($tangkap9)."3\n".
+tambah_nomor($tangkap9)."33\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."3333\n".
+tambah_nomor($tangkap9)."33333\n".
+tambah_nomor($tangkap9)."31\n".
+tambah_nomor($tangkap9)."32\n".
+tambah_nomor($tangkap9)."33\n".
+tambah_nomor($tangkap9)."34\n".
+tambah_nomor($tangkap9)."35\n".
+tambah_nomor($tangkap9)."311\n".
+tambah_nomor($tangkap9)."322\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."344\n".
+tambah_nomor($tangkap9)."355\n".
+tambah_nomor($tangkap9)."313\n".
+tambah_nomor($tangkap9)."323\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."343\n".
+tambah_nomor($tangkap9)."353\n".
+tambah_nomor($tangkap9)."113\n".
+tambah_nomor($tangkap9)."223\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."443\n".
+tambah_nomor($tangkap9)."553\n".
+tambah_nomor($tangkap9)."331\n".
+tambah_nomor($tangkap9)."332\n".
+tambah_nomor($tangkap9)."333\n".
+tambah_nomor($tangkap9)."334\n".
+tambah_nomor($tangkap9)."335\n".
+tambah_nomor($tangkap9)."453\n".
+tambah_nomor($tangkap9)."123\n".
+tambah_nomor($tangkap9)."321\n".
+tambah_nomor($tangkap9)."4\n".
+tambah_nomor($tangkap9)."44\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."4444\n".
+tambah_nomor($tangkap9)."44444\n".
+tambah_nomor($tangkap9)."41\n".
+tambah_nomor($tangkap9)."42\n".
+tambah_nomor($tangkap9)."43\n".
+tambah_nomor($tangkap9)."44\n".
+tambah_nomor($tangkap9)."45\n".
+tambah_nomor($tangkap9)."411\n".
+tambah_nomor($tangkap9)."422\n".
+tambah_nomor($tangkap9)."433\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."455\n".
+tambah_nomor($tangkap9)."414\n".
+tambah_nomor($tangkap9)."424\n".
+tambah_nomor($tangkap9)."434\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."454\n".
+tambah_nomor($tangkap9)."114\n".
+tambah_nomor($tangkap9)."224\n".
+tambah_nomor($tangkap9)."334\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."441\n".
+tambah_nomor($tangkap9)."442\n".
+tambah_nomor($tangkap9)."443\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."445\n".
+tambah_nomor($tangkap9)."554\n".
+tambah_nomor($tangkap9)."444\n".
+tambah_nomor($tangkap9)."1234\n".
+tambah_nomor($tangkap9)."4321\n".
+tambah_nomor($tangkap9)."5\n".
+tambah_nomor($tangkap9)."55\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."5555\n".
+tambah_nomor($tangkap9)."55555\n".
+tambah_nomor($tangkap9)."51\n".
+tambah_nomor($tangkap9)."52\n".
+tambah_nomor($tangkap9)."53\n".
+tambah_nomor($tangkap9)."54\n".
+tambah_nomor($tangkap9)."55\n".
+tambah_nomor($tangkap9)."511\n".
+tambah_nomor($tangkap9)."522\n".
+tambah_nomor($tangkap9)."533\n".
+tambah_nomor($tangkap9)."544\n".
+tambah_nomor($tangkap9)."655\n".
+tambah_nomor($tangkap9)."515\n".
+tambah_nomor($tangkap9)."525\n".
+tambah_nomor($tangkap9)."535\n".
+tambah_nomor($tangkap9)."545\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."115\n".
+tambah_nomor($tangkap9)."225\n".
+tambah_nomor($tangkap9)."335\n".
+tambah_nomor($tangkap9)."445\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."551\n".
+tambah_nomor($tangkap9)."552\n".
+tambah_nomor($tangkap9)."553\n".
+tambah_nomor($tangkap9)."554\n".
+tambah_nomor($tangkap9)."555\n".
+tambah_nomor($tangkap9)."345\n".
+tambah_nomor($tangkap9)."12345\n".
+tambah_nomor($tangkap9)."54321\n".
+tambah_nomor($tangkap9)."6\n".
+tambah_nomor($tangkap9)."66\n".
+tambah_nomor($tangkap9)."666\n".
+tambah_nomor($tangkap9)."6666\n".
+tambah_nomor($tangkap9)."66666\n".
+tambah_nomor($tangkap9)."61\n".
+tambah_nomor($tangkap9)."62\n".
+tambah_nomor($tangkap9)."63\n".
+tambah_nomor($tangkap9)."64\n".
+tambah_nomor($tangkap9)."65\n".
+tambah_nomor($tangkap9)."611\n".
+tambah_nomor($tangkap9)."622\n".
+tambah_nomor($tangkap9)."633\n".
+tambah_nomor($tangkap9)."644\n".
+tambah_nomor($tangkap9)."655\n".
+tambah_nomor($tangkap9)."616\n".
+tambah_nomor($tangkap9)."626\n".
+tambah_nomor($tangkap9)."636\n".
+tambah_nomor($tangkap9)."646\n".
+tambah_nomor($tangkap9)."656\n".
+tambah_nomor($tangkap9)."116\n".
+tambah_nomor($tangkap9)."226\n".
+tambah_nomor($tangkap9)."336\n".
+tambah_nomor($tangkap9)."446\n".
+tambah_nomor($tangkap9)."556\n".
+tambah_nomor($tangkap9)."661\n".
+tambah_nomor($tangkap9)."662\n".
+tambah_nomor($tangkap9)."663\n".
+tambah_nomor($tangkap9)."664\n".
+tambah_nomor($tangkap9)."665\n".
+tambah_nomor($tangkap9)."456\n".
+tambah_nomor($tangkap9)."123456\n".
+tambah_nomor($tangkap9)."654321\n".
+tambah_nomor($tangkap9)."7\n".
+tambah_nomor($tangkap9)."77\n".
+tambah_nomor($tangkap9)."777\n".
+tambah_nomor($tangkap9)."7777\n".
+tambah_nomor($tangkap9)."77777\n".
+tambah_nomor($tangkap9)."71\n".
+tambah_nomor($tangkap9)."72\n".
+tambah_nomor($tangkap9)."73\n".
+tambah_nomor($tangkap9)."74\n".
+tambah_nomor($tangkap9)."75\n".
+tambah_nomor($tangkap9)."711\n".
+tambah_nomor($tangkap9)."722\n".
+tambah_nomor($tangkap9)."733\n".
+tambah_nomor($tangkap9)."744\n".
+tambah_nomor($tangkap9)."755\n".
+tambah_nomor($tangkap9)."717\n".
+tambah_nomor($tangkap9)."727\n".
+tambah_nomor($tangkap9)."737\n".
+tambah_nomor($tangkap9)."747\n".
+tambah_nomor($tangkap9)."757\n".
+tambah_nomor($tangkap9)."117\n".
+tambah_nomor($tangkap9)."227\n".
+tambah_nomor($tangkap9)."337\n".
+tambah_nomor($tangkap9)."447\n".
+tambah_nomor($tangkap9)."557\n".
+tambah_nomor($tangkap9)."771\n".
+tambah_nomor($tangkap9)."772\n".
+tambah_nomor($tangkap9)."773\n".
+tambah_nomor($tangkap9)."774\n".
+tambah_nomor($tangkap9)."775\n".
+tambah_nomor($tangkap9)."457\n".
+tambah_nomor($tangkap9)."1234567\n".
+tambah_nomor($tangkap9)."7654321\n".
+tambah_nomor($tangkap9)."8\n".
+tambah_nomor($tangkap9)."88\n".
+tambah_nomor($tangkap9)."888\n".
+tambah_nomor($tangkap9)."8888\n".
+tambah_nomor($tangkap9)."88888\n".
+tambah_nomor($tangkap9)."81\n".
+tambah_nomor($tangkap9)."82\n".
+tambah_nomor($tangkap9)."83\n".
+tambah_nomor($tangkap9)."84\n".
+tambah_nomor($tangkap9)."85\n".
+tambah_nomor($tangkap9)."811\n".
+tambah_nomor($tangkap9)."822\n".
+tambah_nomor($tangkap9)."833\n".
+tambah_nomor($tangkap9)."844\n".
+tambah_nomor($tangkap9)."855\n".
+tambah_nomor($tangkap9)."818\n".
+tambah_nomor($tangkap9)."828\n".
+tambah_nomor($tangkap9)."838\n".
+tambah_nomor($tangkap9)."848\n".
+tambah_nomor($tangkap9)."858\n".
+tambah_nomor($tangkap9)."118\n".
+tambah_nomor($tangkap9)."228\n".
+tambah_nomor($tangkap9)."338\n".
+tambah_nomor($tangkap9)."448\n".
+tambah_nomor($tangkap9)."558\n".
+tambah_nomor($tangkap9)."881\n".
+tambah_nomor($tangkap9)."882\n".
+tambah_nomor($tangkap9)."883\n".
+tambah_nomor($tangkap9)."884\n".
+tambah_nomor($tangkap9)."885\n".
+tambah_nomor($tangkap9)."458\n".
+tambah_nomor($tangkap9)."12345678\n".
+tambah_nomor($tangkap9)."87654321\n".
+tambah_nomor($tangkap9)."9\n".
+tambah_nomor($tangkap9)."99\n".
+tambah_nomor($tangkap9)."999\n".
+tambah_nomor($tangkap9)."9999\n".
+tambah_nomor($tangkap9)."99999\n".
+tambah_nomor($tangkap9)."91\n".
+tambah_nomor($tangkap9)."92\n".
+tambah_nomor($tangkap9)."93\n".
+tambah_nomor($tangkap9)."94\n".
+tambah_nomor($tangkap9)."95\n".
+tambah_nomor($tangkap9)."911\n".
+tambah_nomor($tangkap9)."922\n".
+tambah_nomor($tangkap9)."933\n".
+tambah_nomor($tangkap9)."944\n".
+tambah_nomor($tangkap9)."955\n".
+tambah_nomor($tangkap9)."919\n".
+tambah_nomor($tangkap9)."929\n".
+tambah_nomor($tangkap9)."939\n".
+tambah_nomor($tangkap9)."949\n".
+tambah_nomor($tangkap9)."959\n".
+tambah_nomor($tangkap9)."119\n".
+tambah_nomor($tangkap9)."229\n".
+tambah_nomor($tangkap9)."339\n".
+tambah_nomor($tangkap9)."449\n".
+tambah_nomor($tangkap9)."559\n".
+tambah_nomor($tangkap9)."991\n".
+tambah_nomor($tangkap9)."992\n".
+tambah_nomor($tangkap9)."993\n".
+tambah_nomor($tangkap9)."994\n".
+tambah_nomor($tangkap9)."995\n".
+tambah_nomor($tangkap9)."459\n".
+tambah_nomor($tangkap9)."12345678\n".
+tambah_nomor($tangkap9)."987654321\n".
+tambah_nomor($tangkap9)."0\n".
+tambah_nomor($tangkap9)."00\n".
+tambah_nomor($tangkap9)."000\n".
+tambah_nomor($tangkap9)."0000\n".
+tambah_nomor($tangkap9)."00000\n".
+tambah_nomor($tangkap9)."01\n".
+tambah_nomor($tangkap9)."02\n".
+tambah_nomor($tangkap9)."03\n".
+tambah_nomor($tangkap9)."04\n".
+tambah_nomor($tangkap9)."05\n".
+tambah_nomor($tangkap9)."011\n".
+tambah_nomor($tangkap9)."022\n".
+tambah_nomor($tangkap9)."033\n".
+tambah_nomor($tangkap9)."044\n".
+tambah_nomor($tangkap9)."055\n".
+tambah_nomor($tangkap9)."010\n".
+tambah_nomor($tangkap9)."020\n".
+tambah_nomor($tangkap9)."030\n".
+tambah_nomor($tangkap9)."040\n".
+tambah_nomor($tangkap9)."050\n".
+tambah_nomor($tangkap9)."110\n".
+tambah_nomor($tangkap9)."220\n".
+tambah_nomor($tangkap9)."330\n".
+tambah_nomor($tangkap9)."440\n".
+tambah_nomor($tangkap9)."550\n".
+tambah_nomor($tangkap9)."001\n".
+tambah_nomor($tangkap9)."002\n".
+tambah_nomor($tangkap9)."003\n".
+tambah_nomor($tangkap9)."004\n".
+tambah_nomor($tangkap9)."005\n".
+tambah_nomor($tangkap9)."450\n".
+tambah_nomor($tangkap9)."1234567890\n".
+
+tambah_nomor($tangkap8)."1\n".
+tambah_nomor($tangkap8)."11\n".
+tambah_nomor($tangkap8)."111\n".
+tambah_nomor($tangkap8)."1111\n".
+tambah_nomor($tangkap8)."11111\n".
+tambah_nomor($tangkap8)."2\n".
+tambah_nomor($tangkap8)."22\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."2222\n".
+tambah_nomor($tangkap8)."22222\n".
+tambah_nomor($tangkap8)."21\n".
+tambah_nomor($tangkap8)."22\n".
+tambah_nomor($tangkap8)."23\n".
+tambah_nomor($tangkap8)."24\n".
+tambah_nomor($tangkap8)."25\n".
+tambah_nomor($tangkap8)."26\n".
+tambah_nomor($tangkap8)."27\n".
+tambah_nomor($tangkap8)."28\n".
+tambah_nomor($tangkap8)."29\n".
+tambah_nomor($tangkap8)."211\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."233\n".
+tambah_nomor($tangkap8)."244\n".
+tambah_nomor($tangkap8)."255\n".
+tambah_nomor($tangkap8)."212\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."232\n".
+tambah_nomor($tangkap8)."242\n".
+tambah_nomor($tangkap8)."252\n".
+tambah_nomor($tangkap8)."112\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."332\n".
+tambah_nomor($tangkap8)."442\n".
+tambah_nomor($tangkap8)."552\n".
+tambah_nomor($tangkap8)."221\n".
+tambah_nomor($tangkap8)."222\n".
+tambah_nomor($tangkap8)."223\n".
+tambah_nomor($tangkap8)."224\n".
+tambah_nomor($tangkap8)."225\n".
+tambah_nomor($tangkap8)."452\n".
+tambah_nomor($tangkap8)."12\n".
+tambah_nomor($tangkap8)."21\n".
+tambah_nomor($tangkap8)."3\n".
+tambah_nomor($tangkap8)."33\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."3333\n".
+tambah_nomor($tangkap8)."33333\n".
+tambah_nomor($tangkap8)."31\n".
+tambah_nomor($tangkap8)."32\n".
+tambah_nomor($tangkap8)."33\n".
+tambah_nomor($tangkap8)."34\n".
+tambah_nomor($tangkap8)."35\n".
+tambah_nomor($tangkap8)."311\n".
+tambah_nomor($tangkap8)."322\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."344\n".
+tambah_nomor($tangkap8)."355\n".
+tambah_nomor($tangkap8)."313\n".
+tambah_nomor($tangkap8)."323\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."343\n".
+tambah_nomor($tangkap8)."353\n".
+tambah_nomor($tangkap8)."113\n".
+tambah_nomor($tangkap8)."223\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."443\n".
+tambah_nomor($tangkap8)."553\n".
+tambah_nomor($tangkap8)."331\n".
+tambah_nomor($tangkap8)."332\n".
+tambah_nomor($tangkap8)."333\n".
+tambah_nomor($tangkap8)."334\n".
+tambah_nomor($tangkap8)."335\n".
+tambah_nomor($tangkap8)."453\n".
+tambah_nomor($tangkap8)."123\n".
+tambah_nomor($tangkap8)."321\n".
+tambah_nomor($tangkap8)."4\n".
+tambah_nomor($tangkap8)."44\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."4444\n".
+tambah_nomor($tangkap8)."44444\n".
+tambah_nomor($tangkap8)."41\n".
+tambah_nomor($tangkap8)."42\n".
+tambah_nomor($tangkap8)."43\n".
+tambah_nomor($tangkap8)."44\n".
+tambah_nomor($tangkap8)."45\n".
+tambah_nomor($tangkap8)."411\n".
+tambah_nomor($tangkap8)."422\n".
+tambah_nomor($tangkap8)."433\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."455\n".
+tambah_nomor($tangkap8)."414\n".
+tambah_nomor($tangkap8)."424\n".
+tambah_nomor($tangkap8)."434\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."454\n".
+tambah_nomor($tangkap8)."114\n".
+tambah_nomor($tangkap8)."224\n".
+tambah_nomor($tangkap8)."334\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."441\n".
+tambah_nomor($tangkap8)."442\n".
+tambah_nomor($tangkap8)."443\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."445\n".
+tambah_nomor($tangkap8)."554\n".
+tambah_nomor($tangkap8)."444\n".
+tambah_nomor($tangkap8)."1234\n".
+tambah_nomor($tangkap8)."4321\n".
+tambah_nomor($tangkap8)."5\n".
+tambah_nomor($tangkap8)."55\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."5555\n".
+tambah_nomor($tangkap8)."55555\n".
+tambah_nomor($tangkap8)."51\n".
+tambah_nomor($tangkap8)."52\n".
+tambah_nomor($tangkap8)."53\n".
+tambah_nomor($tangkap8)."54\n".
+tambah_nomor($tangkap8)."55\n".
+tambah_nomor($tangkap8)."511\n".
+tambah_nomor($tangkap8)."522\n".
+tambah_nomor($tangkap8)."533\n".
+tambah_nomor($tangkap8)."544\n".
+tambah_nomor($tangkap8)."655\n".
+tambah_nomor($tangkap8)."515\n".
+tambah_nomor($tangkap8)."525\n".
+tambah_nomor($tangkap8)."535\n".
+tambah_nomor($tangkap8)."545\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."115\n".
+tambah_nomor($tangkap8)."225\n".
+tambah_nomor($tangkap8)."335\n".
+tambah_nomor($tangkap8)."445\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."551\n".
+tambah_nomor($tangkap8)."552\n".
+tambah_nomor($tangkap8)."553\n".
+tambah_nomor($tangkap8)."554\n".
+tambah_nomor($tangkap8)."555\n".
+tambah_nomor($tangkap8)."345\n".
+tambah_nomor($tangkap8)."12345\n".
+tambah_nomor($tangkap8)."54321\n".
+tambah_nomor($tangkap8)."6\n".
+tambah_nomor($tangkap8)."66\n".
+tambah_nomor($tangkap8)."666\n".
+tambah_nomor($tangkap8)."6666\n".
+tambah_nomor($tangkap8)."66666\n".
+tambah_nomor($tangkap8)."61\n".
+tambah_nomor($tangkap8)."62\n".
+tambah_nomor($tangkap8)."63\n".
+tambah_nomor($tangkap8)."64\n".
+tambah_nomor($tangkap8)."65\n".
+tambah_nomor($tangkap8)."611\n".
+tambah_nomor($tangkap8)."622\n".
+tambah_nomor($tangkap8)."633\n".
+tambah_nomor($tangkap8)."644\n".
+tambah_nomor($tangkap8)."655\n".
+tambah_nomor($tangkap8)."616\n".
+tambah_nomor($tangkap8)."626\n".
+tambah_nomor($tangkap8)."636\n".
+tambah_nomor($tangkap8)."646\n".
+tambah_nomor($tangkap8)."656\n".
+tambah_nomor($tangkap8)."116\n".
+tambah_nomor($tangkap8)."226\n".
+tambah_nomor($tangkap8)."336\n".
+tambah_nomor($tangkap8)."446\n".
+tambah_nomor($tangkap8)."556\n".
+tambah_nomor($tangkap8)."661\n".
+tambah_nomor($tangkap8)."662\n".
+tambah_nomor($tangkap8)."663\n".
+tambah_nomor($tangkap8)."664\n".
+tambah_nomor($tangkap8)."665\n".
+tambah_nomor($tangkap8)."456\n".
+tambah_nomor($tangkap8)."123456\n".
+tambah_nomor($tangkap8)."654321\n".
+tambah_nomor($tangkap8)."7\n".
+tambah_nomor($tangkap8)."77\n".
+tambah_nomor($tangkap8)."777\n".
+tambah_nomor($tangkap8)."7777\n".
+tambah_nomor($tangkap8)."77777\n".
+tambah_nomor($tangkap8)."71\n".
+tambah_nomor($tangkap8)."72\n".
+tambah_nomor($tangkap8)."73\n".
+tambah_nomor($tangkap8)."74\n".
+tambah_nomor($tangkap8)."75\n".
+tambah_nomor($tangkap8)."711\n".
+tambah_nomor($tangkap8)."722\n".
+tambah_nomor($tangkap8)."733\n".
+tambah_nomor($tangkap8)."744\n".
+tambah_nomor($tangkap8)."755\n".
+tambah_nomor($tangkap8)."717\n".
+tambah_nomor($tangkap8)."727\n".
+tambah_nomor($tangkap8)."737\n".
+tambah_nomor($tangkap8)."747\n".
+tambah_nomor($tangkap8)."757\n".
+tambah_nomor($tangkap8)."117\n".
+tambah_nomor($tangkap8)."227\n".
+tambah_nomor($tangkap8)."337\n".
+tambah_nomor($tangkap8)."447\n".
+tambah_nomor($tangkap8)."557\n".
+tambah_nomor($tangkap8)."771\n".
+tambah_nomor($tangkap8)."772\n".
+tambah_nomor($tangkap8)."773\n".
+tambah_nomor($tangkap8)."774\n".
+tambah_nomor($tangkap8)."775\n".
+tambah_nomor($tangkap8)."457\n".
+tambah_nomor($tangkap8)."1234567\n".
+tambah_nomor($tangkap8)."7654321\n".
+tambah_nomor($tangkap8)."8\n".
+tambah_nomor($tangkap8)."88\n".
+tambah_nomor($tangkap8)."888\n".
+tambah_nomor($tangkap8)."8888\n".
+tambah_nomor($tangkap8)."88888\n".
+tambah_nomor($tangkap8)."81\n".
+tambah_nomor($tangkap8)."82\n".
+tambah_nomor($tangkap8)."83\n".
+tambah_nomor($tangkap8)."84\n".
+tambah_nomor($tangkap8)."85\n".
+tambah_nomor($tangkap8)."811\n".
+tambah_nomor($tangkap8)."822\n".
+tambah_nomor($tangkap8)."833\n".
+tambah_nomor($tangkap8)."844\n".
+tambah_nomor($tangkap8)."855\n".
+tambah_nomor($tangkap8)."818\n".
+tambah_nomor($tangkap8)."828\n".
+tambah_nomor($tangkap8)."838\n".
+tambah_nomor($tangkap8)."848\n".
+tambah_nomor($tangkap8)."858\n".
+tambah_nomor($tangkap8)."118\n".
+tambah_nomor($tangkap8)."228\n".
+tambah_nomor($tangkap8)."338\n".
+tambah_nomor($tangkap8)."448\n".
+tambah_nomor($tangkap8)."558\n".
+tambah_nomor($tangkap8)."881\n".
+tambah_nomor($tangkap8)."882\n".
+tambah_nomor($tangkap8)."883\n".
+tambah_nomor($tangkap8)."884\n".
+tambah_nomor($tangkap8)."885\n".
+tambah_nomor($tangkap8)."458\n".
+tambah_nomor($tangkap8)."12345678\n".
+tambah_nomor($tangkap8)."87654321\n".
+tambah_nomor($tangkap8)."9\n".
+tambah_nomor($tangkap8)."99\n".
+tambah_nomor($tangkap8)."999\n".
+tambah_nomor($tangkap8)."9999\n".
+tambah_nomor($tangkap8)."99999\n".
+tambah_nomor($tangkap8)."91\n".
+tambah_nomor($tangkap8)."92\n".
+tambah_nomor($tangkap8)."93\n".
+tambah_nomor($tangkap8)."94\n".
+tambah_nomor($tangkap8)."95\n".
+tambah_nomor($tangkap8)."911\n".
+tambah_nomor($tangkap8)."922\n".
+tambah_nomor($tangkap8)."933\n".
+tambah_nomor($tangkap8)."944\n".
+tambah_nomor($tangkap8)."955\n".
+tambah_nomor($tangkap8)."919\n".
+tambah_nomor($tangkap8)."929\n".
+tambah_nomor($tangkap8)."939\n".
+tambah_nomor($tangkap8)."949\n".
+tambah_nomor($tangkap8)."959\n".
+tambah_nomor($tangkap8)."119\n".
+tambah_nomor($tangkap8)."229\n".
+tambah_nomor($tangkap8)."339\n".
+tambah_nomor($tangkap8)."449\n".
+tambah_nomor($tangkap8)."559\n".
+tambah_nomor($tangkap8)."991\n".
+tambah_nomor($tangkap8)."992\n".
+tambah_nomor($tangkap8)."993\n".
+tambah_nomor($tangkap8)."994\n".
+tambah_nomor($tangkap8)."995\n".
+tambah_nomor($tangkap8)."459\n".
+tambah_nomor($tangkap8)."12345678\n".
+tambah_nomor($tangkap8)."987654321\n".
+tambah_nomor($tangkap8)."0\n".
+tambah_nomor($tangkap8)."00\n".
+tambah_nomor($tangkap8)."000\n".
+tambah_nomor($tangkap8)."0000\n".
+tambah_nomor($tangkap8)."00000\n".
+tambah_nomor($tangkap8)."01\n".
+tambah_nomor($tangkap8)."02\n".
+tambah_nomor($tangkap8)."03\n".
+tambah_nomor($tangkap8)."04\n".
+tambah_nomor($tangkap8)."05\n".
+tambah_nomor($tangkap8)."011\n".
+tambah_nomor($tangkap8)."022\n".
+tambah_nomor($tangkap8)."033\n".
+tambah_nomor($tangkap8)."044\n".
+tambah_nomor($tangkap8)."055\n".
+tambah_nomor($tangkap8)."010\n".
+tambah_nomor($tangkap8)."020\n".
+tambah_nomor($tangkap8)."030\n".
+tambah_nomor($tangkap8)."040\n".
+tambah_nomor($tangkap8)."050\n".
+tambah_nomor($tangkap8)."110\n".
+tambah_nomor($tangkap8)."220\n".
+tambah_nomor($tangkap8)."330\n".
+tambah_nomor($tangkap8)."440\n".
+tambah_nomor($tangkap8)."550\n".
+tambah_nomor($tangkap8)."001\n".
+tambah_nomor($tangkap8)."002\n".
+tambah_nomor($tangkap8)."003\n".
+tambah_nomor($tangkap8)."004\n".
+tambah_nomor($tangkap8)."005\n".
+tambah_nomor($tangkap8)."450\n".
+tambah_nomor($tangkap8)."1234567890\n".
+
+    tambah_karakter($tangkap1).". \n".
+    tambah_karakter($tangkap1).", \n".
+    tambah_karakter($tangkap1).": \n".
+    tambah_karakter($tangkap1)."; \n".
+    tambah_karakter($tangkap1)."' \n".
+    tambah_karakter($tangkap1)."- \n".
+    tambah_karakter($tangkap1)."_ \n".
+    tambah_karakter($tangkap1)."\ \n".
+    tambah_karakter($tangkap1)."+ \n".
+    tambah_karakter($tangkap1)."= \n".
+    tambah_karakter($tangkap1)."! \n".
+    tambah_karakter($tangkap1)."@ \n".
+    tambah_karakter($tangkap1)."# \n".
+    tambah_karakter($tangkap1)."$ \n".
+    tambah_karakter($tangkap1)."% \n".
+    tambah_karakter($tangkap1)."^ \n".
+    tambah_karakter($tangkap1)."& \n".
+    tambah_karakter($tangkap1)."* \n".
+    tambah_karakter($tangkap1)."(-_-) \n".
+    tambah_karakter($tangkap1)."(*_*) \n".
+    tambah_karakter($tangkap1)."(#-#) \n".
+    tambah_karakter($tangkap1)."(^_^) \n".
+    tambah_karakter($tangkap1)."(^-^) \n".
+    tambah_karakter($tangkap1)."1+1 \n".
+    tambah_karakter($tangkap1)."1+2 \n".
+    tambah_karakter($tangkap1)."1+3 \n".
+    tambah_karakter($tangkap1)."1+4 \n".
+    tambah_karakter($tangkap1)."1+5 \n".
+    tambah_karakter($tangkap1)."{-_-} \n".
+    tambah_karakter($tangkap1)."{*_*} \n".
+    tambah_karakter($tangkap1)."{#_#} \n".
+    tambah_karakter($tangkap1)."{^_^} \n".
+    tambah_karakter($tangkap1)."{+_+} \n".
+    tambah_karakter($tangkap1)."[-_-] \n".
+    tambah_karakter($tangkap1)."[*_*] \n".
+    tambah_karakter($tangkap1)."[+_+] \n".
+    tambah_karakter($tangkap1)."[#_#] \n".
+    tambah_karakter($tangkap1)."[^_^] \n".
+    tambah_karakter($tangkap1)."[?_?] \n".
+    tambah_karakter($tangkap1)."? \n".
+    tambah_karakter($tangkap1)."/ \n".
+    tambah_karakter($tangkap1)."<-_-> \n".
+    tambah_karakter($tangkap1)."| \n".
+    tambah_karakter($tangkap1)."!! \n".
+    tambah_karakter($tangkap1)."!?! \n".
+    tambah_karakter($tangkap1)."!@! \n".
+    tambah_karakter($tangkap1)."!#! \n".
+    tambah_karakter($tangkap1)."!$! \n".
+    tambah_karakter($tangkap1)."!%! \n".
+    tambah_karakter($tangkap1)."!!! \n".
+    tambah_karakter($tangkap1)."!^! \n".
+    tambah_karakter($tangkap1)."!&! \n".
+    tambah_karakter($tangkap1)."!*! \n".
+    tambah_karakter($tangkap1)."!(!) \n".
+    tambah_karakter($tangkap1)."!_!\n".
+    tambah_karakter($tangkap1)."!-! \n".
+    tambah_karakter($tangkap1)."!+! \n".
+    tambah_karakter($tangkap1)."@!! \n".
+    tambah_karakter($tangkap1)."@@ \n".
+    tambah_karakter($tangkap1)."@@@ \n".
+    tambah_karakter($tangkap1)."@#@ \n".
+    tambah_karakter($tangkap1)."@_@ \n".
+    tambah_karakter($tangkap1)."@-@ \n".
+    tambah_karakter($tangkap1)."@*@ \n".
+    tambah_karakter($tangkap1)."@$# \n".
+    tambah_karakter($tangkap1)."@&@ \n".
+    tambah_karakter($tangkap1)."/// \n".
+    tambah_karakter($tangkap1)."%&* \n".
+    tambah_karakter($tangkap1)."##@ \n".
+    tambah_karakter($tangkap1)."##$ \n".
+    tambah_karakter($tangkap1)."#$# \n".
+    tambah_karakter($tangkap1)."#@# \n".
+    tambah_karakter($tangkap1)."##& \n".
+    tambah_karakter($tangkap1)."##* \n".
+    tambah_karakter($tangkap1)."!?!? \n".
+    tambah_karakter($tangkap1)."!1!1 \n".
+    tambah_karakter($tangkap1)."., \n".
+    tambah_karakter($tangkap1).".,! \n".
+    tambah_karakter($tangkap1)."'.,?! \n".
+    tambah_karakter($tangkap1).":; \n".
+    tambah_karakter($tangkap1).",. \n".
+    tambah_karakter($tangkap1)."'-! \n".
+    tambah_karakter($tangkap1)."+--+ \n".
+    tambah_karakter($tangkap1)."--+- \n".
+    tambah_karakter($tangkap1)."$^^$ \n".
+    tambah_karakter($tangkap1)."*123# \n".
+    tambah_karakter($tangkap1)."#555# \n".
+    tambah_karakter($tangkap1)."#999# \n".
+
+    tambah_karakter($tangkap2).". \n".
+    tambah_karakter($tangkap2).", \n".
+    tambah_karakter($tangkap2).": \n".
+    tambah_karakter($tangkap2)."; \n".
+    tambah_karakter($tangkap2)."' \n".
+    tambah_karakter($tangkap2)."- \n".
+    tambah_karakter($tangkap2)."_ \n".
+    tambah_karakter($tangkap2)."\ \n".
+    tambah_karakter($tangkap2)."+ \n".
+    tambah_karakter($tangkap2)."= \n".
+    tambah_karakter($tangkap2)."! \n".
+    tambah_karakter($tangkap2)."@ \n".
+    tambah_karakter($tangkap2)."# \n".
+    tambah_karakter($tangkap2)."$ \n".
+    tambah_karakter($tangkap2)."% \n".
+    tambah_karakter($tangkap2)."^ \n".
+    tambah_karakter($tangkap2)."& \n".
+    tambah_karakter($tangkap2)."* \n".
+    tambah_karakter($tangkap2)."(-_-) \n".
+    tambah_karakter($tangkap2)."(*_*) \n".
+    tambah_karakter($tangkap2)."(#-#) \n".
+    tambah_karakter($tangkap2)."(^_^) \n".
+    tambah_karakter($tangkap2)."(^-^) \n".
+    tambah_karakter($tangkap2)."1+1 \n".
+    tambah_karakter($tangkap2)."1+2 \n".
+    tambah_karakter($tangkap2)."1+3 \n".
+    tambah_karakter($tangkap2)."1+4 \n".
+    tambah_karakter($tangkap2)."1+5 \n".
+    tambah_karakter($tangkap2)."{-_-} \n".
+    tambah_karakter($tangkap2)."{*_*} \n".
+    tambah_karakter($tangkap2)."{#_#} \n".
+    tambah_karakter($tangkap2)."{^_^} \n".
+    tambah_karakter($tangkap2)."{+_+} \n".
+    tambah_karakter($tangkap2)."[-_-] \n".
+    tambah_karakter($tangkap2)."[*_*] \n".
+    tambah_karakter($tangkap2)."[+_+] \n".
+    tambah_karakter($tangkap2)."[#_#] \n".
+    tambah_karakter($tangkap2)."[^_^] \n".
+    tambah_karakter($tangkap2)."[?_?] \n".
+    tambah_karakter($tangkap2)."? \n".
+    tambah_karakter($tangkap2)."/ \n".
+    tambah_karakter($tangkap2)."<-_-> \n".
+    tambah_karakter($tangkap2)."| \n".
+    tambah_karakter($tangkap2)."!! \n".
+    tambah_karakter($tangkap2)."!?! \n".
+    tambah_karakter($tangkap2)."!@! \n".
+    tambah_karakter($tangkap2)."!#! \n".
+    tambah_karakter($tangkap2)."!$! \n".
+    tambah_karakter($tangkap2)."!%! \n".
+    tambah_karakter($tangkap2)."!!! \n".
+    tambah_karakter($tangkap2)."!^! \n".
+    tambah_karakter($tangkap2)."!&! \n".
+    tambah_karakter($tangkap2)."!*! \n".
+    tambah_karakter($tangkap2)."!(!) \n".
+    tambah_karakter($tangkap2)."!_!\n".
+    tambah_karakter($tangkap2)."!-! \n".
+    tambah_karakter($tangkap2)."!+! \n".
+    tambah_karakter($tangkap2)."@!! \n".
+    tambah_karakter($tangkap2)."@@ \n".
+    tambah_karakter($tangkap2)."@@@ \n".
+    tambah_karakter($tangkap2)."@#@ \n".
+    tambah_karakter($tangkap2)."@_@ \n".
+    tambah_karakter($tangkap2)."@-@ \n".
+    tambah_karakter($tangkap2)."@*@ \n".
+    tambah_karakter($tangkap2)."@$# \n".
+    tambah_karakter($tangkap2)."@&@ \n".
+    tambah_karakter($tangkap2)."/// \n".
+    tambah_karakter($tangkap2)."%&* \n".
+    tambah_karakter($tangkap2)."##@ \n".
+    tambah_karakter($tangkap2)."##$ \n".
+    tambah_karakter($tangkap2)."#$# \n".
+    tambah_karakter($tangkap2)."#@# \n".
+    tambah_karakter($tangkap2)."##& \n".
+    tambah_karakter($tangkap2)."##* \n".
+    tambah_karakter($tangkap2)."!?!? \n".
+    tambah_karakter($tangkap2)."!1!1 \n".
+    tambah_karakter($tangkap2)."., \n".
+    tambah_karakter($tangkap2).".,! \n".
+    tambah_karakter($tangkap2)."'.,?! \n".
+    tambah_karakter($tangkap2).":; \n".
+    tambah_karakter($tangkap2).",. \n".
+    tambah_karakter($tangkap2)."'-! \n".
+    tambah_karakter($tangkap2)."+--+ \n".
+    tambah_karakter($tangkap2)."--+- \n".
+    tambah_karakter($tangkap2)."$^^$ \n".
+    tambah_karakter($tangkap2)."*123# \n".
+    tambah_karakter($tangkap2)."#555# \n".
+    tambah_karakter($tangkap2)."#999# \n".
+
+    tambah_karakter($tangkap3).". \n".
+    tambah_karakter($tangkap3).", \n".
+    tambah_karakter($tangkap3).": \n".
+    tambah_karakter($tangkap3)."; \n".
+    tambah_karakter($tangkap3)."' \n".
+    tambah_karakter($tangkap3)."- \n".
+    tambah_karakter($tangkap3)."_ \n".
+    tambah_karakter($tangkap3)."\ \n".
+    tambah_karakter($tangkap3)."+ \n".
+    tambah_karakter($tangkap3)."= \n".
+    tambah_karakter($tangkap3)."! \n".
+    tambah_karakter($tangkap3)."@ \n".
+    tambah_karakter($tangkap3)."# \n".
+    tambah_karakter($tangkap3)."$ \n".
+    tambah_karakter($tangkap3)."% \n".
+    tambah_karakter($tangkap3)."^ \n".
+    tambah_karakter($tangkap3)."& \n".
+    tambah_karakter($tangkap3)."* \n".
+    tambah_karakter($tangkap3)."(-_-) \n".
+    tambah_karakter($tangkap3)."(*_*) \n".
+    tambah_karakter($tangkap3)."(#-#) \n".
+    tambah_karakter($tangkap3)."(^_^) \n".
+    tambah_karakter($tangkap3)."(^-^) \n".
+    tambah_karakter($tangkap3)."1+1 \n".
+    tambah_karakter($tangkap3)."1+2 \n".
+    tambah_karakter($tangkap3)."1+3 \n".
+    tambah_karakter($tangkap3)."1+4 \n".
+    tambah_karakter($tangkap3)."1+5 \n".
+    tambah_karakter($tangkap3)."{-_-} \n".
+    tambah_karakter($tangkap3)."{*_*} \n".
+    tambah_karakter($tangkap3)."{#_#} \n".
+    tambah_karakter($tangkap3)."{^_^} \n".
+    tambah_karakter($tangkap3)."{+_+} \n".
+    tambah_karakter($tangkap3)."[-_-] \n".
+    tambah_karakter($tangkap3)."[*_*] \n".
+    tambah_karakter($tangkap3)."[+_+] \n".
+    tambah_karakter($tangkap3)."[#_#] \n".
+    tambah_karakter($tangkap3)."[^_^] \n".
+    tambah_karakter($tangkap3)."[?_?] \n".
+    tambah_karakter($tangkap3)."? \n".
+    tambah_karakter($tangkap3)."/ \n".
+    tambah_karakter($tangkap3)."<-_-> \n".
+    tambah_karakter($tangkap3)."| \n".
+    tambah_karakter($tangkap3)."!! \n".
+    tambah_karakter($tangkap3)."!?! \n".
+    tambah_karakter($tangkap3)."!@! \n".
+    tambah_karakter($tangkap3)."!#! \n".
+    tambah_karakter($tangkap3)."!$! \n".
+    tambah_karakter($tangkap3)."!%! \n".
+    tambah_karakter($tangkap3)."!!! \n".
+    tambah_karakter($tangkap3)."!^! \n".
+    tambah_karakter($tangkap3)."!&! \n".
+    tambah_karakter($tangkap3)."!*! \n".
+    tambah_karakter($tangkap3)."!(!) \n".
+    tambah_karakter($tangkap3)."!_!\n".
+    tambah_karakter($tangkap3)."!-! \n".
+    tambah_karakter($tangkap3)."!+! \n".
+    tambah_karakter($tangkap3)."@!! \n".
+    tambah_karakter($tangkap3)."@@ \n".
+    tambah_karakter($tangkap3)."@@@ \n".
+    tambah_karakter($tangkap3)."@#@ \n".
+    tambah_karakter($tangkap3)."@_@ \n".
+    tambah_karakter($tangkap3)."@-@ \n".
+    tambah_karakter($tangkap3)."@*@ \n".
+    tambah_karakter($tangkap3)."@$# \n".
+    tambah_karakter($tangkap3)."@&@ \n".
+    tambah_karakter($tangkap3)."/// \n".
+    tambah_karakter($tangkap3)."%&* \n".
+    tambah_karakter($tangkap3)."##@ \n".
+    tambah_karakter($tangkap3)."##$ \n".
+    tambah_karakter($tangkap3)."#$# \n".
+    tambah_karakter($tangkap3)."#@# \n".
+    tambah_karakter($tangkap3)."##& \n".
+    tambah_karakter($tangkap3)."##* \n".
+    tambah_karakter($tangkap3)."!?!? \n".
+    tambah_karakter($tangkap3)."!1!1 \n".
+    tambah_karakter($tangkap3)."., \n".
+    tambah_karakter($tangkap3).".,! \n".
+    tambah_karakter($tangkap3)."'.,?! \n".
+    tambah_karakter($tangkap3).":; \n".
+    tambah_karakter($tangkap3).",. \n".
+    tambah_karakter($tangkap3)."'-! \n".
+    tambah_karakter($tangkap3)."+--+ \n".
+    tambah_karakter($tangkap3)."--+- \n".
+    tambah_karakter($tangkap3)."$^^$ \n".
+    tambah_karakter($tangkap3)."*123# \n".
+    tambah_karakter($tangkap3)."#555# \n".
+    tambah_karakter($tangkap3)."#999# \n".
+
+    tambah_karakter($tangkap8).". \n".
+    tambah_karakter($tangkap8).", \n".
+    tambah_karakter($tangkap8).": \n".
+    tambah_karakter($tangkap8)."; \n".
+    tambah_karakter($tangkap8)."' \n".
+    tambah_karakter($tangkap8)."- \n".
+    tambah_karakter($tangkap8)."_ \n".
+    tambah_karakter($tangkap8)."\ \n".
+    tambah_karakter($tangkap8)."+ \n".
+    tambah_karakter($tangkap8)."= \n".
+    tambah_karakter($tangkap8)."! \n".
+    tambah_karakter($tangkap8)."@ \n".
+    tambah_karakter($tangkap8)."# \n".
+    tambah_karakter($tangkap8)."$ \n".
+    tambah_karakter($tangkap8)."% \n".
+    tambah_karakter($tangkap8)."^ \n".
+    tambah_karakter($tangkap8)."& \n".
+    tambah_karakter($tangkap8)."* \n".
+    tambah_karakter($tangkap8)."(-_-) \n".
+    tambah_karakter($tangkap8)."(*_*) \n".
+    tambah_karakter($tangkap8)."(#-#) \n".
+    tambah_karakter($tangkap8)."(^_^) \n".
+    tambah_karakter($tangkap8)."(^-^) \n".
+    tambah_karakter($tangkap8)."1+1 \n".
+    tambah_karakter($tangkap8)."1+2 \n".
+    tambah_karakter($tangkap8)."1+3 \n".
+    tambah_karakter($tangkap8)."1+4 \n".
+    tambah_karakter($tangkap8)."1+5 \n".
+    tambah_karakter($tangkap8)."{-_-} \n".
+    tambah_karakter($tangkap8)."{*_*} \n".
+    tambah_karakter($tangkap8)."{#_#} \n".
+    tambah_karakter($tangkap8)."{^_^} \n".
+    tambah_karakter($tangkap8)."{+_+} \n".
+    tambah_karakter($tangkap8)."[-_-] \n".
+    tambah_karakter($tangkap8)."[*_*] \n".
+    tambah_karakter($tangkap8)."[+_+] \n".
+    tambah_karakter($tangkap8)."[#_#] \n".
+    tambah_karakter($tangkap8)."[^_^] \n".
+    tambah_karakter($tangkap8)."[?_?] \n".
+    tambah_karakter($tangkap8)."? \n".
+    tambah_karakter($tangkap8)."/ \n".
+    tambah_karakter($tangkap8)."<-_-> \n".
+    tambah_karakter($tangkap8)."| \n".
+    tambah_karakter($tangkap8)."!! \n".
+    tambah_karakter($tangkap8)."!?! \n".
+    tambah_karakter($tangkap8)."!@! \n".
+    tambah_karakter($tangkap8)."!#! \n".
+    tambah_karakter($tangkap8)."!$! \n".
+    tambah_karakter($tangkap8)."!%! \n".
+    tambah_karakter($tangkap8)."!!! \n".
+    tambah_karakter($tangkap8)."!^! \n".
+    tambah_karakter($tangkap8)."!&! \n".
+    tambah_karakter($tangkap8)."!*! \n".
+    tambah_karakter($tangkap8)."!(!) \n".
+    tambah_karakter($tangkap8)."!_!\n".
+    tambah_karakter($tangkap8)."!-! \n".
+    tambah_karakter($tangkap8)."!+! \n".
+    tambah_karakter($tangkap8)."@!! \n".
+    tambah_karakter($tangkap8)."@@ \n".
+    tambah_karakter($tangkap8)."@@@ \n".
+    tambah_karakter($tangkap8)."@#@ \n".
+    tambah_karakter($tangkap8)."@_@ \n".
+    tambah_karakter($tangkap8)."@-@ \n".
+    tambah_karakter($tangkap8)."@*@ \n".
+    tambah_karakter($tangkap8)."@$# \n".
+    tambah_karakter($tangkap8)."@&@ \n".
+    tambah_karakter($tangkap8)."/// \n".
+    tambah_karakter($tangkap8)."%&* \n".
+    tambah_karakter($tangkap8)."##@ \n".
+    tambah_karakter($tangkap8)."##$ \n".
+    tambah_karakter($tangkap8)."#$# \n".
+    tambah_karakter($tangkap8)."#@# \n".
+    tambah_karakter($tangkap8)."##& \n".
+    tambah_karakter($tangkap8)."##* \n".
+    tambah_karakter($tangkap8)."!?!? \n".
+    tambah_karakter($tangkap8)."!1!1 \n".
+    tambah_karakter($tangkap8)."., \n".
+    tambah_karakter($tangkap8).".,! \n".
+    tambah_karakter($tangkap8)."'.,?! \n".
+    tambah_karakter($tangkap8).":; \n".
+    tambah_karakter($tangkap8).",. \n".
+    tambah_karakter($tangkap8)."'-! \n".
+    tambah_karakter($tangkap8)."+--+ \n".
+    tambah_karakter($tangkap8)."--+- \n".
+    tambah_karakter($tangkap8)."$^^$ \n".
+    tambah_karakter($tangkap8)."*123# \n".
+    tambah_karakter($tangkap8)."#555# \n".
+    tambah_karakter($tangkap8)."#999# \n".
+
+
+    tambah_karakter($tangkap9).". \n".
+    tambah_karakter($tangkap9).", \n".
+    tambah_karakter($tangkap9).": \n".
+    tambah_karakter($tangkap9)."; \n".
+    tambah_karakter($tangkap9)."' \n".
+    tambah_karakter($tangkap9)."- \n".
+    tambah_karakter($tangkap9)."_ \n".
+    tambah_karakter($tangkap9)."\ \n".
+    tambah_karakter($tangkap9)."+ \n".
+    tambah_karakter($tangkap9)."= \n".
+    tambah_karakter($tangkap9)."! \n".
+    tambah_karakter($tangkap9)."@ \n".
+    tambah_karakter($tangkap9)."# \n".
+    tambah_karakter($tangkap9)."$ \n".
+    tambah_karakter($tangkap9)."% \n".
+    tambah_karakter($tangkap9)."^ \n".
+    tambah_karakter($tangkap9)."& \n".
+    tambah_karakter($tangkap9)."* \n".
+    tambah_karakter($tangkap9)."(-_-) \n".
+    tambah_karakter($tangkap9)."(*_*) \n".
+    tambah_karakter($tangkap9)."(#-#) \n".
+    tambah_karakter($tangkap9)."(^_^) \n".
+    tambah_karakter($tangkap9)."(^-^) \n".
+    tambah_karakter($tangkap9)."1+1 \n".
+    tambah_karakter($tangkap9)."1+2 \n".
+    tambah_karakter($tangkap9)."1+3 \n".
+    tambah_karakter($tangkap9)."1+4 \n".
+    tambah_karakter($tangkap9)."1+5 \n".
+    tambah_karakter($tangkap9)."{-_-} \n".
+    tambah_karakter($tangkap9)."{*_*} \n".
+    tambah_karakter($tangkap9)."{#_#} \n".
+    tambah_karakter($tangkap9)."{^_^} \n".
+    tambah_karakter($tangkap9)."{+_+} \n".
+    tambah_karakter($tangkap9)."[-_-] \n".
+    tambah_karakter($tangkap9)."[*_*] \n".
+    tambah_karakter($tangkap9)."[+_+] \n".
+    tambah_karakter($tangkap9)."[#_#] \n".
+    tambah_karakter($tangkap9)."[^_^] \n".
+    tambah_karakter($tangkap9)."[?_?] \n".
+    tambah_karakter($tangkap9)."? \n".
+    tambah_karakter($tangkap9)."/ \n".
+    tambah_karakter($tangkap9)."<-_-> \n".
+    tambah_karakter($tangkap9)."| \n".
+    tambah_karakter($tangkap9)."!! \n".
+    tambah_karakter($tangkap9)."!?! \n".
+    tambah_karakter($tangkap9)."!@! \n".
+    tambah_karakter($tangkap9)."!#! \n".
+    tambah_karakter($tangkap9)."!$! \n".
+    tambah_karakter($tangkap9)."!%! \n".
+    tambah_karakter($tangkap9)."!!! \n".
+    tambah_karakter($tangkap9)."!^! \n".
+    tambah_karakter($tangkap9)."!&! \n".
+    tambah_karakter($tangkap9)."!*! \n".
+    tambah_karakter($tangkap9)."!(!) \n".
+    tambah_karakter($tangkap9)."!_!\n".
+    tambah_karakter($tangkap9)."!-! \n".
+    tambah_karakter($tangkap9)."!+! \n".
+    tambah_karakter($tangkap9)."@!! \n".
+    tambah_karakter($tangkap9)."@@ \n".
+    tambah_karakter($tangkap9)."@@@ \n".
+    tambah_karakter($tangkap9)."@#@ \n".
+    tambah_karakter($tangkap9)."@_@ \n".
+    tambah_karakter($tangkap9)."@-@ \n".
+    tambah_karakter($tangkap9)."@*@ \n".
+    tambah_karakter($tangkap9)."@$# \n".
+    tambah_karakter($tangkap9)."@&@ \n".
+    tambah_karakter($tangkap9)."/// \n".
+    tambah_karakter($tangkap9)."%&* \n".
+    tambah_karakter($tangkap9)."##@ \n".
+    tambah_karakter($tangkap9)."##$ \n".
+    tambah_karakter($tangkap9)."#$# \n".
+    tambah_karakter($tangkap9)."#@# \n".
+    tambah_karakter($tangkap9)."##& \n".
+    tambah_karakter($tangkap9)."##* \n".
+    tambah_karakter($tangkap9)."!?!? \n".
+    tambah_karakter($tangkap9)."!1!1 \n".
+    tambah_karakter($tangkap9)."., \n".
+    tambah_karakter($tangkap9).".,! \n".
+    tambah_karakter($tangkap9)."'.,?! \n".
+    tambah_karakter($tangkap9).":; \n".
+    tambah_karakter($tangkap9).",. \n".
+    tambah_karakter($tangkap9)."'-! \n".
+    tambah_karakter($tangkap9)."+--+ \n".
+    tambah_karakter($tangkap9)."--+- \n".
+    tambah_karakter($tangkap9)."$^^$ \n".
+    tambah_karakter($tangkap9)."*123# \n".
+    tambah_karakter($tangkap9)."#555# \n".
+    tambah_karakter($tangkap9)."#999# \n".
+
+    nomor_karakter($tangkap1)."1*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."111*\n".
+    nomor_karakter($tangkap1)."1111*\n".
+    nomor_karakter($tangkap1)."11111*\n".
+    nomor_karakter($tangkap1)."2*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."2222*\n".
+    nomor_karakter($tangkap1)."22222*\n".
+    nomor_karakter($tangkap1)."21*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."23*\n".
+    nomor_karakter($tangkap1)."24*\n".
+    nomor_karakter($tangkap1)."25*\n".
+    nomor_karakter($tangkap1)."26*\n".
+    nomor_karakter($tangkap1)."27*\n".
+    nomor_karakter($tangkap1)."28*\n".
+    nomor_karakter($tangkap1)."29*\n".
+    nomor_karakter($tangkap1)."211*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."233*\n".
+    nomor_karakter($tangkap1)."244*\n".
+    nomor_karakter($tangkap1)."255*\n".
+    nomor_karakter($tangkap1)."212*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."232*\n".
+    nomor_karakter($tangkap1)."242*\n".
+    nomor_karakter($tangkap1)."252*\n".
+    nomor_karakter($tangkap1)."112*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."332*\n".
+    nomor_karakter($tangkap1)."442*\n".
+    nomor_karakter($tangkap1)."552*\n".
+    nomor_karakter($tangkap1)."221*\n".
+    nomor_karakter($tangkap1)."222*\n".
+    nomor_karakter($tangkap1)."223*\n".
+    nomor_karakter($tangkap1)."224*\n".
+    nomor_karakter($tangkap1)."225*\n".
+    nomor_karakter($tangkap1)."452*\n".
+    nomor_karakter($tangkap1)."12*\n".
+    nomor_karakter($tangkap1)."21*\n".
+    nomor_karakter($tangkap1)."3*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."3333*\n".
+    nomor_karakter($tangkap1)."33333*\n".
+    nomor_karakter($tangkap1)."31*\n".
+    nomor_karakter($tangkap1)."32*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."34*\n".
+    nomor_karakter($tangkap1)."35*\n".
+    nomor_karakter($tangkap1)."311*\n".
+    nomor_karakter($tangkap1)."322*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."344*\n".
+    nomor_karakter($tangkap1)."355*\n".
+    nomor_karakter($tangkap1)."313*\n".
+    nomor_karakter($tangkap1)."323*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."343*\n".
+    nomor_karakter($tangkap1)."353*\n".
+    nomor_karakter($tangkap1)."113*\n".
+    nomor_karakter($tangkap1)."223*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."443*\n".
+    nomor_karakter($tangkap1)."553*\n".
+    nomor_karakter($tangkap1)."331*\n".
+    nomor_karakter($tangkap1)."332*\n".
+    nomor_karakter($tangkap1)."333*\n".
+    nomor_karakter($tangkap1)."334*\n".
+    nomor_karakter($tangkap1)."335*\n".
+    nomor_karakter($tangkap1)."453*\n".
+    nomor_karakter($tangkap1)."123*\n".
+    nomor_karakter($tangkap1)."321*\n".
+    nomor_karakter($tangkap1)."4*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."4444*\n".
+    nomor_karakter($tangkap1)."44444*\n".
+    nomor_karakter($tangkap1)."41*\n".
+    nomor_karakter($tangkap1)."42*\n".
+    nomor_karakter($tangkap1)."43*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."411*\n".
+    nomor_karakter($tangkap1)."422*\n".
+    nomor_karakter($tangkap1)."433*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."455*\n".
+    nomor_karakter($tangkap1)."414*\n".
+    nomor_karakter($tangkap1)."424*\n".
+    nomor_karakter($tangkap1)."434*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."454*\n".
+    nomor_karakter($tangkap1)."114*\n".
+    nomor_karakter($tangkap1)."224*\n".
+    nomor_karakter($tangkap1)."334*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."441*\n".
+    nomor_karakter($tangkap1)."442*\n".
+    nomor_karakter($tangkap1)."443*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."445*\n".
+    nomor_karakter($tangkap1)."554*\n".
+    nomor_karakter($tangkap1)."444*\n".
+    nomor_karakter($tangkap1)."12*\n".
+    nomor_karakter($tangkap1)."43*\n".
+    nomor_karakter($tangkap1)."5*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."555*\n".
+    nomor_karakter($tangkap1)."5555*\n".
+    nomor_karakter($tangkap1)."55555*\n".
+    nomor_karakter($tangkap1)."51*\n".
+    nomor_karakter($tangkap1)."52*\n".
+    nomor_karakter($tangkap1)."53*\n".
+    nomor_karakter($tangkap1)."54*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."511*\n".
+    nomor_karakter($tangkap1)."522*\n".
+    nomor_karakter($tangkap1)."533*\n".
+    nomor_karakter($tangkap1)."544*\n".
+    nomor_karakter($tangkap1)."655*\n".
+    nomor_karakter($tangkap1)."515*\n".
+    nomor_karakter($tangkap1)."525\n".
+    nomor_karakter($tangkap1)."535*\n".
+    nomor_karakter($tangkap1)."545*\n".
+    nomor_karakter($tangkap1)."555*\n".
+    nomor_karakter($tangkap1)."115*\n".
+    nomor_karakter($tangkap1)."225*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."34*\n".
+    nomor_karakter($tangkap1)."1234*\n".
+    nomor_karakter($tangkap1)."5432*\n".
+    nomor_karakter($tangkap1)."6*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."666*\n".
+    nomor_karakter($tangkap1)."6666*\n".
+    nomor_karakter($tangkap1)."66666*\n".
+    nomor_karakter($tangkap1)."61*\n".
+    nomor_karakter($tangkap1)."62*\n".
+    nomor_karakter($tangkap1)."63*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."611*\n".
+    nomor_karakter($tangkap1)."622*\n".
+    nomor_karakter($tangkap1)."633*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."61*\n".
+    nomor_karakter($tangkap1)."62*\n".
+    nomor_karakter($tangkap1)."63*\n".
+    nomor_karakter($tangkap1)."64*\n".
+    nomor_karakter($tangkap1)."65*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."66*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."12345*\n".
+    nomor_karakter($tangkap1)."65432*\n".
+    nomor_karakter($tangkap1)."7*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."777*\n".
+    nomor_karakter($tangkap1)."7777*\n".
+    nomor_karakter($tangkap1)."77777*\n".
+    nomor_karakter($tangkap1)."71*\n".
+    nomor_karakter($tangkap1)."72*\n".
+    nomor_karakter($tangkap1)."73*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."711*\n".
+    nomor_karakter($tangkap1)."722*\n".
+    nomor_karakter($tangkap1)."733*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."71*\n".
+    nomor_karakter($tangkap1)."72*\n".
+    nomor_karakter($tangkap1)."73*\n".
+    nomor_karakter($tangkap1)."74*\n".
+    nomor_karakter($tangkap1)."75*\n".
+    nomor_karakter($tangkap1)."11*\n".
+    nomor_karakter($tangkap1)."22*\n".
+    nomor_karakter($tangkap1)."33*\n".
+    nomor_karakter($tangkap1)."44*\n".
+    nomor_karakter($tangkap1)."55*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."77*\n".
+    nomor_karakter($tangkap1)."45*\n".
+    nomor_karakter($tangkap1)."1234567*\n".
+    nomor_karakter($tangkap1)."8*\n".
+    nomor_karakter($tangkap1)."88*\n".
+    nomor_karakter($tangkap1)."888*\n".
+    nomor_karakter($tangkap1)."8888*\n".
+    nomor_karakter($tangkap1)."88888*\n".
+    nomor_karakter($tangkap1)."81*\n".
+    nomor_karakter($tangkap1)."82*\n".
+    nomor_karakter($tangkap1)."83*\n".
+    nomor_karakter($tangkap1)."84*\n".
+    nomor_karakter($tangkap1)."85*\n".
+    nomor_karakter($tangkap1)."811*\n".
+    nomor_karakter($tangkap1)."822*\n".
+    nomor_karakter($tangkap1)."833*\n".
+    nomor_karakter($tangkap1)."844*\n".
+    nomor_karakter($tangkap1)."855*\n".
+    nomor_karakter($tangkap1)."818*\n".
+    nomor_karakter($tangkap1)."828*\n".
+    nomor_karakter($tangkap1)."838*\n".
+    nomor_karakter($tangkap1)."848*\n".
+    nomor_karakter($tangkap1)."858*\n".
+    nomor_karakter($tangkap1)."118*\n".
+    nomor_karakter($tangkap1)."228*\n".
+    nomor_karakter($tangkap1)."338*\n".
+    nomor_karakter($tangkap1)."448*\n".
+    nomor_karakter($tangkap1)."558*\n".
+    nomor_karakter($tangkap1)."881*\n".
+    nomor_karakter($tangkap1)."882*\n".
+    nomor_karakter($tangkap1)."883*\n".
+    nomor_karakter($tangkap1)."884*\n".
+    nomor_karakter($tangkap1)."885*\n".
+    nomor_karakter($tangkap1)."458*\n".
+    nomor_karakter($tangkap1)."12345678*\n".
+    nomor_karakter($tangkap1)."87654321*\n".
+    nomor_karakter($tangkap1)."9*\n".
+    nomor_karakter($tangkap1)."99*\n".
+    nomor_karakter($tangkap1)."999*\n".
+    nomor_karakter($tangkap1)."9999*\n".
+    nomor_karakter($tangkap1)."99999*\n".
+    nomor_karakter($tangkap1)."91*\n".
+    nomor_karakter($tangkap1)."92*\n".
+    nomor_karakter($tangkap1)."93*\n".
+    nomor_karakter($tangkap1)."94*\n".
+    nomor_karakter($tangkap1)."95*\n".
+    nomor_karakter($tangkap1)."911*\n".
+    nomor_karakter($tangkap1)."922*\n".
+    nomor_karakter($tangkap1)."933*\n".
+    nomor_karakter($tangkap1)."944*\n".
+    nomor_karakter($tangkap1)."955*\n".
+    nomor_karakter($tangkap1)."919*\n".
+    nomor_karakter($tangkap1)."929*\n".
+    nomor_karakter($tangkap1)."939*\n".
+    nomor_karakter($tangkap1)."949*\n".
+    nomor_karakter($tangkap1)."959*\n".
+    nomor_karakter($tangkap1)."119*\n".
+    nomor_karakter($tangkap1)."229*\n".
+    nomor_karakter($tangkap1)."339*\n".
+    nomor_karakter($tangkap1)."449*\n".
+    nomor_karakter($tangkap1)."559*\n".
+    nomor_karakter($tangkap1)."991*\n".
+    nomor_karakter($tangkap1)."992*\n".
+    nomor_karakter($tangkap1)."993*\n".
+    nomor_karakter($tangkap1)."994*\n".
+    nomor_karakter($tangkap1)."995*\n".
+    nomor_karakter($tangkap1)."459*\n".
+    nomor_karakter($tangkap1)."12345678*\n".
+    nomor_karakter($tangkap1)."987654321*\n".
+    nomor_karakter($tangkap1)."0*\n".
+    nomor_karakter($tangkap1)."00*\n".
+    nomor_karakter($tangkap1)."000*\n".
+    nomor_karakter($tangkap1)."0000*\n".
+    nomor_karakter($tangkap1)."00000*\n".
+    nomor_karakter($tangkap1)."01*\n".
+    nomor_karakter($tangkap1)."02*\n".
+    nomor_karakter($tangkap1)."03*\n".
+    nomor_karakter($tangkap1)."04*\n".
+    nomor_karakter($tangkap1)."05*\n".
+    nomor_karakter($tangkap1)."011*\n".
+    nomor_karakter($tangkap1)."022*\n".
+    nomor_karakter($tangkap1)."033*\n".
+    nomor_karakter($tangkap1)."044*\n".
+    nomor_karakter($tangkap1)."055*\n".
+    nomor_karakter($tangkap1)."010*\n".
+    nomor_karakter($tangkap1)."020*\n".
+    nomor_karakter($tangkap1)."030*\n".
+    nomor_karakter($tangkap1)."040*\n".
+    nomor_karakter($tangkap1)."050*\n".
+    nomor_karakter($tangkap1)."110*\n".
+    nomor_karakter($tangkap1)."220*\n".
+    nomor_karakter($tangkap1)."330*\n".
+    nomor_karakter($tangkap1)."440*\n".
+    nomor_karakter($tangkap1)."550*\n".
+    nomor_karakter($tangkap1)."001*\n".
+    nomor_karakter($tangkap1)."002*\n".
+    nomor_karakter($tangkap1)."003*\n".
+    nomor_karakter($tangkap1)."004*\n".
+    nomor_karakter($tangkap1)."005*\n".
+    nomor_karakter($tangkap1)."450*\n".
+    nomor_karakter($tangkap1)."123456789*\n".
+
+    nomor_karakter($tangkap2)."1*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."111*\n".
+    nomor_karakter($tangkap2)."1111*\n".
+    nomor_karakter($tangkap2)."11111*\n".
+    nomor_karakter($tangkap2)."2*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."2222*\n".
+    nomor_karakter($tangkap2)."22222*\n".
+    nomor_karakter($tangkap2)."21*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."23*\n".
+    nomor_karakter($tangkap2)."24*\n".
+    nomor_karakter($tangkap2)."25*\n".
+    nomor_karakter($tangkap2)."26*\n".
+    nomor_karakter($tangkap2)."27*\n".
+    nomor_karakter($tangkap2)."28*\n".
+    nomor_karakter($tangkap2)."29*\n".
+    nomor_karakter($tangkap2)."211*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."233*\n".
+    nomor_karakter($tangkap2)."244*\n".
+    nomor_karakter($tangkap2)."255*\n".
+    nomor_karakter($tangkap2)."212*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."232*\n".
+    nomor_karakter($tangkap2)."242*\n".
+    nomor_karakter($tangkap2)."252*\n".
+    nomor_karakter($tangkap2)."112*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."332*\n".
+    nomor_karakter($tangkap2)."442*\n".
+    nomor_karakter($tangkap2)."552*\n".
+    nomor_karakter($tangkap2)."221*\n".
+    nomor_karakter($tangkap2)."222*\n".
+    nomor_karakter($tangkap2)."223*\n".
+    nomor_karakter($tangkap2)."224*\n".
+    nomor_karakter($tangkap2)."225*\n".
+    nomor_karakter($tangkap2)."452*\n".
+    nomor_karakter($tangkap2)."12*\n".
+    nomor_karakter($tangkap2)."21*\n".
+    nomor_karakter($tangkap2)."3*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."3333*\n".
+    nomor_karakter($tangkap2)."33333*\n".
+    nomor_karakter($tangkap2)."31*\n".
+    nomor_karakter($tangkap2)."32*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."34*\n".
+    nomor_karakter($tangkap2)."35*\n".
+    nomor_karakter($tangkap2)."311*\n".
+    nomor_karakter($tangkap2)."322*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."344*\n".
+    nomor_karakter($tangkap2)."355*\n".
+    nomor_karakter($tangkap2)."313*\n".
+    nomor_karakter($tangkap2)."323*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."343*\n".
+    nomor_karakter($tangkap2)."353*\n".
+    nomor_karakter($tangkap2)."113*\n".
+    nomor_karakter($tangkap2)."223*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."443*\n".
+    nomor_karakter($tangkap2)."553*\n".
+    nomor_karakter($tangkap2)."331*\n".
+    nomor_karakter($tangkap2)."332*\n".
+    nomor_karakter($tangkap2)."333*\n".
+    nomor_karakter($tangkap2)."334*\n".
+    nomor_karakter($tangkap2)."335*\n".
+    nomor_karakter($tangkap2)."453*\n".
+    nomor_karakter($tangkap2)."123*\n".
+    nomor_karakter($tangkap2)."321*\n".
+    nomor_karakter($tangkap2)."4*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."4444*\n".
+    nomor_karakter($tangkap2)."44444*\n".
+    nomor_karakter($tangkap2)."41*\n".
+    nomor_karakter($tangkap2)."42*\n".
+    nomor_karakter($tangkap2)."43*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."411*\n".
+    nomor_karakter($tangkap2)."422*\n".
+    nomor_karakter($tangkap2)."433*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."455*\n".
+    nomor_karakter($tangkap2)."414*\n".
+    nomor_karakter($tangkap2)."424*\n".
+    nomor_karakter($tangkap2)."434*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."454*\n".
+    nomor_karakter($tangkap2)."114*\n".
+    nomor_karakter($tangkap2)."224*\n".
+    nomor_karakter($tangkap2)."334*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."441*\n".
+    nomor_karakter($tangkap2)."442*\n".
+    nomor_karakter($tangkap2)."443*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."445*\n".
+    nomor_karakter($tangkap2)."554*\n".
+    nomor_karakter($tangkap2)."444*\n".
+    nomor_karakter($tangkap2)."12*\n".
+    nomor_karakter($tangkap2)."43*\n".
+    nomor_karakter($tangkap2)."5*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."555*\n".
+    nomor_karakter($tangkap2)."5555*\n".
+    nomor_karakter($tangkap2)."55555*\n".
+    nomor_karakter($tangkap2)."51*\n".
+    nomor_karakter($tangkap2)."52*\n".
+    nomor_karakter($tangkap2)."53*\n".
+    nomor_karakter($tangkap2)."54*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."511*\n".
+    nomor_karakter($tangkap2)."522*\n".
+    nomor_karakter($tangkap2)."533*\n".
+    nomor_karakter($tangkap2)."544*\n".
+    nomor_karakter($tangkap2)."655*\n".
+    nomor_karakter($tangkap2)."515*\n".
+    nomor_karakter($tangkap2)."525\n".
+    nomor_karakter($tangkap2)."535*\n".
+    nomor_karakter($tangkap2)."545*\n".
+    nomor_karakter($tangkap2)."555*\n".
+    nomor_karakter($tangkap2)."115*\n".
+    nomor_karakter($tangkap2)."225*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."34*\n".
+    nomor_karakter($tangkap2)."1234*\n".
+    nomor_karakter($tangkap2)."5432*\n".
+    nomor_karakter($tangkap2)."6*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."666*\n".
+    nomor_karakter($tangkap2)."6666*\n".
+    nomor_karakter($tangkap2)."66666*\n".
+    nomor_karakter($tangkap2)."61*\n".
+    nomor_karakter($tangkap2)."62*\n".
+    nomor_karakter($tangkap2)."63*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."611*\n".
+    nomor_karakter($tangkap2)."622*\n".
+    nomor_karakter($tangkap2)."633*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."61*\n".
+    nomor_karakter($tangkap2)."62*\n".
+    nomor_karakter($tangkap2)."63*\n".
+    nomor_karakter($tangkap2)."64*\n".
+    nomor_karakter($tangkap2)."65*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."66*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."12345*\n".
+    nomor_karakter($tangkap2)."65432*\n".
+    nomor_karakter($tangkap2)."7*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."777*\n".
+    nomor_karakter($tangkap2)."7777*\n".
+    nomor_karakter($tangkap2)."77777*\n".
+    nomor_karakter($tangkap2)."71*\n".
+    nomor_karakter($tangkap2)."72*\n".
+    nomor_karakter($tangkap2)."73*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."711*\n".
+    nomor_karakter($tangkap2)."722*\n".
+    nomor_karakter($tangkap2)."733*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."71*\n".
+    nomor_karakter($tangkap2)."72*\n".
+    nomor_karakter($tangkap2)."73*\n".
+    nomor_karakter($tangkap2)."74*\n".
+    nomor_karakter($tangkap2)."75*\n".
+    nomor_karakter($tangkap2)."11*\n".
+    nomor_karakter($tangkap2)."22*\n".
+    nomor_karakter($tangkap2)."33*\n".
+    nomor_karakter($tangkap2)."44*\n".
+    nomor_karakter($tangkap2)."55*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."77*\n".
+    nomor_karakter($tangkap2)."45*\n".
+    nomor_karakter($tangkap2)."1234567*\n".
+    nomor_karakter($tangkap2)."8*\n".
+    nomor_karakter($tangkap2)."88*\n".
+    nomor_karakter($tangkap2)."888*\n".
+    nomor_karakter($tangkap2)."8888*\n".
+    nomor_karakter($tangkap2)."88888*\n".
+    nomor_karakter($tangkap2)."81*\n".
+    nomor_karakter($tangkap2)."82*\n".
+    nomor_karakter($tangkap2)."83*\n".
+    nomor_karakter($tangkap2)."84*\n".
+    nomor_karakter($tangkap2)."85*\n".
+    nomor_karakter($tangkap2)."811*\n".
+    nomor_karakter($tangkap2)."822*\n".
+    nomor_karakter($tangkap2)."833*\n".
+    nomor_karakter($tangkap2)."844*\n".
+    nomor_karakter($tangkap2)."855*\n".
+    nomor_karakter($tangkap2)."818*\n".
+    nomor_karakter($tangkap2)."828*\n".
+    nomor_karakter($tangkap2)."838*\n".
+    nomor_karakter($tangkap2)."848*\n".
+    nomor_karakter($tangkap2)."858*\n".
+    nomor_karakter($tangkap2)."118*\n".
+    nomor_karakter($tangkap2)."228*\n".
+    nomor_karakter($tangkap2)."338*\n".
+    nomor_karakter($tangkap2)."448*\n".
+    nomor_karakter($tangkap2)."558*\n".
+    nomor_karakter($tangkap2)."881*\n".
+    nomor_karakter($tangkap2)."882*\n".
+    nomor_karakter($tangkap2)."883*\n".
+    nomor_karakter($tangkap2)."884*\n".
+    nomor_karakter($tangkap2)."885*\n".
+    nomor_karakter($tangkap2)."458*\n".
+    nomor_karakter($tangkap2)."12345678*\n".
+    nomor_karakter($tangkap2)."87654321*\n".
+    nomor_karakter($tangkap2)."9*\n".
+    nomor_karakter($tangkap2)."99*\n".
+    nomor_karakter($tangkap2)."999*\n".
+    nomor_karakter($tangkap2)."9999*\n".
+    nomor_karakter($tangkap2)."99999*\n".
+    nomor_karakter($tangkap2)."91*\n".
+    nomor_karakter($tangkap2)."92*\n".
+    nomor_karakter($tangkap2)."93*\n".
+    nomor_karakter($tangkap2)."94*\n".
+    nomor_karakter($tangkap2)."95*\n".
+    nomor_karakter($tangkap2)."911*\n".
+    nomor_karakter($tangkap2)."922*\n".
+    nomor_karakter($tangkap2)."933*\n".
+    nomor_karakter($tangkap2)."944*\n".
+    nomor_karakter($tangkap2)."955*\n".
+    nomor_karakter($tangkap2)."919*\n".
+    nomor_karakter($tangkap2)."929*\n".
+    nomor_karakter($tangkap2)."939*\n".
+    nomor_karakter($tangkap2)."949*\n".
+    nomor_karakter($tangkap2)."959*\n".
+    nomor_karakter($tangkap2)."119*\n".
+    nomor_karakter($tangkap2)."229*\n".
+    nomor_karakter($tangkap2)."339*\n".
+    nomor_karakter($tangkap2)."449*\n".
+    nomor_karakter($tangkap2)."559*\n".
+    nomor_karakter($tangkap2)."991*\n".
+    nomor_karakter($tangkap2)."992*\n".
+    nomor_karakter($tangkap2)."993*\n".
+    nomor_karakter($tangkap2)."994*\n".
+    nomor_karakter($tangkap2)."995*\n".
+    nomor_karakter($tangkap2)."459*\n".
+    nomor_karakter($tangkap2)."12345678*\n".
+    nomor_karakter($tangkap2)."987654321*\n".
+    nomor_karakter($tangkap2)."0*\n".
+    nomor_karakter($tangkap2)."00*\n".
+    nomor_karakter($tangkap2)."000*\n".
+    nomor_karakter($tangkap2)."0000*\n".
+    nomor_karakter($tangkap2)."00000*\n".
+    nomor_karakter($tangkap2)."01*\n".
+    nomor_karakter($tangkap2)."02*\n".
+    nomor_karakter($tangkap2)."03*\n".
+    nomor_karakter($tangkap2)."04*\n".
+    nomor_karakter($tangkap2)."05*\n".
+    nomor_karakter($tangkap2)."011*\n".
+    nomor_karakter($tangkap2)."022*\n".
+    nomor_karakter($tangkap2)."033*\n".
+    nomor_karakter($tangkap2)."044*\n".
+    nomor_karakter($tangkap2)."055*\n".
+    nomor_karakter($tangkap2)."010*\n".
+    nomor_karakter($tangkap2)."020*\n".
+    nomor_karakter($tangkap2)."030*\n".
+    nomor_karakter($tangkap2)."040*\n".
+    nomor_karakter($tangkap2)."050*\n".
+    nomor_karakter($tangkap2)."110*\n".
+    nomor_karakter($tangkap2)."220*\n".
+    nomor_karakter($tangkap2)."330*\n".
+    nomor_karakter($tangkap2)."440*\n".
+    nomor_karakter($tangkap2)."550*\n".
+    nomor_karakter($tangkap2)."001*\n".
+    nomor_karakter($tangkap2)."002*\n".
+    nomor_karakter($tangkap2)."003*\n".
+    nomor_karakter($tangkap2)."004*\n".
+    nomor_karakter($tangkap2)."005*\n".
+    nomor_karakter($tangkap2)."450*\n".
+    nomor_karakter($tangkap2)."123456789*\n".
+
+    nomor_karakter($tangkap3)."1*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."111*\n".
+    nomor_karakter($tangkap3)."1111*\n".
+    nomor_karakter($tangkap3)."11111*\n".
+    nomor_karakter($tangkap3)."2*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."2222*\n".
+    nomor_karakter($tangkap3)."22222*\n".
+    nomor_karakter($tangkap3)."21*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."23*\n".
+    nomor_karakter($tangkap3)."24*\n".
+    nomor_karakter($tangkap3)."25*\n".
+    nomor_karakter($tangkap3)."26*\n".
+    nomor_karakter($tangkap3)."27*\n".
+    nomor_karakter($tangkap3)."28*\n".
+    nomor_karakter($tangkap3)."29*\n".
+    nomor_karakter($tangkap3)."211*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."233*\n".
+    nomor_karakter($tangkap3)."244*\n".
+    nomor_karakter($tangkap3)."255*\n".
+    nomor_karakter($tangkap3)."212*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."232*\n".
+    nomor_karakter($tangkap3)."242*\n".
+    nomor_karakter($tangkap3)."252*\n".
+    nomor_karakter($tangkap3)."112*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."332*\n".
+    nomor_karakter($tangkap3)."442*\n".
+    nomor_karakter($tangkap3)."552*\n".
+    nomor_karakter($tangkap3)."221*\n".
+    nomor_karakter($tangkap3)."222*\n".
+    nomor_karakter($tangkap3)."223*\n".
+    nomor_karakter($tangkap3)."224*\n".
+    nomor_karakter($tangkap3)."225*\n".
+    nomor_karakter($tangkap3)."452*\n".
+    nomor_karakter($tangkap3)."12*\n".
+    nomor_karakter($tangkap3)."21*\n".
+    nomor_karakter($tangkap3)."3*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."3333*\n".
+    nomor_karakter($tangkap3)."33333*\n".
+    nomor_karakter($tangkap3)."31*\n".
+    nomor_karakter($tangkap3)."32*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."34*\n".
+    nomor_karakter($tangkap3)."35*\n".
+    nomor_karakter($tangkap3)."311*\n".
+    nomor_karakter($tangkap3)."322*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."344*\n".
+    nomor_karakter($tangkap3)."355*\n".
+    nomor_karakter($tangkap3)."313*\n".
+    nomor_karakter($tangkap3)."323*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."343*\n".
+    nomor_karakter($tangkap3)."353*\n".
+    nomor_karakter($tangkap3)."113*\n".
+    nomor_karakter($tangkap3)."223*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."443*\n".
+    nomor_karakter($tangkap3)."553*\n".
+    nomor_karakter($tangkap3)."331*\n".
+    nomor_karakter($tangkap3)."332*\n".
+    nomor_karakter($tangkap3)."333*\n".
+    nomor_karakter($tangkap3)."334*\n".
+    nomor_karakter($tangkap3)."335*\n".
+    nomor_karakter($tangkap3)."453*\n".
+    nomor_karakter($tangkap3)."123*\n".
+    nomor_karakter($tangkap3)."321*\n".
+    nomor_karakter($tangkap3)."4*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."4444*\n".
+    nomor_karakter($tangkap3)."44444*\n".
+    nomor_karakter($tangkap3)."41*\n".
+    nomor_karakter($tangkap3)."42*\n".
+    nomor_karakter($tangkap3)."43*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."411*\n".
+    nomor_karakter($tangkap3)."422*\n".
+    nomor_karakter($tangkap3)."433*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."455*\n".
+    nomor_karakter($tangkap3)."414*\n".
+    nomor_karakter($tangkap3)."424*\n".
+    nomor_karakter($tangkap3)."434*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."454*\n".
+    nomor_karakter($tangkap3)."114*\n".
+    nomor_karakter($tangkap3)."224*\n".
+    nomor_karakter($tangkap3)."334*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."441*\n".
+    nomor_karakter($tangkap3)."442*\n".
+    nomor_karakter($tangkap3)."443*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."445*\n".
+    nomor_karakter($tangkap3)."554*\n".
+    nomor_karakter($tangkap3)."444*\n".
+    nomor_karakter($tangkap3)."12*\n".
+    nomor_karakter($tangkap3)."43*\n".
+    nomor_karakter($tangkap3)."5*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."555*\n".
+    nomor_karakter($tangkap3)."5555*\n".
+    nomor_karakter($tangkap3)."55555*\n".
+    nomor_karakter($tangkap3)."51*\n".
+    nomor_karakter($tangkap3)."52*\n".
+    nomor_karakter($tangkap3)."53*\n".
+    nomor_karakter($tangkap3)."54*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."511*\n".
+    nomor_karakter($tangkap3)."522*\n".
+    nomor_karakter($tangkap3)."533*\n".
+    nomor_karakter($tangkap3)."544*\n".
+    nomor_karakter($tangkap3)."655*\n".
+    nomor_karakter($tangkap3)."515*\n".
+    nomor_karakter($tangkap3)."525\n".
+    nomor_karakter($tangkap3)."535*\n".
+    nomor_karakter($tangkap3)."545*\n".
+    nomor_karakter($tangkap3)."555*\n".
+    nomor_karakter($tangkap3)."115*\n".
+    nomor_karakter($tangkap3)."225*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."34*\n".
+    nomor_karakter($tangkap3)."1234*\n".
+    nomor_karakter($tangkap3)."5432*\n".
+    nomor_karakter($tangkap3)."6*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."666*\n".
+    nomor_karakter($tangkap3)."6666*\n".
+    nomor_karakter($tangkap3)."66666*\n".
+    nomor_karakter($tangkap3)."61*\n".
+    nomor_karakter($tangkap3)."62*\n".
+    nomor_karakter($tangkap3)."63*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."611*\n".
+    nomor_karakter($tangkap3)."622*\n".
+    nomor_karakter($tangkap3)."633*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."61*\n".
+    nomor_karakter($tangkap3)."62*\n".
+    nomor_karakter($tangkap3)."63*\n".
+    nomor_karakter($tangkap3)."64*\n".
+    nomor_karakter($tangkap3)."65*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."66*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."12345*\n".
+    nomor_karakter($tangkap3)."65432*\n".
+    nomor_karakter($tangkap3)."7*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."777*\n".
+    nomor_karakter($tangkap3)."7777*\n".
+    nomor_karakter($tangkap3)."77777*\n".
+    nomor_karakter($tangkap3)."71*\n".
+    nomor_karakter($tangkap3)."72*\n".
+    nomor_karakter($tangkap3)."73*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."711*\n".
+    nomor_karakter($tangkap3)."722*\n".
+    nomor_karakter($tangkap3)."733*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."71*\n".
+    nomor_karakter($tangkap3)."72*\n".
+    nomor_karakter($tangkap3)."73*\n".
+    nomor_karakter($tangkap3)."74*\n".
+    nomor_karakter($tangkap3)."75*\n".
+    nomor_karakter($tangkap3)."11*\n".
+    nomor_karakter($tangkap3)."22*\n".
+    nomor_karakter($tangkap3)."33*\n".
+    nomor_karakter($tangkap3)."44*\n".
+    nomor_karakter($tangkap3)."55*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."77*\n".
+    nomor_karakter($tangkap3)."45*\n".
+    nomor_karakter($tangkap3)."1234567*\n".
+    nomor_karakter($tangkap3)."8*\n".
+    nomor_karakter($tangkap3)."88*\n".
+    nomor_karakter($tangkap3)."888*\n".
+    nomor_karakter($tangkap3)."8888*\n".
+    nomor_karakter($tangkap3)."88888*\n".
+    nomor_karakter($tangkap3)."81*\n".
+    nomor_karakter($tangkap3)."82*\n".
+    nomor_karakter($tangkap3)."83*\n".
+    nomor_karakter($tangkap3)."84*\n".
+    nomor_karakter($tangkap3)."85*\n".
+    nomor_karakter($tangkap3)."811*\n".
+    nomor_karakter($tangkap3)."822*\n".
+    nomor_karakter($tangkap3)."833*\n".
+    nomor_karakter($tangkap3)."844*\n".
+    nomor_karakter($tangkap3)."855*\n".
+    nomor_karakter($tangkap3)."818*\n".
+    nomor_karakter($tangkap3)."828*\n".
+    nomor_karakter($tangkap3)."838*\n".
+    nomor_karakter($tangkap3)."848*\n".
+    nomor_karakter($tangkap3)."858*\n".
+    nomor_karakter($tangkap3)."118*\n".
+    nomor_karakter($tangkap3)."228*\n".
+    nomor_karakter($tangkap3)."338*\n".
+    nomor_karakter($tangkap3)."448*\n".
+    nomor_karakter($tangkap3)."558*\n".
+    nomor_karakter($tangkap3)."881*\n".
+    nomor_karakter($tangkap3)."882*\n".
+    nomor_karakter($tangkap3)."883*\n".
+    nomor_karakter($tangkap3)."884*\n".
+    nomor_karakter($tangkap3)."885*\n".
+    nomor_karakter($tangkap3)."458*\n".
+    nomor_karakter($tangkap3)."12345678*\n".
+    nomor_karakter($tangkap3)."87654321*\n".
+    nomor_karakter($tangkap3)."9*\n".
+    nomor_karakter($tangkap3)."99*\n".
+    nomor_karakter($tangkap3)."999*\n".
+    nomor_karakter($tangkap3)."9999*\n".
+    nomor_karakter($tangkap3)."99999*\n".
+    nomor_karakter($tangkap3)."91*\n".
+    nomor_karakter($tangkap3)."92*\n".
+    nomor_karakter($tangkap3)."93*\n".
+    nomor_karakter($tangkap3)."94*\n".
+    nomor_karakter($tangkap3)."95*\n".
+    nomor_karakter($tangkap3)."911*\n".
+    nomor_karakter($tangkap3)."922*\n".
+    nomor_karakter($tangkap3)."933*\n".
+    nomor_karakter($tangkap3)."944*\n".
+    nomor_karakter($tangkap3)."955*\n".
+    nomor_karakter($tangkap3)."919*\n".
+    nomor_karakter($tangkap3)."929*\n".
+    nomor_karakter($tangkap3)."939*\n".
+    nomor_karakter($tangkap3)."949*\n".
+    nomor_karakter($tangkap3)."959*\n".
+    nomor_karakter($tangkap3)."119*\n".
+    nomor_karakter($tangkap3)."229*\n".
+    nomor_karakter($tangkap3)."339*\n".
+    nomor_karakter($tangkap3)."449*\n".
+    nomor_karakter($tangkap3)."559*\n".
+    nomor_karakter($tangkap3)."991*\n".
+    nomor_karakter($tangkap3)."992*\n".
+    nomor_karakter($tangkap3)."993*\n".
+    nomor_karakter($tangkap3)."994*\n".
+    nomor_karakter($tangkap3)."995*\n".
+    nomor_karakter($tangkap3)."459*\n".
+    nomor_karakter($tangkap3)."12345678*\n".
+    nomor_karakter($tangkap3)."987654321*\n".
+    nomor_karakter($tangkap3)."0*\n".
+    nomor_karakter($tangkap3)."00*\n".
+    nomor_karakter($tangkap3)."000*\n".
+    nomor_karakter($tangkap3)."0000*\n".
+    nomor_karakter($tangkap3)."00000*\n".
+    nomor_karakter($tangkap3)."01*\n".
+    nomor_karakter($tangkap3)."02*\n".
+    nomor_karakter($tangkap3)."03*\n".
+    nomor_karakter($tangkap3)."04*\n".
+    nomor_karakter($tangkap3)."05*\n".
+    nomor_karakter($tangkap3)."011*\n".
+    nomor_karakter($tangkap3)."022*\n".
+    nomor_karakter($tangkap3)."033*\n".
+    nomor_karakter($tangkap3)."044*\n".
+    nomor_karakter($tangkap3)."055*\n".
+    nomor_karakter($tangkap3)."010*\n".
+    nomor_karakter($tangkap3)."020*\n".
+    nomor_karakter($tangkap3)."030*\n".
+    nomor_karakter($tangkap3)."040*\n".
+    nomor_karakter($tangkap3)."050*\n".
+    nomor_karakter($tangkap3)."110*\n".
+    nomor_karakter($tangkap3)."220*\n".
+    nomor_karakter($tangkap3)."330*\n".
+    nomor_karakter($tangkap3)."440*\n".
+    nomor_karakter($tangkap3)."550*\n".
+    nomor_karakter($tangkap3)."001*\n".
+    nomor_karakter($tangkap3)."002*\n".
+    nomor_karakter($tangkap3)."003*\n".
+    nomor_karakter($tangkap3)."004*\n".
+    nomor_karakter($tangkap3)."005*\n".
+    nomor_karakter($tangkap3)."450*\n".
+    nomor_karakter($tangkap3)."123456789*\n".
+
+    nomor_karakter($tangkap8)."1*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."111*\n".
+    nomor_karakter($tangkap8)."1111*\n".
+    nomor_karakter($tangkap8)."11111*\n".
+    nomor_karakter($tangkap8)."2*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."2222*\n".
+    nomor_karakter($tangkap8)."22222*\n".
+    nomor_karakter($tangkap8)."21*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."23*\n".
+    nomor_karakter($tangkap8)."24*\n".
+    nomor_karakter($tangkap8)."25*\n".
+    nomor_karakter($tangkap8)."26*\n".
+    nomor_karakter($tangkap8)."27*\n".
+    nomor_karakter($tangkap8)."28*\n".
+    nomor_karakter($tangkap8)."29*\n".
+    nomor_karakter($tangkap8)."211*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."233*\n".
+    nomor_karakter($tangkap8)."244*\n".
+    nomor_karakter($tangkap8)."255*\n".
+    nomor_karakter($tangkap8)."212*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."232*\n".
+    nomor_karakter($tangkap8)."242*\n".
+    nomor_karakter($tangkap8)."252*\n".
+    nomor_karakter($tangkap8)."112*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."332*\n".
+    nomor_karakter($tangkap8)."442*\n".
+    nomor_karakter($tangkap8)."552*\n".
+    nomor_karakter($tangkap8)."221*\n".
+    nomor_karakter($tangkap8)."222*\n".
+    nomor_karakter($tangkap8)."223*\n".
+    nomor_karakter($tangkap8)."224*\n".
+    nomor_karakter($tangkap8)."225*\n".
+    nomor_karakter($tangkap8)."452*\n".
+    nomor_karakter($tangkap8)."12*\n".
+    nomor_karakter($tangkap8)."21*\n".
+    nomor_karakter($tangkap8)."3*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."3333*\n".
+    nomor_karakter($tangkap8)."33333*\n".
+    nomor_karakter($tangkap8)."31*\n".
+    nomor_karakter($tangkap8)."32*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."34*\n".
+    nomor_karakter($tangkap8)."35*\n".
+    nomor_karakter($tangkap8)."311*\n".
+    nomor_karakter($tangkap8)."322*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."344*\n".
+    nomor_karakter($tangkap8)."355*\n".
+    nomor_karakter($tangkap8)."313*\n".
+    nomor_karakter($tangkap8)."323*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."343*\n".
+    nomor_karakter($tangkap8)."353*\n".
+    nomor_karakter($tangkap8)."113*\n".
+    nomor_karakter($tangkap8)."223*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."443*\n".
+    nomor_karakter($tangkap8)."553*\n".
+    nomor_karakter($tangkap8)."331*\n".
+    nomor_karakter($tangkap8)."332*\n".
+    nomor_karakter($tangkap8)."333*\n".
+    nomor_karakter($tangkap8)."334*\n".
+    nomor_karakter($tangkap8)."335*\n".
+    nomor_karakter($tangkap8)."453*\n".
+    nomor_karakter($tangkap8)."123*\n".
+    nomor_karakter($tangkap8)."321*\n".
+    nomor_karakter($tangkap8)."4*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."4444*\n".
+    nomor_karakter($tangkap8)."44444*\n".
+    nomor_karakter($tangkap8)."41*\n".
+    nomor_karakter($tangkap8)."42*\n".
+    nomor_karakter($tangkap8)."43*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."411*\n".
+    nomor_karakter($tangkap8)."422*\n".
+    nomor_karakter($tangkap8)."433*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."455*\n".
+    nomor_karakter($tangkap8)."414*\n".
+    nomor_karakter($tangkap8)."424*\n".
+    nomor_karakter($tangkap8)."434*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."454*\n".
+    nomor_karakter($tangkap8)."114*\n".
+    nomor_karakter($tangkap8)."224*\n".
+    nomor_karakter($tangkap8)."334*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."441*\n".
+    nomor_karakter($tangkap8)."442*\n".
+    nomor_karakter($tangkap8)."443*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."445*\n".
+    nomor_karakter($tangkap8)."554*\n".
+    nomor_karakter($tangkap8)."444*\n".
+    nomor_karakter($tangkap8)."12*\n".
+    nomor_karakter($tangkap8)."43*\n".
+    nomor_karakter($tangkap8)."5*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."555*\n".
+    nomor_karakter($tangkap8)."5555*\n".
+    nomor_karakter($tangkap8)."55555*\n".
+    nomor_karakter($tangkap8)."51*\n".
+    nomor_karakter($tangkap8)."52*\n".
+    nomor_karakter($tangkap8)."53*\n".
+    nomor_karakter($tangkap8)."54*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."511*\n".
+    nomor_karakter($tangkap8)."522*\n".
+    nomor_karakter($tangkap8)."533*\n".
+    nomor_karakter($tangkap8)."544*\n".
+    nomor_karakter($tangkap8)."655*\n".
+    nomor_karakter($tangkap8)."515*\n".
+    nomor_karakter($tangkap8)."525\n".
+    nomor_karakter($tangkap8)."535*\n".
+    nomor_karakter($tangkap8)."545*\n".
+    nomor_karakter($tangkap8)."555*\n".
+    nomor_karakter($tangkap8)."115*\n".
+    nomor_karakter($tangkap8)."225*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."34*\n".
+    nomor_karakter($tangkap8)."1234*\n".
+    nomor_karakter($tangkap8)."5432*\n".
+    nomor_karakter($tangkap8)."6*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."666*\n".
+    nomor_karakter($tangkap8)."6666*\n".
+    nomor_karakter($tangkap8)."66666*\n".
+    nomor_karakter($tangkap8)."61*\n".
+    nomor_karakter($tangkap8)."62*\n".
+    nomor_karakter($tangkap8)."63*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."611*\n".
+    nomor_karakter($tangkap8)."622*\n".
+    nomor_karakter($tangkap8)."633*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."61*\n".
+    nomor_karakter($tangkap8)."62*\n".
+    nomor_karakter($tangkap8)."63*\n".
+    nomor_karakter($tangkap8)."64*\n".
+    nomor_karakter($tangkap8)."65*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."66*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."12345*\n".
+    nomor_karakter($tangkap8)."65432*\n".
+    nomor_karakter($tangkap8)."7*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."777*\n".
+    nomor_karakter($tangkap8)."7777*\n".
+    nomor_karakter($tangkap8)."77777*\n".
+    nomor_karakter($tangkap8)."71*\n".
+    nomor_karakter($tangkap8)."72*\n".
+    nomor_karakter($tangkap8)."73*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."711*\n".
+    nomor_karakter($tangkap8)."722*\n".
+    nomor_karakter($tangkap8)."733*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."71*\n".
+    nomor_karakter($tangkap8)."72*\n".
+    nomor_karakter($tangkap8)."73*\n".
+    nomor_karakter($tangkap8)."74*\n".
+    nomor_karakter($tangkap8)."75*\n".
+    nomor_karakter($tangkap8)."11*\n".
+    nomor_karakter($tangkap8)."22*\n".
+    nomor_karakter($tangkap8)."33*\n".
+    nomor_karakter($tangkap8)."44*\n".
+    nomor_karakter($tangkap8)."55*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."77*\n".
+    nomor_karakter($tangkap8)."45*\n".
+    nomor_karakter($tangkap8)."1234567*\n".
+    nomor_karakter($tangkap8)."8*\n".
+    nomor_karakter($tangkap8)."88*\n".
+    nomor_karakter($tangkap8)."888*\n".
+    nomor_karakter($tangkap8)."8888*\n".
+    nomor_karakter($tangkap8)."88888*\n".
+    nomor_karakter($tangkap8)."81*\n".
+    nomor_karakter($tangkap8)."82*\n".
+    nomor_karakter($tangkap8)."83*\n".
+    nomor_karakter($tangkap8)."84*\n".
+    nomor_karakter($tangkap8)."85*\n".
+    nomor_karakter($tangkap8)."811*\n".
+    nomor_karakter($tangkap8)."822*\n".
+    nomor_karakter($tangkap8)."833*\n".
+    nomor_karakter($tangkap8)."844*\n".
+    nomor_karakter($tangkap8)."855*\n".
+    nomor_karakter($tangkap8)."818*\n".
+    nomor_karakter($tangkap8)."828*\n".
+    nomor_karakter($tangkap8)."838*\n".
+    nomor_karakter($tangkap8)."848*\n".
+    nomor_karakter($tangkap8)."858*\n".
+    nomor_karakter($tangkap8)."118*\n".
+    nomor_karakter($tangkap8)."228*\n".
+    nomor_karakter($tangkap8)."338*\n".
+    nomor_karakter($tangkap8)."448*\n".
+    nomor_karakter($tangkap8)."558*\n".
+    nomor_karakter($tangkap8)."881*\n".
+    nomor_karakter($tangkap8)."882*\n".
+    nomor_karakter($tangkap8)."883*\n".
+    nomor_karakter($tangkap8)."884*\n".
+    nomor_karakter($tangkap8)."885*\n".
+    nomor_karakter($tangkap8)."458*\n".
+    nomor_karakter($tangkap8)."12345678*\n".
+    nomor_karakter($tangkap8)."87654321*\n".
+    nomor_karakter($tangkap8)."9*\n".
+    nomor_karakter($tangkap8)."99*\n".
+    nomor_karakter($tangkap8)."999*\n".
+    nomor_karakter($tangkap8)."9999*\n".
+    nomor_karakter($tangkap8)."99999*\n".
+    nomor_karakter($tangkap8)."91*\n".
+    nomor_karakter($tangkap8)."92*\n".
+    nomor_karakter($tangkap8)."93*\n".
+    nomor_karakter($tangkap8)."94*\n".
+    nomor_karakter($tangkap8)."95*\n".
+    nomor_karakter($tangkap8)."911*\n".
+    nomor_karakter($tangkap8)."922*\n".
+    nomor_karakter($tangkap8)."933*\n".
+    nomor_karakter($tangkap8)."944*\n".
+    nomor_karakter($tangkap8)."955*\n".
+    nomor_karakter($tangkap8)."919*\n".
+    nomor_karakter($tangkap8)."929*\n".
+    nomor_karakter($tangkap8)."939*\n".
+    nomor_karakter($tangkap8)."949*\n".
+    nomor_karakter($tangkap8)."959*\n".
+    nomor_karakter($tangkap8)."119*\n".
+    nomor_karakter($tangkap8)."229*\n".
+    nomor_karakter($tangkap8)."339*\n".
+    nomor_karakter($tangkap8)."449*\n".
+    nomor_karakter($tangkap8)."559*\n".
+    nomor_karakter($tangkap8)."991*\n".
+    nomor_karakter($tangkap8)."992*\n".
+    nomor_karakter($tangkap8)."993*\n".
+    nomor_karakter($tangkap8)."994*\n".
+    nomor_karakter($tangkap8)."995*\n".
+    nomor_karakter($tangkap8)."459*\n".
+    nomor_karakter($tangkap8)."12345678*\n".
+    nomor_karakter($tangkap8)."987654321*\n".
+    nomor_karakter($tangkap8)."0*\n".
+    nomor_karakter($tangkap8)."00*\n".
+    nomor_karakter($tangkap8)."000*\n".
+    nomor_karakter($tangkap8)."0000*\n".
+    nomor_karakter($tangkap8)."00000*\n".
+    nomor_karakter($tangkap8)."01*\n".
+    nomor_karakter($tangkap8)."02*\n".
+    nomor_karakter($tangkap8)."03*\n".
+    nomor_karakter($tangkap8)."04*\n".
+    nomor_karakter($tangkap8)."05*\n".
+    nomor_karakter($tangkap8)."011*\n".
+    nomor_karakter($tangkap8)."022*\n".
+    nomor_karakter($tangkap8)."033*\n".
+    nomor_karakter($tangkap8)."044*\n".
+    nomor_karakter($tangkap8)."055*\n".
+    nomor_karakter($tangkap8)."010*\n".
+    nomor_karakter($tangkap8)."020*\n".
+    nomor_karakter($tangkap8)."030*\n".
+    nomor_karakter($tangkap8)."040*\n".
+    nomor_karakter($tangkap8)."050*\n".
+    nomor_karakter($tangkap8)."110*\n".
+    nomor_karakter($tangkap8)."220*\n".
+    nomor_karakter($tangkap8)."330*\n".
+    nomor_karakter($tangkap8)."440*\n".
+    nomor_karakter($tangkap8)."550*\n".
+    nomor_karakter($tangkap8)."001*\n".
+    nomor_karakter($tangkap8)."002*\n".
+    nomor_karakter($tangkap8)."003*\n".
+    nomor_karakter($tangkap8)."004*\n".
+    nomor_karakter($tangkap8)."005*\n".
+    nomor_karakter($tangkap8)."450*\n".
+    nomor_karakter($tangkap8)."123456789*\n".
+
+    nomor_karakter($tangkap9)."1*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."111*\n".
+    nomor_karakter($tangkap9)."1111*\n".
+    nomor_karakter($tangkap9)."11111*\n".
+    nomor_karakter($tangkap9)."2*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."2222*\n".
+    nomor_karakter($tangkap9)."22222*\n".
+    nomor_karakter($tangkap9)."21*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."23*\n".
+    nomor_karakter($tangkap9)."24*\n".
+    nomor_karakter($tangkap9)."25*\n".
+    nomor_karakter($tangkap9)."26*\n".
+    nomor_karakter($tangkap9)."27*\n".
+    nomor_karakter($tangkap9)."28*\n".
+    nomor_karakter($tangkap9)."29*\n".
+    nomor_karakter($tangkap9)."211*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."233*\n".
+    nomor_karakter($tangkap9)."244*\n".
+    nomor_karakter($tangkap9)."255*\n".
+    nomor_karakter($tangkap9)."212*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."232*\n".
+    nomor_karakter($tangkap9)."242*\n".
+    nomor_karakter($tangkap9)."252*\n".
+    nomor_karakter($tangkap9)."112*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."332*\n".
+    nomor_karakter($tangkap9)."442*\n".
+    nomor_karakter($tangkap9)."552*\n".
+    nomor_karakter($tangkap9)."221*\n".
+    nomor_karakter($tangkap9)."222*\n".
+    nomor_karakter($tangkap9)."223*\n".
+    nomor_karakter($tangkap9)."224*\n".
+    nomor_karakter($tangkap9)."225*\n".
+    nomor_karakter($tangkap9)."452*\n".
+    nomor_karakter($tangkap9)."12*\n".
+    nomor_karakter($tangkap9)."21*\n".
+    nomor_karakter($tangkap9)."3*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."3333*\n".
+    nomor_karakter($tangkap9)."33333*\n".
+    nomor_karakter($tangkap9)."31*\n".
+    nomor_karakter($tangkap9)."32*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."34*\n".
+    nomor_karakter($tangkap9)."35*\n".
+    nomor_karakter($tangkap9)."311*\n".
+    nomor_karakter($tangkap9)."322*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."344*\n".
+    nomor_karakter($tangkap9)."355*\n".
+    nomor_karakter($tangkap9)."313*\n".
+    nomor_karakter($tangkap9)."323*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."343*\n".
+    nomor_karakter($tangkap9)."353*\n".
+    nomor_karakter($tangkap9)."113*\n".
+    nomor_karakter($tangkap9)."223*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."443*\n".
+    nomor_karakter($tangkap9)."553*\n".
+    nomor_karakter($tangkap9)."331*\n".
+    nomor_karakter($tangkap9)."332*\n".
+    nomor_karakter($tangkap9)."333*\n".
+    nomor_karakter($tangkap9)."334*\n".
+    nomor_karakter($tangkap9)."335*\n".
+    nomor_karakter($tangkap9)."453*\n".
+    nomor_karakter($tangkap9)."123*\n".
+    nomor_karakter($tangkap9)."321*\n".
+    nomor_karakter($tangkap9)."4*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."4444*\n".
+    nomor_karakter($tangkap9)."44444*\n".
+    nomor_karakter($tangkap9)."41*\n".
+    nomor_karakter($tangkap9)."42*\n".
+    nomor_karakter($tangkap9)."43*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."411*\n".
+    nomor_karakter($tangkap9)."422*\n".
+    nomor_karakter($tangkap9)."433*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."455*\n".
+    nomor_karakter($tangkap9)."414*\n".
+    nomor_karakter($tangkap9)."424*\n".
+    nomor_karakter($tangkap9)."434*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."454*\n".
+    nomor_karakter($tangkap9)."114*\n".
+    nomor_karakter($tangkap9)."224*\n".
+    nomor_karakter($tangkap9)."334*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."441*\n".
+    nomor_karakter($tangkap9)."442*\n".
+    nomor_karakter($tangkap9)."443*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."445*\n".
+    nomor_karakter($tangkap9)."554*\n".
+    nomor_karakter($tangkap9)."444*\n".
+    nomor_karakter($tangkap9)."12*\n".
+    nomor_karakter($tangkap9)."43*\n".
+    nomor_karakter($tangkap9)."5*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."555*\n".
+    nomor_karakter($tangkap9)."5555*\n".
+    nomor_karakter($tangkap9)."55555*\n".
+    nomor_karakter($tangkap9)."51*\n".
+    nomor_karakter($tangkap9)."52*\n".
+    nomor_karakter($tangkap9)."53*\n".
+    nomor_karakter($tangkap9)."54*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."511*\n".
+    nomor_karakter($tangkap9)."522*\n".
+    nomor_karakter($tangkap9)."533*\n".
+    nomor_karakter($tangkap9)."544*\n".
+    nomor_karakter($tangkap9)."655*\n".
+    nomor_karakter($tangkap9)."515*\n".
+    nomor_karakter($tangkap9)."525\n".
+    nomor_karakter($tangkap9)."535*\n".
+    nomor_karakter($tangkap9)."545*\n".
+    nomor_karakter($tangkap9)."555*\n".
+    nomor_karakter($tangkap9)."115*\n".
+    nomor_karakter($tangkap9)."225*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."34*\n".
+    nomor_karakter($tangkap9)."1234*\n".
+    nomor_karakter($tangkap9)."5432*\n".
+    nomor_karakter($tangkap9)."6*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."666*\n".
+    nomor_karakter($tangkap9)."6666*\n".
+    nomor_karakter($tangkap9)."66666*\n".
+    nomor_karakter($tangkap9)."61*\n".
+    nomor_karakter($tangkap9)."62*\n".
+    nomor_karakter($tangkap9)."63*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."611*\n".
+    nomor_karakter($tangkap9)."622*\n".
+    nomor_karakter($tangkap9)."633*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."61*\n".
+    nomor_karakter($tangkap9)."62*\n".
+    nomor_karakter($tangkap9)."63*\n".
+    nomor_karakter($tangkap9)."64*\n".
+    nomor_karakter($tangkap9)."65*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."66*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."12345*\n".
+    nomor_karakter($tangkap9)."65432*\n".
+    nomor_karakter($tangkap9)."7*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."777*\n".
+    nomor_karakter($tangkap9)."7777*\n".
+    nomor_karakter($tangkap9)."77777*\n".
+    nomor_karakter($tangkap9)."71*\n".
+    nomor_karakter($tangkap9)."72*\n".
+    nomor_karakter($tangkap9)."73*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."711*\n".
+    nomor_karakter($tangkap9)."722*\n".
+    nomor_karakter($tangkap9)."733*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."71*\n".
+    nomor_karakter($tangkap9)."72*\n".
+    nomor_karakter($tangkap9)."73*\n".
+    nomor_karakter($tangkap9)."74*\n".
+    nomor_karakter($tangkap9)."75*\n".
+    nomor_karakter($tangkap9)."11*\n".
+    nomor_karakter($tangkap9)."22*\n".
+    nomor_karakter($tangkap9)."33*\n".
+    nomor_karakter($tangkap9)."44*\n".
+    nomor_karakter($tangkap9)."55*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."77*\n".
+    nomor_karakter($tangkap9)."45*\n".
+    nomor_karakter($tangkap9)."1234567*\n".
+    nomor_karakter($tangkap9)."8*\n".
+    nomor_karakter($tangkap9)."88*\n".
+    nomor_karakter($tangkap9)."888*\n".
+    nomor_karakter($tangkap9)."8888*\n".
+    nomor_karakter($tangkap9)."88888*\n".
+    nomor_karakter($tangkap9)."81*\n".
+    nomor_karakter($tangkap9)."82*\n".
+    nomor_karakter($tangkap9)."83*\n".
+    nomor_karakter($tangkap9)."84*\n".
+    nomor_karakter($tangkap9)."85*\n".
+    nomor_karakter($tangkap9)."811*\n".
+    nomor_karakter($tangkap9)."822*\n".
+    nomor_karakter($tangkap9)."833*\n".
+    nomor_karakter($tangkap9)."844*\n".
+    nomor_karakter($tangkap9)."855*\n".
+    nomor_karakter($tangkap9)."818*\n".
+    nomor_karakter($tangkap9)."828*\n".
+    nomor_karakter($tangkap9)."838*\n".
+    nomor_karakter($tangkap9)."848*\n".
+    nomor_karakter($tangkap9)."858*\n".
+    nomor_karakter($tangkap9)."118*\n".
+    nomor_karakter($tangkap9)."228*\n".
+    nomor_karakter($tangkap9)."338*\n".
+    nomor_karakter($tangkap9)."448*\n".
+    nomor_karakter($tangkap9)."558*\n".
+    nomor_karakter($tangkap9)."881*\n".
+    nomor_karakter($tangkap9)."882*\n".
+    nomor_karakter($tangkap9)."883*\n".
+    nomor_karakter($tangkap9)."884*\n".
+    nomor_karakter($tangkap9)."885*\n".
+    nomor_karakter($tangkap9)."458*\n".
+    nomor_karakter($tangkap9)."12345678*\n".
+    nomor_karakter($tangkap9)."87654321*\n".
+    nomor_karakter($tangkap9)."9*\n".
+    nomor_karakter($tangkap9)."99*\n".
+    nomor_karakter($tangkap9)."999*\n".
+    nomor_karakter($tangkap9)."9999*\n".
+    nomor_karakter($tangkap9)."99999*\n".
+    nomor_karakter($tangkap9)."91*\n".
+    nomor_karakter($tangkap9)."92*\n".
+    nomor_karakter($tangkap9)."93*\n".
+    nomor_karakter($tangkap9)."94*\n".
+    nomor_karakter($tangkap9)."95*\n".
+    nomor_karakter($tangkap9)."911*\n".
+    nomor_karakter($tangkap9)."922*\n".
+    nomor_karakter($tangkap9)."933*\n".
+    nomor_karakter($tangkap9)."944*\n".
+    nomor_karakter($tangkap9)."955*\n".
+    nomor_karakter($tangkap9)."919*\n".
+    nomor_karakter($tangkap9)."929*\n".
+    nomor_karakter($tangkap9)."939*\n".
+    nomor_karakter($tangkap9)."949*\n".
+    nomor_karakter($tangkap9)."959*\n".
+    nomor_karakter($tangkap9)."119*\n".
+    nomor_karakter($tangkap9)."229*\n".
+    nomor_karakter($tangkap9)."339*\n".
+    nomor_karakter($tangkap9)."449*\n".
+    nomor_karakter($tangkap9)."559*\n".
+    nomor_karakter($tangkap9)."991*\n".
+    nomor_karakter($tangkap9)."992*\n".
+    nomor_karakter($tangkap9)."993*\n".
+    nomor_karakter($tangkap9)."994*\n".
+    nomor_karakter($tangkap9)."995*\n".
+    nomor_karakter($tangkap9)."459*\n".
+    nomor_karakter($tangkap9)."12345678*\n".
+    nomor_karakter($tangkap9)."987654321*\n".
+    nomor_karakter($tangkap9)."0*\n".
+    nomor_karakter($tangkap9)."00*\n".
+    nomor_karakter($tangkap9)."000*\n".
+    nomor_karakter($tangkap9)."0000*\n".
+    nomor_karakter($tangkap9)."00000*\n".
+    nomor_karakter($tangkap9)."01*\n".
+    nomor_karakter($tangkap9)."02*\n".
+    nomor_karakter($tangkap9)."03*\n".
+    nomor_karakter($tangkap9)."04*\n".
+    nomor_karakter($tangkap9)."05*\n".
+    nomor_karakter($tangkap9)."011*\n".
+    nomor_karakter($tangkap9)."022*\n".
+    nomor_karakter($tangkap9)."033*\n".
+    nomor_karakter($tangkap9)."044*\n".
+    nomor_karakter($tangkap9)."055*\n".
+    nomor_karakter($tangkap9)."010*\n".
+    nomor_karakter($tangkap9)."020*\n".
+    nomor_karakter($tangkap9)."030*\n".
+    nomor_karakter($tangkap9)."040*\n".
+    nomor_karakter($tangkap9)."050*\n".
+    nomor_karakter($tangkap9)."110*\n".
+    nomor_karakter($tangkap9)."220*\n".
+    nomor_karakter($tangkap9)."330*\n".
+    nomor_karakter($tangkap9)."440*\n".
+    nomor_karakter($tangkap9)."550*\n".
+    nomor_karakter($tangkap9)."001*\n".
+    nomor_karakter($tangkap9)."002*\n".
+    nomor_karakter($tangkap9)."003*\n".
+    nomor_karakter($tangkap9)."004*\n".
+    nomor_karakter($tangkap9)."005*\n".
+    nomor_karakter($tangkap9)."450*\n".
+    nomor_karakter($tangkap9)."123456789*\n".
+	fahmi($tangkap1.$tangkap2)."\n".
+	fahmi($tangkap1.$tangkap3)."\n".
+	fahmi($tangkap2.$tangkap3)."\n".
+	fahmi($tangkap2.$tangkap9)."\n".
+	fahmi($tangkap2.$tangkap8)."\n".
+
+
+	nomor_karakter1($tangkap1)."1.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."111.,\n".
+    nomor_karakter1($tangkap1)."1111.,\n".
+    nomor_karakter1($tangkap1)."11111.,\n".
+    nomor_karakter1($tangkap1)."2.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."2222.,\n".
+    nomor_karakter1($tangkap1)."22222.,\n".
+    nomor_karakter1($tangkap1)."21.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."23.,\n".
+    nomor_karakter1($tangkap1)."24.,\n".
+    nomor_karakter1($tangkap1)."25.,\n".
+    nomor_karakter1($tangkap1)."26.,\n".
+    nomor_karakter1($tangkap1)."27.,\n".
+    nomor_karakter1($tangkap1)."28.,\n".
+    nomor_karakter1($tangkap1)."29.,\n".
+    nomor_karakter1($tangkap1)."211.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."233.,\n".
+    nomor_karakter1($tangkap1)."244.,\n".
+    nomor_karakter1($tangkap1)."255.,\n".
+    nomor_karakter1($tangkap1)."212.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."232.,\n".
+    nomor_karakter1($tangkap1)."242.,\n".
+    nomor_karakter1($tangkap1)."252.,\n".
+    nomor_karakter1($tangkap1)."112.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."332.,\n".
+    nomor_karakter1($tangkap1)."442.,\n".
+    nomor_karakter1($tangkap1)."552.,\n".
+    nomor_karakter1($tangkap1)."221.,\n".
+    nomor_karakter1($tangkap1)."222.,\n".
+    nomor_karakter1($tangkap1)."223.,\n".
+    nomor_karakter1($tangkap1)."224.,\n".
+    nomor_karakter1($tangkap1)."225.,\n".
+    nomor_karakter1($tangkap1)."452.,\n".
+    nomor_karakter1($tangkap1)."12.,\n".
+    nomor_karakter1($tangkap1)."21.,\n".
+    nomor_karakter1($tangkap1)."3.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."3333.,\n".
+    nomor_karakter1($tangkap1)."33333.,\n".
+    nomor_karakter1($tangkap1)."31.,\n".
+    nomor_karakter1($tangkap1)."32.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."34.,\n".
+    nomor_karakter1($tangkap1)."35.,\n".
+    nomor_karakter1($tangkap1)."311.,\n".
+    nomor_karakter1($tangkap1)."322.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."344.,\n".
+    nomor_karakter1($tangkap1)."355.,\n".
+    nomor_karakter1($tangkap1)."313.,\n".
+    nomor_karakter1($tangkap1)."323.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."343.,\n".
+    nomor_karakter1($tangkap1)."353.,\n".
+    nomor_karakter1($tangkap1)."113.,\n".
+    nomor_karakter1($tangkap1)."223.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."443.,\n".
+    nomor_karakter1($tangkap1)."553.,\n".
+    nomor_karakter1($tangkap1)."331.,\n".
+    nomor_karakter1($tangkap1)."332.,\n".
+    nomor_karakter1($tangkap1)."333.,\n".
+    nomor_karakter1($tangkap1)."334.,\n".
+    nomor_karakter1($tangkap1)."335.,\n".
+    nomor_karakter1($tangkap1)."453.,\n".
+    nomor_karakter1($tangkap1)."123.,\n".
+    nomor_karakter1($tangkap1)."321.,\n".
+    nomor_karakter1($tangkap1)."4.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."4444.,\n".
+    nomor_karakter1($tangkap1)."44444.,\n".
+    nomor_karakter1($tangkap1)."41.,\n".
+    nomor_karakter1($tangkap1)."42.,\n".
+    nomor_karakter1($tangkap1)."43.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."411.,\n".
+    nomor_karakter1($tangkap1)."422.,\n".
+    nomor_karakter1($tangkap1)."433.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."455.,\n".
+    nomor_karakter1($tangkap1)."414.,\n".
+    nomor_karakter1($tangkap1)."424.,\n".
+    nomor_karakter1($tangkap1)."434.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."454.,\n".
+    nomor_karakter1($tangkap1)."114.,\n".
+    nomor_karakter1($tangkap1)."224.,\n".
+    nomor_karakter1($tangkap1)."334.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."441.,\n".
+    nomor_karakter1($tangkap1)."442.,\n".
+    nomor_karakter1($tangkap1)."443.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."445.,\n".
+    nomor_karakter1($tangkap1)."554.,\n".
+    nomor_karakter1($tangkap1)."444.,\n".
+    nomor_karakter1($tangkap1)."12.,\n".
+    nomor_karakter1($tangkap1)."43.,\n".
+    nomor_karakter1($tangkap1)."5.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."555.,\n".
+    nomor_karakter1($tangkap1)."5555.,\n".
+    nomor_karakter1($tangkap1)."55555.,\n".
+    nomor_karakter1($tangkap1)."51.,\n".
+    nomor_karakter1($tangkap1)."52.,\n".
+    nomor_karakter1($tangkap1)."53.,\n".
+    nomor_karakter1($tangkap1)."54.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."511.,\n".
+    nomor_karakter1($tangkap1)."522.,\n".
+    nomor_karakter1($tangkap1)."533.,\n".
+    nomor_karakter1($tangkap1)."544.,\n".
+    nomor_karakter1($tangkap1)."655.,\n".
+    nomor_karakter1($tangkap1)."515.,\n".
+    nomor_karakter1($tangkap1)."52.,\n".
+    nomor_karakter1($tangkap1)."535.,\n".
+    nomor_karakter1($tangkap1)."545.,\n".
+    nomor_karakter1($tangkap1)."555.,\n".
+    nomor_karakter1($tangkap1)."115.,\n".
+    nomor_karakter1($tangkap1)."225.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."34.,\n".
+    nomor_karakter1($tangkap1)."1234.,\n".
+    nomor_karakter1($tangkap1)."5432.,\n".
+    nomor_karakter1($tangkap1)."6.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."666.,\n".
+    nomor_karakter1($tangkap1)."6666.,\n".
+    nomor_karakter1($tangkap1)."66666.,\n".
+    nomor_karakter1($tangkap1)."61.,\n".
+    nomor_karakter1($tangkap1)."62.,\n".
+    nomor_karakter1($tangkap1)."63.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."611.,\n".
+    nomor_karakter1($tangkap1)."622.,\n".
+    nomor_karakter1($tangkap1)."633.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."61.,\n".
+    nomor_karakter1($tangkap1)."62.,\n".
+    nomor_karakter1($tangkap1)."63.,\n".
+    nomor_karakter1($tangkap1)."64.,\n".
+    nomor_karakter1($tangkap1)."65.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."66.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."12345.,\n".
+    nomor_karakter1($tangkap1)."65432.,\n".
+    nomor_karakter1($tangkap1)."7.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."777.,\n".
+    nomor_karakter1($tangkap1)."7777.,\n".
+    nomor_karakter1($tangkap1)."77777.,\n".
+    nomor_karakter1($tangkap1)."71.,\n".
+    nomor_karakter1($tangkap1)."72.,\n".
+    nomor_karakter1($tangkap1)."73.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."711.,\n".
+    nomor_karakter1($tangkap1)."722.,\n".
+    nomor_karakter1($tangkap1)."733.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."71.,\n".
+    nomor_karakter1($tangkap1)."72.,\n".
+    nomor_karakter1($tangkap1)."73.,\n".
+    nomor_karakter1($tangkap1)."74.,\n".
+    nomor_karakter1($tangkap1)."75.,\n".
+    nomor_karakter1($tangkap1)."11.,\n".
+    nomor_karakter1($tangkap1)."22.,\n".
+    nomor_karakter1($tangkap1)."33.,\n".
+    nomor_karakter1($tangkap1)."44.,\n".
+    nomor_karakter1($tangkap1)."55.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."77.,\n".
+    nomor_karakter1($tangkap1)."45.,\n".
+    nomor_karakter1($tangkap1)."1234567.,\n".
+    nomor_karakter1($tangkap1)."8.,\n".
+    nomor_karakter1($tangkap1)."88.,\n".
+    nomor_karakter1($tangkap1)."888.,\n".
+    nomor_karakter1($tangkap1)."8888.,\n".
+    nomor_karakter1($tangkap1)."88888.,\n".
+    nomor_karakter1($tangkap1)."81.,\n".
+    nomor_karakter1($tangkap1)."82.,\n".
+    nomor_karakter1($tangkap1)."83.,\n".
+    nomor_karakter1($tangkap1)."84.,\n".
+    nomor_karakter1($tangkap1)."85.,\n".
+    nomor_karakter1($tangkap1)."811.,\n".
+    nomor_karakter1($tangkap1)."822.,\n".
+    nomor_karakter1($tangkap1)."833.,\n".
+    nomor_karakter1($tangkap1)."844.,\n".
+    nomor_karakter1($tangkap1)."855.,\n".
+    nomor_karakter1($tangkap1)."818.,\n".
+    nomor_karakter1($tangkap1)."828.,\n".
+    nomor_karakter1($tangkap1)."838.,\n".
+    nomor_karakter1($tangkap1)."848.,\n".
+    nomor_karakter1($tangkap1)."858.,\n".
+    nomor_karakter1($tangkap1)."118.,\n".
+    nomor_karakter1($tangkap1)."228.,\n".
+    nomor_karakter1($tangkap1)."338.,\n".
+    nomor_karakter1($tangkap1)."448.,\n".
+    nomor_karakter1($tangkap1)."558.,\n".
+    nomor_karakter1($tangkap1)."881.,\n".
+    nomor_karakter1($tangkap1)."882.,\n".
+    nomor_karakter1($tangkap1)."883.,\n".
+    nomor_karakter1($tangkap1)."884.,\n".
+    nomor_karakter1($tangkap1)."885.,\n".
+    nomor_karakter1($tangkap1)."458.,\n".
+    nomor_karakter1($tangkap1)."12345678.,\n".
+    nomor_karakter1($tangkap1)."87654321.,\n".
+    nomor_karakter1($tangkap1)."9.,\n".
+    nomor_karakter1($tangkap1)."99.,\n".
+    nomor_karakter1($tangkap1)."999.,\n".
+    nomor_karakter1($tangkap1)."9999.,\n".
+    nomor_karakter1($tangkap1)."99999.,\n".
+    nomor_karakter1($tangkap1)."91*\n".
+    nomor_karakter1($tangkap1)."92.,\n".
+    nomor_karakter1($tangkap1)."93.,\n".
+    nomor_karakter1($tangkap1)."94.,\n".
+    nomor_karakter1($tangkap1)."95.,\n".
+    nomor_karakter1($tangkap1)."911.,\n".
+    nomor_karakter1($tangkap1)."922.,\n".
+    nomor_karakter1($tangkap1)."933.,\n".
+    nomor_karakter1($tangkap1)."944.,\n".
+    nomor_karakter1($tangkap1)."955.,\n".
+    nomor_karakter1($tangkap1)."919.,\n".
+    nomor_karakter1($tangkap1)."929.,\n".
+    nomor_karakter1($tangkap1)."939.,\n".
+    nomor_karakter1($tangkap1)."949.,\n".
+    nomor_karakter1($tangkap1)."959.,\n".
+    nomor_karakter1($tangkap1)."119.,\n".
+    nomor_karakter1($tangkap1)."229.,\n".
+    nomor_karakter1($tangkap1)."339.,\n".
+    nomor_karakter1($tangkap1)."449.,\n".
+    nomor_karakter1($tangkap1)."559.,\n".
+    nomor_karakter1($tangkap1)."991.,\n".
+    nomor_karakter1($tangkap1)."992.,\n".
+    nomor_karakter1($tangkap1)."993.,\n".
+    nomor_karakter1($tangkap1)."994.,\n".
+    nomor_karakter1($tangkap1)."995.,\n".
+    nomor_karakter1($tangkap1)."459.,\n".
+    nomor_karakter1($tangkap1)."12345678.,\n".
+    nomor_karakter1($tangkap1)."987654321.,\n".
+    nomor_karakter1($tangkap1)."0.,\n".
+    nomor_karakter1($tangkap1)."00.,\n".
+    nomor_karakter1($tangkap1)."000.,\n".
+    nomor_karakter1($tangkap1)."0000.,\n".
+    nomor_karakter1($tangkap1)."00000.,\n".
+    nomor_karakter1($tangkap1)."01.,\n".
+    nomor_karakter1($tangkap1)."02.,\n".
+    nomor_karakter1($tangkap1)."03.,\n".
+    nomor_karakter1($tangkap1)."04.,\n".
+    nomor_karakter1($tangkap1)."05.,\n".
+    nomor_karakter1($tangkap1)."011.,\n".
+    nomor_karakter1($tangkap1)."022.,\n".
+    nomor_karakter1($tangkap1)."033.,\n".
+    nomor_karakter1($tangkap1)."044.,\n".
+    nomor_karakter1($tangkap1)."055.,\n".
+    nomor_karakter1($tangkap1)."010.,\n".
+    nomor_karakter1($tangkap1)."020.,\n".
+    nomor_karakter1($tangkap1)."030.,\n".
+    nomor_karakter1($tangkap1)."040.,\n".
+    nomor_karakter1($tangkap1)."050.,\n".
+    nomor_karakter1($tangkap1)."110.,\n".
+    nomor_karakter1($tangkap1)."220.,\n".
+    nomor_karakter1($tangkap1)."330.,\n".
+    nomor_karakter1($tangkap1)."440.,\n".
+    nomor_karakter1($tangkap1)."550.,\n".
+    nomor_karakter1($tangkap1)."001.,\n".
+    nomor_karakter1($tangkap1)."002.,\n".
+    nomor_karakter1($tangkap1)."003.,\n".
+    nomor_karakter1($tangkap1)."004.,\n".
+    nomor_karakter1($tangkap1)."005.,\n".
+    nomor_karakter1($tangkap1)."450.,\n".
+    nomor_karakter1($tangkap1)."123456789.,\n".
+
+    nomor_karakter1($tangkap2)."1.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."111.,\n".
+    nomor_karakter1($tangkap2)."1111.,\n".
+    nomor_karakter1($tangkap2)."11111.,\n".
+    nomor_karakter1($tangkap2)."2.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."2222.,\n".
+    nomor_karakter1($tangkap2)."22222.,\n".
+    nomor_karakter1($tangkap2)."21.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."23.,\n".
+    nomor_karakter1($tangkap2)."24.,\n".
+    nomor_karakter1($tangkap2)."25.,\n".
+    nomor_karakter1($tangkap2)."26.,\n".
+    nomor_karakter1($tangkap2)."27.,\n".
+    nomor_karakter1($tangkap2)."28.,\n".
+    nomor_karakter1($tangkap2)."29.,\n".
+    nomor_karakter1($tangkap2)."211.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."233.,\n".
+    nomor_karakter1($tangkap2)."244.,\n".
+    nomor_karakter1($tangkap2)."255.,\n".
+    nomor_karakter1($tangkap2)."212.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."232.,\n".
+    nomor_karakter1($tangkap2)."242.,\n".
+    nomor_karakter1($tangkap2)."252.,\n".
+    nomor_karakter1($tangkap2)."112.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."332.,\n".
+    nomor_karakter1($tangkap2)."442.,\n".
+    nomor_karakter1($tangkap2)."552.,\n".
+    nomor_karakter1($tangkap2)."221.,\n".
+    nomor_karakter1($tangkap2)."222.,\n".
+    nomor_karakter1($tangkap2)."223.,\n".
+    nomor_karakter1($tangkap2)."224.,\n".
+    nomor_karakter1($tangkap2)."225.,\n".
+    nomor_karakter1($tangkap2)."452.,\n".
+    nomor_karakter1($tangkap2)."12.,\n".
+    nomor_karakter1($tangkap2)."21.,\n".
+    nomor_karakter1($tangkap2)."3.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."3333.,\n".
+    nomor_karakter1($tangkap2)."33333.,\n".
+    nomor_karakter1($tangkap2)."31.,\n".
+    nomor_karakter1($tangkap2)."32.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."34.,\n".
+    nomor_karakter1($tangkap2)."35.,\n".
+    nomor_karakter1($tangkap2)."311.,\n".
+    nomor_karakter1($tangkap2)."322.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."344.,\n".
+    nomor_karakter1($tangkap2)."355.,\n".
+    nomor_karakter1($tangkap2)."313.,\n".
+    nomor_karakter1($tangkap2)."323.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."343.,\n".
+    nomor_karakter1($tangkap2)."353.,\n".
+    nomor_karakter1($tangkap2)."113.,\n".
+    nomor_karakter1($tangkap2)."223.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."443.,\n".
+    nomor_karakter1($tangkap2)."553.,\n".
+    nomor_karakter1($tangkap2)."331.,\n".
+    nomor_karakter1($tangkap2)."332.,\n".
+    nomor_karakter1($tangkap2)."333.,\n".
+    nomor_karakter1($tangkap2)."334.,\n".
+    nomor_karakter1($tangkap2)."335.,\n".
+    nomor_karakter1($tangkap2)."453.,\n".
+    nomor_karakter1($tangkap2)."123.,\n".
+    nomor_karakter1($tangkap2)."321.,\n".
+    nomor_karakter1($tangkap2)."4.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."4444.,\n".
+    nomor_karakter1($tangkap2)."44444.,\n".
+    nomor_karakter1($tangkap2)."41.,\n".
+    nomor_karakter1($tangkap2)."42.,\n".
+    nomor_karakter1($tangkap2)."43.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."411.,\n".
+    nomor_karakter1($tangkap2)."422.,\n".
+    nomor_karakter1($tangkap2)."433.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."455.,\n".
+    nomor_karakter1($tangkap2)."414.,\n".
+    nomor_karakter1($tangkap2)."424.,\n".
+    nomor_karakter1($tangkap2)."434.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."454.,\n".
+    nomor_karakter1($tangkap2)."114.,\n".
+    nomor_karakter1($tangkap2)."224.,\n".
+    nomor_karakter1($tangkap2)."334.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."441.,\n".
+    nomor_karakter1($tangkap2)."442.,\n".
+    nomor_karakter1($tangkap2)."443.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."445.,\n".
+    nomor_karakter1($tangkap2)."554.,\n".
+    nomor_karakter1($tangkap2)."444.,\n".
+    nomor_karakter1($tangkap2)."12.,\n".
+    nomor_karakter1($tangkap2)."43.,\n".
+    nomor_karakter1($tangkap2)."5.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."555.,\n".
+    nomor_karakter1($tangkap2)."5555.,\n".
+    nomor_karakter1($tangkap2)."55555.,\n".
+    nomor_karakter1($tangkap2)."51.,\n".
+    nomor_karakter1($tangkap2)."52.,\n".
+    nomor_karakter1($tangkap2)."53.,\n".
+    nomor_karakter1($tangkap2)."54.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."511.,\n".
+    nomor_karakter1($tangkap2)."522.,\n".
+    nomor_karakter1($tangkap2)."533.,\n".
+    nomor_karakter1($tangkap2)."544.,\n".
+    nomor_karakter1($tangkap2)."655.,\n".
+    nomor_karakter1($tangkap2)."515.,\n".
+    nomor_karakter1($tangkap2)."52.,\n".
+    nomor_karakter1($tangkap2)."535.,\n".
+    nomor_karakter1($tangkap2)."545.,\n".
+    nomor_karakter1($tangkap2)."555.,\n".
+    nomor_karakter1($tangkap2)."115.,\n".
+    nomor_karakter1($tangkap2)."225.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."34.,\n".
+    nomor_karakter1($tangkap2)."1234.,\n".
+    nomor_karakter1($tangkap2)."5432.,\n".
+    nomor_karakter1($tangkap2)."6.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."666.,\n".
+    nomor_karakter1($tangkap2)."6666.,\n".
+    nomor_karakter1($tangkap2)."66666.,\n".
+    nomor_karakter1($tangkap2)."61.,\n".
+    nomor_karakter1($tangkap2)."62.,\n".
+    nomor_karakter1($tangkap2)."63.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."611.,\n".
+    nomor_karakter1($tangkap2)."622.,\n".
+    nomor_karakter1($tangkap2)."633.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."61.,\n".
+    nomor_karakter1($tangkap2)."62.,\n".
+    nomor_karakter1($tangkap2)."63.,\n".
+    nomor_karakter1($tangkap2)."64.,\n".
+    nomor_karakter1($tangkap2)."65.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."66.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."12345.,\n".
+    nomor_karakter1($tangkap2)."65432.,\n".
+    nomor_karakter1($tangkap2)."7.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."777.,\n".
+    nomor_karakter1($tangkap2)."7777.,\n".
+    nomor_karakter1($tangkap2)."77777.,\n".
+    nomor_karakter1($tangkap2)."71.,\n".
+    nomor_karakter1($tangkap2)."72.,\n".
+    nomor_karakter1($tangkap2)."73.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."711.,\n".
+    nomor_karakter1($tangkap2)."722.,\n".
+    nomor_karakter1($tangkap2)."733.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."71.,\n".
+    nomor_karakter1($tangkap2)."72.,\n".
+    nomor_karakter1($tangkap2)."73.,\n".
+    nomor_karakter1($tangkap2)."74.,\n".
+    nomor_karakter1($tangkap2)."75.,\n".
+    nomor_karakter1($tangkap2)."11.,\n".
+    nomor_karakter1($tangkap2)."22.,\n".
+    nomor_karakter1($tangkap2)."33.,\n".
+    nomor_karakter1($tangkap2)."44.,\n".
+    nomor_karakter1($tangkap2)."55.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."77.,\n".
+    nomor_karakter1($tangkap2)."45.,\n".
+    nomor_karakter1($tangkap2)."1234567.,\n".
+    nomor_karakter1($tangkap2)."8.,\n".
+    nomor_karakter1($tangkap2)."88.,\n".
+    nomor_karakter1($tangkap2)."888.,\n".
+    nomor_karakter1($tangkap2)."8888.,\n".
+    nomor_karakter1($tangkap2)."88888.,\n".
+    nomor_karakter1($tangkap2)."81.,\n".
+    nomor_karakter1($tangkap2)."82.,\n".
+    nomor_karakter1($tangkap2)."83.,\n".
+    nomor_karakter1($tangkap2)."84.,\n".
+    nomor_karakter1($tangkap2)."85.,\n".
+    nomor_karakter1($tangkap2)."811.,\n".
+    nomor_karakter1($tangkap2)."822.,\n".
+    nomor_karakter1($tangkap2)."833.,\n".
+    nomor_karakter1($tangkap2)."844.,\n".
+    nomor_karakter1($tangkap2)."855.,\n".
+    nomor_karakter1($tangkap2)."818.,\n".
+    nomor_karakter1($tangkap2)."828.,\n".
+    nomor_karakter1($tangkap2)."838.,\n".
+    nomor_karakter1($tangkap2)."848.,\n".
+    nomor_karakter1($tangkap2)."858.,\n".
+    nomor_karakter1($tangkap2)."118.,\n".
+    nomor_karakter1($tangkap2)."228.,\n".
+    nomor_karakter1($tangkap2)."338.,\n".
+    nomor_karakter1($tangkap2)."448.,\n".
+    nomor_karakter1($tangkap2)."558.,\n".
+    nomor_karakter1($tangkap2)."881.,\n".
+    nomor_karakter1($tangkap2)."882.,\n".
+    nomor_karakter1($tangkap2)."883.,\n".
+    nomor_karakter1($tangkap2)."884.,\n".
+    nomor_karakter1($tangkap2)."885.,\n".
+    nomor_karakter1($tangkap2)."458.,\n".
+    nomor_karakter1($tangkap2)."12345678.,\n".
+    nomor_karakter1($tangkap2)."87654321.,\n".
+    nomor_karakter1($tangkap2)."9.,\n".
+    nomor_karakter1($tangkap2)."99.,\n".
+    nomor_karakter1($tangkap2)."999.,\n".
+    nomor_karakter1($tangkap2)."9999.,\n".
+    nomor_karakter1($tangkap2)."99999.,\n".
+    nomor_karakter1($tangkap2)."91*\n".
+    nomor_karakter1($tangkap2)."92.,\n".
+    nomor_karakter1($tangkap2)."93.,\n".
+    nomor_karakter1($tangkap2)."94.,\n".
+    nomor_karakter1($tangkap2)."95.,\n".
+    nomor_karakter1($tangkap2)."911.,\n".
+    nomor_karakter1($tangkap2)."922.,\n".
+    nomor_karakter1($tangkap2)."933.,\n".
+    nomor_karakter1($tangkap2)."944.,\n".
+    nomor_karakter1($tangkap2)."955.,\n".
+    nomor_karakter1($tangkap2)."919.,\n".
+    nomor_karakter1($tangkap2)."929.,\n".
+    nomor_karakter1($tangkap2)."939.,\n".
+    nomor_karakter1($tangkap2)."949.,\n".
+    nomor_karakter1($tangkap2)."959.,\n".
+    nomor_karakter1($tangkap2)."119.,\n".
+    nomor_karakter1($tangkap2)."229.,\n".
+    nomor_karakter1($tangkap2)."339.,\n".
+    nomor_karakter1($tangkap2)."449.,\n".
+    nomor_karakter1($tangkap2)."559.,\n".
+    nomor_karakter1($tangkap2)."991.,\n".
+    nomor_karakter1($tangkap2)."992.,\n".
+    nomor_karakter1($tangkap2)."993.,\n".
+    nomor_karakter1($tangkap2)."994.,\n".
+    nomor_karakter1($tangkap2)."995.,\n".
+    nomor_karakter1($tangkap2)."459.,\n".
+    nomor_karakter1($tangkap2)."12345678.,\n".
+    nomor_karakter1($tangkap2)."987654321.,\n".
+    nomor_karakter1($tangkap2)."0.,\n".
+    nomor_karakter1($tangkap2)."00.,\n".
+    nomor_karakter1($tangkap2)."000.,\n".
+    nomor_karakter1($tangkap2)."0000.,\n".
+    nomor_karakter1($tangkap2)."00000.,\n".
+    nomor_karakter1($tangkap2)."01.,\n".
+    nomor_karakter1($tangkap2)."02.,\n".
+    nomor_karakter1($tangkap2)."03.,\n".
+    nomor_karakter1($tangkap2)."04.,\n".
+    nomor_karakter1($tangkap2)."05.,\n".
+    nomor_karakter1($tangkap2)."011.,\n".
+    nomor_karakter1($tangkap2)."022.,\n".
+    nomor_karakter1($tangkap2)."033.,\n".
+    nomor_karakter1($tangkap2)."044.,\n".
+    nomor_karakter1($tangkap2)."055.,\n".
+    nomor_karakter1($tangkap2)."010.,\n".
+    nomor_karakter1($tangkap2)."020.,\n".
+    nomor_karakter1($tangkap2)."030.,\n".
+    nomor_karakter1($tangkap2)."040.,\n".
+    nomor_karakter1($tangkap2)."050.,\n".
+    nomor_karakter1($tangkap2)."110.,\n".
+    nomor_karakter1($tangkap2)."220.,\n".
+    nomor_karakter1($tangkap2)."330.,\n".
+    nomor_karakter1($tangkap2)."440.,\n".
+    nomor_karakter1($tangkap2)."550.,\n".
+    nomor_karakter1($tangkap2)."001.,\n".
+    nomor_karakter1($tangkap2)."002.,\n".
+    nomor_karakter1($tangkap2)."003.,\n".
+    nomor_karakter1($tangkap2)."004.,\n".
+    nomor_karakter1($tangkap2)."005.,\n".
+    nomor_karakter1($tangkap2)."450.,\n".
+    nomor_karakter1($tangkap2)."123456789.,\n".
+    nomor_karakter1($tangkap3)."1.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."111.,\n".
+    nomor_karakter1($tangkap3)."1111.,\n".
+    nomor_karakter1($tangkap3)."11111.,\n".
+    nomor_karakter1($tangkap3)."2.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."2222.,\n".
+    nomor_karakter1($tangkap3)."22222.,\n".
+    nomor_karakter1($tangkap3)."21.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."23.,\n".
+    nomor_karakter1($tangkap3)."24.,\n".
+    nomor_karakter1($tangkap3)."25.,\n".
+    nomor_karakter1($tangkap3)."26.,\n".
+    nomor_karakter1($tangkap3)."27.,\n".
+    nomor_karakter1($tangkap3)."28.,\n".
+    nomor_karakter1($tangkap3)."29.,\n".
+    nomor_karakter1($tangkap3)."211.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."233.,\n".
+    nomor_karakter1($tangkap3)."244.,\n".
+    nomor_karakter1($tangkap3)."255.,\n".
+    nomor_karakter1($tangkap3)."212.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."232.,\n".
+    nomor_karakter1($tangkap3)."242.,\n".
+    nomor_karakter1($tangkap3)."252.,\n".
+    nomor_karakter1($tangkap3)."112.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."332.,\n".
+    nomor_karakter1($tangkap3)."442.,\n".
+    nomor_karakter1($tangkap3)."552.,\n".
+    nomor_karakter1($tangkap3)."221.,\n".
+    nomor_karakter1($tangkap3)."222.,\n".
+    nomor_karakter1($tangkap3)."223.,\n".
+    nomor_karakter1($tangkap3)."224.,\n".
+    nomor_karakter1($tangkap3)."225.,\n".
+    nomor_karakter1($tangkap3)."452.,\n".
+    nomor_karakter1($tangkap3)."12.,\n".
+    nomor_karakter1($tangkap3)."21.,\n".
+    nomor_karakter1($tangkap3)."3.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."3333.,\n".
+    nomor_karakter1($tangkap3)."33333.,\n".
+    nomor_karakter1($tangkap3)."31.,\n".
+    nomor_karakter1($tangkap3)."32.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."34.,\n".
+    nomor_karakter1($tangkap3)."35.,\n".
+    nomor_karakter1($tangkap3)."311.,\n".
+    nomor_karakter1($tangkap3)."322.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."344.,\n".
+    nomor_karakter1($tangkap3)."355.,\n".
+    nomor_karakter1($tangkap3)."313.,\n".
+    nomor_karakter1($tangkap3)."323.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."343.,\n".
+    nomor_karakter1($tangkap3)."353.,\n".
+    nomor_karakter1($tangkap3)."113.,\n".
+    nomor_karakter1($tangkap3)."223.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."443.,\n".
+    nomor_karakter1($tangkap3)."553.,\n".
+    nomor_karakter1($tangkap3)."331.,\n".
+    nomor_karakter1($tangkap3)."332.,\n".
+    nomor_karakter1($tangkap3)."333.,\n".
+    nomor_karakter1($tangkap3)."334.,\n".
+    nomor_karakter1($tangkap3)."335.,\n".
+    nomor_karakter1($tangkap3)."453.,\n".
+    nomor_karakter1($tangkap3)."123.,\n".
+    nomor_karakter1($tangkap3)."321.,\n".
+    nomor_karakter1($tangkap3)."4.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."4444.,\n".
+    nomor_karakter1($tangkap3)."44444.,\n".
+    nomor_karakter1($tangkap3)."41.,\n".
+    nomor_karakter1($tangkap3)."42.,\n".
+    nomor_karakter1($tangkap3)."43.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."411.,\n".
+    nomor_karakter1($tangkap3)."422.,\n".
+    nomor_karakter1($tangkap3)."433.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."455.,\n".
+    nomor_karakter1($tangkap3)."414.,\n".
+    nomor_karakter1($tangkap3)."424.,\n".
+    nomor_karakter1($tangkap3)."434.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."454.,\n".
+    nomor_karakter1($tangkap3)."114.,\n".
+    nomor_karakter1($tangkap3)."224.,\n".
+    nomor_karakter1($tangkap3)."334.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."441.,\n".
+    nomor_karakter1($tangkap3)."442.,\n".
+    nomor_karakter1($tangkap3)."443.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."445.,\n".
+    nomor_karakter1($tangkap3)."554.,\n".
+    nomor_karakter1($tangkap3)."444.,\n".
+    nomor_karakter1($tangkap3)."12.,\n".
+    nomor_karakter1($tangkap3)."43.,\n".
+    nomor_karakter1($tangkap3)."5.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."555.,\n".
+    nomor_karakter1($tangkap3)."5555.,\n".
+    nomor_karakter1($tangkap3)."55555.,\n".
+    nomor_karakter1($tangkap3)."51.,\n".
+    nomor_karakter1($tangkap3)."52.,\n".
+    nomor_karakter1($tangkap3)."53.,\n".
+    nomor_karakter1($tangkap3)."54.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."511.,\n".
+    nomor_karakter1($tangkap3)."522.,\n".
+    nomor_karakter1($tangkap3)."533.,\n".
+    nomor_karakter1($tangkap3)."544.,\n".
+    nomor_karakter1($tangkap3)."655.,\n".
+    nomor_karakter1($tangkap3)."515.,\n".
+    nomor_karakter1($tangkap3)."52.,\n".
+    nomor_karakter1($tangkap3)."535.,\n".
+    nomor_karakter1($tangkap3)."545.,\n".
+    nomor_karakter1($tangkap3)."555.,\n".
+    nomor_karakter1($tangkap3)."115.,\n".
+    nomor_karakter1($tangkap3)."225.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."34.,\n".
+    nomor_karakter1($tangkap3)."1234.,\n".
+    nomor_karakter1($tangkap3)."5432.,\n".
+    nomor_karakter1($tangkap3)."6.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."666.,\n".
+    nomor_karakter1($tangkap3)."6666.,\n".
+    nomor_karakter1($tangkap3)."66666.,\n".
+    nomor_karakter1($tangkap3)."61.,\n".
+    nomor_karakter1($tangkap3)."62.,\n".
+    nomor_karakter1($tangkap3)."63.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."611.,\n".
+    nomor_karakter1($tangkap3)."622.,\n".
+    nomor_karakter1($tangkap3)."633.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."61.,\n".
+    nomor_karakter1($tangkap3)."62.,\n".
+    nomor_karakter1($tangkap3)."63.,\n".
+    nomor_karakter1($tangkap3)."64.,\n".
+    nomor_karakter1($tangkap3)."65.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."66.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."12345.,\n".
+    nomor_karakter1($tangkap3)."65432.,\n".
+    nomor_karakter1($tangkap3)."7.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."777.,\n".
+    nomor_karakter1($tangkap3)."7777.,\n".
+    nomor_karakter1($tangkap3)."77777.,\n".
+    nomor_karakter1($tangkap3)."71.,\n".
+    nomor_karakter1($tangkap3)."72.,\n".
+    nomor_karakter1($tangkap3)."73.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."711.,\n".
+    nomor_karakter1($tangkap3)."722.,\n".
+    nomor_karakter1($tangkap3)."733.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."71.,\n".
+    nomor_karakter1($tangkap3)."72.,\n".
+    nomor_karakter1($tangkap3)."73.,\n".
+    nomor_karakter1($tangkap3)."74.,\n".
+    nomor_karakter1($tangkap3)."75.,\n".
+    nomor_karakter1($tangkap3)."11.,\n".
+    nomor_karakter1($tangkap3)."22.,\n".
+    nomor_karakter1($tangkap3)."33.,\n".
+    nomor_karakter1($tangkap3)."44.,\n".
+    nomor_karakter1($tangkap3)."55.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."77.,\n".
+    nomor_karakter1($tangkap3)."45.,\n".
+    nomor_karakter1($tangkap3)."1234567.,\n".
+    nomor_karakter1($tangkap3)."8.,\n".
+    nomor_karakter1($tangkap3)."88.,\n".
+    nomor_karakter1($tangkap3)."888.,\n".
+    nomor_karakter1($tangkap3)."8888.,\n".
+    nomor_karakter1($tangkap3)."88888.,\n".
+    nomor_karakter1($tangkap3)."81.,\n".
+    nomor_karakter1($tangkap3)."82.,\n".
+    nomor_karakter1($tangkap3)."83.,\n".
+    nomor_karakter1($tangkap3)."84.,\n".
+    nomor_karakter1($tangkap3)."85.,\n".
+    nomor_karakter1($tangkap3)."811.,\n".
+    nomor_karakter1($tangkap3)."822.,\n".
+    nomor_karakter1($tangkap3)."833.,\n".
+    nomor_karakter1($tangkap3)."844.,\n".
+    nomor_karakter1($tangkap3)."855.,\n".
+    nomor_karakter1($tangkap3)."818.,\n".
+    nomor_karakter1($tangkap3)."828.,\n".
+    nomor_karakter1($tangkap3)."838.,\n".
+    nomor_karakter1($tangkap3)."848.,\n".
+    nomor_karakter1($tangkap3)."858.,\n".
+    nomor_karakter1($tangkap3)."118.,\n".
+    nomor_karakter1($tangkap3)."228.,\n".
+    nomor_karakter1($tangkap3)."338.,\n".
+    nomor_karakter1($tangkap3)."448.,\n".
+    nomor_karakter1($tangkap3)."558.,\n".
+    nomor_karakter1($tangkap3)."881.,\n".
+    nomor_karakter1($tangkap3)."882.,\n".
+    nomor_karakter1($tangkap3)."883.,\n".
+    nomor_karakter1($tangkap3)."884.,\n".
+    nomor_karakter1($tangkap3)."885.,\n".
+    nomor_karakter1($tangkap3)."458.,\n".
+    nomor_karakter1($tangkap3)."12345678.,\n".
+    nomor_karakter1($tangkap3)."87654321.,\n".
+    nomor_karakter1($tangkap3)."9.,\n".
+    nomor_karakter1($tangkap3)."99.,\n".
+    nomor_karakter1($tangkap3)."999.,\n".
+    nomor_karakter1($tangkap3)."9999.,\n".
+    nomor_karakter1($tangkap3)."99999.,\n".
+    nomor_karakter1($tangkap3)."91*\n".
+    nomor_karakter1($tangkap3)."92.,\n".
+    nomor_karakter1($tangkap3)."93.,\n".
+    nomor_karakter1($tangkap3)."94.,\n".
+    nomor_karakter1($tangkap3)."95.,\n".
+    nomor_karakter1($tangkap3)."911.,\n".
+    nomor_karakter1($tangkap3)."922.,\n".
+    nomor_karakter1($tangkap3)."933.,\n".
+    nomor_karakter1($tangkap3)."944.,\n".
+    nomor_karakter1($tangkap3)."955.,\n".
+    nomor_karakter1($tangkap3)."919.,\n".
+    nomor_karakter1($tangkap3)."929.,\n".
+    nomor_karakter1($tangkap3)."939.,\n".
+    nomor_karakter1($tangkap3)."949.,\n".
+    nomor_karakter1($tangkap3)."959.,\n".
+    nomor_karakter1($tangkap3)."119.,\n".
+    nomor_karakter1($tangkap3)."229.,\n".
+    nomor_karakter1($tangkap3)."339.,\n".
+    nomor_karakter1($tangkap3)."449.,\n".
+    nomor_karakter1($tangkap3)."559.,\n".
+    nomor_karakter1($tangkap3)."991.,\n".
+    nomor_karakter1($tangkap3)."992.,\n".
+    nomor_karakter1($tangkap3)."993.,\n".
+    nomor_karakter1($tangkap3)."994.,\n".
+    nomor_karakter1($tangkap3)."995.,\n".
+    nomor_karakter1($tangkap3)."459.,\n".
+    nomor_karakter1($tangkap3)."12345678.,\n".
+    nomor_karakter1($tangkap3)."987654321.,\n".
+    nomor_karakter1($tangkap3)."0.,\n".
+    nomor_karakter1($tangkap3)."00.,\n".
+    nomor_karakter1($tangkap3)."000.,\n".
+    nomor_karakter1($tangkap3)."0000.,\n".
+    nomor_karakter1($tangkap3)."00000.,\n".
+    nomor_karakter1($tangkap3)."01.,\n".
+    nomor_karakter1($tangkap3)."02.,\n".
+    nomor_karakter1($tangkap3)."03.,\n".
+    nomor_karakter1($tangkap3)."04.,\n".
+    nomor_karakter1($tangkap3)."05.,\n".
+    nomor_karakter1($tangkap3)."011.,\n".
+    nomor_karakter1($tangkap3)."022.,\n".
+    nomor_karakter1($tangkap3)."033.,\n".
+    nomor_karakter1($tangkap3)."044.,\n".
+    nomor_karakter1($tangkap3)."055.,\n".
+    nomor_karakter1($tangkap3)."010.,\n".
+    nomor_karakter1($tangkap3)."020.,\n".
+    nomor_karakter1($tangkap3)."030.,\n".
+    nomor_karakter1($tangkap3)."040.,\n".
+    nomor_karakter1($tangkap3)."050.,\n".
+    nomor_karakter1($tangkap3)."110.,\n".
+    nomor_karakter1($tangkap3)."220.,\n".
+    nomor_karakter1($tangkap3)."330.,\n".
+    nomor_karakter1($tangkap3)."440.,\n".
+    nomor_karakter1($tangkap3)."550.,\n".
+    nomor_karakter1($tangkap3)."001.,\n".
+    nomor_karakter1($tangkap3)."002.,\n".
+    nomor_karakter1($tangkap3)."003.,\n".
+    nomor_karakter1($tangkap3)."004.,\n".
+    nomor_karakter1($tangkap3)."005.,\n".
+    nomor_karakter1($tangkap3)."450.,\n".
+    nomor_karakter1($tangkap3)."123456789.,\n".
+    nomor_karakter1($tangkap8)."1.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."111.,\n".
+    nomor_karakter1($tangkap8)."1111.,\n".
+    nomor_karakter1($tangkap8)."11111.,\n".
+    nomor_karakter1($tangkap8)."2.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."2222.,\n".
+    nomor_karakter1($tangkap8)."22222.,\n".
+    nomor_karakter1($tangkap8)."21.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."23.,\n".
+    nomor_karakter1($tangkap8)."24.,\n".
+    nomor_karakter1($tangkap8)."25.,\n".
+    nomor_karakter1($tangkap8)."26.,\n".
+    nomor_karakter1($tangkap8)."27.,\n".
+    nomor_karakter1($tangkap8)."28.,\n".
+    nomor_karakter1($tangkap8)."29.,\n".
+    nomor_karakter1($tangkap8)."211.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."233.,\n".
+    nomor_karakter1($tangkap8)."244.,\n".
+    nomor_karakter1($tangkap8)."255.,\n".
+    nomor_karakter1($tangkap8)."212.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."232.,\n".
+    nomor_karakter1($tangkap8)."242.,\n".
+    nomor_karakter1($tangkap8)."252.,\n".
+    nomor_karakter1($tangkap8)."112.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."332.,\n".
+    nomor_karakter1($tangkap8)."442.,\n".
+    nomor_karakter1($tangkap8)."552.,\n".
+    nomor_karakter1($tangkap8)."221.,\n".
+    nomor_karakter1($tangkap8)."222.,\n".
+    nomor_karakter1($tangkap8)."223.,\n".
+    nomor_karakter1($tangkap8)."224.,\n".
+    nomor_karakter1($tangkap8)."225.,\n".
+    nomor_karakter1($tangkap8)."452.,\n".
+    nomor_karakter1($tangkap8)."12.,\n".
+    nomor_karakter1($tangkap8)."21.,\n".
+    nomor_karakter1($tangkap8)."3.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."3333.,\n".
+    nomor_karakter1($tangkap8)."33333.,\n".
+    nomor_karakter1($tangkap8)."31.,\n".
+    nomor_karakter1($tangkap8)."32.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."34.,\n".
+    nomor_karakter1($tangkap8)."35.,\n".
+    nomor_karakter1($tangkap8)."311.,\n".
+    nomor_karakter1($tangkap8)."322.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."344.,\n".
+    nomor_karakter1($tangkap8)."355.,\n".
+    nomor_karakter1($tangkap8)."313.,\n".
+    nomor_karakter1($tangkap8)."323.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."343.,\n".
+    nomor_karakter1($tangkap8)."353.,\n".
+    nomor_karakter1($tangkap8)."113.,\n".
+    nomor_karakter1($tangkap8)."223.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."443.,\n".
+    nomor_karakter1($tangkap8)."553.,\n".
+    nomor_karakter1($tangkap8)."331.,\n".
+    nomor_karakter1($tangkap8)."332.,\n".
+    nomor_karakter1($tangkap8)."333.,\n".
+    nomor_karakter1($tangkap8)."334.,\n".
+    nomor_karakter1($tangkap8)."335.,\n".
+    nomor_karakter1($tangkap8)."453.,\n".
+    nomor_karakter1($tangkap8)."123.,\n".
+    nomor_karakter1($tangkap8)."321.,\n".
+    nomor_karakter1($tangkap8)."4.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."4444.,\n".
+    nomor_karakter1($tangkap8)."44444.,\n".
+    nomor_karakter1($tangkap8)."41.,\n".
+    nomor_karakter1($tangkap8)."42.,\n".
+    nomor_karakter1($tangkap8)."43.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."411.,\n".
+    nomor_karakter1($tangkap8)."422.,\n".
+    nomor_karakter1($tangkap8)."433.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."455.,\n".
+    nomor_karakter1($tangkap8)."414.,\n".
+    nomor_karakter1($tangkap8)."424.,\n".
+    nomor_karakter1($tangkap8)."434.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."454.,\n".
+    nomor_karakter1($tangkap8)."114.,\n".
+    nomor_karakter1($tangkap8)."224.,\n".
+    nomor_karakter1($tangkap8)."334.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."441.,\n".
+    nomor_karakter1($tangkap8)."442.,\n".
+    nomor_karakter1($tangkap8)."443.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."445.,\n".
+    nomor_karakter1($tangkap8)."554.,\n".
+    nomor_karakter1($tangkap8)."444.,\n".
+    nomor_karakter1($tangkap8)."12.,\n".
+    nomor_karakter1($tangkap8)."43.,\n".
+    nomor_karakter1($tangkap8)."5.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."555.,\n".
+    nomor_karakter1($tangkap8)."5555.,\n".
+    nomor_karakter1($tangkap8)."55555.,\n".
+    nomor_karakter1($tangkap8)."51.,\n".
+    nomor_karakter1($tangkap8)."52.,\n".
+    nomor_karakter1($tangkap8)."53.,\n".
+    nomor_karakter1($tangkap8)."54.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."511.,\n".
+    nomor_karakter1($tangkap8)."522.,\n".
+    nomor_karakter1($tangkap8)."533.,\n".
+    nomor_karakter1($tangkap8)."544.,\n".
+    nomor_karakter1($tangkap8)."655.,\n".
+    nomor_karakter1($tangkap8)."515.,\n".
+    nomor_karakter1($tangkap8)."52.,\n".
+    nomor_karakter1($tangkap8)."535.,\n".
+    nomor_karakter1($tangkap8)."545.,\n".
+    nomor_karakter1($tangkap8)."555.,\n".
+    nomor_karakter1($tangkap8)."115.,\n".
+    nomor_karakter1($tangkap8)."225.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."34.,\n".
+    nomor_karakter1($tangkap8)."1234.,\n".
+    nomor_karakter1($tangkap8)."5432.,\n".
+    nomor_karakter1($tangkap8)."6.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."666.,\n".
+    nomor_karakter1($tangkap8)."6666.,\n".
+    nomor_karakter1($tangkap8)."66666.,\n".
+    nomor_karakter1($tangkap8)."61.,\n".
+    nomor_karakter1($tangkap8)."62.,\n".
+    nomor_karakter1($tangkap8)."63.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."611.,\n".
+    nomor_karakter1($tangkap8)."622.,\n".
+    nomor_karakter1($tangkap8)."633.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."61.,\n".
+    nomor_karakter1($tangkap8)."62.,\n".
+    nomor_karakter1($tangkap8)."63.,\n".
+    nomor_karakter1($tangkap8)."64.,\n".
+    nomor_karakter1($tangkap8)."65.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."66.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."12345.,\n".
+    nomor_karakter1($tangkap8)."65432.,\n".
+    nomor_karakter1($tangkap8)."7.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."777.,\n".
+    nomor_karakter1($tangkap8)."7777.,\n".
+    nomor_karakter1($tangkap8)."77777.,\n".
+    nomor_karakter1($tangkap8)."71.,\n".
+    nomor_karakter1($tangkap8)."72.,\n".
+    nomor_karakter1($tangkap8)."73.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."711.,\n".
+    nomor_karakter1($tangkap8)."722.,\n".
+    nomor_karakter1($tangkap8)."733.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."71.,\n".
+    nomor_karakter1($tangkap8)."72.,\n".
+    nomor_karakter1($tangkap8)."73.,\n".
+    nomor_karakter1($tangkap8)."74.,\n".
+    nomor_karakter1($tangkap8)."75.,\n".
+    nomor_karakter1($tangkap8)."11.,\n".
+    nomor_karakter1($tangkap8)."22.,\n".
+    nomor_karakter1($tangkap8)."33.,\n".
+    nomor_karakter1($tangkap8)."44.,\n".
+    nomor_karakter1($tangkap8)."55.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."77.,\n".
+    nomor_karakter1($tangkap8)."45.,\n".
+    nomor_karakter1($tangkap8)."1234567.,\n".
+    nomor_karakter1($tangkap8)."8.,\n".
+    nomor_karakter1($tangkap8)."88.,\n".
+    nomor_karakter1($tangkap8)."888.,\n".
+    nomor_karakter1($tangkap8)."8888.,\n".
+    nomor_karakter1($tangkap8)."88888.,\n".
+    nomor_karakter1($tangkap8)."81.,\n".
+    nomor_karakter1($tangkap8)."82.,\n".
+    nomor_karakter1($tangkap8)."83.,\n".
+    nomor_karakter1($tangkap8)."84.,\n".
+    nomor_karakter1($tangkap8)."85.,\n".
+    nomor_karakter1($tangkap8)."811.,\n".
+    nomor_karakter1($tangkap8)."822.,\n".
+    nomor_karakter1($tangkap8)."833.,\n".
+    nomor_karakter1($tangkap8)."844.,\n".
+    nomor_karakter1($tangkap8)."855.,\n".
+    nomor_karakter1($tangkap8)."818.,\n".
+    nomor_karakter1($tangkap8)."828.,\n".
+    nomor_karakter1($tangkap8)."838.,\n".
+    nomor_karakter1($tangkap8)."848.,\n".
+    nomor_karakter1($tangkap8)."858.,\n".
+    nomor_karakter1($tangkap8)."118.,\n".
+    nomor_karakter1($tangkap8)."228.,\n".
+    nomor_karakter1($tangkap8)."338.,\n".
+    nomor_karakter1($tangkap8)."448.,\n".
+    nomor_karakter1($tangkap8)."558.,\n".
+    nomor_karakter1($tangkap8)."881.,\n".
+    nomor_karakter1($tangkap8)."882.,\n".
+    nomor_karakter1($tangkap8)."883.,\n".
+    nomor_karakter1($tangkap8)."884.,\n".
+    nomor_karakter1($tangkap8)."885.,\n".
+    nomor_karakter1($tangkap8)."458.,\n".
+    nomor_karakter1($tangkap8)."12345678.,\n".
+    nomor_karakter1($tangkap8)."87654321.,\n".
+    nomor_karakter1($tangkap8)."9.,\n".
+    nomor_karakter1($tangkap8)."99.,\n".
+    nomor_karakter1($tangkap8)."999.,\n".
+    nomor_karakter1($tangkap8)."9999.,\n".
+    nomor_karakter1($tangkap8)."99999.,\n".
+    nomor_karakter1($tangkap8)."91*\n".
+    nomor_karakter1($tangkap8)."92.,\n".
+    nomor_karakter1($tangkap8)."93.,\n".
+    nomor_karakter1($tangkap8)."94.,\n".
+    nomor_karakter1($tangkap8)."95.,\n".
+    nomor_karakter1($tangkap8)."911.,\n".
+    nomor_karakter1($tangkap8)."922.,\n".
+    nomor_karakter1($tangkap8)."933.,\n".
+    nomor_karakter1($tangkap8)."944.,\n".
+    nomor_karakter1($tangkap8)."955.,\n".
+    nomor_karakter1($tangkap8)."919.,\n".
+    nomor_karakter1($tangkap8)."929.,\n".
+    nomor_karakter1($tangkap8)."939.,\n".
+    nomor_karakter1($tangkap8)."949.,\n".
+    nomor_karakter1($tangkap8)."959.,\n".
+    nomor_karakter1($tangkap8)."119.,\n".
+    nomor_karakter1($tangkap8)."229.,\n".
+    nomor_karakter1($tangkap8)."339.,\n".
+    nomor_karakter1($tangkap8)."449.,\n".
+    nomor_karakter1($tangkap8)."559.,\n".
+    nomor_karakter1($tangkap8)."991.,\n".
+    nomor_karakter1($tangkap8)."992.,\n".
+    nomor_karakter1($tangkap8)."993.,\n".
+    nomor_karakter1($tangkap8)."994.,\n".
+    nomor_karakter1($tangkap8)."995.,\n".
+    nomor_karakter1($tangkap8)."459.,\n".
+    nomor_karakter1($tangkap8)."12345678.,\n".
+    nomor_karakter1($tangkap8)."987654321.,\n".
+    nomor_karakter1($tangkap8)."0.,\n".
+    nomor_karakter1($tangkap8)."00.,\n".
+    nomor_karakter1($tangkap8)."000.,\n".
+    nomor_karakter1($tangkap8)."0000.,\n".
+    nomor_karakter1($tangkap8)."00000.,\n".
+    nomor_karakter1($tangkap8)."01.,\n".
+    nomor_karakter1($tangkap8)."02.,\n".
+    nomor_karakter1($tangkap8)."03.,\n".
+    nomor_karakter1($tangkap8)."04.,\n".
+    nomor_karakter1($tangkap8)."05.,\n".
+    nomor_karakter1($tangkap8)."011.,\n".
+    nomor_karakter1($tangkap8)."022.,\n".
+    nomor_karakter1($tangkap8)."033.,\n".
+    nomor_karakter1($tangkap8)."044.,\n".
+    nomor_karakter1($tangkap8)."055.,\n".
+    nomor_karakter1($tangkap8)."010.,\n".
+    nomor_karakter1($tangkap8)."020.,\n".
+    nomor_karakter1($tangkap8)."030.,\n".
+    nomor_karakter1($tangkap8)."040.,\n".
+    nomor_karakter1($tangkap8)."050.,\n".
+    nomor_karakter1($tangkap8)."110.,\n".
+    nomor_karakter1($tangkap8)."220.,\n".
+    nomor_karakter1($tangkap8)."330.,\n".
+    nomor_karakter1($tangkap8)."440.,\n".
+    nomor_karakter1($tangkap8)."550.,\n".
+    nomor_karakter1($tangkap8)."001.,\n".
+    nomor_karakter1($tangkap8)."002.,\n".
+    nomor_karakter1($tangkap8)."003.,\n".
+    nomor_karakter1($tangkap8)."004.,\n".
+    nomor_karakter1($tangkap8)."005.,\n".
+    nomor_karakter1($tangkap8)."450.,\n".
+    nomor_karakter1($tangkap8)."123456789.,\n".
+    nomor_karakter1($tangkap9)."1.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."111.,\n".
+    nomor_karakter1($tangkap9)."1111.,\n".
+    nomor_karakter1($tangkap9)."11111.,\n".
+    nomor_karakter1($tangkap9)."2.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."2222.,\n".
+    nomor_karakter1($tangkap9)."22222.,\n".
+    nomor_karakter1($tangkap9)."21.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."23.,\n".
+    nomor_karakter1($tangkap9)."24.,\n".
+    nomor_karakter1($tangkap9)."25.,\n".
+    nomor_karakter1($tangkap9)."26.,\n".
+    nomor_karakter1($tangkap9)."27.,\n".
+    nomor_karakter1($tangkap9)."28.,\n".
+    nomor_karakter1($tangkap9)."29.,\n".
+    nomor_karakter1($tangkap9)."211.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."233.,\n".
+    nomor_karakter1($tangkap9)."244.,\n".
+    nomor_karakter1($tangkap9)."255.,\n".
+    nomor_karakter1($tangkap9)."212.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."232.,\n".
+    nomor_karakter1($tangkap9)."242.,\n".
+    nomor_karakter1($tangkap9)."252.,\n".
+    nomor_karakter1($tangkap9)."112.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."332.,\n".
+    nomor_karakter1($tangkap9)."442.,\n".
+    nomor_karakter1($tangkap9)."552.,\n".
+    nomor_karakter1($tangkap9)."221.,\n".
+    nomor_karakter1($tangkap9)."222.,\n".
+    nomor_karakter1($tangkap9)."223.,\n".
+    nomor_karakter1($tangkap9)."224.,\n".
+    nomor_karakter1($tangkap9)."225.,\n".
+    nomor_karakter1($tangkap9)."452.,\n".
+    nomor_karakter1($tangkap9)."12.,\n".
+    nomor_karakter1($tangkap9)."21.,\n".
+    nomor_karakter1($tangkap9)."3.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."3333.,\n".
+    nomor_karakter1($tangkap9)."33333.,\n".
+    nomor_karakter1($tangkap9)."31.,\n".
+    nomor_karakter1($tangkap9)."32.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."34.,\n".
+    nomor_karakter1($tangkap9)."35.,\n".
+    nomor_karakter1($tangkap9)."311.,\n".
+    nomor_karakter1($tangkap9)."322.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."344.,\n".
+    nomor_karakter1($tangkap9)."355.,\n".
+    nomor_karakter1($tangkap9)."313.,\n".
+    nomor_karakter1($tangkap9)."323.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."343.,\n".
+    nomor_karakter1($tangkap9)."353.,\n".
+    nomor_karakter1($tangkap9)."113.,\n".
+    nomor_karakter1($tangkap9)."223.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."443.,\n".
+    nomor_karakter1($tangkap9)."553.,\n".
+    nomor_karakter1($tangkap9)."331.,\n".
+    nomor_karakter1($tangkap9)."332.,\n".
+    nomor_karakter1($tangkap9)."333.,\n".
+    nomor_karakter1($tangkap9)."334.,\n".
+    nomor_karakter1($tangkap9)."335.,\n".
+    nomor_karakter1($tangkap9)."453.,\n".
+    nomor_karakter1($tangkap9)."123.,\n".
+    nomor_karakter1($tangkap9)."321.,\n".
+    nomor_karakter1($tangkap9)."4.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."4444.,\n".
+    nomor_karakter1($tangkap9)."44444.,\n".
+    nomor_karakter1($tangkap9)."41.,\n".
+    nomor_karakter1($tangkap9)."42.,\n".
+    nomor_karakter1($tangkap9)."43.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."411.,\n".
+    nomor_karakter1($tangkap9)."422.,\n".
+    nomor_karakter1($tangkap9)."433.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."455.,\n".
+    nomor_karakter1($tangkap9)."414.,\n".
+    nomor_karakter1($tangkap9)."424.,\n".
+    nomor_karakter1($tangkap9)."434.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."454.,\n".
+    nomor_karakter1($tangkap9)."114.,\n".
+    nomor_karakter1($tangkap9)."224.,\n".
+    nomor_karakter1($tangkap9)."334.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."441.,\n".
+    nomor_karakter1($tangkap9)."442.,\n".
+    nomor_karakter1($tangkap9)."443.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."445.,\n".
+    nomor_karakter1($tangkap9)."554.,\n".
+    nomor_karakter1($tangkap9)."444.,\n".
+    nomor_karakter1($tangkap9)."12.,\n".
+    nomor_karakter1($tangkap9)."43.,\n".
+    nomor_karakter1($tangkap9)."5.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."555.,\n".
+    nomor_karakter1($tangkap9)."5555.,\n".
+    nomor_karakter1($tangkap9)."55555.,\n".
+    nomor_karakter1($tangkap9)."51.,\n".
+    nomor_karakter1($tangkap9)."52.,\n".
+    nomor_karakter1($tangkap9)."53.,\n".
+    nomor_karakter1($tangkap9)."54.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."511.,\n".
+    nomor_karakter1($tangkap9)."522.,\n".
+    nomor_karakter1($tangkap9)."533.,\n".
+    nomor_karakter1($tangkap9)."544.,\n".
+    nomor_karakter1($tangkap9)."655.,\n".
+    nomor_karakter1($tangkap9)."515.,\n".
+    nomor_karakter1($tangkap9)."52.,\n".
+    nomor_karakter1($tangkap9)."535.,\n".
+    nomor_karakter1($tangkap9)."545.,\n".
+    nomor_karakter1($tangkap9)."555.,\n".
+    nomor_karakter1($tangkap9)."115.,\n".
+    nomor_karakter1($tangkap9)."225.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."34.,\n".
+    nomor_karakter1($tangkap9)."1234.,\n".
+    nomor_karakter1($tangkap9)."5432.,\n".
+    nomor_karakter1($tangkap9)."6.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."666.,\n".
+    nomor_karakter1($tangkap9)."6666.,\n".
+    nomor_karakter1($tangkap9)."66666.,\n".
+    nomor_karakter1($tangkap9)."61.,\n".
+    nomor_karakter1($tangkap9)."62.,\n".
+    nomor_karakter1($tangkap9)."63.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."611.,\n".
+    nomor_karakter1($tangkap9)."622.,\n".
+    nomor_karakter1($tangkap9)."633.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."61.,\n".
+    nomor_karakter1($tangkap9)."62.,\n".
+    nomor_karakter1($tangkap9)."63.,\n".
+    nomor_karakter1($tangkap9)."64.,\n".
+    nomor_karakter1($tangkap9)."65.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."66.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."12345.,\n".
+    nomor_karakter1($tangkap9)."65432.,\n".
+    nomor_karakter1($tangkap9)."7.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."777.,\n".
+    nomor_karakter1($tangkap9)."7777.,\n".
+    nomor_karakter1($tangkap9)."77777.,\n".
+    nomor_karakter1($tangkap9)."71.,\n".
+    nomor_karakter1($tangkap9)."72.,\n".
+    nomor_karakter1($tangkap9)."73.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."711.,\n".
+    nomor_karakter1($tangkap9)."722.,\n".
+    nomor_karakter1($tangkap9)."733.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."71.,\n".
+    nomor_karakter1($tangkap9)."72.,\n".
+    nomor_karakter1($tangkap9)."73.,\n".
+    nomor_karakter1($tangkap9)."74.,\n".
+    nomor_karakter1($tangkap9)."75.,\n".
+    nomor_karakter1($tangkap9)."11.,\n".
+    nomor_karakter1($tangkap9)."22.,\n".
+    nomor_karakter1($tangkap9)."33.,\n".
+    nomor_karakter1($tangkap9)."44.,\n".
+    nomor_karakter1($tangkap9)."55.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."77.,\n".
+    nomor_karakter1($tangkap9)."45.,\n".
+    nomor_karakter1($tangkap9)."1234567.,\n".
+    nomor_karakter1($tangkap9)."8.,\n".
+    nomor_karakter1($tangkap9)."88.,\n".
+    nomor_karakter1($tangkap9)."888.,\n".
+    nomor_karakter1($tangkap9)."8888.,\n".
+    nomor_karakter1($tangkap9)."88888.,\n".
+    nomor_karakter1($tangkap9)."81.,\n".
+    nomor_karakter1($tangkap9)."82.,\n".
+    nomor_karakter1($tangkap9)."83.,\n".
+    nomor_karakter1($tangkap9)."84.,\n".
+    nomor_karakter1($tangkap9)."85.,\n".
+    nomor_karakter1($tangkap9)."811.,\n".
+    nomor_karakter1($tangkap9)."822.,\n".
+    nomor_karakter1($tangkap9)."833.,\n".
+    nomor_karakter1($tangkap9)."844.,\n".
+    nomor_karakter1($tangkap9)."855.,\n".
+    nomor_karakter1($tangkap9)."818.,\n".
+    nomor_karakter1($tangkap9)."828.,\n".
+    nomor_karakter1($tangkap9)."838.,\n".
+    nomor_karakter1($tangkap9)."848.,\n".
+    nomor_karakter1($tangkap9)."858.,\n".
+    nomor_karakter1($tangkap9)."118.,\n".
+    nomor_karakter1($tangkap9)."228.,\n".
+    nomor_karakter1($tangkap9)."338.,\n".
+    nomor_karakter1($tangkap9)."448.,\n".
+    nomor_karakter1($tangkap9)."558.,\n".
+    nomor_karakter1($tangkap9)."881.,\n".
+    nomor_karakter1($tangkap9)."882.,\n".
+    nomor_karakter1($tangkap9)."883.,\n".
+    nomor_karakter1($tangkap9)."884.,\n".
+    nomor_karakter1($tangkap9)."885.,\n".
+    nomor_karakter1($tangkap9)."458.,\n".
+    nomor_karakter1($tangkap9)."12345678.,\n".
+    nomor_karakter1($tangkap9)."87654321.,\n".
+    nomor_karakter1($tangkap9)."9.,\n".
+    nomor_karakter1($tangkap9)."99.,\n".
+    nomor_karakter1($tangkap9)."999.,\n".
+    nomor_karakter1($tangkap9)."9999.,\n".
+    nomor_karakter1($tangkap9)."99999.,\n".
+    nomor_karakter1($tangkap9)."91*\n".
+    nomor_karakter1($tangkap9)."92.,\n".
+    nomor_karakter1($tangkap9)."93.,\n".
+    nomor_karakter1($tangkap9)."94.,\n".
+    nomor_karakter1($tangkap9)."95.,\n".
+    nomor_karakter1($tangkap9)."911.,\n".
+    nomor_karakter1($tangkap9)."922.,\n".
+    nomor_karakter1($tangkap9)."933.,\n".
+    nomor_karakter1($tangkap9)."944.,\n".
+    nomor_karakter1($tangkap9)."955.,\n".
+    nomor_karakter1($tangkap9)."919.,\n".
+    nomor_karakter1($tangkap9)."929.,\n".
+    nomor_karakter1($tangkap9)."939.,\n".
+    nomor_karakter1($tangkap9)."949.,\n".
+    nomor_karakter1($tangkap9)."959.,\n".
+    nomor_karakter1($tangkap9)."119.,\n".
+    nomor_karakter1($tangkap9)."229.,\n".
+    nomor_karakter1($tangkap9)."339.,\n".
+    nomor_karakter1($tangkap9)."449.,\n".
+    nomor_karakter1($tangkap9)."559.,\n".
+    nomor_karakter1($tangkap9)."991.,\n".
+    nomor_karakter1($tangkap9)."992.,\n".
+    nomor_karakter1($tangkap9)."993.,\n".
+    nomor_karakter1($tangkap9)."994.,\n".
+    nomor_karakter1($tangkap9)."995.,\n".
+    nomor_karakter1($tangkap9)."459.,\n".
+    nomor_karakter1($tangkap9)."12345678.,\n".
+    nomor_karakter1($tangkap9)."987654321.,\n".
+    nomor_karakter1($tangkap9)."0.,\n".
+    nomor_karakter1($tangkap9)."00.,\n".
+    nomor_karakter1($tangkap9)."000.,\n".
+    nomor_karakter1($tangkap9)."0000.,\n".
+    nomor_karakter1($tangkap9)."00000.,\n".
+    nomor_karakter1($tangkap9)."01.,\n".
+    nomor_karakter1($tangkap9)."02.,\n".
+    nomor_karakter1($tangkap9)."03.,\n".
+    nomor_karakter1($tangkap9)."04.,\n".
+    nomor_karakter1($tangkap9)."05.,\n".
+    nomor_karakter1($tangkap9)."011.,\n".
+    nomor_karakter1($tangkap9)."022.,\n".
+    nomor_karakter1($tangkap9)."033.,\n".
+    nomor_karakter1($tangkap9)."044.,\n".
+    nomor_karakter1($tangkap9)."055.,\n".
+    nomor_karakter1($tangkap9)."010.,\n".
+    nomor_karakter1($tangkap9)."020.,\n".
+    nomor_karakter1($tangkap9)."030.,\n".
+    nomor_karakter1($tangkap9)."040.,\n".
+    nomor_karakter1($tangkap9)."050.,\n".
+    nomor_karakter1($tangkap9)."110.,\n".
+    nomor_karakter1($tangkap9)."220.,\n".
+    nomor_karakter1($tangkap9)."330.,\n".
+    nomor_karakter1($tangkap9)."440.,\n".
+    nomor_karakter1($tangkap9)."550.,\n".
+    nomor_karakter1($tangkap9)."001.,\n".
+    nomor_karakter1($tangkap9)."002.,\n".
+    nomor_karakter1($tangkap9)."003.,\n".
+    nomor_karakter1($tangkap9)."004.,\n".
+    nomor_karakter1($tangkap9)."005.,\n".
+    nomor_karakter1($tangkap9)."450.,\n".
+    nomor_karakter1($tangkap9)."123456789.,\n".
+	dongo($tangkap1)."1\n".
+	dongo($tangkap1)."11\n".
+	dongo($tangkap1)."111\n".
+	dongo($tangkap1)."1111\n".
+	dongo($tangkap1)."11111\n".
+	dongo($tangkap1)."2\n".
+	dongo($tangkap1)."22\n".
+	dongo($tangkap1)."222\n".
+	dongo($tangkap1)."2222\n".
+	dongo($tangkap1)."22222\n".
+	dongo($tangkap1)."21\n".
+	dongo($tangkap1)."22\n".
+	dongo($tangkap1)."23\n".
+	dongo($tangkap1)."24\n".
+	dongo($tangkap1)."25\n".
+	dongo($tangkap1)."26\n".
+	dongo($tangkap1)."27\n".
+	dongo($tangkap1)."28\n".
+	dongo($tangkap1)."29\n".
+	dongo($tangkap1)."211\n".
+	dongo($tangkap1)."222\n".
+	dongo($tangkap1)."233\n".
+	dongo($tangkap1)."244\n".
+	dongo($tangkap1)."255\n".
+	dongo($tangkap1)."212\n".
+	dongo($tangkap1)."222\n".
+	dongo($tangkap1)."232\n".
+	dongo($tangkap1)."242\n".
+	dongo($tangkap1)."252\n".
+	dongo($tangkap1)."112\n".
+	dongo($tangkap1)."222\n".
+	dongo($tangkap1)."332\n".
+	dongo($tangkap1)."442\n".
+	dongo($tangkap1)."552\n".
+	dongo($tangkap1)."221\n".
+	dongo($tangkap1)."222\n".
+	dongo($tangkap1)."223\n".
+	dongo($tangkap1)."224\n".
+	dongo($tangkap1)."225\n".
+	dongo($tangkap1)."452\n".
+	dongo($tangkap1)."12\n".
+	dongo($tangkap1)."21\n".
+	dongo($tangkap1)."3\n".
+	dongo($tangkap1)."33\n".
+	dongo($tangkap1)."333\n".
+	dongo($tangkap1)."3333\n".
+	dongo($tangkap1)."33333\n".
+	dongo($tangkap1)."31\n".
+	dongo($tangkap1)."32\n".
+	dongo($tangkap1)."33\n".
+	dongo($tangkap1)."34\n".
+	dongo($tangkap1)."35\n".
+	dongo($tangkap1)."311\n".
+	dongo($tangkap1)."322\n".
+	dongo($tangkap1)."333\n".
+	dongo($tangkap1)."344\n".
+	dongo($tangkap1)."355\n".
+	dongo($tangkap1)."313\n".
+	dongo($tangkap1)."323\n".
+	dongo($tangkap1)."333\n".
+	dongo($tangkap1)."343\n".
+	dongo($tangkap1)."353\n".
+	dongo($tangkap1)."113\n".
+	dongo($tangkap1)."223\n".
+	dongo($tangkap1)."333\n".
+	dongo($tangkap1)."443\n".
+	dongo($tangkap1)."553\n".
+	dongo($tangkap1)."331\n".
+	dongo($tangkap1)."332\n".
+	dongo($tangkap1)."333\n".
+	dongo($tangkap1)."334\n".
+	dongo($tangkap1)."335\n".
+	dongo($tangkap1)."453\n".
+	dongo($tangkap1)."123\n".
+	dongo($tangkap1)."321\n".
+	dongo($tangkap1)."4\n".
+	dongo($tangkap1)."44\n".
+	dongo($tangkap1)."444\n".
+	dongo($tangkap1)."4444\n".
+	dongo($tangkap1)."44444\n".
+	dongo($tangkap1)."41\n".
+	dongo($tangkap1)."42\n".
+	dongo($tangkap1)."43\n".
+	dongo($tangkap1)."44\n".
+	dongo($tangkap1)."45\n".
+	dongo($tangkap1)."411\n".
+	dongo($tangkap1)."422\n".
+	dongo($tangkap1)."433\n".
+	dongo($tangkap1)."444\n".
+	dongo($tangkap1)."455\n".
+	dongo($tangkap1)."414\n".
+	dongo($tangkap1)."424\n".
+	dongo($tangkap1)."434\n".
+	dongo($tangkap1)."444\n".
+	dongo($tangkap1)."454\n".
+	dongo($tangkap1)."114\n".
+	dongo($tangkap1)."224\n".
+	dongo($tangkap1)."334\n".
+	dongo($tangkap1)."444\n".
+	dongo($tangkap1)."441\n".
+	dongo($tangkap1)."442\n".
+	dongo($tangkap1)."443\n".
+	dongo($tangkap1)."444\n".
+	dongo($tangkap1)."445\n".
+	dongo($tangkap1)."554\n".
+	dongo($tangkap1)."444\n".
+	dongo($tangkap1)."1234\n".
+	dongo($tangkap1)."4321\n".
+	dongo($tangkap1)."5\n".
+	dongo($tangkap1)."55\n".
+	dongo($tangkap1)."555\n".
+	dongo($tangkap1)."5555\n".
+	dongo($tangkap1)."55555\n".
+	dongo($tangkap1)."51\n".
+	dongo($tangkap1)."52\n".
+	dongo($tangkap1)."53\n".
+	dongo($tangkap1)."54\n".
+	dongo($tangkap1)."55\n".
+	dongo($tangkap1)."511\n".
+	dongo($tangkap1)."522\n".
+	dongo($tangkap1)."533\n".
+	dongo($tangkap1)."544\n".
+	dongo($tangkap1)."655\n".
+	dongo($tangkap1)."515\n".
+	dongo($tangkap1)."525\n".
+	dongo($tangkap1)."535\n".
+	dongo($tangkap1)."545\n".
+	dongo($tangkap1)."555\n".
+	dongo($tangkap1)."115\n".
+	dongo($tangkap1)."225\n".
+	dongo($tangkap1)."335\n".
+	dongo($tangkap1)."445\n".
+	dongo($tangkap1)."555\n".
+	dongo($tangkap1)."551\n".
+	dongo($tangkap1)."552\n".
+	dongo($tangkap1)."553\n".
+	dongo($tangkap1)."554\n".
+	dongo($tangkap1)."555\n".
+	dongo($tangkap1)."345\n".
+	dongo($tangkap1)."12345\n".
+	dongo($tangkap1)."54321\n".
+	dongo($tangkap1)."6\n".
+	dongo($tangkap1)."66\n".
+	dongo($tangkap1)."666\n".
+	dongo($tangkap1)."6666\n".
+	dongo($tangkap1)."66666\n".
+	dongo($tangkap1)."61\n".
+	dongo($tangkap1)."62\n".
+	dongo($tangkap1)."63\n".
+	dongo($tangkap1)."64\n".
+	dongo($tangkap1)."65\n".
+	dongo($tangkap1)."611\n".
+	dongo($tangkap1)."622\n".
+	dongo($tangkap1)."633\n".
+	dongo($tangkap1)."644\n".
+	dongo($tangkap1)."655\n".
+	dongo($tangkap1)."616\n".
+	dongo($tangkap1)."626\n".
+	dongo($tangkap1)."636\n".
+	dongo($tangkap1)."646\n".
+	dongo($tangkap1)."656\n".
+	dongo($tangkap1)."116\n".
+	dongo($tangkap1)."226\n".
+	dongo($tangkap1)."336\n".
+	dongo($tangkap1)."446\n".
+	dongo($tangkap1)."556\n".
+	dongo($tangkap1)."661\n".
+	dongo($tangkap1)."662\n".
+	dongo($tangkap1)."663\n".
+	dongo($tangkap1)."664\n".
+	dongo($tangkap1)."665\n".
+	dongo($tangkap1)."456\n".
+	dongo($tangkap1)."123456\n".
+	dongo($tangkap1)."654321\n".
+	dongo($tangkap1)."7\n".
+	dongo($tangkap1)."77\n".
+	dongo($tangkap1)."777\n".
+	dongo($tangkap1)."7777\n".
+	dongo($tangkap1)."77777\n".
+	dongo($tangkap1)."71\n".
+	dongo($tangkap1)."72\n".
+	dongo($tangkap1)."73\n".
+	dongo($tangkap1)."74\n".
+	dongo($tangkap1)."75\n".
+	dongo($tangkap1)."711\n".
+	dongo($tangkap1)."722\n".
+	dongo($tangkap1)."733\n".
+	dongo($tangkap1)."744\n".
+	dongo($tangkap1)."755\n".
+	dongo($tangkap1)."717\n".
+	dongo($tangkap1)."727\n".
+	dongo($tangkap1)."737\n".
+	dongo($tangkap1)."747\n".
+	dongo($tangkap1)."757\n".
+	dongo($tangkap1)."117\n".
+	dongo($tangkap1)."227\n".
+	dongo($tangkap1)."337\n".
+	dongo($tangkap1)."447\n".
+	dongo($tangkap1)."557\n".
+	dongo($tangkap1)."771\n".
+	dongo($tangkap1)."772\n".
+	dongo($tangkap1)."773\n".
+	dongo($tangkap1)."774\n".
+	dongo($tangkap1)."775\n".
+	dongo($tangkap1)."457\n".
+	dongo($tangkap1)."1234567\n".
+	dongo($tangkap1)."7654321\n".
+	dongo($tangkap1)."8\n".
+	dongo($tangkap1)."88\n".
+	dongo($tangkap1)."888\n".
+	dongo($tangkap1)."8888\n".
+	dongo($tangkap1)."88888\n".
+	dongo($tangkap1)."81\n".
+	dongo($tangkap1)."82\n".
+	dongo($tangkap1)."83\n".
+	dongo($tangkap1)."84\n".
+	dongo($tangkap1)."85\n".
+	dongo($tangkap1)."811\n".
+	dongo($tangkap1)."822\n".
+	dongo($tangkap1)."833\n".
+	dongo($tangkap1)."844\n".
+	dongo($tangkap1)."855\n".
+	dongo($tangkap1)."818\n".
+	dongo($tangkap1)."828\n".
+	dongo($tangkap1)."838\n".
+	dongo($tangkap1)."848\n".
+	dongo($tangkap1)."858\n".
+	dongo($tangkap1)."118\n".
+	dongo($tangkap1)."228\n".
+	dongo($tangkap1)."338\n".
+	dongo($tangkap1)."448\n".
+	dongo($tangkap1)."558\n".
+	dongo($tangkap1)."881\n".
+	dongo($tangkap1)."882\n".
+	dongo($tangkap1)."883\n".
+	dongo($tangkap1)."884\n".
+	dongo($tangkap1)."885\n".
+	dongo($tangkap1)."458\n".
+	dongo($tangkap1)."12345678\n".
+	dongo($tangkap1)."87654321\n".
+	dongo($tangkap1)."9\n".
+	dongo($tangkap1)."99\n".
+	dongo($tangkap1)."999\n".
+	dongo($tangkap1)."9999\n".
+	dongo($tangkap1)."99999\n".
+	dongo($tangkap1)."91\n".
+	dongo($tangkap1)."92\n".
+	dongo($tangkap1)."93\n".
+	dongo($tangkap1)."94\n".
+	dongo($tangkap1)."95\n".
+	dongo($tangkap1)."911\n".
+	dongo($tangkap1)."922\n".
+	dongo($tangkap1)."933\n".
+	dongo($tangkap1)."944\n".
+	dongo($tangkap1)."955\n".
+	dongo($tangkap1)."919\n".
+	dongo($tangkap1)."929\n".
+	dongo($tangkap1)."939\n".
+	dongo($tangkap1)."949\n".
+	dongo($tangkap1)."959\n".
+	dongo($tangkap1)."119\n".
+	dongo($tangkap1)."229\n".
+	dongo($tangkap1)."339\n".
+	dongo($tangkap1)."449\n".
+	dongo($tangkap1)."559\n".
+	dongo($tangkap1)."991\n".
+	dongo($tangkap1)."992\n".
+	dongo($tangkap1)."993\n".
+	dongo($tangkap1)."994\n".
+	dongo($tangkap1)."995\n".
+	dongo($tangkap1)."459\n".
+	dongo($tangkap1)."12345678\n".
+	dongo($tangkap1)."987654321\n".
+	dongo($tangkap1)."0\n".
+	dongo($tangkap1)."00\n".
+	dongo($tangkap1)."000\n".
+	dongo($tangkap1)."0000\n".
+	dongo($tangkap1)."00000\n".
+	dongo($tangkap1)."01\n".
+	dongo($tangkap1)."02\n".
+	dongo($tangkap1)."03\n".
+	dongo($tangkap1)."04\n".
+	dongo($tangkap1)."05\n".
+	dongo($tangkap1)."011\n".
+	dongo($tangkap1)."022\n".
+	dongo($tangkap1)."033\n".
+	dongo($tangkap1)."044\n".
+	dongo($tangkap1)."055\n".
+	dongo($tangkap1)."010\n".
+	dongo($tangkap1)."020\n".
+	dongo($tangkap1)."030\n".
+	dongo($tangkap1)."040\n".
+	dongo($tangkap1)."050\n".
+	dongo($tangkap1)."110\n".
+	dongo($tangkap1)."220\n".
+	dongo($tangkap1)."330\n".
+	dongo($tangkap1)."440\n".
+	dongo($tangkap1)."550\n".
+	dongo($tangkap1)."001\n".
+	dongo($tangkap1)."002\n".
+	dongo($tangkap1)."003\n".
+	dongo($tangkap1)."004\n".
+	dongo($tangkap1)."005\n".
+	dongo($tangkap1)."450\n".
+	dongo($tangkap1)."123456789\n".
+	dongo($tangkap2)."1\n".
+	dongo($tangkap2)."11\n".
+	dongo($tangkap2)."111\n".
+	dongo($tangkap2)."1111\n".
+	dongo($tangkap2)."11111\n".
+	dongo($tangkap2)."2\n".
+	dongo($tangkap2)."22\n".
+	dongo($tangkap2)."222\n".
+	dongo($tangkap2)."2222\n".
+	dongo($tangkap2)."22222\n".
+	dongo($tangkap2)."21\n".
+	dongo($tangkap2)."22\n".
+	dongo($tangkap2)."23\n".
+	dongo($tangkap2)."24\n".
+	dongo($tangkap2)."25\n".
+	dongo($tangkap2)."26\n".
+	dongo($tangkap2)."27\n".
+	dongo($tangkap2)."28\n".
+	dongo($tangkap2)."29\n".
+	dongo($tangkap2)."211\n".
+	dongo($tangkap2)."222\n".
+	dongo($tangkap2)."233\n".
+	dongo($tangkap2)."244\n".
+	dongo($tangkap2)."255\n".
+	dongo($tangkap2)."212\n".
+	dongo($tangkap2)."222\n".
+	dongo($tangkap2)."232\n".
+	dongo($tangkap2)."242\n".
+	dongo($tangkap2)."252\n".
+	dongo($tangkap2)."112\n".
+	dongo($tangkap2)."222\n".
+	dongo($tangkap2)."332\n".
+	dongo($tangkap2)."442\n".
+	dongo($tangkap2)."552\n".
+	dongo($tangkap2)."221\n".
+	dongo($tangkap2)."222\n".
+	dongo($tangkap2)."223\n".
+	dongo($tangkap2)."224\n".
+	dongo($tangkap2)."225\n".
+	dongo($tangkap2)."452\n".
+	dongo($tangkap2)."12\n".
+	dongo($tangkap2)."21\n".
+	dongo($tangkap2)."3\n".
+	dongo($tangkap2)."33\n".
+	dongo($tangkap2)."333\n".
+	dongo($tangkap2)."3333\n".
+	dongo($tangkap2)."33333\n".
+	dongo($tangkap2)."31\n".
+	dongo($tangkap2)."32\n".
+	dongo($tangkap2)."33\n".
+	dongo($tangkap2)."34\n".
+	dongo($tangkap2)."35\n".
+	dongo($tangkap2)."311\n".
+	dongo($tangkap2)."322\n".
+	dongo($tangkap2)."333\n".
+	dongo($tangkap2)."344\n".
+	dongo($tangkap2)."355\n".
+	dongo($tangkap2)."313\n".
+	dongo($tangkap2)."323\n".
+	dongo($tangkap2)."333\n".
+	dongo($tangkap2)."343\n".
+	dongo($tangkap2)."353\n".
+	dongo($tangkap2)."113\n".
+	dongo($tangkap2)."223\n".
+	dongo($tangkap2)."333\n".
+	dongo($tangkap2)."443\n".
+	dongo($tangkap2)."553\n".
+	dongo($tangkap2)."331\n".
+	dongo($tangkap2)."332\n".
+	dongo($tangkap2)."333\n".
+	dongo($tangkap2)."334\n".
+	dongo($tangkap2)."335\n".
+	dongo($tangkap2)."453\n".
+	dongo($tangkap2)."123\n".
+	dongo($tangkap2)."321\n".
+	dongo($tangkap2)."4\n".
+	dongo($tangkap2)."44\n".
+	dongo($tangkap2)."444\n".
+	dongo($tangkap2)."4444\n".
+	dongo($tangkap2)."44444\n".
+	dongo($tangkap2)."41\n".
+	dongo($tangkap2)."42\n".
+	dongo($tangkap2)."43\n".
+	dongo($tangkap2)."44\n".
+	dongo($tangkap2)."45\n".
+	dongo($tangkap2)."411\n".
+	dongo($tangkap2)."422\n".
+	dongo($tangkap2)."433\n".
+	dongo($tangkap2)."444\n".
+	dongo($tangkap2)."455\n".
+	dongo($tangkap2)."414\n".
+	dongo($tangkap2)."424\n".
+	dongo($tangkap2)."434\n".
+	dongo($tangkap2)."444\n".
+	dongo($tangkap2)."454\n".
+	dongo($tangkap2)."114\n".
+	dongo($tangkap2)."224\n".
+	dongo($tangkap2)."334\n".
+	dongo($tangkap2)."444\n".
+	dongo($tangkap2)."441\n".
+	dongo($tangkap2)."442\n".
+	dongo($tangkap2)."443\n".
+	dongo($tangkap2)."444\n".
+	dongo($tangkap2)."445\n".
+	dongo($tangkap2)."554\n".
+	dongo($tangkap2)."444\n".
+	dongo($tangkap2)."1234\n".
+	dongo($tangkap2)."4321\n".
+	dongo($tangkap2)."5\n".
+	dongo($tangkap2)."55\n".
+	dongo($tangkap2)."555\n".
+	dongo($tangkap2)."5555\n".
+	dongo($tangkap2)."55555\n".
+	dongo($tangkap2)."51\n".
+	dongo($tangkap2)."52\n".
+	dongo($tangkap2)."53\n".
+	dongo($tangkap2)."54\n".
+	dongo($tangkap2)."55\n".
+	dongo($tangkap2)."511\n".
+	dongo($tangkap2)."522\n".
+	dongo($tangkap2)."533\n".
+	dongo($tangkap2)."544\n".
+	dongo($tangkap2)."655\n".
+	dongo($tangkap2)."515\n".
+	dongo($tangkap2)."525\n".
+	dongo($tangkap2)."535\n".
+	dongo($tangkap2)."545\n".
+	dongo($tangkap2)."555\n".
+	dongo($tangkap2)."115\n".
+	dongo($tangkap2)."225\n".
+	dongo($tangkap2)."335\n".
+	dongo($tangkap2)."445\n".
+	dongo($tangkap2)."555\n".
+	dongo($tangkap2)."551\n".
+	dongo($tangkap2)."552\n".
+	dongo($tangkap2)."553\n".
+	dongo($tangkap2)."554\n".
+	dongo($tangkap2)."555\n".
+	dongo($tangkap2)."345\n".
+	dongo($tangkap2)."12345\n".
+	dongo($tangkap2)."54321\n".
+	dongo($tangkap2)."6\n".
+	dongo($tangkap2)."66\n".
+	dongo($tangkap2)."666\n".
+	dongo($tangkap2)."6666\n".
+	dongo($tangkap2)."66666\n".
+	dongo($tangkap2)."61\n".
+	dongo($tangkap2)."62\n".
+	dongo($tangkap2)."63\n".
+	dongo($tangkap2)."64\n".
+	dongo($tangkap2)."65\n".
+	dongo($tangkap2)."611\n".
+	dongo($tangkap2)."622\n".
+	dongo($tangkap2)."633\n".
+	dongo($tangkap2)."644\n".
+	dongo($tangkap2)."655\n".
+	dongo($tangkap2)."616\n".
+	dongo($tangkap2)."626\n".
+	dongo($tangkap2)."636\n".
+	dongo($tangkap2)."646\n".
+	dongo($tangkap2)."656\n".
+	dongo($tangkap2)."116\n".
+	dongo($tangkap2)."226\n".
+	dongo($tangkap2)."336\n".
+	dongo($tangkap2)."446\n".
+	dongo($tangkap2)."556\n".
+	dongo($tangkap2)."661\n".
+	dongo($tangkap2)."662\n".
+	dongo($tangkap2)."663\n".
+	dongo($tangkap2)."664\n".
+	dongo($tangkap2)."665\n".
+	dongo($tangkap2)."456\n".
+	dongo($tangkap2)."123456\n".
+	dongo($tangkap2)."654321\n".
+	dongo($tangkap2)."7\n".
+	dongo($tangkap2)."77\n".
+	dongo($tangkap2)."777\n".
+	dongo($tangkap2)."7777\n".
+	dongo($tangkap2)."77777\n".
+	dongo($tangkap2)."71\n".
+	dongo($tangkap2)."72\n".
+	dongo($tangkap2)."73\n".
+	dongo($tangkap2)."74\n".
+	dongo($tangkap2)."75\n".
+	dongo($tangkap2)."711\n".
+	dongo($tangkap2)."722\n".
+	dongo($tangkap2)."733\n".
+	dongo($tangkap2)."744\n".
+	dongo($tangkap2)."755\n".
+	dongo($tangkap2)."717\n".
+	dongo($tangkap2)."727\n".
+	dongo($tangkap2)."737\n".
+	dongo($tangkap2)."747\n".
+	dongo($tangkap2)."757\n".
+	dongo($tangkap2)."117\n".
+	dongo($tangkap2)."227\n".
+	dongo($tangkap2)."337\n".
+	dongo($tangkap2)."447\n".
+	dongo($tangkap2)."557\n".
+	dongo($tangkap2)."771\n".
+	dongo($tangkap2)."772\n".
+	dongo($tangkap2)."773\n".
+	dongo($tangkap2)."774\n".
+	dongo($tangkap2)."775\n".
+	dongo($tangkap2)."457\n".
+	dongo($tangkap2)."1234567\n".
+	dongo($tangkap2)."7654321\n".
+	dongo($tangkap2)."8\n".
+	dongo($tangkap2)."88\n".
+	dongo($tangkap2)."888\n".
+	dongo($tangkap2)."8888\n".
+	dongo($tangkap2)."88888\n".
+	dongo($tangkap2)."81\n".
+	dongo($tangkap2)."82\n".
+	dongo($tangkap2)."83\n".
+	dongo($tangkap2)."84\n".
+	dongo($tangkap2)."85\n".
+	dongo($tangkap2)."811\n".
+	dongo($tangkap2)."822\n".
+	dongo($tangkap2)."833\n".
+	dongo($tangkap2)."844\n".
+	dongo($tangkap2)."855\n".
+	dongo($tangkap2)."818\n".
+	dongo($tangkap2)."828\n".
+	dongo($tangkap2)."838\n".
+	dongo($tangkap2)."848\n".
+	dongo($tangkap2)."858\n".
+	dongo($tangkap2)."118\n".
+	dongo($tangkap2)."228\n".
+	dongo($tangkap2)."338\n".
+	dongo($tangkap2)."448\n".
+	dongo($tangkap2)."558\n".
+	dongo($tangkap2)."881\n".
+	dongo($tangkap2)."882\n".
+	dongo($tangkap2)."883\n".
+	dongo($tangkap2)."884\n".
+	dongo($tangkap2)."885\n".
+	dongo($tangkap2)."458\n".
+	dongo($tangkap2)."12345678\n".
+	dongo($tangkap2)."87654321\n".
+	dongo($tangkap2)."9\n".
+	dongo($tangkap2)."99\n".
+	dongo($tangkap2)."999\n".
+	dongo($tangkap2)."9999\n".
+	dongo($tangkap2)."99999\n".
+	dongo($tangkap2)."91\n".
+	dongo($tangkap2)."92\n".
+	dongo($tangkap2)."93\n".
+	dongo($tangkap2)."94\n".
+	dongo($tangkap2)."95\n".
+	dongo($tangkap2)."911\n".
+	dongo($tangkap2)."922\n".
+	dongo($tangkap2)."933\n".
+	dongo($tangkap2)."944\n".
+	dongo($tangkap2)."955\n".
+	dongo($tangkap2)."919\n".
+	dongo($tangkap2)."929\n".
+	dongo($tangkap2)."939\n".
+	dongo($tangkap2)."949\n".
+	dongo($tangkap2)."959\n".
+	dongo($tangkap2)."119\n".
+	dongo($tangkap2)."229\n".
+	dongo($tangkap2)."339\n".
+	dongo($tangkap2)."449\n".
+	dongo($tangkap2)."559\n".
+	dongo($tangkap2)."991\n".
+	dongo($tangkap2)."992\n".
+	dongo($tangkap2)."993\n".
+	dongo($tangkap2)."994\n".
+	dongo($tangkap2)."995\n".
+	dongo($tangkap2)."459\n".
+	dongo($tangkap2)."12345678\n".
+	dongo($tangkap2)."987654321\n".
+	dongo($tangkap2)."0\n".
+	dongo($tangkap2)."00\n".
+	dongo($tangkap2)."000\n".
+	dongo($tangkap2)."0000\n".
+	dongo($tangkap2)."00000\n".
+	dongo($tangkap2)."01\n".
+	dongo($tangkap2)."02\n".
+	dongo($tangkap2)."03\n".
+	dongo($tangkap2)."04\n".
+	dongo($tangkap2)."05\n".
+	dongo($tangkap2)."011\n".
+	dongo($tangkap2)."022\n".
+	dongo($tangkap2)."033\n".
+	dongo($tangkap2)."044\n".
+	dongo($tangkap2)."055\n".
+	dongo($tangkap2)."010\n".
+	dongo($tangkap2)."020\n".
+	dongo($tangkap2)."030\n".
+	dongo($tangkap2)."040\n".
+	dongo($tangkap2)."050\n".
+	dongo($tangkap2)."110\n".
+	dongo($tangkap2)."220\n".
+	dongo($tangkap2)."330\n".
+	dongo($tangkap2)."440\n".
+	dongo($tangkap2)."550\n".
+	dongo($tangkap2)."001\n".
+	dongo($tangkap2)."002\n".
+	dongo($tangkap2)."003\n".
+	dongo($tangkap2)."004\n".
+	dongo($tangkap2)."005\n".
+	dongo($tangkap2)."450\n".
+	dongo($tangkap2)."12345678\n".
+	dongo($tangkap3)."1\n".
+	dongo($tangkap3)."11\n".
+	dongo($tangkap3)."111\n".
+	dongo($tangkap3)."1111\n".
+	dongo($tangkap3)."11111\n".
+	dongo($tangkap3)."2\n".
+	dongo($tangkap3)."22\n".
+	dongo($tangkap3)."222\n".
+	dongo($tangkap3)."2222\n".
+	dongo($tangkap3)."22222\n".
+	dongo($tangkap3)."21\n".
+	dongo($tangkap3)."22\n".
+	dongo($tangkap3)."23\n".
+	dongo($tangkap3)."24\n".
+	dongo($tangkap3)."25\n".
+	dongo($tangkap3)."26\n".
+	dongo($tangkap3)."27\n".
+	dongo($tangkap3)."28\n".
+	dongo($tangkap3)."29\n".
+	dongo($tangkap3)."211\n".
+	dongo($tangkap3)."222\n".
+	dongo($tangkap3)."233\n".
+	dongo($tangkap3)."244\n".
+	dongo($tangkap3)."255\n".
+	dongo($tangkap3)."212\n".
+	dongo($tangkap3)."222\n".
+	dongo($tangkap3)."232\n".
+	dongo($tangkap3)."242\n".
+	dongo($tangkap3)."252\n".
+	dongo($tangkap3)."112\n".
+	dongo($tangkap3)."222\n".
+	dongo($tangkap3)."332\n".
+	dongo($tangkap3)."442\n".
+	dongo($tangkap3)."552\n".
+	dongo($tangkap3)."221\n".
+	dongo($tangkap3)."222\n".
+	dongo($tangkap3)."223\n".
+	dongo($tangkap3)."224\n".
+	dongo($tangkap3)."225\n".
+	dongo($tangkap3)."452\n".
+	dongo($tangkap3)."12\n".
+	dongo($tangkap3)."21\n".
+	dongo($tangkap3)."3\n".
+	dongo($tangkap3)."33\n".
+	dongo($tangkap3)."333\n".
+	dongo($tangkap3)."3333\n".
+	dongo($tangkap3)."33333\n".
+	dongo($tangkap3)."31\n".
+	dongo($tangkap3)."32\n".
+	dongo($tangkap3)."33\n".
+	dongo($tangkap3)."34\n".
+	dongo($tangkap3)."35\n".
+	dongo($tangkap3)."311\n".
+	dongo($tangkap3)."322\n".
+	dongo($tangkap3)."333\n".
+	dongo($tangkap3)."344\n".
+	dongo($tangkap3)."355\n".
+	dongo($tangkap3)."313\n".
+	dongo($tangkap3)."323\n".
+	dongo($tangkap3)."333\n".
+	dongo($tangkap3)."343\n".
+	dongo($tangkap3)."353\n".
+	dongo($tangkap3)."113\n".
+	dongo($tangkap3)."223\n".
+	dongo($tangkap3)."333\n".
+	dongo($tangkap3)."443\n".
+	dongo($tangkap3)."553\n".
+	dongo($tangkap3)."331\n".
+	dongo($tangkap3)."332\n".
+	dongo($tangkap3)."333\n".
+	dongo($tangkap3)."334\n".
+	dongo($tangkap3)."335\n".
+	dongo($tangkap3)."453\n".
+	dongo($tangkap3)."123\n".
+	dongo($tangkap3)."321\n".
+	dongo($tangkap3)."4\n".
+	dongo($tangkap3)."44\n".
+	dongo($tangkap3)."444\n".
+	dongo($tangkap3)."4444\n".
+	dongo($tangkap3)."44444\n".
+	dongo($tangkap3)."41\n".
+	dongo($tangkap3)."42\n".
+	dongo($tangkap3)."43\n".
+	dongo($tangkap3)."44\n".
+	dongo($tangkap3)."45\n".
+	dongo($tangkap3)."411\n".
+	dongo($tangkap3)."422\n".
+	dongo($tangkap3)."433\n".
+	dongo($tangkap3)."444\n".
+	dongo($tangkap3)."455\n".
+	dongo($tangkap3)."414\n".
+	dongo($tangkap3)."424\n".
+	dongo($tangkap3)."434\n".
+	dongo($tangkap3)."444\n".
+	dongo($tangkap3)."454\n".
+	dongo($tangkap3)."114\n".
+	dongo($tangkap3)."224\n".
+	dongo($tangkap3)."334\n".
+	dongo($tangkap3)."444\n".
+	dongo($tangkap3)."441\n".
+	dongo($tangkap3)."442\n".
+	dongo($tangkap3)."443\n".
+	dongo($tangkap3)."444\n".
+	dongo($tangkap3)."445\n".
+	dongo($tangkap3)."554\n".
+	dongo($tangkap3)."444\n".
+	dongo($tangkap3)."1234\n".
+	dongo($tangkap3)."4321\n".
+	dongo($tangkap3)."5\n".
+	dongo($tangkap3)."55\n".
+	dongo($tangkap3)."555\n".
+	dongo($tangkap3)."5555\n".
+	dongo($tangkap3)."55555\n".
+	dongo($tangkap3)."51\n".
+	dongo($tangkap3)."52\n".
+	dongo($tangkap3)."53\n".
+	dongo($tangkap3)."54\n".
+	dongo($tangkap3)."55\n".
+	dongo($tangkap3)."511\n".
+	dongo($tangkap3)."522\n".
+	dongo($tangkap3)."533\n".
+	dongo($tangkap3)."544\n".
+	dongo($tangkap3)."655\n".
+	dongo($tangkap3)."515\n".
+	dongo($tangkap3)."525\n".
+	dongo($tangkap3)."535\n".
+	dongo($tangkap3)."545\n".
+	dongo($tangkap3)."555\n".
+	dongo($tangkap3)."115\n".
+	dongo($tangkap3)."225\n".
+	dongo($tangkap3)."335\n".
+	dongo($tangkap3)."445\n".
+	dongo($tangkap3)."555\n".
+	dongo($tangkap3)."551\n".
+	dongo($tangkap3)."552\n".
+	dongo($tangkap3)."553\n".
+	dongo($tangkap3)."554\n".
+	dongo($tangkap3)."555\n".
+	dongo($tangkap3)."345\n".
+	dongo($tangkap3)."12345\n".
+	dongo($tangkap3)."54321\n".
+	dongo($tangkap3)."6\n".
+	dongo($tangkap3)."66\n".
+	dongo($tangkap3)."666\n".
+	dongo($tangkap3)."6666\n".
+	dongo($tangkap3)."66666\n".
+	dongo($tangkap3)."61\n".
+	dongo($tangkap3)."62\n".
+	dongo($tangkap3)."63\n".
+	dongo($tangkap3)."64\n".
+	dongo($tangkap3)."65\n".
+	dongo($tangkap3)."611\n".
+	dongo($tangkap3)."622\n".
+	dongo($tangkap3)."633\n".
+	dongo($tangkap3)."644\n".
+	dongo($tangkap3)."655\n".
+	dongo($tangkap3)."616\n".
+	dongo($tangkap3)."626\n".
+	dongo($tangkap3)."636\n".
+	dongo($tangkap3)."646\n".
+	dongo($tangkap3)."656\n".
+	dongo($tangkap3)."116\n".
+	dongo($tangkap3)."226\n".
+	dongo($tangkap3)."336\n".
+	dongo($tangkap3)."446\n".
+	dongo($tangkap3)."556\n".
+	dongo($tangkap3)."661\n".
+	dongo($tangkap3)."662\n".
+	dongo($tangkap3)."663\n".
+	dongo($tangkap3)."664\n".
+	dongo($tangkap3)."665\n".
+	dongo($tangkap3)."456\n".
+	dongo($tangkap3)."123456\n".
+	dongo($tangkap3)."654321\n".
+	dongo($tangkap3)."7\n".
+	dongo($tangkap3)."77\n".
+	dongo($tangkap3)."777\n".
+	dongo($tangkap3)."7777\n".
+	dongo($tangkap3)."77777\n".
+	dongo($tangkap3)."71\n".
+	dongo($tangkap3)."72\n".
+	dongo($tangkap3)."73\n".
+	dongo($tangkap3)."74\n".
+	dongo($tangkap3)."75\n".
+	dongo($tangkap3)."711\n".
+	dongo($tangkap3)."722\n".
+	dongo($tangkap3)."733\n".
+	dongo($tangkap3)."744\n".
+	dongo($tangkap3)."755\n".
+	dongo($tangkap3)."717\n".
+	dongo($tangkap3)."727\n".
+	dongo($tangkap3)."737\n".
+	dongo($tangkap3)."747\n".
+	dongo($tangkap3)."757\n".
+	dongo($tangkap3)."117\n".
+	dongo($tangkap3)."227\n".
+	dongo($tangkap3)."337\n".
+	dongo($tangkap3)."447\n".
+	dongo($tangkap3)."557\n".
+	dongo($tangkap3)."771\n".
+	dongo($tangkap3)."772\n".
+	dongo($tangkap3)."773\n".
+	dongo($tangkap3)."774\n".
+	dongo($tangkap3)."775\n".
+	dongo($tangkap3)."457\n".
+	dongo($tangkap3)."1234567\n".
+	dongo($tangkap3)."7654321\n".
+	dongo($tangkap3)."8\n".
+	dongo($tangkap3)."88\n".
+	dongo($tangkap3)."888\n".
+	dongo($tangkap3)."8888\n".
+	dongo($tangkap3)."88888\n".
+	dongo($tangkap3)."81\n".
+	dongo($tangkap3)."82\n".
+	dongo($tangkap3)."83\n".
+	dongo($tangkap3)."84\n".
+	dongo($tangkap3)."85\n".
+	dongo($tangkap3)."811\n".
+	dongo($tangkap3)."822\n".
+	dongo($tangkap3)."833\n".
+	dongo($tangkap3)."844\n".
+	dongo($tangkap3)."855\n".
+	dongo($tangkap3)."818\n".
+	dongo($tangkap3)."828\n".
+	dongo($tangkap3)."838\n".
+	dongo($tangkap3)."848\n".
+	dongo($tangkap3)."858\n".
+	dongo($tangkap3)."118\n".
+	dongo($tangkap3)."228\n".
+	dongo($tangkap3)."338\n".
+	dongo($tangkap3)."448\n".
+	dongo($tangkap3)."558\n".
+	dongo($tangkap3)."881\n".
+	dongo($tangkap3)."882\n".
+	dongo($tangkap3)."883\n".
+	dongo($tangkap3)."884\n".
+	dongo($tangkap3)."885\n".
+	dongo($tangkap3)."458\n".
+	dongo($tangkap3)."12345678\n".
+	dongo($tangkap3)."87654321\n".
+	dongo($tangkap3)."9\n".
+	dongo($tangkap3)."99\n".
+	dongo($tangkap3)."999\n".
+	dongo($tangkap3)."9999\n".
+	dongo($tangkap3)."99999\n".
+	dongo($tangkap3)."91\n".
+	dongo($tangkap3)."92\n".
+	dongo($tangkap3)."93\n".
+	dongo($tangkap3)."94\n".
+	dongo($tangkap3)."95\n".
+	dongo($tangkap3)."911\n".
+	dongo($tangkap3)."922\n".
+	dongo($tangkap3)."933\n".
+	dongo($tangkap3)."944\n".
+	dongo($tangkap3)."955\n".
+	dongo($tangkap3)."919\n".
+	dongo($tangkap3)."929\n".
+	dongo($tangkap3)."939\n".
+	dongo($tangkap3)."949\n".
+	dongo($tangkap3)."959\n".
+	dongo($tangkap3)."119\n".
+	dongo($tangkap3)."229\n".
+	dongo($tangkap3)."339\n".
+	dongo($tangkap3)."449\n".
+	dongo($tangkap3)."559\n".
+	dongo($tangkap3)."991\n".
+	dongo($tangkap3)."992\n".
+	dongo($tangkap3)."993\n".
+	dongo($tangkap3)."994\n".
+	dongo($tangkap3)."995\n".
+	dongo($tangkap3)."459\n".
+	dongo($tangkap3)."12345678\n".
+	dongo($tangkap3)."987654321\n".
+	dongo($tangkap3)."0\n".
+	dongo($tangkap3)."00\n".
+	dongo($tangkap3)."000\n".
+	dongo($tangkap3)."0000\n".
+	dongo($tangkap3)."00000\n".
+	dongo($tangkap3)."01\n".
+	dongo($tangkap3)."02\n".
+	dongo($tangkap3)."03\n".
+	dongo($tangkap3)."04\n".
+	dongo($tangkap3)."05\n".
+	dongo($tangkap3)."011\n".
+	dongo($tangkap3)."022\n".
+	dongo($tangkap3)."033\n".
+	dongo($tangkap3)."044\n".
+	dongo($tangkap3)."055\n".
+	dongo($tangkap3)."010\n".
+	dongo($tangkap3)."020\n".
+	dongo($tangkap3)."030\n".
+	dongo($tangkap3)."040\n".
+	dongo($tangkap3)."050\n".
+	dongo($tangkap3)."110\n".
+	dongo($tangkap3)."220\n".
+	dongo($tangkap3)."330\n".
+	dongo($tangkap3)."440\n".
+	dongo($tangkap3)."550\n".
+	dongo($tangkap3)."001\n".
+	dongo($tangkap3)."002\n".
+	dongo($tangkap3)."003\n".
+	dongo($tangkap3)."004\n".
+	dongo($tangkap3)."005\n".
+	dongo($tangkap3)."450\n".
+	dongo($tangkap3)."123456789\n".
+	dongo($tangkap9)."1\n".
+	dongo($tangkap9)."11\n".
+	dongo($tangkap9)."111\n".
+	dongo($tangkap9)."1111\n".
+	dongo($tangkap9)."11111\n".
+	dongo($tangkap9)."2\n".
+	dongo($tangkap9)."22\n".
+	dongo($tangkap9)."222\n".
+	dongo($tangkap9)."2222\n".
+	dongo($tangkap9)."22222\n".
+	dongo($tangkap9)."21\n".
+	dongo($tangkap9)."22\n".
+	dongo($tangkap9)."23\n".
+	dongo($tangkap9)."24\n".
+	dongo($tangkap9)."25\n".
+	dongo($tangkap9)."26\n".
+	dongo($tangkap9)."27\n".
+	dongo($tangkap9)."28\n".
+	dongo($tangkap9)."29\n".
+	dongo($tangkap9)."211\n".
+	dongo($tangkap9)."222\n".
+	dongo($tangkap9)."233\n".
+	dongo($tangkap9)."244\n".
+	dongo($tangkap9)."255\n".
+	dongo($tangkap9)."212\n".
+	dongo($tangkap9)."222\n".
+	dongo($tangkap9)."232\n".
+	dongo($tangkap9)."242\n".
+	dongo($tangkap9)."252\n".
+	dongo($tangkap9)."112\n".
+	dongo($tangkap9)."222\n".
+	dongo($tangkap9)."332\n".
+	dongo($tangkap9)."442\n".
+	dongo($tangkap9)."552\n".
+	dongo($tangkap9)."221\n".
+	dongo($tangkap9)."222\n".
+	dongo($tangkap9)."223\n".
+	dongo($tangkap9)."224\n".
+	dongo($tangkap9)."225\n".
+	dongo($tangkap9)."452\n".
+	dongo($tangkap9)."12\n".
+	dongo($tangkap9)."21\n".
+	dongo($tangkap9)."3\n".
+	dongo($tangkap9)."33\n".
+	dongo($tangkap9)."333\n".
+	dongo($tangkap9)."3333\n".
+	dongo($tangkap9)."33333\n".
+	dongo($tangkap9)."31\n".
+	dongo($tangkap9)."32\n".
+	dongo($tangkap9)."33\n".
+	dongo($tangkap9)."34\n".
+	dongo($tangkap9)."35\n".
+	dongo($tangkap9)."311\n".
+	dongo($tangkap9)."322\n".
+	dongo($tangkap9)."333\n".
+	dongo($tangkap9)."344\n".
+	dongo($tangkap9)."355\n".
+	dongo($tangkap9)."313\n".
+	dongo($tangkap9)."323\n".
+	dongo($tangkap9)."333\n".
+	dongo($tangkap9)."343\n".
+	dongo($tangkap9)."353\n".
+	dongo($tangkap9)."113\n".
+	dongo($tangkap9)."223\n".
+	dongo($tangkap9)."333\n".
+	dongo($tangkap9)."443\n".
+	dongo($tangkap9)."553\n".
+	dongo($tangkap9)."331\n".
+	dongo($tangkap9)."332\n".
+	dongo($tangkap9)."333\n".
+	dongo($tangkap9)."334\n".
+	dongo($tangkap9)."335\n".
+	dongo($tangkap9)."453\n".
+	dongo($tangkap9)."123\n".
+	dongo($tangkap9)."321\n".
+	dongo($tangkap9)."4\n".
+	dongo($tangkap9)."44\n".
+	dongo($tangkap9)."444\n".
+	dongo($tangkap9)."4444\n".
+	dongo($tangkap9)."44444\n".
+	dongo($tangkap9)."41\n".
+	dongo($tangkap9)."42\n".
+	dongo($tangkap9)."43\n".
+	dongo($tangkap9)."44\n".
+	dongo($tangkap9)."45\n".
+	dongo($tangkap9)."411\n".
+	dongo($tangkap9)."422\n".
+	dongo($tangkap9)."433\n".
+	dongo($tangkap9)."444\n".
+	dongo($tangkap9)."455\n".
+	dongo($tangkap9)."414\n".
+	dongo($tangkap9)."424\n".
+	dongo($tangkap9)."434\n".
+	dongo($tangkap9)."444\n".
+	dongo($tangkap9)."454\n".
+	dongo($tangkap9)."114\n".
+	dongo($tangkap9)."224\n".
+	dongo($tangkap9)."334\n".
+	dongo($tangkap9)."444\n".
+	dongo($tangkap9)."441\n".
+	dongo($tangkap9)."442\n".
+	dongo($tangkap9)."443\n".
+	dongo($tangkap9)."444\n".
+	dongo($tangkap9)."445\n".
+	dongo($tangkap9)."554\n".
+	dongo($tangkap9)."444\n".
+	dongo($tangkap9)."1234\n".
+	dongo($tangkap9)."4321\n".
+	dongo($tangkap9)."5\n".
+	dongo($tangkap9)."55\n".
+	dongo($tangkap9)."555\n".
+	dongo($tangkap9)."5555\n".
+	dongo($tangkap9)."55555\n".
+	dongo($tangkap9)."51\n".
+	dongo($tangkap9)."52\n".
+	dongo($tangkap9)."53\n".
+	dongo($tangkap9)."54\n".
+	dongo($tangkap9)."55\n".
+	dongo($tangkap9)."511\n".
+	dongo($tangkap9)."522\n".
+	dongo($tangkap9)."533\n".
+	dongo($tangkap9)."544\n".
+	dongo($tangkap9)."655\n".
+	dongo($tangkap9)."515\n".
+	dongo($tangkap9)."525\n".
+	dongo($tangkap9)."535\n".
+	dongo($tangkap9)."545\n".
+	dongo($tangkap9)."555\n".
+	dongo($tangkap9)."115\n".
+	dongo($tangkap9)."225\n".
+	dongo($tangkap9)."335\n".
+	dongo($tangkap9)."445\n".
+	dongo($tangkap9)."555\n".
+	dongo($tangkap9)."551\n".
+	dongo($tangkap9)."552\n".
+	dongo($tangkap9)."553\n".
+	dongo($tangkap9)."554\n".
+	dongo($tangkap9)."555\n".
+	dongo($tangkap9)."345\n".
+	dongo($tangkap9)."12345\n".
+	dongo($tangkap9)."54321\n".
+	dongo($tangkap9)."6\n".
+	dongo($tangkap9)."66\n".
+	dongo($tangkap9)."666\n".
+	dongo($tangkap9)."6666\n".
+	dongo($tangkap9)."66666\n".
+	dongo($tangkap9)."61\n".
+	dongo($tangkap9)."62\n".
+	dongo($tangkap9)."63\n".
+	dongo($tangkap9)."64\n".
+	dongo($tangkap9)."65\n".
+	dongo($tangkap9)."611\n".
+	dongo($tangkap9)."622\n".
+	dongo($tangkap9)."633\n".
+	dongo($tangkap9)."644\n".
+	dongo($tangkap9)."655\n".
+	dongo($tangkap9)."616\n".
+	dongo($tangkap9)."626\n".
+	dongo($tangkap9)."636\n".
+	dongo($tangkap9)."646\n".
+	dongo($tangkap9)."656\n".
+	dongo($tangkap9)."116\n".
+	dongo($tangkap9)."226\n".
+	dongo($tangkap9)."336\n".
+	dongo($tangkap9)."446\n".
+	dongo($tangkap9)."556\n".
+	dongo($tangkap9)."661\n".
+	dongo($tangkap9)."662\n".
+	dongo($tangkap9)."663\n".
+	dongo($tangkap9)."664\n".
+	dongo($tangkap9)."665\n".
+	dongo($tangkap9)."456\n".
+	dongo($tangkap9)."123456\n".
+	dongo($tangkap9)."654321\n".
+	dongo($tangkap9)."7\n".
+	dongo($tangkap9)."77\n".
+	dongo($tangkap9)."777\n".
+	dongo($tangkap9)."7777\n".
+	dongo($tangkap9)."77777\n".
+	dongo($tangkap9)."71\n".
+	dongo($tangkap9)."72\n".
+	dongo($tangkap9)."73\n".
+	dongo($tangkap9)."74\n".
+	dongo($tangkap9)."75\n".
+	dongo($tangkap9)."711\n".
+	dongo($tangkap9)."722\n".
+	dongo($tangkap9)."733\n".
+	dongo($tangkap9)."744\n".
+	dongo($tangkap9)."755\n".
+	dongo($tangkap9)."717\n".
+	dongo($tangkap9)."727\n".
+	dongo($tangkap9)."737\n".
+	dongo($tangkap9)."747\n".
+	dongo($tangkap9)."757\n".
+	dongo($tangkap9)."117\n".
+	dongo($tangkap9)."227\n".
+	dongo($tangkap9)."337\n".
+	dongo($tangkap9)."447\n".
+	dongo($tangkap9)."557\n".
+	dongo($tangkap9)."771\n".
+	dongo($tangkap9)."772\n".
+	dongo($tangkap9)."773\n".
+	dongo($tangkap9)."774\n".
+	dongo($tangkap9)."775\n".
+	dongo($tangkap9)."457\n".
+	dongo($tangkap9)."1234567\n".
+	dongo($tangkap9)."7654321\n".
+	dongo($tangkap9)."8\n".
+	dongo($tangkap9)."88\n".
+	dongo($tangkap9)."888\n".
+	dongo($tangkap9)."8888\n".
+	dongo($tangkap9)."88888\n".
+	dongo($tangkap9)."81\n".
+	dongo($tangkap9)."82\n".
+	dongo($tangkap9)."83\n".
+	dongo($tangkap9)."84\n".
+	dongo($tangkap9)."85\n".
+	dongo($tangkap9)."811\n".
+	dongo($tangkap9)."822\n".
+	dongo($tangkap9)."833\n".
+	dongo($tangkap9)."844\n".
+	dongo($tangkap9)."855\n".
+	dongo($tangkap9)."818\n".
+	dongo($tangkap9)."828\n".
+	dongo($tangkap9)."838\n".
+	dongo($tangkap9)."848\n".
+	dongo($tangkap9)."858\n".
+	dongo($tangkap9)."118\n".
+	dongo($tangkap9)."228\n".
+	dongo($tangkap9)."338\n".
+	dongo($tangkap9)."448\n".
+	dongo($tangkap9)."558\n".
+	dongo($tangkap9)."881\n".
+	dongo($tangkap9)."882\n".
+	dongo($tangkap9)."883\n".
+	dongo($tangkap9)."884\n".
+	dongo($tangkap9)."885\n".
+	dongo($tangkap9)."458\n".
+	dongo($tangkap9)."12345678\n".
+	dongo($tangkap9)."87654321\n".
+	dongo($tangkap9)."9\n".
+	dongo($tangkap9)."99\n".
+	dongo($tangkap9)."999\n".
+	dongo($tangkap9)."9999\n".
+	dongo($tangkap9)."99999\n".
+	dongo($tangkap9)."91\n".
+	dongo($tangkap9)."92\n".
+	dongo($tangkap9)."93\n".
+	dongo($tangkap9)."94\n".
+	dongo($tangkap9)."95\n".
+	dongo($tangkap9)."911\n".
+	dongo($tangkap9)."922\n".
+	dongo($tangkap9)."933\n".
+	dongo($tangkap9)."944\n".
+	dongo($tangkap9)."955\n".
+	dongo($tangkap9)."919\n".
+	dongo($tangkap9)."929\n".
+	dongo($tangkap9)."939\n".
+	dongo($tangkap9)."949\n".
+	dongo($tangkap9)."959\n".
+	dongo($tangkap9)."119\n".
+	dongo($tangkap9)."229\n".
+	dongo($tangkap9)."339\n".
+	dongo($tangkap9)."449\n".
+	dongo($tangkap9)."559\n".
+	dongo($tangkap9)."991\n".
+	dongo($tangkap9)."992\n".
+	dongo($tangkap9)."993\n".
+	dongo($tangkap9)."994\n".
+	dongo($tangkap9)."995\n".
+	dongo($tangkap9)."459\n".
+	dongo($tangkap9)."12345678\n".
+	dongo($tangkap9)."987654321\n".
+	dongo($tangkap9)."0\n".
+	dongo($tangkap9)."00\n".
+	dongo($tangkap9)."000\n".
+	dongo($tangkap9)."0000\n".
+	dongo($tangkap9)."00000\n".
+	dongo($tangkap9)."01\n".
+	dongo($tangkap9)."02\n".
+	dongo($tangkap9)."03\n".
+	dongo($tangkap9)."04\n".
+	dongo($tangkap9)."05\n".
+	dongo($tangkap9)."011\n".
+	dongo($tangkap9)."022\n".
+	dongo($tangkap9)."033\n".
+	dongo($tangkap9)."044\n".
+	dongo($tangkap9)."055\n".
+	dongo($tangkap9)."010\n".
+	dongo($tangkap9)."020\n".
+	dongo($tangkap9)."030\n".
+	dongo($tangkap9)."040\n".
+	dongo($tangkap9)."050\n".
+	dongo($tangkap9)."110\n".
+	dongo($tangkap9)."220\n".
+	dongo($tangkap9)."330\n".
+	dongo($tangkap9)."440\n".
+	dongo($tangkap9)."550\n".
+	dongo($tangkap9)."001\n".
+	dongo($tangkap9)."002\n".
+	dongo($tangkap9)."003\n".
+	dongo($tangkap9)."004\n".
+	dongo($tangkap9)."005\n".
+	dongo($tangkap9)."450\n".
+	dongo($tangkap9)."1234567890\n".
+	dongo($tangkap8)."1\n".
+	dongo($tangkap8)."11\n".
+	dongo($tangkap8)."111\n".
+	dongo($tangkap8)."1111\n".
+	dongo($tangkap8)."11111\n".
+	dongo($tangkap8)."2\n".
+	dongo($tangkap8)."22\n".
+	dongo($tangkap8)."222\n".
+	dongo($tangkap8)."2222\n".
+	dongo($tangkap8)."22222\n".
+	dongo($tangkap8)."21\n".
+	dongo($tangkap8)."22\n".
+	dongo($tangkap8)."23\n".
+	dongo($tangkap8)."24\n".
+	dongo($tangkap8)."25\n".
+	dongo($tangkap8)."26\n".
+	dongo($tangkap8)."27\n".
+	dongo($tangkap8)."28\n".
+	dongo($tangkap8)."29\n".
+	dongo($tangkap8)."211\n".
+	dongo($tangkap8)."222\n".
+	dongo($tangkap8)."233\n".
+	dongo($tangkap8)."244\n".
+	dongo($tangkap8)."255\n".
+	dongo($tangkap8)."212\n".
+	dongo($tangkap8)."222\n".
+	dongo($tangkap8)."232\n".
+	dongo($tangkap8)."242\n".
+	dongo($tangkap8)."252\n".
+	dongo($tangkap8)."112\n".
+	dongo($tangkap8)."222\n".
+	dongo($tangkap8)."332\n".
+	dongo($tangkap8)."442\n".
+	dongo($tangkap8)."552\n".
+	dongo($tangkap8)."221\n".
+	dongo($tangkap8)."222\n".
+	dongo($tangkap8)."223\n".
+	dongo($tangkap8)."224\n".
+	dongo($tangkap8)."225\n".
+	dongo($tangkap8)."452\n".
+	dongo($tangkap8)."12\n".
+	dongo($tangkap8)."21\n".
+	dongo($tangkap8)."3\n".
+	dongo($tangkap8)."33\n".
+	dongo($tangkap8)."333\n".
+	dongo($tangkap8)."3333\n".
+	dongo($tangkap8)."33333\n".
+	dongo($tangkap8)."31\n".
+	dongo($tangkap8)."32\n".
+	dongo($tangkap8)."33\n".
+	dongo($tangkap8)."34\n".
+	dongo($tangkap8)."35\n".
+	dongo($tangkap8)."311\n".
+	dongo($tangkap8)."322\n".
+	dongo($tangkap8)."333\n".
+	dongo($tangkap8)."344\n".
+	dongo($tangkap8)."355\n".
+	dongo($tangkap8)."313\n".
+	dongo($tangkap8)."323\n".
+	dongo($tangkap8)."333\n".
+	dongo($tangkap8)."343\n".
+	dongo($tangkap8)."353\n".
+	dongo($tangkap8)."113\n".
+	dongo($tangkap8)."223\n".
+	dongo($tangkap8)."333\n".
+	dongo($tangkap8)."443\n".
+	dongo($tangkap8)."553\n".
+	dongo($tangkap8)."331\n".
+	dongo($tangkap8)."332\n".
+	dongo($tangkap8)."333\n".
+	dongo($tangkap8)."334\n".
+	dongo($tangkap8)."335\n".
+	dongo($tangkap8)."453\n".
+	dongo($tangkap8)."123\n".
+	dongo($tangkap8)."321\n".
+	dongo($tangkap8)."4\n".
+	dongo($tangkap8)."44\n".
+	dongo($tangkap8)."444\n".
+	dongo($tangkap8)."4444\n".
+	dongo($tangkap8)."44444\n".
+	dongo($tangkap8)."41\n".
+	dongo($tangkap8)."42\n".
+	dongo($tangkap8)."43\n".
+	dongo($tangkap8)."44\n".
+	dongo($tangkap8)."45\n".
+	dongo($tangkap8)."411\n".
+	dongo($tangkap8)."422\n".
+	dongo($tangkap8)."433\n".
+	dongo($tangkap8)."444\n".
+	dongo($tangkap8)."455\n".
+	dongo($tangkap8)."414\n".
+	dongo($tangkap8)."424\n".
+	dongo($tangkap8)."434\n".
+	dongo($tangkap8)."444\n".
+	dongo($tangkap8)."454\n".
+	dongo($tangkap8)."114\n".
+	dongo($tangkap8)."224\n".
+	dongo($tangkap8)."334\n".
+	dongo($tangkap8)."444\n".
+	dongo($tangkap8)."441\n".
+	dongo($tangkap8)."442\n".
+	dongo($tangkap8)."443\n".
+	dongo($tangkap8)."444\n".
+	dongo($tangkap8)."445\n".
+	dongo($tangkap8)."554\n".
+	dongo($tangkap8)."444\n".
+	dongo($tangkap8)."1234\n".
+	dongo($tangkap8)."4321\n".
+	dongo($tangkap8)."5\n".
+	dongo($tangkap8)."55\n".
+	dongo($tangkap8)."555\n".
+	dongo($tangkap8)."5555\n".
+	dongo($tangkap8)."55555\n".
+	dongo($tangkap8)."51\n".
+	dongo($tangkap8)."52\n".
+	dongo($tangkap8)."53\n".
+	dongo($tangkap8)."54\n".
+	dongo($tangkap8)."55\n".
+	dongo($tangkap8)."511\n".
+	dongo($tangkap8)."522\n".
+	dongo($tangkap8)."533\n".
+	dongo($tangkap8)."544\n".
+	dongo($tangkap8)."655\n".
+	dongo($tangkap8)."515\n".
+	dongo($tangkap8)."525\n".
+	dongo($tangkap8)."535\n".
+	dongo($tangkap8)."545\n".
+	dongo($tangkap8)."555\n".
+	dongo($tangkap8)."115\n".
+	dongo($tangkap8)."225\n".
+	dongo($tangkap8)."335\n".
+	dongo($tangkap8)."445\n".
+	dongo($tangkap8)."555\n".
+	dongo($tangkap8)."551\n".
+	dongo($tangkap8)."552\n".
+	dongo($tangkap8)."553\n".
+	dongo($tangkap8)."554\n".
+	dongo($tangkap8)."555\n".
+	dongo($tangkap8)."345\n".
+	dongo($tangkap8)."12345\n".
+	dongo($tangkap8)."54321\n".
+	dongo($tangkap8)."6\n".
+	dongo($tangkap8)."66\n".
+	dongo($tangkap8)."666\n".
+	dongo($tangkap8)."6666\n".
+	dongo($tangkap8)."66666\n".
+	dongo($tangkap8)."61\n".
+	dongo($tangkap8)."62\n".
+	dongo($tangkap8)."63\n".
+	dongo($tangkap8)."64\n".
+	dongo($tangkap8)."65\n".
+	dongo($tangkap8)."611\n".
+	dongo($tangkap8)."622\n".
+	dongo($tangkap8)."633\n".
+	dongo($tangkap8)."644\n".
+	dongo($tangkap8)."655\n".
+	dongo($tangkap8)."616\n".
+	dongo($tangkap8)."626\n".
+	dongo($tangkap8)."636\n".
+	dongo($tangkap8)."646\n".
+	dongo($tangkap8)."656\n".
+	dongo($tangkap8)."116\n".
+	dongo($tangkap8)."226\n".
+	dongo($tangkap8)."336\n".
+	dongo($tangkap8)."446\n".
+	dongo($tangkap8)."556\n".
+	dongo($tangkap8)."661\n".
+	dongo($tangkap8)."662\n".
+	dongo($tangkap8)."663\n".
+	dongo($tangkap8)."664\n".
+	dongo($tangkap8)."665\n".
+	dongo($tangkap8)."456\n".
+	dongo($tangkap8)."123456\n".
+	dongo($tangkap8)."654321\n".
+	dongo($tangkap8)."7\n".
+	dongo($tangkap8)."77\n".
+	dongo($tangkap8)."777\n".
+	dongo($tangkap8)."7777\n".
+	dongo($tangkap8)."77777\n".
+	dongo($tangkap8)."71\n".
+	dongo($tangkap8)."72\n".
+	dongo($tangkap8)."73\n".
+	dongo($tangkap8)."74\n".
+	dongo($tangkap8)."75\n".
+	dongo($tangkap8)."711\n".
+	dongo($tangkap8)."722\n".
+	dongo($tangkap8)."733\n".
+	dongo($tangkap8)."744\n".
+	dongo($tangkap8)."755\n".
+	dongo($tangkap8)."717\n".
+	dongo($tangkap8)."727\n".
+	dongo($tangkap8)."737\n".
+	dongo($tangkap8)."747\n".
+	dongo($tangkap8)."757\n".
+	dongo($tangkap8)."117\n".
+	dongo($tangkap8)."227\n".
+	dongo($tangkap8)."337\n".
+	dongo($tangkap8)."447\n".
+	dongo($tangkap8)."557\n".
+	dongo($tangkap8)."771\n".
+	dongo($tangkap8)."772\n".
+	dongo($tangkap8)."773\n".
+	dongo($tangkap8)."774\n".
+	dongo($tangkap8)."775\n".
+	dongo($tangkap8)."457\n".
+	dongo($tangkap8)."1234567\n".
+	dongo($tangkap8)."7654321\n".
+	dongo($tangkap8)."8\n".
+	dongo($tangkap8)."88\n".
+	dongo($tangkap8)."888\n".
+	dongo($tangkap8)."8888\n".
+	dongo($tangkap8)."88888\n".
+	dongo($tangkap8)."81\n".
+	dongo($tangkap8)."82\n".
+	dongo($tangkap8)."83\n".
+	dongo($tangkap8)."84\n".
+	dongo($tangkap8)."85\n".
+	dongo($tangkap8)."811\n".
+	dongo($tangkap8)."822\n".
+	dongo($tangkap8)."833\n".
+	dongo($tangkap8)."844\n".
+	dongo($tangkap8)."855\n".
+	dongo($tangkap8)."818\n".
+	dongo($tangkap8)."828\n".
+	dongo($tangkap8)."838\n".
+	dongo($tangkap8)."848\n".
+	dongo($tangkap8)."858\n".
+	dongo($tangkap8)."118\n".
+	dongo($tangkap8)."228\n".
+	dongo($tangkap8)."338\n".
+	dongo($tangkap8)."448\n".
+	dongo($tangkap8)."558\n".
+	dongo($tangkap8)."881\n".
+	dongo($tangkap8)."882\n".
+	dongo($tangkap8)."883\n".
+	dongo($tangkap8)."884\n".
+	dongo($tangkap8)."885\n".
+	dongo($tangkap8)."458\n".
+	dongo($tangkap8)."12345678\n".
+	dongo($tangkap8)."87654321\n".
+	dongo($tangkap8)."9\n".
+	dongo($tangkap8)."99\n".
+	dongo($tangkap8)."999\n".
+	dongo($tangkap8)."9999\n".
+	dongo($tangkap8)."99999\n".
+	dongo($tangkap8)."91\n".
+	dongo($tangkap8)."92\n".
+	dongo($tangkap8)."93\n".
+	dongo($tangkap8)."94\n".
+	dongo($tangkap8)."95\n".
+	dongo($tangkap8)."911\n".
+	dongo($tangkap8)."922\n".
+	dongo($tangkap8)."933\n".
+	dongo($tangkap8)."944\n".
+	dongo($tangkap8)."955\n".
+	dongo($tangkap8)."919\n".
+	dongo($tangkap8)."929\n".
+	dongo($tangkap8)."939\n".
+	dongo($tangkap8)."949\n".
+	dongo($tangkap8)."959\n".
+	dongo($tangkap8)."119\n".
+	dongo($tangkap8)."229\n".
+	dongo($tangkap8)."339\n".
+	dongo($tangkap8)."449\n".
+	dongo($tangkap8)."559\n".
+	dongo($tangkap8)."991\n".
+	dongo($tangkap8)."992\n".
+	dongo($tangkap8)."993\n".
+	dongo($tangkap8)."994\n".
+	dongo($tangkap8)."995\n".
+	dongo($tangkap8)."459\n".
+	dongo($tangkap8)."12345678\n".
+	dongo($tangkap8)."987654321\n".
+	dongo($tangkap8)."0\n".
+	dongo($tangkap8)."00\n".
+	dongo($tangkap8)."000\n".
+	dongo($tangkap8)."0000\n".
+	dongo($tangkap8)."00000\n".
+	dongo($tangkap8)."01\n".
+	dongo($tangkap8)."02\n".
+	dongo($tangkap8)."03\n".
+	dongo($tangkap8)."04\n".
+	dongo($tangkap8)."05\n".
+	dongo($tangkap8)."011\n".
+	dongo($tangkap8)."022\n".
+	dongo($tangkap8)."033\n".
+	dongo($tangkap8)."044\n".
+	dongo($tangkap8)."055\n".
+	dongo($tangkap8)."010\n".
+	dongo($tangkap8)."020\n".
+	dongo($tangkap8)."030\n".
+	dongo($tangkap8)."040\n".
+	dongo($tangkap8)."050\n".
+	dongo($tangkap8)."110\n".
+	dongo($tangkap8)."220\n".
+	dongo($tangkap8)."330\n".
+	dongo($tangkap8)."440\n".
+	dongo($tangkap8)."550\n".
+	dongo($tangkap8)."001\n".
+	dongo($tangkap8)."002\n".
+	dongo($tangkap8)."003\n".
+	dongo($tangkap8)."004\n".
+	dongo($tangkap8)."005\n".
+	dongo($tangkap8)."450\n";
+
+echo " \033[32m\n Apakah anda ingin memasukan kata tambahan ke dalam wordlist? y/n : \033[96m";
+$tanya2 = trim(fgets(STDIN));
+if ($tanya2 == "y") {
+  echo " \033[32mBerapa kata yang ingin anda masukan ? \e[38;2;255;0;0m[MAX 10] : \033[96m";
+  $tanya3 = trim(fgets(STDIN));
+if ($tanya3 == "1") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      $main =  $masuk1."\n";
+}elseif ($tanya3 == "2") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      $main =  $masuk1."\n".
+               $masuk2."\n";
+}elseif ($tanya3 == "3") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+
+      $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n";
+}elseif ($tanya3 == "4") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n";
+}elseif ($tanya3 == "5") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n";
+}elseif ($tanya3 == "6") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n";
+}elseif ($tanya3 == "7") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n";
+}elseif ($tanya3 == "8") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n";
+}elseif ($tanya3 == "9") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93m Masukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [9]\033[93m Masukan kata : ";
+      $masuk9 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n".
+              $masuk9."\n";
+}elseif ($tanya3 == "10") {
+      echo "\n\n\e[38;2;255;0;0m  [1]\033[93m Masukan kata : ";
+      $masuk1 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [2]\033[93mMasukan kata : ";
+      $masuk2 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [3]\033[93m Masukan kata : ";
+      $masuk3 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [4]\033[93m Masukan kata : ";
+      $masuk4 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [5]\033[93m Masukan kata : ";
+      $masuk5 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [6]\033[93m Masukan kata : ";
+      $masuk6 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [7]\033[93m Masukan kata : ";
+      $masuk7 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [8]\033[93m Masukan kata : ";
+      $masuk8 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [9]\033[93m Masukan kata : ";
+      $masuk9 = trim(fgets(STDIN));
+      echo "\e[38;2;255;0;0m  [10]\033[93m Masukan kata : ";
+      $masuk10 = trim(fgets(STDIN));
+
+     $main =  $masuk1."\n".
+              $masuk2."\n".
+              $masuk3."\n".
+              $masuk4."\n".
+              $masuk5."\n".
+              $masuk6."\n".
+              $masuk7."\n".
+              $masuk8."\n".
+              $masuk9."\n".
+              $masuk10."\n";
+}else{
+	echo " Ngacaprak wae pilihanmu boss ! \n\n";
+    	exit;
+}
+    
+    }elseif ($tanya2 =="n") {
+    
+
+      
+    }else{
+    	echo " Ngacaprak wae pilihanmu boss ! \n\n";
+    	exit;
+    }
+
+
+echo "\n\n Masukan nama file : ";
+$hasil3 = trim(fgets(STDIN));
+
+$buat_hasil3 = fopen("$hasil3.txt", "a+");
+     fwrite($buat_hasil3, "$result3$result33$main");
+     fclose($buat_hasil3);
+echo "\n\033[93m  ++++++++++++++++++++++++++++++++++\n";
+echo "  Selamat ...                        \n";
+echo "  File $hasil3.txt telah tersimpan   \n";
+echo "  di dalam folder sandigenerator  \n";
+echo "  ++++++++++++++++++++++++++++++++++\n\033[0m\n\n";
+}else{
+	echo " Pilihan anda sungguh tidak jelas! \n";
+    echo " Silahkan ulangi agar wordlist yang anda hasilkan lengkap!\n\n";
+	exit;
+} ?>
